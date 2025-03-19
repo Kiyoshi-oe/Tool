@@ -1,0 +1,40 @@
+
+{
+  "appId": "com.lovable.cyrus-resource-tool",
+  "productName": "Cyrus Resource Tool",
+  "description": "A resource tool for Cyrus development",
+  "author": {
+    "name": "Cyrus Team",
+    "email": "info@cyrusteam.com"
+  },
+  "directories": {
+    "output": "release/"
+  },
+  "files": [
+    "dist/**/*",
+    "public/electron.js",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "public/electron.js",
+    "description": "A resource tool for Cyrus development",
+    "author": "Cyrus Team"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "public/lovable-uploads/icon_small.png"
+  },
+  "mac": {
+    "target": "dmg",
+    "icon": "public/lovable-uploads/icon_small.png"
+  },
+  "linux": {
+    "target": "AppImage",
+    "icon": "public/lovable-uploads/icon_small.png"
+  },
+  "npmRebuild": false,
+  "electronVersion": "35.0.2",
+  "buildDependenciesFromSource": true,
+  "nodeGypRebuild": false,
+  "electronDependencies": false
+}
