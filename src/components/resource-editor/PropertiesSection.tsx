@@ -1,7 +1,8 @@
-
 import { ResourceItem } from "../../types/fileTypes";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Info } from "lucide-react";
 import { Input } from "../ui/input";
+import { FormField } from "../ui/form-field";
+import ModernToggle from "../ModernToggle";
 
 interface PropertiesSectionProps {
   localItem: ResourceItem;
@@ -14,38 +15,34 @@ const PropertiesSection = ({ localItem, editMode, handleDataChange }: Properties
     <div className="mb-6">
       <h2 className="text-cyrus-blue text-lg font-semibold mb-2">Additional Properties</h2>
       <div className="grid grid-cols-2 gap-4">
-        <div className="form-field">
-          <label className="form-label">Version</label>
-          <Input
-            type="text"
-            className="form-input"
-            value={localItem.data.ver6 as string || ''}
-            onChange={(e) => handleDataChange('ver6', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="version"
+          label="Version"
+          value={localItem.data.ver6 as string || ''}
+          onChange={(value) => handleDataChange('ver6', value)}
+          disabled={!editMode}
+          helperText="Game version compatibility"
+        />
         
-        <div className="form-field">
-          <label className="form-label">Durability</label>
-          <Input
-            type="number"
-            className="form-input"
-            value={localItem.data.dwEndurance as string || '0'}
-            onChange={(e) => handleDataChange('dwEndurance', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="durability"
+          label="Durability"
+          type="number"
+          value={localItem.data.dwEndurance as string || '0'}
+          onChange={(value) => handleDataChange('dwEndurance', value)}
+          disabled={!editMode}
+          helperText="Item durability"
+        />
         
-        <div className="form-field">
-          <label className="form-label">Max Repair</label>
-          <Input
-            type="number"
-            className="form-input"
-            value={localItem.data.nMaxRepair as string || '0'}
-            onChange={(e) => handleDataChange('nMaxRepair', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="max-repair"
+          label="Max Repair"
+          type="number"
+          value={localItem.data.nMaxRepair as string || '0'}
+          onChange={(value) => handleDataChange('nMaxRepair', value)}
+          disabled={!editMode}
+          helperText="Maximum number of times the item can be repaired"
+        />
         
         <div className="form-field">
           <label className="form-label">Handed</label>
@@ -61,6 +58,10 @@ const PropertiesSection = ({ localItem, editMode, handleDataChange }: Properties
             </select>
             <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
           </div>
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Whether the item is one-handed or two-handed</span>
+          </p>
         </div>
         
         <div className="form-field">
@@ -82,83 +83,65 @@ const PropertiesSection = ({ localItem, editMode, handleDataChange }: Properties
             </select>
             <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
           </div>
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Body part where the item is equipped</span>
+          </p>
         </div>
         
-        <div className="form-field">
-          <label className="form-label">Item Level</label>
-          <Input
-            type="number"
-            className="form-input"
-            value={localItem.data.dwItemLV as string || '0'}
-            onChange={(e) => handleDataChange('dwItemLV', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="item-level"
+          label="Item Level"
+          type="number"
+          value={localItem.data.dwItemLV as string || '0'}
+          onChange={(value) => handleDataChange('dwItemLV', value)}
+          disabled={!editMode}
+          helperText="Level requirement to use this item"
+        />
         
-        <div className="form-field">
-          <label className="form-label">Item Rarity</label>
-          <Input
+        <div className="col-span-2 grid grid-cols-3 gap-4">
+          <FormField
+            id="item-rarity"
+            label="Item Rarity"
             type="number"
-            className="form-input"
             value={localItem.data.dwItemRare as string || '0'}
-            onChange={(e) => handleDataChange('dwItemRare', e.target.value)}
+            onChange={(value) => handleDataChange('dwItemRare', value)}
             disabled={!editMode}
+            helperText="Rarity level of the item (higher = more rare)"
           />
-        </div>
-        
-        <div className="form-field">
-          <label className="form-label">Shop-able</label>
-          <div className="flex items-center space-x-4 mt-2">
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                className="form-radio"
-                name="shopable"
-                checked={localItem.data.dwShopAble === "0"}
-                onChange={() => handleDataChange('dwShopAble', "0")}
+          
+          <div className="form-field">
+            <label className="form-label">Shop-able</label>
+            <div className="mt-2 ml-8">
+              <ModernToggle
+                value={localItem.data.dwShopAble === "1"}
+                onChange={(value) => handleDataChange('dwShopAble', value ? "1" : "0")}
+                falseLabel="No"
+                trueLabel="Yes"
                 disabled={!editMode}
               />
-              <span className="text-sm text-gray-300">No</span>
-            </label>
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                className="form-radio"
-                name="shopable"
-                checked={localItem.data.dwShopAble === "1"}
-                onChange={() => handleDataChange('dwShopAble', "1")}
-                disabled={!editMode}
-              />
-              <span className="text-sm text-gray-300">Yes</span>
-            </label>
+            </div>
+            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+              <Info size={14} />
+              <span>Whether the item can be sold in shops</span>
+            </p>
           </div>
-        </div>
-        
-        <div className="form-field">
-          <label className="form-label">Can Trade</label>
-          <div className="flex items-center space-x-4 mt-2">
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                className="form-radio"
-                name="canTrade"
-                checked={localItem.data.bCanTrade === "0"}
-                onChange={() => handleDataChange('bCanTrade', "0")}
+
+          <div className="form-field">
+            <label className="form-label">Can Trade</label>
+            <div className="mt-2">
+              <ModernToggle
+                value={localItem.data.bCanTrade === "1"}
+                onChange={(value) => handleDataChange('bCanTrade', value ? "1" : "0")}
+                falseLabel="No"
+                trueLabel="Yes"
                 disabled={!editMode}
               />
-              <span className="text-sm text-gray-300">No</span>
-            </label>
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                className="form-radio"
-                name="canTrade"
-                checked={localItem.data.bCanTrade === "1"}
-                onChange={() => handleDataChange('bCanTrade', "1")}
-                disabled={!editMode}
-              />
-              <span className="text-sm text-gray-300">Yes</span>
-            </label>
+            </div>
+            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+              <Info size={14} />
+              <span>Whether the item can be traded between players</span>
+            </p>
           </div>
         </div>
       </div>

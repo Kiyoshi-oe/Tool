@@ -8,18 +8,23 @@ export const loadPredefinedFiles = async (): Promise<{specItem: string | null, p
     console.log("Attempting to load files from /resource/ directory");
     
     try {
+      console.log("Trying path: /resource/Spec_item.txt");
       const specItemResponse = await fetch('/resource/Spec_item.txt');
       console.log("Spec_item.txt response status:", specItemResponse.status);
       
       if (!specItemResponse.ok) {
         console.error('Failed to load Spec_item.txt:', specItemResponse.statusText);
         // Try alternative path
+        console.log("Trying alternative path: /public/resource/Spec_item.txt");
         const altSpecItemResponse = await fetch('/public/resource/Spec_item.txt');
+        console.log("Alternative path response status:", altSpecItemResponse.status);
+        
         if (!altSpecItemResponse.ok) {
           throw new Error(`Failed to load Spec_item.txt: ${specItemResponse.status} ${specItemResponse.statusText}`);
         }
         console.log("Loaded from alternative path: /public/resource/Spec_item.txt");
         const specItemText = await altSpecItemResponse.text();
+        console.log("Alternative path content length:", specItemText.length);
         
         // Try to load propItem.txt.txt from the same directory
         let propItemText = null;

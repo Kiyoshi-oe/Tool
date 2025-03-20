@@ -1,15 +1,6 @@
 // API middleware for handling server-side requests in development mode
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-// Get the directory name for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Import the save-resource handler
-import { handler as saveResourceHandler } from './public/api/save-resource.js';
+const fs = require('fs');
+const path = require('path');
 
 // Function to check if a string is valid JSON
 function isValidJSON(str) {
@@ -43,6 +34,9 @@ function apiMiddleware(req, res, next) {
         
         // Parse the request body
         const data = JSON.parse(body);
+        
+        // Import the save-resource.js handler
+        const saveResourceHandler = require('./public/api/save-resource.cjs').handler;
         
         // Create a mock request and response
         const mockReq = {
@@ -79,4 +73,4 @@ function apiMiddleware(req, res, next) {
   }
 }
 
-export default apiMiddleware;
+module.exports = apiMiddleware;

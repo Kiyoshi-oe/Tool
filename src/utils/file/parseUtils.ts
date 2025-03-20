@@ -16,8 +16,9 @@ export const parseTextFile = (content: string): FileData => {
   const lines = content.split("\n");
   console.log("Number of lines:", lines.length);
   
-  // Extract header (column names) from the first line, removing // markers if present
-  const header = lines[0].split("\t").map(col => col.replace(/\/\//g, "").trim());
+  // Extract header (column names) from the first line
+  // For spec_item.txt, we need to preserve the original format including comments
+  const header = lines[0].split("\t");
   console.log("Header columns:", header.length, header);
   
   // Process remaining lines as data rows
@@ -33,7 +34,7 @@ export const parseTextFile = (content: string): FileData => {
     if (!line) continue; // Skip empty lines
     
     const values = line.split("\t");
-    if (values.length < header.length/2) continue; // Skip invalid lines
+    if (values.length < 2) continue; // Skip invalid lines with less than 2 columns
     
     const data: ItemData = {};
     let id = "";
@@ -47,16 +48,23 @@ export const parseTextFile = (content: string): FileData => {
       // Handle the case where values might have fewer elements than header
       let value = index < values.length ? values[index].trim() : "";
       
-      // Clean triple quotes and other quotes from ALL values
-      value = value.replace(/^"+|"+$/g, '');
+      // We don't clean quotes for spec_item.txt to preserve the exact format
+      // value = value.replace(/^"+|"+$/g, '');
       
+      // Store the value under the original column name
       data[colName] = value;
       
       // Extract ID and name for reference
-      if (colName === "dwID") {
+      if (colName === "//dwID") {
         id = value;
+        // Also store the value under "dwID" for compatibility with the UI
+        data["dwID"] = value;
+        console.log(`Found ID for item: ${id}`);
       } else if (colName === "szName") {
         name = value;
+        console.log(`Found Name for item ${id}: ${name}`);
+      } else if (colName === "dwItemKind1") {
+        console.log(`Found dwItemKind1 for item ${id}: ${value}`);
       }
     });
     

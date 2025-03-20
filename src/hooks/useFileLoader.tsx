@@ -41,8 +41,27 @@ export const useFileLoader = (
         console.log("PropItem mappings loaded");
       }
       
+      console.log("About to parse file content with length:", content.length);
       const data = parseTextFile(content);
       console.log("File data loaded:", data.items.length, "items");
+      
+      // Check if this is a spec_item.txt file (case insensitive)
+      // Instead of hardcoding the filename, try to detect it from the content
+      const firstLine = content.split('\n')[0];
+      console.log("First line of content:", firstLine);
+      
+      // If the first line contains column headers typical of Spec_item.txt
+      const isSpecItemFile = firstLine.includes('dwID') && 
+                            firstLine.includes('szName') && 
+                            firstLine.includes('dwItemKind1');
+      console.log("Is spec item file (detected from content):", isSpecItemFile);
+      
+      // Store the original content for spec_item.txt files to preserve exact format
+      if (isSpecItemFile) {
+        data.originalContent = content;
+        data.isSpecItemFile = true;
+        console.log("Stored original content for spec_item.txt file");
+      }
       
       // Force a clean state update
       setFileData(null);

@@ -61,10 +61,22 @@ export const useItemEditor = ({
     setSelectedItem(updatedItem);
     
     // Track that the Spec_Item.txt file has been modified
+    // Mark this as a spec item file to ensure it's preserved exactly
     const serializedData = JSON.stringify({
       ...fileData,
-      items: updatedItems
+      items: updatedItems,
+      isSpecItemFile: true,
+      originalContent: fileData.originalContent // Pass through the original content if it exists
     });
+    
+    // Log the presence of originalContent for debugging
+    if (fileData.originalContent) {
+      console.log("Original content is present, length:", fileData.originalContent.length);
+      console.log("First 100 chars:", fileData.originalContent.substring(0, 100));
+    } else {
+      console.warn("No original content found for Spec_Item.txt");
+    }
+    
     trackModifiedFile("Spec_Item.txt", serializedData);
     
     // Also track propItem changes if this is a displayName or description change

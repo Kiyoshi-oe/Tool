@@ -43,6 +43,8 @@ export interface ResourceItem {
 export interface FileData {
   header: string[];
   items: ResourceItem[];
+  originalContent?: string; // Store the original file content for exact preservation
+  isSpecItemFile?: boolean; // Flag to indicate if this is a spec_item.txt file
 }
 
 // Add LogEntry interface to fix the import error in useResourceState.tsx

@@ -1,6 +1,17 @@
 
 // Method to serialize the file data back to text format
-export const serializeToText = (fileData: any): string => {
+export const serializeToText = (fileData: any, originalContent?: string): string => {
+  // If we have the original content and this is a spec_item.txt file, preserve the original format
+  if (fileData.isSpecItemFile) {
+    if (originalContent) {
+      console.log("Preserving original spec_item.txt format");
+      return originalContent;
+    } else {
+      console.warn("Missing originalContent for spec_item.txt file, falling back to generated format");
+    }
+  }
+  
+  // For non-spec_item.txt files or if originalContent is missing, generate the content
   const headerLine = fileData.header.map((col: string) => `${col}`).join("\t");
   
   const dataLines = fileData.items.map((item: any) => {
@@ -60,12 +71,34 @@ let modifiedFiles: { name: string; content: string }[] = [];
 
 // Add or update a file in the modified files list
 export const trackModifiedFile = (fileName: string, content: string) => {
+  // Check if this is a spec_item.txt file with original content
+  let finalContent = content;
+  
+  // Check if this is a Spec_item.txt file (case insensitive)
+  const isSpecItemFile = fileName.toLowerCase().includes('spec_item') || fileName.toLowerCase().includes('specitem');
+  
+  // If the content is a JSON string, try to parse it
+  if (content.startsWith('{') && content.includes('originalContent')) {
+    try {
+      const parsedContent = JSON.parse(content);
+      
+      // If this is a spec_item.txt file with original content, use that instead
+      if ((parsedContent.isSpecItemFile || isSpecItemFile) && parsedContent.originalContent) {
+        console.log(`Using original content for ${fileName} to preserve exact format`);
+        finalContent = parsedContent.originalContent;
+      }
+    } catch (error) {
+      console.warn(`Failed to parse content as JSON for ${fileName}:`, error);
+      // Continue with the original content
+    }
+  }
+  
   const existingIndex = modifiedFiles.findIndex(file => file.name === fileName);
   
   if (existingIndex >= 0) {
-    modifiedFiles[existingIndex].content = content;
+    modifiedFiles[existingIndex].content = finalContent;
   } else {
-    modifiedFiles.push({ name: fileName, content });
+    modifiedFiles.push({ name: fileName, content: finalContent });
   }
   
   console.log(`Tracked modified file: ${fileName}`);
@@ -200,8 +233,26 @@ export const clearModifiedFiles = () => {
 // Save a single file
 export const saveTextFile = (content: string, fileName: string): Promise<boolean> => {
   return new Promise(async (resolve) => {
+    // Check if this is a Spec_item.txt file (case insensitive)
+    const isSpecItemFile = fileName.toLowerCase().includes('spec_item') || fileName.toLowerCase().includes('specitem');
+    
+    // For Spec_item.txt files, ensure we're preserving the exact content
+    let finalContent = content;
+    if (isSpecItemFile && content.startsWith('{')) {
+      try {
+        const parsedContent = JSON.parse(content);
+        if (parsedContent.originalContent) {
+          console.log(`Using original content for ${fileName} to preserve exact format`);
+          finalContent = parsedContent.originalContent;
+        }
+      } catch (error) {
+        console.warn(`Failed to parse content as JSON for ${fileName}:`, error);
+        // Continue with the original content
+      }
+    }
+    
     // Track the file modification
-    trackModifiedFile(fileName, content);
+    trackModifiedFile(fileName, finalContent);
     
     // Check if we're in Electron environment
     const isElectron = window.navigator.userAgent.toLowerCase().indexOf('electron') > -1;
@@ -393,60 +444,138 @@ export const saveAllModifiedFiles = async (): Promise<boolean> => {
   return allSuccessful;
 };
 
-// Improved server-side save function with better error handling
+// Improved server-side save function with better error handling and retry logic
 const saveToResourceFolder = async (content: string, fileName: string): Promise<boolean> => {
   try {
     console.log(`Attempting to save ${fileName} to resource folder via server API`);
     
+    // Check if the file is a JSON file or not
+    const isJsonFile = fileName.toLowerCase().endsWith('.json');
+    const isTextFile = fileName.toLowerCase().endsWith('.txt') || 
+                      fileName.toLowerCase().endsWith('.h') || 
+                      fileName.toLowerCase().endsWith('.inc');
+    
+    console.log(`File type detection: ${fileName} - JSON: ${isJsonFile}, Text: ${isTextFile}`);
+    
     // Attempt to save the file to the server's resource folder
-    const response = await fetch('/api/save-resource', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        fileName,
-        content,
-      }),
-    });
+    // Use a retry mechanism in case of temporary issues
+    let attempts = 3;
+    let lastError = null;
+    
+    while (attempts > 0) {
+      try {
+        const response = await fetch('/api/save-resource', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            fileName,
+            content,
+          }),
+        });
 
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}));
-      console.error(`Server responded with ${response.status}:`, errorData);
-      return false;
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          console.error(`Server responded with ${response.status}:`, errorData);
+          throw new Error(`Server error: ${errorData.error || response.statusText}`);
+        }
+
+        const result = await response.json();
+        if (result.success === true) {
+          console.log(`Successfully saved ${fileName} to resource folder`);
+          return true;
+        } else {
+          throw new Error(`Save operation reported failure: ${result.error || 'Unknown error'}`);
+        }
+      } catch (error) {
+        console.error(`Attempt ${4 - attempts} failed:`, error);
+        lastError = error;
+        attempts--;
+        
+        if (attempts > 0) {
+          console.log(`Retrying save operation for ${fileName}... (${attempts} attempts left)`);
+          // Wait a short time before retrying
+          await new Promise(resolve => setTimeout(resolve, 500));
+        }
+      }
     }
-
-    const result = await response.json();
-    return result.success === true;
+    
+    console.error(`All save attempts failed for ${fileName}:`, lastError);
+    return false;
   } catch (error) {
     console.error("Failed to save file to resource folder:", error);
     return false;
   }
 };
 
-// Save multiple files to resource folder at once
+// Save multiple files to resource folder at once with retry logic
 const saveMultipleFilesToResourceFolder = async (files: { name: string; content: string }[]): Promise<boolean> => {
   try {
     console.log(`Attempting to save ${files.length} files to resource folder via server API`);
     
-    const response = await fetch('/api/save-resource', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ files }),
+    // Log file types for debugging
+    files.forEach(file => {
+      const isJsonFile = file.name.toLowerCase().endsWith('.json');
+      const isTextFile = file.name.toLowerCase().endsWith('.txt') || 
+                        file.name.toLowerCase().endsWith('.h') || 
+                        file.name.toLowerCase().endsWith('.inc');
+      console.log(`File type detection: ${file.name} - JSON: ${isJsonFile}, Text: ${isTextFile}`);
     });
-
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}));
-      console.error(`Server responded with ${response.status}:`, errorData);
-      return false;
-    }
-
-    const result = await response.json();
-    console.log("Server save result:", result);
     
-    return result.success === true;
+    // Use a retry mechanism in case of temporary issues
+    let attempts = 3;
+    let lastError = null;
+    
+    while (attempts > 0) {
+      try {
+        const response = await fetch('/api/save-resource', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ files }),
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          console.error(`Server responded with ${response.status}:`, errorData);
+          throw new Error(`Server error: ${errorData.error || response.statusText}`);
+        }
+
+        const result = await response.json();
+        console.log("Server save result:", result);
+        
+        if (result.success === true) {
+          console.log(`Successfully saved ${files.length} files to resource folder`);
+          return true;
+        } else {
+          // Check if any individual files failed
+          if (result.results && Array.isArray(result.results)) {
+            const failedFiles = result.results.filter((r: any) => !r.success);
+            if (failedFiles.length > 0) {
+              console.error(`${failedFiles.length} files failed to save:`, 
+                failedFiles.map((f: any) => `${f.fileName}: ${f.error}`).join(', '));
+            }
+          }
+          
+          throw new Error(`Batch save operation reported failure: ${result.message || 'Unknown error'}`);
+        }
+      } catch (error) {
+        console.error(`Attempt ${4 - attempts} failed:`, error);
+        lastError = error;
+        attempts--;
+        
+        if (attempts > 0) {
+          console.log(`Retrying batch save operation... (${attempts} attempts left)`);
+          // Wait a short time before retrying
+          await new Promise(resolve => setTimeout(resolve, 500));
+        }
+      }
+    }
+    
+    console.error(`All batch save attempts failed:`, lastError);
+    return false;
   } catch (error) {
     console.error("Failed to save multiple files to resource folder:", error);
     return false;

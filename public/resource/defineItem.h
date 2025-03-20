@@ -1,22 +1,14 @@
 #ifndef __DEFINE_ITEM
 #define __DEFINE_ITEM
 
-// 20 ~ ¹«±â
-// 500 ~ ¹æ¾î±¸
-// 2530 ~ ÀÏ¹Ý¾ÆÀÌÅÛ
-// 3200 ~ Á¦·Ã¿ë ¾ÆÀÌÅÛ
-// 4400 ~ ÀÇ»ó
-// 4600 ~ ¸ÁÅä
-// 4800 ~ ½Ã½ºÅÛ
-// 5000 ~ ºñÇàÃ¼
-// 6000 ~ Äù½ºÆ®
-// 6500 ~ À¯´ÏÅ© ¾ÆÀÌÅÛ
-// 8000 ~ Äù½ºÆ®¿ë ¹«±â/¹æ¾î±¸
-// 9000 ~ ¸ó½ºÅÍ ¹«±â
-// 10000 ~ ¼¼Æ®¹æ¾î±¸
-// 21000 ~ Æê¼ÒÈ¯ ¾ÆÀÌÅÛ
-
-
+//####################
+//                   #
+//                   #
+//  LAST ID = 39632  #
+//                   #
+//    12.09.2022     #
+//                   #
+//####################
 
 // Item
 #define	II_DEFAULT	10
@@ -27,12 +19,12 @@
 #define	II_GOLD_SEED3	14
 #define	II_GOLD_SEED4	15
 
-// 20 -	¹«±â»ç¿ë
+// 20 -	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_WOODEN	21
 #define	II_WEA_SWO_LONG	23
 #define	II_WEA_SWO_HANDCLAW	25
 #define	II_WEA_SWO_PARMIL	27
-#define	II_WEA_SWO_CRIMSON	61	// Ãß°¡ ¾ÆÀÌÅÛ
+#define	II_WEA_SWO_CRIMSON	61	// ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_PETAL	29
 #define	II_WEA_SWO_BLINK	31
 #define	II_WEA_SWO_OUTLAW	33
@@ -48,7 +40,7 @@
 #define	II_WEA_SWO_CARNAGE	53
 #define	II_WEA_SWO_JANITOR	55
 #define	II_WEA_SWO_BLUEJADE	57
-#define	II_WEA_SWO_SHYERTEST	74	// Å×½ºÆ®¿ëÀÌ¹Ç·Î Áö¿öÁ®¾ßÇÔ
+#define	II_WEA_SWO_SHYERTEST	74	// ï¿½×½ï¿½Æ®ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_ZEROTH	59	// Max 79
 #define	II_WEA_SWO_EMERYL	63
 #define	II_WEA_SWO_CHAINSING	65
@@ -241,7 +233,7 @@
 #define	II_WEA_BOW_BROUTO	471
 #define	II_WEA_BOW_SEVOY	473
 
-// 500 -	¹æ¾î±¸ »ç¿ë
+// 500 -	ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½
 #define	II_ARM_M_VAG_HELMET02	500
 #define	II_ARM_F_VAG_HELMET02	501
 #define	II_ARM_M_VAG_SUIT01	502
@@ -265,7 +257,7 @@
 #define	II_ARM_M_VAG_BOOTS03	520
 #define	II_ARM_F_VAG_BOOTS03	521	// Max 529
 
-// °íÀ¯ ¼¼Æ® 1Â÷
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ® 1ï¿½ï¿½
 #define	II_ARM_M_VAG_HELMET04	522
 #define	II_ARM_M_VAG_SUIT04	523
 #define	II_ARM_M_VAG_GAUNTLET04	524
@@ -275,7 +267,7 @@
 #define	II_ARM_F_VAG_GAUNTLET04	528
 #define	II_ARM_F_VAG_BOOTS04	529
 
-// Ãß°¡ ¹æ¾î±¸ ¼¼Æ®
+// ï¿½ß°ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½Æ®
 #define	II_ARM_M_MER_HELMET0101	534
 #define	II_ARM_M_MER_HELMET0201	535
 #define	II_ARM_M_MER_HELMET0301	536
@@ -870,12 +862,12 @@
 #define	II_ARM_ARM_SHI_COMET	2023
 #define	II_ARM_ARM_SHI_ICICLE	2025
 
-//°ø°Ýº¸Á¶ ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½Ýºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SEC_BIL_CHARM	2026
 #define	II_WEA_SEC_RIN_CHARM	2027
 #define	II_WEA_SEC_ACR_ARROW	2028
 
-//8.5Â÷ ºÎÅÍ µé¾î°¡´Â Àç·Ã °ü·Ã ¾ÆÀÌÅÛ
+//8.5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND	2029
 #define	II_GEN_MAT_EMERALD	2030
 #define	II_GEN_MAT_SAPPHIRE	2031
@@ -884,65 +876,65 @@
 #define	II_GEN_MAT_ORICHALCUM02	2034
 #define	II_GEN_MAT_ORICHALCUM01	2035
 #define	II_GEN_MAT_MOONSTONE	2036
-//°æÇèÄ¡
+//ï¿½ï¿½ï¿½ï¿½Ä¡
 #define	II_GEN_MAT_DIAMOND01	2037
 #define	II_GEN_MAT_EMERALD01	2038
 #define	II_GEN_MAT_SAPPHIRE01	2039
 #define	II_GEN_MAT_RUBY01	2040
 #define	II_GEN_MAT_TOPAZ01	2041
-//µ¥¹ÌÁö¹Ý»ç
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý»ï¿½
 #define	II_GEN_MAT_DIAMOND02	2042
 #define	II_GEN_MAT_EMERALD02	2043
 #define	II_GEN_MAT_SAPPHIRE02	2044
 #define	II_GEN_MAT_RUBY02	2045
 #define	II_GEN_MAT_TOPAZ02	2046
-//ÈíÇ÷
+//ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND03	2047
 #define	II_GEN_MAT_EMERALD03	2048
 #define	II_GEN_MAT_SAPPHIRE03	2049
 #define	II_GEN_MAT_RUBY03	2050
 #define	II_GEN_MAT_TOPAZ03	2051
-//»ç³É½Ã ´ë¹ÌÁö Áõ°¡
+//ï¿½ï¿½É½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND04	2052
 #define	II_GEN_MAT_EMERALD04	2053
 #define	II_GEN_MAT_SAPPHIRE04	2054
 #define	II_GEN_MAT_RUBY04	2055
 #define	II_GEN_MAT_TOPAZ04	2056
-//PvP½Ã ´ë¹ÌÁö Áõ°¡
+//PvPï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND05	2057
 #define	II_GEN_MAT_EMERALD05	2058
 #define	II_GEN_MAT_SAPPHIRE05	2059
 #define	II_GEN_MAT_RUBY05	2060
 #define	II_GEN_MAT_TOPAZ05	2061
-//ÈûÁõ°¡
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND06	2062
 #define	II_GEN_MAT_EMERALD06	2063
 #define	II_GEN_MAT_SAPPHIRE06	2064
 #define	II_GEN_MAT_RUBY06	2065
 #define	II_GEN_MAT_TOPAZ06	2066
-//Ã¼·ÂÁõ°¡
+//Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND07	2067
 #define	II_GEN_MAT_EMERALD07	2068
 #define	II_GEN_MAT_SAPPHIRE07	2069
 #define	II_GEN_MAT_RUBY07	2070
 #define	II_GEN_MAT_TOPAZ07	2071
-//¹ÎÃ¸Áõ°¡
+//ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND08	2072
 #define	II_GEN_MAT_EMERALD08	2073
 #define	II_GEN_MAT_SAPPHIRE08	2074
 #define	II_GEN_MAT_RUBY08	2075
 #define	II_GEN_MAT_TOPAZ08	2076
-//Áö´ÉÁõ°¡
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIAMOND09	2077
 #define	II_GEN_MAT_EMERALD09	2078
 #define	II_GEN_MAT_SAPPHIRE09	2079
 #define	II_GEN_MAT_RUBY09	2080
 #define	II_GEN_MAT_TOPAZ09	2081
 
-#define	II_GEN_MAT_ORICHALCUM01_1	2082	// ÀÌº¥Æ®¿ë ¿À¸®Ä®Äñ(°Å·¡¾ÈµÊ)
-#define	II_GEN_MAT_MOONSTONE_1	2083	//	ÀÌº¥Æ®¿ë ¹®½ºÅæ(°Å·¡¾ÈµÊ)
+#define	II_GEN_MAT_ORICHALCUM01_1	2082	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä®ï¿½ï¿½(ï¿½Å·ï¿½ï¿½Èµï¿½)
+#define	II_GEN_MAT_MOONSTONE_1	2083	//	ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Å·ï¿½ï¿½Èµï¿½)
 
-// 2500 ºÎÅÍ ÀÏ¹Ý ¾ÆÀÌÅÛ
+// 2500 ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_REF_REF_FIRST	2530
 #define	II_GEN_REF_REF_SECOND	2531
 #define	II_GEN_REF_REF_THIRD	2532
@@ -970,7 +962,7 @@
 #define	II_GEN_POT_POT_POISON_IMMUNE	2555
 
 
-#define	II_GEN_JEW_EAR_ATTEARRING01	2560	// ÀÏ¹Ý ¾Ç¼¼»ç¸®
+#define	II_GEN_JEW_EAR_ATTEARRING01	2560	// ï¿½Ï¹ï¿½ ï¿½Ç¼ï¿½ï¿½ç¸®
 #define	II_GEN_JEW_EAR_ATTEARRING02	2561
 #define	II_GEN_JEW_EAR_ATTEARRING03	2562
 #define	II_GEN_JEW_EAR_ATTEARRING04	2563
@@ -1031,7 +1023,7 @@
 #define	II_GEN_JEW_RIN_STARING05	2618
 #define	II_GEN_JEW_RIN_STARING06	2619
 
-#define	II_GEN_JEW_EAR_U_EARRING01	2701	// À¯´ÏÅ© ¾Ç¼¼»ç¸®
+#define	II_GEN_JEW_EAR_U_EARRING01	2701	// ï¿½ï¿½ï¿½ï¿½Å© ï¿½Ç¼ï¿½ï¿½ç¸®
 #define	II_GEN_JEW_EAR_U_EARRING02	2702
 #define	II_GEN_JEW_EAR_U_EARRING03	2703
 #define	II_GEN_JEW_EAR_U_EARRING04	2704
@@ -1147,19 +1139,19 @@
 #define	II_GEN_GEM_GEM_GUARDIEYE	2983
 #define	II_GEN_GEM_GEM_GARBAGETON	2984
 #define	II_GEN_GEM_GEM_ERONIOR	2985
-//´ÙÄÜ 2 ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½ï¿½ï¿½ï¿½ 2 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_SYCALE	2986
 #define	II_GEN_GEM_GEM_MONGTEAR	2987
 #define	II_GEN_GEM_GEM_BOMBTIMER	2988
 #define	II_GEN_GEM_GEM_ZEMMARK	2989
 #define	II_GEN_GEM_GEM_NUCTUWHEEL	2990
 #define	II_GEN_GEM_GEM_ZOMBYHOE	2991
-//±Ø´Ü »ç³É¿ë ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½Ø´ï¿½ ï¿½ï¿½É¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_BUCORONG	2992
 #define	II_GEN_GEM_GEM_SCOTOOTH	2993
 #define	II_GEN_GEM_GEM_RANGLASS	2994
 #define	II_GEN_GEM_GEM_BATHOOK	2995
-//´ÙÄÜ 3 ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½ï¿½ï¿½ï¿½ 3 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_GRBANDAGE	2996
 #define	II_GEN_GEM_GEM_DUMPTIRE	2997
 #define	II_GEN_GEM_GEM_REPYGLE	2998
@@ -1175,11 +1167,11 @@
 #define	II_GEN_GEM_GEM_RNAMOND	3008
 #define	II_GEN_GEM_GEM_PHANBUBLE	3009
 #define	II_GEN_GEM_GEM_FFURISCOOPE	3010
-//º¼ÄÉÀÎ ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_DRAGONHEART	3011
 #define	II_GEN_GEM_GEM_DRAGONCANINE	3012
 #define	II_GEN_GEM_GEM_STRANGEEYES	3013
-//½É¿¬ÀÇÅ¾ ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½É¿ï¿½ï¿½ï¿½Å¾ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_CATBELL	3014
 #define	II_GEN_GEM_GEM_HARPYFEATHER	3015
 #define	II_GEN_GEM_GEM_POLEVIKMUD	3016
@@ -1190,7 +1182,7 @@
 #define	II_GEN_GEM_GEM_DATALBALL	3021
 #define	II_GEN_GEM_GEM_GANESALVORY	3022
 #define	II_GEN_GEM_GEM_ASURAHEART	3023
-//ÄÚ¶ö ¾ÆÀÏ·£µå ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½Ú¶ï¿½ ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_GIANTFORCEPS	3024
 #define	II_GEN_GEM_GEM_INKSAC	3025
 #define	II_GEN_GEM_GEM_CARAPACE	3026
@@ -1200,14 +1192,14 @@
 #define	II_GEN_GEM_GEM_CANINETOOTH	3030
 #define	II_GEN_GEM_GEM_SHARPTOOTH	3031
 #define	II_GEN_GEM_GEM_GOGGLOO	3032
-//ÇÏ¸£¸ð´Ñ ¸ó½ºÅÍ Àü¸®Ç°
+//ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_POISONBAG	3033
 #define	II_GEN_GEM_GEM_BLAD	3034
 #define	II_GEN_GEM_GEM_NECKLACE	3035
 #define	II_GEN_GEM_GEM_FLOWER	3036
 #define	II_GEN_GEM_GEM_DOGTOOTH	3037
 
-//ÇÏ¸£¸ð´Ñ ÀÎ½ºÅÏ½º ´øÀü Àü¸®Ç°
+//ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_ANTEGG	3038
 #define	II_GEN_GEM_GEM_OILLEG	3039
 #define	II_GEN_GEM_GEM_NICECHEESE	3040
@@ -1219,7 +1211,7 @@
 #define	II_GEN_GEM_GEM_CURSEBIGTOENAIL	3046
 #define	II_GEN_GEM_GEM_CURSEVEMPIREGLASS	3047
 
-//ÀÌ½ºÆ¼¾Æ ÄÉÀÌºê ´øÀü Àü¸®Ç°
+//ï¿½Ì½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_GRIFFINFEATHER	3048
 #define	II_GEN_GEM_GEM_BACKBONELEADER	3049
 #define	II_GEN_GEM_GEM_BACKBONESPAIN	3050
@@ -1228,7 +1220,7 @@
 #define	II_GEN_GEM_GEM_DEVILPIECE	3053
 
 
-// ÀÌ½ºÆ¼¾Æ ÄÉÀÌºê ÇÊµå Àü¸®Ç°
+// ï¿½Ì½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ ï¿½Êµï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_WOLFTOOTH	3054
 #define	II_GEN_GEM_GEM_SKELSKIN	3055
 #define	II_GEN_GEM_GEM_SKELPIECE	3056
@@ -1237,7 +1229,7 @@
 #define	II_GEN_GEM_GEM_SKELTOOLBOX	3059
 #define	II_GEN_GEM_GEM_SKELGENERALPIECE	3060
 
-// ·¯½ºÆ¼¾Æ ÀÏ¹Ý Àü¸®Ç°
+// ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_POISONTOOTH	3061
 #define	II_GEN_GEM_GEM_COBRASCALE	3062
 #define	II_GEN_GEM_GEM_SOFTFUR	3063
@@ -1247,7 +1239,7 @@
 #define	II_GEN_GEM_GEM_BIGFOOTHEART	3067
 
 
-// ·¯½ºÆ¼¾Æ ¸¶½ºÅÍ Àü¸®Ç°
+// ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_GEN_GEM_GEM_LIGHTPOISONTOOTH	3068
 #define	II_GEN_GEM_GEM_LIGHTCOBRASCALE	3069
 #define	II_GEN_GEM_GEM_LIGHTSOFTFUR	3070
@@ -1256,13 +1248,13 @@
 #define	II_GEN_GEM_GEM_LIGHTLUSIKAMASK	3073
 #define	II_GEN_GEM_GEM_LIGHTBIGFOOTHEART	3074
 
-//Àç·Ã¿ë ¾ÆÀÌÅÛ ½ÃÀÛ
-#define	II_GEN_MAT_SUP_MINERAL	3200	//º¸Á¶¼®
+//ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_MAT_SUP_MINERAL	3200	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_SUP_ERONS	3201
 #define	II_GEN_MAT_SUP_KRASEC	3202
 #define	II_GEN_MAT_SUP_GURU	3203
 
-#define	II_GEN_MAT_ELE_CANDLE	3204	//¼Ó¼º Ä«µå
+#define	II_GEN_MAT_ELE_CANDLE	3204	//ï¿½Ó¼ï¿½ Ä«ï¿½ï¿½
 #define	II_GEN_MAT_ELE_TOUCH	3205
 #define	II_GEN_MAT_ELE_FLAME	3206
 #define	II_GEN_MAT_ELE_MAGMA	3207
@@ -1288,7 +1280,7 @@
 #define	II_GEN_MAT_ELE_STORM	3227
 #define	II_GEN_MAT_ELE_VACCUM	3228
 
-#define	II_GEN_MAT_DIE_FOUR	3229	//¾÷±×·¡ÀÌµå ÁÖ»çÀ§
+#define	II_GEN_MAT_DIE_FOUR	3229	//ï¿½ï¿½ï¿½×·ï¿½ï¿½Ìµï¿½ ï¿½Ö»ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_DIE_SIX	3230
 #define	II_GEN_MAT_DIE_EIGHT	3231
 #define	II_GEN_MAT_DIE_TEN	3232
@@ -1297,17 +1289,17 @@
 // seghope - PIERCING_CARD_ITEM Start
 #define	II_GEN_MAT_DIE_LOW_MIGHTY	3235
 #define	II_GEN_MAT_DIE_HIGH_MIGHTY	3236
-// ½´Æ®
+// ï¿½ï¿½Æ®
 #define	II_GEN_MAT_ELE_STRIKINGPOWER_1	3237
 #define	II_GEN_MAT_ELE_DEFENSIVEPOWER_1	3238
-#define	II_GEN_MAT_ELE_MAX_HP_1	3239
-#define	II_GEN_MAT_ELE_MAX_HP_2	3240
-#define	II_GEN_MAT_ELE_MAX_MP_1	3241
-#define	II_GEN_MAT_ELE_MAX_MP_2	3242
-#define	II_GEN_MAP_ELE_MAX_FP_1	3243
-#define	II_GEN_MAP_ELE_MAX_FP_2	3244
-#define	II_GEN_MAP_ELE_CRITICAL_1	3245
-#define	II_GEN_MAP_ELE_CRITICAL_2	3246
+#define	II_GEN_MAT_ELE_MAX_HP_1	        3239
+#define	II_GEN_MAT_ELE_MAX_HP_2	        3240
+#define	II_GEN_MAT_ELE_MAX_MP_1	        3241
+#define	II_GEN_MAT_ELE_MAX_MP_2	        3242
+#define	II_GEN_MAP_ELE_MAX_FP_1	        3243
+#define	II_GEN_MAP_ELE_MAX_FP_2	        3244
+#define	II_GEN_MAP_ELE_CRITICAL_1	    3245
+#define	II_GEN_MAP_ELE_CRITICAL_2	    3246
 #define	II_GEN_MAP_ELE_CRITICAL_BONUS_1	3247
 #define	II_GEN_MAP_ELE_CRITICAL_BONUS_2	3248
 #define	II_GEN_MAP_ELE_SPEEL_SPEED_1	3249
@@ -1317,18 +1309,18 @@
 #define	II_GEN_MAP_ELE_BLOCK_MELEE_1	3253
 #define	II_GEN_MAP_ELE_BLOCK_MELEE_2	3254
 
-#define	II_GEN_MAT_ELE_VOLCANO3	3255
-#define	II_GEN_MAT_ELE_OCEAN3	3256
-#define	II_GEN_MAT_ELE_VACCUM3	3257
+#define	II_GEN_MAT_ELE_VOLCANO3	    3255
+#define	II_GEN_MAT_ELE_OCEAN3	    3256
+#define	II_GEN_MAT_ELE_VACCUM3	    3257
 #define	II_GEN_MAT_ELE_LIGHTING3	3258
 #define	II_GEN_MAT_ELE_EARTHQUAKE3	3259
 
-// ¹«±â
-#define	II_GEN_MAP_ELE_MP_DEC_0	3500
-#define	II_GEN_MAP_ELE_MP_DEC_1	3501
-#define	II_GEN_MAP_ELE_FP_DEC_0	3502
-#define	II_GEN_MAP_ELE_FP_DEC_1	3503
-#define	II_GEN_MAP_ELE_ALL_DEC_0	3504
+// ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_MAP_ELE_MP_DEC_0	        3500
+#define	II_GEN_MAP_ELE_MP_DEC_1	        3501
+#define	II_GEN_MAP_ELE_FP_DEC_0	        3502
+#define	II_GEN_MAP_ELE_FP_DEC_1	        3503
+#define	II_GEN_MAP_ELE_ALL_DEC_0	    3504
 #define	II_GEN_MAP_ELE_HP_RECOVERY_0	3505
 #define	II_GEN_MAP_ELE_HP_RECOVERY_1	3506
 #define	II_GEN_MAP_ELE_MP_RECOVERY_0	3507
@@ -1337,43 +1329,43 @@
 #define	II_GEN_MAP_ELE_FP_RECOVERY_1	3510
 #define	II_GEN_MAP_ELE_ALL_RECOVERY_0	3511
 #define	II_GEN_MAP_ELE_ALL_RECOVERY_1	3512
-#define	II_GEN_MAP_ELE_KILL_HP_0	3513
-#define	II_GEN_MAP_ELE_KILL_HP_1	3514
-#define	II_GEN_MAP_ELE_KILL_MP_0	3515
-#define	II_GEN_MAP_ELE_KILL_MP_1	3516
-#define	II_GEN_MAP_ELE_KILL_FP_0	3517
-#define	II_GEN_MAP_ELE_KILL_FP_1	3518
-#define	II_GEN_MAP_ELE_KILL_ALL_0	3519
-#define	II_GEN_MAP_ELE_KILL_ALL_1	3520
-#define	II_GEN_MAP_ELE_SPEED_0	3521
-#define	II_GEN_MAP_ELE_SPEED_1	3522
-#define	II_GEN_MAP_ELE_STR_0	3523
-#define	II_GEN_MAP_ELE_STR_1	3524
-#define	II_GEN_MAP_ELE_STA_0	3525
-#define	II_GEN_MAP_ELE_STA_1	3526
-#define	II_GEN_MAP_ELE_DEX_0	3527
-#define	II_GEN_MAP_ELE_DEX_1	3528
-#define	II_GEN_MAP_ELE_INT_0	3529
-#define	II_GEN_MAP_ELE_INT_1	3530
-#define	II_GEN_MAP_ELE_ALL_STATE_0	3531
-#define	II_GEN_MAP_ELE_ALL_STATE_1	3532
+#define	II_GEN_MAP_ELE_KILL_HP_0	    3513
+#define	II_GEN_MAP_ELE_KILL_HP_1	    3514
+#define	II_GEN_MAP_ELE_KILL_MP_0	    3515
+#define	II_GEN_MAP_ELE_KILL_MP_1	    3516
+#define	II_GEN_MAP_ELE_KILL_FP_0	    3517
+#define	II_GEN_MAP_ELE_KILL_FP_1	    3518
+#define	II_GEN_MAP_ELE_KILL_ALL_0	    3519
+#define	II_GEN_MAP_ELE_KILL_ALL_1	    3520
+#define	II_GEN_MAP_ELE_SPEED_0	        3521
+#define	II_GEN_MAP_ELE_SPEED_1	        3522
+#define	II_GEN_MAP_ELE_STR_0	        3523
+#define	II_GEN_MAP_ELE_STR_1	        3524
+#define	II_GEN_MAP_ELE_STA_0	        3525
+#define	II_GEN_MAP_ELE_STA_1	        3526
+#define	II_GEN_MAP_ELE_DEX_0	        3527
+#define	II_GEN_MAP_ELE_DEX_1	        3528
+#define	II_GEN_MAP_ELE_INT_0	        3529
+#define	II_GEN_MAP_ELE_INT_1	        3530
+#define	II_GEN_MAP_ELE_ALL_STATE_0	    3531
+#define	II_GEN_MAP_ELE_ALL_STATE_1	    3532
 // seghope - PIERCING_CARD_ITEM End
 
 #define	II_GEN_WARP_COUPLERING	3600
 #define	II_GEN_WARP_COUPLERING01	3601	//
 
-#define	II_GEN_TOO_COL_NOMAL	4000	//Ã¤Áý µµ±¸
+#define	II_GEN_TOO_COL_NOMAL	4000	//Ã¤ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_TOO_COL_VTHREE	4001
 #define	II_GEN_TOO_COL_POWER	4002
 #define	II_GEN_TOO_COL_ULTRA	4003
 
-// 4100 ½ºÅ³ ¾ÆÀÌÅÛ
-#define	II_GEN_SKILL_BUFFBREAKER	4100	//¹öÇÁ ºê·¹ÀÌÄ¿. »ó´ëÀÇ ¹öÇÁ¸¦ ³¯·Á¹ö¸°´Ù.
-#define	II_GEN_SKILL_BUFFBREAKER_X	4101	//¹öÇÁ ºê·¹ÀÌÄ¿X. »ó´ëÀÇ ¸ðµç ¹öÇÁ¸¦ ³¯·Á¹ö¸°´Ù.
+// 4100 ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_SKILL_BUFFBREAKER	4100	//ï¿½ï¿½ï¿½ï¿½ ï¿½ê·¹ï¿½ï¿½Ä¿. ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+#define	II_GEN_SKILL_BUFFBREAKER_X	4101	//ï¿½ï¿½ï¿½ï¿½ ï¿½ê·¹ï¿½ï¿½Ä¿X. ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-// 4300 ºÎÅÍ Ä«µå¸¦ À§ÇÑ °ø°£
+// 4300 ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 4400 ºÎÅÍ ÀÇ»ó
+// 4400 ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_S_CLO_MAS_GOGLE	4400
 #define	II_ARM_S_CLO_HAT_STATHAT	4401
 #define	II_ARM_S_CLO_MAS_IRON	4402
@@ -1436,7 +1428,7 @@
 #define	II_SYS_SYS_SCR_BXGLASS07	4457
 #define	II_SYS_SYS_SCR_BXGLASS08	4458
 
-// 4600 ¸ÁÅä
+// 4600 ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_TEST	4600
 #define	II_ARM_S_CLO_CLO_BLANK	4601
 #define	II_ARM_S_CLO_CLO_SYSCLOAK01	4602
@@ -1467,7 +1459,7 @@
 #define	II_ARM_S_CLO_CLO_DRAGON2	4704
 #define	II_ARM_S_CLO_CLO_DRAGON3	4705
 #define	II_ARM_S_CLO_CLO_DRAGON4	4706
-#define	II_ARM_S_CLO_CLO_MAJESTY	4707	// ±ºÁÖ Àü¿ë ¸ÁÅä(ºûÀÇ ¸ÁÅä)
+#define	II_ARM_S_CLO_CLO_MAJESTY	4707	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 #define	II_ARM_S_CLO_CLO_AMERICA	4708
 #define	II_ARM_S_CLO_CLO_CHILE	4709
 #define	II_ARM_S_CLO_CLO_EU	4710
@@ -1532,7 +1524,7 @@
 
 #define	II_ARM_S_CLO_CLO_CLOVER	4765
 
-// 4800 ºÎÅÍ ½Ã½ºÅÛ
+// 4800 ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_MAP_FLARIS	4801
 #define	II_SYS_SYS_MAP_SAINTMORNING	4802
 #define	II_SYS_BLI_BLI_FLARIS	4803
@@ -1548,7 +1540,7 @@
 
 
 
-// 5000 ºÎÅÍ ºñÇàÃ¼
+// 5000 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
 #define	II_RID_RID_STI_MAGIC	5000
 #define	II_RID_RID_STI_KESTREL	5001
 #define	II_RID_RID_STI_FLICKER	5002
@@ -1582,7 +1574,7 @@
 #define	II_RID_RID_BOR_EVEIGNICE09	5813
 #define	II_RID_RID_BOR_EVEIGNICE10	5814
 #define	II_RID_RID_STI_DRAGON	5815
-#define	II_RID_RID_STI_MAJESTYBIKE	5816	// ¸®¹«Áø ¹ÙÀÌÅ©(±ºÁÖ Àü¿ë)
+#define	II_RID_RID_STI_MAJESTYBIKE	5816	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 #define	II_RID_RID_BOR_RIDINGCLOUD_1	5817
 #define	II_RID_RID_BOR_FLYSWORD_1	5818
 #define	II_RID_RID_WIN_FEATHER01	5819
@@ -1592,10 +1584,10 @@
 #define	II_RID_RID_BOR_SHARK	5823
 #define	II_RID_RID_BOR_SMILE	5824
 
-//5900ºÎÅÍ ºñÇà ¿¬·á
+//5900ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_RID_AFU_ACC_SPEED	5902
 
-// 2701 ºÎÅÍ Äù½ºÆ®
+// 2701 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 #define	II_SYS_SYS_QUE_VISIONSTONE	6001
 #define	II_SYS_SYS_QUE_LETTERBOBOKU	6002
 #define	II_SYS_SYS_QUE_LETTERJURIA	6003
@@ -1652,24 +1644,24 @@
 #define	II_SYS_SYS_QUE_BEARERHEART	6056
 #define	II_SYS_SYS_QUE_BONEBOWL	6057
 #define	II_SYS_SYS_QUE_LIVETEA	6058
-//ÃÊ°Å´ë ¸ó½ºÅÍ Äù½ºÆ® ¾ÆÀÌÅÛ
+//ï¿½Ê°Å´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_MONBOOK1	6059
 #define	II_SYS_SYS_QUE_MONBOOK2	6060
 #define	II_SYS_SYS_QUE_MONBOOK3	6061
 #define	II_SYS_SYS_QUE_WARMONIDLV1	6062
-//´ÙÄÜ 2 Äù½ºÆ® ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ 2 ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_LEYGALL	6063
 #define	II_SYS_SYS_QUE_RADORAM	6064
 #define	II_SYS_SYS_QUE_LEMEAT	6065
 #define	II_SYS_SYS_QUE_STEAMWOOD	6066
 #define	II_SYS_SYS_QUE_STEAMTEAR	6067
 #define	II_SYS_SYS_QUE_KNIMINERAL	6068
-//ÀÇ·Ú¼Ò Äù½ºÆ® ¾ÆÀÌÅÛ
+//ï¿½Ç·Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_NYANYA	6069
 #define	II_SYS_SYS_QUE_UNKLETTER	6070
 #define	II_SYS_SYS_QUE_UNKID	6071
 #define	II_SYS_SYS_QUE_OFFICEDOC	6072
-//½Ã³ª¸®¿ÀÄù½ºÆ® ¾ÆÀÌÅÛ
+//ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_TARINROOT	6200
 #define	II_SYS_SYS_QUE_ASTROPAPER	6201
 #define	II_SYS_SYS_QUE_SHININGST	6202
@@ -1709,7 +1701,7 @@
 #define	II_SYS_SYS_QUE_BOMBTIMER	6236
 #define	II_SYS_SYS_QUE_REDSOCKS	6237
 
-// 2701 ºÎÅÍ ÀÌº¥Æ®
+// 2701 ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_0401F01COUPON	6301
 #define	II_SYS_SYS_EVE_0401M02TAEGUK	6302
 #define	II_SYS_SYS_EVE_0401A01HEART	6303
@@ -1726,7 +1718,7 @@
 #define	II_SYS_SYS_EVE_0504M8OST	6314
 #define	II_RID_RID_BOR_EVEINSHOVER	6315
 #define	II_SYS_SYS_EVE_EVEISISCU	6316
-//¹ß·»Å¸ÀÎ ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_FLOWER	6317
 #define	II_SYS_SYS_EVE_FBOX	6318
 #define	II_SYS_SYS_EVE_WINGS	6319
@@ -1741,7 +1733,7 @@
 #define	II_SYS_SYS_EVE_FLOVECANDY	6328
 #define	II_SYS_SYS_EVE_HEARTPIECE	6329
 #define	II_SYS_SYS_EVE_WHITEGIFTBOX	6330
-//4¿ù Ãá°èÀÌº¥Æ® ¾ÆÀÌÅÛ
+//4ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_BUCKET	6331
 #define	II_SYS_SYS_EVE_CONEPISEED	6332
 #define	II_SYS_SYS_EVE_FIRSEED	6333
@@ -1754,14 +1746,14 @@
 #define	II_SYS_SYS_EVE_PEARSEEDING	6340
 #define	II_SYS_SYS_EVE_PINESEEDING	6341
 #define	II_SYS_SYS_EVE_ACROGIFTBOX	6342
-//ÀÏº» Ä¥¼®ÀÌº¥Æ®
+//ï¿½Ïºï¿½ Ä¥ï¿½ï¿½ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_BLUETANZAKU	6343
 #define	II_SYS_SYS_EVE_PINKTANZAKU	6344
 #define	II_ARM_M_CLO_YUKATA01SUIT	6345
 #define	II_ARM_M_CLO_YUKATA01SHOES	6346
 #define	II_ARM_F_CLO_YUKATA01SUIT	6347
 #define	II_ARM_F_CLO_YUKATA01SHOES	6348
-//´ë¸¸ PSPÀÌº¥Æ®
+//ï¿½ë¸¸ PSPï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_PSP	6349
 
 #define	II_SYS_SYS_EVE_01CARD	6350
@@ -1785,7 +1777,7 @@
 #define	II_SYS_SYS_EVE_19CARD	6368
 #define	II_SYS_SYS_EVE_20CARD	6369
 
-//¾Æ¸®¶û ÀÌº¥Æ®
+//ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_A_CARD	6370
 #define	II_SYS_SYS_EVE_B_CARD	6371
 #define	II_SYS_SYS_EVE_C_CARD	6372
@@ -1814,7 +1806,7 @@
 #define	II_SYS_SYS_EVE_Z_CARD	6395
 #define	II_SYS_SYS_EVE_HEART_CARD	6396
 
-// À¯´ÏÅ© ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_KEHIN	6500
 #define	II_WEA_SWO_ARKON	6501
 #define	II_WEA_SWO_ZIRKAN	6502
@@ -1874,7 +1866,7 @@
 #define	II_ARM_ARM_SHI_AVALON	7004
 #define	II_ARM_ARM_SHI_ANCIENT	7005
 
-// 16Â÷ ÀÇ·Ú¼Ò Äù½ºÆ® ¾ÆÀÌÅÛ
+// 16ï¿½ï¿½ ï¿½Ç·Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_QUE_SKULLMASK01	7006
 #define	II_SYS_SYS_QUE_LEATHERCAPE01	7007
@@ -1893,7 +1885,7 @@
 #define	II_SYS_SYS_QUE_GHOSTSWORD01	7020
 #define	II_SYS_SYS_QUE_SLEEPDUST01	7021
 
-// 16Â÷ 3Â÷ ÀüÁ÷ Äù½ºÆ® ¾ÆÀÌÅÛ
+// 16ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_QUE_TEACHERCLO01	7022
 #define	II_SYS_SYS_QUE_ZEMCHOKER01	7023
@@ -1904,7 +1896,7 @@
 #define	II_SYS_SYS_QUE_RAINBOWFLO01	7028
 #define	II_SYS_SYS_QUE_MAGICSSTONE01	7029
 
-// 16Â÷ ½Ã³ª¸®¿À Äù½ºÆ®
+// 16ï¿½ï¿½ ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 
 #define	II_SYS_SYS_QUE_GRASSLANDBREATH01	7030
 #define	II_SYS_SYS_QUE_CHIEFLETTER01	7031
@@ -1912,12 +1904,12 @@
 #define	II_SYS_SYS_QUE_LASTDIARY01	7033
 #define	II_SYS_SYS_QUE_RESTOREDIARY01	7034
 
-// 16Â÷ Àú·¾ ½Ã³ª¸®¿À Äù½ºÆ®
+// 16ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 #define	II_SYS_SYS_QUE_SHINEGOLD01	7035
 #define	II_SYS_SYS_QUE_TARINDRINK01	7036
 
 
-// 16Â÷ ½Å Á¦·Ã ½Ã½ºÅÛ °ü·Ã ¾ÆÀÌÅÛ
+// 16ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_CID	7037
 #define	II_GEN_MAT_CIDPIEC01	7038
 #define	II_GEN_MAT_GOODCIDMIX01	7039
@@ -1937,9 +1929,9 @@
 #define	II_GEN_MAT_GOODCIDMIX05	7059
 
 
-// Äù½ºÆ®¿ë ¹«±â
-#define	II_WEA_SWO_PENEL2	8000	// À§¿¡¼­ »ç¿ë(»ç¿ë±ÝÁö)
-#define	II_WEA_SWO_CRIMSON2	8001	// À§¿¡¼­ »ç¿ë(»ç¿ë±ÝÁö)
+// ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_PENEL2	8000	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+#define	II_WEA_SWO_CRIMSON2	8001	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define	II_WEA_SWO_BROAD	8002
 #define	II_WEA_SWO_SIRAIN	8003
 #define	II_WEA_SWO_SEED	8004
@@ -1951,23 +1943,23 @@
 #define	II_WEA_CHE_DEVOTION	8010
 #define	II_WEA_WAN_WANDMULE	8011
 #define	II_WEA_MAR_TEST	8012
-#define	II_WEA_SWO_CLOSEITEM1	8013	//À¯Àú ³×ÀÌ¹Ö ¾ÆÀÌÅÛ
+#define	II_WEA_SWO_CLOSEITEM1	8013	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_CLOSEITEM2	8014
 #define	II_WEA_SWO_CLOSEITEM3	8015
 #define	II_WEA_SWO_CLOSEITEM4	8016
 #define	II_WEA_SWO_CLOSEITEM5	8017
-#define	II_WEA_CHE_CLOSEITEM1	8018	//À¯Àú ³×ÀÌ¹Ö ¾ÆÀÌÅÛ
+#define	II_WEA_CHE_CLOSEITEM1	8018	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//Äù½ºÆ®¿ë ¹æ¾î±¸
+//ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½î±¸
 #define	II_ARM_M_VAG_QUE_HELMET02	8500
 #define	II_ARM_F_VAG_QUE_HELMET02	8501
 #define	II_ARM_M_VAG_QUE_SUIT03	8502
 #define	II_ARM_F_VAG_QUE_SUIT03	8503
-#define	II_GEN_JEW_RIN_STRRING00	8504	//¹ð Äù½ºÆ®¿ë
-#define	II_GEN_JEW_RIN_INTRING00	8505	//¹ð Äù½ºÆ®¿ë
-#define	II_GEN_JEW_RIN_STARING00	8506	//¹ð Äù½ºÆ®¿ë
+#define	II_GEN_JEW_RIN_STRRING00	8504	//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
+#define	II_GEN_JEW_RIN_INTRING00	8505	//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
+#define	II_GEN_JEW_RIN_STARING00	8506	//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
 
-// 4000 ºÎÅÍ ¸ó½ºÅÍ ¹«±â¼³Á¤
+// 4000 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â¼³ï¿½ï¿½
 #define	II_WEA_MOB_AIBATT1_ATK1	9000
 #define	II_WEA_MOB_AIBATT1_ATK2	9001
 #define	II_WEA_MOB_AIBATT1_ATK3	9002
@@ -2249,7 +2241,7 @@
 #define	II_WEA_MOB_SKELDEVIL_ATK2	9276
 #define	II_WEA_MOB_SKELDEVIL_ATK3	9277
 
-//16Â÷ ¸ó½ºÅÍ ½ºÅ³
+//16ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³
 #define	II_WEA_MOB_RYBARGA_ATK1	9278
 #define	II_WEA_MOB_RYBARGA_ATK2	9279
 #define	II_WEA_MOB_RYBARGA_ATK3	9280
@@ -2257,12 +2249,12 @@
 #define	II_WEA_MOB_BEHEMOTH_ATK2	9282
 #define	II_WEA_MOB_BEHEMOTH_ATK3	9283
 
-//ÇÒ·ÎÀ© Á»ºñ ¸ó½ºÅÍ ½ºÅ³
+//ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³
 #define	II_WEA_MOB_ZOMBIE_ATK1	9284
 #define	II_WEA_MOB_ZOMBIE_ATK2	9285
 #define	II_WEA_MOB_ZOMBIE_ATK3	9286
 
-//18Â÷ º¸½º ¹«±â
+//18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_WEA_MOB_DREAMQEEN_ATK1	9287
 #define	II_WEA_MOB_DREAMQEEN_ATK2	9288
@@ -2277,8 +2269,16 @@
 #define	II_WEA_MOB_SHIPHARPINEES_ATK2	9294
 #define	II_WEA_MOB_SHIPHARPINEES_ATK3	9295
 
-//¼¼Æ® ¹æ¾î±¸ ¾ÆÀÌÅÛ
-#define	II_ARM_M_MER_SET01HELMET	10000	//1Â÷
+//New Attack Pattern
+#define II_WEA_MOB_VEMPAIN1_ATK1    9296
+#define II_WEA_MOB_VEMPAIN2_ATK2    9297
+#define II_WEA_MOB_VEMPAIN3_ATK3    9298
+
+#define II_WEA_MOB_METEONYKER_ATK2_1 		9299 //METEONYKER MELTING OLD METEONYKER
+#define II_WEA_MOB_METEONYKER_ATK2_2 		9300 //
+
+//ï¿½ï¿½Æ® ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_MER_SET01HELMET	10000	//1ï¿½ï¿½
 #define	II_ARM_M_MER_SET01SUIT	10001
 #define	II_ARM_M_MER_SET01GAUNTLET	10002
 #define	II_ARM_M_MER_SET01BOOTS	10003
@@ -2313,18 +2313,18 @@
 
 
 
-//¼¼Æ® ¹«±â ¾ÆÀÌÅÛ
-#define	II_WEA_SWO_SET01	10200	//1Â÷
+//ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_SET01	10200	//1ï¿½ï¿½
 #define	II_WEA_AXE_SET01	10201
 #define	II_WEA_CHE_SET01	10202
 #define	II_WEA_WAN_SET01	10203
 #define	II_WEA_STA_SET01	10204
 #define	II_WEA_KNU_SET01	10205
 
-//10206 »ó¿ëÈ­ ¾ÆÀÌÅÛ
+//10206 ï¿½ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_FOO_COO_REMANTIS	10206
-#define	II_CHR_REF_REF_HOLD	10207	//¸®ÇÁ·¹¼Å È¦µå
-#define	II_CHR_POT_DRI_VITALX	10208	//È°·Âµå¸µÅ© x
+#define	II_CHR_REF_REF_HOLD	10207	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¦ï¿½ï¿½
+#define	II_CHR_POT_DRI_VITALX	10208	//È°ï¿½Âµå¸µÅ© x
 #define	II_CHR_FOO_COO_BULLHAMS	10209
 #define	II_CHR_FOO_COO_GRILLEDEEL	10210
 #define	II_CHR_SYS_SCR_RESTATE	10211
@@ -2342,11 +2342,11 @@
 #define	II_CHR_MAG_TRI_ANGELWING	10223
 #define	II_CHR_MAG_TRI_TWISTERBOMB	10224
 
-//¿Ã¸²ÇÇ¾Æµå ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½Ã¸ï¿½ï¿½Ç¾Æµï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_JEW_RIN_METEOR	10225
 #define	II_GEN_JEW_RIN_METEOFY	10226
 
-//2Â÷ ÀüÁ÷ Äù½ºÆ® ¾ÆÀÌÅÛ
+//2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_HEROTALE01	10227
 #define	II_SYS_SYS_QUE_HEROTALE02	10228
 #define	II_SYS_SYS_QUE_HEROTALE03	10229
@@ -2376,7 +2376,7 @@
 #define	II_SYS_SYS_QUE_HEROAUTH	10253
 #define	II_SYS_SYS_QUE_VENHEART	10254
 
-//2Â÷ ÀüÁ÷ Äù½ºÆ® º¸»ó ¾ÆÀÌÅÛ
+//2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWT_PREBASTAR	10255
 #define	II_WEA_SWO_PRESHYER	10256
 #define	II_WEA_KNU_PRENECRYNZI	10257
@@ -2391,12 +2391,12 @@
 #define	II_WEA_WAN_PERICUUM	10265
 #define	II_WEA_STA_PERICUUM	10266
 
-//ÇÃ¶ó¸®½º ´øÀü ¾ÆÀÌÅÛ ¹Ú½º ¿­¼è¿ë ÅÂ¿±
+//ï¿½Ã¶ó¸®½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Â¿ï¿½
 #define	II_SYS_SYS_KEY_COPPER	10267
 #define	II_SYS_SYS_KEY_SILVER	10268
 #define	II_SYS_SYS_KEY_GOLD	10269
 
-//»ó¿ëÈ­ ¾ÆÀÌÅÛ 2Â÷ºÐ
+//ï¿½ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_SYS_SCR_UPCUTSTONE	10270
 #define	II_CHR_SYS_SCR_LIRIFFPOUCH1	10271
 #define	II_CHR_SYS_SCR_FFRILLYPOUCH1	10272
@@ -2417,13 +2417,13 @@
 #define	II_CHR_SYS_SCR_LIRIFFPOUCH7	10287
 #define	II_CHR_SYS_SCR_FFRILLYPOUCH7	10288
 
-//Ãß°¡ ½Çµå
+//ï¿½ß°ï¿½ ï¿½Çµï¿½
 #define	II_ARM_ARM_SHI_HILEITINE	10294
 #define	II_ARM_ARM_SHI_COIEN	10295
 #define	II_ARM_ARM_SHI_RUKENSHIA	10296
 #define	II_ARM_ARM_SHI_TOEFFIN	10297
 #define	II_ARM_ARM_SHI_CATEPO	10298
-//»ó¿ëÈ­ ÆÐ¼Ç ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½È­ ï¿½Ð¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CLO_SAILOR01HAT	10299
 #define	II_ARM_M_CLO_SAILOR01SUIT	10300
 #define	II_ARM_M_CLO_SAILOR01SHOES	10301
@@ -2474,9 +2474,9 @@
 #define	II_ARM_F_CLO_KOREAN01SUIT	10346
 #define	II_ARM_F_CLO_KOREAN01SHOES	10347
 
-//ÇÃ¶ó¸®½º ´øÀü °ÔÀÌÆ® ¿­¼è
+//ï¿½Ã¶ó¸®½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_KEY_DUGATE1	10348
-//´øÀü¿ë ¸÷ÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_DUTARINROOT	10349
 #define	II_GEN_GEM_GEM_DUSTARSTONE	10350
 #define	II_GEN_GEM_GEM_DUGOLDENWING	10351
@@ -2484,7 +2484,7 @@
 #define	II_SYS_SYS_QUE_LETTERISRUEL	10353
 #define	II_SYS_SYS_QUE_PAPERROJI	10354
 #define	II_GEN_GEM_GEM_SERUSURIELHAIR	10355
-//ÇÃ¶ó¸®½º ´øÀü ·¹¾î ¾ÆÀÌÅÛ
+//ï¿½Ã¶ó¸®½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_TRITIUM	10356
 #define	II_WEA_AXE_TRITIUM	10357
 #define	II_WEA_CHEE_TRITIUM	10358
@@ -2492,37 +2492,37 @@
 #define	II_WEA_WAN_TRITIUM	10360
 #define	II_WEA_STA_TRITIUM	10361
 
-//Äù½ºÆ® ¸®´º¾ó Å×½ºÆ®¿ë
+//ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×½ï¿½Æ®ï¿½ï¿½
 #define	II_SYS_SYS_QUE_AIBATTAIL	10362
 #define	II_SYS_SYS_QUE_RHALPA	10363
 #define	II_SYS_SYS_QUE_CHUCHU	10364
 #define	II_SYS_SYS_QUE_MARKETLIST	10365
-//p.k°ü·Ã ½ºÅÈ Á¦ÇÑ º¸»ó±Ý µî °ü·Ã ¿ä¼Ò ¼¼ÆÃ
+//p.kï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_VIR_PENALTYSTR	10366
 #define	II_SYS_SYS_VIR_PENALTYSTA	10367
 #define	II_SYS_SYS_VIR_PENALTYINT	10368
 #define	II_SYS_SYS_VIR_PENALTYDEX	10369
-#define	II_GOLD_REWARD	10382	//P.Kº¸»ó±Ý
+#define	II_GOLD_REWARD	10382	//P.Kï¿½ï¿½ï¿½ï¿½ï¿½
 
-// Ã¥, ½ºÅ©·Ñ, ÆíÁöÁö Å×½ºÆ®
+// Ã¥, ï¿½ï¿½Å©ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×½ï¿½Æ®
 #define	II_SYS_SYS_QUE_BOOK	10383
 #define	II_SYS_SYS_QUE_SCROLL	10384
 #define	II_SYS_SYS_QUE_LETTER	10385
 
-//P.KÄ«¸£¸¶ °¨¼Ò Äù½ºÆ®¿ë ¾ÆÀÌÅÛ
+//P.KÄ«ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_KARMABALL	10386
 
-//1Â÷ ÀüÁ÷ Äù½ºÆ® ¾ÆÀÌÅÛ
+//1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_BKSKILL	10387
 #define	II_SYS_SYS_QUE_NTSKILL	10388
 
-//2Â÷ ÀüÁ÷ Äù½ºÆ® ¾ÆÀÌÅÛ
+//2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_MASNOMINATE	10389
 #define	II_SYS_SYS_QUE_RENSRING	10390
 #define	II_SYS_SYS_QUE_SCRSTAMP	10391
 #define	II_SYS_SYS_QUE_LTHYNAN	10392
 #define	II_SYS_SYS_QUE_BKHEROL	10393
-//´øÀü Äù½ºÆ®¿ë ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_LETTERRANKASHU	10394
 #define	II_SYS_SYS_KEY_DKDUIDCARD	10395
 #define	II_SYS_SYS_QUE_KEYPIECE1	10396
@@ -2531,18 +2531,18 @@
 #define	II_SYS_SYS_KEY_NEVILPRISON	10399
 #define	II_SYS_SYS_QUE_CHIEFSIGN	10400
 #define	II_SYS_SYS_QUE_DRIANCARGO	10401
-#define	II_GEN_JEW_RIN_SHUBRIN	10402	//º¸»ó ¾ÆÀÌÅÛ
+#define	II_GEN_JEW_RIN_SHUBRIN	10402	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_ROACHFLUID1	10403
 #define	II_SYS_SYS_QUE_ROACHFLUID2	10404
 #define	II_SYS_SYS_QUE_WAKEROACHWATER	10405
 #define	II_SYS_SYS_QUE_ROACHFLUID3	10406
 #define	II_SYS_SYS_QUE_ROACHFLUID4	10407
-#define	II_WEA_SWT_QURION	10408	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_AXE_QURION	10409	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_CHEE_QURION	10410	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_KNU_QURION	10411	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_WAN_QURION	10412	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_STA_QURION	10413	//º¸»ó ¾ÆÀÌÅÛ
+#define	II_WEA_SWT_QURION	10408	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_AXE_QURION	10409	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_CHEE_QURION	10410	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_KNU_QURION	10411	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_WAN_QURION	10412	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_STA_QURION	10413	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_KEY_DKDUIDCARD2	10414
 #define	II_SYS_SYS_QUE_CILLIN	10415
 #define	II_SYS_SYS_QUE_FAKERIBENUUM	10416
@@ -2550,12 +2550,12 @@
 #define	II_SYS_SYS_KEY_DKDUIDCARD3	10418
 #define	II_SYS_SYS_QUE_TRIDUUM	10419
 #define	II_SYS_SYS_KEY_DKDUIDCARD4	10420
-#define	II_GEN_JEW_NEC_PURAN	10421	//º¸»ó ¾ÆÀÌÅÛ
-//P.KÄ«¸£¸¶ °¨¼Ò Äù½ºÆ®¿ë ¾ÆÀÌÅÛ
+#define	II_GEN_JEW_NEC_PURAN	10421	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//P.KÄ«ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_KEY_PKENTRANCE	10422
 #define	II_SYS_SYS_KEY_ROACHKEY	10423
 
-//»ó¿ë ¾ÆÀÌÅÛ 3Â÷ºÐ
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_CHANAM	10424
 #define	II_SYS_SYS_SCR_CHACLA	10425
 #define	II_SYS_SYS_SCR_HOLY	10426
@@ -2566,18 +2566,18 @@
 #define	II_SYS_SYS_SCR_RESURRECTION	10431
 #define	II_SYS_SYS_SCR_VELOCIJUMP	10432
 #define	II_SYS_SYS_SCR_BXLUCKY	10433
-#define	II_SYS_SYS_SCR_RECCURENCE	10434
+//#define	II_SYS_SYS_SCR_RECCURENCE	10434 - Re-Skill Removed from the game
 
-// Å»Ãâ ºí¸µÅ©À® ¹Ù²ã¾ßÇÔ ¾Ë¾Æ¼­ seghope ¹®ÀÇ
+// Å»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Ù²ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾Æ¼ï¿½ seghope ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_SYS_SCR_ESCAPEBLINKWING	10435
 #define	II_GEN_JEW_RIN_DEXRING00	10436
-//¾ÆÅ©·Îºª Ãß°¡¿¡ µû¸¥ Äù½ºÆ® ¾ÆÀÌÅÛ Ãß°¡ºÐ
+//ï¿½ï¿½Å©ï¿½Îºï¿½ ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½
 #define	II_WEA_YOY_TRITIUM	10437
 #define	II_WEA_BOW_TRITIUM	10438
-#define	II_WEA_YOY_QURION	10439	//º¸»ó ¾ÆÀÌÅÛ
-#define	II_WEA_BOW_QURION	10440	//º¸»ó ¾ÆÀÌÅÛ
+#define	II_WEA_YOY_QURION	10439	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_BOW_QURION	10440	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//»ó¿ë ¾ÆÀÌÅÛ 3Â÷ºÐ Ãß°¡
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXVITAL	10441
 #define	II_SYS_SYS_SCR_BXREF	10442
 #define	II_SYS_SYS_SCR_BXDDUK1	10443
@@ -2585,7 +2585,7 @@
 
 
 #define	II_CHEERUP	10445
-//µ¥Ä«³×½º ´øÀü ¸ó½ºÅÍ¿ë ¸ó½ºÅÍ »ê¹°
+//ï¿½ï¿½Ä«ï¿½×½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ê¹°
 
 #define	II_GEN_GEM_GEM_AXKEAKOON1	10446
 #define	II_GEN_GEM_GEM_AXKEAKOON2	10447
@@ -2600,16 +2600,16 @@
 #define	II_GEN_GEM_GEM_TRILIPY3	10456
 #define	II_GEN_GEM_GEM_KIMERADON	10457
 
-//»ó¿ë ¾ÆÀÌÅÛ 4Â÷ºÐ Ãß°¡
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 4ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXSTAMINA	10458
 #define	II_SYS_SYS_SCR_BXPOT	10459
 #define	II_SYS_SYS_SCR_BXSCROLL	10460
 #define	II_SYS_SYS_SCR_PUMKSOUP	10461
 #define	II_SYS_SYS_SCR_URICNOODLE	10462
 #define	II_SYS_SYS_SCR_GCHANAM	10463
-#define	II_SYS_SYS_SCR_SMELPROT	10464	//ÀÏ¹Ý º¸È£ÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_SMELPROT3	10488	//ÃÖ»ó±Þ º¸È£ÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_PIEPROT	10465	//ÇÇ¾î½Ì º¸È£ÀÇ µÎ·ç¸¶¸®
+#define	II_SYS_SYS_SCR_SMELPROT	10464	//ï¿½Ï¹ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SMELPROT3	10488	//ï¿½Ö»ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PIEPROT	10465	//ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
 #define	II_SYS_SYS_SCR_EXPANSION	10466
 #define	II_SYS_SYS_SCR_GLVCHEER	10467
 #define	II_SYS_SYS_SCR_SMELTING	10468
@@ -2630,7 +2630,7 @@
 #define	II_CHR_S_CLO_CLO_LOWACCORD	10483
 #define	II_CHR_S_CLO_CLO_LOWQUICK	10484
 #define	II_CHR_S_CLO_CLO_LOWWISDOM	10485
-//ÀÇ»ó Å×½ºÆ® ¾ÆÀÌÅÛ
+//ï¿½Ç»ï¿½ ï¿½×½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXCLOTEST	10486
 #define	II_SYS_SYS_SCR_SMELPROT2	10487
 #define	II_SYS_SYS_SCR_SMELTING2	10489
@@ -2639,7 +2639,7 @@
 
 #define	II_SYS_SYS_SCR_BXSCROLL01	10491
 
-//±â°£Á¦ À¯´ÏÅ© ¾ÆÀÌÅÛ(¼öÈ£ 7ÀÏ)
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½È£ 7ï¿½ï¿½)
 #define	II_WEA_STA_PERIODSUHO7	10492
 #define	II_WEA_WAN_PERIODSUHO7	10493
 #define	II_WEA_SWO_PERIODSUHO7	10494
@@ -2648,7 +2648,7 @@
 #define	II_WEA_BOW_PERIODSUHO7	10497
 #define	II_WEA_KNU_PERIODSUHO7	10498
 #define	II_WEA_CHE_PERIODSUHO7	10499
-//±â°£Á¦ À¯´ÏÅ© ¾ÆÀÌÅÛ(¼öÈ£ 30ÀÏ)
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½È£ 30ï¿½ï¿½)
 #define	II_WEA_STA_PERIODSUHO30	10500
 #define	II_WEA_WAN_PERIODSUHO30	10501
 #define	II_WEA_SWO_PERIODSUHO30	10502
@@ -2657,7 +2657,7 @@
 #define	II_WEA_BOW_PERIODSUHO30	10505
 #define	II_WEA_KNU_PERIODSUHO30	10506
 #define	II_WEA_CHE_PERIODSUHO30	10507
-//±â°£Á¦ À¯´ÏÅ© ¾ÆÀÌÅÛ(À¯¼­ 7ÀÏ)
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½)
 #define	II_WEA_SWT_PERIODUSU07	10508
 #define	II_WEA_AXT_PERIODUSU07	10509
 #define	II_WEA_SWO_PERIODUSU07	10510
@@ -2677,7 +2677,7 @@
 #define	II_ARM_F_CHR_SANTASUIT	15006
 #define	II_ARM_F_CHR_SANTAGLOVES	15008
 #define	II_ARM_F_CHR_SANTASHOES	15007
-//ÀÇ»ó ½Ã½ºÅÛ
+//ï¿½Ç»ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_SAILOR01HAT	15009
 #define	II_ARM_M_CHR_SAILOR01SUIT	15010
 #define	II_ARM_M_CHR_SAILOR01SHOES	15011
@@ -2754,7 +2754,7 @@
 #define	II_ARM_F_CHR_CHINA01SHOES	15082
 
 
-//À¯·á ¾ÆÀÌÅÛ Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_CUSTODY	15083
 #define	II_SYS_SYS_SCR_BXMBULE7	15084
 #define	II_SYS_SYS_SCR_BXMBULE30	15085
@@ -2795,7 +2795,7 @@
 #define	II_SYS_SYS_SCR_BXMRUDOLF	15130
 #define	II_SYS_SYS_SCR_BXFRUDOLF	15131
 
-// ÅÎ½Ãµµ, µå·¹½º ÀÇ»ó ÆÑ Ãß°¡
+// ï¿½Î½Ãµï¿½, ï¿½å·¹ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXMTUXEDO01	15132
 #define	II_SYS_SYS_SCR_BXMTUXEDO02	15133
 #define	II_SYS_SYS_SCR_BXMTUXEDO03	15134
@@ -2803,7 +2803,7 @@
 #define	II_SYS_SYS_SCR_BXFDRESS03	15136
 #define	II_SYS_SYS_SCR_BXFDRESS04	15137
 
-// ÅÎ½Ãµµ, µå·¹½º ÀÇ»ó Ãß°¡
+// ï¿½Î½Ãµï¿½, ï¿½å·¹ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_M_CHR_TUXEDO01SUIT	15138
 #define	II_ARM_M_CHR_TUXEDO01GLOVES	15139
 #define	II_ARM_M_CHR_TUXEDO01SHOES	15140
@@ -2826,7 +2826,7 @@
 #define	II_ARM_F_CHR_DRESS04GLOVES	15158
 #define	II_ARM_F_CHR_DRESS04SHOES	15159
 
-// °æÂûº¹ ³²/¿© Ãß°¡
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½/ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_M_CHR_POLICE01HAT	15160
 #define	II_ARM_M_CHR_POLICE01SUIT	15161
 #define	II_ARM_M_CHR_POLICE01GLOVES	15162
@@ -2836,7 +2836,7 @@
 #define	II_ARM_F_CHR_POLICE01GLOVES	15166
 #define	II_ARM_F_CHR_POLICE01SHOES	15167
 
-//À¯·´ ½Å±Ô ºñÇàÃ¼
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
 #define	II_RID_RID_STI_CARFIRE	15168
 #define	II_RID_RID_STI_BIKELECT	15169
 
@@ -2862,126 +2862,126 @@
 #define	II_SYS_SYS_SCR_BXFHARMIONR	15219	//15119
 #define	II_SYS_SYS_SCR_CUSTODY2	15220	//15120
 
-//ÅÂ±¹ ¾î¸Ó´ÏÀÇ ³¯ ÀÌº¥Æ®
-#define	II_SYS_SYS_EVE_LOVECANDY	15221	//»ç¶ûÀÇ »çÅÁ
-#define	II_SYS_SYS_EVE_LOVEFLOWER	15222	//»ç¶ûÀÇ ²É´Ù¹ß
+//ï¿½Â±ï¿½ ï¿½ï¿½Ó´ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_LOVECANDY	15221	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_LOVEFLOWER	15222	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É´Ù¹ï¿½
 
-//ÇÊ¸®ÇÉ ½ºÇÁ¸µ ÀÌº¥Æ®
-#define	II_SYS_SYS_SCR_BXSPRING	15223	//½ºÇÁ¸µ¹Ú½º
+//ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BXSPRING	15223	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 
-//·ÔÅäÀÇ ¼±¹° »óÀÚ
-#define	II_SYS_SYS_SCR_BXROTTOUI1	15225	//·ÔÅäÀÇ ¼±¹° »óÀÚ
-#define	II_SYS_SYS_SCR_BXROTTOUI2	15224	//¿ëÀÚÀÇ ±ÍÈ¯ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXROTTOUI1	15225	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXROTTOUI2	15224	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½
 
-// °æÂûº¹ ¹Ú½º ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMPOLICE	16168
 #define	II_SYS_SYS_SCR_BXFPOLICE	16169
 
-// ÅÍ¹ø ¸ðÀÚ ³²/¿© Ãß°¡
+// ï¿½Í¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½/ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_F_CHR_TURBANHAT	16170
 #define	II_ARM_M_CHR_TURBANHAT	16171
 
-// ¹Ùº¸ ¾È°æ Ãß°¡
+// ï¿½Ùºï¿½ ï¿½È°ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_S_CLO_MAS_FOOLGLASS	16172
 
-// ¹«µµÈ¸ °¡¸é
+// ï¿½ï¿½ï¿½ï¿½È¸ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_BALL09	16173
 
-// µ¥ºô ¸Ó¸®Àå½Ä
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¸ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_DEVIL	16179
-// ¿£Á© ¸Ó¸®Àå½Ä
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¸ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_ANGEL	16180
 
-// ÀÇ»ó Ä«µå¼Ò³à
+// ï¿½Ç»ï¿½ Ä«ï¿½ï¿½Ò³ï¿½
 #define	II_ARM_F_CHR_CARD01HAT	16181
 #define	II_ARM_F_CHR_CARD01SUIT	16182
 #define	II_ARM_F_CHR_CARD01SHOES	16183
-// ÀÇ»ó Ä«µå¼Ò³à ÆÑ
+// ï¿½Ç»ï¿½ Ä«ï¿½ï¿½Ò³ï¿½ ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXFCARD01	16184
 
-// µå·¹½º°É(¿©)
+// ï¿½å·¹ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 #define	II_ARM_F_CHR_DRESSGIRL01HAT	16185
 #define	II_ARM_F_CHR_DRESSGIRL01SUIT	16186
 #define	II_ARM_F_CHR_DRESSGIRL01GLOVES	16187
 #define	II_ARM_F_CHR_DRESSGIRL01SHOES	16188
 #define	II_SYS_SYS_SCR_BXFDRESSGIRL01	16189
-// ´ÑÀÚ(¿©)
+// ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 #define	II_ARM_F_CHR_NINJA01HAT	16190
 #define	II_ARM_F_CHR_NINJA01SUIT	16191
 #define	II_ARM_F_CHR_NINJA01GLOVES	16192
 #define	II_ARM_F_CHR_NINJA01SHOES	16193
 #define	II_SYS_SYS_SCR_BXFNINJA01	16194
-// ´ÑÀÚ(³²)
+// ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 #define	II_ARM_M_CHR_NINJA01HAT	16195
 #define	II_ARM_M_CHR_NINJA01SUIT	16196
 #define	II_ARM_M_CHR_NINJA01GLOVES	16197
 #define	II_ARM_M_CHR_NINJA01SHOES	16198
 #define	II_SYS_SYS_SCR_BXMNINJA01	16199
 
-//Á¦º¹(³²)
+//ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 #define	II_ARM_M_CHR_UNIFORM01SUIT	16200
 #define	II_ARM_M_CHR_UNIFORM01GLOVES	16201
 #define	II_ARM_M_CHR_UNIFORM01SHOES	16202
 #define	II_SYS_SYS_SCR_BXMUNIFORM01	16203
 
-//Á¦º¹(¿©)
+//ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 #define	II_ARM_F_CHR_UNIFORM01SUIT	16204
 #define	II_ARM_F_CHR_UNIFORM01GLOVES	16205
 #define	II_ARM_F_CHR_UNIFORM01SHOES	16206
 #define	II_SYS_SYS_SCR_BXFUNIFORM01	16207
 
-//¸ÞÀÌµåº¹
+//ï¿½ï¿½ï¿½Ìµåº¹
 #define	II_ARM_F_CHR_MAID01HAT	16208
 #define	II_ARM_F_CHR_MAID01SUIT	16209
 #define	II_ARM_F_CHR_MAID01GLOVES	16210
 #define	II_ARM_F_CHR_MAID01SHOES	16211
 #define	II_SYS_SYS_SCR_BXFMAID01	16212
 
-//½ºÆÄÀÌº¹(³²)
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½(ï¿½ï¿½)
 #define	II_ARM_M_CHR_SPY01HAT	16213
 #define	II_ARM_M_CHR_SPY01SUIT	16214
 #define	II_ARM_M_CHR_SPY01GLOVES	16215
 #define	II_ARM_M_CHR_SPY01SHOES	16216
 #define	II_SYS_SYS_SCR_BXMSPY01	16217
 
-//½ºÆÄÀÌº¹(¿©)
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½(ï¿½ï¿½)
 #define	II_ARM_F_CHR_SPY01HAT	16218
 #define	II_ARM_F_CHR_SPY01SUIT	16219
 #define	II_ARM_F_CHR_SPY01GLOVES	16220
 #define	II_ARM_F_CHR_SPY01SHOES	16221
 #define	II_SYS_SYS_SCR_BXFSPY01	16222
 
-//Ãà±¸º¹1(³²)
+//ï¿½à±¸ï¿½ï¿½1(ï¿½ï¿½)
 #define	II_ARM_M_CHR_SOCCER01SUIT	16223
 #define	II_ARM_M_CHR_SOCCER01SHOES	16224
 #define	II_SYS_SYS_SCR_BXMSOCCER01	16225
 
-//Ãà±¸º¹1(¿©)
+//ï¿½à±¸ï¿½ï¿½1(ï¿½ï¿½)
 #define	II_ARM_F_CHR_SOCCER01SUIT	16226
 #define	II_ARM_F_CHR_SOCCER01SHOES	16227
 #define	II_SYS_SYS_SCR_BXFSOCCER01	16228
 
-//Ãà±¸º¹2(³²)
+//ï¿½à±¸ï¿½ï¿½2(ï¿½ï¿½)
 #define	II_ARM_M_CHR_SOCCER02SUIT	16229
 #define	II_ARM_M_CHR_SOCCER02SHOES	16230
 #define	II_SYS_SYS_SCR_BXMSOCCER02	16231
 
-//Ãà±¸º¹2(¿©)
+//ï¿½à±¸ï¿½ï¿½2(ï¿½ï¿½)
 #define	II_ARM_F_CHR_SOCCER02SUIT	16232
 #define	II_ARM_F_CHR_SOCCER02SHOES	16233
 #define	II_SYS_SYS_SCR_BXFSOCCER02	16234
 
-//Ãà±¸º¹3(³²)
+//ï¿½à±¸ï¿½ï¿½3(ï¿½ï¿½)
 #define	II_ARM_M_CHR_SOCCER03SUIT	16235
 #define	II_ARM_M_CHR_SOCCER03SHOES	16236
 #define	II_SYS_SYS_SCR_BXMSOCCER03	16237
 
-//Ãà±¸º¹3(¿©)
+//ï¿½à±¸ï¿½ï¿½3(ï¿½ï¿½)
 #define	II_ARM_F_CHR_SOCCER03SUIT	16238
 #define	II_ARM_F_CHR_SOCCER03SHOES	16239
 #define	II_SYS_SYS_SCR_BXFSOCCER03	16240
 
-//À¯Ä«Å¸2006
+//ï¿½ï¿½Ä«Å¸2006
 #define	II_ARM_M_CHR_YUKATA02SUIT	16241
 #define	II_ARM_M_CHR_YUKATA02SHOES	16242
 #define	II_SYS_SYS_SCR_BXMYUKATA2006SET	16243
@@ -2989,17 +2989,17 @@
 #define	II_ARM_F_CHR_YUKATA02SHOES	16245
 #define	II_SYS_SYS_SCR_BXFYUKATA2006SET	16246
 
-//ÀÀ¿øº¹ ¼¼Æ®(³²)1~3
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®(ï¿½ï¿½)1~3
 #define	II_SYS_SYS_SCR_BXMSOCCERSET01	16247
 #define	II_SYS_SYS_SCR_BXMSOCCERSET02	16248
 #define	II_SYS_SYS_SCR_BXMSOCCERSET03	16249
 
-//ÀÀ¿øº¹ ¼¼Æ®(¿©)1~3
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®(ï¿½ï¿½)1~3
 #define	II_SYS_SYS_SCR_BXFSOCCERSET01	16250
 #define	II_SYS_SYS_SCR_BXFSOCCERSET02	16251
 #define	II_SYS_SYS_SCR_BXFSOCCERSET03	16252
 
-//¼ö¿µº¹
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_SWIM01UPPER	16253
 #define	II_ARM_F_CHR_SWIM01UPPER	16254
 #define	II_ARM_M_CHR_SWIM01FOOT	16255
@@ -3007,11 +3007,11 @@
 #define	II_SYS_SYS_SCR_BXM_SWIM01SET	16257
 #define	II_SYS_SYS_SCR_BXF_SWIM01SET	16258
 
-// °æÂûº¹+°ïºÀ ¹Ú½º ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMPOLICE01	16259
 #define	II_SYS_SYS_SCR_BXFPOLICE01	16260
 
-// ÇÊ¸®ÇÉ ¿äÃ» ±â°£Á¦ ¾ÆÀÌÅÛ
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BX_PET_LUIA07	16261
 #define	II_SYS_SYS_SCR_BX_PET_LUIA30	16262
 #define	II_SYS_SYS_SCR_BXM_SWIM01SET07	16263
@@ -3029,27 +3029,27 @@
 #define	II_SYS_SYS_SCR_BX_PET_LEYENA07	16273
 #define	II_SYS_SYS_SCR_BX_PET_LEYENA30	16274
 
-// ÇØ°ñÀÇ»ó(³²)
+// ï¿½Ø°ï¿½ï¿½Ç»ï¿½(ï¿½ï¿½)
 #define	II_ARM_M_CHR_SKULL01HAT	16275
 #define	II_ARM_M_CHR_SKULL01SUIT	16276
 #define	II_ARM_M_CHR_SKULL01SHOES	16277
 #define	II_SYS_SYS_SCR_BXMSKULL01	16278
 #define	II_ARM_M_CHR_SKULL01GLOVES	16283
 
-// ÇØ°ñÀÇ»ó(¿©)
+// ï¿½Ø°ï¿½ï¿½Ç»ï¿½(ï¿½ï¿½)
 #define	II_ARM_F_CHR_SKULL01HAT	16279
 #define	II_ARM_F_CHR_SKULL01SUIT	16280
 #define	II_ARM_F_CHR_SKULL01SHOES	16281
 #define	II_SYS_SYS_SCR_BXFSKULL01	16282
 #define	II_ARM_F_CHR_SKULL01GLOVES	16284
 
-//Ä«µåÀÇ»ó(³²)
+//Ä«ï¿½ï¿½ï¿½Ç»ï¿½(ï¿½ï¿½)
 #define	II_ARM_M_CHR_CARD01HAT	16285
 #define	II_ARM_M_CHR_CARD01SUIT	16286
 #define	II_ARM_M_CHR_CARD01SHOES	16287
 #define	II_SYS_SYS_SCR_BXMCARD01	16288
 
-//½´ÆÛ¸Ç,¿ø´õ¿ì¸Õ
+//ï¿½ï¿½ï¿½Û¸ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_M_CLO_CLO_SUPERMAN	16289
 #define	II_ARM_M_CHR_SUPER01SUIT	16290
 #define	II_ARM_M_CHR_SUPER01GLOVES	16291
@@ -3062,7 +3062,7 @@
 #define	II_ARM_F_CHR_SUPER01SHOES	16297
 #define	II_SYS_SYS_SCR_BXFSUPER01	16298
 
-//½Å¹åµå
+//ï¿½Å¹ï¿½ï¿½
 #define	II_ARM_M_CHR_SINBAD01HAT	16299
 #define	II_ARM_M_CHR_SINBAD01SUIT	16302
 #define	II_ARM_M_CHR_SINBAD01SHOES	16303
@@ -3072,7 +3072,7 @@
 #define	II_ARM_F_CHR_SINBAD01SHOES	16307
 #define	II_SYS_SYS_SCR_BXFSINBAD01	16308
 
-//½º³ë¿ìº¸´õ
+//ï¿½ï¿½ï¿½ï¿½ìº¸ï¿½ï¿½
 #define	II_ARM_M_CHR_SNOWBOARDER01HAT	16309
 #define	II_ARM_M_CHR_SNOWBOARDER01SUIT	16310
 #define	II_ARM_M_CHR_SNOWBOARDER01GLOVES	16311
@@ -3085,11 +3085,11 @@
 #define	II_ARM_F_CHR_SNOWBOARDER01SHOES	16317
 #define	II_SYS_SYS_SCR_BXFSNOWBOARDER01	16318
 
-// ½Å±Ô ºñÇàÃ¼(½º³ë¿ìº¸µå,¸¶¹ýÀÇ ¾çÅºÀÚ)
+// ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼(ï¿½ï¿½ï¿½ï¿½ìº¸ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åºï¿½ï¿½)
 #define	II_RID_RID_BOR_SNOWBOARD	16319
 #define	II_RID_RID_BOR_MAGICCARPET	16320
 
-// ´«»ç¶÷ ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_SNOWMAN01HAT	16321
 #define	II_ARM_M_CHR_SNOWMAN01SUIT	16322
 #define	II_ARM_M_CHR_SNOWMAN01GLOVES	16323
@@ -3101,7 +3101,7 @@
 #define	II_ARM_F_CHR_SNOWMAN01SHOES	16329
 #define	II_SYS_SYS_SCR_BXFSNOWMAN01	16330
 
-// °³±¸¶ôÁö ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_FROG01HAT	16331
 #define	II_ARM_M_CHR_FROG01SUIT	16332
 #define	II_ARM_M_CHR_FROG01GLOVES	16333
@@ -3113,7 +3113,7 @@
 #define	II_ARM_F_CHR_FROG01SHOES	16339
 #define	II_SYS_SYS_SCR_BXFFROG01	16340
 
-// ¾çÅÐ ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_LAMP01HAT	16341
 #define	II_ARM_M_CHR_LAMP01SUIT	16342
 #define	II_ARM_M_CHR_LAMP01GLOVES	16343
@@ -3125,7 +3125,7 @@
 #define	II_ARM_F_CHR_LAMP01SHOES	16349
 #define	II_SYS_SYS_SCR_BXFLAMP01	16350
 
-// °õµ¹ÀÌ ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_BEAR01HAT	16351
 #define	II_ARM_M_CHR_BEAR01SUIT	16352
 #define	II_ARM_M_CHR_BEAR01GLOVES	16353
@@ -3137,7 +3137,7 @@
 #define	II_ARM_F_CHR_BEAR01SHOES	16359
 #define	II_SYS_SYS_SCR_BXFBEAR01	16360
 
-// ¸ÇÀÎºí·¢(³²,¿©)
+// ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_MENINBLACK01SUIT	16361
 #define	II_ARM_M_CHR_MENINBLACK01SHOES	16362
 #define	II_SYS_SYS_SCR_BXMMENINBLACK01	16363
@@ -3145,7 +3145,7 @@
 #define	II_ARM_F_CHR_MENINBLACK01SHOES	16365
 #define	II_SYS_SYS_SCR_BXFMENINBLACK01	16366
 
-// »ç¹«¶óÀÌ(³²,¿©)
+// ï¿½ç¹«ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_SAMURAI01HAT	16367
 #define	II_ARM_M_CHR_SAMURAI01SUIT	16368
 #define	II_ARM_M_CHR_SAMURAI01GLOVES	16369
@@ -3157,13 +3157,13 @@
 #define	II_ARM_F_CHR_SAMURAI01SHOES	16375
 #define	II_SYS_SYS_SCR_BXFSAMURAI01	16376
 
-// ¼½½ÃÇÑº¹
+// ï¿½ï¿½ï¿½ï¿½ï¿½Ñºï¿½
 #define	II_ARM_F_CHR_KOREAN02HAT	16377
 #define	II_ARM_F_CHR_KOREAN02SUIT	16378
 #define	II_ARM_F_CHR_KOREAN02SHOES	16379
 #define	II_SYS_SYS_SCR_BXFKOREAN02	16380
 
-// ¹«¿¡Å¸ÀÌ(³²,¿©)
+// ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_MUAYTHAI01HAT	16381
 #define	II_ARM_M_CHR_MUAYTHAI01SUIT	16382
 #define	II_ARM_M_CHR_MUAYTHAI01GLOVES	16383
@@ -3175,7 +3175,7 @@
 #define	II_ARM_F_CHR_MUAYTHAI01SHOES	16389
 #define	II_SYS_SYS_SCR_BXFMUAYTHAI01	16390
 
-// ÇØÀû(³²,¿©)
+// ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_PIRATE01HAT	16391
 #define	II_ARM_M_CHR_PIRATE01SUIT	16392
 #define	II_ARM_M_CHR_PIRATE01SHOES	16393
@@ -3185,7 +3185,7 @@
 #define	II_ARM_F_CHR_PIRATE01SHOES	16397
 #define	II_SYS_SYS_SCR_BXFPIRATE01	16498
 
-//¹ìÆÄÀÌ¾î
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½
 #define	II_ARM_M_CHR_VAMPIRE01HAT	16499
 #define	II_ARM_M_CHR_VAMPIRE01SUIT	16500
 #define	II_ARM_M_CHR_VAMPIRE01GLOVES	16501
@@ -3197,7 +3197,7 @@
 #define	II_ARM_F_CHR_VAMPIRE01SHOES	16507
 #define	II_SYS_SYS_SCR_BXFVAMPIRE01	16508
 
-//°­½Ã
+//ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_CORPSE01HAT	16509
 #define	II_ARM_M_CHR_CORPSE01SUIT	16510
 #define	II_ARM_M_CHR_CORPSE01SHOES	16511
@@ -3207,7 +3207,7 @@
 #define	II_ARM_F_CHR_CORPSE01SHOES	16515
 #define	II_SYS_SYS_SCR_BXFCORPSE01	16516
 
-//¼ö¶ù°£
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_KOREAN03HAT	16517
 #define	II_ARM_M_CHR_KOREAN03SUIT	16518
 #define	II_ARM_M_CHR_KOREAN03SHOES	16519
@@ -3217,7 +3217,7 @@
 #define	II_ARM_F_CHR_KOREAN03SHOES	16523
 #define	II_SYS_SYS_SCR_BXFKOREAN03	16524
 
-//¸¶µå¸®°¥¼öºñ´ë ºí·ç
+//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_GUARDS01HAT	16525
 #define	II_ARM_M_CHR_GUARDS01SUIT	16526
 #define	II_ARM_M_CHR_GUARDS01GLOVES	16527
@@ -3229,7 +3229,7 @@
 #define	II_ARM_F_CHR_GUARDS01SHOES	16533
 #define	II_SYS_SYS_SCR_BXFGUARDS01	16534
 
-//¸¶µå¸®°¥¼öºñ´ë ·¹µå
+//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_GUARDS02HAT	16535
 #define	II_ARM_M_CHR_GUARDS02SUIT	16536
 #define	II_ARM_M_CHR_GUARDS02GLOVES	16537
@@ -3241,7 +3241,7 @@
 #define	II_ARM_F_CHR_GUARDS02SHOES	16543
 #define	II_SYS_SYS_SCR_BXFGUARDS02	16544
 
-//¸¶µå¸®°¥¼öºñ´ë ¿»·Î¿ì
+//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½
 #define	II_ARM_M_CHR_GUARDS03HAT	16545
 #define	II_ARM_M_CHR_GUARDS03SUIT	16546
 #define	II_ARM_M_CHR_GUARDS03GLOVES	16547
@@ -3253,7 +3253,7 @@
 #define	II_ARM_F_CHR_GUARDS03SHOES	16553
 #define	II_SYS_SYS_SCR_BXFGUARDS03	16554
 
-//¸¶µå¸®°¥¼öºñ´ë ±×¸°
+//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½
 #define	II_ARM_M_CHR_GUARDS04HAT	16555
 #define	II_ARM_M_CHR_GUARDS04SUIT	16556
 #define	II_ARM_M_CHR_GUARDS04GLOVES	16557
@@ -3265,7 +3265,7 @@
 #define	II_ARM_F_CHR_GUARDS04SHOES	16563
 #define	II_SYS_SYS_SCR_BXFGUARDS04	16564
 
-//¸¶µå¸®°¥¼öºñ´ë ÇÎÅ©
+//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©
 #define	II_ARM_M_CHR_GUARDS05HAT	16565
 #define	II_ARM_M_CHR_GUARDS05SUIT	16566
 #define	II_ARM_M_CHR_GUARDS05GLOVES	16567
@@ -3277,7 +3277,7 @@
 #define	II_ARM_F_CHR_GUARDS05SHOES	16573
 #define	II_SYS_SYS_SCR_BXFGUARDS05	16574
 
-//¹ÌÀÌ¶ó
+//ï¿½ï¿½ï¿½Ì¶ï¿½
 #define	II_ARM_M_CHR_MUMMY01HAT	16575
 #define	II_ARM_M_CHR_MUMMY01SUIT	16576
 #define	II_ARM_M_CHR_MUMMY01GLOVES	16577
@@ -3289,7 +3289,7 @@
 #define	II_ARM_F_CHR_MUMMY01SHOES	16583
 #define	II_SYS_SYS_SCR_BXFMUMMY01	16584
 
-//¿ø½ÃÀÎ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_PRIMITIVE01SUIT	16585
 #define	II_ARM_M_CHR_PRIMITIVE01SHOES	16587
 #define	II_SYS_SYS_SCR_BXMPRIMITIVE01	16588
@@ -3297,7 +3297,7 @@
 #define	II_ARM_F_CHR_PRIMITIVE01SHOES	16590
 #define	II_SYS_SYS_SCR_BXFPRIMITIVE01	16591
 
-//Ä³Áê¾ó ÀÇ»ó
+//Ä³ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_CASUAL01HAT	16592
 #define	II_ARM_M_CHR_CASUAL01SUIT	16593
 #define	II_ARM_M_CHR_CASUAL01GLOVES	16594
@@ -3320,7 +3320,7 @@
 #define	II_ARM_F_CHR_CASUAL02SHOES	16610
 #define	II_SYS_SYS_SCR_BXFCASUAL02	16611
 
-// ¿þµù ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_WED01HAT	16612
 #define	II_ARM_M_CHR_WED01SUIT	16613
 #define	II_ARM_M_CHR_WED01GLOVES	16614
@@ -3341,7 +3341,7 @@
 #define	II_ARM_F_CHR_YUKATA04SHOES	16628
 #define	II_SYS_SYS_SCR_BXFYUKATA04	16629
 
-// °ÝÅõ°¡ ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_MARTIAL01HAT	16630
 #define	II_ARM_M_CHR_MARTIAL01SUIT	16631
 #define	II_ARM_M_CHR_MARTIAL01GLOVES	16632
@@ -3353,7 +3353,7 @@
 #define	II_ARM_F_CHR_MARTIAL01SHOES	16638
 #define	II_SYS_SYS_SCR_BXFMARTIAL01	16639
 
-// 2008³â ¼ö¿µº¹
+// 2008ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_CHR_SWIM07UPPER	16640
 #define	II_ARM_M_CHR_SWIM07GLOVES	16641
 #define	II_ARM_M_CHR_SWIM07FOOT	16642
@@ -3371,7 +3371,7 @@
 #define	II_ARM_F_CHR_SWIM10FOOT	16654
 #define	II_SYS_SYS_SCR_BXF_SWIM10SET	16655
 
-// ¾ß±¸º¹ ÀÇ»ó
+// ï¿½ß±ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_BASEBALL01HAT	16656
 #define	II_ARM_M_CHR_BASEBALL01SUIT	16657
 #define	II_ARM_M_CHR_BASEBALL01GLOVES	16658
@@ -3383,7 +3383,7 @@
 #define	II_ARM_F_CHR_BASEBALL01SHOES	16664
 #define	II_SYS_SYS_SCR_BXFBASEBALL01	16665
 
-// ÄôÇª ÀÇ»ó
+// ï¿½ï¿½Çª ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_KUNGFU01HAT	16666
 #define	II_ARM_M_CHR_KUNGFU01SUIT	16667
 #define	II_ARM_M_CHR_KUNGFU01GLOVES	16668
@@ -3395,7 +3395,7 @@
 #define	II_ARM_F_CHR_KUNGFU01SHOES	16674
 #define	II_SYS_SYS_SCR_BXFKUNGFU01	16675
 
-// ±¹°¡ ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_GERMAN01HAT	16676
 #define	II_ARM_M_CHR_GERMAN01SUIT	16677
 #define	II_ARM_M_CHR_GERMAN01GLOVES	16678
@@ -3440,7 +3440,7 @@
 #define	II_ARM_F_CHR_PHILIPPINES01SHOES	16714
 #define	II_SYS_SYS_SCR_BXFPHILIPPINES01	16715
 
-// Åä³¢ ÀÇ»ó
+// ï¿½ä³¢ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_RABBIT03HAT	16716
 #define	II_ARM_M_CHR_RABBIT03SUIT	16717
 #define	II_ARM_M_CHR_RABBIT03GLOVES	16718
@@ -3452,11 +3452,11 @@
 #define	II_ARM_F_CHR_RABBIT03SHOES	16724
 #define	II_SYS_SYS_SCR_BXFRABBIT03	16725
 
-// ÇÊ¸®ÇÉ ÀÌº¥Æ®¿ë
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMPRIMITIVE01_1	16726
 #define	II_SYS_SYS_SCR_BXFPRIMITIVE01_1	16727
 
-// Ä¥·¹ ÀÇ»ó
+// Ä¥ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_CHILE01HAT	16728
 #define	II_ARM_M_CHR_CHILE01SUIT	16729
 #define	II_ARM_M_CHR_CHILE01GLOVES	16730
@@ -3474,7 +3474,7 @@
 #define	II_SYS_SYS_SCR_BXMWED01_1	16740
 #define	II_SYS_SYS_SCR_BXFWED01_1	16741
 
-// ÆÒ´õ ÀÇ»ó
+// ï¿½Ò´ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_PANDA01HAT	16742
 #define	II_ARM_M_CHR_PANDA01SUIT	16743
 #define	II_ARM_M_CHR_PANDA01GLOVES	16744
@@ -3486,7 +3486,7 @@
 #define	II_ARM_F_CHR_PANDA01SHOES	16750
 #define	II_SYS_SYS_SCR_BXFPANDA01	16751
 
-// ¹Ì½ÄÃà±¸ ÀÇ»ó
+// ï¿½Ì½ï¿½ï¿½à±¸ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_FOOTBALL01HAT	16752
 #define	II_ARM_M_CHR_FOOTBALL01SUIT	16753
 #define	II_ARM_M_CHR_FOOTBALL01GLOVES	16754
@@ -3498,7 +3498,7 @@
 #define	II_ARM_F_CHR_FOOTBALL01SHOES	16760
 #define	II_SYS_SYS_SCR_BXFFOOTBALL01	16761
 
-// ÆÇ´Ù ÀÇ»ó
+// ï¿½Ç´ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_PANDA02HAT	16762
 #define	II_ARM_M_CHR_PANDA02SUIT	16763
 #define	II_ARM_M_CHR_PANDA02GLOVES	16764
@@ -3510,7 +3510,7 @@
 #define	II_ARM_F_CHR_PANDA02SHOES	16770
 #define	II_SYS_SYS_SCR_BXFPANDA02	16771
 
-// È²¼Ò,Á¥¼Ò ÀÇ»ó
+// È²ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_BULL01HAT	16772
 #define	II_ARM_M_CHR_BULL01SUIT	16773
 #define	II_ARM_M_CHR_BULL01GLOVES	16774
@@ -3522,12 +3522,12 @@
 #define	II_ARM_F_CHR_COW01SHOES	16780
 #define	II_SYS_SYS_SCR_BXFCOW01	16781
 
-// ³ª±â ÀÇ»ó
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_F_CHR_NAGI01SUIT	16782
 #define	II_ARM_F_CHR_NAGI01GLOVES	16783
 #define	II_ARM_F_CHR_NAGI01SHOES	16784
 
-// ¿ä¸®»ç
+// ï¿½ä¸®ï¿½ï¿½
 #define	II_ARM_M_CHR_COOK01HAT	16785
 #define	II_ARM_M_CHR_COOK01SUIT	16786
 #define	II_ARM_M_CHR_COOK01GLOVES	16787
@@ -3539,7 +3539,7 @@
 #define	II_ARM_F_CHR_COOK01SHOES	16793
 #define	II_SYS_SYS_SCR_BXFCOOK01	16794
 
-// °í½º·Î¸®
+// ï¿½ï¿½ï¿½ï¿½ï¿½Î¸ï¿½
 #define	II_ARM_M_CHR_GOTH01HAT	16795
 #define	II_ARM_M_CHR_GOTH01SUIT	16796
 #define	II_ARM_M_CHR_GOTH01GLOVES	16797
@@ -3551,7 +3551,7 @@
 #define	II_ARM_F_CHR_GOTH01SHOES	16803
 #define	II_SYS_SYS_SCR_BXFGOTH01	16804
 
-// ¿ìÁÖº¹
+// ï¿½ï¿½ï¿½Öºï¿½
 #define	II_ARM_M_CHR_ASTRONAUT01HAT	16805
 #define	II_ARM_M_CHR_ASTRONAUT01SUIT	16806
 #define	II_ARM_M_CHR_ASTRONAUT01GLOVES	16807
@@ -3593,15 +3593,15 @@
 #define	II_SYS_SYS_SCR_BXFBEAR012	16932
 
 
-// ÇÊ¸®ÇÉ Ãß°¡
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXMDARKVADER	16300
 #define	II_SYS_SYS_SCR_BXFDARKVADER	16301
 
-// ºê¶óÁú ½Å±Ô ¼±¹° »óÀÚ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BX_PET_BANG1_1	16933
 #define	II_SYS_SYS_SCR_BXBRASIL	16934
 
-//µ¿È­
+//ï¿½ï¿½È­
 #define	II_ARM_M_CHR_FAIRYTALE01HAT	16935
 #define	II_ARM_M_CHR_FAIRYTALE01SUIT	16936
 #define	II_ARM_M_CHR_FAIRYTALE01GLOVES	16937
@@ -3613,7 +3613,7 @@
 #define	II_ARM_F_CHR_FAIRYTALE01SHOES	16943
 #define	II_SYS_SYS_SCR_BXFFAIRYTALE01	16944
 
-//ÀÎµð¾ð
+//ï¿½Îµï¿½ï¿½
 #define	II_ARM_M_CHR_INDIAN01HAT	16945
 #define	II_ARM_M_CHR_INDIAN01SUIT	16946
 #define	II_ARM_M_CHR_INDIAN01GLOVES	16947
@@ -3625,7 +3625,7 @@
 #define	II_ARM_F_CHR_INDIAN01SHOES	16953
 #define	II_SYS_SYS_SCR_BXFINDIAN01	16954
 
-//¿¹Æ¼
+//ï¿½ï¿½Æ¼
 #define	II_ARM_M_CHR_YETI01HAT	16955
 #define	II_ARM_M_CHR_YETI01SUIT	16956
 #define	II_ARM_M_CHR_YETI01GLOVES	16957
@@ -3640,7 +3640,7 @@
 #define	II_SYS_SYS_SCR_BXMCASUAL01_1	16965
 #define	II_SYS_SYS_SCR_BXFCASUAL01_1	16966
 
-//ÇÐ±³¼ö¿µº¹
+//ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_ARM_M_CHR_SWIM09UPPER	16967
 #define	II_ARM_M_CHR_SWIM09GLOVES	16968
@@ -3652,7 +3652,7 @@
 #define	II_ARM_F_CHR_SWIM11FOOT	16973
 #define	II_SYS_SYS_SCR_BXF_SWIM11SET	16974
 
-// ½ºÆ®¸®Æ® ½º¸¶Æ®(³²,¿©)
+// ï¿½ï¿½Æ®ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_STREETSMARTHAT	16975
 #define	II_ARM_M_CHR_STREETSMARTSUIT	16976
 #define	II_ARM_M_CHR_STREETSMARTGLOVES	16977
@@ -3664,7 +3664,7 @@
 #define	II_ARM_F_CHR_STREETSMARTSHOES	16983
 #define	II_SYS_SYS_SCR_BXFSTREETSMART	16984
 
-// ¿ö·Îµå(³²,¿©)
+// ï¿½ï¿½ï¿½Îµï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_WARLORDHAT	16985
 #define	II_ARM_M_CHR_WARLORDSUIT	16986
 #define	II_ARM_M_CHR_WARLORDGLOVES	16987
@@ -3676,7 +3676,7 @@
 #define	II_ARM_F_CHR_WARLORDSHOES	16993
 #define	II_SYS_SYS_SCR_BXFWARLORD	16994
 
-// Äí·çÁø(³²,¿©)
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_CRUSINHAT	16995
 #define	II_ARM_M_CHR_CRUSINSUIT	16996
 #define	II_ARM_M_CHR_CRUSINGLOVES	16997
@@ -3688,7 +3688,7 @@
 #define	II_ARM_F_CHR_CRUSINSHOES	17003
 #define	II_SYS_SYS_SCR_BXFCRUSIN	17004
 
-// ¿ìÁÖ Á¦º¹(³²,¿©)
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_UNIFORM02HAT	17005
 #define	II_ARM_M_CHR_UNIFORM02SUIT	17006
 #define	II_ARM_M_CHR_UNIFORM02GLOVES	17007
@@ -3700,7 +3700,7 @@
 #define	II_ARM_F_CHR_UNIFORM02SHOES	17013
 #define	II_SYS_SYS_SCR_BXFUNIFORM02	17014
 
-// °­Ã¶(³²,¿©)
+// ï¿½ï¿½Ã¶(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_STEELHAT	17015
 #define	II_ARM_M_CHR_STEELSUIT	17016
 #define	II_ARM_M_CHR_STEELGLOVES	17017
@@ -3712,7 +3712,7 @@
 #define	II_ARM_F_CHR_STEELSHOES	17023
 #define	II_SYS_SYS_SCR_BXFSTEEL	17024
 
-// Å½Á¤(³²,¿©)
+// Å½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_DETECTIVEHAT	17025
 #define	II_ARM_M_CHR_DETECTIVESUIT	17026
 #define	II_ARM_M_CHR_DETECTIVEGLOVES	17027
@@ -3724,7 +3724,7 @@
 #define	II_ARM_F_CHR_DETECTIVESHOES	17033
 #define	II_SYS_SYS_SCR_BXFDETECTIVE	17034
 
-// ¼³ºö(³²,¿©)
+// ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½,ï¿½ï¿½)
 #define	II_ARM_M_CHR_KOREAN04HAT	17035
 #define	II_ARM_M_CHR_KOREAN04SUIT	17036
 #define	II_ARM_M_CHR_KOREAN04GLOVES	17037
@@ -3888,106 +3888,106 @@
 // SetItem End - seghope
 
 
-//Quest ¹× Event Item - Jimmie(ÁöÈÆ)
-#define	II_SYS_SYS_QUE_GRPFLARIS	18096	//ÇÃ¶ó¸®½º Á¾
-#define	II_SYS_SYS_QUE_GRPSAINT	18097	//¼¼ÀÎÆ® Á¾
-#define	II_SYS_SYS_QUE_GRPDARKON	18098	//´ÙÄÜ Á¾
-#define	II_SYS_SYS_BIN_BOZFLARIS	18099	//º¸Á¹·¹ ÇÃ¶ó¸®½º
-#define	II_SYS_SYS_BIN_BOZSAINT	18100	//º¸Á¹·¹ ¼¼ÀÎÆ®
-#define	II_SYS_SYS_BIN_BOZDARKON	18101	//º¸Á¹·¹ ´ÙÄÜ
-#define	II_SYS_SYS_QUE_REDBANGHEAD	18102	//ºÓÀº ¹ðÀÇ ¸Ó¸®
-#define	II_SYS_SYS_QUE_LUDASAFE	18103	//·ç´ÙÀÇ ±Ý°í
-#define	II_SYS_SYS_QUE_METEORITILL	18104	//¸ÞÅ×¿À¶óÀÌÆ¿
-#define	II_SYS_SYS_QUE_SCRIPT	18105	//´ëº»
-#define	II_SYS_SYS_QUE_LES1MANU	18106	//±³º» 1Àå
-#define	II_SYS_SYS_QUE_LES2MANU	18107	//±³º» 2Àå
-#define	II_SYS_SYS_QUE_LES3MANU	18108	//±³º» 3Àå
-#define	II_SYS_SYS_QUE_CLUEPORT1	18109	//ÃÊ»óÈ­ ´Ü¼­1
-#define	II_SYS_SYS_QUE_CLUEPORT2	18110	//ÃÊ»óÈ­ ´Ü¼­2
-#define	II_SYS_SYS_QUE_RADIPORT	18111	//¶óµð¿ÂÀÇ ÃÊ»óÈ­
-#define	II_SYS_SYS_QUE_BONEWAG	18112	//¿Í±×ÀÛÀÇ »À Á¶°¢
-#define	II_SYS_SYS_QUE_DNAWAG	18113	//¿Í±×ÀÛÀÇ À¯ÀüÀÚ Á¶°¢
-#define	II_SYS_SYS_QUE_BLKMAR	18114	//°ËÀº Åù¸¶ºí
-#define	II_SYS_SYS_QUE_BLKSPL	18115	//°ËÀº ÁÖ¹®¼­
-#define	II_SYS_SYS_QUE_BLKHER	18116	//°ËÀº Çì·ÎÄ« Ç®
-#define	II_SYS_SYS_GEM_REDSOCKS	18117	//¼±¹° ¾ç¸»
-#define	II_SYS_SYS_GEM_BLUEGBOX	18118	//ÆÄ¶õ ¼±¹° »óÀÚ
-#define	II_SYS_SYS_GEM_REDGBOX	18119	//»¡°£ ¼±¹° »óÀÚ
-#define	II_SYS_SYS_GEM_YELLOWGBOX	18120	//³ë¶õ ¼±¹° »óÀÚ
-#define	II_SYS_SYS_QUE_SECDIS	18121	//ºñ¹ÐÀÇ ½ÇÁ¾ »ç°Ç Á¶»ç¼­
-#define	II_SYS_SYS_QUE_JINDOLL	18122	//Áø¿µÀÇ ÀÎÇü
-#define	II_SYS_SYS_QUE_TRUDIS	18123	//°¨ÃçÁø ½ÇÁ¾ Á¶»ç¼­
-#define	II_SYS_SYS_GEM_RCSOUP	18124	//¶±±¹
-#define	II_SYS_SYS_GEM_LUCKBAG	18125	//º¹ÁÖ¸Ó´Ï
-#define	II_SYS_SYS_QUE_REQFORM	18126	//¿¬±¸ºñ¿ë ½ÅÃ»¼­
-#define	II_SYS_SYS_QUE_FLASTONE	18127	//ÇÃ¶ó¸®½º ¾Ï¼® Á¶°¢
-#define	II_SYS_SYS_QUE_SAINSTONE	18128	//¼¼ÀÎÆ®¸ð´× ¾Ï¼® Á¶°¢
-#define	II_SYS_SYS_QUE_DARSTONE	18129	//´ÙÄÜ ¾Ï¼® Á¶°¢
-#define	II_SYS_SYS_QUE_PRFCONDIV	18130	//´ë·ú ºÐ¿­ÀÇ Áõ°ÅÀÚ·á
-#define	II_SYS_SYS_QUE_GOTNOMINATE	18131	//°í´ÜÅ×ÀÇ ÃßÃµ¼­
-#define	II_SYS_SYS_QUE_STRCLOTH	18132	//ÀÌ»óÇÑ Ãµ Á¶°¢
-#define	II_SYS_SYS_QUE_BKDREAD1	18133	//°øÆ÷ÀÇ ¼­ 1±Ç
-#define	II_SYS_SYS_QUE_MAPDREAD1	18134	//±×µéÀÇ ¿ä»õ
-#define	II_SYS_SYS_QUE_HRTTHYRED	18135	//½Ã·¹µåÀÇ ½ÉÀå
-#define	II_SYS_SYS_QUE_BKDREAD2	18136	//°øÆ÷ÀÇ ¼­ 2±Ç
-#define	II_SYS_SYS_QUE_MAPDREAD2	18137	//±×µéÀÇ ¼ºÁö
-#define	II_SYS_SYS_QUE_HRTDASIED	18138	//´Ù½ÃµåÀÇ ½ÉÀå
-#define	II_SYS_SYS_QUE_BKDREAD3	18139	//°øÆ÷ÀÇ ¼­ 3±Ç
-#define	II_SYS_SYS_QUE_MAPDREAD3	18140	//±×µéÀÇ ½ÀÁö
-#define	II_SYS_SYS_QUE_HRTARVAN	18141	//¾Æ¸£¹ÝÀÇ ½ÉÀå
-#define	II_SYS_SYS_QUE_UNKMARK	18142	//¾Ë ¼ö ¾ø´Â ¹®¾ç
-#define	II_SYS_SYS_QUE_UNKCLOTH	18143	//¾Ë ¼ö ¾ø´Â Ãµ Á¶°¢
-#define	II_SYS_SYS_QUE_BOOKTRBHIS	18144	//°í³­ÀÇ ¿ª»ç
-#define	II_WEA_SWO_ENTANALE	18145	//¿£Å¸³¯·¹ ¼Òµå(º¸»ó¿ë)
-#define	II_SYS_SYS_QUE_ENTANALE	18146	//¿£Å¸³¯·¹ ¼Òµå(Äù½ºÆ®¿ë)
-#define	II_SYS_SYS_QUE_RBSYMBOL	18147	//ºÓÀº ¹ð µµÀû´ÜÀÇ »óÂ¡
-#define	II_SYS_SYS_QUE_LBNECKLACE	18148	//·Îµå ¹ðÀÇ ¸ñ°ÉÀÌ
-#define	II_SYS_SYS_QUE_MIAREPORT	18149	//¹Ì¾Æ º¸°í¼­
-#define	II_SYS_SYS_QUE_PRFMISS	18150	//½ÇÁ¾ »ç°ÇÀÇ Áõ°Å
-#define	II_SYS_SYS_QUE_EXAMDATA	18151	//ÇÏÄ®ÀÇ Á¶»ç ÀÚ·á
-#define	II_SYS_SYS_QUE_ACEBOOK	18152	//³°Àº °í´ëÀÇ Ã¥ÀÚ
-#define	II_SYS_SYS_QUE_MYSTGEMB	18153	//ÀÇ¹®ÀÇ ±¸½½(Ã»)
-#define	II_SYS_SYS_QUE_MYSTGEMR	18154	//ÀÇ¹®ÀÇ ±¸½½(Àû)
-#define	II_SYS_SYS_QUE_BKLAOLA	18155	//¶ó¿Ã¶óÀÇ ¼­Àû
-#define	II_SYS_SYS_QUE_SCRGOTH	18156	//°í´ÜÅ×ÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_QUE_EMERSPAWN	18157	//¿¡¸Ó¶öµå½ºÆù
-#define	II_SYS_SYS_GEM_BROKTM	18158	//±ú¾îÁø Åù¸¶ºí
-#define	II_SYS_SYS_GEM_LIQUES	18159	//¾×È­µÈ ¿¡·±½Ã¹ÌÆ®
-#define	II_SYS_SYS_GEM_DRYNRT	18160	//°ÇÁ¶µÈ ·çÆ¼¿À
-#define	II_SYS_SYS_GEM_LUXUBOX	18161	//´Ï³ªÀÇ »óÀÚ
-#define	II_SYS_SYS_GEM_SPECBOX	18162	//ÂîÂîÀÇ »óÀÚ
-#define	II_SYS_SYS_GEM_NORMBOX	18163	//»ß»ßÀÇ »óÀå
-#define	II_SYS_SYS_QUE_YORN	18164	//¿ä¸¥
-#define	II_SYS_SYS_QUE_DORIRIND	18165	//µµ¸®µµ¸¶ ²®Áú
-#define	II_SYS_SYS_QUE_LIQMUSH	18166	//¸Ó½´¸° ¾×
-#define	II_GEN_FOO_COO_DORIVINIG	18167	//µµ¸®µµ¸® ÃÊ¹ä
-#define	II_SYS_SYS_QUE_PROVGOLDHELM	18168	//È²±Ý Çï¸äÀÇ ´Ü¼­
-#define	II_SYS_SYS_QUE_GOLDHELM	18169	//ºô·¹ÀÌ¾ðÀÇ È²±Ý Çï¸ä
-#define	II_SYS_SYS_QUE_SOULSTONE	18170	//¼Ò¿ï ½ºÅæ
-#define	II_SYS_SYS_QUE_EARRHEREN	18171	//Çì·»ÀÇ ±Í°í¸®
-#define	II_SYS_SYS_QUE_TEARDARK	18172	//¾ÏÈæÀÇ ´«¹°
-#define	II_SYS_SYS_QUE_DOCHALL	18173	//µµÀå ¹®¼­
-#define	II_SYS_SYS_QUE_MPOSTERSKILL	18174	//±â¼úÀÇ Æ÷½ºÅÍ(±ØÁø)
-#define	II_SYS_SYS_QUE_MARKEIEN	18175	//¿¡ÀÌ¿£´ÀÀÇ ÀÎÀå
-#define	II_SYS_SYS_QUE_DEWEIEN	18176	//¿¡ÀÌ¿£´ÀÀÇ ÀÌ½½
-#define	II_SYS_SYS_QUE_UNDERSTRENGTH	18177	//°­È­ÀÇ ¸¶¹ý ¼Ó¿Ê
-#define	II_SYS_SYS_QUE_TRAOPEREB	18178	//¿ÀÆÛ¿¦ÀÇ ÈçÀû
-#define	II_SYS_SYS_QUE_FEATHERMANA	18179	//¸¶·Â Áõ°¡ÀÇ ±êÅÐ
-#define	II_SYS_SYS_QUE_PERFLYLIP	18180	//¸±¸³ÀÇ Çâ¼ö
-#define	II_SYS_SYS_QUE_KEYPIECE	18181	//¿­¼èÁ¶°¢
-#define	II_SYS_SYS_QUE_WARMARK	18182	//ÀüÀïÀÇ ÈçÀû
-#define	II_SYS_SYS_QUE_WOUNDWAR	18183	//ÀüÀïÀÇ »óÃ³
-#define	II_SYS_SYS_QUE_IBLRECORD	18184	//ÀÌºí¸®½ºÀÇ °è½Ã·Ï Å¹º»
-#define	II_SYS_SYS_QUE_IBLGUAMARK	18185	//ÀÌºí°¡´õÀÇ ¹®¾ç
-#define	II_GEN_WARP_WEDDING_BAND	18186	// °áÈ¥ ¹ÝÁö
+//Quest ï¿½ï¿½ Event Item - Jimmie(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_GRPFLARIS	18096	//ï¿½Ã¶ó¸®½ï¿½ ï¿½ï¿½
+#define	II_SYS_SYS_QUE_GRPSAINT	18097	//ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½
+#define	II_SYS_SYS_QUE_GRPDARKON	18098	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+#define	II_SYS_SYS_BIN_BOZFLARIS	18099	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¶ó¸®½ï¿½
+#define	II_SYS_SYS_BIN_BOZSAINT	18100	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
+#define	II_SYS_SYS_BIN_BOZDARKON	18101	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_REDBANGHEAD	18102	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¸ï¿½
+#define	II_SYS_SYS_QUE_LUDASAFE	18103	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý°ï¿½
+#define	II_SYS_SYS_QUE_METEORITILL	18104	//ï¿½ï¿½ï¿½×¿ï¿½ï¿½ï¿½ï¿½ï¿½Æ¿
+#define	II_SYS_SYS_QUE_SCRIPT	18105	//ï¿½ëº»
+#define	II_SYS_SYS_QUE_LES1MANU	18106	//ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½
+#define	II_SYS_SYS_QUE_LES2MANU	18107	//ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
+#define	II_SYS_SYS_QUE_LES3MANU	18108	//ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½
+#define	II_SYS_SYS_QUE_CLUEPORT1	18109	//ï¿½Ê»ï¿½È­ ï¿½Ü¼ï¿½1
+#define	II_SYS_SYS_QUE_CLUEPORT2	18110	//ï¿½Ê»ï¿½È­ ï¿½Ü¼ï¿½2
+#define	II_SYS_SYS_QUE_RADIPORT	18111	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê»ï¿½È­
+#define	II_SYS_SYS_QUE_BONEWAG	18112	//ï¿½Í±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_DNAWAG	18113	//ï¿½Í±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BLKMAR	18114	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BLKSPL	18115	//ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¹ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BLKHER	18116	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ä« Ç®
+#define	II_SYS_SYS_GEM_REDSOCKS	18117	//ï¿½ï¿½ï¿½ï¿½ ï¿½ç¸»
+#define	II_SYS_SYS_GEM_BLUEGBOX	18118	//ï¿½Ä¶ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_REDGBOX	18119	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_YELLOWGBOX	18120	//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_SECDIS	18121	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ç¼­
+#define	II_SYS_SYS_QUE_JINDOLL	18122	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_TRUDIS	18123	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ç¼­
+#define	II_SYS_SYS_GEM_RCSOUP	18124	//ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_LUCKBAG	18125	//ï¿½ï¿½ï¿½Ö¸Ó´ï¿½
+#define	II_SYS_SYS_QUE_REQFORM	18126	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
+#define	II_SYS_SYS_QUE_FLASTONE	18127	//ï¿½Ã¶ó¸®½ï¿½ ï¿½Ï¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_SAINSTONE	18128	//ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ ï¿½Ï¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_DARSTONE	18129	//ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_PRFCONDIV	18130	//ï¿½ï¿½ï¿½ ï¿½Ð¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½
+#define	II_SYS_SYS_QUE_GOTNOMINATE	18131	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ãµï¿½ï¿½
+#define	II_SYS_SYS_QUE_STRCLOTH	18132	//ï¿½Ì»ï¿½ï¿½ï¿½ Ãµ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BKDREAD1	18133	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 1ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MAPDREAD1	18134	//ï¿½×µï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_HRTTHYRED	18135	//ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BKDREAD2	18136	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 2ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MAPDREAD2	18137	//ï¿½×µï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_HRTDASIED	18138	//ï¿½Ù½Ãµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BKDREAD3	18139	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 3ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MAPDREAD3	18140	//ï¿½×µï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_HRTARVAN	18141	//ï¿½Æ¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_UNKMARK	18142	//ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_UNKCLOTH	18143	//ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ãµ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_BOOKTRBHIS	18144	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_ENTANALE	18145	//ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Òµï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_ENTANALE	18146	//ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Òµï¿½(ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_RBSYMBOL	18147	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Â¡
+#define	II_SYS_SYS_QUE_LBNECKLACE	18148	//ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MIAREPORT	18149	//ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_PRFMISS	18150	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_EXAMDATA	18151	//ï¿½ï¿½Ä®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú·ï¿½
+#define	II_SYS_SYS_QUE_ACEBOOK	18152	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¥ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MYSTGEMB	18153	//ï¿½Ç¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(Ã»)
+#define	II_SYS_SYS_QUE_MYSTGEMR	18154	//ï¿½Ç¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_BKLAOLA	18155	//ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_SCRGOTH	18156	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_QUE_EMERSPAWN	18157	//ï¿½ï¿½ï¿½Ó¶ï¿½ï¿½å½ºï¿½ï¿½
+#define	II_SYS_SYS_GEM_BROKTM	18158	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_LIQUES	18159	//ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¹ï¿½Æ®
+#define	II_SYS_SYS_GEM_DRYNRT	18160	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½
+#define	II_SYS_SYS_GEM_LUXUBOX	18161	//ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_SPECBOX	18162	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GEM_NORMBOX	18163	//ï¿½ß»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_YORN	18164	//ï¿½ä¸¥
+#define	II_SYS_SYS_QUE_DORIRIND	18165	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_LIQMUSH	18166	//ï¿½Ó½ï¿½ï¿½ï¿½ ï¿½ï¿½
+#define	II_GEN_FOO_COO_DORIVINIG	18167	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¹ï¿½
+#define	II_SYS_SYS_QUE_PROVGOLDHELM	18168	//È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¼ï¿½
+#define	II_SYS_SYS_QUE_GOLDHELM	18169	//ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ È²ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_SOULSTONE	18170	//ï¿½Ò¿ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_EARRHEREN	18171	//ï¿½ì·»ï¿½ï¿½ ï¿½Í°ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_TEARDARK	18172	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_DOCHALL	18173	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_MPOSTERSKILL	18174	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_MARKEIEN	18175	//ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_DEWEIEN	18176	//ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì½ï¿½
+#define	II_SYS_SYS_QUE_UNDERSTRENGTH	18177	//ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¿ï¿½
+#define	II_SYS_SYS_QUE_TRAOPEREB	18178	//ï¿½ï¿½ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_FEATHERMANA	18179	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_PERFLYLIP	18180	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_KEYPIECE	18181	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_WARMARK	18182	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_WOUNDWAR	18183	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã³
+#define	II_SYS_SYS_QUE_IBLRECORD	18184	//ï¿½Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã·ï¿½ Å¹ï¿½ï¿½
+#define	II_SYS_SYS_QUE_IBLGUAMARK	18185	//ï¿½Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_WARP_WEDDING_BAND	18186	// ï¿½ï¿½È¥ ï¿½ï¿½ï¿½ï¿½
 
-//½Å±Ô¸ó½ºÅÍ Àü¸®Ç° ¾ÆÀÌÅÛ
+//ï¿½Å±Ô¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_HOOKKIMERA	20500
 #define	II_GEN_GEM_GEM_BEARMANE	20501
 #define	II_GEN_GEM_GEM_CRUETMUF	20502
 #define	II_GEN_GEM_GEM_SHIFTPOP	20503
 
-// Æê¼ÒÈ¯ ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_PET_LAWOLF1	21000
 #define	II_PET_AIBATT1	21001
 #define	II_PET_LEYENA1	21002
@@ -4050,10 +4050,10 @@
 #define	II_PET_SKEL01	21089
 #define	II_PET_MOCOMOCI	21090
 
-//±è°¨µ¶´Ô Æê
+//ï¿½è°¨ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 #define	II_PET_KIMPD	21091
 
-//½Ã½ºÅÛ Æê
+//ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½
 #define	II_PET_EGG	21029
 #define	II_PET_WHITETIGER01	21039
 #define	II_PET_BARBARYLION01	21040
@@ -4080,7 +4080,7 @@
 #define	II_SYS_SYS_FEED_MAKER	21038
 
 
-// ±â°£Á¦ ¾ÆÀÌÅÛ
+// ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BX_PET_LAWOLF1	21008
 #define	II_SYS_SYS_SCR_BX_PET_LAWOLF7	21009
 #define	II_SYS_SYS_SCR_BX_PET_LAWOLF30	21010
@@ -4103,13 +4103,13 @@
 #define	II_SYS_SYS_SCR_BX_EVE_FSNOWMAN07	21024
 #define	II_SYS_SYS_SCR_BX_EVE_FSNOWMAN30	21025
 
-// °íÀ¯ ¹«±â 1Â÷
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½
 #define	II_WEA_SWO_BOBOKU	22000
 #define	II_WEA_AXE_LUDA	22001
 #define	II_WEA_SWO_FALL	22002
 #define	II_WEA_AXE_FALL	22003
 #define	II_WEA_KNU_FALL	22004
-// °íÀ¯ ¹«±â 2Â÷
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
 #define	II_WEA_SWO_SWD30	22005
 #define	II_WEA_SWO_SWD45	22006
 #define	II_WEA_AXE_AXE30	22007
@@ -4132,7 +4132,7 @@
 #define	II_WEA_STA_STA30	22024
 #define	II_WEA_STA_STA45	22025
 
-// °íÀ¯ ¹«±â 3Â÷ (À¯´ÏÅ© ¹«±â ¾ÆÀÌÅÛ) - kyk1236(¿ë±Ô)
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) - kyk1236(ï¿½ï¿½ï¿½)
 #define	II_WEA_SWO_SUHO	22026
 #define	II_WEA_SWO_USU	22027
 #define	II_WEA_SWO_ANGEL	22028
@@ -4174,7 +4174,7 @@
 #define	II_WEA_STA_ANGEL	22064
 #define	II_WEA_STA_LEAGENDG	22065
 
-// ¼¼Æ®¾ÆÀÌÅÛ(2Â÷) - ·¹º§ 60,75,90,105 (KYK1236¿ë±Ô)
+// ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(2ï¿½ï¿½) - ï¿½ï¿½ï¿½ï¿½ 60,75,90,105 (KYK1236ï¿½ï¿½ï¿½)
 #define	II_ARM_M_MER_HELMET_SET_04	22066
 #define	II_ARM_M_MER_SUIT_SET_04	22067
 #define	II_ARM_M_MER_GAUNTLET_SET_04	22068
@@ -4400,7 +4400,7 @@
 #define	II_ARM_F_ELE_GAUNTLET_SET_31	22288
 #define	II_ARM_F_ELE_BOOTS_SET_31	22289
 
-// ¼¼Æ®¾ÆÀÌÅÛ(3Â÷)
+// ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(3ï¿½ï¿½)
 #define	II_ARM_M_KIN_HELMET_SET_32	22290
 #define	II_ARM_M_KIN_SUIT_SET_32	22291
 #define	II_ARM_M_KIN_GAUNTLET_SET_32	22292
@@ -4465,7 +4465,7 @@
 #define	II_ARM_F_ELE_SUIT_SET_32	22351
 #define	II_ARM_F_ELE_GAUNTLET_SET_32	22352
 #define	II_ARM_F_ELE_BOOTS_SET_32	22353
-// ºí·¯µð ½Ã¸®Áî(À¯´ÏÅ© ¹«±â)
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½)
 #define	II_WEA_SWO_BLOODY	22354
 #define	II_WEA_SWT_BLOODY	22355
 #define	II_WEA_AXE_BLOODY	22356
@@ -4477,13 +4477,13 @@
 #define	II_WEA_YOY_BLOODY	22362
 #define	II_WEA_BOW_BLOODY	22363
 
-// ´©¶ô ÀÏ¹Ý ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWT_PEACE	22364
 #define	II_WEA_SWT_LASTER	22365
 #define	II_WEA_AXT_PEACE	22366
 #define	II_WEA_AXT_LASTER	22367
 
-//¾óÅÍ¸Ú ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_SUHOUM	22368
 #define	II_WEA_SWO_USUUM	22369
 #define	II_WEA_SWO_ANGELUM	22370
@@ -4535,7 +4535,7 @@
 #define	II_WEA_STA_LEAGENDGUM	22416
 #define	II_WEA_STA_BLOODYUM	22417
 
-//120 ¼¼Æ® ¹æ¾î±¸
+//120 ï¿½ï¿½Æ® ï¿½ï¿½î±¸
 #define	II_ARM_M_KIN_HELMET_SET_33	22418
 #define	II_ARM_M_KIN_SUIT_SET_33	22419
 #define	II_ARM_M_KIN_GAUNTLET_SET_33	22420
@@ -4610,7 +4610,7 @@
 #define	II_SYS_SYS_SCR_BXMMAG60SET	22498
 #define	II_SYS_SYS_SCR_BXFMAG60SET	22499
 
-// 14Â÷ À¯´ÏÅ© ¹«±â
+// 14ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_ANCIENT	22500
 #define	II_WEA_SWT_ANCIENT	22501
 #define	II_WEA_AXE_ANCIENT	22502
@@ -4640,7 +4640,7 @@
 #define	II_SYS_SYS_QUE_TODRINHEART	22523
 #define	II_SYS_SYS_QUE_HARMONINDAILY2	22524
 
-//15Â÷ ½Ã³ª¸®¿À Äù½ºÆ® ¾ÆÀÌÅÛ
+//15ï¿½ï¿½ ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_DECIPHERPAPER01	22525
 #define	II_SYS_SYS_QUE_BXQUESTION01	22526
 #define	II_SYS_SYS_QUE_QUESTIONPAPER01	22527
@@ -4651,7 +4651,7 @@
 #define	II_SYS_SYS_QUE_RERGARU01	22532
 #define	II_SYS_SYS_QUE_FIGHTERBOX	22597
 
-//15Â÷ 125 ¼¼Æ® ¹æ¾î±¸
+//15ï¿½ï¿½ 125 ï¿½ï¿½Æ® ï¿½ï¿½î±¸
 #define	II_ARM_M_KIN_HELMET_SET_34	22533
 #define	II_ARM_M_KIN_SUIT_SET_34	22534
 #define	II_ARM_M_KIN_GAUNTLET_SET_34	22535
@@ -4720,44 +4720,44 @@
 
 
 
-// GM ¸í·É ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_GM_NODISGUISE	25999	// º¯½Å ÇØÁ¦
-#define	II_SYS_SYS_GM_UNDYING	26000	// ¹«Àû
-#define	II_SYS_SYS_GM_UNDYING2	26001	// ¹Ý¹«Àû
-#define	II_SYS_SYS_GM_DIS_AIBATT1	26002	// º¯½Å ºÎÇÏ ¾ÆÀÌ¹ÙÆ®
-#define	II_SYS_SYS_GM_DIS_MUSHPANG1	26003	// º¯½Å ºÎÇÏ ¸Ó½´ÆÎ
-#define	II_SYS_SYS_GM_DIS_NYANGNYANG1	26004	// º¯½Å ±Í¿©¿î ³É³É
-#define	II_SYS_SYS_GM_DIS_YOUNGAIBATT	26005	// "»õ³¢ ¾ÆÀÌ¹ÙÆ® º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_AIBATT4	26006	// "°Å´ë ¾ÆÀÌ¹ÙÆ® º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_CUTELAWOLF	26007	// "±Í¿©¿î ¶ó¿ïÇÁ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LAWOLF	26008	// "¶ó¿ïÇÁ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LAWOLF4	26009	// "°Å´ë ¶ó¿ïÇÁ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LEYENA	26010	// "±æµé¿©Áø ·¹ÀÌ¿¡³ª º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LEYENA2	26011	// "·¹ÀÌ¿¡³ª º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LEYENA4	26012	// "°Å´ë ·¹ÀÌ¿¡³ª º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LUIA	26013	// "¿µ°è ·çÀÌ¾Æ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LUIA2	26014	// "·çÀÌ¾Æ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LUIA4	26015	// "°Å´ë ·çÀÌ¾Æ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_DWARPETMAS	26016	// "¸¶½ºÅÍ µå¿öÆê º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_CROWNIBLIS	26017	// "ÀÌºí¸®½º º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_CROWNSHADE	26018	// "½¦ÀÌµå º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_CROWNBUBBLE	26019	// "¹öºí º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_BANG5	26020	// "¾ç½É¾ø´Â ¹ð º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_MRPUMPKIN5	26021	// "±«¼ö ¹Ì½ºÅÍ ÆßÅ² º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_LOSHA	26022	// "·Î»þ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_BOBOKU	26023	// "º¸º¸Äí º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_JURIA	26024	// "Áì¸®¾Æ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_MARCHE	26025	// "¸¶¸£½¦ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_MARTIN	26026	// "¸¶Æ¾ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_REWARD	26027	// "¸¶À» °æºñ ´ëÀå º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_GUARDIAN	26028	// "°æºñº´ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_SANTA	26029	// "»êÅ¸ º¯½Å±¸"
-#define	II_SYS_SYS_GM_DIS_CROWNIBLIS1	26030	// "ÀÌºí¸®½º º¯½Å±¸(2½Ã°£)" "
+// GM ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_NODISGUISE	25999	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_UNDYING	26000	// ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_UNDYING2	26001	// ï¿½Ý¹ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_DIS_AIBATT1	26002	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¹ï¿½Æ®
+#define	II_SYS_SYS_GM_DIS_MUSHPANG1	26003	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_DIS_NYANGNYANG1	26004	// ï¿½ï¿½ï¿½ï¿½ ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½É³ï¿½
+#define	II_SYS_SYS_GM_DIS_YOUNGAIBATT	26005	// "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¹ï¿½Æ® ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_AIBATT4	26006	// "ï¿½Å´ï¿½ ï¿½ï¿½ï¿½Ì¹ï¿½Æ® ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_CUTELAWOLF	26007	// "ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LAWOLF	26008	// "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LAWOLF4	26009	// "ï¿½Å´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LEYENA	26010	// "ï¿½ï¿½é¿©ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LEYENA2	26011	// "ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LEYENA4	26012	// "ï¿½Å´ï¿½ ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LUIA	26013	// "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LUIA2	26014	// "ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LUIA4	26015	// "ï¿½Å´ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_DWARPETMAS	26016	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_CROWNIBLIS	26017	// "ï¿½Ìºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_CROWNSHADE	26018	// "ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_CROWNBUBBLE	26019	// "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_BANG5	26020	// "ï¿½ï¿½É¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_MRPUMPKIN5	26021	// "ï¿½ï¿½ï¿½ï¿½ ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½Å² ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_LOSHA	26022	// "ï¿½Î»ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_BOBOKU	26023	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_JURIA	26024	// "ï¿½ì¸®ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_MARCHE	26025	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_MARTIN	26026	// "ï¿½ï¿½Æ¾ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_REWARD	26027	// "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_GUARDIAN	26028	// "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_SANTA	26029	// "ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½Å±ï¿½"
+#define	II_SYS_SYS_GM_DIS_CROWNIBLIS1	26030	// "ï¿½Ìºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å±ï¿½(2ï¿½Ã°ï¿½)" "
 
-#define	II_RID_RID_BOR_FPLANET	26100	// ¹Ì±¹ ¼±¹°¿ë º¸µå
-#define	II_SYS_SYS_SCR_BXMERCENARY	26101	// ¼±¹° »óÀÚ ( ¸Ó¼­³Ê¸® ¿ë )
-#define	II_SYS_SYS_SCR_BXMAGICIAN	26102	// ¼±¹° »óÀÚ ( ¸ÅÁö¼Ç ¿ë )
-#define	II_SYS_SYS_SCR_BXDUEL	26103	// ¼±¹° »óÀÚ ( ¾î½Ã½ºÆ®, ¾ÆÅ©·Îºª ¿ë )
+#define	II_RID_RID_BOR_FPLANET	26100	// ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXMERCENARY	26101	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½Ó¼ï¿½ï¿½Ê¸ï¿½ ï¿½ï¿½ )
+#define	II_SYS_SYS_SCR_BXMAGICIAN	26102	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ )
+#define	II_SYS_SYS_SCR_BXDUEL	26103	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½Ã½ï¿½Æ®, ï¿½ï¿½Å©ï¿½Îºï¿½ ï¿½ï¿½ )
 
 #define	II_ARM_M_CHR_CAT01HATSTAT1	26104	// Cats(M) Hat+
 #define	II_ARM_M_CHR_CAT01SUITSTAT1	26105	// Cats(M) Suit+
@@ -4768,53 +4768,53 @@
 #define	II_ARM_F_CHR_CAT01GLOVESSTAT1	26110	// Cats(F) Gloves+
 #define	II_ARM_F_CHR_CAT01SHOESSTAT1	26111	// Cats(F) Shoes+
 
-//±æµå´ëÀü ÀÌº¥Æ®¿ë °æÇ°»óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXSCRACH	26112
 
-//±æµå´ëÀü »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXGUILD	26113
 #define	II_SYS_SYS_SCR_DEFENSE20	26114
 #define	II_SYS_SYS_SCR_DEFENSE50	26115
 
-// seghope - »ó¿ëÈ­ ¾ÆÀÌÅÛ Ãß°¡ Start
-#define	II_SYS_SYS_SCR_SUPERLEADERPARTY	26200	// "´ÜÀåÀÇ Ãàº¹"
-#define	II_SYS_SYS_SCR_FRIENDSUMMON_A	26201	// "±Ý¶õÁö±³(A)"
-#define	II_SYS_SYS_SCR_PARTYSUMMON	26202	// "´ÜÀåÀÇ ºÎ¸§"
-#define	II_SYS_SYS_SCR_SUPERSMELTING	26203	// "Á¦·ÃÀÇ µÎ·ç¸¶¸®(Áø)"
-#define	II_CHR_SYS_SCR_ITEMTRANSY_A	26204	// "Æ®·£Áö(ITM)(A)"
-#define	II_SYS_SYS_SCR_AMPESA	26205	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®(A)"
-#define	II_SYS_SYS_SCR_AMPESA1	26206	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®A1"
-#define	II_SYS_SYS_SCR_AMPESA2	26207	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®A2"
-#define	II_SYS_SYS_SCR_AMPESB	26208	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®(B)"
-#define	II_SYS_SYS_SCR_AMPESB1	26209	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®B1"
-#define	II_SYS_SYS_SCR_AMPESB2	26210	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®B2"
-#define	II_SYS_SYS_SCR_AMPESC	26211	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®(C)"
-#define	II_SYS_SYS_SCR_AMPESC1	26212	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®C1"
-#define	II_SYS_SYS_SCR_AMPESC2	26213	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®C2"
-#define	II_SYS_SYS_SCR_AMPESD	26214	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®(D)"
-#define	II_SYS_SYS_SCR_AMPESD1	26215	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®D1"
-#define	II_SYS_SYS_SCR_AMPESD2	26216	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®D2"
-#define	II_SYS_SYS_SCR_FRIENDSUMMON_B	26217	// "±Ý¶õÁö±³(B)"
-#define	II_CHR_SYS_SCR_ITEMTRANSY_B	26218	// "Æ®·£Áö(ITM)(B)"
-#define	II_SYS_SYS_SCR_AMPESE	26219	// "ESÁõÆøÀÇ µÎ·ç¸¶¸®(E)"
+// seghope - ï¿½ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ Start
+#define	II_SYS_SYS_SCR_SUPERLEADERPARTY	26200	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹"
+#define	II_SYS_SYS_SCR_FRIENDSUMMON_A	26201	// "ï¿½Ý¶ï¿½ï¿½ï¿½ï¿½ï¿½(A)"
+#define	II_SYS_SYS_SCR_PARTYSUMMON	26202	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î¸ï¿½"
+#define	II_SYS_SYS_SCR_SUPERSMELTING	26203	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½ï¿½)"
+#define	II_CHR_SYS_SCR_ITEMTRANSY_A	26204	// "Æ®ï¿½ï¿½ï¿½ï¿½(ITM)(A)"
+#define	II_SYS_SYS_SCR_AMPESA	26205	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(A)"
+#define	II_SYS_SYS_SCR_AMPESA1	26206	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½A1"
+#define	II_SYS_SYS_SCR_AMPESA2	26207	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½A2"
+#define	II_SYS_SYS_SCR_AMPESB	26208	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(B)"
+#define	II_SYS_SYS_SCR_AMPESB1	26209	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½B1"
+#define	II_SYS_SYS_SCR_AMPESB2	26210	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½B2"
+#define	II_SYS_SYS_SCR_AMPESC	26211	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(C)"
+#define	II_SYS_SYS_SCR_AMPESC1	26212	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½C1"
+#define	II_SYS_SYS_SCR_AMPESC2	26213	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½C2"
+#define	II_SYS_SYS_SCR_AMPESD	26214	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(D)"
+#define	II_SYS_SYS_SCR_AMPESD1	26215	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½D1"
+#define	II_SYS_SYS_SCR_AMPESD2	26216	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½D2"
+#define	II_SYS_SYS_SCR_FRIENDSUMMON_B	26217	// "ï¿½Ý¶ï¿½ï¿½ï¿½ï¿½ï¿½(B)"
+#define	II_CHR_SYS_SCR_ITEMTRANSY_B	26218	// "Æ®ï¿½ï¿½ï¿½ï¿½(ITM)(B)"
+#define	II_SYS_SYS_SCR_AMPESE	26219	// "ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(E)"
 
-#define	II_SYS_SYS_SCR_CHANCECRITICAL	26220	// "¿¹¸®ÇÔÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_ATTACKSPEED	26221	// "³­µµÁúÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_HITRATE	26222	// "ÀûÁßÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_SPELLRATE	26223	// "Àçºü¸¥ »ç°í ¹°¾à"
-#define	II_SYS_SYS_SCR_STR	26224	// "ÈûÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_DEX	26225	// "¹ÎÃ¸ÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_INT	26226	// "Áö´ÉÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_STA	26227	// "Ã¼·ÂÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_ADJDEF	26228	// "¹æ¾îÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_RESIST_MAGIC	26229	// "ÀúÇ×ÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_MPMAX	26230	// "¸¶³ªÁõÆøÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_ADDMAGIC	26231	// "¸¶¹ýÁõÆøÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_PARRY	26232	// "È¸ÇÇÀÇ ¹°¾à"
-#define	II_SYS_SYS_SCR_CRITICALBONUS	26233	// "°ú´ÙÃâÇ÷ÀÇ ¹°¾à"
-// seghope - »ó¿ëÈ­ ¾ÆÀÌÅÛ Ãß°¡ End
+#define	II_SYS_SYS_SCR_CHANCECRITICAL	26220	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_ATTACKSPEED	26221	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_HITRATE	26222	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_SPELLRATE	26223	// "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_STR	26224	// "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_DEX	26225	// "ï¿½ï¿½Ã¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_INT	26226	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_STA	26227	// "Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_ADJDEF	26228	// "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_RESIST_MAGIC	26229	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_MPMAX	26230	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_ADDMAGIC	26231	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_PARRY	26232	// "È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_SCR_CRITICALBONUS	26233	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"
+// seghope - ï¿½ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ End
 
-// ÀÌºí¸®½ºÀÇ »ç¿ø¿ë ¾ÆÀÌÅÛ
+// ï¿½Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_IBLLINESS	26234
 #define	II_WEA_SWT_IBLLINESS	26235
 #define	II_WEA_AXE_IBLLINESS	26236
@@ -4832,27 +4832,27 @@
 
 #define	II_ARM_ARM_SHI_CONTRA	26247
 
-// ¸ó½ºÅÍ »ý¼º ¼ÒÈ¯
-#define	II_CHR_SYS_SCR_CM_LV5	26300	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(5)"
-#define	II_CHR_SYS_SCR_CM_LV10	26301	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(10)"
-#define	II_CHR_SYS_SCR_CM_LV15	26302	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(15)"
-#define	II_CHR_SYS_SCR_CM_LV20	26303	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(20)"
-#define	II_CHR_SYS_SCR_CM_LV25	26304	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(25)"
-#define	II_CHR_SYS_SCR_CM_LV30	26305	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(30)"
-#define	II_CHR_SYS_SCR_CM_LV35	26306	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(35)"
-#define	II_CHR_SYS_SCR_CM_LV40	26307	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(40)"
-#define	II_CHR_SYS_SCR_CM_LV45	26308	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(45)"
-#define	II_CHR_SYS_SCR_CM_LV50	26309	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(50)"
-#define	II_CHR_SYS_SCR_CM_LV55	26310	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(55)"
-#define	II_CHR_SYS_SCR_CM_LV60	26311	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(60)"
-#define	II_CHR_SYS_SCR_CM_LV65	26312	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(65)"
-#define	II_CHR_SYS_SCR_CM_LV70	26313	// "±¤´ëÀÇ ½ÅºñÇÑ °ø(70)"
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
+#define	II_CHR_SYS_SCR_CM_LV5	26300	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(5)"
+#define	II_CHR_SYS_SCR_CM_LV10	26301	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(10)"
+#define	II_CHR_SYS_SCR_CM_LV15	26302	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(15)"
+#define	II_CHR_SYS_SCR_CM_LV20	26303	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(20)"
+#define	II_CHR_SYS_SCR_CM_LV25	26304	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(25)"
+#define	II_CHR_SYS_SCR_CM_LV30	26305	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(30)"
+#define	II_CHR_SYS_SCR_CM_LV35	26306	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(35)"
+#define	II_CHR_SYS_SCR_CM_LV40	26307	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(40)"
+#define	II_CHR_SYS_SCR_CM_LV45	26308	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(45)"
+#define	II_CHR_SYS_SCR_CM_LV50	26309	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(50)"
+#define	II_CHR_SYS_SCR_CM_LV55	26310	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(55)"
+#define	II_CHR_SYS_SCR_CM_LV60	26311	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(60)"
+#define	II_CHR_SYS_SCR_CM_LV65	26312	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(65)"
+#define	II_CHR_SYS_SCR_CM_LV70	26313	// "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Åºï¿½ï¿½ï¿½ ï¿½ï¿½(70)"
 
 #define	II_SYS_SYS_SCR_AMPESA_LINK	26314
 #define	II_SYS_SYS_SCR_BLESSING_LINK	26315
-#define	II_SYS_SYS_SCR_RECCURENCE_LINK	26316
+//#define	II_SYS_SYS_SCR_RECCURENCE_LINK	26316 - Re-Skill (Event) Removed from the game
 
-// ÇÑ°¡À§ ÀÌº¥Æ® (2006³â Ãß¼®)
+// ï¿½Ñ°ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® (2006ï¿½ï¿½ ï¿½ß¼ï¿½)
 #define	II_SYS_SYS_EVE_REDBALL	26317
 #define	II_SYS_SYS_EVE_ORANGEBALL	26318
 #define	II_SYS_SYS_EVE_YELLOWBALL	26319
@@ -4863,30 +4863,30 @@
 #define	II_SYS_SYS_EVE_FPSONGPYUN	26324
 #define	II_SYS_SYS_EVE_SONGPYUN	26325
 
-//06³â ÇØ¿Ü °¡À» ÀÌº¥Æ®
+//06ï¿½ï¿½ ï¿½Ø¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_LEAF01	26326
 #define	II_SYS_SYS_EVE_SEEDLING01	26327
 #define	II_SYS_SYS_EVE_SEEDLING02	26328
 #define	II_SYS_SYS_EVE_SEEDLING03	26329
 #define	II_SYS_SYS_EVE_SEEDLING04	26330
 
-// 6-15 ÀÏº» Ãß°¡ ¾ÆÀÌÅÛ
+// 6-15 ï¿½Ïºï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_AMPES_LINK	26331
 #define	II_SYS_SYS_SCR_BXMHAN07_JAP	26332
 #define	II_SYS_SYS_SCR_BXFHAN07_JAP	26333
 
-// 6-16 ´ë¸¸ Ãß°¡ ¾ÆÀÌÅÛ
+// 6-16 ï¿½ë¸¸ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_FOO_ICE_STRAWBERRYSHAKE_TWN	26334
 
-// 06³â Å©¸®½º¸¶½º ÀÌº¥Æ®
-#define	II_SYS_SYS_SCR_BXSANTA	26335	// »êÅ¸ÀÇ ¼±¹° »óÀÚ
-#define	II_ARM_S_CLO_MAS_RUDOLPH_NOSE	26336	// ·çµ¹ÇÁ ÄÚ
-#define	II_GEN_FOO_INS_CHRISTMAS_COOKIES	26337	// Å©¸®½º¸¶½º Äí±â
-#define	II_SYS_SYS_GM_DIS_SANTA2	26338	// 30ºÐ »êÅ¸ º¯½Å±¸
-#define	II_SYS_SYS_SCR_BXMSANTA01HAT	26339	// »êÅ¸ ¸ðÀÚ 7ÀÏ(³²)
-#define	II_SYS_SYS_SCR_BXFSANTA01HAT	26340	// »êÅ¸ ¸ðÀÚ 7ÀÏ(¿©)
+// 06ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BXSANTA	26335	// ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_MAS_RUDOLPH_NOSE	26336	// ï¿½çµ¹ï¿½ï¿½ ï¿½ï¿½
+#define	II_GEN_FOO_INS_CHRISTMAS_COOKIES	26337	// Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GM_DIS_SANTA2	26338	// 30ï¿½ï¿½ ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½Å±ï¿½
+#define	II_SYS_SYS_SCR_BXMSANTA01HAT	26339	// ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BXFSANTA01HAT	26340	// ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½(ï¿½ï¿½)
 
-// °¡¹ß (³²¼º¿ë)
+// ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define	II_ARM_M_CLO_MAS_WIG01GO	26341
 #define	II_ARM_M_CLO_MAS_WIG01P	26342
 #define	II_ARM_M_CLO_MAS_WIG01B	26343
@@ -4919,7 +4919,7 @@
 #define	II_ARM_M_CLO_MAS_WIG10V	26370
 
 
-// °¡¹ß (¿©¼º¿ë)
+// ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define	II_ARM_F_CLO_MAS_WIG01GO	26371
 #define	II_ARM_F_CLO_MAS_WIG01P	26372
 #define	II_ARM_F_CLO_MAS_WIG01B	26373
@@ -4951,26 +4951,26 @@
 #define	II_ARM_F_CLO_MAS_WIG10G	26399
 #define	II_ARM_F_CLO_MAS_WIG10V	26400
 
-// ¹ß·»Å¸ÀÎ ÀÌº¥Æ®
-#define	II_SYS_SYS_SCR_VALENTINE	26401	// »ç¶ûÀÇ ¼±¹° »óÀÚ
-#define	II_GEN_FOO_INS_VALENTINE_COOKIES	26402	// ¹ß·»Å¸ÀÎ ÄíÅ°
+// ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_VALENTINE	26401	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_FOO_INS_VALENTINE_COOKIES	26402	// ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½Å°
 
-// ¹ß·»Å¸ÀÎ ÀÌº¥Æ® °ü·Ã ÅÎ½Ãµµ 7ÀÏ
+// ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½Î½Ãµï¿½ 7ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMTUXEDO04	26403
 #define	II_SYS_SYS_SCR_BXMTUXEDO05	26404
 #define	II_SYS_SYS_SCR_BXMTUXEDO06	26405
-// ¹ß·»Å¸ÀÎ ÀÌº¥Æ® °ü·Ã µå·¹½º 7ÀÏ
+// ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½å·¹ï¿½ï¿½ 7ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXFDRESS05	26406
 #define	II_SYS_SYS_SCR_BXFDRESS06	26407
 #define	II_SYS_SYS_SCR_BXFDRESS07	26408
 
-// 2007 ±¸Á¤ È²±Ý º¹ µÅÁö ÀÌº¥Æ®
-#define	II_SYS_SYS_SCR_BXPIG	26409	// È²±Ý º¹ µÅÁö
-#define	II_SYS_SYS_SCR_HAIRCHANGE	26410	// Çì¾î Ã¼ÀÎÁö ±³È¯±Ç
-#define	II_SYS_SYS_SCR_FACEOFFFREE	26411	// ¼ºÇü ¹«·á ÀÌ¿ë±Ç
-#define	II_SYS_SYS_SCR_BXPIG_TWN	26412	// È²±Ý º¹ µÅÁö(´ë¸¸¿ë)
+// 2007 ï¿½ï¿½ï¿½ï¿½ È²ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BXPIG	26409	// È²ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_HAIRCHANGE	26410	// ï¿½ï¿½ï¿½ Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½
+#define	II_SYS_SYS_SCR_FACEOFFFREE	26411	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXPIG_TWN	26412	// È²ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ë¸¸ï¿½ï¿½)
 
-// 2007 ÀÌº¥Æ® ¾ÆÀÌÅÛ
+// 2007 ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_SCHOOL01	26413
 #define	II_SYS_SYS_SCR_BXSCHOOL01	26414
 #define	II_SYS_SYS_SCR_BXSCHOOL02	26415
@@ -4999,14 +4999,14 @@
 #define	II_SYS_SYS_EVE_BALLOON02	26443
 #define	II_SYS_SYS_EVE_BXFIRECRACKER	26444
 
-// ÇØ¿Ü ½Ä¸ñÀÏ ÀÌº¥Æ®
+// ï¿½Ø¿ï¿½ ï¿½Ä¸ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXSEEDING01	26437
 #define	II_SYS_SYS_SCR_BXARBORDAY05	26438
 #define	II_SYS_SYS_SCR_BXARBORDAY06	26439
 #define	II_SYS_SYS_SCR_BXARBORDAY07	26440
 #define	II_SYS_SYS_SCR_BXARBORDAY08	26441
 
-// ¹«Áö°³ Á¶°¢
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_RAINBOWRED	26445
 #define	II_SYS_SYS_EVE_RAINBOWORANGE	26446
 #define	II_SYS_SYS_EVE_RAINBOWYELLOW	26447
@@ -5015,21 +5015,21 @@
 #define	II_SYS_SYS_EVE_RAINBOWINDIGO	26450
 #define	II_SYS_SYS_EVE_RAINBOWPURPLE	26451
 
-// 11Â÷ ¹öÀü °ü·Ã(kyk1236)
-#define	II_GEN_TOO_COL_NORMAL	26452	// ÄÝ·ºÅÍ
-#define	II_GEN_TOO_COL_NORMALBATTERY	26453	// ¹èÅÍ¸®
-#define	II_GEN_TOO_COL_SILVERBATTERY	26454	// ½Ç¹ö ¹èÅÍ¸®
-#define	II_GEN_TOO_COL_GOLDBATTERY	26455	// °ñµå ¹èÅÍ¸®
-#define	II_SYS_SYS_SCR_PERIN	26456	// Æä¸°
-#define	II_GEN_FOO_PIL_SINBI	26457	// ½ÅºñÇÑ ¾Ë¾à
-#define	II_SYS_SYS_SCR_LEVELDOWN01	26458	// ÇÏ¶ôÀÇ µÎ·ç¸¶¸®(ÇÏ±Þ)
-#define	II_SYS_SYS_SCR_LEVELDOWN02	26459	// ÇÏ¶ôÀÇ µÎ·ç¸¶¸®(»ó±Þ)
-#define	II_CHP_RED	26460	// ·¹µåÄ¨
-#define	II_SYS_SYS_SCR_AWAKE	26461	// °¢¼ºÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_AWAKECANCEL	26462	// °¢¼º Ãë¼ÒÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_BLESSEDNESS	26463	// ¿©½ÅÀÇ Ãàº¹
+// 11ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(kyk1236)
+#define	II_GEN_TOO_COL_NORMAL	26452	// ï¿½Ý·ï¿½ï¿½ï¿½
+#define	II_GEN_TOO_COL_NORMALBATTERY	26453	// ï¿½ï¿½ï¿½Í¸ï¿½
+#define	II_GEN_TOO_COL_SILVERBATTERY	26454	// ï¿½Ç¹ï¿½ ï¿½ï¿½ï¿½Í¸ï¿½
+#define	II_GEN_TOO_COL_GOLDBATTERY	26455	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í¸ï¿½
+#define	II_SYS_SYS_SCR_PERIN	26456	// ï¿½ä¸°
+#define	II_GEN_FOO_PIL_SINBI	26457	// ï¿½Åºï¿½ï¿½ï¿½ ï¿½Ë¾ï¿½
+#define	II_SYS_SYS_SCR_LEVELDOWN01	26458	// ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½Ï±ï¿½)
+#define	II_SYS_SYS_SCR_LEVELDOWN02	26459	// ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½ï¿½ï¿½)
+#define	II_CHP_RED	26460	// ï¿½ï¿½ï¿½ï¿½Ä¨
+#define	II_SYS_SYS_SCR_AWAKE	26461	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_AWAKECANCEL	26462	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BLESSEDNESS	26463	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹
 
-// Á¦·Ã¿ë ¾×¼¼¼­¸®
+// ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_JEW_RIN_STRRING	26464
 #define	II_GEN_JEW_RIN_STARING	26465
 #define	II_GEN_JEW_RIN_DEXRING	26466
@@ -5040,100 +5040,100 @@
 #define	II_GEN_JEW_NEC_MPNECKLACE	26471
 #define	II_GEN_JEW_NEC_FPNECKLACE	26472
 
-#define	II_SYS_SYS_SCR_SMELPROT4	26473	// ¾×¼¼¼­¸® º¸È£ÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_SEAL	26475	// ºÀÀÎÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_SEALCHARACTER	26476	// ºÀÀÎµÈ Ä³¸¯ÅÍ
-#define	II_SYS_SYS_SCR_BAGBAG	26477	// ÈÞ´ë °¡¹æ »ç¿ë±Ç
-#define	II_SYS_SYS_SCR_MINIWHEEL	26478	// ÀÛÀº Åé´Ï¹ÙÄû
-#define	II_SYS_SYS_SCR_WHEEL	26479	// Åé´Ï¹ÙÄû
-#define	II_SYS_SYS_SCR_SCRAPCLOUD	26480	// ±¸¸§ Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPORICHALCUM	26481	// ¿À¸®Ä®Äñ Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPMOONSTONE	26482	// ¹®½ºÅæ Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPTOPAZ	26483	// ÅäÆÄÁî Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPRUBY	26484	// ·çºñ Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPSAPPHIRE	26485	// »çÆÄÀÌ¾î Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPEMERALD	26486	// ¿¡¸Þ¶öµå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPDIAMOND	26487	// ´ÙÀÌ¾Æ¸óµå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPCANDLE	26488	// Äµµé Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPMAGMA	26489	// ¸¶±×¸¶ Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPVOLCANO	26490	// º¼ÄÉÀÌ³ë Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPRAIN	26491	// ·¹ÀÎ Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPFLOOD	26492	// ÇÃ·¯µå Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPOCEAN	26493	// ¿À¼Ç Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPBREEZE	26494	// ºê¸®Áî Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPSTORM	26495	// ½ºÅè Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPVACCUM	26496	// ¹ÙÅ¨ Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPSPARK	26497	// ½ºÆÄÅ© Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPTHUNDER	26498	// ½ã´õ Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPLIGHTING	26499	// ¶óÀÌÆ®´× Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPSAND	26500	// ½Úµå Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPMOUNTAIN	26501	// ¸¶¿îÆ¾ Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_SCRAPEARTHQUAKE	26502	// ¾î½ºÄùÀÌÅ© Ä«µå Á¶°¢
-#define	II_SYS_SYS_SCR_COTTONCANDYVIOLET	26503	// º¸¶óºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYBLUE	26504	// ÆÄ¶õºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYGREEN	26505	// ÃÊ·Ïºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYRED	26506	// »¡°£ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYBLUESKY	26507	// ÇÏ´Ãºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYPINK	26508	// ºÐÈ«ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYYELLOW	26509	// ³ë¶õºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYWHITE	26510	// ÇÏ¾áºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYGRAY	26511	// È¸»öºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYORANGE	26512	// ÁÖÈ²ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_BXPIG_TWN01	26513	// 2007³â ´ë¸¸ 12¿ù ÀÌº¥Æ®
-#define	II_RID_RID_STI_MAGIC01	26514	// 2007³â ±¹³» ÀÌº¥Æ®¿ë ºñÇàÃ¼
-#define	II_SYS_SYS_SCR_CLOUDBOX	26515	// ±¸¸§ »óÀÚ
-#define	II_SYS_SYS_EVE_BXMAGIC01	26516	// 2007³â ±¹³» ÀÌº¥Æ®¿ë ºñÇàÃ¼ »óÀÚ
-#define	II_SYS_SYS_EVE_GOLDENAPPLE	26517	// 2007³â ±¹³» ÀÌº¥Æ®¿ë È²±Ý»ç°ú
-#define	II_SYS_SYS_EVE_REDSOCKS	26518	// 2007³â ±¹³» ÀÌº¥Æ®¿ë »¡°£¾ç¸»
-#define	II_SYS_SYS_QUE_PETRESURRECTION01_S	26519	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸® Á¶°¢(S)
-#define	II_SYS_SYS_QUE_PETRESURRECTION01_A	26520	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸® Á¶°¢(A)
-#define	II_SYS_SYS_QUE_PETRESURRECTION01_B	26521	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸® Á¶°¢(B)
-#define	II_SYS_SYS_QUE_PETRESURRECTION02_S	26522	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸®(S)
-#define	II_SYS_SYS_QUE_PETRESURRECTION02_A	26523	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸®(A)
-#define	II_SYS_SYS_QUE_PETRESURRECTION02_B	26524	// Æê ºÎÈ°ÀÇ µÎ·ç¸¶¸®(B)
-#define	II_GEN_GEM_GEM_REDCRYSTAL	26525	// »¡°£ °áÁ¤Ã¼
-#define	II_GEN_GEM_GEM_YELLOWCRYSTAL	26526	// ³ë¶õ °áÁ¤Ã¼
-#define	II_GEN_GEM_GEM_GREENCRYSTAL	26527	// ÃÊ·Ï °áÁ¤Ã¼
-#define	II_GEN_GEM_GEM_BLUECRYSTAL	26528	// ÆÄ¶õ °áÁ¤Ã¼
-#define	II_SYS_TICKET_KEBARAS01	26529	// ¾ÆÁî¸®¾Æ ÀÔÀå±Ç(7ÀÏ)
-#define	II_SYS_TICKET_KEBARAS02	26530	// ¾ÆÁî¸®¾Æ ÀÔÀå±Ç(14ÀÏ)
-#define	II_SYS_SYS_SCR_PET_FEED_POCKET02	26531	// Æê ¸ÔÀÌ ÁÖ¸Ó´Ï
-#define	II_RID_RID_BOR_FLYFF	26532	// ÇÁ¸®ÇÁº¸µå
-#define	II_RID_RID_BOR_ANGEL	26533	// ¿£Á©º¸µå
-#define	II_RID_RID_BOR_BUDDY	26534	// ¹öµðº¸µå
-#define	II_ARM_S_CLO_CLO_SPIRIT	26535	// ¿ë¸ÍÀÇ ¸ÁÅä
-#define	II_ARM_S_CLO_CLO_LEGEND01	26536	// ¿µ±¤ÀÇ ¸ÁÅä
-#define	II_SYS_SYS_SCR_PARTYEXPUP01	26537	// ±Ø´Ü °æÇèÄ¡ ÁõÆøÀÇ µÎ·ç¸¶¸®(7ÀÏ)
-#define	II_SYS_SYS_SCR_PARTYEXPUP02	26538	// ±Ø´Ü °æÇèÄ¡ ÁõÆøÀÇ µÎ·ç¸¶¸®(15ÀÏ)
-#define	II_SYS_SYS_SCR_PARTYSKILLUP01	26539	// ±Ø´Ü ½ºÅ³ ÁõÆøÀÇ µÎ·ç¸¶¸®(7ÀÏ)
-#define	II_SYS_SYS_SCR_PARTYSKILLUP02	26540	// ±Ø´Ü ½ºÅ³ ÁõÆøÀÇ µÎ·ç¸¶¸®(15ÀÏ)
-#define	II_SYS_SYS_EVE_EVENT0001	26541	// ÈÞ´ëÆù ÃæÀü±â ±³È¯±Ç
-#define	II_SYS_SYS_EVE_EVENT0002	26542	// ¾ÆÀÌ¸®¹ö ¹ÌÅ°MP3 ±³È¯±Ç
-#define	II_SYS_SYS_EVE_EVENT0003	26543	// NDSL ±³È¯±Ç
+#define	II_SYS_SYS_SCR_SMELPROT4	26473	// ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SEAL	26475	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SEALCHARACTER	26476	// ï¿½ï¿½ï¿½Îµï¿½ Ä³ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BAGBAG	26477	// ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_MINIWHEEL	26478	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_WHEEL	26479	// ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPCLOUD	26480	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPORICHALCUM	26481	// ï¿½ï¿½ï¿½ï¿½Ä®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPMOONSTONE	26482	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPTOPAZ	26483	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPRUBY	26484	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPSAPPHIRE	26485	// ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPEMERALD	26486	// ï¿½ï¿½ï¿½Þ¶ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPDIAMOND	26487	// ï¿½ï¿½ï¿½Ì¾Æ¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPCANDLE	26488	// Äµï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPMAGMA	26489	// ï¿½ï¿½ï¿½×¸ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPVOLCANO	26490	// ï¿½ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPRAIN	26491	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPFLOOD	26492	// ï¿½Ã·ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPOCEAN	26493	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPBREEZE	26494	// ï¿½ê¸®ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPSTORM	26495	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPVACCUM	26496	// ï¿½ï¿½Å¨ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPSPARK	26497	// ï¿½ï¿½ï¿½ï¿½Å© Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPTHUNDER	26498	// ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPLIGHTING	26499	// ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPSAND	26500	// ï¿½Úµï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPMOUNTAIN	26501	// ï¿½ï¿½ï¿½ï¿½Æ¾ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SCRAPEARTHQUAKE	26502	// ï¿½î½ºï¿½ï¿½ï¿½ï¿½Å© Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYVIOLET	26503	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYBLUE	26504	// ï¿½Ä¶ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYGREEN	26505	// ï¿½Ê·Ïºï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYRED	26506	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYBLUESKY	26507	// ï¿½Ï´Ãºï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYPINK	26508	// ï¿½ï¿½È«ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYYELLOW	26509	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYWHITE	26510	// ï¿½Ï¾ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYGRAY	26511	// È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYORANGE	26512	// ï¿½ï¿½È²ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXPIG_TWN01	26513	// 2007ï¿½ï¿½ ï¿½ë¸¸ 12ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_RID_RID_STI_MAGIC01	26514	// 2007ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
+#define	II_SYS_SYS_SCR_CLOUDBOX	26515	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BXMAGIC01	26516	// 2007ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_GOLDENAPPLE	26517	// 2007ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ È²ï¿½Ý»ï¿½ï¿½
+#define	II_SYS_SYS_EVE_REDSOCKS	26518	// 2007ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ç¸»
+#define	II_SYS_SYS_QUE_PETRESURRECTION01_S	26519	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(S)
+#define	II_SYS_SYS_QUE_PETRESURRECTION01_A	26520	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(A)
+#define	II_SYS_SYS_QUE_PETRESURRECTION01_B	26521	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(B)
+#define	II_SYS_SYS_QUE_PETRESURRECTION02_S	26522	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(S)
+#define	II_SYS_SYS_QUE_PETRESURRECTION02_A	26523	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(A)
+#define	II_SYS_SYS_QUE_PETRESURRECTION02_B	26524	// ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(B)
+#define	II_GEN_GEM_GEM_REDCRYSTAL	26525	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
+#define	II_GEN_GEM_GEM_YELLOWCRYSTAL	26526	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
+#define	II_GEN_GEM_GEM_GREENCRYSTAL	26527	// ï¿½Ê·ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
+#define	II_GEN_GEM_GEM_BLUECRYSTAL	26528	// ï¿½Ä¶ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
+#define	II_SYS_TICKET_KEBARAS01	26529	// ï¿½ï¿½ï¿½î¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½(7ï¿½ï¿½)
+#define	II_SYS_TICKET_KEBARAS02	26530	// ï¿½ï¿½ï¿½î¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½(14ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_PET_FEED_POCKET02	26531	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¸Ó´ï¿½
+#define	II_RID_RID_BOR_FLYFF	26532	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_RID_RID_BOR_ANGEL	26533	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_RID_RID_BOR_BUDDY	26534	// ï¿½ï¿½ï¿½ðº¸µï¿½
+#define	II_ARM_S_CLO_CLO_SPIRIT	26535	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_CLO_LEGEND01	26536	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PARTYEXPUP01	26537	// ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(7ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_PARTYEXPUP02	26538	// ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(15ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_PARTYSKILLUP01	26539	// ï¿½Ø´ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(7ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_PARTYSKILLUP02	26540	// ï¿½Ø´ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(15ï¿½ï¿½)
+#define	II_SYS_SYS_EVE_EVENT0001	26541	// ï¿½Þ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½
+#define	II_SYS_SYS_EVE_EVENT0002	26542	// ï¿½ï¿½ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½Å°MP3 ï¿½ï¿½È¯ï¿½ï¿½
+#define	II_SYS_SYS_EVE_EVENT0003	26543	// NDSL ï¿½ï¿½È¯ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_COTTONCANDYVIOLET_01	26544	// ÀÌº¥Æ®¿ë º¸¶óºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYBLUE_01	26545	// ÀÌº¥Æ®¿ë ÆÄ¶õºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYGREEN_01	26546	// ÀÌº¥Æ®¿ë ÃÊ·Ïºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYRED_01	26547	// ÀÌº¥Æ®¿ë »¡°£ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYBLUESKY_01	26548	// ÀÌº¥Æ®¿ë ÇÏ´Ãºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYPINK_01	26549	// ÀÌº¥Æ®¿ë ºÐÈ«ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYYELLOW_01	26550	// ÀÌº¥Æ®¿ë ³ë¶õºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYWHITE_01	26551	// ÀÌº¥Æ®¿ë ÇÏ¾áºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYGRAY_01	26552	// ÀÌº¥Æ®¿ë È¸»öºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_SCR_COTTONCANDYORANGE_01	26553	// ÀÌº¥Æ®¿ë ÁÖÈ²ºû ¼Ø»çÅÁ
-#define	II_SYS_SYS_EVE_BALLOON_01	26554	// ÀÌº¥Æ®¿ë ºÐÈ«»ö Ç³¼±
-#define	II_SYS_SYS_EVE_BALLOON01_01	26555	// ÀÌº¥Æ®¿ë ÆÄ¶õ»ö Ç³¼±
-#define	II_SYS_SYS_EVE_BALLOON02_01	26556	// ÀÌº¥Æ®¿ë ³ë¶õ»ö Ç³¼±
+#define	II_SYS_SYS_SCR_COTTONCANDYVIOLET_01	26544	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYBLUE_01	26545	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYGREEN_01	26546	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ê·Ïºï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYRED_01	26547	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYBLUESKY_01	26548	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ï´Ãºï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYPINK_01	26549	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È«ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYYELLOW_01	26550	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYWHITE_01	26551	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ï¾ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYGRAY_01	26552	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_COTTONCANDYORANGE_01	26553	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È²ï¿½ï¿½ ï¿½Ø»ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BALLOON_01	26554	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È«ï¿½ï¿½ Ç³ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BALLOON01_01	26555	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BALLOON02_01	26556	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½
 
-#define	II_CHR_SYS_SCR_SHOUTFULL001	26557	// »þ¿ìÆ®Ç®(1ÀÏ), II_CHR_SYS_SCR_PSKILLFULL1 = ÆÄ½ºÅ³Ç® 1ÀÏÂ¥¸® Á¸ÀçÇÏ°í ÀÖÀ½
-#define	II_SYS_TICKET_KEBARAS001	26558	// ¾ÆÁî¸®¾Æ ÀÔÀå±Ç(1ÀÏ)
-#define	II_CHR_SYS_SCR_COMMBANK001	26559	// Ä¿¸Õ¹ðÅ©(1ÀÏ)
-#define	II_GEN_TOO_COL_BATTERY001	26560	// ¹èÅÍ¸®(1ÀÏ)
-#define	II_SYS_SYS_SCR_BAGBAG001	26561	// ÈÞ´ë °¡¹æ »ç¿ë±Ç(1ÀÏ)
-#define	II_SYS_SYS_SCR_PET_LIFE02	26562	// Æê ¼ö¸í È¸º¹ÀÇ µÎ·ç¸¶¸®
+#define	II_CHR_SYS_SCR_SHOUTFULL001	26557	// ï¿½ï¿½ï¿½ï¿½Æ®Ç®(1ï¿½ï¿½), II_CHR_SYS_SCR_PSKILLFULL1 = ï¿½Ä½ï¿½Å³Ç® 1ï¿½ï¿½Â¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_TICKET_KEBARAS001	26558	// ï¿½ï¿½ï¿½î¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½(1ï¿½ï¿½)
+#define	II_CHR_SYS_SCR_COMMBANK001	26559	// Ä¿ï¿½Õ¹ï¿½Å©(1ï¿½ï¿½)
+#define	II_GEN_TOO_COL_BATTERY001	26560	// ï¿½ï¿½ï¿½Í¸ï¿½(1ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BAGBAG001	26561	// ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(1ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_PET_LIFE02	26562	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_AWAKECANCEL02	26563	// ÀÌº¥Æ®¿ë °¢¼º Ãë¼ÒÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_BLESSEDNESS02	26564	// ÀÌº¥Æ®¿ë ¿©½ÅÀÇ Ãàº¹
+#define	II_SYS_SYS_SCR_AWAKECANCEL02	26563	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BLESSEDNESS02	26564	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹
 
 #define	II_GEN_TOO_COL_EVENT	26565
 #define	II_SYS_SYS_SCR_BXCOLLECTOR	26566
@@ -5144,12 +5144,12 @@
 #define	II_SYS_SYS_SCR_BXLAWOLF	26571
 
 #define	II_SYS_SYS_SCR_BXPETRESURRECTION01	26572
-#define	II_SYS_SYS_SCR_SPETGOOD	26573	// S±Þ Æê Àü¿ë ¸ÔÀÌ
+#define	II_SYS_SYS_SCR_SPETGOOD	26573	// Sï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_QUE_HOLYRED	26574	//Ãàº¹¹ÞÀº º¸¼®(ºÒ)
-#define	II_SYS_SYS_QUE_HOLYBLUE	26575	//Ãàº¹¹ÞÀº º¸¼®(¹°)
-#define	II_SYS_SYS_QUE_HOLYYELLOW	26576	//Ãàº¹¹ÞÀº º¸¼®(Àü±â)
-#define	II_SYS_SYS_SCR_BXTREASURE	26577	//º¸¹° »óÀÚ
+#define	II_SYS_SYS_QUE_HOLYRED	26574	//ï¿½àº¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_HOLYBLUE	26575	//ï¿½àº¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_QUE_HOLYYELLOW	26576	//ï¿½àº¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BXTREASURE	26577	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BXGREEN02	26578
 
@@ -5166,12 +5166,12 @@
 #define	II_SYS_SYS_SCR_BXMVAGRANT01	26586
 #define	II_SYS_SYS_SCR_BXFVAGRANT01	26587
 
-#define	II_RID_RID_STI_BIKE3	26588	// Å¬¶ô ¹ÙÀÌÅ©(¿À·»Áö)
-#define	II_RID_RID_STI_BIKE4	26589	// Å¬¶ô ¹ÙÀÌÅ©(È­ÀÌÆ®)
-#define	II_RID_RID_STI_BIKE5	26590	// Å¬¶ô ¹ÙÀÌÅ©(¹ÙÀÌ¿Ã·¿)
-#define	II_RID_RID_STI_BIKE6	26591	// ¸ÞÅ×¿À ¹ÙÀÌÅ©(¿»·Î¿ì)
-#define	II_RID_RID_STI_BIKE7	26592	// ¸ÞÅ×¿À ¹ÙÀÌÅ©(·¹µå)
-#define	II_RID_RID_STI_BIKE8	26593	// ¸ÞÅ×¿À ¹ÙÀÌÅ©(±×¸°)
+#define	II_RID_RID_STI_BIKE3	26588	// Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+#define	II_RID_RID_STI_BIKE4	26589	// Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(È­ï¿½ï¿½Æ®)
+#define	II_RID_RID_STI_BIKE5	26590	// Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½ï¿½ï¿½Ì¿Ã·ï¿½)
+#define	II_RID_RID_STI_BIKE6	26591	// ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½ï¿½ï¿½Î¿ï¿½)
+#define	II_RID_RID_STI_BIKE7	26592	// ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½ï¿½ï¿½ï¿½)
+#define	II_RID_RID_STI_BIKE8	26593	// ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½×¸ï¿½)
 
 #define	II_GEN_MAT_ELE_CANDLED	26594
 #define	II_GEN_MAT_ELE_CANDLEC	26595
@@ -5203,7 +5203,7 @@
 #define	II_SYS_SYS_SCR_BXFESTIVAL01	26619
 
 #define	II_CHR_SYS_SCR_CM_01	26620
-#define	II_CHR_SYS_SCR_CM_02	26621
+#define	II_CHR_SYS_SCR_CM_02	26621  // ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_SYS_SCR_CM_03	26622
 #define	II_CHR_SYS_SCR_CM_04	26623
 
@@ -5229,7 +5229,7 @@
 
 #define	II_SYS_SYS_SCR_BXFESTIVAL02	26643
 
-//ÀÏº» ¿äÃ» ÆÛ´Ï ¾ÆÀÌÅÛ
+//ï¿½Ïºï¿½ ï¿½ï¿½Ã» ï¿½Û´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_APPLE	26644
 #define	II_WEA_SWO_BAMBOO	26645
 #define	II_ARM_M_CLO_CATPUNCH01	26646
@@ -5245,7 +5245,7 @@
 #define	II_SYS_SYS_SCR_BXLEAGENDG01	26653
 #define	II_SYS_SYS_SCR_BX_PET_AIBATT15	26654
 
-//ÇÊ¸®ÇÉ ¿äÃ» ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_F_CLO_MAS_WIG07BL_1	26655
 #define	II_ARM_F_CLO_MAS_WIG07B_1	26656
 #define	II_ARM_F_CLO_MAS_WIG07BR_1	26657
@@ -5322,14 +5322,73 @@
 #define	II_HOU_FUR_TAB_HEART01	26717
 #define	II_HOU_FUR_WAR_HEART01	26718
 
-// Ä¿ÇÃ ¹öÇÁ
-#define	II_COUPLE_BUFF_POWER_01	26720
-#define	II_COUPLE_BUFF_POWER_02	26721
-#define	II_COUPLE_BUFF_POWER_03	26722
-#define	II_COUPLE_BUFF_POWER_04	26723
-#define	II_COUPLE_BUFF_BLESS_01	26730
-#define	II_COUPLE_BUFF_BLESS_02	26731
-#define	II_COUPLE_BUFF_MIRACLE_01	26740
+// Couple skills
+#define	II_COUPLE_BUFF_POWER_01	    39931 //Level 1	
+#define	II_COUPLE_BUFF_POWER_02	    39932 //Level 2	
+#define	II_COUPLE_BUFF_POWER_03	    39933 //Level 3	
+#define	II_COUPLE_BUFF_POWER_04	    39934 //Level 4	
+#define	II_COUPLE_BUFF_POWER_05	    39935 //Level 5	
+#define	II_COUPLE_BUFF_POWER_06	    39936 //Level 6	
+#define	II_COUPLE_BUFF_POWER_07	    39937 //Level 7	
+#define	II_COUPLE_BUFF_POWER_08	    39938 //Level 8	
+#define	II_COUPLE_BUFF_POWER_09	    39939 //Level 9	
+#define	II_COUPLE_BUFF_POWER_10	    39940 //Level 10	
+#define	II_COUPLE_BUFF_BLESS_01	    39941 //Level 1	
+#define	II_COUPLE_BUFF_BLESS_02	    39942 //Level 2	
+#define	II_COUPLE_BUFF_BLESS_03	    39943 //Level 3	
+#define	II_COUPLE_BUFF_BLESS_04	    39944 //Level 4	
+#define	II_COUPLE_BUFF_BLESS_05	    39945 //Level 5	
+#define	II_COUPLE_BUFF_BLESS_06	    39946 //Level 6	
+#define	II_COUPLE_BUFF_BLESS_07	    39947 //Level 7	
+#define	II_COUPLE_BUFF_BLESS_08	    39948 //Level 8	
+#define	II_COUPLE_BUFF_BLESS_09	    39949 //Level 9	
+#define	II_COUPLE_BUFF_BLESS_10	    39950 //Level 10	
+#define	II_COUPLE_BUFF_MIRACLE_01	39951 //Level 1	
+#define	II_COUPLE_BUFF_MIRACLE_02	39952 //Level 2	
+#define	II_COUPLE_BUFF_MIRACLE_03	39953 //Level 3	
+#define	II_COUPLE_BUFF_MIRACLE_04	39954 //Level 4	
+#define	II_COUPLE_BUFF_MIRACLE_05	39955 //Level 5	
+#define	II_COUPLE_BUFF_MIRACLE_06	39956 //Level 6	
+#define	II_COUPLE_BUFF_MIRACLE_07	39957 //Level 7	
+#define	II_COUPLE_BUFF_MIRACLE_08	39958 //Level 8	
+#define	II_COUPLE_BUFF_MIRACLE_09	39959 //Level 9	
+#define	II_COUPLE_BUFF_MIRACLE_10	39960 //Level 10	
+#define	II_COUPLE_BUFF_GREED_01	    39981 //Level 1	
+#define	II_COUPLE_BUFF_GREED_02	    39982 //Level 2	
+#define	II_COUPLE_BUFF_GREED_03	    39983 //Level 3	
+#define	II_COUPLE_BUFF_GREED_04	    39984 //Level 4	
+#define	II_COUPLE_BUFF_GREED_05	    39985 //Level 5	
+#define	II_COUPLE_BUFF_GREED_06	    39986 //Level 6	
+#define	II_COUPLE_BUFF_GREED_07	    39987 //Level 7	
+#define	II_COUPLE_BUFF_GREED_08	    39988 //Level 8	
+#define	II_COUPLE_BUFF_GREED_09	    39989 //Level 9	
+#define	II_COUPLE_BUFF_GREED_10	    39990 //Level 10	
+
+
+// New Couple Skills - Kiyo/Breeze
+#define II_COUPLE_BUFF_TALES_01			        39961   // Tales of Love   Level 1	 
+#define II_COUPLE_BUFF_TALES_02				    39962   // Tales of Love   Level 2	 
+#define II_COUPLE_BUFF_TALES_03				    39963   // Tales of Love   Level 3	 
+#define II_COUPLE_BUFF_TALES_04				    39964   // Tales of Love   Level 4	 
+#define II_COUPLE_BUFF_TALES_05				    39965   // Tales of Love   Level 5	 
+#define II_COUPLE_BUFF_TALES_06				    39966   // Tales of Love   Level 6	 
+#define II_COUPLE_BUFF_TALES_07				    39967   // Tales of Love   Level 7	 
+#define II_COUPLE_BUFF_TALES_08				    39968   // Tales of Love   Level 8	 
+#define II_COUPLE_BUFF_TALES_09				    39969   // Tales of Love   Level 9	 
+#define II_COUPLE_BUFF_TALES_10				    39970   // Tales of Love   Level 10	 
+#define II_COUPLE_BUFF_WRAPPED_01				39971   // Wrapped in Love Level 1
+#define II_COUPLE_BUFF_WRAPPED_02				39972   // Wrapped in Love Level 2
+#define II_COUPLE_BUFF_WRAPPED_03				39973   // Wrapped in Love Level 3
+#define II_COUPLE_BUFF_WRAPPED_04				39974   // Wrapped in Love Level 4
+#define II_COUPLE_BUFF_WRAPPED_05				39975   // Wrapped in Love Level 5
+#define II_COUPLE_BUFF_WRAPPED_06				39976   // Wrapped in Love Level 6
+#define II_COUPLE_BUFF_WRAPPED_07				39977   // Wrapped in Love Level 7
+#define II_COUPLE_BUFF_WRAPPED_08				39978   // Wrapped in Love Level 8
+#define II_COUPLE_BUFF_WRAPPED_09				39979   // Wrapped in Love Level 9
+#define II_COUPLE_BUFF_WRAPPED_10				39980   // Wrapped in Love Level 10
+
+
+
 
 #define	II_HOU_PAP_CAR01	26741
 #define	II_HOU_PAP_CAR02	26742
@@ -5410,23 +5469,23 @@
 #define	II_SYS_SYS_EVE_FLOWERPOT05	26803
 #define	II_SYS_SYS_EVE_FLOWER01	26804
 
-#define	II_SYS_SYS_EVE_BXBLOSSOM02	26805	//ÀÏº», ´ë¸¸, È«Äá º½ ÀÌº¥Æ®»óÀÚ
+#define	II_SYS_SYS_EVE_BXBLOSSOM02	26805	//ï¿½Ïºï¿½, ï¿½ë¸¸, È«ï¿½ï¿½ ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BXTREASURE03	26806
 
-#define	II_SYS_SYS_SCR_BXWOODSET01	26807	//Åë³ª¹«°¡±¸¼Â
-#define	II_SYS_SYS_SCR_BXHEARTSET01	26808	//ÇÏÆ®°¡±¸¼Â
+#define	II_SYS_SYS_SCR_BXWOODSET01	26807	//ï¿½ë³ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXHEARTSET01	26808	//ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXMVWANDER01	26809	//ºÒÇÜ, ¸®ÇÁ·¹¼Å, È°·ÂX, ¹æ¶ûÀÚ(³²)
-#define	II_SYS_SYS_SCR_BXFVWANDER01	26810	//ºÒÇÜ, ¸®ÇÁ·¹¼Å, È°·ÂX, ¹æ¶ûÀÚ(¿©)
+#define	II_SYS_SYS_SCR_BXMVWANDER01	26809	//ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, È°ï¿½ï¿½X, ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BXFVWANDER01	26810	//ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, È°ï¿½ï¿½X, ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 
-#define	II_VIETNAM_BUFF01	26811	// º£Æ®³² ´©Àû Á¢¼Ó ½Ã°£ È®ÀÎ¿ë ¹öÇÁ
+#define	II_VIETNAM_BUFF01	26811	// ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ È®ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_EVE_POWERSCROLL01	26812
 #define	II_SYS_SYS_EVE_POWERSCROLL02	26813
 #define	II_SYS_SYS_EVE_POWERSCROLL03	26814
 
-#define	II_SYS_SYS_SCR_BXWONDERBR01	26815	//ºê¶óÁú ½Å±Ô¼±¹° »óÀÚ
+#define	II_SYS_SYS_SCR_BXWONDERBR01	26815	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BX_PET_DOG1_7_1	26816
 #define	II_SYS_SYS_SCR_BX_EVE_MPOLICE30_1	26817
@@ -5454,7 +5513,7 @@
 #define	II_HOU_FUR_TAB_BASIC03_1	26838
 #define	II_HOU_FUR_CAB_BASIC03_1	26839
 
-//±¹°¡º° Ç³¼±
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½
 #define	II_SYS_SYS_EVE_BALLOON_GP	26840
 #define	II_SYS_SYS_EVE_BALLOON_JP	26841
 #define	II_SYS_SYS_EVE_BALLOON_PHP	26842
@@ -5464,7 +5523,7 @@
 #define	II_SYS_SYS_EVE_BALLOON_SPA	26846
 #define	II_SYS_SYS_EVE_BALLOON_HK	26847
 
-//Å×½ºÆ®¿ë ºñ½º
+//ï¿½×½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½
 #define	II_SYS_VIS_LV1_STR	26848
 #define	II_SYS_VIS_LV1_DEX	26849
 #define	II_SYS_VIS_LV1_INT	26850
@@ -5476,12 +5535,12 @@
 
 #define	II_SYS_SYS_VIS_KEY01	26855
 
-// »çÁ¦ÀÇ Á¤ ¹öÇÁ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_TS_BUFF_POWER_LOVE01	26856
 #define	II_TS_BUFF_POWER_LOVE02	26857
 #define	II_TS_BUFF_POWER_LOVE03	26858
 
-// 1Â÷ ºñ½º
+// 1ï¿½ï¿½ ï¿½ï¿½
 #define	II_SYS_VIS_LV1_CRIRATE	26859
 #define	II_SYS_VIS_LV1_BLOMELEE	26860
 #define	II_SYS_VIS_LV1_BLRANGE	26861
@@ -5522,7 +5581,7 @@
 #define	II_SYS_VIS_LV3_IBLIS	26896
 #define	II_SYS_VIS_LV3_SHADE	26897
 
-//2010³â ÇÊ¸®ÇÉ FITA ÀÌº¥Æ®
+//2010ï¿½ï¿½ ï¿½Ê¸ï¿½ï¿½ï¿½ FITA ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_FITAPIECEF	26898
 #define	II_SYS_SYS_EVE_FITAPIECEI	26899
 #define	II_SYS_SYS_EVE_FITAPIECET	26900
@@ -5531,7 +5590,7 @@
 #define	II_SYS_SYS_SCR_BXFITA01	26903
 #define	II_SYS_SYS_SCR_BXFITA02	26904
 
-//2010³â ÀÏº» ÀýºÐ ÀÌº¥Æ®
+//2010ï¿½ï¿½ ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_SARDINE	26905
 #define	II_SYS_SYS_EVE_MELONSODA	26906
 #define	II_SYS_SYS_SCR_BXMMUAYTHAI01_7	26907
@@ -5602,11 +5661,11 @@
 
 #define	II_SYS_SYS_SCR_AWAKESAFE	26961
 
-//¶ó¸£Å×½Ã¾Æ
+//ï¿½ï¿½ï¿½×½Ã¾ï¿½
 #define	II_SYS_TICKET_RARTESIA01	26962
 #define	II_SYS_TICKET_RARTESIA02	26963
 
-//¾ÆÅ©·Îºª ÁÖ¸ù ÆÐÅ°Áö
+//ï¿½ï¿½Å©ï¿½Îºï¿½ ï¿½Ö¸ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_ARM_M_RAG_HELMET05	26964
 #define	II_ARM_M_RAG_SUIT05	26965
 #define	II_ARM_M_RAG_GAUNTLET05	26966
@@ -5616,7 +5675,7 @@
 #define	II_ARM_F_RAG_GAUNTLET05	26970
 #define	II_ARM_F_RAG_BOOTS05	26971
 
-//¾î½Ã½ºÆ® ÇöÀÚ ÆÐÅ°Áö
+//ï¿½ï¿½Ã½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_ARM_M_RIN_BOOTS05	26972
 #define	II_ARM_M_RIN_HELMET05	26973
 #define	II_ARM_M_RIN_SUIT05	26974
@@ -5626,12 +5685,17 @@
 #define	II_ARM_F_RIN_SUIT05	26978
 #define	II_ARM_F_RIN_GAUNTLET05	26979
 
+//Premium Scrolls - Kiyo
+#define II_SCR_PREMIUM_01		29000	//Premium Scroll		
+#define II_SCR_PREMIUM_07		29001	//Premium Scroll (24 Hours)
+#define II_SCR_PREMIUM_15		29002	//Premium Scroll (7 Days)
+#define II_SCR_PREMIUM_30		29003	//Premium Scroll (15 Days)	
+#define II_SCR_PREM_NOTUSE		29004	//Premium Scroll (30 Days)	
 
+// Currencies - Kiyo
+#define II_SYS_REDPERIN			29500	//Red Perin
 
-
-
-
-//¼±¹°»óÀÚ ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX1	30001
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX2	30002
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX3	30003	// 20060203 ByDonny
@@ -5640,33 +5704,33 @@
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX6	30008	// 20060413/ Bc
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX7	30009	// 20060616
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX8	30010	// 20060711
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX9	30021	// ½ÃÀÌ¶ó ¼±¹°»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX10	30022	// ¸ñ¸¶ ¼±¹°»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX11	30023	// ±ÙµÎ¿î ¼±¹°»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX12	30029	// ·¹ÀÌ¾Ö³ª Æê ¹Ú½º
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX13	30030	// ¶ó¿ïÇÁ Æê ¹Ú½º
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX14	30031	// ·çÀÌ¾Æ Æê ¹Ú½º
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX15	30032	// ¾ÆÀÌ¹ÙÆ® Æê ¹Ú½º
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX16	30033	// ½º³ë¿ìº¸µå ¼±¹°»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX17	30034	// ¸¶¹ýÀÇ ¾çÅºÀÚ ¼±¹°»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX18	30043	// ½º³ë¿ìº¸´õ ¼±¹°»óÀÚ(±¹³»¿ë)
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX19	30044	// ½Å¹åµå ¼±¹°»óÀÚ(±¹³»¿ë)
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX20	30045	// »¡°£ º¹ÁÖ¸Ó´Ï(´ë¸¸¿ë)
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX21	30046	// Çà¿îÀÇ °¡¸é»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX22	30047	// Çà¿îÀÇ ¸ÁÅä»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX23	30048	// Çà¿îÀÇ ¾×¼¼¼­¸®»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX24	30049	// Çà¿îÀÇ Çì¶ó»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX25	30050	// Çà¿îÀÇ µå·¡°ï½ºÆ½»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX26	30051	// Çà¿îÀÇ ½º³ë¿ìº¸µå»óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX27	30052	// Çà¿îÀÇ ¾çÅºÀÚ»óÀÚ
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX9	30021	// ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX10	30022	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX11	30023	// ï¿½ÙµÎ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX12	30029	// ï¿½ï¿½ï¿½Ì¾Ö³ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX13	30030	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX14	30031	// ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX15	30032	// ï¿½ï¿½ï¿½Ì¹ï¿½Æ® ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX16	30033	// ï¿½ï¿½ï¿½ï¿½ìº¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX17	30034	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åºï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX18	30043	// ï¿½ï¿½ï¿½ï¿½ìº¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX19	30044	// ï¿½Å¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX20	30045	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ö¸Ó´ï¿½(ï¿½ë¸¸ï¿½ï¿½)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX21	30046	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX22	30047	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX23	30048	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX24	30049	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX25	30050	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½å·¡ï¿½ï½ºÆ½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX26	30051	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ìº¸ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX27	30052	// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åºï¿½Ú»ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMCAT01	30053
 #define	II_SYS_SYS_SCR_BXFCAT01	30054
 
-//´ë¸¸ ¾È°æ ¹Ú½º
+//ï¿½ë¸¸ ï¿½È°ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXGLASS03	30055
 #define	II_SYS_SYS_SCR_BXGLASS04	30056
 
-//ÇØ¿Ü 8Â÷ ÇÈ½ºÀü ¿äÃ» ¾ÆÀÌÅÛ
+//ï¿½Ø¿ï¿½ 8ï¿½ï¿½ ï¿½È½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_SYS_SCR_PSKILLFULL1	30057
 #define	II_CHR_SYS_SCR_UPCUTSTONE01	30058
 #define	II_SYS_SYS_SCR_BXMBEGINNER01	30059
@@ -5678,7 +5742,7 @@
 #define	II_SYS_SYS_SCR_BXMASK03	30065
 #define	II_SYS_SYS_SCR_BXMASK04	30066
 
-//ÇÊ¸®ÇÉ 1Â÷ ³×½½·¹ ÀÌº¥Æ®
+//ï¿½Ê¸ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½×½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_COFFEE	30067
 #define	II_SYS_SYS_EVE_CREAMER	30068
 #define	II_SYS_SYS_EVE_SUGAR	30069
@@ -5687,14 +5751,14 @@
 #define	II_SYS_SYS_EVE_NESCAFE02	30072
 #define	II_SYS_SYS_EVE_NESCAFE03	30073
 
-//´ë¸¸ Àü¿ë ½ÃÀÏ¶ó ¹ÙÀÌÅ©
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½ï¿½ï¿½ï¿½Å©
 #define	II_SYS_SYS_SCR_BXBIKE01	30074
 
-//2007³âÀÏº»Ä¥¼®ÀÌº¥Æ®
+//2007ï¿½ï¿½ï¿½Ïºï¿½Ä¥ï¿½ï¿½ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXHEART01	30075
 #define	II_SYS_SYS_SCR_BXLOVE01	30076
 
-//À¯Ä«Å¸2007
+//ï¿½ï¿½Ä«Å¸2007
 #define	II_ARM_M_CHR_YUKATA03SUIT	30077
 #define	II_ARM_M_CHR_YUKATA03SHOES	30078
 #define	II_SYS_SYS_SCR_BXMYUKATA2007SET	30079
@@ -5702,7 +5766,7 @@
 #define	II_ARM_F_CHR_YUKATA03SHOES	30081
 #define	II_SYS_SYS_SCR_BXFYUKATA2007SET	30082
 
-//2007 ¼ö¿µº¹
+//2007 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_F_CHR_SWIM02UPPER	30083
 #define	II_ARM_F_CHR_SWIM02FOOT	30084
 #define	II_ARM_F_CHR_SWIM03UPPER	30085
@@ -5734,13 +5798,13 @@
 #define	II_SYS_SYS_SCR_BXM_SWIM04SET	30110
 #define	II_SYS_SYS_SCR_BXM_SWIM05SET	30111
 #define	II_SYS_SYS_SCR_BXM_SWIM06SET	30112
-#define	II_RID_RID_BOR_RIDINGCLOUD02	30113	// ¿¬È«¿î
-#define	II_RID_RID_BOR_RIDINGCLOUD03	30114	// Ãµ»ó¿î
-#define	II_SYS_SYS_SCR_GET01	30115	// È¹µæÀÇ µÎ·ç¸¶¸®(ÇÏ±Þ)
-#define	II_SYS_SYS_SCR_GET02	30116	// È¹µæÀÇ µÎ·ç¸¶¸®(»ó±Þ)
-#define	II_RID_RID_BOR_RIDINGCLOUD04	30117	// ÀûÇ÷¿î
+#define	II_RID_RID_BOR_RIDINGCLOUD02	30113	// ï¿½ï¿½È«ï¿½ï¿½
+#define	II_RID_RID_BOR_RIDINGCLOUD03	30114	// Ãµï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_GET01	30115	// È¹ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½Ï±ï¿½)
+#define	II_SYS_SYS_SCR_GET02	30116	// È¹ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½ï¿½ï¿½)
+#define	II_RID_RID_BOR_RIDINGCLOUD04	30117	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//±¹³» ºñÇà ¾ÆÀÌÅÛ À¯Áö¿ë
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_RID_RID_STI_BIKE_S	30118
 #define	II_RID_RID_STI_BIKE2_S	30119
 #define	II_RID_RID_BOR_TIGER_S	30120
@@ -5759,18 +5823,18 @@
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX26_S	30132
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX27_S	30133
 
-// 2007³â ±¹³» ÀÌº¥Æ® ¾ÆÀÌÅÛ
+// 2007ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_POTION	30134
 #define	II_SYS_SYS_EVE_ENCHANT	30135
 #define	II_SYS_SYS_EVE_DUAL	30136
 
-// 2007 ÀÏº» Â¦È¦¼ö »óÀÚ ÀÌº¥Æ®
-#define	II_SYS_SYS_EVE_NUMBERBOX1J	30137	// È¦¼ö »óÀÚ	// µå·Ó	// propEvent.inc
-#define	II_SYS_SYS_EVE_NUMBERBOX2J	30138	// Â¦¼ö »óÀÚ	// ÆÇ¸Å	// IK3_EVENTSUB	// 190
-// 2007 ´ë¸¸ »ç¶ûÀÇ ¼±¹°»óÀÚ
+// 2007 ï¿½Ïºï¿½ Â¦È¦ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_NUMBERBOX1J	30137	// È¦ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½	// ï¿½ï¿½ï¿½	// propEvent.inc
+#define	II_SYS_SYS_EVE_NUMBERBOX2J	30138	// Â¦ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½	// ï¿½Ç¸ï¿½	// IK3_EVENTSUB	// 190
+// 2007 ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXLOVE02	30139
 
-//ÇÊ¸®ÇÉ 2,3Â÷ ³×½½·¹ ÀÌº¥Æ®
+//ï¿½Ê¸ï¿½ï¿½ï¿½ 2,3ï¿½ï¿½ ï¿½×½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_NESCAFE04	30141
 #define	II_SYS_SYS_EVE_NESCAFE05	30142
 #define	II_SYS_SYS_EVE_NESCAFE06	30143
@@ -5779,68 +5843,68 @@
 #define	II_RID_RID_BOA_NESCAFE03	30146
 #define	II_RID_RID_STI_NESCAFE01	30147
 
-// ESÁõÆøÀÇ µÎ·ç¸¶¸®(S)
+// ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(S)
 #define	II_SYS_SYS_SCR_AMPESS	30148
 #define	II_SYS_SYS_SCR_AMPESS1	30149
 #define	II_SYS_SYS_SCR_AMPESS2	30150
 
-#define	II_CHR_SYS_SCR_RESTATE_STR	30151	// ¸®½ºÅ×Æ®(Èû)
-#define	II_CHR_SYS_SCR_RESTATE_DEX	30152	// ¸®½ºÅ×Æ®(¹ÎÃ¸)
-#define	II_CHR_SYS_SCR_RESTATE_STA	30153	// ¸®½ºÅ×Æ®(Ã¼·Â)
-#define	II_CHR_SYS_SCR_RESTATE_INT	30154	// ¸®½ºÅ×Æ®(Áö´É)
+#define	II_CHR_SYS_SCR_RESTATE_STR	30151	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½)
+#define	II_CHR_SYS_SCR_RESTATE_DEX	30152	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½Ã¸)
+#define	II_CHR_SYS_SCR_RESTATE_STA	30153	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®(Ã¼ï¿½ï¿½)
+#define	II_CHR_SYS_SCR_RESTATE_INT	30154	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½ï¿½ï¿½)
 
-// 07³â ±¹³» Ãß¼® ÀÌº¥Æ®
+// 07ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXCHUSEOK01	30155
 #define	II_SYS_SYS_SCR_BXCHUSEOK02	30156
 
-// ÇØ¿Ü¿äÃ» ¿¬È«¿î ¹Ú½º
+// ï¿½Ø¿Ü¿ï¿½Ã» ï¿½ï¿½È«ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX28	30157
 
-// 07³â ±¹³» ºñ°øÁ¤ Àç·á¸¦ »ç¼öÇÏ¶ó ÀÌº¥Æ®
+// 07ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½á¸¦ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_STUFF01	30158
 #define	II_SYS_SYS_EVE_STRANGEBOX01	30159
 #define	II_SYS_SYS_EVE_STRANGEBOX02	30160
 #define	II_SYS_SYS_EVE_STRANGEBOX03	30161
 
-// ÀÏº» ¿äÃ» Æê ¹Ú½º
+// ï¿½Ïºï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXDOG1	30162
 #define	II_SYS_SYS_SCR_BXCAT1	30163
 #define	II_SYS_SYS_SCR_BXFROG	30164
 #define	II_SYS_SYS_SCR_BXHAMBURGER	30165
 #define	II_SYS_SYS_SCR_BXTURTLE	30166
 
-#define	II_SYS_SYS_SCR_BXSMELTING01	30167	//Á¦·Ã¼¼Æ®
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX29	30168	//±Í¿©¿î ÇÜ½ºÅÍ ¹Ú½º
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX30	30169	//4ÁÖ³â ±â³ä Çà¿î »óÀÚ
+#define	II_SYS_SYS_SCR_BXSMELTING01	30167	//ï¿½ï¿½ï¿½Ã¼ï¿½Æ®
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX29	30168	//ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½Ü½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX30	30169	//4ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_EVE_BXCOMEBACK01	30170	//ÀÏº» ÄÄ¹é ÀÌº¥Æ®
+#define	II_SYS_SYS_EVE_BXCOMEBACK01	30170	//ï¿½Ïºï¿½ ï¿½Ä¹ï¿½ ï¿½Ìºï¿½Æ®
 
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX31	30171	//´ë¸¸ 2008³â º¹ ÁÖ¸Ó´Ï
-#define	II_SYS_SYS_EVE_BXJULBUN	30172	//ÀÏº» ÀýºÐ ¹Ú½º
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX31	30171	//ï¿½ë¸¸ 2008ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö¸Ó´ï¿½
+#define	II_SYS_SYS_EVE_BXJULBUN	30172	//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX32	30173	//ÀÏº» Æê ¹Ú½º(ÀÛÀº ¹Ì¾Æ)
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX33	30174	//ÀÏº» Æê ¹Ú½º(ÀÛÀº ¸ÞÀÌµå Ä«µåÆÛÆê)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX32	30173	//ï¿½Ïºï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¾ï¿½)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX33	30174	//ï¿½Ïºï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ Ä«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 
-#define	II_SYS_SYS_EVE_BXFLOVE	30175	//ÀÏº» »ç¶ûÀÇ °í¹é ¹Ú½º(¿©ÀÚ¿ë)
-#define	II_SYS_SYS_EVE_BXMLOVE	30176	//ÀÏº» »ç¶ûÀÇ °í¹é ¹Ú½º(³²ÀÚ¿ë)
+#define	II_SYS_SYS_EVE_BXFLOVE	30175	//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½Ú¿ï¿½)
+#define	II_SYS_SYS_EVE_BXMLOVE	30176	//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½Ú¿ï¿½)
 
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX34	30177	//ÀÏº» Æê ¹Ú½º(¸»)
-#define	II_SYS_SYS_SCR_BXHWANGWOO01	30178	//´ë¸¸ ¿äÃ» º¸»ó ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX35	30179	//ÀÏº» Æê ¹Ú½º(ºñ±Û)
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX34	30177	//ï¿½Ïºï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BXHWANGWOO01	30178	//ï¿½ë¸¸ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX35	30179	//ï¿½Ïºï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½)
 
 #define	II_SYS_SYS_EVE_STRANGEBOX01_1	30180
 #define	II_SYS_SYS_EVE_STRANGEBOX03_1	30181
 
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX36	30182	//¸ÞÅ×¿À ¹ÙÀÌÅ© ¼±¹° »óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX37	30183	//Å¬¶ô ¹ÙÀÌÅ© ¼±¹° »óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX38	30184	//Çì¶ó ¹ÙÀÌÅ© ¼±¹° »óÀÚ 2
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX39	30185	//½ÃÀÏ¶ó ¹ÙÀÌÅ© ¼±¹° »óÀÚ 2
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX40	30186	//¸ñ¸¶ ¼±¹° »óÀÚ 2
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX41	30187	//¸¶¹ýÀÇ ¾çÅºÀÚ ¼±¹° »óÀÚ 2
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX36	30182	//ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX37	30183	//Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX38	30184	//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX39	30185	//ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX40	30186	//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX41	30187	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åºï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX42	30188	//Animal Week Box
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX43	30189	// ÀÏ¹Ý º¸È£ÀÇ µÎ·ç¸¶¸® ¼±¹° »óÀÚ
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX44	30190	// ¸ÞÅ×¿À ¹ÙÀÌÅ© ¼±¹° »óÀÚ2
-#define	II_SYS_SYS_EVE_COMMERGIFTBOX45	30191	// È¯¿µ ¼±¹° »óÀÚ
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX43	30189	// ï¿½Ï¹ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX44	30190	// ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½2
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX45	30191	// È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BXBIKE02	30192
 
@@ -5857,7 +5921,7 @@
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX49	30301
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX50	30302
 
-#define	II_SYS_SYS_SCR_BXRAINBOW01	30303	// ·¹ÀÎº¸¿ì ¹Ú½º
+#define	II_SYS_SYS_SCR_BXRAINBOW01	30303	// ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX51	30304
 #define	II_SYS_SYS_EVE_BXDRAW01	30305
@@ -5875,7 +5939,7 @@
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX60	30316
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX61	30317
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX62	30318
-//2009 È«Äá ·¹½ÃÇÇ ÀÌº¥Æ®
+//2009 È«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_QUE_COOKINGBOOK01	30319
 #define	II_SYS_SYS_QUE_COOKINGBOOK02	30320
 #define	II_SYS_SYS_QUE_COOKINGBOOK03	30321
@@ -5925,22 +5989,22 @@
 #define	II_SYS_SYS_SCR_BXLVUP60	20015
 #define	II_SYS_SYS_SCR_BXLVUP80	20016
 
-// ´ë¸¸ ´ëÃ¼ ¾ÆÀÌÅÛ
+// ï¿½ë¸¸ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMAKEOVER	20017
-// ÇÊ¸®ÇÉ ´ëÃ¼ ¾ÆÀÌÅÛ
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BX_SCROLL	20018
 
-// 12Â÷ ±ºÁÖ
+// 12ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_LS_CHEERING	20019
 #define	II_SYS_SYS_LS_BLESSING	20020
 #define	II_SYS_SYS_LS_LOVE	20021
 #define	II_SYS_SYS_LS_SHOUT	20022
 #define	II_SYS_SYS_LS_RAGE	20023
 
-#define	II_SYS_SYS_SCR_PETAWAKE	20024	// ¸®¾îÆê °¢¼ºÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_PETAWAKECANCEL	20025	// ¸®¾îÆê °¢¼ºÀÇ µÎ·ç¸¶¸®
+#define	II_SYS_SYS_SCR_PETAWAKE	20024	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PETAWAKECANCEL	20025	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
 
-// ±ºÁÖ Àü¿ë ÀÇ»ó(À§¾ö¼Â)
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define	II_ARM_M_CHR_MAJESTY01HAT	20026
 #define	II_ARM_M_CHR_MAJESTY01SUIT	20027
 #define	II_ARM_M_CHR_MAJESTY01GLOVES	20028
@@ -5954,17 +6018,17 @@
 
 #define	II_SYS_SYS_VOTE_THANKS	20036
 
-#define	II_SYS_SYS_SCR_SOKCHANG	20037	// ¼Ó¼º º¯°æÀÇ µÎ·ç¸¶¸®
-#define	II_CHR_FOO_COO_GRILLEDEEL_1	20038	// ÀÌº¥Æ®¿ë Àå¾î ±¸ÀÌ
+#define	II_SYS_SYS_SCR_SOKCHANG	20037	// ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_CHR_FOO_COO_GRILLEDEEL_1	20038	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_PET_NAMING	20039	// Æê ÀÛ¸íÀÇ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_BAGBAG15	20040	// ÈÞ´ë °¡¹æ »ç¿ë±Ç15ÀÏ
+#define	II_SYS_SYS_SCR_PET_NAMING	20039	// ï¿½ï¿½ ï¿½Û¸ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BAGBAG15	20040	// ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½15ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXBIKE03	20041	// ¹ÙÀÌÅ© »óÀÚ - ¸ÞÅ×¿À ¹ÙÀÌÅ©(±×¸°) 7ÀÏ
+#define	II_SYS_SYS_SCR_BXBIKE03	20041	// ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½Å©(ï¿½×¸ï¿½) 7ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXGUILDWAR01	20042	//	ÇÊ¸®ÇÉ ±æµå´ëÀü ¼Ò¸ð¼º ¾ÆÀÌÅÛ »óÀÚ
+#define	II_SYS_SYS_SCR_BXGUILDWAR01	20042	//	ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-//2009³â ÀÏº» Ä¥¼® ÀÌº¥Æ®
+//2009ï¿½ï¿½ ï¿½Ïºï¿½ Ä¥ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_QUE_TISSUE01	20043
 #define	II_ARM_F_CHR_YUKATA05SUIT	20044
 #define	II_ARM_F_CHR_YUKATA05GLOVES	20045
@@ -5979,7 +6043,7 @@
 #define	II_SYS_SYS_SCR_ICEJUMP	20054
 #define	II_SYS_SYS_SCR_BXNATURE01	20055
 
-//2009³â ÀÏº» 5ÁÖ³â ±â³ä ÀÌº¥Æ®
+//2009ï¿½ï¿½ ï¿½Ïºï¿½ 5ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_BOBOKUEX	20056
 #define	II_SYS_SYS_EVE_HURAGIA	20057
 #define	II_SYS_SYS_EVE_MERONCOOKIE	20058
@@ -5988,17 +6052,17 @@
 #define	II_SYS_SYS_EVE_BXMERONBASKET	20061
 #define	II_SYS_SYS_EVE_BXEXPERIENCE	20062
 
-//¹Ì±¹ ·¹º§¾÷ ÀÌº¥Æ® »óÀÚ
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BXLEVELUP01	20063
 #define	II_SYS_SYS_SCR_BXLEVELUP02	20064
 #define	II_SYS_SYS_SCR_BXLEVELUP03	20065
 #define	II_SYS_SYS_SCR_BXLEVELUP04	20066
 
-// ±¹³» »çÁ¦ ½Ã½ºÅÛ º¸»ó ¾ÆÀÌÅÛ
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXTAEGUK01	20067
 
-// »þ¿ö°¡¿î ÄÚ½ºÆ¬
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬
 #define	II_ARM_M_CHR_SHOWERHAT	20068
 #define	II_ARM_M_CHR_SHOWERSUIT	20069
 #define	II_ARM_M_CHR_SHOWERGLOVES	20070
@@ -6061,32 +6125,32 @@
 
 #define	II_SYS_SYS_SCR_BXPCZONE01	20114
 
-//±æµå ÇÏ¿ì½º °¡±¸
+//ï¿½ï¿½ï¿½ ï¿½Ï¿ì½º ï¿½ï¿½ï¿½ï¿½
 #define	II_GHOU_FUR_BED_WOOD01	20115
 #define	II_GHOU_FUR_TAB_WOOD01	20116
 
-//À¯·´ 14Â÷ ¾÷µ¥ÀÌÆ® ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ 14ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_CARLIC	20117
 #define	II_SYS_SYS_EVE_CROSS	20118
 #define	II_SYS_SYS_EVE_VANHARLENNECKLACE	20119
 #define	II_SYS_SYS_SCR_BXALCHEMY	20120
 
-//¹Ì±¹ ¸ÁÅä ÄÜÅ×½ºÆ® ¾ÆÀÌÅÛ Ãß°¡
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_S_CLO_CLO_STARCLOUD	20121
 #define	II_ARM_S_CLO_CLO_YINYANG	20122
 #define	II_ARM_S_CLO_CLO_TWINDRAGONS	20123
 
-//ÅÚ·¹Æ÷ÅÍ NPCÀÌ¿ë±Ç
+//ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ NPCï¿½Ì¿ï¿½ï¿½
 #define	II_GHOU_FUR_NPC_TELEPORTER	20124
 
-//³ªºñ³¯°³
+//ï¿½ï¿½ï¿½ñ³¯°ï¿½
 #define	II_RID_RID_WIN_BUTTERFLY01	20125
 #define	II_RID_RID_WIN_BUTTERFLY02	20126
 #define	II_RID_RID_WIN_BUTTERFLY03	20127
 #define	II_RID_RID_WIN_BUTTERFLY04	20128
 #define	II_RID_RID_WIN_BUTTERFLY05	20129
 
-//ÇÁ¸®ÇÁº¸µå(µ¶ÀÏ)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
 #define	II_RID_RID_BOR_FLYFFGER	20130
 #define	II_SYS_SYS_SCR_BXFLYFFGER01	20131
 
@@ -6098,14 +6162,14 @@
 #define	II_GHOU_FUR_BED_WOOD02	20136
 #define	II_GHOU_PAP_CAR01	20137
 #define	II_GHOU_PAP_WAL01	20138
-#define	II_GHOU_FUR_REST_WOOD03	20139
-#define	II_GHOU_FUR_SOFA_WOOD01	20140
-#define	II_GHOU_FUR_DESK_WOOD01	20141
+#define	II_GHOU_FUR_REST_WOOD03	    20139
+#define	II_GHOU_FUR_SOFA_WOOD01	    20140
+#define	II_GHOU_FUR_DESK_WOOD01	    20141
 #define	II_GHOU_FUR_CHAIR_WOOD01	20142
-#define	II_GHOU_FUR_CASE_WOOD01	20143
+#define	II_GHOU_FUR_CASE_WOOD01	    20143
 #define	II_GHOU_FUR_DRESSER_WOOD01	20144
 #define	II_GHOU_FUR_WARDROBE_WOOD01	20145
-#define	II_GHOU_FUR_BATH_WOOD01	20146
+#define	II_GHOU_FUR_BATH_WOOD01	    20146
 #define	II_GHOU_FUR_DRAWER_WOOD01	20147
 
 #define	II_WEA_SWO_LUZA	20148
@@ -6134,12 +6198,12 @@
 
 #define	II_SYS_TICKET_GUILDHOUSE_COMEBACK01	20169
 
-//ÀÏº» Å©¸®½º¸¶½º ÀÌº¥Æ®
+//ï¿½Ïºï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_FRUITOFHEART01	20170
 #define	II_SYS_SYS_SCR_BXCHARISTMASBLUE	20171
 #define	II_SYS_SYS_SCR_BXCHARISTMASRED	20172
 
-//À¯·´ Å©¸®½º¸¶½º ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 
 #define	II_SYS_SYS_EVE_CHRISTMASBEESWAX01	20173
 #define	II_SYS_SYS_EVE_CHRISTMASGLASS01	20174
@@ -6188,18 +6252,18 @@
 #define	II_GHOU_FUR_FLO_BASIC01	20209
 #define	II_GHOU_FUR_WAL_BASIC01	20210
 
-#define	II_GEN_JEW_RIN_FIRERING	20211
-#define	II_GEN_JEW_RIN_LANDRING	20212
-#define	II_GEN_JEW_RIN_WATERRING	20213
-#define	II_GEN_JEW_RIN_ELECTRICRING	20214
+#define	II_GEN_JEW_RIN_FIRERING	        20211
+#define	II_GEN_JEW_RIN_LANDRING	        20212
+#define	II_GEN_JEW_RIN_WATERRING	    20213
+#define	II_GEN_JEW_RIN_ELECTRICRING	    20214
 #define	II_GEN_JEW_EAR_ATTEARRINGEST	20215
 #define	II_GEN_JEW_EAR_DEFEARRINGEST	20216
-#define	II_GEN_JEW_NEC_HPNECKLACEMR	20217
-#define	II_GEN_JEW_NEC_MPNECKLACEMR	20218
-#define	II_GEN_JEW_NEC_FPNECKLACEMR	20219
-#define	II_GEN_JEW_NEC_HPMPNECKLACE	20220
-#define	II_GEN_JEW_EAR_MAGICRINGEST	20221
-#define	II_GEN_JEW_EAR_RANGERINGEST	20222
+#define	II_GEN_JEW_NEC_HPNECKLACEMR	    20217
+#define	II_GEN_JEW_NEC_MPNECKLACEMR	    20218
+#define	II_GEN_JEW_NEC_FPNECKLACEMR	    20219
+#define	II_GEN_JEW_NEC_HPMPNECKLACE	    20220
+#define	II_GEN_JEW_EAR_MAGICRINGEST	    20221
+#define	II_GEN_JEW_EAR_RANGERINGEST	    20222
 
 #define	II_SYS_SYS_SCR_BXVISMELEE01	20223
 #define	II_SYS_SYS_SCR_BXVISMAGIC01	20224
@@ -6330,8 +6394,8 @@
 
 #define	II_PET_DANCER01	20332
 
-#define	II_WEA_CBOW_WOODNE	20333
-#define	II_WEA_SEC_ACR_CORSSARROW	20334
+//	20333
+//	20334
 
 #define	II_SYS_SYS_SCR_BXBLUEWEA01	20335
 
@@ -6357,7 +6421,7 @@
 #define	II_ARM_S_CLO_CLO_WORLDCUP_POR	20353
 #define	II_ARM_S_CLO_CLO_WORLDCUP_ZAF	20354
 
-//16Â÷ Ãß°¡ ¹«±â 6Á¾
+//16ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ 6ï¿½ï¿½
 
 #define	II_WEA_BOOK_BOKROMAIN	20355
 #define	II_ARM_ARM_SHI_ZEMBATO	20356
@@ -6366,7 +6430,7 @@
 #define	II_ARM_ARM_SHI_SHESOUL	20359
 #define	II_WEA_SWO_SWDSOUL	20360
 
-// 16Â÷ º£È÷¸ð½º ¹«±â 12Á¾
+// 16ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 12ï¿½ï¿½
 
 #define	II_WEA_SWO_BEHESWORD	20361
 #define	II_WEA_SWT_BEHETWOSWORD	20362
@@ -6395,9 +6459,9 @@
 
 #define	II_SYS_SYS_SCR_BXM_SWIM07SET02	20382
 #define	II_SYS_SYS_SCR_BXF_SWIM09SET02	20383
-#define	II_SYS_SYS_SCR_BXSUMMER	20384	//¿©¸§»óÀÚ
+#define	II_SYS_SYS_SCR_BXSUMMER	20384	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXSUMMER2	20385	//¿ÀÀÛ±³ ¿¬ÀÎÀÇ º¸¹° »óÀÚ
+#define	II_SYS_SYS_SCR_BXSUMMER2	20385	//ï¿½ï¿½ï¿½Û±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_MAGPIEFEATHER	20386
 #define	II_GEN_GEM_GEM_BROKENSTONE	20387
 
@@ -6415,14 +6479,14 @@
 #define	II_ARM_F_CHR_YUKATA06GLOVES	20398
 #define	II_ARM_F_CHR_YUKATA06SHOES	20399
 #define	II_SYS_SYS_SCR_BXFYUKATASET06	20400
-//ÇØÇÇÄÝ ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXHAPPYM1	20401
 #define	II_SYS_SYS_SCR_BXHAPPYH2	20402
 
-//´ë¸¸ µå·¡°ï ³¯°³ »óÀÚ Ãß°¡
+//ï¿½ë¸¸ ï¿½å·¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXDRAGONWING	20403
 
-//¹Ì±¹ ÀÇ»ó¼¼Æ® ¹Ú½º ¾ÆÀÌÅÛ Ãß°¡ º¯°æ
+//ï¿½Ì±ï¿½ ï¿½Ç»ï¿½Æ® ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMYUKATASET07	20404
 #define	II_SYS_SYS_SCR_BXFYUKATASET07	20405
 
@@ -6430,67 +6494,67 @@
 #define	II_SYS_TICKET_BXGOLDEN	20407
 #define	II_SYS_TICKET_BXXBOX360	20408
 
-#define	II_SYS_SYS_EVE_BALLOON003	20409	//¿¹»Û ³ë¶û»ö Ç³¼±
-#define	II_SYS_SYS_EVE_BALLOON004	20410	//¿¹»Û ºÐÈ«»ö Ç³¼±
+#define	II_SYS_SYS_EVE_BALLOON003	20409	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BALLOON004	20410	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È«ï¿½ï¿½ Ç³ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXITEMMANIA1	20411	//²ÇÂ¥·Î ¹ÞÀº ¼±¹° »óÀÚ
-#define	II_SYS_SYS_SCR_BXITEMMANIA2	20412	//¾öÃ»³­ ¼±¹° »óÀÚ
+#define	II_SYS_SYS_SCR_BXITEMMANIA1	20411	//ï¿½ï¿½Â¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXITEMMANIA2	20412	//ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-//¹Ì±¹ ·¹º§¾÷ ÀÌº¥Æ® ÀÌº¥Æ®¿ë Àü¼³ÀÇ È²±Ý ¹«±â
-#define	II_WEA_SWO_LEAGENDG1	20413	//ÀÌº¥Æ®¿ë È²±Ý°Ë
-#define	II_WEA_SWT_LEAGENDG1	20414	//ÀÌº¥Æ®¿ë È²±Ý ´ë°Ë
-#define	II_WEA_AXE_LEAGENDG1	20415	//ÀÌº¥Æ®¿ë È²±Ý µµ³¢
-#define	II_WEA_AXT_LEAGENDG1	20416	//ÀÌº¥Æ®¿ë Ä¿´Ù¶õ È²±Ýµµ³¢
-#define	II_WEA_KNU_LEAGENDG1	20417	//ÀÌº¥Æ®¿ëÈ²±ÝÀå°©
-#define	II_WEA_CHE_LEAGENDG1	20418	//ÀÌº¥Æ®¿ëÈ²±Ý½ºÆ½
-#define	II_WEA_WAN_LEAGENDG1	20419	//ÀÌº¥Æ®¿ëÈ²±Ý¿Ïµå
-#define	II_WEA_STA_LEAGENDG1	20420	//ÀÌº¥Æ®¿ëÈ²±Ý½ºÅÂÇÁ
-#define	II_WEA_BOW_LEAGENDG1	20421	//ÀÌº¥Æ®¿ëÈ²±ÝÈ°
-#define	II_WEA_YOY_LEAGENDG1	20422	//ÀÌº¥Æ®¿ëÈ²±Ý¿ä¿ä
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_LEAGENDG1	20413	//ï¿½Ìºï¿½Æ®ï¿½ï¿½ È²ï¿½Ý°ï¿½
+#define	II_WEA_SWT_LEAGENDG1	20414	//ï¿½Ìºï¿½Æ®ï¿½ï¿½ È²ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_WEA_AXE_LEAGENDG1	20415	//ï¿½Ìºï¿½Æ®ï¿½ï¿½ È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_AXT_LEAGENDG1	20416	//ï¿½Ìºï¿½Æ®ï¿½ï¿½ Ä¿ï¿½Ù¶ï¿½ È²ï¿½Ýµï¿½ï¿½ï¿½
+#define	II_WEA_KNU_LEAGENDG1	20417	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½ï¿½ï¿½å°©
+#define	II_WEA_CHE_LEAGENDG1	20418	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½Ý½ï¿½Æ½
+#define	II_WEA_WAN_LEAGENDG1	20419	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½Ý¿Ïµï¿½
+#define	II_WEA_STA_LEAGENDG1	20420	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½Ý½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_BOW_LEAGENDG1	20421	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½ï¿½È°
+#define	II_WEA_YOY_LEAGENDG1	20422	//ï¿½Ìºï¿½Æ®ï¿½ï¿½È²ï¿½Ý¿ï¿½ï¿½
 
-//ÀÏº» ¹öÇÁ Æê ¹Ú½º Ãß°¡
-#define	II_SYS_SYS_SCR_BXRACCON	20423	//¹öÇÁ Æê ¹Ú½º[¿ë¸ÍÇÑ ¶óÄï]
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ß°ï¿½
+#define	II_SYS_SYS_SCR_BXRACCON	20423	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½]
 
-//Á¦·ÃÁ¤·É
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_PET_SMELTPIYO	20424
 #define	II_PET_SMELTUDI	20425
 
-//¾ÆÀÌÅÛ¸Þ´Ï¾Æ ½Å±ÔÀ¯Àú Áö±Þ¿ë ¾ç¿ì¸® Á¦ÀÛ
-#define	II_PET_SHEEP1	20426	//±Í¼Ó ¾ç¿ì¸®
+//ï¿½ï¿½ï¿½ï¿½ï¿½Û¸Þ´Ï¾ï¿½ ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Þ¿ï¿½ ï¿½ï¿½ì¸® ï¿½ï¿½ï¿½ï¿½
+#define	II_PET_SHEEP1	20426	//ï¿½Í¼ï¿½ ï¿½ï¿½ì¸®
 
-//ÀÏº» µå·¡°ï ³¯°³ ·£´ý ¹Ú½º
-#define	II_SYS_SYS_SCR_BXDRAGONWING1	20427	//µå·¡°ï ³¯°³ ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½å·¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXDRAGONWING1	20427	//ï¿½å·¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-//±¹³» Á¡ÇÎ ÀÌº¥Æ®
-#define	II_SYS_SYS_QUE_HOLYBRANCH01	20428	//¿µÇèÇÑ ³ª¹µ °¡Áö
-#define	II_SYS_SYS_SCR_BXREDEUSSEON	20429	//·¹µå½ã
-#define	II_SYS_SYS_SCR_BXMIRE	20430	//¹Ì·¹
-#define	II_SYS_SYS_SCR_BXAHINDEU	20431	//¾ÆÀÎµå
-#define	II_SYS_SYS_SCR_BXMYORANG	20432	//¹¦¶ûÀÇ ¼±¹° »óÀÚ
-//Á÷¾÷¹«±â»óÀÚ ¹× ±¸¼ºÇ°
-#define	II_SYS_SYS_SCR_BXGEOMSEOL	20433	//°Ë¼³ÀÇ ¼±¹°
-#define	II_SYS_SYS_SCR_BXJUMONG	20434	//ÁÖ¸ùÀÇ ¼±¹°
-#define	II_SYS_SYS_SCR_BXSAGE	20435	//ÇöÀÚÀÇ ¼±¹°
-#define	II_SYS_SYS_SCR_BXHARRY	20436	//ÇØ¸®ÀÇ ¼±¹°
-#define	II_WEA_SWO_SUHO1	20437	//°Ë¼³ÀÌ ÁØ ¼öÈ£ÀÇ °Ë
-#define	II_WEA_AXE_SUHO1	20438	//°Ë¼³ÀÌ ÁØ ¼öÈ£ÀÇ µµ³¢
-#define	II_WEA_BOW_SUHO1	20439	//ÁÖ¸ùÀÌ ÁØ ¼öÈ£ÀÇ È°
-#define	II_WEA_YOY_SUHO1	20440	//ÁÖ¸ùÀÌ ÁØ ¼öÈ£ÀÇ ¿ä¿ä
-#define	II_WEA_CHE_SUHO1	20441	//ÇöÀÚ°¡ ÁØ ¼öÈ£ÀÇ ½ºÆ½
-#define	II_WEA_KNU_SUHO1	20442	//ÇöÀÚ°¡ ÁØ ¼öÈ£ÀÇ ³ÊÅ¬
-#define	II_WEA_STA_SUHO1	20443	//ÇØ¸®°¡ ÁØ ¼öÈ£ÀÇ ½ºÅÂÇÁ
-#define	II_WEA_WAN_SUHO1	20444	//ÇØ¸®°¡ ÁØ ¼öÈ£ÀÇ ¿Ïµå
-#define	II_SYS_SYS_SCR_AMPES_MYORANGLINK	20445	//¹¦¶ûÀÌ ÁØ ESÁõÆøÀÇ µÎ·ç¸¶¸®
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_QUE_HOLYBRANCH01	20428	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXREDEUSSEON	20429	//ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXMIRE	20430	//ï¿½Ì·ï¿½
+#define	II_SYS_SYS_SCR_BXAHINDEU	20431	//ï¿½ï¿½ï¿½Îµï¿½
+#define	II_SYS_SYS_SCR_BXMYORANG	20432	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
+#define	II_SYS_SYS_SCR_BXGEOMSEOL	20433	//ï¿½Ë¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXJUMONG	20434	//ï¿½Ö¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXSAGE	20435	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXHARRY	20436	//ï¿½Ø¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_SUHO1	20437	//ï¿½Ë¼ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½
+#define	II_WEA_AXE_SUHO1	20438	//ï¿½Ë¼ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_BOW_SUHO1	20439	//ï¿½Ö¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ È°
+#define	II_WEA_YOY_SUHO1	20440	//ï¿½Ö¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_WEA_CHE_SUHO1	20441	//ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½Æ½
+#define	II_WEA_KNU_SUHO1	20442	//ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½Å¬
+#define	II_WEA_STA_SUHO1	20443	//ï¿½Ø¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_WAN_SUHO1	20444	//ï¿½Ø¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ïµï¿½
+#define	II_SYS_SYS_SCR_AMPES_MYORANGLINK	20445	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BXGEOMSEOL1	20446	//°Ë¼³ÀÇ ¹æ¾î±¸ »óÀÚ³²
-#define	II_SYS_SYS_SCR_BXJUMONG1	20447	//ÁÖ¸ùÀÇ ¹æ¾î±¸ »óÀÚ³²
-#define	II_SYS_SYS_SCR_BXSAGE1	20448	//ÇöÀÚÀÇ ¹æ¾î±¸ »óÀÚ³²
-#define	II_SYS_SYS_SCR_BXHARRY1	20449	//ÇØ¸®ÀÇ ¹æ¾î±¸ »óÀÚ³²
-#define	II_SYS_SYS_SCR_BXGEOMSEOL2	20450	//°Ë¼³ÀÇ ¹æ¾î±¸ »óÀÚ¿©
-#define	II_SYS_SYS_SCR_BXJUMONG2	20451	//ÁÖ¸ùÀÇ ¹æ¾î±¸ »óÀÚ¿©
-#define	II_SYS_SYS_SCR_BXSAGE2	20452	//ÇöÀÚÀÇ ¹æ¾î±¸ »óÀÚ¿©
-#define	II_SYS_SYS_SCR_BXHARRY2	20453	//ÇØ¸®ÀÇ ¹æ¾î±¸ »óÀÚ¿©
-//¹æ¾î±¸ »óÀÚ ±¸¼ºÇ°
+#define	II_SYS_SYS_SCR_BXGEOMSEOL1	20446	//ï¿½Ë¼ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú³ï¿½
+#define	II_SYS_SYS_SCR_BXJUMONG1	20447	//ï¿½Ö¸ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú³ï¿½
+#define	II_SYS_SYS_SCR_BXSAGE1	20448	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú³ï¿½
+#define	II_SYS_SYS_SCR_BXHARRY1	20449	//ï¿½Ø¸ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú³ï¿½
+#define	II_SYS_SYS_SCR_BXGEOMSEOL2	20450	//ï¿½Ë¼ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú¿ï¿½
+#define	II_SYS_SYS_SCR_BXJUMONG2	20451	//ï¿½Ö¸ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú¿ï¿½
+#define	II_SYS_SYS_SCR_BXSAGE2	20452	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú¿ï¿½
+#define	II_SYS_SYS_SCR_BXHARRY2	20453	//ï¿½Ø¸ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½Ú¿ï¿½
+//ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°
 #define	II_ARM_M_BLA_SUIT05	20454
 #define	II_ARM_M_BLA_HELMET05	20455
 #define	II_ARM_M_BLA_GAUNTLET05	20456
@@ -6526,55 +6590,55 @@
 #define	II_ARM_F_KIN_HELMET05	20483
 #define	II_ARM_F_KIN_GAUNTLET05	20484
 #define	II_ARM_F_KIN_BOOTS05	20485
-//¹Ù·ç³ªÀÇ °¡È£
+//ï¿½Ù·ç³ªï¿½ï¿½ ï¿½ï¿½È£
 #define	II_SYS_SYS_SCR_BARUNASMELPROT	20486
-//¹¦¶ûÀÌ ÁØ ºÎÈ­ÃËÁøÁ¦
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_PET_HATCH1	20487
-//ÇÇ³ÄÅ¸
+//ï¿½Ç³ï¿½Å¸
 #define	II_SYS_SYS_SCR_BXHAPPYBDAY	20488
-//´ë¸¸ Çà¿îÀÇ º¸¹° »óÀÚ
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXTREASURELUCK	20489
 
-//´ë¸¸ 4ÁÖ³â ¸ÁÅä
+//ï¿½ë¸¸ 4ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_OMG1	20490
 #define	II_ARM_S_CLO_CLO_OMG2	20491
 #define	II_ARM_S_CLO_CLO_OMG3	20492
 #define	II_ARM_S_CLO_CLO_ClOCHAMELEON1	20493
 #define	II_ARM_S_CLO_CLO_ClOCHAMELEON2	20494
 #define	II_ARM_S_CLO_CLO_ClOCHAMELEON3	20495
-//´ë¸¸ 4ÁÖ³â ¸ÁÅä »óÀÚ
+//ï¿½ë¸¸ 4ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXOMG1	20496
 #define	II_SYS_SYS_SCR_BXOMG2	20497
 #define	II_SYS_SYS_SCR_BXOMG3	20498
 #define	II_SYS_SYS_SCR_BXClOCHAMELEON1	20499
 #define	II_SYS_SYS_SCR_BXClOCHAMELEON2	20504
 #define	II_SYS_SYS_SCR_BXClOCHAMELEON3	20505
-//´ë¸¸ 4ÁÖ³â µ¿Àü
+//ï¿½ë¸¸ 4ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_TOC_FUN_OMGCOIN	20506
 
-//´ë¸¸ Ä«¸á·¹¿Â ÆÖ
+//ï¿½ë¸¸ Ä«ï¿½á·¹ï¿½ï¿½ ï¿½ï¿½
 #define	II_PET_CHAMELEON	20507
 
-//·¯½Ã¾Æ ·°Å°¹Ú½º 3Á¾ Ãß°¡
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½Å°ï¿½Ú½ï¿½ 3ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXDTREASURE	20508
 #define	II_SYS_SYS_SCR_BXNTREASURE	20509
 #define	II_SYS_SYS_SCR_BXGGLASSES	20510
 
-//ÀÏº» Æê¹Ú½º Ãß°¡
+//ï¿½Ïºï¿½ ï¿½ï¿½Ú½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_EVE_JPETGIFTBOX	20511
 
-//±¹³» ¾ÆÀÌÅÛ »óÀÚ Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_BXWINGGOODLUCK	20512
 #define	II_SYS_SYS_SCR_BXWINGCOURAGE	20513
 #define	II_SYS_SYS_SCR_BXPIERCINGLUCK	20514
 
-//±¹³» NEW¾×Æ¼ºñ¼Ç Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ NEWï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_CHR_SYS_SCR_NEWACTIVITION	20515
 
-//ÀÏº» ºñÇà¾ÆÀÌÅÛ(ºí·¡½ºÆ®Ä«/ÀÏ·ºÆ®·Ð¹ÙÀÌÅ©)·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®Ä«/ï¿½Ï·ï¿½Æ®ï¿½Ð¹ï¿½ï¿½ï¿½Å©)ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXFLYJAPAN	20516
 
-//¿¬½À¿ë Á¦·Ã
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_PET_SMELTUDI01	20517
 #define	II_GEN_MAT_CIDPIECE05_01	20518
 #define	II_GEN_MAT_CIDPIECE04_01	20519
@@ -6583,10 +6647,10 @@
 #define	II_GEN_MAT_OPER01	20522
 #define	II_GEN_MAT_OPERCID01	20523
 #define	II_GEN_MAT_BARYUMMEAL01	20524
-//±Í¼Ó ´ëº¸¸§ ¼±¹° »óÀÚ
+//ï¿½Í¼ï¿½ ï¿½ëº¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXCHUSEOK03	20525
 
-//2·¹º§ ºñ½º 7ÀÏ
+//2ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½
 #define	II_SYS_VIS_LV2_STR7	20526
 #define	II_SYS_VIS_LV2_DEX7	20527
 #define	II_SYS_VIS_LV2_INT7	20528
@@ -6608,20 +6672,20 @@
 #define	II_SYS_VIS_LV2_HPMAX7	20544
 #define	II_SYS_VIS_LV2_KILLHP7	20545
 #define	II_SYS_VIS_LV2_MONSTERDMG7	20546
-//3·¹º§ ºñ½º 7ÀÏ
+//3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½
 #define	II_SYS_VIS_LV3_WARRIOR7	20547
 #define	II_SYS_VIS_LV3_KNIGHT7	20548
 #define	II_SYS_VIS_LV3_BUBBLE7	20549
 #define	II_SYS_VIS_LV3_IBLIS7	20550
 #define	II_SYS_VIS_LV3_SHADE7	20551
-//3·¹º§ ºñ½º 30ÀÏ
+//3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 30ï¿½ï¿½
 #define	II_SYS_VIS_LV3_WARRIOR30	20552
 #define	II_SYS_VIS_LV3_KNIGHT30	20553
 #define	II_SYS_VIS_LV3_BUBBLE30	20554
 #define	II_SYS_VIS_LV3_IBLIS30	20555
 #define	II_SYS_VIS_LV3_SHADE30	20556
 
-//2·¹º§ ºñ½º 7ÀÏ »óÀÚ
+//2ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_LV2_BXSTR7	20557
 #define	II_SYS_SYS_SCR_LV2_BXDEX7	20558
 #define	II_SYS_SYS_SCR_LV2_BXINT7	20559
@@ -6644,7 +6708,7 @@
 #define	II_SYS_SYS_SCR_LV2_BXKILLHP7	20576
 #define	II_SYS_SYS_SCR_LV2_BXMONSTERDMG7	20577
 
-//3·¹º§ ºñ½º 7ÀÏ »óÀÚ
+//3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_LV3_BXWARRIOR7	20578
 #define	II_SYS_SYS_SCR_LV3_BXKNIGHT7	20579
 #define	II_SYS_SYS_SCR_LV3_BXBUBBLE7	20580
@@ -6652,7 +6716,7 @@
 #define	II_SYS_SYS_SCR_LV3_BXSHADE7	20582
 
 
-//1·¹º§ ºñ½º 7ÀÏ
+//1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½
 #define	II_SYS_VIS_LV1_STR7	20583
 #define	II_SYS_VIS_LV1_DEX7	20584
 #define	II_SYS_VIS_LV1_INT7	20585
@@ -6673,7 +6737,7 @@
 #define	II_SYS_VIS_LV1_HPMAX7	20600
 #define	II_SYS_VIS_LV1_KILLHP7	20601
 
-//1·¹º§ ºñ½º»óÀÚ	7ÀÏ
+//1ï¿½ï¿½ï¿½ï¿½ ï¿½ñ½º»ï¿½ï¿½ï¿½	7ï¿½ï¿½
 #define	II_SYS_SYS_SCR_LV1_BXSTR7	20602
 #define	II_SYS_SYS_SCR_LV1_BXDEX7	20603
 #define	II_SYS_SYS_SCR_LV1_BXINT7	20604
@@ -6693,45 +6757,45 @@
 #define	II_SYS_SYS_SCR_LV1_BXPARRY7	20618
 #define	II_SYS_SYS_SCR_LV1_BXHPMAX7	20619
 #define	II_SYS_SYS_SCR_LV1_BXKILLHP7	20620
-//Æ¯º° °æÇèÄ¡ µÎ·ç¸¶¸® Ãß°¡
+//Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_SPAMPESE	20621
 
-//¹öºí ½¦ÀÌµå ¹Ú½º
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXBUBBLE	20622
 #define	II_SYS_SYS_SCR_BXSHADE	20623
 
-//È­ÀÌÆ® ºí·¢ ½ºÅæ ¹× ¹öºí ½¦ÀÌµå »óÂ¡
+//È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½Â¡
 #define	II_GEN_GEM_GEM_WSTONE	20624
 #define	II_GEN_GEM_GEM_BSTONE	20625
 #define	II_GEN_GEM_GEM_BUBBLESYMBOL	20626
 #define	II_GEN_GEM_GEM_SHADESYMBOL	20627
-//¿ë¸ÍÇÔÀÇ Á¶°¢
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_SPIRITMARBLE	20628
 
-//¾Ç¸¶ ¹æ¾î±¸ ³²¿©
-#define	II_ARM_M_DV_MSUIT	20629
-#define	II_ARM_M_DV_MHELMET	20630
-#define	II_ARM_M_DV_MGAUNTLET	20631
-#define	II_ARM_M_DV_MBOOTS	20632
-#define	II_ARM_M_DV_FSUIT	20633
-#define	II_ARM_M_DV_FHELMET	20634
-#define	II_ARM_M_DV_FGAUNTLET	20635
-#define	II_ARM_M_DV_FBOOTS	20636
-//Ãµ»ç ¹æ¾î±¸ ¿©³²
-#define	II_ARM_M_AG_FSUIT	20637
-#define	II_ARM_M_AG_FHELMET	20638
-#define	II_ARM_M_AG_FGAUNTLET	20639
-#define	II_ARM_M_AG_FBOOTS	20640
-#define	II_ARM_M_AG_MSUIT	20641
-#define	II_ARM_M_AG_MHELMET	20642
-#define	II_ARM_M_AG_MGAUNTLET	20643
-#define	II_ARM_M_AG_MBOOTS	20644
+//ï¿½Ç¸ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_DV_MSUIT	20629           // [InGame Shop]
+#define	II_ARM_M_DV_MHELMET	20630           // [InGame Shop]
+#define	II_ARM_M_DV_MGAUNTLET	20631       // [InGame Shop]
+#define	II_ARM_M_DV_MBOOTS	20632           // [InGame Shop]
+#define	II_ARM_M_DV_FSUIT	20633           // [InGame Shop]
+#define	II_ARM_M_DV_FHELMET	20634           // [InGame Shop]   
+#define	II_ARM_M_DV_FGAUNTLET	20635       // [InGame Shop]
+#define	II_ARM_M_DV_FBOOTS	20636           // [InGame Shop]   
+//Ãµï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_AG_FSUIT	20637           // [InGame Shop]
+#define	II_ARM_M_AG_FHELMET	20638           // [InGame Shop]
+#define	II_ARM_M_AG_FGAUNTLET	20639       // [InGame Shop]
+#define	II_ARM_M_AG_FBOOTS	20640           // [InGame Shop]
+#define	II_ARM_M_AG_MSUIT	20641           // [InGame Shop]
+#define	II_ARM_M_AG_MHELMET	20642           // [InGame Shop]
+#define	II_ARM_M_AG_MGAUNTLET	20643       // [InGame Shop]
+#define	II_ARM_M_AG_MBOOTS	20644           // [InGame Shop]
 
-//µ¶ÀÏ ÅëÀÏ ±â³ä ¸ÁÅä¿Í ºÒ²É³îÀÌ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò²É³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_EVGERMANY	20645
 #define	II_SYS_SYS_EVE_BXFIRECRACKER01	20646
 
-//¹Ì±¹ ¹«±â ¹æ¾î±¸ ÇÇ¾î½Ì Ä«µå »óÀÚ
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½Ç¾ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_BXCANDLEA	20647
 #define	II_SYS_SYS_EVE_BXRAINATKA	20648
 #define	II_SYS_SYS_EVE_BXBREEZEATKA	20649
@@ -6743,18 +6807,18 @@
 #define	II_SYS_SYS_EVE_BXVACCUM	20655
 #define	II_SYS_SYS_EVE_BXEARTHQUAKE	20656
 
-//°¡½ºÄË Àü±âÅé
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_GASEUKAEN	20657
 #define	II_GEN_GEM_GEM_CHAINSAW	20658
 
-//ESÁõÆøÀÇ µÎ·ç¸¶¸® Ãß°¡
+//ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_AMPESA3	20659
 #define	II_SYS_SYS_SCR_AMPESA4	20660
 #define	II_SYS_SYS_SCR_AMPESB3	20661
 #define	II_SYS_SYS_SCR_AMPESB4	20662
 #define	II_SYS_SYS_SCR_AMPESS3	20663
 #define	II_SYS_SYS_SCR_AMPESS4	20664
-//Á»ºñ ¹Ú½º ¹× ±¸¼º Ç°
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç°
 #define	II_SYS_SYS_EVE_BXZOMBIES	20665
 #define	II_SYS_SYS_SCR_SKULL	20666
 #define	II_SYS_SYS_SCR_ARM_01	20667
@@ -6763,7 +6827,7 @@
 #define	II_SYS_SYS_SCR_LEG_02	20670
 #define	II_SYS_SYS_SCR_RIB	20671
 
-//ÇÒ·ÎÀ© ¸ÁÅä 2Á¾, ÅäÅ«, ¹Ú½º, Æê
+//ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½, ï¿½ï¿½Å«, ï¿½Ú½ï¿½, ï¿½ï¿½
 
 #define	II_ARM_S_CLO_CLO_EVEZOMBIE	20672
 #define	II_ARM_S_CLO_CLO_EVESURVIVE	20673
@@ -6771,140 +6835,139 @@
 #define	II_SYS_SYS_EVE_HUNTERZOMBIETOKEN	20675
 #define	II_PET_LITTLEZOMBIE	20676
 
-//ÇÒ·ÎÀ© Á»ºñ ÀÇ»ó
-#define	II_ARM_M_CLO_ZOMBIEHAT	20680
-#define	II_ARM_M_CLO_ZOMBIESUIT	20681
-#define	II_ARM_M_CLO_ZOMBIEGLOVES	20682
-#define	II_ARM_M_CLO_ZOMBIESHOES	20683
-#define	II_SYS_SYS_SCR_BXMZOMBIE	20684
-#define	II_ARM_F_CLO_ZOMBIEHAT	20685
-#define	II_ARM_F_CLO_ZOMBIESUIT	20686
-#define	II_ARM_F_CLO_ZOMBIEGLOVES	20687
-#define	II_ARM_F_CLO_ZOMBIESHOES	20688
-#define	II_SYS_SYS_SCR_BXFZOMBIE	20689
-#define	II_SYS_SYS_SCR_BXMZOMBIE01	20690
-#define	II_SYS_SYS_SCR_BXFZOMBIE01	20691
+//ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CLO_ZOMBIEHAT	20680           // [InGame Shop]
+#define	II_ARM_M_CLO_ZOMBIESUIT	20681           // [InGame Shop]
+#define	II_ARM_M_CLO_ZOMBIEGLOVES	20682       // [InGame Shop]
+#define	II_ARM_M_CLO_ZOMBIESHOES	20683       // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXMZOMBIE	20684       // [InGame Shop]
+#define	II_ARM_F_CLO_ZOMBIEHAT	20685           // [InGame Shop]
+#define	II_ARM_F_CLO_ZOMBIESUIT	20686           // [InGame Shop]
+#define	II_ARM_F_CLO_ZOMBIEGLOVES	20687       // [InGame Shop]
+#define	II_ARM_F_CLO_ZOMBIESHOES	20688       // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXFZOMBIE	20689       // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXMZOMBIE01	20690       // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXFZOMBIE01	20691       // [InGame Shop]
 
 
 
-//3·¹º§ ÈíÇ÷ ºñ½º ¹× »óÀÚ	7ÀÏ
+//3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½	7ï¿½ï¿½
 #define	II_SYS_VIS_LV3_KILLHP7	20697
 #define	II_SYS_SYS_SCR_LV3_BXKILLHP7	20698
-//ÀÏº» Æê¹Ú½º ¹× ³¯°³ ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½Ú½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_EVE_DANCERBOX	20699
 #define	II_SYS_SYS_SCR_BXWINGBUTTERFIY	20700
 
-//Á»ºñ ¿ì¸®7ÀÏ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ì¸®7ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMZOMBIEWORI	20701
 
-//ÇÏÂúÀº ¿ìµç ¼Òµå ¹× »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Òµï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_PPWOODEN	20702
 #define	II_SYS_SYS_SCR_BXFWOODEN	20703
 
 
-//¹Ì±¹ ½Å±Ô ·£´ý ¹Ú½º Á¦ÀÛ
+//ï¿½Ì±ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXWEAPON01	20704
 #define	II_SYS_SYS_SCR_BXWEAPON02	20705
 #define	II_SYS_SYS_SCR_BXWEAPON03	20706
 #define	II_SYS_SYS_SCR_BXWEAPON04	20707
-#define	II_SYS_SYS_SCR_BXWEAPON05	20708	// ¹«±â ÇÇ¾î½Ì Ä«µå ¹Ú½º 5Á¾
+#define	II_SYS_SYS_SCR_BXWEAPON05	20708	// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½Ú½ï¿½ 5ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXARMOR01	20709
 #define	II_SYS_SYS_SCR_BXARMOR02	20710
 #define	II_SYS_SYS_SCR_BXARMOR03	20711
 #define	II_SYS_SYS_SCR_BXARMOR04	20712
-#define	II_SYS_SYS_SCR_BXARMOR05	20713	// °©¿Ê ÇÇ¾î½Ì Ä«µå ¹Ú½º 5Á¾
+#define	II_SYS_SYS_SCR_BXARMOR05	20713	// ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½Ú½ï¿½ 5ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXULTI01	20714
-#define	II_SYS_SYS_SCR_BXULTI02	20715	// ¾óÆ¼¹Ô ¹«±â ¹Ú½º 2Á¾
+#define	II_SYS_SYS_SCR_BXULTI02	20715	// ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ 2ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXACC01	20716
 #define	II_SYS_SYS_SCR_BXACC02	20717
-#define	II_SYS_SYS_SCR_BXACC03	20718	// ¾Ç¼¼»ç¸® ¹Ú½º 3Á¾
+#define	II_SYS_SYS_SCR_BXACC03	20718	// ï¿½Ç¼ï¿½ï¿½ç¸® ï¿½Ú½ï¿½ 3ï¿½ï¿½
 
-//´ë¸¸ ·£´ý ¹Ú½º
-#define	II_SYS_SYS_SCR_BXSPEEDLFLY	20719	// ½ºÇÇµå Àü¼³ ·£´ý¹Ú½º
-#define	II_SYS_SYS_SCR_BXRAREPET	20720	// Áø±ÍÇÑ ÆÖ ·£´ý¹Ú½º
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXSPEEDLFLY	20719	// ï¿½ï¿½ï¿½Çµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXRAREPET	20720	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 
-//¿äÁ¤ ³¯°³ ºí·ç/ÇÎÅ©
-#define	II_RID_RID_WIN_FairieWingsB	20721	//¿äÁ¤³¯°³ ºí·ç
-#define	II_RID_RID_WIN_FairieWingsP	20722	//¿äÁ¤³¯°³ ÇÎÅ©
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½Å©
+#define	II_RID_RID_WIN_FairieWingsB	20721	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_RID_RID_WIN_FairieWingsP	20722	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©
 
-//¹Ì±¹ ¸ó½ºÅÍ ¼ÒÈ¯ ÀÌº¥Æ® µå¶ø »óÀÚ
-#define	II_SYS_SYS_SCR_BXEVMONSTER01	20723	//R.DeFeo ¹Ú½º
-#define	II_SYS_SYS_SCR_BXEVMONSTER02	20724	//Bloody Mary ¹Ú½º
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXEVMONSTER01	20723	//R.DeFeo ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXEVMONSTER02	20724	//Bloody Mary ï¿½Ú½ï¿½
 
-//16Â÷ ·Î¿­ °¡±¸ 1ÀÏ ¿ìµç
-#define	II_GHOU_FUR_SOF_ROYAL01_01	20725	//¼ÒÆÄ
-#define	II_GHOU_FUR_WAR_ROYAL01_01	20726	//Àå½ÄÀå
-#define	II_GHOU_FUR_DRA_ROYAL01_01	20727	//ÇùÅ¹
-#define	II_GHOU_FUR_CHA_ROYAL01_01	20728	//ÀÇÀÚ
-#define	II_GHOU_FUR_TAB_ROYAL01_01	20729	//Å×ÀÌºí
-#define	II_GHOU_FUR_FLO_ROYAL01_01	20730	//¿åÁ¶
-#define	II_GHOU_FUR_CAS_ROYAL01_01	20731	//Ã¥Àå
-#define	II_HOU_FUR_CLO_ROYAL01_01	20732	//È­Àå´ë
-#define	II_HOU_FUR_BED_ROYAL01_01	20733	//Ä§´ë
-#define	II_HOU_FUR_CAB_ROYAL01_01	20734	//Å¹ÀÚ
-#define	II_GHOU_FUR_CAR_ROYAL01_01	20735	//¹Ù´Ú
-#define	II_GHOU_FUR_WAL_ROYAL01_01	20736	//º®Áö
+//16ï¿½ï¿½ ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_SOF_ROYAL01_01	20725	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_WAR_ROYAL01_01	20726	//ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_DRA_ROYAL01_01	20727	//ï¿½ï¿½Å¹
+#define	II_GHOU_FUR_CHA_ROYAL01_01	20728	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_TAB_ROYAL01_01	20729	//ï¿½ï¿½ï¿½Ìºï¿½
+#define	II_GHOU_FUR_FLO_ROYAL01_01	20730	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_CAS_ROYAL01_01	20731	//Ã¥ï¿½ï¿½
+#define	II_HOU_FUR_CLO_ROYAL01_01	20732	//È­ï¿½ï¿½ï¿½
+#define	II_HOU_FUR_BED_ROYAL01_01	20733	//Ä§ï¿½ï¿½
+#define	II_HOU_FUR_CAB_ROYAL01_01	20734	//Å¹ï¿½ï¿½
+#define	II_GHOU_FUR_CAR_ROYAL01_01	20735	//ï¿½Ù´ï¿½
+#define	II_GHOU_FUR_WAL_ROYAL01_01	20736	//ï¿½ï¿½ï¿½ï¿½
 
-//16Â÷ ·Î¿­ °¡±¸ 1ÀÏ È­ÀÌÆ®
-#define	II_GHOU_FUR_SOF_ROYAL02_01	20737	//¼ÒÆÄ
-#define	II_GHOU_FUR_WAR_ROYAL02_01	20738	//Àå½ÄÀå
-#define	II_GHOU_FUR_DRA_ROYAL02_01	20739	//ÇùÅ¹
-#define	II_GHOU_FUR_CHA_ROYAL02_01	20740	//ÀÇÀÚ
-#define	II_GHOU_FUR_TAB_ROYAL02_01	20741	//Å×ÀÌºí
-#define	II_GHOU_FUR_FLO_ROYAL02_01	20742	//¿åÁ¶
-#define	II_GHOU_FUR_CAS_ROYAL02_01	20743	//Ã¥Àå
-#define	II_HOU_FUR_CLO_ROYAL02_01	20744	//È­Àå´ë
-#define	II_HOU_FUR_BED_ROYAL02_01	20745	//Ä§´ë
-#define	II_HOU_FUR_CAB_ROYAL02_01	20746	//Å¹ÀÚ
-#define	II_GHOU_FUR_CAR_ROYAL02_01	20747	//¹Ù´Ú
-#define	II_GHOU_FUR_WAL_ROYAL02_01	20748	//º®Áö
+//16ï¿½ï¿½ ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ È­ï¿½ï¿½Æ®
+#define	II_GHOU_FUR_SOF_ROYAL02_01	20737	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_WAR_ROYAL02_01	20738	//ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_DRA_ROYAL02_01	20739	//ï¿½ï¿½Å¹
+#define	II_GHOU_FUR_CHA_ROYAL02_01	20740	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_TAB_ROYAL02_01	20741	//ï¿½ï¿½ï¿½Ìºï¿½
+#define	II_GHOU_FUR_FLO_ROYAL02_01	20742	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_CAS_ROYAL02_01	20743	//Ã¥ï¿½ï¿½
+#define	II_HOU_FUR_CLO_ROYAL02_01	20744	//È­ï¿½ï¿½ï¿½
+#define	II_HOU_FUR_BED_ROYAL02_01	20745	//Ä§ï¿½ï¿½
+#define	II_HOU_FUR_CAB_ROYAL02_01	20746	//Å¹ï¿½ï¿½
+#define	II_GHOU_FUR_CAR_ROYAL02_01	20747	//ï¿½Ù´ï¿½
+#define	II_GHOU_FUR_WAL_ROYAL02_01	20748	//ï¿½ï¿½ï¿½ï¿½
 
-//16Â÷ ·Î¿­ °¡±¸ 7ÀÏ ¿ìµç
-#define	II_GHOU_FUR_SOF_ROYAL01_07	20749	//¼ÒÆÄ
-#define	II_GHOU_FUR_WAR_ROYAL01_07	20750	//Àå½ÄÀå
-#define	II_GHOU_FUR_DRA_ROYAL01_07	20751	//ÇùÅ¹
-#define	II_GHOU_FUR_CHA_ROYAL01_07	20752	//ÀÇÀÚ
-#define	II_GHOU_FUR_TAB_ROYAL01_07	20753	//Å×ÀÌºí
-#define	II_GHOU_FUR_FLO_ROYAL01_07	20754	//¿åÁ¶
-#define	II_GHOU_FUR_CAS_ROYAL01_07	20755	//Ã¥Àå
-#define	II_HOU_FUR_CLO_ROYAL01_07	20756	//È­Àå´ë
-#define	II_HOU_FUR_BED_ROYAL01_07	20757	//Ä§´ë
-#define	II_HOU_FUR_CAB_ROYAL01_07	20758	//Å¹ÀÚ
-#define	II_GHOU_FUR_CAR_ROYAL01_07	20759	//¹Ù´Ú
-#define	II_GHOU_FUR_WAL_ROYAL01_07	20760	//º®Áö
+//16ï¿½ï¿½ ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_SOF_ROYAL01_07	20749	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_WAR_ROYAL01_07	20750	//ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_DRA_ROYAL01_07	20751	//ï¿½ï¿½Å¹
+#define	II_GHOU_FUR_CHA_ROYAL01_07	20752	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_TAB_ROYAL01_07	20753	//ï¿½ï¿½ï¿½Ìºï¿½
+#define	II_GHOU_FUR_FLO_ROYAL01_07	20754	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_CAS_ROYAL01_07	20755	//Ã¥ï¿½ï¿½
+#define	II_HOU_FUR_CLO_ROYAL01_07	20756	//È­ï¿½ï¿½ï¿½
+#define	II_HOU_FUR_BED_ROYAL01_07	20757	//Ä§ï¿½ï¿½
+#define	II_HOU_FUR_CAB_ROYAL01_07	20758	//Å¹ï¿½ï¿½
+#define	II_GHOU_FUR_CAR_ROYAL01_07	20759	//ï¿½Ù´ï¿½
+#define	II_GHOU_FUR_WAL_ROYAL01_07	20760	//ï¿½ï¿½ï¿½ï¿½
 
-//16Â÷ ·Î¿­ °¡±¸ 7ÀÏ È­ÀÌÆ®
-#define	II_GHOU_FUR_SOF_ROYAL02_07	20761	//¼ÒÆÄ
-#define	II_GHOU_FUR_WAR_ROYAL02_07	20762	//Àå½ÄÀå
-#define	II_GHOU_FUR_DRA_ROYAL02_07	20763	//ÇùÅ¹
-#define	II_GHOU_FUR_CHA_ROYAL02_07	20764	//ÀÇÀÚ
-#define	II_GHOU_FUR_TAB_ROYAL02_07	20765	//Å×ÀÌºí
-#define	II_GHOU_FUR_FLO_ROYAL02_07	20766	//¿åÁ¶
-#define	II_GHOU_FUR_CAS_ROYAL02_07	20767	//Ã¥Àå
-#define	II_HOU_FUR_CLO_ROYAL02_07	20768	//È­Àå´ë
-#define	II_HOU_FUR_BED_ROYAL02_07	20769	//Ä§´ë
-#define	II_HOU_FUR_CAB_ROYAL02_07	20770	//Å¹ÀÚ
-#define	II_GHOU_FUR_CAR_ROYAL02_07	20771	//¹Ù´Ú
-#define	II_GHOU_FUR_WAL_ROYAL02_07	20772	//º®Áö
+//16ï¿½ï¿½ ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½ È­ï¿½ï¿½Æ®
+#define	II_GHOU_FUR_SOF_ROYAL02_07	20761	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_WAR_ROYAL02_07	20762	//ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_DRA_ROYAL02_07	20763	//ï¿½ï¿½Å¹
+#define	II_GHOU_FUR_CHA_ROYAL02_07	20764	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_TAB_ROYAL02_07	20765	//ï¿½ï¿½ï¿½Ìºï¿½
+#define	II_GHOU_FUR_FLO_ROYAL02_07	20766	//ï¿½ï¿½ï¿½ï¿½
+#define	II_GHOU_FUR_CAS_ROYAL02_07	20767	//Ã¥ï¿½ï¿½
+#define	II_HOU_FUR_CLO_ROYAL02_07	20768	//È­ï¿½ï¿½ï¿½
+#define	II_HOU_FUR_BED_ROYAL02_07	20769	//Ä§ï¿½ï¿½
+#define	II_HOU_FUR_CAB_ROYAL02_07	20770	//Å¹ï¿½ï¿½
+#define	II_GHOU_FUR_CAR_ROYAL02_07	20771	//ï¿½Ù´ï¿½
+#define	II_GHOU_FUR_WAL_ROYAL02_07	20772	//ï¿½ï¿½ï¿½ï¿½
 
-//±â°£Á¦ °æÇèÄ¡ ½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_EXPSCROLL01_07	20773	//°æÇèÄ¡ 2¹è ½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_EXPSCROLL01_30	20774	//°æÇèÄ¡ 2¹è ½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_EXPSCROLL02_07	20775	//°æÇèÄ¡ 3¹è ½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_EXPSCROLL02_30	20776	//°æÇèÄ¡ 3¹è ½ºÅ©·Ñ
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL01_07	20773	//ï¿½ï¿½ï¿½ï¿½Ä¡ 2ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL01_30	20774	//ï¿½ï¿½ï¿½ï¿½Ä¡ 2ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL02_07	20775	//ï¿½ï¿½ï¿½ï¿½Ä¡ 3ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL02_30	20776	//ï¿½ï¿½ï¿½ï¿½Ä¡ 3ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
 
-//Á¦·Ã ¼º°ø È®·ü ±Ø´ëÈ­ ½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_NOR_SMELTING01	20777	//ÀÏ¹Ý¹«±â 100% ¼º°ø
-#define	II_SYS_SYS_SCR_NOR_SMELTING02	20778	//ÀÏ¹Ý¹«±â 50% ¼º°ø
-#define	II_SYS_SYS_SCR_NOR_SMELTING03	20779	//ÀÏ¹Ý¹«±â 30% ¼º°ø
-#define	II_SYS_SYS_SCR_NOR_ULTITRANS01	20780	//¾óÆ¼¹Ô º¯È¯ ½Ã 100% ¼º°ø
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½Ø´ï¿½È­ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NOR_SMELTING01	20777	//ï¿½Ï¹Ý¹ï¿½ï¿½ï¿½ 100% ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NOR_SMELTING02	20778	//ï¿½Ï¹Ý¹ï¿½ï¿½ï¿½ 50% ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NOR_SMELTING03	20779	//ï¿½Ï¹Ý¹ï¿½ï¿½ï¿½ 30% ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NOR_ULTITRANS01	20780	//ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ 100% ï¿½ï¿½ï¿½ï¿½
 
-
-//ÇÁ·ÎÆä½Ã ³¯°³
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_RID_RID_STI_WINGPROANGEL	20781
 #define	II_RID_RID_STI_WINGPRODEVIL	20782
 
-//¹Ì±¹ ½Å±Ô Ä³¸¯ÅÍ ¾ÆÀÌÅÛ Áö±Þ ÀÌº¥Æ®
+//ï¿½Ì±ï¿½ ï¿½Å±ï¿½ Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_RID_RID_WIN_EVEANGEL	20783
 #define	II_RID_RID_WIN_EVEDRAGON	20784
 #define	II_RID_RID_WIN_EVEBUTTERFLY05	20785
@@ -6913,71 +6976,71 @@
 #define	II_PET_EVE_BANG1	20788
 #define	II_PET_EVE_RACCON	20789
 
-//À¯·´ Çà¿îÀÇ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXSPIRIT	20790
 #define	II_SYS_SYS_SCR_BXPROPHET	20791
 
-//ÈíÇ÷ ºñ½º (¿µ±¸)
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½)
 #define	II_SYS_VIS_LV1_FOREVERKILLHP01	20794
 #define	II_SYS_VIS_LV2_FOREVERKILLHP02	20795
 #define	II_SYS_VIS_LV3_FOREVERKILLHP03	20796
 
-//Àü±âÅé ÇÑ±¹ ¹öÀü
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ±ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_CHAINSAWKR	20792
 
-//±Í¼Ó ÇØÁ¦ ½ºÅ©·Ñ
+//ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
 #define	II_SYS_SYS_SCR_CANCELLATION	20793
 
-//ÀÏº» ¾Ç¼¼»ç¸® ·£´ý »óÀÚ 3Á¾
+//ï¿½Ïºï¿½ ï¿½Ç¼ï¿½ï¿½ç¸® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXACC04	20797
 #define	II_SYS_SYS_SCR_BXACC05	20798
 #define	II_SYS_SYS_SCR_BXACC06	20799
 
 
-//À¯·´ ÇÁ¸®ÇÁ È¦´ý ÀÌº¥Æ® »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¦ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXBANKJACK	20800
 #define	II_SYS_SYS_SCR_BXGRANDJACK	20801
 #define	II_SYS_SYS_SCR_BXLARGEJACK	20802
 #define	II_SYS_SYS_SCR_BXNRJACK	20803
 #define	II_SYS_SYS_SCR_BXSMJACK	20804
 
-//±¹³» º¸È£ µÎ·ç¸¶¸® ÆÐÅ°Áö
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXSMELPROT	20805
 #define	II_SYS_SYS_SCR_BXACCSMELPROT	20806
 #define	II_SYS_SYS_SCR_BXSPSMELPROT	20807
 
-//±¹³» ´ÙÅ©½¦ÀÌµå, È¦¸®¹öºí ÄÚ½ºÆ¬ ÆÐÅ°Áö, ÇÇ¾î½Ì Ä«µå »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½Ìµï¿½, È¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½Å°ï¿½ï¿½, ï¿½Ç¾ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMDRAKSHADE	20808
 #define	II_SYS_SYS_SCR_BXFDRAKSHADE	20809
 #define	II_SYS_SYS_SCR_BXMHOLYBUBBLE	20810
 #define	II_SYS_SYS_SCR_BXFHOLYBUBBLE	20811
 #define	II_SYS_SYS_SCR_BXLUCKPIERCE	20812
 
-//ºÓÀº ·¹µåÆÎ Æê ¿ì¸®
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ì¸®
 #define	II_PET_REDPAANG	20813
 
-//°³±¸ÀïÀÌ ÇØ°ñ ¿ì¸®(±¹³»¿ë -±Í¼Ó¾Æ´Ô)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø°ï¿½ ï¿½ì¸®(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -ï¿½Í¼Ó¾Æ´ï¿½)
 #define	II_PET_SKEL02	20814
 
-//Ãàº¹¹ÞÀº ¹Ù·ç³ªÀÇ °¡È£
+//ï¿½àº¹ï¿½ï¿½ï¿½ï¿½ ï¿½Ù·ç³ªï¿½ï¿½ ï¿½ï¿½È£
 #define	II_SYS_SYS_SCR_BARUNASMELPROT02	20815
 
-//¹Ì±¹ Ãß¼ö°¨»çÀý Ç³¿äÀÇ »Ô
+//ï¿½Ì±ï¿½ ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXThGiving	20816
 
-//À¯·´ ¶ó¸£Å×½Ã¾Æ 1ÀÏ ÀÔÀå±Ç
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½Ã¾ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_TICKET_RARTESIA03	20817
 
-//ÀÏº» Æê¹Ú½º(²¿¸¶ ¼³³à/¾Æ±â ºÏ±Ø°õ)
+//ï¿½Ïºï¿½ ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½Æ±ï¿½ ï¿½Ï±Ø°ï¿½)
 #define	II_SYS_SYS_SCR_BXPETRANDOM01	20818
 
-//·¯½Ã¾Æ Ã§¸°Áö ÆÑ
+//ï¿½ï¿½ï¿½Ã¾ï¿½ Ã§ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXCHANLLENGE	20819
 #define	II_SYS_SYS_SCR_BXLOWACCORD30	20820
 #define	II_SYS_SYS_SCR_BXMROVER	20821
 #define	II_SYS_SYS_SCR_BXFROVER	20822
 
-//17Â÷ Äù½ºÆ® ¾ÆÀÌÅÛ
+//17ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_LUGALFEATHER	20823
 #define	II_SYS_SYS_QUE_LUGALHORN	20824
 #define	II_SYS_SYS_QUE_KUMCLOTH	20825
@@ -6989,7 +7052,7 @@
 #define	II_SYS_SYS_QUE_UNIQUEFRUIT	20831
 #define	II_SYS_SYS_QUE_ETERPENDANT	20832
 
-//17Â÷ ¹æ¾î±¸
+//17ï¿½ï¿½ ï¿½ï¿½î±¸
 
 #define	II_ARM_M_LORDK_HELMET_SET_KAL	20833
 #define	II_ARM_F_LORDK_HELMET_SET_KAL	20834
@@ -7056,20 +7119,20 @@
 #define	II_ARM_M_ELEL_BOOTS_SET_KAL	20895
 #define	II_ARM_F_ELEL_BOOTS_SET_KAL	20896
 
-//¹Ù·ç³ª ÇÇ¾î½Ì À¯·á ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_SCR_BARUNARUNE01	20897	//°í´ë ¹®ÀÚ¼®(½Ã°Ö)
-#define	II_SYS_SYS_SCR_BARUNAPRPROTECT	20898	//°í´ë ¹®ÀÚ¼® º¸È£ µÎ·ç¸¶¸®
-#define	II_SYS_SYS_SCR_BARUNAPRRATE	20899	//¹Ù·ç³ª ÇÇ¾î½Ì ¼º°ø È®·ü Áõ°¡ ¹®¾ç
-//¹Ù·ç³ª ¹®ÀÚ¼® ¹æ¾î±¸¿ë
+//ï¿½Ù·ç³ª ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BARUNARUNE01	20897	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½(ï¿½Ã°ï¿½)
+#define	II_SYS_SYS_SCR_BARUNAPRPROTECT	20898	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½È£ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BARUNAPRRATE	20899	//ï¿½Ù·ç³ª ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//ï¿½Ù·ç³ª ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½î±¸ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BARUNARUNE02	20913
 
 
-//¹Ì±¹ Å©¸®½º¸¶½º Á¤·É ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½Ì±ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_CHRISTMASFAIRY	20900
 #define	II_GEN_FOO_CHRISTMASGMCAKE	20901
 #define	II_SYS_SYS_EVE_CHRISTMASTOKEN	20902
 
-//Å©¸®½º¸¶½º ´«»ç¶÷ ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_SNOWTOPHAT	20903
 #define	II_SYS_SYS_EVE_COALEYES	20904
 #define	II_SYS_SYS_EVE_CARROTNOSE	20905
@@ -7078,12 +7141,12 @@
 #define	II_SYS_SYS_EVE_MITTENS	20908
 #define	II_PET_REDSNOWMAN	20909
 
-//ÀÏº» ½Å±Ô ¹Ú½º(ºñÇà ¹× Å©¸®½º¸¶½º)
+//ï¿½Ïºï¿½ ï¿½Å±ï¿½ ï¿½Ú½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define	II_SYS_SYS_SCR_BXRIDRANDOM01	20910
 #define	II_SYS_SYS_SCR_BXCHRISTMAS01	20911
 #define	II_SYS_SYS_SCR_BXCHRISTMAS02	20912
 
-//±¹³» ¿äÃ» ¹Ú½º »óÀÚ 7Á¾
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ 7ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXBLOOD01	20914
 #define	II_SYS_SYS_SCR_BXBLOOD02	20915
 #define	II_SYS_SYS_SCR_BXBLOOD03	20916
@@ -7097,17 +7160,17 @@
 #define	II_ARM_S_CLO_MAS_TWILIGHT01MASK01	20922
 #define	II_ARM_S_CLO_MAS_GOLDMASK01	20923
 
-//À¯·´ Å©¸®½º¸¶½º »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXEUROCHRISTMAS	20925
 
-// ¹Ì±¹ 5ÁÖ³â ±â³ä ÆøÁ×
+// ï¿½Ì±ï¿½ 5ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_MAG_TRI_ANNIVARSARYBOMB	20926
 #define	II_GEN_FOO_CHRISTMASGMCAKE01	20927
 
-//ÇÇ¿äÄÚ
+//ï¿½Ç¿ï¿½ï¿½ï¿½
 #define	II_RID_RID_ANI_PIYOKO01	20928
 
-//Å©¸®½º¸¶½º ÀÇ»ó ¼¼Æ® ¹× Æê
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½Æ® ï¿½ï¿½ ï¿½ï¿½
 #define	II_ARM_M_CHRISMASMSUIT	20929
 #define	II_ARM_M_CHRISMASMHELMET	20930
 #define	II_ARM_M_CHRISMASMGAUNTLET	20931
@@ -7122,58 +7185,58 @@
 #define	II_PET_CHRISTMASFAIRY	20940
 #define	II_PET_CHRISTMASDEER	20956
 
-//º¸½º È®·ü Áõ°¡, ¸Þ¸£µ¥¸£ÀÇ °¡º¸
+//ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BOSSPLUSE	20941
 #define	II_SYS_SYS_SCR_MERDER	20942
 
-//À¯·´ »õÇØ ÀÌº¥Æ® ±â³ä ºÒ²É³îÀÌ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ ï¿½Ò²É³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_BXFIRECRACKER02	20943
 
-//±¹³» Å©¸®½º¸¶½º ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXCHRISTMASRANDOM	20944
 #define	II_SYS_SYS_EVE_CHRISTMASGOODDEED	20945
 #define	II_SYS_SYS_SCR_BXSANTAPRESENT01	20946
 #define	II_SYS_SYS_SCR_BXSANTAPRESENT02	20947
 
-//ÀÏº» Á¦ºñ»Ì±â ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_EVE_BXDRAW02	20948
 #define	II_SYS_SYS_EVE_BXDRAW03	20949
 #define	II_SYS_SYS_EVE_BXSOCKET01	20950
 #define	II_SYS_SYS_EVE_BXSOCKET02	20951
 
-//±¹³» ÀÌº¥Æ® ¹× Ä³½Ã ¾ÆÀÌÅÛ ( »óÀÚ )
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ )
 #define	II_SYS_SYS_SCR_BXLUCKY701	20952
 #define	II_SYS_SYS_SCR_BXLUCKY702	20953
 #define	II_SYS_SYS_SCR_BXLUCKY703	20954
 #define	II_SYS_SYS_SCR_BXLUCKYULTMATE01	20955
 
-//Å©¸®½º¸¶½º Á¤·É ÀÌº¥Æ® ±³È¯ »óÀÚ
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXCHRISTMASFAIRY01	20957
 #define	II_SYS_SYS_SCR_BXCHRISTMASFAIRY02	20958
 #define	II_SYS_SYS_SCR_BXCHRISTMASFAIRY03	20959
 #define	II_SYS_SYS_SCR_BXCHRISTMASFAIRY04	20960
 #define	II_SYS_SYS_SCR_BXCHRISTMASFAIRY05	20961
 
-// ¹Ù·ç³ª ¹®ÀÚ¼® Ãß°¡
-#define	II_SYS_SYS_SCR_BARUNARUNE03	20962	//°í´ë ¹®ÀÚ¼® º£¸£Å©
-#define	II_SYS_SYS_SCR_BARUNARUNE04	20963	//°í´ë ¹®ÀÚ¼® Á¦¶ó
-#define	II_SYS_SYS_SCR_BARUNARUNE05	20964	//°í´ë ¹®ÀÚ¼® ¸¶³ªÁî
+// ï¿½Ù·ç³ª ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ß°ï¿½
+#define	II_SYS_SYS_SCR_BARUNARUNE03	20962	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½Å©
+#define	II_SYS_SYS_SCR_BARUNARUNE04	20963	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BARUNARUNE05	20964	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//¹Ì±¹ 5ÁÖ³â ±â³ä À¯¹°¹Ú½º ¾ÆÀÌÅÛ
+//ï¿½Ì±ï¿½ 5ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXANNIVERSARY01	20965
-//¾Æ·¡ ¾ÆÀÌÅÛ 4°³´Â »ç¿ëÇÏÁö ¾ÊÀ½
+//ï¿½Æ·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 4ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_ANGEL01	20966
 #define	II_ARM_S_CLO_MAS_DEVIL01	20967
 #define	II_ARM_S_CLO_HAT_MUSHROOM01	20968
 #define	II_ARM_S_CLO_HAT_STATHAT01	20969
 
 
-//´ë¸¸ ¾÷µ¥ÀÌÆ® ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXNOVEL01	20970
 #define	II_SYS_SYS_SCR_BXEVEWITCH01	20971
 #define	II_SYS_SYS_SCR_BXTWRANDOM01	20972
 
-//¹Ð¸®ÅÍ¸® ¸ðÅÍ»çÀÌÅ¬ ÄÚ½ºÆ¬ Ãß°¡
+//ï¿½Ð¸ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½Å¬ ï¿½Ú½ï¿½Æ¬ ï¿½ß°ï¿½
 #define	II_ARM_M_MOTERBIKEMSUIT	20973
 #define	II_ARM_M_MOTERBIKEMHELMET	20974
 #define	II_ARM_M_MOTERBIKEMGAUNTLET	20975
@@ -7191,14 +7254,14 @@
 #define	II_ARM_F_MILITARYFGAUNTLET	20987
 #define	II_ARM_F_MILITARYFBOOTS	20988
 
-//¹Ù·ç³ª ÇÇ¾î½Ì ¹®ÀÚ¼® Ãß°¡
-#define	II_SYS_SYS_SCR_BARUNARUNE06	20989	//°í´ë ¹®ÀÚ¼® ¿¡¿À
-#define	II_SYS_SYS_SCR_BARUNARUNE07	20990	//°í´ë ¹®ÀÚ¼® Æ¼¸£
+//ï¿½Ù·ç³ª ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ß°ï¿½
+#define	II_SYS_SYS_SCR_BARUNARUNE06	20989	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BARUNARUNE07	20990	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ Æ¼ï¿½ï¿½
 
-//17Â÷ ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//17ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXFLYFFPDS01	20991
 
-//±â°£Á¦ À¯´ÏÅ© ¾ÆÀÌÅÛ
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXPERIODSUHO01	20992
 #define	II_SYS_SYS_SCR_BXPERIODSUHO02	20993
 #define	II_SYS_SYS_SCR_BXPERIODSUHO03	20994
@@ -7208,23 +7271,23 @@
 #define	II_SYS_SYS_SCR_BXPERIODSUHO07	20998
 #define	II_SYS_SYS_SCR_BXPERIODSUHO08	20999
 
-//23000 ~ 25998 ±îÁö ÀÎµ¦½º ¹øÈ£ ¾øÀ½ Áö±Ý ÀÎµ¦½º ¼ø¼­°¡ ¾û¸ÁÀÌ´Ï ÃßÈÄ¿¡ Á¤¸® ÇÊ¿ä
+//23000 ~ 25998 ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½
 #define	II_SYS_SYS_SCR_EVEAMPESS	23000
 
-//¹Ð¸®ÅÍ¸® ¸ðÅÍ»çÀÌÅ¬ ÄÚ½ºÆ¬ ÆÐÅ°Áö
+//ï¿½Ð¸ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½Å¬ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MBXMOTERBIKE	23001
 #define	II_SYS_SYS_SCR_FBXMOTERBIKE	23002
 #define	II_SYS_SYS_SCR_MBXMILITERY	23003
 #define	II_SYS_SYS_SCR_FBXMILITERY	23004
 
-//ÀÏº» ·¯½Ã¾Æ ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXJPRANDOM01	23005
 #define	II_SYS_SYS_SCR_BXRUSRANDOM01	23006
 #define	II_SYS_SYS_SCR_BXRUSRANDOM02	23007
 
 #define	II_SYS_SYS_SCR_BXQUESTBARUNA01	23008
 
-//±â°£Á¦ À¯´ÏÅ© ¹æ¾î±¸
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½î±¸
 #define	II_ARM_M_MER_HELMET_PERIODSET07	23009
 #define	II_ARM_M_MER_SUIT_PERIODSET07	23010
 #define	II_ARM_M_MER_GAUNTLET_PERIODSET07	23011
@@ -7265,46 +7328,46 @@
 #define	II_ARM_F_ACR_GAUNTLET_PERIODSET07	23039
 #define	II_ARM_F_ACR_BOOTS_PERIODSET07	23040
 
-//17Â÷ ·¹µå½ã »óÀÚ
+//17ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXREDSUN01	23041
 
-//¹Ì±¹ ±Í¼Ó Æë±Ï ¿ì¸®
+//ï¿½Ì±ï¿½ ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ ï¿½ì¸®
 #define	II_SYS_SYS_SCR_BX_PET_PENGUIN01	23042
 #define	II_PET_PENGUIN01	23043
 
-//·¯½Ã¾Æ 1ÁÖ³â ±â³ä ¸ÁÅä
+//ï¿½ï¿½ï¿½Ã¾ï¿½ 1ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_RUSANNIVERSARY	23044
 #define	II_CHR_MAG_TRI_ANNIVARSARYBOMB01	23048
 
-//±¹³» ¶ó¸£Å×½Ã¾Æ 7ÀÏ ±Í¼Ó
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½Ã¾ï¿½ 7ï¿½ï¿½ ï¿½Í¼ï¿½
 #define	II_SYS_TICKET_RARTESIA04	23045
 
-//´ë¸¸ ³¯°³ ·£´ý »óÀÚ
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXTWRANDOM02	23046
 #define	II_SYS_SYS_SCR_BXTWRANDOM03	23047
 #define	II_PET_CUTEBEAR	23049
 #define	II_PET_SMELTCOBI	23050
 #define	II_PET_SMELTPIERCE	23051
 
-//±¹³»°¡Â÷ ¹Ú½º 11. 01. 17
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ 11. 01. 17
 #define	II_SYS_SYS_SCR_BXRANDOM01	23052
 
-//ÀÏº» ³¯°³ ·£´ý »óÀÚ
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXJPWRANDOM01	23053
 #define	II_SYS_SYS_SCR_BXJPWRANDOM02	23054
 
-//Ãµ»çÀÇ Æ¼ÄÏ ¾Ç¸¶ÀÇ Æ¼ÄÏ
+//Ãµï¿½ï¿½ï¿½ï¿½ Æ¼ï¿½ï¿½ ï¿½Ç¸ï¿½ï¿½ï¿½ Æ¼ï¿½ï¿½
 #define	II_SYS_SYS_SCR_ANGELTICKET	23055
 #define	II_SYS_SYS_SCR_DEVILTICKET	23056
 
-//½Â¸®,ÆÐ¹è ·£´ý ¹Ú½º
+//ï¿½Â¸ï¿½,ï¿½Ð¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXWDRANDOM01	23057
 #define	II_SYS_SYS_SCR_BXWDRANDOM02	23058
 
-//½Å³â Åä³¢ Æê
+//ï¿½Å³ï¿½ ï¿½ä³¢ ï¿½ï¿½
 #define	II_PET_NEWYEARRABBIT	23059
 
-//¹ß·»Å¸ÀÎµ¥ÀÌ ÄÚ½ºÆ¬
+//ï¿½ß·ï¿½Å¸ï¿½Îµï¿½ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬
 #define	II_ARM_M_SWEETLOOKCLOTH	23060
 #define	II_ARM_M_SWEETLOOKHAT	23061
 #define	II_ARM_M_SWEETLOOKGLOVE	23062
@@ -7316,7 +7379,7 @@
 #define	II_SYS_SYS_SCR_BXMSWEETLOOK	23068
 #define	II_SYS_SYS_SCR_BXFSWEETLOOK	23069
 
-//±â°£Á¦ À¯´ÏÅ© ¾ÆÀÌÅÛ
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWT_PERIODUSU30	23070
 #define	II_WEA_AXT_PERIODUSU30	23071
 #define	II_WEA_SWO_PERIODUSU30	23072
@@ -7524,10 +7587,10 @@
 #define	II_ARM_F_RAG_GAUNTLET_PERIODSET30	23239
 #define	II_ARM_F_RAG_BOOTS_PERIODSET30	23240
 
-//±¹³» Çà¿îÀÇ ºñ½º »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXKRLUCKVIS	23241
 
-//À¯·´ ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXMDRAKSHADE07	23242
 #define	II_SYS_SYS_SCR_BXFDRAKSHADE07	23243
 #define	II_SYS_SYS_SCR_BXMHOLYBUBBLE07	23244
@@ -7535,17 +7598,17 @@
 #define	II_RID_RID_STI_WINGPROANGEL07	23246
 #define	II_RID_RID_STI_WINGPRODEVIL07	23247
 
-//½Å±Ô ¹öÇÁÆê ·£´ý ¹Ú½º Á¦ÀÛ
+//ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXBUFFPET	23248
 
-//¹Ì±¹ °¡À§¹ÙÀ§º¸ ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_SNOWCRYSTAL	23249
 
-//ÅÚ·¹Æ÷Æ® Áöµµ ¾ÆÀÌÅÛ
+//ï¿½Ú·ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TELEPORTS	23250
 #define	II_SYS_SYS_SCR_TELEPORTV	23251
 
-//»ï¹Ù ÄÚ½ºÆ¬ Ãß°¡
+//ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ß°ï¿½
 #define	II_ARM_M_COUPLESAMBAMSUIT	23252
 #define	II_ARM_M_COUPLESAMBAMHELMET	23253
 #define	II_ARM_M_COUPLESAMBAMGAUNTLET	23254
@@ -7557,33 +7620,33 @@
 #define	II_SYS_SYS_SCR_BXMCOUPLESAMBA	23260
 #define	II_SYS_SYS_SCR_BXFCOUPLESAMBA	23261
 
-//·¯½Ã¾Æ ·£´ý ¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXRUSRANDOM03	23262
 
 
-//ÀÏº» È­ÀÌÆ® µ¥ÀÌ Àç·á
+//ï¿½Ïºï¿½ È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_EVE_WHITEDAY01	23263
 #define	II_SYS_SYS_EVE_WHITEDAY02	23264
 #define	II_SYS_SYS_EVE_WHITEDAY03	23265
 #define	II_SYS_SYS_EVE_WHITEDAY04	23266
 
-//ÄÚ½ºÆ¬ ÇÕ¼º À¯·á ¾ÆÀÌÅÛ
+//ï¿½Ú½ï¿½Æ¬ ï¿½Õ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_COSTUMEDEFENDER	23267
 
-//À¯·á Áöµµ ½Ã½ºÅÛ È¶ºÒ 2Á¾ (Áö¿ª/´øÀü)
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ È¶ï¿½ï¿½ 2ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½)
 #define	II_SYS_SYS_SCR_MAPOPENAREA	23268
 #define	II_SYS_SYS_SCR_MAPOPENDUNGEON	23269
 
-//±Ø´ÜÀåÀÇ À§¾ö ÆÐÅ°Áö
+//ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXPARTYPACK	23270
 
-//Àý´ë½Ã°£ °æÇèÄ¡ ½ºÅ©·Ñ
+//ï¿½ï¿½ï¿½ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½Å©ï¿½ï¿½
 #define	II_SYS_SYS_SCR_EXPSCROLL03_07	23271
 #define	II_SYS_SYS_SCR_EXPSCROLL03_30	23272
 #define	II_SYS_SYS_SCR_EXPSCROLL04_07	23273
 #define	II_SYS_SYS_SCR_EXPSCROLL04_30	23274
 
-//ÄÝ·Î¼¼¿ò ÀÇ»ó
+//ï¿½Ý·Î¼ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_CHR_COLOSSEUMHAT	23275
 #define	II_ARM_M_CHR_COLOSSEUMSUIT	23276
 #define	II_ARM_M_CHR_COLOSSEUMGLOVES	23277
@@ -7596,14 +7659,14 @@
 #define	II_SYS_SYS_SCR_BXMCOLOSSEUM	23284
 #define	II_SYS_SYS_SCR_BXFCOLOSSEUM	23285
 
-//È­ÀÌÆ®µ¥ÀÌ Äù½ºÆ®¿ë
+//È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
 #define	II_SYS_SYS_QUE_WHITEDAYLETTER	23286
 #define	II_SYS_SYS_QUE_WHITEDAYRIBBON	23287
 
-//ÀÏº» ¿ë±â ¸ÁÅä ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXRSPIRIT	23288
 
-//Áß±¹ ¸®¼Ò½º ÄÚ½ºÆ¬ ¹× Æê Ãß°¡
+//ï¿½ß±ï¿½ ï¿½ï¿½ï¿½Ò½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½ ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_ARM_F_GREENFAIRYCLOTH	23289
 #define	II_ARM_F_GREENFAIRYHAT	23290
 #define	II_ARM_F_GREENFAIRYGLOVE	23291
@@ -7617,41 +7680,41 @@
 #define	II_SYS_SYS_SCR_BXFFLOWERFAIRY	23298
 #define	II_PET_DEVILTOY	23299
 
-//´ë¸¸ ·£´ý »óÀÚ 2Á¾
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXTWRANDOM04	23300
 #define	II_SYS_SYS_SCR_BXTWRANDOM05	23301
 
-//È­ÀÌÆ® µ¥ÀÌ Äù½ºÆ® º¸»ó
+//È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_CORSAGE_BLUE	23302
 #define	II_ARM_S_CLO_MAS_CORSAGE_WHITE	23303
 #define	II_ARM_S_CLO_MAS_CORSAGE_PINK	23304
 #define	II_ARM_S_CLO_MAS_CORSAGE_YELLOW	23305
 #define	II_ARM_F_CHR_BLACKRIBBON	23306
 
-//±Í¿©¿î Å×µðº£¾î Æê
+//ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½×µðº£¾ï¿½ ï¿½ï¿½
 #define	II_PET_TADDYBEAR	23307
 
 
-//È­ÀÌÆ®µ¥ÀÌ ÀÌº¥Æ®¿ë ½ºÆä¼È Á¦·Ã ¹Ú½º
+//È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXEVESMELTING	23308
 
-//À¯·´ ³ëÆ®ºÏ ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_NOTEBOOK	23309
 
-//·¯½Ã¾Æ 3¿ù ·£´ý¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXRANDOMRUS01	23310
 
-//ÀÏº» ¿µ±¤ÀÇ ¸ÁÅä ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXRANLEGEND01	23311
 
-//±¹³» Çà¿îÀÇ ¿µ±¤ ¸ÁÅä »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXLUCKGLORYCLO	23312
 
 
-//ÀÏº» ±âºÎ¿ë Èñ¸ÁÀÇ ¸ÁÅä
+//ï¿½Ïºï¿½ ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_HOPECLOCK	23313
 
-//±â°£Á¦ À¯´ÏÅ© ÆÐÅ°Áö
+//ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXPERIODUSU01	23314
 #define	II_SYS_SYS_SCR_BXPERIODUSU02	23315
 #define	II_SYS_SYS_SCR_BXPERIODUSU03	23316
@@ -7664,7 +7727,7 @@
 #define	II_SYS_SYS_SCR_BXPERIODUSU09	23322
 #define	II_SYS_SYS_SCR_BXPERIODUSU10	23323
 
-// 60 ·¹º§ ±â°£Á¦ À¯´ÏÅ© ¹æ¾î±¸ ¼¼Æ®
+// 60 ï¿½ï¿½ï¿½ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½î±¸ ï¿½ï¿½Æ®
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR01	23324
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR02	23325
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR03	23326
@@ -7685,7 +7748,7 @@
 #define	II_SYS_SYS_SCR_FBXPERIODUNIAMOR07	23338
 #define	II_SYS_SYS_SCR_FBXPERIODUNIAMOR08	23339
 
-//75 ±â°£Á¦ À¯´ÏÅ© ¹æ¾î±¸ ¼¼Æ®
+//75 ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½î±¸ ï¿½ï¿½Æ®
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR09	23340
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR10	23341
 #define	II_SYS_SYS_SCR_MBXPERIODUNIAMOR11	23342
@@ -7723,7 +7786,7 @@
 #define	II_SYS_SYS_SCR_FBXPERIODUNIAMOR24	23371
 
 
-//½ºÆÀ ÆãÅ© ÀÇ»ó
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Ç»ï¿½
 #define	II_ARM_F_FSTEAMPUNKLOOKCLOTH	23372
 #define	II_ARM_F_FSTEAMPUNKLOOKHAT	23373
 #define	II_ARM_F_FSTEAMPUNKLOOKGLOVE	23374
@@ -7737,12 +7800,12 @@
 #define	II_SYS_SYS_SCR_FBXSTEAMPUNKSET01	23380
 #define	II_SYS_SYS_SCR_MBXSTEAMPUNKSET01	23381
 
-//´ë¸¸ ·£´ý¹Ú½º 2Á¾
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ 2ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXTWRANDOM06	23382
 #define	II_SYS_SYS_SCR_BXTWRANDOM07	23383
 
 
-//½Ä¸ñÀÏ ÀÌº¥Æ®
+//ï¿½Ä¸ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_2011FIRSEED	23384
 #define	II_SYS_SYS_EVE_2011PEARSEED	23385
 #define	II_SYS_SYS_EVE_2011PINESEED	23386
@@ -7751,7 +7814,7 @@
 #define	II_SYS_SYS_SCR_BXGREATBAK	23389
 #define	II_EVE_WEA_SWO_BHWOODEN	23390
 
-//À¯·´ ¾î¸°ÀÌ³¯ ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ ï¿½î¸°ï¿½Ì³ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_PET_EVEYNEWYEARRABBIT	23391
 #define	II_SYS_SYS_QUE_RABBITFRIEND	23392
 #define	II_SYS_SYS_QUE_CHILDRENTOKEN01	23393
@@ -7764,34 +7827,34 @@
 #define	II_SYS_SYS_SCR_BXEVECHOCOLATE	23399
 #define	II_SYS_SYS_SCR_BXEVECHILDREN	23400
 
-//±¹³» Çà¿îÀÇ ¿ë¸Í ¸ÁÅä »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXLUCKBRAVECLO	23401
 
-//±¹³» ·¹¾Ë Çà¿îÀÇ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXREALLUCKY	23402
 
-//·¯½Ã¾Æ ·£´ý »óÀÚ 3Á¾
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXRUSRANDOM04	23403
 #define	II_SYS_SYS_SCR_BXRUSRANDOM05	23404
 #define	II_SYS_SYS_SCR_BXRUSRANDOM06	23405
 
 
-//ÀÏº» ±Í¿©¿î Àå³­°¨ ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½å³­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXCUTYRANDOM	23406
 #define	II_SYS_SYS_SCR_FASHIONTICKET	23407
 
 
-//±¹³» ÆÐ¼Ç Á¾°áÀÚÀÇ ¼±±Û¶ó½º
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Û¶ï¿½
 #define	II_ARM_S_CLO_MAS_MASKENDBLACK	23408
 #define	II_ARM_S_CLO_MAS_MASKENDRED	23409
 #define	II_ARM_S_CLO_MAS_MASKENDWHITE	23410
 #define	II_SYS_SYS_SCR_BXMASKENDRANDOM	23411
 
-//´ë¸¸ ½Å±âÇÑ º¸¹°»óÀÚ ÀÌº¥Æ®
+//ï¿½ë¸¸ ï¿½Å±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_BXRANDOMRABBIT	23412
 #define	II_SYS_SYS_QUE_EVENOVELCOUPON	23413
 
-//´ë¸¸ °¡À§¹ÙÀ§º¸ ÀÌº¥Æ®
+//ï¿½ë¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 
 #define	II_SYS_SYS_QUE_EVEOMGBEDGE	23414
 #define	II_ARM_S_EVEOMGCAMELEONKHATG07	23415
@@ -7801,49 +7864,49 @@
 #define	II_ARM_S_EVEOMGCAMELEONKHATG	23419
 #define	II_SYS_SYS_SCR_BXRANDOMCAMELEON	23420
 
-//ÇØ¿Ü ÈÞ¸é °èÁ¤ ÀÌº¥Æ®
+//ï¿½Ø¿ï¿½ ï¿½Þ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_RID_RID_ANI_PIYOKO30	23421
 #define	II_SYS_SYS_SCR_MBXDORMANTUSER	23422
 #define	II_SYS_SYS_SCR_FBXDORMANTUSER	23423
 
-//ÀÏº» °³±¸ÀïÀÌ À¯·É ¿ì¸® ±Í¼Ó
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ì¸® ï¿½Í¼ï¿½
 #define	II_PET_GHOST_BELONGED	23424
 
-//´ë¸¸ ½Å±Ô ¹ÙÀÌÅ©
+//ï¿½ë¸¸ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½Å©
 #define	II_RID_RID_STI_HARLYBIKE	23425
 
-//2±Þ ÀÏ¹Ý ÅÚ·¹Æ÷ÅÍ
+//2ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GHOU_FUR_NPC_TELEPORTER02	23426
 
-//ÀÏº» Å¬·Î¹ö ¸ÁÅä ·£´ý ¹Ú½º
+//ï¿½Ïºï¿½ Å¬ï¿½Î¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXCLOVERRANDOM01	23427
 
-//±¹³» Çà¿îÀÇ ±Í¼ÓÇØÁ¦ ½ºÅ©·Ñ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXCANCELLATION01	23428
 
-//18Â÷ ¹Ù·ç³ª ¼Ó¼ºÁ¦·Ã, °¢¼º °ü·Ã Ä³½Ã ¾ÆÀÌÅÛ
+//18ï¿½ï¿½ ï¿½Ù·ç³ª ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_BARUNAGRACE01	23429
 #define	II_SYS_SYS_SCR_BARUNAGRACE02	23430
 #define	II_SYS_SYS_SCR_BARUNAOBLIVION	23431
 #define	II_SYS_SYS_SCR_ELEMENTREJU01	23432
 
-//¼Ó¼º¿Àºê
+//ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_MAT_ELE_FLAMEORB	23433
 #define	II_GEN_MAT_ELE_DESERTORB	23434
 #define	II_GEN_MAT_ELE_GENERATERORB	23435
 #define	II_GEN_MAT_ELE_RIVERORB	23436
 #define	II_GEN_MAT_ELE_CYCLONEORB	23437
 
-//ÀÏº» ÆÐ¼Ç Á¾°áÀÚ ¼±±Û¶ó½º ·£´ý¹Ú½º
+//ï¿½Ïºï¿½ ï¿½Ð¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Û¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_BXMASKENDRANDOMJAP	23438
 #define	II_SYS_SYS_SCR_PICKUPPETTICKET	23439
 
 
-//·¯½Ã¾Æ ÇÇ¿äÄÚ ·£´ý ¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½Ç¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_RUSRANDOM01	23440
 
-//±¹³» ¼­¹ö ÅëÇÕ ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_RANDOMBXSERVERMERGEKOR	23441
 
 #define	II_SYS_SYS_SCR_PACKBXSERVERMERGEKOR1_1	23442
@@ -7854,7 +7917,7 @@
 
 #define	II_GEN_JEW_EAR_FEELSOGOODOLDRING	23446
 
-//Äý ¿£Å¸´Ï½º ¹«±â
+//ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_ENTANESS	23447
 #define	II_WEA_SWT_ENTANESS	23448
 #define	II_WEA_AXE_ENTANESS	23449
@@ -7866,7 +7929,7 @@
 #define	II_WEA_BOW_ENTANESS	23455
 #define	II_WEA_YOY_ENTANESS	23456
 
-//ÇÊ¼ö ÆíÀÇ ¾ÆÀÌÅÛ ÆÐÅ°Áö
+//ï¿½Ê¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
 #define	II_GEN_POT_NEWBIE_WAR	23457
 #define	II_GEN_POT_NEWBIE_MAG	23458
 #define	II_GEN_POT_NEWBIE_ARC	23459
@@ -7877,7 +7940,7 @@
 #define	II_GEN_FOO_PENNE	23464
 #define	II_GEN_FOO_LASAGNE	23465
 
-//Çì¸£³×½º ¹«±â
+//ï¿½ì¸£ï¿½×½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_HERNES	23466
 #define	II_WEA_SWT_HERNES	23467
 #define	II_WEA_AXE_HERNES	23468
@@ -7889,7 +7952,7 @@
 #define	II_WEA_BOW_HERNES	23474
 #define	II_WEA_YOY_HERNES	23475
 
-//¿Õ½Ç ¼öÈ£´Ü ¹«±â
+//ï¿½Õ½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_WEA_SWO_ROYAL	23476
 #define	II_WEA_SWT_ROYAL	23477
 #define	II_WEA_AXE_ROYAL	23478
@@ -7901,7 +7964,7 @@
 #define	II_WEA_BOW_ROYAL	23484
 #define	II_WEA_YOY_ROYAL	23485
 
-//ÇÊ¼ö ÆÐÅ°Áö »óÀÚ
+//ï¿½Ê¼ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_PACKBXNEWBIE_30	23486
 #define	II_SYS_SYS_SCR_PACKBXNEWBIE_1	23487
 #define	II_SYS_SYS_SCR_PACKBXMASTER_30	23488
@@ -7914,40 +7977,40 @@
 #define	II_GEN_POT_MASTER_MAG_1	23494
 #define	II_GEN_POT_MASTER_ARC_1	23495
 
-//ÀÎµµ³×½Ã¾Æ ÆÇµµ¶ó ¹Ú½º ÀÏº» ¸ÁÅä ¹Ú½º
+//ï¿½Îµï¿½ï¿½×½Ã¾ï¿½ ï¿½Çµï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_INDOPANDORARANDOMBX	23496
 #define	II_SYS_SYS_SCR_JAPCLOCKRANDOMBX	23497
 #define	II_SYS_SYS_EVE_IPOD2	23498
 
-//°¨ÀÚÆê
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_PET_GPOTATO	23499
 
-//±¹³» Çà¿îÀÇ °æÇèÄ¡ ÁõÆø »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_ESQKORRANDOMBX	23500
 
-//±¹³» FWC ±â³ä ¸ÁÅä
+//ï¿½ï¿½ï¿½ï¿½ FWC ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_FWCWINNER	23501
 #define	II_ARM_S_CLO_FWCCHAMPION	23502
 
-//·¯½Ã¾Æ ·£´ý ¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_RUSMELPROTRANDOM	23503
 #define	II_SYS_SYS_SCR_RUREDBIKERANDOM	23504
 
-//À¯·á¸Ê ÀÚÀ¯ÀÌ¿ë±Ç(´õ¹Ì)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¿ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
 #define	II_SYS_TICKET_PAIDWORLDPASS01	23505
 
 
-//FWC ¾ÆÀÌÅÛ
+//FWC ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_EVEFWCHIP	23506
 
-//18Â÷ ÀÎ´ø Äù½ºÆ® ¾ÆÀÌÅÛ
+//18ï¿½ï¿½ ï¿½Î´ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_QUE_POISONMUSHROOM01	23507
 #define	II_SYS_SYS_QUE_TREASUREBOX01	23508
 #define	II_SYS_SYS_QUE_NIGHTMISTNAIL01	23509
 #define	II_SYS_SYS_QUE_SIRENHALF01	23510
 #define	II_SYS_SYS_QUE_HARPINEESPLUME01	23511
 
-//18Â÷ Àú·¾ Äù½ºÆ® ¾ÆÀÌÅÛ
+//18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_QUE_HAIRBAND01	23512
 #define	II_SYS_SYS_QUE_PUMPKIN01	23513
@@ -7971,10 +8034,10 @@
 #define	II_SYS_SYS_QUE_ROCIQEENSAP01	23531
 #define	II_SYS_SYS_QUE_AGONYORE01	23532
 
-//±¹³» Çà¿îÀÇ ¹öÇÁ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_KORLUCKRANDOMBX	23533
 
-//Äý ¿£Å¸´Ï½º ¹«±â@
+//ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½@
 #define	II_WEA_SWO_ENTANESSUM	23534
 #define	II_WEA_SWT_ENTANESSUM	23535
 #define	II_WEA_AXE_ENTANESSUM	23536
@@ -7986,7 +8049,7 @@
 #define	II_WEA_BOW_ENTANESSUM	23542
 #define	II_WEA_YOY_ENTANESSUM	23543
 
-//Çì¸£³×½º ¹«±â@
+//ï¿½ì¸£ï¿½×½ï¿½ ï¿½ï¿½ï¿½ï¿½@
 #define	II_WEA_SWO_HERNESUM	23544
 #define	II_WEA_SWT_HERNESUM	23545
 #define	II_WEA_AXE_HERNESUM	23546
@@ -7998,7 +8061,7 @@
 #define	II_WEA_BOW_HERNESUM	23552
 #define	II_WEA_YOY_HERNESUM	23553
 
-//¿Õ½Ç ¼öÈ£´Ü ¹«±â@
+//ï¿½Õ½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½@
 #define	II_WEA_SWO_ROYALUM	23554
 #define	II_WEA_SWT_ROYALUM	23555
 #define	II_WEA_AXE_ROYALUM	23556
@@ -8011,20 +8074,20 @@
 #define	II_WEA_YOY_ROYALUM	23563
 
 
-//À¯´ÏÅ© ±³È¯¿ë ÁõÇ¥
+//ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½Ç¥
 #define	II_SYS_SYS_SCR_UNIQCHIP_SUHO	23564
 #define	II_SYS_SYS_SCR_UNIQCHIP_USU	23565
 #define	II_SYS_SYS_SCR_UNIQCHIP_ANGEL	23566
 #define	II_SYS_SYS_SCR_UNIQCHIP_LEAGEND	23567
 
-//º¸¹°»óÀÚ ¾ÆÀÌÅÛ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TREASUREBOXLV15	23568
 #define	II_SYS_SYS_SCR_TREASUREBOXLV60	23569
 #define	II_SYS_SYS_SCR_TREASUREBOXLV90	23570
 #define	II_SYS_SYS_SCR_TREASUREBOXLV120	23571
 #define	II_SYS_SYS_SCR_TREASUREBOXLV150	23572
 
-//º¸¹°»óÀÚ ¾ÆÀÌÅÛ ¿­¼è
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TREASUREKEYLOW15	23573
 #define	II_SYS_SYS_SCR_TREASUREKEYMIDDLE15	23574
 #define	II_SYS_SYS_SCR_TREASUREKEYHIGH15	23575
@@ -8051,7 +8114,7 @@
 #define	II_SYS_SYS_SCR_CARD_FWC	23590
 #define	II_SYS_SYS_SCR_CARD_2011FWC	23591
 
-//°¨ÀÚÆê ±Í¼Ó ÇØÁ¦
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_PET_GPOTATO_OWNFREE	23592
 
 #define	II_SYS_SYS_MEMORYPIECE01	23593
@@ -8065,7 +8128,7 @@
 #define	II_SYS_SYS_QUE_TIMERETURNFLOWER01	23600
 #define	II_SYS_SYS_QUE_HEROELEMENTERPENDENT01	23601
 
-//Äù½ºÆ® º¸»ó ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_REWARD_BX_15ARMOR_M_MER	23602
 #define	II_SYS_SYS_SCR_REWARD_BX_15ARMOR_F_MER	23603
 #define	II_SYS_SYS_SCR_REWARD_BX_15ARMOR_M_ACR	23604
@@ -8110,11 +8173,11 @@
 #define	II_SYS_SYS_VOLITIONSTONE01	23636
 #define	II_SYS_SYS_ENLIGHTENMENT01	23637
 
-//¹Ì±¹ ÈÞ¸é À¯Àú ÀÌº¥Æ®
+//ï¿½Ì±ï¿½ ï¿½Þ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_FBXACTIVEUSA	23638
 #define	II_SYS_SYS_SCR_MBXACTIVEUSA	23639
 
-//fwc ÄÝ·Î¼¼¿ò º¸»ó¿ë ¾ÆÀÌÅÛ
+//fwc ï¿½Ý·Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_FWC_REWARD_BX_SUHO	23640
 #define	II_SYS_SYS_FWC_REWARD_BX_USU	23641
 #define	II_SYS_SYS_FWC_REWARD_BX_ANGEL	23642
@@ -8131,29 +8194,29 @@
 #define	II_SYS_SYS_FWC_DROP_BX_BCARD	23653
 #define	II_SYS_SYS_FWC_DROP_BX_ACARD	23654
 
-//½ºÆÀÆãÅ© ·£´ý¹Ú½º
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_STEAMPUNKBX	23655
 
-//¸®ÅÏÁî ±â³ä »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_RETURNBX	23656
 
-//¸®ÅÏÁî ¾÷µ¥ÀÌÆ® ±â³ä ÁÖÈ­
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ ï¿½ï¿½È­
 #define	II_SYS_SYS_SCR_RETURNCOIN	23657
 
-//18ÁÖÂ÷ À¯Àú ÁõÇ¥
+//18ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥
 #define	II_SYS_SYS_SCR_18UPDATETOKEN	23658
 
-//º¹±ÍÀÚÀÇ ¸®ÅÏÁî »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_RETURNUSERBX	23659
 
-//ES ÁõÆøÀÇ µÎ·ç¸¶¸® Q R 1ÀÏ
+//ES ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ Q R 1ï¿½ï¿½
 #define	II_SYS_SYS_SCR_EXPSCROLL03_01	23660
 #define	II_SYS_SYS_SCR_EXPSCROLL04_01	23661
 
-//¿ùµå ¸ÁÅä ¼±¹° »óÀÚ ÀÌº¥Æ®¿ë
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½
 #define	II_SYS_SYS_EVE_COMMERGIFTBOX51_1	23662
 
-//·¯½Ã¾Æ ´ººñ Å»Ãâ ¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ Å»ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_EVE_FBXRUSNEWBIE01	23663
 #define	II_SYS_SYS_EVE_MBXRUSNEWBIE01	23664
 #define	II_SYS_SYS_EVE_FBXRUSNEWBIE03	23665
@@ -8173,34 +8236,34 @@
 #define	II_SYS_SYS_EVE_MBXRUSVANSET01	23678
 #define	II_SYS_SYS_EVE_BXPERIODFLIGHT	23679
 
-//¿ë¿ÕÀÇ ¸ÁÅä 3Á¾(4¹ø ´õ¹Ì Æ÷ÇÔ)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½(4ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 #define	II_ARM_S_CLO_CLO_SEAKING01	23680
 #define	II_ARM_S_CLO_CLO_SEAKING02	23681
 #define	II_ARM_S_CLO_CLO_SEAKING03	23682
 #define	II_ARM_S_CLO_CLO_SEAKING04	23683
 
-//1Â÷ ÀüÁ÷¿ë
+//1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_GEM_GEM_TWINKLESTONE_1	23684
 #define	II_GEN_GEM_GEM_FORFORM_1	23685
 
-//±¹³» 18Â÷ ¾÷µ¥ÀÌÆ® ±â³ä Á¦·Ã ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½ 18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_EVE_BROKENMOONSTONEBOX	23686
 #define	II_SYS_SYS_EVE_SHINYMOONSTONEBOX	23687
 #define	II_ARM_S_CLO_MAS_HEROSUNGLASS	23688
 
-//·¯½Ã¾Æ ´ººñ Å»Ãâ ¹Ú½º Ãß°¡
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ Å»ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_EVE_MBXRUSWARLORDT01	23689
 #define	II_SYS_SYS_EVE_FBXRUSWARLORDT01	23690
 
-//·¯½Ã¾Æ ¸¶Æ®·Î½ÃÄ« Æê
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½Æ®ï¿½Î½ï¿½Ä« ï¿½ï¿½
 #define	II_PET_MATRYOSHKA	23691
 
-//Çà¿îÀÇ Àü¼³ÀÇ ¿ë¿Õ ¸ÁÅä »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_SEAKING01BX	23692
 #define	II_SYS_SYS_SCR_SEAKING02BX	23693
 #define	II_SYS_SYS_SCR_SEAKING03BX	23694
 
-//ÀÎµµ³×½Ã¾Æ ÀÌº¥Æ® ¸ÁÅä
+//ï¿½Îµï¿½ï¿½×½Ã¾ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_BATIKINDOCLOCK	23695
 #define	II_ARM_S_CLO_CLO_GARUDAINDOCLOCK	23696
 
@@ -8215,55 +8278,55 @@
 #define	II_WEA_BOW_SUHO_BAD	23705
 #define	II_WEA_YOY_SUHO_BAD	23706
 
-//ÀÎµµ³×½Ã¾Æ µ¶¸³±â³äÀÏ ÀÌº¥Æ®
+//ï¿½Îµï¿½ï¿½×½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_SYS_SYS_SCR_INDNATIONALFLAG	23707
 
-//Ä³¸¯ÅÍ ¼­¹ö ÀÌÀü ÁÖ¹®¼­
+//Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¹ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_CHARACTERSERVERMOVEITEM	23708
 
-//´ë¸¸ 5ÁÖ³â ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ë¸¸ 5ï¿½Ö³ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TWOMGGREEN	23709
 #define	II_SYS_SYS_SCR_TWOMGBLUE	23710
 #define	II_SYS_SYS_SCR_TWOMGYELLOW	23711
 #define	II_SYS_SYS_SCR_TWOMGRED	23712
 
-//´ë¸¸ ¿ë¿Õ¸ÁÅä ·£´ý¹Ú½º
+//ï¿½ë¸¸ ï¿½ï¿½Õ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_TWNSEAKINGBX	23713
 
-//ÇØ¿Ü º£È÷¸ð½º ¹«±â Á¦·Ã ÀÌº¥Æ® º¸»ó¿ë ÆÐ¼Ç Á¾°áÀÚÀÇ ¼±±Û¶ó½º ·¹µå ±Í¼Ó
+//ï¿½Ø¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Û¶ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Í¼ï¿½
 #define	II_ARM_S_CLO_MAS_MASKENDRED_TRADEX	23714
 
-//FWC¿ë ¾×¼¼¼­¸® ¹Ú½º 3Á¾
+//FWCï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ 3ï¿½ï¿½
 #define	II_SYS_SYS_SCR_FWJEWELLERYBX01	23715
 #define	II_SYS_SYS_SCR_FWJEWELLERYBX02	23716
 #define	II_SYS_SYS_SCR_FWJEWELLERYBX03	23717
 
-//´ë¸¸ 5ÁÖ³â ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ë¸¸ 5ï¿½Ö³ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TWNORMALBOX01	23718
 #define	II_SYS_SYS_SCR_TWSILVERBOX01	23719
 #define	II_SYS_SYS_SCR_TWGOLDBOX01	23720
 #define	II_RID_RID_BOR_OMGCAMELEON01	23721
 #define	II_SYS_SYS_SCR_TWOMGRANDOM01	23722
 
-//·¯½Ã¾Æ ¿ë¿Õ¸ÁÅä ·£´ý¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½Õ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_RUSEAKINGBX01	23723
 #define	II_SYS_SYS_SCR_RUSEAKINGBX02	23724
 #define	II_SYS_SYS_SCR_RUSEAKINGBX03	23725
 
-//´ë¸¸ 5ÁÖ³â ±â³ä ÆøÁ×
+//ï¿½ë¸¸ 5ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_MAG_TRI_TWANNIVARSARYBOMB01	23726
 
-//Çà¿î ±êµç Àü¼³ÀÇ »óÀÚ
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_LUCKYLEGENDBX	23727
 
 
-//FWC ¹«±â Áö±Þ ¹Ú½º
+//FWC ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_SCR_FWWEAPONBX01	23728
 
-//OMG Ä«¸á·¹¿Â ¸ðÀÚ(ÃÊ·Ï)(7ÀÏ) »óÀÚ ÀÌº¥Æ®¿ëÀ¸·Î º°µµ Á¦ÀÛ
+//OMG Ä«ï¿½á·¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½Ê·ï¿½)(7ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_BXRANDOMCAMELEON_1	23729
 
-//´ë¸¸ 5ÁÖ³â ±â³ä OMG ¿ë»ç ¼¼Æ®
+//ï¿½ë¸¸ 5ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ OMG ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®
 #define	II_ARM_M_MOMGWARRIORCLOTH	23730
 #define	II_ARM_M_MOMGWARRIORGLOVE	23731
 #define	II_ARM_M_MOMGWARRIORSHOES	23732
@@ -8290,21 +8353,21 @@
 #define	II_SYS_SYS_SCR_ITEMTRADECASHE7DAY	23748
 #define	II_SYS_SYS_SCR_ITEMTRADECASHE15DAY	23749
 
-//ÄÝ·Î¼¼¿ò ÁõÇ¥
+//ï¿½Ý·Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥
 #define	II_SYS_SYS_SCR_MERDERBLUESIGNSCROLL	23750
 #define	II_SYS_SYS_SCR_MERDERREDSIGNSCROLL	23751
 #define	II_SYS_SYS_SCR_COLOSSEUMSIGNSCROLL	23752
 
-// ¹Ì±¹ °¡À§¹ÙÀ§º¸ ÀÌº¥Æ® º¸»ó¿ë »óÀÚ
+// ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_USAEVENTBX_ORIMOONSTONE	23753
 
-//ÄÝ·Î¼¼¿ò º¸»ó
+//ï¿½Ý·Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_BX_COLOSSEUM_SOULACCESSORY	23754
 
-//ÀÏº»_¸ÁÅä ±³È¯ Æ¼°Ù
+//ï¿½Ïºï¿½_ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ Æ¼ï¿½ï¿½
 #define	II_SYS_SYS_SCR_CHANGECLOTICKET	23755
 
-//FWC ¿¹¼± 1À§ ÀÇ»ó
+//FWC ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_MFWCWINNERCLOTH	23756
 #define	II_ARM_M_MFWCWINNERGLOVE	23757
 #define	II_ARM_M_MFWCWINNERSHOES	23758
@@ -8315,7 +8378,7 @@
 #define	II_ARM_F_FFWCWINNERSHOES	23762
 #define	II_ARM_F_FFWCWINNERHAT	23763
 
-//ÀÏº» Ä¥¼® ÀÌº¥Æ®
+//ï¿½Ïºï¿½ Ä¥ï¿½ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_ARM_M_MPINKYDKATACLOTH	23764
 #define	II_ARM_M_MPINKYDKATAGLOVE	23765
 #define	II_ARM_M_MPINKYDKATAHAT	23766
@@ -8327,58 +8390,58 @@
 #define	II_SYS_SYS_BX_JAPAPINKSETM	23770
 #define	II_SYS_SYS_BX_JAPAPINKSETF	23771
 
-//¿¤µòÀÇ Ç×¾Æ¸®_´õ¹Ì
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾Æ¸ï¿½_ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_POT_SAV_ELLDIN7	23772
 #define	II_GEN_MAT_ELL_ELLDINKEY	23773
 #define	II_CHR_FOO_FOO_ELLDINFOOD	23774
 #define	II_CHR_POT_SAV_ELLDIN	23775
 
-//FWC º»¼± 3À§ ÀÇ»ó
-#define	II_ARM_M_MFWCFINAL3CLOTH	23776
-#define	II_ARM_M_MFWCFINAL3GLOVE	23777
-#define	II_ARM_M_MFWCFINAL3SHOES	23778
-#define	II_ARM_M_MFWCFINAL3HAT	23779
+//FWC ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_MFWCFINAL3CLOTH	23776       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL3GLOVE	23777       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL3SHOES	23778       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL3HAT	23779           // [InGame Shop]
 
-#define	II_ARM_F_FFWCFINAL3CLOTH	23780
-#define	II_ARM_F_FFWCFINAL3GLOVE	23781
-#define	II_ARM_F_FFWCFINAL3SHOES	23782
-#define	II_ARM_F_FFWCFINAL3HAT	23783
+#define	II_ARM_F_FFWCFINAL3CLOTH	23780       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL3GLOVE	23781       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL3SHOES	23782       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL3HAT	23783           // [InGame Shop]
 
-//FWC º»¼± 2À§ ÀÇ»ó
-#define	II_ARM_M_MFWCFINAL2CLOTH	23784
-#define	II_ARM_M_MFWCFINAL2GLOVE	23785
-#define	II_ARM_M_MFWCFINAL2SHOES	23786
-#define	II_ARM_M_MFWCFINAL2HAT	23787
+//FWC ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_MFWCFINAL2CLOTH	23784       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL2GLOVE	23785       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL2SHOES	23786       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL2HAT	23787           // [InGame Shop]
 
-#define	II_ARM_F_FFWCFINAL2CLOTH	23788
-#define	II_ARM_F_FFWCFINAL2GLOVE	23789
-#define	II_ARM_F_FFWCFINAL2SHOES	23790
-#define	II_ARM_F_FFWCFINAL2HAT	23791
+#define	II_ARM_F_FFWCFINAL2CLOTH	23788       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL2GLOVE	23789       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL2SHOES	23790       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL2HAT	23791           // [InGame Shop]
 
-//FWC º»¼± 1À§ ÀÇ»ó
-#define	II_ARM_M_MFWCFINAL1CLOTH	23792
-#define	II_ARM_M_MFWCFINAL1GLOVE	23793
-#define	II_ARM_M_MFWCFINAL1SHOES	23794
-#define	II_ARM_M_MFWCFINAL1HAT	23795
+//FWC ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_MFWCFINAL1CLOTH	23792       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL1GLOVE	23793       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL1SHOES	23794       // [InGame Shop]
+#define	II_ARM_M_MFWCFINAL1HAT	23795           // [InGame Shop]     
 
-#define	II_ARM_F_FFWCFINAL1CLOTH	23796
-#define	II_ARM_F_FFWCFINAL1GLOVE	23797
-#define	II_ARM_F_FFWCFINAL1SHOES	23798
-#define	II_ARM_F_FFWCFINAL1HAT	23799
+#define	II_ARM_F_FFWCFINAL1CLOTH	23796       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL1GLOVE	23797       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL1SHOES	23798       // [InGame Shop]
+#define	II_ARM_F_FFWCFINAL1HAT	23799           // [InGame Shop]
 
-//¿ë¿ÕÀÇ °ü ´õ¹Ì
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_SEAKINGCROWN	23800
 
-//FWC º»¼± ¸ÁÅä
+//FWC ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_FWCFINAL3	23801
 #define	II_ARM_S_CLO_CLO_FWCFINAL2	23802
 #define	II_ARM_S_CLO_CLO_FWCFINAL1	23803
 
-//ÀáÀÚ¸®³¯°³ ±Í¼Ó
+//ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Í¼ï¿½
 #define	II_RID_RID_WIN_BUTTERFLY05_1	23804
 
 
-//ÄÝ·Î¼¼¿ò ½Å±Ô¹«±â
+//ï¿½Ý·Î¼ï¿½ï¿½ï¿½ ï¿½Å±Ô¹ï¿½ï¿½ï¿½
 
 #define	II_WEA_SWO_COLOGRADE_1	23805
 #define	II_WEA_SWT_COLOGRADE_1	23806
@@ -8442,11 +8505,11 @@
 #define	II_WEA_YOY_COLOGRADE_3_UM	23864
 
 
-//¿ë¿ÕÀÇ°ü
+//ï¿½ï¿½ï¿½ï¿½Ç°ï¿½
 #define	II_ARM_F_SEAKINGCROWN	23865
 #define	II_ARM_M_SEAKINGCROWN	23866
 
-//´ë¸¸_½Ãµð±× ÀÇ»ó ¼¼Æ®
+//ï¿½ë¸¸_ï¿½Ãµï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½Æ®
 #define	II_ARM_M_MSEEDIGCLOTH	23867
 #define	II_ARM_M_MSEEDIGGLOVE	23868
 #define	II_ARM_M_MSEEDIGSHOES	23869
@@ -8457,36 +8520,36 @@
 #define	II_ARM_F_FSEEDIGHAT	23874
 
 
-//À¯·´ ÇÒ·ÎÀ© º¸»ó¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_EVE_BXZOMBIEHUMTER_1	23875
 
-//¿ë¿Õ °¡¸é Ãß°¡ºÐ
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½
 
 #define	II_ARM_S_CLO_MAS_SEAKINGCROWN_1	23876
 #define	II_ARM_S_CLO_MAS_SEAKINGCROWN_2	23877
 
-//¿ë¿Õ °¡¸é °¡Â÷¹Ú½º 3Á¾
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ 3ï¿½ï¿½
 #define	II_SYS_SYS_SCR_SEAKINGCROWN01BX	23878
 #define	II_SYS_SYS_SCR_SEAKINGCROWN02BX	23879
 #define	II_SYS_SYS_SCR_SEAKINGCROWN03BX	23880
 
-//FWC ¿¹¼± 1À§ ¸ÁÅä
+//FWC ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_FWCWINNER	23881
 
-//½Ãµð±× ÀÇ»ó¼¼Æ® »óÀÚ 2Á¾
+//ï¿½Ãµï¿½ï¿½ ï¿½Ç»ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
 #define	II_SYS_SYS_BX_SEEDIGSETBXM	23882
 #define	II_SYS_SYS_BX_SEEDIGSETBXF	23883
 
-//ÀÎµµ³×½Ã¾Æ_ÈÞ¸éÀ¯Àú È¯¿µ»óÀÚ(ÀÎµµ³×½Ã¾Æ)
+//ï¿½Îµï¿½ï¿½×½Ã¾ï¿½_ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ È¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Îµï¿½ï¿½×½Ã¾ï¿½)
 #define	II_SYS_SYS_BX_INDRETURNBX	23884
 
 
-//¾ç¼Õ¹«±â ÇÕ¼º Ä³½Ã ¾ÆÀÌÅÛ
+//ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ ï¿½Õ¼ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_BX_MAGICGRINDSTONE	23885
 
 
-//·¹º§´Ù¿î¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ù¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_LEVLEDOWN_LOW_60	23886
 #define	II_SYS_SYS_SCR_LEVLEDOWN_LOW_75	23887
 #define	II_SYS_SYS_SCR_LEVLEDOWN_LOW_80	23888
@@ -8501,7 +8564,7 @@
 #define	II_SYS_SYS_SCR_LEVLEDOWN_HIGH_120	23897
 #define	II_SYS_SYS_SCR_LEVLEDOWN_HIGH_130	23898
 
-//´ë¸¸ 18Â÷ ¾÷µ¥ÀÌÆ® ±â³ä ÀÌº¥Æ® ¾ÆÀÌÅÛ
+//ï¿½ë¸¸ 18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_BX_TWN18UPDATEBX	23899
 #define	II_SYS_SYS_BX_TWNLEVELUP60BX	23900
 #define	II_SYS_SYS_BX_TWNLEVELUP70BX	23901
@@ -8513,52 +8576,52 @@
 
 
 
-// ÀÏº»¿äÃ»¾ÆÀÌÅÛ
-#define	II_SYS_SYS_SCR_EXPSCROLL03_01_TRADEABLE	23907	//ESÁõÆøÀÇ µÎ·ç¸¶¸®R(1ÀÏ)
-#define	II_SYS_SYS_SCR_EXPSCROLL04_01_TRADEABLE	23908	//ESÁõÆøÀÇ µÎ·ç¸¶¸®Q(1ÀÏ)
-#define	II_CHR_REF_REF_HOLD_NOTTRADE	23909	//¸®ÇÁ·¹¼Å È¦µå
-#define	II_CHR_POT_DRI_VITALX_NOTTRADE	23910	//È°·Âµå¸µÅ© x
+// ï¿½Ïºï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL03_01_TRADEABLE	23907	//ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½R(1ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_EXPSCROLL04_01_TRADEABLE	23908	//ESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½Q(1ï¿½ï¿½)
+#define	II_CHR_REF_REF_HOLD_NOTTRADE	23909	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¦ï¿½ï¿½
+#define	II_CHR_POT_DRI_VITALX_NOTTRADE	23910	//È°ï¿½Âµå¸µÅ© x
 
-//¿¤µòÀÇ Ç×¾Æ¸® Àü¿ë ¹°¾à Ãß°¡ºÐ 2Á¾
-#define	II_CHR_FOO_FOO_ELLDINFOOD02	23911	//¿¤µòÀÇ ·Î¾âÁ©¸®
-#define	II_CHR_FOO_FOO_ELLDINFOOD03	23912	//¿¤µòÀÇ ÃÊÄÝ¸´
-
-
-
-//»êÅ¸ÀÇ ¼±¹°
-#define	II_SYS_SYS_EMPTYGIFTBOX	23913	//ºó¼±¹°»óÀÚ
-#define	II_SYS_SYS_CRISTMASGIFTBOX2011	23914	//Å©¸®½º¸¶½º¼±¹°»óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾Æ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ 2ï¿½ï¿½
+#define	II_CHR_FOO_FOO_ELLDINFOOD02	23911	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î¾ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_CHR_FOO_FOO_ELLDINFOOD03	23912	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý¸ï¿½
 
 
 
-//¿ÜÇü º¹±¸ ÁÖ¹®¼­
-#define	II_SYS_SYS_ITEMMODELRETURN	23915	//¿ÜÇüº¹±¸ÁÖ¹®¼­
+//ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EMPTYGIFTBOX	23913	//ï¿½ó¼±¹ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_CRISTMASGIFTBOX2011	23914	//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//¿¤µòÀÇ Ç×¾Æ¸® ±â°£º° ¾ÆÀÌÅÛ Ãß°¡ºÐ
+
+
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¹ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_ITEMMODELRETURN	23915	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½
+
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾Æ¸ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½
 #define	II_CHR_POT_SAV_ELLDIN1	23916
 #define	II_CHR_POT_SAV_ELLDIN15	23917
 #define	II_CHR_POT_SAV_ELLDIN30	23918
 
-//»êÅ¸ Á¦·Ã ÀÌº¥Æ®
-#define	II_GEN_JEW_RIN_SANTAEVENTRING	23919	//½Åºñ·Î¿ö º¸ÀÌ´Â ¹ÝÁö
-#define	II_GEN_JEW_RIN_RUDOLPHRING	23920	//·çµ¹ÇÁ »Ô ¹ÝÁö
-#define	II_GEN_JEW_NEC_RUDOLPHNECKLACE	23921	//·çµ¹ÇÁ ¸ñ°ÉÀÌ
-#define	II_GEN_JEW_EAR_RUDOLPHEARRING	23922	//·çµ¹ÇÁ ÀÌ¾î¸µ
-#define	II_SYS_SYS_SCR_RUDOLPHJEWELLERYBX	23923	//·çµ¹ÇÁ ¾Ç¼¼¼­¸® ¼¼Æ®
+//ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_GEN_JEW_RIN_SANTAEVENTRING	23919	//ï¿½Åºï¿½Î¿ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_RIN_RUDOLPHRING	23920	//ï¿½çµ¹ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_NEC_RUDOLPHNECKLACE	23921	//ï¿½çµ¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_EAR_RUDOLPHEARRING	23922	//ï¿½çµ¹ï¿½ï¿½ ï¿½Ì¾î¸µ
+#define	II_SYS_SYS_SCR_RUDOLPHJEWELLERYBX	23923	//ï¿½çµ¹ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®
 
-//»ç¶ûÀÇ ¿¬Åº ÀÌº¥Æ®
-#define	II_SYS_SYS_SCR_BRIQUETTESCRAP	23924	//¿¬Åº Á¶°¢
-#define	II_SYS_SYS_SCR_LOVEBRIQUETTE	23925	//»ç¶ûÀÇ ¿¬Åº
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åº ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BRIQUETTESCRAP	23924	//ï¿½ï¿½Åº ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_LOVEBRIQUETTE	23925	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Åº
 
-//»êÅ¸ Á¦·Ã ÀÌº¥Æ® º¸»ó ¾ÆÀÌÅÛ ¹­À½ »óÀÚ
-#define	II_SYS_SYS_SCR_RUDOLPHSETBX19	23926	//Á¦·Ã °ª 19 º¸»ó »óÀÚ
-#define	II_SYS_SYS_SCR_RUDOLPHSETBX20	23927	//Á¦·Ã °ª 20 º¸»ó »óÀÚ
+//ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RUDOLPHSETBX19	23926	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 19 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RUDOLPHSETBX20	23927	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 20 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-//±Í¼ÓÇØÁ¦½ºÅ©·Ñ ±Í¼Ó
-#define	II_SYS_SYS_SCR_CANCELLATION_01	23928	//±Í¼ÓµÈ ±Í¼ÓÇØÁ¦½ºÅ©·Ñ
+//ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Í¼ï¿½
+#define	II_SYS_SYS_SCR_CANCELLATION_01	23928	//ï¿½Í¼Óµï¿½ ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½
 
 
-//º¸½º ¿ÜÇü º¯°æ ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_ARM_LC_KALGAS_CAP_M	23929
 #define	II_ARM_LC_KALGAS_CAP_F	23930
@@ -8589,13 +8652,13 @@
 #define	II_WEA_LC_TURTLEKING_SHIELD	23955
 
 
-// ±¤¾ß´ëÇ¥°´ ·£´ý¹Ú½º
+// ï¿½ï¿½ï¿½ß´ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
 
 
 #define	II_SYS_SYS_SCR_GWANGYA	23956
 
 
-// ½Å±Ô ¾ÆÀÌÅÛ ¾ÆÆ¼ÆåÆ®, ÅäÅ«
+// ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½Æ®, ï¿½ï¿½Å«
 
 #define	II_GEN_POT_ARTIFACT_NOSFERATU	23957
 #define	II_GEN_POT_ARTIFACT_SUFFERENCE	23958
@@ -8624,12 +8687,12 @@
 #define	II_SYS_SYS_EVE_VICTORYPRIDE01_NOTTRADE	23978
 #define	II_PET_KIMPD_NOTTRADE	23979
 
-//Æ÷ÀåµÈ ¿¤µòÀÇ Ç×¾Æ¸® ±â°£º° Ãß°¡ºÐ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾Æ¸ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½
 #define	II_CHR_POT_SAV_LOCKELLDIN7	23980
 #define	II_CHR_POT_SAV_LOCKELLDIN15	23981
 #define	II_CHR_POT_SAV_LOCKELLDIN30	23982
 
-//¿ë¿ÕÀÇ ÀÇ»ó ¼¼Æ®_»ç¿ëÇÏÁö ¾Ê´Â ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½Æ®_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_M_MSEAKINGLOOKCAP	23983
 #define	II_ARM_M_MSEAKINGLOOKFOOT	23984
 #define	II_ARM_M_MSEAKINGLOOKHAND	23985
@@ -8670,7 +8733,7 @@
 #define	II_SYS_SYS_SCR_MSEAKINGLOOK_2BX	24011
 #define	II_SYS_SYS_SCR_FSEAKINGLOOK_2BX	24012
 
-//ÆÄ±«ÀÇ ¿ë¿Õ ÀÇ»ó »óÀÚ
+//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM1_01BX	24013
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM1_02BX	24014
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM1_03BX	24015
@@ -8681,7 +8744,7 @@
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM1_03BX	24019
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM1_04BX	24020
 
-//½Å¼ÓÇÑ ¿ë¿Õ ÀÇ»ó »óÀÚ
+//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM2_01BX	24021
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM2_02BX	24022
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM2_03BX	24023
@@ -8692,7 +8755,7 @@
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM2_03BX	24027
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM2_04BX	24028
 
-//Àü´ÉÇÑ ¿ë¿Õ ÀÇ»ó »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM3_01BX	24029
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM3_02BX	24030
 #define	II_SYS_SYS_SCR_MSEAKINGLOOKRANDOM3_03BX	24031
@@ -8703,55 +8766,55 @@
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM3_03BX	24035
 #define	II_SYS_SYS_SCR_FSEAKINGLOOKRANDOM3_04BX	24036
 
-//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é ¼ºº° ±¸ºÐ
+//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_MSEAKINGCROWN	24037
 #define	II_ARM_S_CLO_MAS_FSEAKINGCROWN	24038
 
-//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é ¼ºº° ±¸ºÐ
+//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_1	24039
 #define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_1	24040
 
-//Àü´ÉÇÑ ¿ë¿Õ °¡¸é ¼ºº° ±¸ºÐ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_2	24041
 #define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_2	24042
 
-//ÆÄ±«ÀÇ ¿ë¿Õ ¸ÁÅä ¼ºº° ±¸ºÐ
+//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_MSEAKING01	24043
 #define	II_ARM_S_CLO_CLO_FSEAKING01	24044
 
-//½Å¼ÓÇÑ ¿ë¿Õ ¸ÁÅä ¼ºº° ±¸ºÐ
+//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_MSEAKING02	24045
 #define	II_ARM_S_CLO_CLO_FSEAKING02	24046
 
-//Àü´ÉÇÑ ¿ë¿Õ ¸ÁÅä ¼ºº° ±¸ºÐ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_MSEAKING03	24047
 #define	II_ARM_S_CLO_CLO_FSEAKING03	24048
 
-//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é »óÀÚ
+//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGCROWNBX	24049
 #define	II_SYS_SYS_SCR_FSEAKINGCROWNBX	24050
 
-//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é »óÀÚ
+//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGCROWN_1BX	24051
 #define	II_SYS_SYS_SCR_FSEAKINGCROWN_1BX	24052
 
-//Àü´ÉÇÑ ¿ë¿Õ °¡¸é »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKINGCROWN_2BX	24053
 #define	II_SYS_SYS_SCR_FSEAKINGCROWN_2BX	24054
 
-//ÆÄ±«ÀÇ ¿ë¿Õ ¸ÁÅä »óÀÚ
+//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKING01BX	24055
 #define	II_SYS_SYS_SCR_FSEAKING01BX	24056
 
-//½Å¼ÓÇÑ ¿ë¿Õ ¸ÁÅä »óÀÚ
+//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKING02BX	24057
 #define	II_SYS_SYS_SCR_FSEAKING02BX	24058
 
-//Àü´ÉÇÑ ¿ë¿Õ ¸ÁÅä »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_MSEAKING03BX	24059
 #define	II_SYS_SYS_SCR_FSEAKING03BX	24060
 
-//Å×½ºÆ®¾ÆÀÌÅÛ
+//ï¿½×½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 #define	II_TESTITEM1	24061
@@ -8761,7 +8824,7 @@
 #define	II_TESTITEM5	24065
 
 
-//±¹³» ¿ÜÇüº¯°æ ·£´ý¹Ú½º Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ ï¿½ß°ï¿½
 
 #define	II_SYS_SYS_SCR_BOSSLOOKRANDOMBOX_LYCAN_M	24066
 #define	II_SYS_SYS_SCR_BOSSLOOKRANDOMBOX_LYCAN_F	24067
@@ -8771,23 +8834,23 @@
 #define	II_SYS_SYS_SCR_BOSSLOOKRANDOMBOX_CLOCKWORK_F	24071
 
 
-//¿¤µòÀÇ Ç×¾Æ¸® ±â°£º° »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾Æ¸ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_ELLDIN_1BX	24072
 #define	II_SYS_SYS_SCR_ELLDIN_7BX	24073
 #define	II_SYS_SYS_SCR_ELLDIN_15BX	24074
 #define	II_SYS_SYS_SCR_ELLDIN_30BX	24075
 
-//´ë¸¸_¿ë¿Õ¸ÁÅä º¸¹°»óÀÚ
+//ï¿½ë¸¸_ï¿½ï¿½Õ¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TWNSEAKINGCLOCKBX	24076
 
-//´ë¸¸_¿ë¿Õ°¡¸é º¸¹°»óÀÚ 2Á¾
+//ï¿½ë¸¸_ï¿½ï¿½Õ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
 #define	II_SYS_SYS_SCR_TWNMSEAKINGMASKBX	24077
 #define	II_SYS_SYS_SCR_TWNFSEAKINGMASKBX	24078
 
-//¾îµÒÀÇ ¶ó¸£Å×½Ã¾Æ Æ¼ÄÏ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½Ã¾ï¿½ Æ¼ï¿½ï¿½
 #define	II_SYS_TICKET_DARKRARTESIA	24079
 
-//µµ±úºñ ÇÑº¹ ¼¼Æ®
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñºï¿½ ï¿½ï¿½Æ®
 #define	II_ARM_M_MDEMONKORDRES_HAT	24080
 #define	II_ARM_M_MDEMONKORDRES_UPPER	24081
 #define	II_ARM_M_MDEMONKORDRES_HAND	24082
@@ -8800,137 +8863,137 @@
 
 
 
-// 2011 ¹ß·»Å¸ÀÎ ÀÌº¥Æ® º¸»ó »óÀÚ
+// 2011 ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define	II_SYS_SYS_SCR_VALENTINE2011WINBX	24088
 #define	II_SYS_SYS_SCR_VALENTINE2011LOSEBX	24089
 
-//´ë¸¸_±×·¹ÀÌ¾ó ÀÌº¥Æ® °ü·Ã ±³È¯ ºÒ°¡ Ç³¼± 3Á¾
-#define	II_SYS_SYS_EVE_BALLOON_EVENT_PI	24090	// ÀÌº¥Æ®¿ë ºÐÈ«»ö Ç³¼±(±Í¼Ó)
-#define	II_SYS_SYS_EVE_BALLOON_EVENT_BL	24091	// ÀÌº¥Æ®¿ë ÆÄ¶õ»ö Ç³¼±(±Í¼Ó)
-#define	II_SYS_SYS_EVE_BALLOON_EVENT_YE	24092	// ÀÌº¥Æ®¿ë ³ë¶õ»ö Ç³¼±(±Í¼Ó)
+//ï¿½ë¸¸_ï¿½×·ï¿½ï¿½Ì¾ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ò°ï¿½ Ç³ï¿½ï¿½ 3ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BALLOON_EVENT_PI	24090	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È«ï¿½ï¿½ Ç³ï¿½ï¿½(ï¿½Í¼ï¿½)
+#define	II_SYS_SYS_EVE_BALLOON_EVENT_BL	24091	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Ä¶ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½(ï¿½Í¼ï¿½)
+#define	II_SYS_SYS_EVE_BALLOON_EVENT_YE	24092	// ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ç³ï¿½ï¿½(ï¿½Í¼ï¿½)
 
-//2012 ÇØÇÇ¸Ó´Ï ÀÌº¥Æ® °ü·Ã_º¸»ó¾ÆÀÌÅÛ ¹­À½ ¹Ú½º
-#define	II_SYS_SYS_SCR_2012HAPPY10BX	24093	// 10°³ ¼¼Æ®
-#define	II_SYS_SYS_SCR_2012HAPPY100BX	24094	// 100°³ ¼¼Æ®
-#define	II_SYS_SYS_SCR_2012HAPPY300BX	24095	// 300°³ ¼¼Æ®
-#define	II_SYS_SYS_SCR_2012HPPAY500BX	24096	// 500°³ ¼¼Æ®
-
-
+//2012 ï¿½ï¿½ï¿½Ç¸Ó´ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_2012HAPPY10BX	24093	// 10ï¿½ï¿½ ï¿½ï¿½Æ®
+#define	II_SYS_SYS_SCR_2012HAPPY100BX	24094	// 100ï¿½ï¿½ ï¿½ï¿½Æ®
+#define	II_SYS_SYS_SCR_2012HAPPY300BX	24095	// 300ï¿½ï¿½ ï¿½ï¿½Æ®
+#define	II_SYS_SYS_SCR_2012HPPAY500BX	24096	// 500ï¿½ï¿½ ï¿½ï¿½Æ®
 
 
-//½Å±Ô ¹°¾à 2012.02.06
-
-#define	II_SYS_SYS_SCR_FURYPOTION	24097	// °ÝºÐÀÇ ºñ¾à
-#define	II_SYS_SYS_SCR_POWERFURYPOTION	24098	// °­È­µÈ °ÝºÐÀÇ ºñ¾à
-#define	II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL	24099	// ¹Ù¶÷ Á¤·ÉÀÇ ºÐ³ë
-#define	II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL	24100	// ºÒ Á¤·ÉÀÇ ºÐ³ë
-#define	II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL	24101	// ¹° Á¤·ÉÀÇ ºÐ³ë
-#define	II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL	24102	// Àü±â Á¤·ÉÀÇ ºÐ³ë
-#define	II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL	24103	// ¶¥ Á¤·ÉÀÇ ºÐ³ë
 
 
-//·¯½Ã¾Æ ¿ë¿Õ ½Ã¸®Áî ·£´ø ¹Ú½º 2Á¾_ºÎÃ÷_±Û·¯ºê
-#define	II_SYS_SYS_SCR_MRUSSEAKINGFOOTBX	24104	//·¯½Ã¾Æ_¿ë¿ÕºÎÃ÷ º¸¹°»óÀÚ(³²)
-#define	II_SYS_SYS_SCR_FRUSSEAKINGFOOTBX	24105	//·¯½Ã¾Æ_¿ë¿ÕºÎÃ÷ º¸¹°»óÀÚ(¿©)
-#define	II_SYS_SYS_SCR_MRUSSEAKINGHANDBX	24106	//·¯½Ã¾Æ_¿ë¿ÕÀå°© º¸¹°»óÀÚ(³²)
-#define	II_SYS_SYS_SCR_FRUSSEAKINGHANDBX	24107	//·¯½Ã¾Æ_¿ë¿ÕÀå°© º¸¹°»óÀÚ(¿©)
+//ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ 2012.02.06
 
-//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è 13Á¾
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_RUSTIA	24108	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(·¯½ºÆ¼¾Æ)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_RUSTIA_1	24109	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(¾ß»ýÀÇ ·¯½ºÆ¼¾Æ)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_OMINOUS	24110	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(¾Æ¹Ì³Ê½º)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_OMINOUS_1	24111	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(ÀúÁÖ¹ÞÀº ¾Æ¹Ì³Ê½º)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_UPRESIA	24112	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(È¯¿µÀÇ ¼¶ À¯ÇÁ·¹½Ã¾Æ)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_UPRESIA_1	24113	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(¸ùÈ¯ÀÇ ¼¶ À¯ÇÁ·¹½Ã¾Æ)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_HERNEOS	24114	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(Çì¸£³×¿À½º)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_HERNEOS_1	24115	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(½ÉÇØÀÇ Çì¸£³×¿À½º)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_SANPRES	24116	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(»êÃ¼¸£ÄÚ È£)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_SANPRES_1	24117	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(»êÇÁ·¹½º È£)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_DREADFULCAVE	24118	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(µå·¡µåÇ® ÄÉÀÌºê)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_BEHAMAH	24119	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(º£È÷¸ð½º ½ÅÀü)
-#define	II_CHA_SYS_DUN_SHADESANDGLASS_KALGAS	24120	//½¦ÀÌµåÀÇ ¸ð·¡½Ã°è(Ä®°¡½º µ¿±¼)
-
-//¾îµÒÀÇ ¶ó¸£Å×½Ã¾Æ ÀÔÀå±Ç 1ÀÏ
-#define	II_SYS_TICKET_DARKRARTESIA01	24121	//¾îµÒ ¶ó¸£ 1ÀÏ
+#define	II_SYS_SYS_SCR_FURYPOTION	24097	// ï¿½Ýºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_POWERFURYPOTION	24098	// ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ýºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL	24099	// ï¿½Ù¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð³ï¿½
+#define	II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL	24100	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð³ï¿½
+#define	II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL	24101	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð³ï¿½
+#define	II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL	24102	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð³ï¿½
+#define	II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL	24103	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð³ï¿½
 
 
-#define	II_SYS_SYS_SCR_MADRIGALGIFT	24122	//¸¶µå¸®°¥ÀÇ Ãàº¹
-#define	II_SYS_SYS_SCR_RANDOMOPTIONRTRY	24123	//°¢¼º Àç±¼¸²ÀÇ µÎ·ç¸¶¸®
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ 2ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½_ï¿½Û·ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_MRUSSEAKINGFOOTBX	24104	//ï¿½ï¿½ï¿½Ã¾ï¿½_ï¿½ï¿½Õºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_FRUSSEAKINGFOOTBX	24105	//ï¿½ï¿½ï¿½Ã¾ï¿½_ï¿½ï¿½Õºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_MRUSSEAKINGHANDBX	24106	//ï¿½ï¿½ï¿½Ã¾ï¿½_ï¿½ï¿½ï¿½ï¿½å°© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_FRUSSEAKINGHANDBX	24107	//ï¿½ï¿½ï¿½Ã¾ï¿½_ï¿½ï¿½ï¿½ï¿½å°© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+
+//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½ 13ï¿½ï¿½
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_RUSTIA	24108	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_RUSTIA_1	24109	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ß»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_OMINOUS	24110	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½Æ¹Ì³Ê½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_OMINOUS_1	24111	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ ï¿½Æ¹Ì³Ê½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_UPRESIA	24112	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(È¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¾ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_UPRESIA_1	24113	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¾ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_HERNEOS	24114	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ì¸£ï¿½×¿ï¿½ï¿½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_HERNEOS_1	24115	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ì¸£ï¿½×¿ï¿½ï¿½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_SANPRES	24116	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ È£)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_SANPRES_1	24117	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_DREADFULCAVE	24118	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½å·¡ï¿½ï¿½Ç® ï¿½ï¿½ï¿½Ìºï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_BEHAMAH	24119	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
+#define	II_CHA_SYS_DUN_SHADESANDGLASS_KALGAS	24120	//ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ð·¡½Ã°ï¿½(Ä®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
+
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½
+#define	II_SYS_TICKET_DARKRARTESIA01	24121	//ï¿½ï¿½ï¿½ ï¿½ï¿½ 1ï¿½ï¿½
 
 
-//Ä³¸¯ÅÍ ¼­¹ö ÀÌÀü ÁÖ¹®¼­ ±³È¯ ºÒ°¡¿ë ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_SCR_CHARACTERSERVERMOVEITEM_1	24124	//¼­¹ö ÀÌÀüÀÇ µÎ·ç¸¶¸®(±³È¯ºÒ°¡)
-
-//¾îµÒÀÇ ¶ó¸£Å×½Ã¾Æ Æ¼ÄÏ ±³È¯ ºÒ°¡¿ë ¾ÆÀÌÅÛ
-#define	II_SYS_TICKET_DARKRARTESIA_01	24125	//¾îµÒ ¶ó¸£ 1ÀÏ(±³È¯ ºÒ°¡)
-#define	II_SYS_TICKET_DARKRARTESIA_07	24126	//¾îµÒ ¶ó¸£ 7ÀÏ(±³È¯ ºÒ°¡)
-#define	II_SYS_TICKET_DARKRARTESIA_15	24127	//¾îµÒ ¶ó¸£ 15ÀÏ(±³È¯ ºÒ°¡)
+#define	II_SYS_SYS_SCR_MADRIGALGIFT	24122	//ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹
+#define	II_SYS_SYS_SCR_RANDOMOPTIONRTRY	24123	//ï¿½ï¿½ï¿½ï¿½ ï¿½ç±¼ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
 
 
-//´ë¸¸_¿ë¿Õ ½Ã¸®Áî ·£´ý ¹Ú½º
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX01_1	24128	//ÆÄ±«ÀÇ ¿ë¿Õ ·£´ý¹Ú½º(³²)
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX01_2	24129	//ÆÄ±«ÀÇ ¿ë¿Õ ·£´ý¹Ú½º(¿©)
+//Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¹ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_CHARACTERSERVERMOVEITEM_1	24124	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(ï¿½ï¿½È¯ï¿½Ò°ï¿½)
 
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX02_1	24130	//½Å¼ÓÇÑ ¿ë¿Õ ·£´ý¹Ú½º(³²)
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX02_2	24131	//½Å¼ÓÇÑ ¿ë¿Õ ·£´ý¹Ú½º(¿©)
-
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX03_1	24132	//Àü´ÉÇÑ ¿ë¿Õ ·£´ý¹Ú½º(³²)
-#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX03_2	24133	//Àü´ÉÇÑ ¿ë¿Õ ·£´ý¹Ú½º(¿©)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×½Ã¾ï¿½ Æ¼ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_TICKET_DARKRARTESIA_01	24125	//ï¿½ï¿½ï¿½ ï¿½ï¿½ 1ï¿½ï¿½(ï¿½ï¿½È¯ ï¿½Ò°ï¿½)
+#define	II_SYS_TICKET_DARKRARTESIA_07	24126	//ï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½ï¿½(ï¿½ï¿½È¯ ï¿½Ò°ï¿½)
+#define	II_SYS_TICKET_DARKRARTESIA_15	24127	//ï¿½ï¿½ï¿½ ï¿½ï¿½ 15ï¿½ï¿½(ï¿½ï¿½È¯ ï¿½Ò°ï¿½)
 
 
-//±Ø´Ü ¼ºÀå ¹× ±Ø´Ü Æ÷ÀÎÆ® ¹«Á¦ÇÑ ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_SCR_PARTYSPEEDLEVELUP01	24134	//±Ø´Ü¼ºÀå
-#define	II_SYS_SYS_SCR_PARTYPOINTFREE01	24135	//±Ø´ÜÆ÷ÀÎÆ® 7ÀÏ
-#define	II_SYS_SYS_SCR_PARTYPOINTFREE02	24136	//±Ø´ÜÆ÷ÀÎÆ® 15ÀÏ
+//ï¿½ë¸¸_ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX01_1	24128	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX01_2	24129	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
 
-//½Å¼ÓÇÑ_Àü´ÉÇÑ ¿ë¿Õ °¡¸é ¿É¼Ç Ãß°¡ ¾ÆÀÌÅÛ
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_1_01	24137	//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é(³²)
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_2_01	24138	//Àü´ÉÇÑ ¿ë¿Õ °¡¸é(³²)
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX02_1	24130	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX02_2	24131	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
 
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_1_01	24139	//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é(¿©)
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_2_01	24140	//Àü´ÉÇÑ ¿ë¿Õ °¡¸é(¿©)
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX03_1	24132	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_SEAKINGRANDOMBOX03_2	24133	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½(ï¿½ï¿½)
 
-//2012 ¾î¸°ÀÌ ÁÖ°£ Äù½ºÆ® °ü·Ã ½Å±Ô ¾ÆÀÌÅÛ
-#define	II_SYS_SYS_QUE_2012CHILDRENWEEK_QUEST01	24141	//±Í¿©¿î Åä³¢ Á¤·É ¾Ë
-#define	II_SYS_SYS_SCR_2012CHILDRENBOX	24142	//¾î¸°ÀÌ »óÀÚ 2012
-#define	II_PET_BABYCAT	24143	//±Í¿©¿î ¾Æ±â °í¾çÀÌ ¹öÇÁÆê
 
-//ÇÁ¸®ÇÁ Á¶°¢ ¹× ÄíÆù ¾ÆÀÌÅÛ
-#define	II_GEN_GEM_GEM_FLYFFPIECE_F	24144	//ÇÁ¸®ÇÁ Á¶°¢ F
-#define	II_GEN_GEM_GEM_FLYFFPIECE_L	24145	//ÇÁ¸®ÇÁ Á¶°¢ L
-#define	II_GEN_GEM_GEM_FLYFFPIECE_Y	24146	//ÇÁ¸®ÇÁ Á¶°¢ Y
-#define	II_GEN_GEM_GEM_FLYFFPIECE_O	24147	//ÇÁ¸®ÇÁ Á¶°¢ O
-#define	II_GEN_GEM_GEM_FLYFFPIECE_R	24148	//ÇÁ¸®ÇÁ Á¶°¢ R
-#define	II_GEN_GEM_GEM_FLYFFPIECE_U	24149	//ÇÁ¸®ÇÁ Á¶°¢ U
-#define	II_GEN_GEM_GEM_FLYFFPIECE_N	24150	//ÇÁ¸®ÇÁ Á¶°¢ N
-#define	II_GEN_GEM_GEM_FLYFFCOUPON_FLY	24151	//ÇÁ¸®ÇÁ ÄíÆù FLY
-#define	II_GEN_GEM_GEM_FLYFFCOUPON_FOR	24152	//ÇÁ¸®ÇÁ ÄíÆù FOR
-#define	II_GEN_GEM_GEM_FLYFFCOUPON_FUN	24153	//ÇÁ¸®ÇÁ ÄíÆù FUN
+//ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PARTYSPEEDLEVELUP01	24134	//ï¿½Ø´Ü¼ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PARTYPOINTFREE01	24135	//ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½Æ® 7ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PARTYPOINTFREE02	24136	//ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½Æ® 15ï¿½ï¿½
 
-//°¢¼º Àç±¼¸²ÀÇ µÎ·ç¸¶¸® ±Í¼Ó
+//ï¿½Å¼ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_1_01	24137	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_2_01	24138	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_1_01	24139	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_2_01	24140	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+
+//2012 ï¿½î¸°ï¿½ï¿½ ï¿½Ö°ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_QUE_2012CHILDRENWEEK_QUEST01	24141	//ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ä³¢ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+#define	II_SYS_SYS_SCR_2012CHILDRENBOX	24142	//ï¿½î¸°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2012
+#define	II_PET_BABYCAT	24143	//ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½Æ±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_GEM_GEM_FLYFFPIECE_F	24144	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ F
+#define	II_GEN_GEM_GEM_FLYFFPIECE_L	24145	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ L
+#define	II_GEN_GEM_GEM_FLYFFPIECE_Y	24146	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Y
+#define	II_GEN_GEM_GEM_FLYFFPIECE_O	24147	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ O
+#define	II_GEN_GEM_GEM_FLYFFPIECE_R	24148	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ R
+#define	II_GEN_GEM_GEM_FLYFFPIECE_U	24149	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ U
+#define	II_GEN_GEM_GEM_FLYFFPIECE_N	24150	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ N
+#define	II_GEN_GEM_GEM_FLYFFCOUPON_FLY	24151	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ FLY
+#define	II_GEN_GEM_GEM_FLYFFCOUPON_FOR	24152	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ FOR
+#define	II_GEN_GEM_GEM_FLYFFCOUPON_FUN	24153	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ FUN
+
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ç±¼ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½ ï¿½Í¼ï¿½
 #define	II_SYS_SYS_SCR_RANDOMOPTIONRETRY_01	24154
 
-//¿ë¿Õ °¡¸é ¿É¼Çº° Ãß°¡ ¾ÆÀÌÅÛ
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_1_02	24155	//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é(³²)
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_2_02	24156	//Àü´ÉÇÑ ¿ë¿Õ °¡¸é(³²)
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_1_02	24157	//½Å¼ÓÇÑ ¿ë¿Õ °¡¸é(¿©)
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_2_02	24158	//Àü´ÉÇÑ ¿ë¿Õ °¡¸é(¿©)
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼Çºï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_1_02	24155	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_2_02	24156	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_1_02	24157	//ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_2_02	24158	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_01	24159	//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é(³²)
-#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_02	24160	//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é(³²)
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_01	24161	//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é(¿©)
-#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_02	24162	//ÆÄ±«ÀÇ ¿ë¿Õ °¡¸é(¿©)
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_01	24159	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_02	24160	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_01	24161	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_02	24162	//ï¿½Ä±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)
 
-//¹öÇÁÆÎÀÇ ÄÚÀÎ
-#define	II_GEN_GEM_GEM_BUFFPANGCOIN	24163	//¹öÇÁÆÎÀÇ ÄÚÀÎ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_GEM_GEM_BUFFPANGCOIN	24163	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-//·¯½Ã¾Æ·£´ý¹Ú½º3Á¾
-#define	II_SYS_SYS_BXRUSIA20120509_1	24164	//19Â÷ ±â³ä ·£´ý ¹Ú½º1_(M)
-#define	II_SYS_SYS_BXRUSIA20120509_2	24165	//19Â÷ ±â³ä ·£´ý ¹Ú½º1_(F)
-#define	II_SYS_SYS_BXRUSIA20120509_3	24166	//19Â÷ ±â³ä ·£´ý ¹Ú½º2
+//ï¿½ï¿½ï¿½Ã¾Æ·ï¿½ï¿½ï¿½ï¿½Ú½ï¿½3ï¿½ï¿½
+#define	II_SYS_SYS_BXRUSIA20120509_1	24164	//19ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½1_(M)
+#define	II_SYS_SYS_BXRUSIA20120509_2	24165	//19ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½1_(F)
+#define	II_SYS_SYS_BXRUSIA20120509_3	24166	//19ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½2
 
-//·¯½Ã¾Æ ÄÚ½ºÆ¬ ÄÁÅ×½ºÆ® 1À§ ÀÇ»ó
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½ï¿½×½ï¿½Æ® 1ï¿½ï¿½ ï¿½Ç»ï¿½
 #define	II_ARM_M_RUSCOST01_CLOTH	24167
 #define	II_ARM_M_RUSCOST01_GLOVE	24168
 #define	II_ARM_M_RUSCOST01_SHOES	24169
@@ -8938,20 +9001,20 @@
 #define	II_ARM_F_RUSCOST01_GLOVE	24171
 #define	II_ARM_F_RUSCOST01_SHOES	24172
 
-//PK Æä³ÎÆ¼ ÇØÁ¦ ¾ÆÀÌÅÛ 3Á¾
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_1	24173	//¸éÁËÀÇ µÎ·ç¸¶¸®(5)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_2	24174	//¸éÁËÀÇ µÎ·ç¸¶¸®(10)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_3	24175	//¸éÁËÀÇ µÎ·ç¸¶¸®(20)
+//PK ï¿½ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_1	24173	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(5)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_2	24174	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(10)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_3	24175	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(20)
 
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_1	24176	//¼ÓÁËÀÇ µÎ·ç¸¶¸®(1)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_2	24177	//¼ÓÁËÀÇ µÎ·ç¸¶¸®(3)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_3	24178	//¼ÓÁËÀÇ µÎ·ç¸¶¸®(5)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_4	24179	//¼ÓÁËÀÇ µÎ·ç¸¶¸®(20)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_1	24176	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(1)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_2	24177	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(3)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_3	24178	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(5)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_4	24179	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(20)
 
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_3_1	24180	//¸éÃ¥ÀÇ µÎ·ç¸¶¸®(60)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_3_2	24181	//¸éÃ¥ÀÇ µÎ·ç¸¶¸®(12)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_3_1	24180	//ï¿½ï¿½Ã¥ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(60)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_3_2	24181	//ï¿½ï¿½Ã¥ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½(12)
 
-//10% Ä«µå, sÄ«µå, ¾Æ±â°í¾çÀÌ Æê, ¹æ¾î±¸ ÀÌÆåÆ® º¯°æ ¾ÆÀÌÅÛ
+//10% Ä«ï¿½ï¿½, sÄ«ï¿½ï¿½, ï¿½Æ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define	II_GEN_MAT_ELE_PIERCECARD_S_FIRE	24182
 #define	II_GEN_MAT_ELE_PIERCECARD_S_WATER	24183
@@ -8981,7 +9044,7 @@
 #define	II_SYS_SYS_ARMOREFFECTCHANGE_GREEN_15DAY	24203
 #define	II_SYS_SYS_ARMOREFFECTCHANGE_WHITE_15DAY	24204
 
-//¿ö¸®¾î, Ä³½ºÆÃ ¿µ±¸ ºñ½º Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_VIS_LV1_FOREVERWARRIOR	24205
 #define	II_SYS_VIS_LV2_FOREVERWARRIOR	24206
 #define	II_SYS_VIS_LV3_FOREVERWARRIOR	24207
@@ -8989,17 +9052,17 @@
 #define	II_SYS_VIS_LV2_FOREVERCASTING	24209
 #define	II_SYS_VIS_LV3_FOREVERCASTING	24210
 
-//fwc³¯°³
+//fwcï¿½ï¿½ï¿½ï¿½
 #define	II_RID_RID_FWCVICTORYWING_GOLD	24211
 #define	II_RID_RID_FWCVICTORYWING_SILVER	24212
 #define	II_RID_RID_FWCVICTORYWING_BRONZE	24213
 
-//·¯½Ã¾È Á¦º¹ ÆÐÅ°Áö »óÀÚ
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_MRUSSIANCOSTUMEPACK	24214
 #define	II_SYS_SYS_FRUSSIANCOSTUMEPACK	24215
 
 
-//¹ÂÁ÷Æä½ºÆ¼¹ú ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ä½ºÆ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_MUSICFESTIVALDROPITEM_YELLOW	24216
 #define	II_SYS_SYS_MUSICFESTIVALDROPITEM_RED	24217
 #define	II_SYS_SYS_MUSICFESTIVALDROPITEM_BLUE	24218
@@ -9009,26 +9072,26 @@
 #define	II_SYS_SYS_MUSICRESTIVALREWARD_POTIONBOX	24222
 #define	II_SYS_SYS_MUSICFESTIVALDROPITEM_GUITAR	24223
 
-//·¯½Ã¾Æ ½Å±Ô ·£´ý¹Ú½º 20120601
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ 20120601
 #define	II_SYS_SYS_SCR_RUSRANDOMBOX120601	24232
 
-//ÀÏº» ·£´ý¹Ú½º¿äÃ»
+//ï¿½Ïºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½Ã»
 #define	II_SYS_SYS_SCR_JAPSOKETRANDOMBOX	24233
 #define	II_SYS_SYS_SCR_JAPCARDRANDOMBOX	24234
 
-//ÀÌº¥Æ®¿ë Ãàº¹¹ÞÀº ºûÀÇ ¸ÁÅä
+//ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½àº¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_MAJESTY_EVENT	24236
 
-//À¯ÀúÄÉ¾î? ÀÌº¥Æ® ½Å±Ô Ä³¸¯ ¿ë º¸»ó Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½? ï¿½Ìºï¿½Æ® ï¿½Å±ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define	II_SYS_SYS_SCR_MBOSSHEADRANDOMBOX	24237
 #define	II_SYS_SYS_SCR_FBOSSHEADRANDOMBOX	24238
 #define	II_RID_RID_STI_SPEEDMAGIC	24239
 
 
-//ÀÌº¥Æ®¿ë ºûÀÇ ¸ÁÅä
+//ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_ARM_S_CLO_CLO_MAJESTY_EVENT02	24240
 
-//À¯ÀúÄÉ¾î ÀÌº¥Æ® ¹Ú½º
+//ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ ï¿½Ìºï¿½Æ® ï¿½Ú½ï¿½
 #define	II_SYS_SYS_RANDOMBOOSTERBX5	24235
 #define	II_SYS_SYS_RANDOMBOOSTERBX15	24241
 #define	II_SYS_SYS_RANDOMBOOSTERBX25	24242
@@ -9051,55 +9114,55 @@
 #define	II_SYS_SYS_RANDOMBOOSTERBXM131	24259
 #define	II_SYS_SYS_RANDOMBOOSTERBXM141	24260
 
-//±³È¯ ºÒ°¡¿ë ÇÁ¸®ÇÁ Á¶°¢
-#define	II_GEN_GEM_GEM_FLYFFPIECE_F_1	24261	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ F
-#define	II_GEN_GEM_GEM_FLYFFPIECE_L_1	24262	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ L
-#define	II_GEN_GEM_GEM_FLYFFPIECE_Y_1	24263	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ Y
-#define	II_GEN_GEM_GEM_FLYFFPIECE_O_1	24264	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ O
-#define	II_GEN_GEM_GEM_FLYFFPIECE_R_1	24265	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ R
-#define	II_GEN_GEM_GEM_FLYFFPIECE_U_1	24266	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ U
-#define	II_GEN_GEM_GEM_FLYFFPIECE_N_1	24267	//ÀÌº¥Æ® ÇÁ¸®ÇÁ Á¶°¢ N
+//ï¿½ï¿½È¯ ï¿½Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_GEM_GEM_FLYFFPIECE_F_1	24261	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ F
+#define	II_GEN_GEM_GEM_FLYFFPIECE_L_1	24262	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ L
+#define	II_GEN_GEM_GEM_FLYFFPIECE_Y_1	24263	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Y
+#define	II_GEN_GEM_GEM_FLYFFPIECE_O_1	24264	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ O
+#define	II_GEN_GEM_GEM_FLYFFPIECE_R_1	24265	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ R
+#define	II_GEN_GEM_GEM_FLYFFPIECE_U_1	24266	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ U
+#define	II_GEN_GEM_GEM_FLYFFPIECE_N_1	24267	//ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ N
 
-//ÇØ¿Ü Á¦·Ã ÀÌº¥Æ®(12.07.31 ~ 12.09.25)
-#define	II_GEN_JEW_RIN_SUMMEREVENTRING	24268	//º£°¡ÀÇ ºû(Á¦·ÃÀÌº¥Æ®¹ÝÁö)
-#define	II_SYS_SYS_SCR_SUMMEREVENTPACK	24269	//¿©¸§¹ãÀÇ²Þ(Á¦·ÃÀÌº¥Æ®ÆÐÅ°Áö¹Ú½º)
-#define	II_GEN_JEW_RIN_SUMMERSETRING	24270	//º£°¡ÀÇ ¸µ
-#define	II_GEN_JEW_NEC_SUMMERSETNECKLACE	24271	//º£°¡ÀÇ ³×Å¬¸®½º
-#define	II_GEN_JEW_EAR_SUMMERSETEARRING	24272	//º£°¡ÀÇ ÀÌ¾î¸µ
-#define	II_SYS_SYS_SCR_SUMMERJEWELSETPACK	24273	//º£°¡ÀÇ ¾×¼¼¼­¸® ¹Ú½º
+//ï¿½Ø¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®(12.07.31 ~ 12.09.25)
+#define	II_GEN_JEW_RIN_SUMMEREVENTRING	24268	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_SUMMEREVENTPACK	24269	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®ï¿½ï¿½Å°ï¿½ï¿½ï¿½Ú½ï¿½)
+#define	II_GEN_JEW_RIN_SUMMERSETRING	24270	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+#define	II_GEN_JEW_NEC_SUMMERSETNECKLACE	24271	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¬ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_EAR_SUMMERSETEARRING	24272	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¾î¸µ
+#define	II_SYS_SYS_SCR_SUMMERJEWELSETPACK	24273	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-//¹Ì±¹ ±æµåÀü ÀÌº¥Æ®(12.07.25 ~ 12.08.28)
-#define	II_CHP_EVEBLUE	24274	//ºí·çÄ¨
-#define	II_CHP_EVEGOLD	24275	//°ñµåÄ¨
-#define	II_SYS_SYS_SCR_RANDOMSTORMBAMOR	24276	//½ºÅèºí·¹ÀÌµå ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMMENTAMOR	24277	//¸àÅ»¸®½ºÆ® ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMFORCEMAMOR	24278	//Æ÷½º¸¶½ºÅÍ ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMELELAMOR	24279	//¿¤¸®¸àÅ»·Îµå ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMWINDLAMOR	24280	//À©µå·¯Ä¿ ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMLORDKAMOR	24281	//·ÎµåÅÛÇÃ·¯ ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMFLORAMOR	24282	//ÇÃ·Î¸®½ºÆ® ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMCRACKSAMOR	24283	//Å©·¢½´ÅÍ ¹æ¾î±¸ ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMSTORMBWEA	24284	//½ºÅèºí·¹ÀÌµå ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMMENTWEA	24285	//¸àÅ»¸®½ºÆ® ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMFORCEMWEA	24286	//Æ÷½º¸¶½ºÅÍ ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMELELWEA	24287	//¿¤¸®¸àÅ»·Îµå ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMWINDLWEA	24288	//À©µå·¯Ä¿ ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMLORDKWEA	24289	//·ÎµåÅÛÇÃ·¯ ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMFLORWEA	24290	//ÇÃ·Î¸®½ºÆ® ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMCRACKSWEA	24291	//Å©·¢½´ÅÍ ¹«±â ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMHIGHGOLDBOX	24292	//»ó±Þ °ñµå ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMMIDGOLDBOX	24293	//Áß±Þ °ñµå ¹Ú½º
-#define	II_SYS_SYS_SCR_RANDOMLOWGOLDBOX	24294	//ÇÏ±Þ °ñµå ¹Ú½º
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®(12.07.25 ~ 12.08.28)
+#define	II_CHP_EVEBLUE	24274	//ï¿½ï¿½ï¿½ï¿½Ä¨
+#define	II_CHP_EVEGOLD	24275	//ï¿½ï¿½ï¿½Ä¨
+#define	II_SYS_SYS_SCR_RANDOMSTORMBAMOR	24276	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMMENTAMOR	24277	//ï¿½ï¿½Å»ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMFORCEMAMOR	24278	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMELELAMOR	24279	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å»ï¿½Îµï¿½ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMWINDLAMOR	24280	//ï¿½ï¿½ï¿½å·¯Ä¿ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMLORDKAMOR	24281	//ï¿½Îµï¿½ï¿½ï¿½ï¿½Ã·ï¿½ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMFLORAMOR	24282	//ï¿½Ã·Î¸ï¿½ï¿½ï¿½Æ® ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMCRACKSAMOR	24283	//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMSTORMBWEA	24284	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMMENTWEA	24285	//ï¿½ï¿½Å»ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMFORCEMWEA	24286	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMELELWEA	24287	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å»ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMWINDLWEA	24288	//ï¿½ï¿½ï¿½å·¯Ä¿ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMLORDKWEA	24289	//ï¿½Îµï¿½ï¿½ï¿½ï¿½Ã·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMFLORWEA	24290	//ï¿½Ã·Î¸ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMCRACKSWEA	24291	//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMHIGHGOLDBOX	24292	//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMMIDGOLDBOX	24293	//ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMLOWGOLDBOX	24294	//ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-//ÄíÆùÆÎ ±³È¯¿ë ¹æÆÐ
-#define	II_ARM_ARM_SHI_CONTRA_FLYFF	24295
-#define	II_ARM_ARM_SHI_HILEITINE_FLYFF	24296
-#define	II_ARM_ARM_SHI_COIEN_FLYFF	24297
-#define	II_ARM_ARM_SHI_RUKENSHIA_FLYFF	24298
-#define	II_ARM_ARM_SHI_TOEFFIN_FLYFF	24299
-#define	II_ARM_ARM_SHI_CATEPO_FLYFF	24300
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//#define	II_ARM_ARM_SHI_CONTRA_FLYFF	24295
+//#define	II_ARM_ARM_SHI_HILEITINE_FLYFF	24296
+//#define	II_ARM_ARM_SHI_COIEN_FLYFF	24297
+//#define	II_ARM_ARM_SHI_RUKENSHIA_FLYFF	24298
+//#define	II_ARM_ARM_SHI_TOEFFIN_FLYFF	24299
+//#define	II_ARM_ARM_SHI_CATEPO_FLYFF	24300
 
-//¹öºí Æ÷ÀÎÆ® ¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_BUBBLEPOINT	24301
 
 #define	II_SYS_SYS_SCR_RANDOMRUYUKATAM	24302
@@ -9109,45 +9172,45 @@
 #define	II_SYS_SYS_SCR_PARTYPOINTFREE03	24306
 
 
-//·¯½Ã¾Æ ÆÐÅ°Áö ¹Ú½º
+//ï¿½ï¿½ï¿½Ã¾ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_RUSSIAPACKBOX120830	24307
 
-//ÃÊº¸ÀÚÀÇ »óÀÚ
+//ï¿½Êºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_CHOBOBOX20120912		24308
 
-//ÁÖ»çÀ§½ºÅÝ
+//ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_CHR_SYS_SCR_STAT_DICE 		24309
 #define	II_CHR_SYS_SCR_STAT_DICE_RESET 		24310
 
-//¹Ì±¹ ¸ÁÅäÀÌº¥Æ®
-#define	II_ARM_S_CLO_CLO_AMERICA_EVENT01	24311	// "¹Ì±¹¸ÁÅäÀÌº¥Æ®01"
-#define	II_ARM_S_CLO_CLO_AMERICA_EVENT02	24312	// "¹Ì±¹¸ÁÅäÀÌº¥Æ®02"
-#define	II_ARM_S_CLO_CLO_AMERICA_EVENT03	24313	// "¹Ì±¹¸ÁÅäÀÌº¥Æ®03"
+//ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®
+#define	II_ARM_S_CLO_CLO_AMERICA_EVENT01	24311	// "ï¿½Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®01"
+#define	II_ARM_S_CLO_CLO_AMERICA_EVENT02	24312	// "ï¿½Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®02"
+#define	II_ARM_S_CLO_CLO_AMERICA_EVENT03	24313	// "ï¿½Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ®03"
 
-//¹Ì±¹ Ãß¼ö°¨»çÀý ÀÌº¥Æ® Ä¥¸éÁ¶
-#define	II_CHP_TURKEY	24314	// "Ä¥¸éÁ¶"
+//ï¿½Ì±ï¿½ ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® Ä¥ï¿½ï¿½ï¿½ï¿½
+#define	II_CHP_TURKEY	24314	// "Ä¥ï¿½ï¿½ï¿½ï¿½"
 
-//À¯·´ ¿äÃ» ·£´ý¹Ú½º
-#define	II_SYS_SYS_SCR_EU_EVENT	24315	// "±Í¼Ó ÇØÁ¦ ½ºÅ©·Ñ ¹Ú½º"
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_EU_EVENT	24315	// "ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Ú½ï¿½"
 
-//Å©¸®½º¸¶½º ÀÌº¥Æ® (°õÀÎÇü)
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define II_SYS_BearPart_Head	24316	
 #define II_SYS_BearPart_Body	24317
 #define II_SYS_BearPart_Arm		24318
 #define II_SYS_BearPart_Leg		24319
 #define II_SYS_BearDoll			24320
 
-//Å©¸®½º¸¶½º ÀÌº¥Æ®(¼Ò¸ðÇ°)
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®(ï¿½Ò¸ï¿½Ç°)
 #define II_SYS_BearDoll_Blue	24321
 #define II_SYS_BearDoll_Yellow	24322
 #define II_SYS_BearDoll_Pink	24323
 
-//¿°·áÅë
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define II_SYS_DYE_BLUE			24324
 #define II_SYS_DYE_YELLOW		24325
 #define II_SYS_DYE_PINK			24326
 
-//Å©¸®½º¸¶½º ±³È¯ ÀÌº¥Æ®
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ìºï¿½Æ®
 #define II_SYS_EVESNOW_GOLD		24327
 #define II_SYS_EVEPOWDER_GOLD	24328
 #define II_SYS_SYS_SCR_KIMPD	24329
@@ -9158,111 +9221,111 @@
 #define II_SYS_SYS_SCR_CHRISTMAS_MASK_B		24334
 #define II_SYS_SYS_SCR_CHRISTMAS_CLOAK		24335
 
-//Å©¸®½º¸¶½º Á¦·Ã ÀÌº¥Æ®
-#define	II_GEN_JEW_RIN_CHRISTMAS_UPGRADERING	24336	//¹Ú½º
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_GEN_JEW_RIN_CHRISTMAS_UPGRADERING	24336	//ï¿½Ú½ï¿½
 #define	II_GEN_JEW_RIN_CHRISTMAS_RING	24337	//
 #define	II_GEN_JEW_NEC_CHRISTMAS_NECKLACE	24338	//
 #define	II_GEN_JEW_EAR_CHRISTMAS_EARRING	24339	//
 #define	II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX	24340	//
 
-//ÃÊº¸ÀÚ ¾×¼¼¼­¸® ¹Ú½º
-#define	II_SYS_SYS_CHOBOBOX_LV15	24341	//15·¹º§
-#define	II_SYS_SYS_CHOBOBOX_LV60	24342	//60·¹º§
+//ï¿½Êºï¿½ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_CHOBOBOX_LV15	24341	//15ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_CHOBOBOX_LV60	24342	//60ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_TOKEN_BOX_25		24343	//60·¹º§
-#define	II_SYS_SYS_TOKEN_BOX_50		24344	//60·¹º§
-#define	II_SYS_SYS_TOKEN_BOX_75		24345	//60·¹º§
+#define	II_SYS_SYS_TOKEN_BOX_25		24343	//60ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_TOKEN_BOX_50		24344	//60ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_TOKEN_BOX_75		24345	//60ï¿½ï¿½ï¿½ï¿½
 
-#define II_SYS_SYS_USA_DAY35	24346	// ¹Ì±¹ 35ÀÏ º¸»ó ¾ÆÀÌÅÛ ¹Ú½º
+#define II_SYS_SYS_USA_DAY35	24346	// ï¿½Ì±ï¿½ 35ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-//¹Ì±¹ 7ÁÖ³â ±â³ä ÀÌº¥Æ®,
-#define II_SYS_SYS_USA_7TH		24347	// ¹Ì±¹ 7ÁÖ³â ±â³ä ¹Ú½º
-#define II_CHP_USA_7TH_TOKEN	24348	// ¹Ì±¹ 7ÁÖ³â ±â³ä ÅäÅ«
+//ï¿½Ì±ï¿½ 7ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®,
+#define II_SYS_SYS_USA_7TH		24347	// ï¿½Ì±ï¿½ 7ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define II_CHP_USA_7TH_TOKEN	24348	// ï¿½Ì±ï¿½ 7ï¿½Ö³ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Å«
 
-//Ãâ¼®Á¦Å© ÀÌº¥Æ® »óÀÚ
-#define II_SYS_SYS_TRANSBOX		24349	// º¯½Å±¸·£´ý¹Ú½º
-#define II_SYS_SYS_AURORA_BOX	24350	// ¿À·Î¶ó ·£´ý ¹Ú½º
+//ï¿½â¼®ï¿½ï¿½Å© ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_TRANSBOX		24349	// ï¿½ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
+#define II_SYS_SYS_AURORA_BOX	24350	// ï¿½ï¿½ï¿½Î¶ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 
-#define	II_SYS_SYS_WHITE_BASE	24351	//È­ÀÌÆ® ÃÊÄÝ·¿ º£ÀÌ½º
-#define	II_SYS_SYS_FRESHCREAM	24352	//»ýÅ©¸²
-#define	II_SYS_SYS_GIFT_WHITECHOCO	24353	//¼±¹°¿ë È­ÀÌÆ® ÃÊÄÝ·¿
-#define	II_SYS_SYS_DARK_BASE	24534	//´ÙÅ©ÃÊÄÝ·¿ º£ÀÌ½º
-#define	II_SYS_SYS_CACAO	24355	//Ä«Ä«¿À
-#define	II_SYS_SYS_GIFT_DARKCHOCO	24356	//¼±¹°¿ë ´ÙÅ© ÃÊÄÝ·¿
-#define	II_SYS_SYS_GIFTBOX_JESSICA	24357	//·¹ÀÎÀÇ ¼±¹°
-#define	II_SYS_SYS_GIFTBOX_NANA	24358	//·¹ÀÎÀÇ ¼±¹°
-#define	II_SYS_SYS_LOVEBOX_JESSICA	24359 //»ç¶ûÀÇ¼±¹°»óÀÚ(Á¦½ÃÄ«)
-#define	II_SYS_SYS_LOVEBOX_NANA	24360	//»ç¶ûÀÇ¼±¹°»óÀÚ(³ª³ª)
-#define	II_SYS_SYS_LETTER_JESSICA	24361	//°ÅÀýÀÇ ÆíÁö(Á¦½ÃÄ«)
-#define	II_SYS_SYS_LETTER_NANA	24362	//°ÅÀýÀÇÆíÁö(³ª³ª)
-#define	II_SYS_SYS_BURN_WHITECHOCO	24363	//Å¸¹ö¸° È­ÀÌÆ® ÃÊÄÝ·¿
-#define	II_SYS_SYS_BURN_DARKCHOCO	24364	//Å¸¹ö¸° ´ÙÅ© ÃÊÄÝ·¿
+#define	II_SYS_SYS_WHITE_BASE	24351	//È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½Ì½ï¿½
+#define	II_SYS_SYS_FRESHCREAM	24352	//ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_GIFT_WHITECHOCO	24353	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½Ý·ï¿½
+#define	II_SYS_SYS_DARK_BASE	24534	//ï¿½ï¿½Å©ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½Ì½ï¿½
+#define	II_SYS_SYS_CACAO	24355	//Ä«Ä«ï¿½ï¿½
+#define	II_SYS_SYS_GIFT_DARKCHOCO	24356	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½ï¿½ï¿½Ý·ï¿½
+#define	II_SYS_SYS_GIFTBOX_JESSICA	24357	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GIFTBOX_NANA	24358	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_LOVEBOX_JESSICA	24359 //ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Ä«)
+#define	II_SYS_SYS_LOVEBOX_NANA	24360	//ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_LETTER_JESSICA	24361	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Ä«)
+#define	II_SYS_SYS_LETTER_NANA	24362	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_BURN_WHITECHOCO	24363	//Å¸ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½Æ® ï¿½ï¿½ï¿½Ý·ï¿½
+#define	II_SYS_SYS_BURN_DARKCHOCO	24364	//Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½ï¿½ï¿½Ý·ï¿½
 
-#define	II_GEN_JEW_RIN_JESSICA	24365	//Á¦½ÃÄ«ÀÇ ¹ÝÁö
-#define	II_GEN_JEW_RIN_NANA	24366	//³ª³ªÀÇ ¹ÝÁö
+#define	II_GEN_JEW_RIN_JESSICA	24365	//ï¿½ï¿½ï¿½ï¿½Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_RIN_NANA	24366	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_CHOCO_KIT	24367	//ÃÊÄÝ·¿ Á¦Á¶ KIT
+#define	II_SYS_CHOCO_KIT	24367	//ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½ï¿½ KIT
 
-#define	II_SYS_SYS_EVE_CHOCOLATE09	24368	//¹ß·»Å¸ÀÎ ÃÊÄÝ·¿
+#define	II_SYS_SYS_EVE_CHOCOLATE09	24368	//ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½Ý·ï¿½
 
-//ÇÑº¹ ¼±¹°»óÀÚ
+//ï¿½Ñºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_MHANBOK_PACK	24369	
 #define	II_SYS_SYS_FHANBOK_PACK	24370
 
-// À¯·´ ½Å±Ô¹Ú½º
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô¹Ú½ï¿½
 #define	II_SYS_SYS_NEWMEMBER_PACK	24371
 #define	II_SYS_SYS_OLDMEMBER_PACK	24372
 #define	II_SYS_SYS_LEVELUP_BOOSTERBXM131	24373
 
-//±¹³» ÇØÇÇ¸Ó´Ï ÀÌº¥Æ® Ãß°¡ »óÀÚ
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¸Ó´ï¿½ ï¿½Ìºï¿½Æ® ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_SCR_2012HAPPY200BX	24374
 #define	II_SYS_SYS_SCR_2012HAPPY600BX	24375
 #define	II_SYS_SYS_SCR_2012HAPPY1500BX	24376
 
-//¹Ì±¹ ÀÌº¥Æ®¿ë ½Å±Ô Æê
+//ï¿½Ì±ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½
 #define II_PET_BABYBURR		24377
 #define II_PET_GRIMREAPER		24378
 #define II_PET_GRAYEARL		24379
 
-//È¦´ý ½Å±Ôº¸»ó¹Ú½º
+//È¦ï¿½ï¿½ ï¿½Å±Ôºï¿½ï¿½ï¿½Ú½ï¿½
 #define II_SYS_SYS_SCR_BXBANKJACK_NEW		24380
 #define II_SYS_SYS_SCR_BXGRANDJACK_NEW		24381
 #define II_SYS_SYS_SCR_BXLARGEJACK_NEW		24382
 #define II_SYS_SYS_SCR_BXNRJACK_NEW		24383
 #define II_SYS_SYS_SCR_BXSMJACK_NEW		24384
 
-//È¦´ý ÀÌº¥Æ®¿ë ½Å±Ô ¹öÇÁ ¾ÆÀÌÅÛ
+//È¦ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define II_SYS_SYS_SCR_KING_BUFF		24385
 #define II_SYS_SYS_SCR_QUEEN_BUFF		24386
 #define II_SYS_SYS_SCR_JACK_BUFF		24387
 #define II_SYS_SYS_SCR_ACE_BUFF		24388
 
 #define II_SYS_SYS_SCR_CARD_RAMDOM		24389
-//¾î¸°ÀÌ³¯ ½Å±Ôº¸»ó
+//ï¿½î¸°ï¿½Ì³ï¿½ ï¿½Å±Ôºï¿½ï¿½ï¿½
 #define II_SYS_SYS_SCR_BXEVECHILDREN_01	24390
 
-//ÁÖ»çÀ§½ºÅÝ - ¹æ¶ûÀÚ´Â »ç¿ëÇÏÁö ¸øÇÔ.
+//ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 #define	II_CHR_SYS_SCR_STAT_DICE_EXCEPT_VAGRANT		24391
 
-//2013ÇÒ·ÎÀ© ½Å±Ô¾ÆÀÌÅÛ ¹Ú½º
+//2013ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½Å±Ô¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define	II_SYS_SYS_EVE_NEWTRICKORTREAT	24392
 #define	II_SYS_SYS_EVE_2013ZOMBIES	24393
 #define	II_SYS_SYS_EVE_2013ZOMBIEHUMTERBOX	24394
 
-//¸¶½ºÄ¿·¹ÀÌµåÇï¸ä ÄÝ¶óº¸ ÀÌº¥Æ®
+//ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ï¿½ ï¿½Ý¶ï¿½ ï¿½Ìºï¿½Æ®
 #define	II_ARM_MASQUERADEHELMAT	24395
 
-//2013 ½Å±Ô Å©¸®½º¸¶½º Á¦·ÃÀÌº¥Æ® ÄµµðÄÉÀÎ
+//2013 ï¿½Å±ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½Æ® Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define	II_GEN_JEW_RIN_CANDYCAIN_UPGRADERING	24396	//
 #define	II_GEN_JEW_RIN_NEWCHRISTMAS_RING	24397	//
 #define	II_GEN_JEW_NEC_NEWCHRISTMAS_NECKLACE	24398	//
 #define	II_GEN_JEW_EAR_NEWCHRISTMAS_EARRING	24399	//
-#define	II_SYS_SYS_SCR_NEWCHRISTMAS_JEWELLERYBX	24400	// ¹Ú½º
+#define	II_SYS_SYS_SCR_NEWCHRISTMAS_JEWELLERYBX	24400	// ï¿½Ú½ï¿½
 
-//2013 »êÅ¸ÀÇ ¼±¹° »óÀÚ
+//2013 ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define	II_SYS_SYS_CRISTMASGIFTBOX2013	24401	//
 
-//2013 Å©¸®½º¸¶½º È²±Ý°áÁ¤ ±³È¯ ½Å±Ô ¹Ú½º¾ÆÀÌÅÛ
+//2013 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È²ï¿½Ý°ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Å±ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define II_SYS_SYS_SCR_CHRISTMAS_PETBOX			24402
 #define II_SYS_SYS_SCR_CHRISTMAS_WEAPON_BOX_A	24403
 #define II_SYS_SYS_SCR_CHRISTMAS_WEAPON_BOX_B	24404
@@ -9270,19 +9333,19 @@
 #define II_SYS_SYS_SCR_CHRISTMAS_MASK_BOX_A		24406
 #define II_SYS_SYS_SCR_CHRISTMAS_PREMIUM_BOX	24407
 
-//Å©¸®½º¸¶½º ÄÚ½ºÆ¬ ±â°£Á¦ ¹Ú½º 
+//Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½â°£ï¿½ï¿½ ï¿½Ú½ï¿½ 
 #define II_SYS_SYS_SCR_BXMSNOWMAN01PACK	24408
 #define II_SYS_SYS_SCR_BXFSNOWMAN01PACK	24409
 #define II_SYS_SYS_SCR_BXMRUDOLFPACK	24410
 #define II_SYS_SYS_SCR_BXFRUDOLFPACK	24411
-//´ë¸¸ ½Å±Ô º¹ÁÖ¸Ó´Ï ÀÌº¥Æ® »õÇØ ¼±¹° ¹Ú½º
+//ï¿½ë¸¸ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½Ö¸Ó´ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
 #define II_SYS_SYS_HAPPYNEWYEARBOX	24412
-//¿ÁÅä¹ö &¾î¸°ÀÌ³¯ ½Å±Ô¾ÆÀÌÅÛ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ &ï¿½î¸°ï¿½Ì³ï¿½ ï¿½Å±Ô¾ï¿½ï¿½ï¿½ï¿½ï¿½
 #define II_SYS_SYS_EVE_FESTIVALBOX02	24413
 #define II_SYS_SYS_SCR_BXCLOVERRANDOM02	24414
 #define II_SYS_SYS_SCR_BXGREEN03	24415
 
-//ºÎÈ°Àý ½Å±Ô¾ÆÀÌÅÛ 2014
+//ï¿½ï¿½È°ï¿½ï¿½ ï¿½Å±Ô¾ï¿½ï¿½ï¿½ï¿½ï¿½ 2014
 #define II_SYS_SYS_EVE_BOXEGG2014	24416
 #define	II_SYS_SYS_EVE_PURPLEEGG2	24417
 #define	II_SYS_SYS_EVE_GREENEGG2	24418
@@ -9294,21 +9357,21 @@
 #define	II_SYS_SYS_EVE_WHITEGG2	24424
 #define	II_SYS_SYS_EVE_GRAYEGG2	24425
 #define	II_SYS_SYS_EVE_ORANGEEGG2	24426
-//½Å±Ô¸ÁÅä 3Á¾ ²É°¡¸é Ãß°¡ 
+//ï¿½Å±Ô¸ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½É°ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ 
 #define II_ARM_S_CLO_CLO_DROPBLOCK 24427
 #define II_ARM_S_CLO_CLO_PVPDMG 24428
 #define II_ARM_S_CLO_CLO_EXPDEF 24429
 #define II_ARM_S_CLO_MAS_NEWFLOWERMASK01 24430
 #define II_SYS_SYS_SCR_BXGREEN04	24431
 
-//¿ùµåÄÅ±â³ä ½Å±Ô¾ÆÀÌÅÛ Ãß°¡
+//ï¿½ï¿½ï¿½ï¿½ï¿½Å±ï¿½ï¿½ ï¿½Å±Ô¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define II_SYS_SYS_EVE_FOOTBALLRED2014	24432
 #define II_SYS_SYS_EVE_FOOTBALLBLACK2014	24433
 #define II_SYS_SYS_EVE_FOOTBALLBLUE2014	24434
 #define II_SYS_SYS_SCR_BXTROPHY2014 24435
 #define II_ARM_S_CLO_CLO_BRAZIL2014 24436
 
-//È¦´ý Ä¥¼®ÀÌº¥Æ® º¸»ó¾ÆÀÌÅÛ
+//È¦ï¿½ï¿½ Ä¥ï¿½ï¿½ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define II_ARM_M_CHR_CARD01HAT2014 24437
 #define II_ARM_M_CHR_CARD01SUIT2014 24438
 #define II_ARM_M_CHR_CARD01SHOES2014 24439
@@ -9340,61 +9403,12339 @@
 
 #define	II_SYS_TICKET_PAIDWORLDPASS_1DAY	24463
 
+#define	II_SYS_SYS_EVE_CANDLE_2014	24464
+#define	II_SYS_SYS_EVE_CHARM_2014	24465
+#define	II_SYS_SYS_QUE_PUMPKIN_2014	24466
+#define	II_SYS_SYS_QUE_CANDY_BOX_2014	24467
+#define	II_ARM_S_CLO_MAS_GRIFFEMASK_2014	24468
+#define	II_SYS_SYS_EVE_BXZOMBIES_2014	24469
+#define	II_SYS_SYS_EVE_ZOMBIEHUMTERBOX_2014	24470
 
+#define	II_SYS_SYS_BIN_BOZFLARIS_2014	24471
+#define	II_SYS_SYS_BIN_BOZSAINT_2014	24472
+#define	II_SYS_SYS_BIN_BOZDARKON_2014	24473
 
-// --- °æ°è¼±, ÀÏ¹ÝÀûÀÎ ¾ÆÀÌÅÛÀº 30004 ÀÌÇÏ ¹øÈ£·Î ÀÛ¼º Áß
+#define	II_SYS_SYS_CHRISTMASBOX_FOOD_2014			24474
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_A_2014		24475
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2014		24476
+#define	II_SYS_SYS_CHRISTMASBOX_PET_2014			24477
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2014		24478
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_B_2014		24479
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_B_2014		24480
+#define	II_SYS_SYS_CHRISTMASBOX_SUNGLASSES_2014		24481
+#define	II_SYS_SYS_CHRISTMASBOX_PREMIUM_2014		24482
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_B_2014		24483
+#define	II_SYS_SYS_CHRISTMASBOX_ACCESSORY_2014		24484
+#define	II_SYS_SYS_CHRISTMAS_EARRING_2014			24485
+#define	II_SYS_SYS_CHRISTMAS_NECKLACE_2014			24486
+#define	II_SYS_SYS_CHRISTMAS_RING_2014				24487
+
+#define	II_ARM_S_CLO_CLO_EU_OPENING_EVENT			24488
+
+#define II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2015		24489
+
+#define II_SYS_SYS_EVE_LEVELUPBOX_LV15				24490
+#define II_SYS_SYS_EVE_LEVELUPBOX_LV30				24491
+#define II_SYS_SYS_EVE_LEVELUPBOX_LV60				24492
+#define II_SYS_SYS_EVE_LEVELUPBOX_LV120				24493
+
+#define	II_SYS_SYS_EVE_GIFTBOX_JESSICA_2015			24494
+#define	II_SYS_SYS_EVE_LOVEBOX_JESSICA_2015			24495
+#define	II_SYS_SYS_EVE_JESSICAS_RING_2015			24496
+#define	II_SYS_SYS_EVE_GIFTTBOX_NANA_2015			24497
+#define	II_SYS_SYS_EVE_LOVEBOX_NANA_2015			24498
+#define	II_SYS_SYS_EVE_NANAS_RING_2015				24499
+#define	II_ARM_S_CLO_CLOAK_EVENT_2015				24500
+#define	II_SYS_SYS_SCR_SIEGE_FRIENDS_2015			24501
+#define	II_SYS_SYS_SCR_CARD_EVENT_2015				24502
+
+#define	II_ARM_F_CHR_BLACKRIBBON_2015				24503
+#define	II_SYS_SYS_EVE_BXLOVE01_2015				24504
+#define II_SYS_SYS_SCR_CLOVERBOX_2015				24505
+
+#define II_SYS_SYS_EVE_ELLDINBOX_2015				24506
+
+#define	II_SYS_SYS_SCR_WEAPON_TOKEN_2015			24507
+#define	II_SYS_SYS_SCR_ARMOR_TOKEN_2015				24508
+
+#define	II_SYS_SYS_SCR_BXGREEN04_2015				24509
+
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_01	24510
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_02	24511
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_03	24512
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_04	24513
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_05	24514
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_06	24515
+#define	II_CHR_SYS_SCR_APRIL_FOOL_UPCUTSTONE_2015_07	24516
+
+#define	II_SYS_SYS_SCR_GW_CELEBRITY_BOX_2015			24517
+#define	II_SYS_SYS_SCR_DREAM_BOX_2015					24518
+
+#define	II_SYS_SYS_EVE_HAPPYMONEY_2015					24519
+#define	II_SYS_SYS_SCR_HAPPYMONEY300BOX_2015			24520
+#define	II_SYS_SYS_SCR_HPPAYMONEY500BOX_2015			24521
+#define	II_SYS_SYS_SCR_BXDUMBULL_2015					24522
+
+#define	II_ARM_S_CLO_CLO_AUDACIOUS_2015					24523
+#define	II_ARM_S_CLO_CLO_RECKLESS_2015					24524
+#define	II_ARM_S_CLO_CLO_VALIANT_2015					24525
+#define	II_ARM_S_CLO_CLO_FEARLESS_2015					24526
+#define	II_ARM_S_CLO_CLO_TRIUMPHANT_2015				24527
+
+#define	II_SYS_SYS_EVE_CLOAKEN_60_90_2015				24528
+#define	II_SYS_SYS_EVE_CLOAKEN_91_120_2015				24529
+#define	II_SYS_SYS_EVE_CLOAKEN_121_150_2015				24530
+
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2015					24531
+#define	II_ARM_S_CLO_HAT_STATHAT01_2015					24532
+
+#define	II_SYS_SYS_SCR_BEGINNERBOX_2015					24533
+#define	II_SYS_SYS_SCR_WELCOMEBOX_2015					24535
+#define	II_SYS_SYS_EVE_PIGGYBOX_2015					24536
+#define	II_SYS_SYS_EVE_PIGGYPRESENTBOX_2015				24537
+
+#define	II_SYS_SYS_SCR_FLYING_CHRISTMAS_BOX_2015		24538
+
+#define	II_SYS_SYS_SCR_ACEBOX_2015						24539
+#define	II_SYS_SYS_SCR_KINGBOX_2015						24540
+#define	II_SYS_SYS_SCR_QUEENBOX_2015					24541
+#define	II_SYS_SYS_SCR_JACKBOX_2015						24542
+#define	II_SYS_SYS_SCR_MIGHTYBOX_2015					24543
+
+#define	II_SYS_SYS_GEM_CASINOBOX_M_2015					24544
+#define	II_SYS_SYS_GEM_CASINOBOX_F_2015					24545
+
+#define	II_ARM_M_CASINO_CLOTH_2015						24546
+#define	II_ARM_M_CASINO_GLOVE_2015						24547
+#define	II_ARM_M_CASINO_SHOES_2015						24548
+#define	II_ARM_M_CASINO_HAT_2015						24549
+
+#define	II_ARM_F_CASINO_CLOTH_2015						24550
+#define	II_ARM_F_CASINO_GLOVE_2015						24551
+#define	II_ARM_F_CASINO_SHOES_2015						24552
+#define	II_ARM_F_CASINO_HAT_2015						24553
+
+#define	II_RID_RID_BOR_BORED_2015						24554
+
+#define	II_SYS_SYS_SCR_COMBATINGBOX_F_2015						24555
+#define	II_SYS_SYS_SCR_COMBATINGBOX_M_2015						24556
+
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ä½ºÆ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_F_CHR_GUARDS06HAT					24557
+#define	II_ARM_F_CHR_GUARDS07HAT					24558
+#define	II_ARM_F_CHR_GUARDS08HAT					24559
+#define	II_ARM_F_CHR_GUARDS09HAT					24560
+#define	II_ARM_M_CHR_GUARDS06HAT					24561
+#define	II_ARM_M_CHR_GUARDS07HAT					24562
+#define	II_ARM_M_CHR_GUARDS08HAT					24563
+#define	II_ARM_M_CHR_GUARDS09HAT					24564
+#define	II_ARM_M_MHEROBLUEHET_2015					24565
+#define	II_ARM_M_MHEROBLUECLOTH_2015					24566
+#define	II_ARM_M_MHEROBLUEGLOVE_2015					24567
+#define	II_ARM_M_MHEROBLUESHOES_2015					24568
+#define	II_ARM_F_MHEROBLUEHET_2015					24569
+#define	II_ARM_F_MHEROBLUECLOTH_2015					24570
+#define	II_ARM_F_MHEROBLUEGLOVE_2015					24571
+#define	II_ARM_F_MHEROBLUESHOES_2015					24572
+
+// ï¿½ë¸¸ ï¿½Å¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_CLO_DRAGON_2015	24573
+#define	II_RID_RID_BOR_SUPERCAMELEON_2015	24574
+#define	II_ARM_M_CHR_CASUAL01HAT_2015	24575
+#define	II_ARM_M_CHR_CASUAL01SUIT_2015	24576
+#define	II_ARM_M_CHR_CASUAL01GLOVES_2015	24577
+#define	II_ARM_M_CHR_CASUAL01SHOES_2015	24578
+#define	II_ARM_F_CHR_CASUAL01HAT_2015	24579
+#define	II_ARM_F_CHR_CASUAL01SUIT_2015	24580
+#define	II_ARM_F_CHR_CASUAL01GLOVES_2015	24581
+#define	II_ARM_F_CHR_CASUAL01SHOES_2015	24582
+// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ä½ºÆ¼ï¿½ï¿½
+#define	II_SYS_SYS_EVE_FESTIVALBOX03	24583
+#define	II_SYS_SYS_GEM_BEERBOX_M_2015	24584
+#define	II_SYS_SYS_GEM_BEERBOX_F_2015	24585
+#define	II_ARM_F_CHR_BEER01SHOES_2015	24586
+#define	II_ARM_M_CHR_BEER01SHOES_2015	24587
+#define	II_ARM_F_CHR_BEER01HAT_2015	24588
+#define	II_ARM_M_CHR_BEER01HAT_2015	24589
+#define	II_ARM_F_CHR_BEER01SUIT_2015	24590
+#define	II_ARM_M_CHR_BEER01SUIT_2015	24591
+#define	II_RID_RID_WIN_PROPHET03	24592
+#define	II_SYS_SYS_SCR_AMPESA_2015	24593
+#define	II_SYS_SYS_SCR_BX_WIN_PROPHET_3HOUR	24594
+// 2015 ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_QUE_CANDY_BOX_2015	24595
+#define	II_SYS_SYS_EVE_BXZOMBIES_2015	24596
+#define	II_SYS_SYS_GEM_VAMPIREBOX_M_2015	24597
+#define	II_SYS_SYS_GEM_VAMPIREBOX_F_2015	24598
+#define	II_ARM_M_CHR_VAMPIRE01HAT_2015	24599
+#define	II_ARM_M_CHR_VAMPIRE01SUIT_2015	24600
+#define	II_ARM_M_CHR_VAMPIRE01GLOVES_2015	24601
+#define	II_ARM_M_CHR_VAMPIRE01SHOES_2015	24602
+#define	II_ARM_F_CHR_VAMPIRE01HAT_2015	24603
+#define	II_ARM_F_CHR_VAMPIRE01SUIT_2015	24604
+#define	II_ARM_F_CHR_VAMPIRE01GLOVES_2015	24605
+#define	II_ARM_F_CHR_VAMPIRE01SHOES_2015	24606
+#define	II_ARM_M_DV_MSUIT_2015		24607
+#define	II_ARM_M_DV_MHELMET_2015		24608
+#define	II_ARM_M_DV_MGAUNTLET_2015		24609
+#define	II_ARM_M_DV_MBOOTS_2015		24610
+#define	II_SYS_SYS_SCR_BXMDRAKSHADE_2015		24611
+#define	II_ARM_M_DV_FSUIT_2015		24612
+#define	II_ARM_M_DV_FHELMET_2015		24613
+#define	II_ARM_M_DV_FGAUNTLET_2015		24614
+#define	II_ARM_M_DV_FBOOTS_2015		24615
+#define	II_SYS_SYS_SCR_BXFDRAKSHADE_2015		24616
+#define	II_ARM_M_AG_MSUIT_2015		24617
+#define	II_ARM_M_AG_MHELMET_2015		24618
+#define	II_ARM_M_AG_MGAUNTLET_2015		24619
+#define	II_ARM_M_AG_MBOOTS_2015		24620
+#define	II_SYS_SYS_SCR_BXMHOLYBUBBLE_2015		24621
+#define	II_ARM_M_AG_FSUIT_2015		24622
+#define	II_ARM_M_AG_FHELMET_2015		24623
+#define	II_ARM_M_AG_FGAUNTLET_2015		24624
+#define	II_ARM_M_AG_FBOOTS_2015		24625
+#define	II_SYS_SYS_SCR_BXFHOLYBUBBLE_2015		24626
+#define	II_GEN_JEW_RIN_JESSICA_2015		24627
+#define	II_GEN_JEW_RIN_NANA_2015		24628
+#define	II_SYS_CHOCO_KIT_2015		24629
+// ï¿½ë¸¸ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½ 2015 
+#define	II_ARM_M_CLO_RUDOLFHAT_2015	24630
+#define	II_ARM_M_CLO_RUDOLFSUIT_2015	24631
+#define	II_ARM_M_CLO_RUDOLFGLOVES_2015	24632
+#define	II_ARM_M_CLO_RUDOLFSHOES_2015	24633
+#define	II_ARM_F_CLO_RUDOLFHAT_2015	24634
+#define	II_ARM_F_CLO_RUDOLFSUIT_2015	24635
+#define	II_ARM_F_CLO_RUDOLFGLOVES_2015	24636
+#define	II_ARM_F_CLO_RUDOLFSHOES_2015	24637
+#define	II_SYS_SYS_SCR_BXMRUDOLF_2015	24638
+#define	II_SYS_SYS_SCR_BXFRUDOLF_2015	24639
+#define	II_ARM_M_CHRISMASMHELMET_2015	24640
+#define	II_ARM_M_CHRISMASMSUIT_2015	24641
+#define	II_ARM_M_CHRISMASMGAUNTLET_2015	24642
+#define	II_ARM_M_CHRISMASMBOOTS_2015	24643
+#define	II_ARM_F_CHRISMASFHELMET_2015	24644
+#define	II_ARM_F_CHRISMASFSUIT_2015	24645
+#define	II_ARM_F_CHRISMASFGAUNTLET_2015	24646
+#define	II_ARM_F_CHRISMASFBOOTS_2015	24647
+#define	II_SYS_SYS_SCR_BXMCHRISTMAS_2015	24648
+#define	II_SYS_SYS_SCR_BXFCHRISTMAS_2015	24649
+// ï¿½ë¸¸ ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXWHITETIGER01	24650
+#define	II_SYS_SYS_SCR_BXBARBARYLION01	24651
+#define	II_SYS_SYS_SCR_BXRABBIT02		24652
+#define	II_SYS_SYS_SCR_BXDRAGON01		24653
+#define	II_SYS_SYS_SCR_BXUNICORN01	24654
+#define	II_SYS_SYS_SCR_BXNINEFOX01	24655
+#define	II_SYS_SYS_SCR_BXEAGLE01		24656
+#define	II_SYS_SYS_SCR_BXREARPET		24657
+// ï¿½ë¸¸ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXRIN_STRRING		24658
+#define	II_SYS_SYS_SCR_BXRIN_STARING		24659
+#define	II_SYS_SYS_SCR_BXRIN_DEXRING		24660
+#define	II_SYS_SYS_SCR_BXRIN_INTRING		24661
+#define	II_SYS_SYS_SCR_BXEAR_ATTEARRING		24662
+#define	II_SYS_SYS_SCR_BXEAR_DEFEARRING		24663
+#define	II_SYS_SYS_SCR_BXNEC_HPNECKLACE		24664
+#define	II_SYS_SYS_SCR_BXNEC_MPNECKLACE		24665
+#define	II_SYS_SYS_SCR_BXNEC_FPNECKLACE		24666
+// 2015 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2015		24667
+#define	II_SYS_SYS_CHRISTMASBOX_PET_2015	24668
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2015	24669
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_B_2015	24670
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_2015	24671
+#define	II_SYS_SYS_CHRISTMASBOX_SUNGLASSES_2015	24672
+#define	II_SYS_SYS_CHRISTMASBOX_PREMIUM_2015	24673
+// 2015 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_GEN_JEW_RIN_LUCIFERTABLE_UPGRADERING		24674
+#define	II_GEN_JEW_RIN_CHRISTMAS_CAKE_RING_2015		24675
+#define	II_GEN_JEW_NEC_CHRISTMAS_COOKIE_NECKLACE_2015		24676
+#define	II_GEN_JEW_EAR_CHRISTMAS_CHICKEN_EARRING_2015		24677
+#define	II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_2015		24678
+#define	II_ARM_S_CLO_MAS_HEARTSUNGLASS		24679
+#define	II_SYS_SYS_SCR_EXPSCROLL01_00_12		24680
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_B_2015		24681
+// 2015 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_F_CLOFROK01HAT	24682           // [InGame Shop]
+#define	II_ARM_F_CLOFROK01CLOTH	24683           // [InGame Shop]
+#define	II_ARM_F_CLOFROK01GLOVE	24684           // [InGame Shop]
+#define	II_ARM_F_CLOFROK01SHOES	24685           // [InGame Shop]
+#define	II_ARM_M_CLOFROK01HAT	24686           // [InGame Shop]
+#define	II_ARM_M_CLOFROK01CLOTH	24687           // [InGame Shop]
+#define	II_ARM_M_CLOFROK01GLOVE	24688           // [InGame Shop]
+#define	II_ARM_M_CLOFROK01SHOES	24689           // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXFCLOFROK01	24690
+#define	II_SYS_SYS_SCR_BXMCLOFROK01	24691
+#define	II_ARM_F_MCHRISTMAS01HAT	24692
+#define	II_ARM_F_MCHRISTMAS01CLOTH	24693
+#define	II_ARM_F_MCHRISTMAS01GLOVE	24694
+#define	II_ARM_F_MCHRISTMAS01SHOES	24695
+#define	II_ARM_M_MCHRISTMAS01HAT	24696
+#define	II_ARM_M_MCHRISTMAS01CLOTH	24697
+#define	II_ARM_M_MCHRISTMAS01GLOVE	24698
+#define	II_ARM_M_MCHRISTMAS01SHOES	24699
+#define	II_SYS_SYS_SCR_BXFMCHRISTMAS01	24700
+#define	II_SYS_SYS_SCR_BXMMCHRISTMAS01	24701
+#define	II_ARM_F_MWINTERCLO01HAT	24702
+#define	II_ARM_F_MWINTERCLO01CLOTH	24703
+#define	II_ARM_F_MWINTERCLO01GLOVE	24704
+#define	II_ARM_F_MWINTERCLO01SHOES	24705
+#define	II_ARM_F_MWINTERCLO01GLASS	24706
+#define	II_ARM_M_MWINTERCLO01HAT	24707
+#define	II_ARM_M_MWINTERCLO01CLOTH	24708
+#define	II_ARM_M_MWINTERCLO01GLOVE	24709
+#define	II_ARM_M_MWINTERCLO01SHOES	24710
+#define	II_ARM_M_MWINTERCLO01GLASS	24711
+#define	II_SYS_SYS_SCR_BXFMWINTERCLO01	24712
+#define	II_SYS_SYS_SCR_BXMMWINTERCLO01	24713
+#define	II_ARM_S_CLO_MAS_MasCatt	24714
+
+//ï¿½ë¸¸ 2016 1ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ç»ï¿½ ï¿½ï¿½Æ®
+#define	II_ARM_M_CHR_NINJA01HAT_2016	24715
+#define	II_ARM_M_CHR_NINJA01SUIT_2016	24716
+#define	II_ARM_M_CHR_NINJA01GLOVES_2016	24717
+#define	II_ARM_M_CHR_NINJA01SHOES_2016	24718
+#define	II_ARM_F_CHR_NINJA01HAT_2016	24719
+#define	II_ARM_F_CHR_NINJA01SUIT_2016	24720
+#define	II_ARM_F_CHR_NINJA01GLOVES_2016	24721
+#define	II_ARM_F_CHR_NINJA01SHOES_2016	24722
+#define	II_SYS_SYS_SCR_BXMNINJA01_2016	24723
+#define	II_SYS_SYS_SCR_BXFNINJA01_2016	24724
+#define	II_ARM_M_CHR_SAMURAI01HAT_2016	24725
+#define	II_ARM_M_CHR_SAMURAI01SUIT_2016	24726
+#define	II_ARM_M_CHR_SAMURAI01GLOVES_2016	24727
+#define	II_ARM_M_CHR_SAMURAI01SHOES_2016	24728
+#define	II_ARM_F_CHR_SAMURAI01HAT_2016	24729
+#define	II_ARM_F_CHR_SAMURAI01SUIT_2016	24730
+#define	II_ARM_F_CHR_SAMURAI01GLOVES_2016	24731
+#define	II_ARM_F_CHR_SAMURAI01SHOES_2016	24732
+#define	II_SYS_SYS_SCR_BXMSAMURAI01_2016	24733
+#define	II_SYS_SYS_SCR_BXFSAMURAI01_2016	24734
+#define	II_ARM_M_CHR_KOREAN04HAT_2016	24735
+#define	II_ARM_M_CHR_KOREAN04SUIT_2016	24736
+#define	II_ARM_M_CHR_KOREAN04GLOVES_2016	24737
+#define	II_ARM_M_CHR_KOREAN04SHOES_2016	24738
+#define	II_ARM_F_CHR_KOREAN04HAT_2016	24739
+#define	II_ARM_F_CHR_KOREAN04SUIT_2016	24740
+#define	II_ARM_F_CHR_KOREAN04GLOVES_2016	24741
+#define	II_ARM_F_CHR_KOREAN04SHOES_2016	24742
+#define	II_SYS_SYS_SCR_BXMKOREAN04_2016	24743
+#define	II_SYS_SYS_SCR_BXFKOREAN04_2016	24744
+#define	II_ARM_M_SWEETLOOKCLOTH_2016	24745
+#define	II_ARM_M_SWEETLOOKHAT_2016	24746
+#define	II_ARM_M_SWEETLOOKGLOVE_2016	24747
+#define	II_ARM_M_SWEETLOOKSHOES_2016	24748
+#define	II_ARM_F_SWEETLOOKCLOTH_2016	24749
+#define	II_ARM_F_SWEETLOOKHAT_2016	24750
+#define	II_ARM_F_SWEETLOOKGLOVE_2016	24751
+#define	II_ARM_F_SWEETLOOKSHOES_2016	24752
+#define	II_SYS_SYS_SCR_BXMSWEETLOOK_2016	24753
+#define	II_SYS_SYS_SCR_BXFSWEETLOOK_2016	24754
+#define	II_ARM_M_CHR_WED01HAT_2016	24755
+#define	II_ARM_M_CHR_WED01SUIT_2016	24756
+#define	II_ARM_M_CHR_WED01GLOVES_2016	24757
+#define	II_ARM_M_CHR_WED01SHOES_2016	24758
+#define	II_ARM_F_CHR_WED01HAT_2016	24759
+#define	II_ARM_F_CHR_WED01SUIT_2016	24760
+#define	II_ARM_F_CHR_WED01GLOVES_2016	24761
+#define	II_ARM_F_CHR_WED01SHOES_2016	24762
+#define	II_SYS_SYS_SCR_BXMWED01_2016	24763
+#define	II_SYS_SYS_SCR_BXFWED01_2016	24764
+#define	II_ARM_M_COUPLESAMBAMSUIT_2016	24765
+#define	II_ARM_M_COUPLESAMBAMHELMET_2016	24766
+#define	II_ARM_M_COUPLESAMBAMGAUNTLET_2016	24767
+#define	II_ARM_M_COUPLESAMBAMBOOTS_2016	24768
+#define	II_ARM_F_COUPLESAMBAFSUIT_2016	24769
+#define	II_ARM_F_COUPLESAMBAFHELMET_2016	24770
+#define	II_ARM_F_COUPLESAMBAFGAUNTLET_2016	24771
+#define	II_ARM_F_COUPLESAMBAFBOOTS_2016	24772
+#define	II_SYS_SYS_SCR_BXMCOUPLESAMBA_2016	24773
+#define	II_SYS_SYS_SCR_BXFCOUPLESAMBA_2016	24774
+
+//ï¿½ï¿½ï¿½ï¿½ 2016 ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_WEAPON_TOKEN_2016	24775
+#define	II_SYS_SYS_SCR_ARMOR_TOKEN_2016	24776
+
+//2016 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½å¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_EVENTCLOTH	24777
+#define	II_SYS_SYS_EVE_FASHIONCOUPON_HAT	24778
+#define	II_SYS_SYS_EVE_FASHIONCOUPON_CLOTH	24779
+#define	II_SYS_SYS_EVE_FASHIONCOUPON_GLOVE	24780
+#define	II_SYS_SYS_EVE_FASHIONCOUPON_SHOES	24781
+#define	II_ARM_M_CHR_NEWYEARSDRESS_HAT	24782
+#define	II_ARM_M_CHR_NEWYEARSDRESS_CLOTH	24783
+#define	II_ARM_M_CHR_NEWYEARSDRESS_GLOVE	24784
+#define	II_ARM_M_CHR_NEWYEARSDRESS_SHOES	24785
+#define	II_ARM_F_CHR_NEWYEARSDRESS_HAT	24786
+#define	II_ARM_F_CHR_NEWYEARSDRESS_CLOTH	24787
+#define	II_ARM_F_CHR_NEWYEARSDRESS_GLOVE	24788
+#define	II_ARM_F_CHR_NEWYEARSDRESS_SHOES	24789
+#define	II_SYS_SYS_SCR_BXMNEWYEARSDRESS	24790
+#define	II_SYS_SYS_SCR_BXFNEWYEARSDRESS	24791
+#define	II_ARM_S_CLO_CLO_CLOAKHATSALRA	24792
+#define	II_SYS_SYS_SCR_CLOAKHATSALRA_BOX01	24793
+#define	II_SYS_SYS_SCR_CLOAKHATSALRA_BOX02	24794
+#define	II_ARM_M_CHR_NEWCAT_HAT	24795                   // [InGame Shop]
+#define	II_ARM_M_CHR_NEWCAT_CLOTH	24796               // [InGame Shop]
+#define	II_ARM_M_CHR_NEWCAT_GLOVE	24797               // [InGame Shop]
+#define	II_ARM_M_CHR_NEWCAT_SHOES	24798               // [InGame Shop]
+#define	II_ARM_F_CHR_NEWCAT_HAT	24799                   // [InGame Shop]
+#define	II_ARM_F_CHR_NEWCAT_CLOTH	24800               // [InGame Shop]
+#define	II_ARM_F_CHR_NEWCAT_GLOVE	24801               // [InGame Shop]
+#define	II_ARM_F_CHR_NEWCAT_SHOES	24802               // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXMNEWCAT	24803               // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXFNEWCAT	24804               // [InGame Shop]
+#define	II_ARM_S_CLO_MAS_MASWFOX	24805
+#define	II_SYS_SYS_SCR_BXMNEWCAT_30	24806
+#define	II_SYS_SYS_SCR_BXFNEWCAT_30	24807
+#define	II_PET_HATSALRA			24808
+#define	II_SYS_SYS_SCR_BX_PET_HATSALRA_30	24809
+#define	II_ARM_S_CLO_CLO_FCLOAKHATSALRA	24810
+#define	II_SYS_SYS_SCR_CLOAKHATSALRA_BOX01_2	24811
+#define	II_SYS_SYS_SCR_CLOAKHATSALRA_BOX02_2	24812
+//2016 ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_ARM_CHR_JESSICARIBBON	24813
+#define	II_ARM_CHR_NANAHAIRBAND	24814
+#define	II_SYS_SYS_EVE_GIFTBOX_JESSICA_2016	24815
+#define	II_SYS_SYS_EVE_LOVEBOX_JESSICA_2016	24816
+#define	II_SYS_SYS_EVE_GIFTTBOX_NANA_2016	24817
+#define	II_SYS_SYS_EVE_LOVEBOX_NANA_2016	24818
+
+#define	II_GEN_DAILY_QUEST1		24819
+
+// 20th card upgrade system
+#define	II_GEN_MAT_ELE_PIERCECARD_R_FIRE	24820
+#define	II_GEN_MAT_ELE_PIERCECARD_R_WATER	24821
+#define	II_GEN_MAT_ELE_PIERCECARD_R_ELECTRIC	24822
+#define	II_GEN_MAT_ELE_PIERCECARD_R_LAND	24823
+#define	II_GEN_MAT_ELE_PIERCECARD_12_VOLCANO	24824
+#define	II_GEN_MAT_ELE_PIERCECARD_12_OCEAN	24825
+#define	II_GEN_MAT_ELE_PIERCECARD_12_VACCUM	24826
+#define	II_GEN_MAT_ELE_PIERCECARD_12_LIGHTING	24827
+#define	II_GEN_MAT_ELE_PIERCECARD_12_EARTHQUAKE	24828
+
+#define II_SYS_SYS_SCR_SCRAP_10_VOLCANO	24829	// ï¿½ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ Ä«ï¿½ï¿½(10%)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_10_OCEAN	24830	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½(10%)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_10_VACCUM	24831	// ï¿½ï¿½Å¨ Ä«ï¿½ï¿½(10%)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_10_LIGHTING	24832	// ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ Ä«ï¿½ï¿½(10%)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_10_EARTHQUAKE	24833	// ï¿½î½ºï¿½ï¿½ï¿½ï¿½Å© Ä«ï¿½ï¿½(10%)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_S_FIRE		24834	// ï¿½ï¿½ï¿½Ì¾ï¿½ Ä«ï¿½ï¿½(S)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_S_WATER	24835	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½(S)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_S_WIND		24836	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½(S)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_S_ELECTRIC	24837	// ï¿½Ï·ï¿½Æ®ï¿½ï¿½ Ä«ï¿½ï¿½(S)ï¿½ï¿½ï¿½ï¿½
+#define II_SYS_SYS_SCR_SCRAP_S_LAND		24838	// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½(S)ï¿½ï¿½ï¿½ï¿½
+
+#define	II_GEN_GEM_GEM_RISISGEM	24839
+#define	II_SYS_SYS_SCR_BOX_METEONYKER	24840
+#define	II_SYS_SYS_SCR_BOX_BOSS	24841
+#define	II_SYS_SYS_SCR_BOX_TREASURE	24842
+#define	II_SYS_SYS_SCR_SMELPROT5	24843
+#define	II_ARM_S_CLO_CLO_RISIS	24844
+#define	II_GEN_GEM_GEM_METEONYKERCLAW	24845
+#define	II_GEN_GEM_GEM_GLAPHANSAP	24846
+#define	II_GEN_GEM_GEM_MUSHMOOTGAT	24847
+#define	II_GEN_GEM_GEM_KRRRBANDAGE	24848
+#define	II_GEN_GEM_GEM_WAGSAACBROW	24849
+#define	II_GEN_GEM_GEM_AIBATTTAIL	24850
+
+#define	II_SYS_SYS_SCR_BOX_PIERCECARD_7	24851
+#define	II_SYS_SYS_SCR_BOX_PIERCECARD_A	24852
+#define	II_SYS_SYS_SCR_BOX_SCRAP_10	24853
+#define	II_SYS_SYS_SCR_BOX_SCRAP_S	24854
+
+#define II_ARM_S_CLO_CLO_SKELDEVIL	24855
+
+#define	II_GEN_DAILY_QUEST2		24856
+#define	II_GEN_DAILY_QUEST3		24857
+#define	II_GEN_DAILY_QUEST4		24858
+
+//20ï¿½ï¿½ ï¿½Êºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+#define	II_ARM_F_BIL_BOOTS_SET_33_30	24859
+#define	II_ARM_F_BIL_GAUNTLET_SET_33_30	24860
+#define	II_ARM_F_BIL_HELMET_SET_33_30	24861
+#define	II_ARM_F_BIL_SUIT_SET_33_30	24862
+#define	II_ARM_F_BLA_BOOTS_SET_33_30	24863
+#define	II_ARM_F_BLA_GAUNTLET_SET_33_30	24864
+#define	II_ARM_F_BLA_HELMET_SET_33_30	24865
+#define	II_ARM_F_BLA_SUIT_SET_33_30	24866
+#define	II_ARM_F_ELE_BOOTS_SET_33_30	24867
+#define	II_ARM_F_ELE_GAUNTLET_SET_33_30	24868
+#define	II_ARM_F_ELE_HELMET_SET_33_30	24869
+#define	II_ARM_F_ELE_SUIT_SET_33_30	24870
+#define	II_ARM_F_JST_BOOTS_SET_33_30	24871
+#define	II_ARM_F_JST_GAUNTLET_SET_33_30	24872
+#define	II_ARM_F_JST_HELMET_SET_33_30	24873
+#define	II_ARM_F_JST_SUIT_SET_33_30	24874
+#define	II_ARM_F_KIN_BOOTS_SET_33_30	24875
+#define	II_ARM_F_KIN_GAUNTLET_SET_33_30	24876
+#define	II_ARM_F_KIN_HELMET_SET_33_30	24877
+#define	II_ARM_F_KIN_SUIT_SET_33_30	24878
+#define	II_ARM_F_PSY_BOOTS_SET_33_30	24879
+#define	II_ARM_F_PSY_GAUNTLET_SET_33_30	24880
+#define	II_ARM_F_PSY_HELMET_SET_33_30	24881
+#define	II_ARM_F_PSY_SUIT_SET_33_30	24882
+#define	II_ARM_F_RAG_BOOTS_SET_33_30	24883
+#define	II_ARM_F_RAG_GAUNTLET_SET_33_30	24884
+#define	II_ARM_F_RAG_HELMET_SET_33_30	24885
+#define	II_ARM_F_RAG_SUIT_SET_33_30	24886
+#define	II_ARM_F_RIN_BOOTS_SET_33_30	24887
+#define	II_ARM_F_RIN_GAUNTLET_SET_33_30	24888
+#define	II_ARM_F_RIN_HELMET_SET_33_30	24889
+#define	II_ARM_F_RIN_SUIT_SET_33_30	24890
+#define	II_ARM_M_BIL_BOOTS_SET_33_30	24891
+#define	II_ARM_M_BIL_GAUNTLET_SET_33_30	24892
+#define	II_ARM_M_BIL_HELMET_SET_33_30	24893
+#define	II_ARM_M_BIL_SUIT_SET_33_30	24894
+#define	II_ARM_M_BLA_BOOTS_SET_33_30	24895
+#define	II_ARM_M_BLA_GAUNTLET_SET_33_30	24896
+#define	II_ARM_M_BLA_HELMET_SET_33_30	24897
+#define	II_ARM_M_BLA_SUIT_SET_33_30	24898
+#define	II_ARM_M_ELE_BOOTS_SET_33_30	24899
+#define	II_ARM_M_ELE_GAUNTLET_SET_33_30	24900
+#define	II_ARM_M_ELE_HELMET_SET_33_30	24901
+#define	II_ARM_M_ELE_SUIT_SET_33_30	24902
+#define	II_ARM_M_JST_BOOTS_SET_33_30	24903
+#define	II_ARM_M_JST_GAUNTLET_SET_33_30	24904
+#define	II_ARM_M_JST_HELMET_SET_33_30	24905
+#define	II_ARM_M_JST_SUIT_SET_33_30	24906
+#define	II_ARM_M_KIN_BOOTS_SET_33_30	24907
+#define	II_ARM_M_KIN_GAUNTLET_SET_33_30	24908
+#define	II_ARM_M_KIN_HELMET_SET_33_30	24909
+#define	II_ARM_M_KIN_SUIT_SET_33_30	24910
+#define	II_ARM_M_PSY_BOOTS_SET_33_30	24911
+#define	II_ARM_M_PSY_GAUNTLET_SET_33_30	24912
+#define	II_ARM_M_PSY_HELMET_SET_33_30	24913
+#define	II_ARM_M_PSY_SUIT_SET_33_30	24914
+#define	II_ARM_M_RAG_BOOTS_SET_33_30	24915
+#define	II_ARM_M_RAG_GAUNTLET_SET_33_30	24916
+#define	II_ARM_M_RAG_HELMET_SET_33_30	24917
+#define	II_ARM_M_RAG_SUIT_SET_33_30	24918
+#define	II_ARM_M_RIN_BOOTS_SET_33_30	24919
+#define	II_ARM_M_RIN_GAUNTLET_SET_33_30	24920
+#define	II_ARM_M_RIN_HELMET_SET_33_30	24921
+#define	II_ARM_M_RIN_SUIT_SET_33_30	24922
+#define	II_SYS_SYS_SCR_BXFBIL120SET_30	24923
+#define	II_SYS_SYS_SCR_BXFBLA120SET_30	24924
+#define	II_SYS_SYS_SCR_BXFELE120SET_30	24925
+#define	II_SYS_SYS_SCR_BXFJST120SET_30	24926
+#define	II_SYS_SYS_SCR_BXFKNT120SET_30	24927
+#define	II_SYS_SYS_SCR_BXFPSY120SET_30	24928
+#define	II_SYS_SYS_SCR_BXFRAG120SET_30	24929
+#define	II_SYS_SYS_SCR_BXFRIN120SET_30	24930
+#define	II_SYS_SYS_SCR_BXMBIL120SET_30	24931
+#define	II_SYS_SYS_SCR_BXMBLA120SET_30	24932
+#define	II_SYS_SYS_SCR_BXMELE120SET_30	24933
+#define	II_SYS_SYS_SCR_BXMJST120SET_30	24934
+#define	II_SYS_SYS_SCR_BXMKNT120SET_30	24935
+#define	II_SYS_SYS_SCR_BXMPSY120SET_30	24936
+#define	II_SYS_SYS_SCR_BXMRAG120SET_30	24937
+#define	II_SYS_SYS_SCR_BXMRIN120SET_30	24938
+#define	II_WEA_SWO_BLOODY_30	24939
+#define	II_WEA_SWT_BLOODY_30	24940
+#define	II_WEA_AXE_BLOODY_30	24941
+#define	II_WEA_AXT_BLOODY_30	24942
+#define	II_WEA_KNU_BLOODY_30	24943
+#define	II_WEA_CHE_BLOODY_30	24944
+#define	II_WEA_WAN_BLOODY2_30	24945
+#define	II_WEA_STA_BLOODY_30	24946
+#define	II_WEA_BOW_BLOODY_30	24947
+#define	II_WEA_YOY_BLOODY_30	24948
+#define	II_SYS_SYS_SCR_BXBLOODY_1_30	24949
+#define	II_SYS_SYS_SCR_BXBLOODY_2_30	24950
+#define	II_SYS_SYS_SCR_BXBLOODY_3_30	24951
+#define	II_SYS_SYS_SCR_BXBLOODY_4_30	24952
+#define	II_SYS_SYS_SCR_BXBLOODY_5_30	24953
+
+//20ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Í¼Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½ï¿½î±¸
+#define	II_ARM_M_RIN_HELMET_SET_34_EVENT	24954
+#define	II_ARM_M_RIN_SUIT_SET_34_EVENT	24955
+#define	II_ARM_M_RIN_GAUNTLET_SET_34_EVENT	24956
+#define	II_ARM_M_RIN_BOOTS_SET_34_EVENT	24957
+#define	II_ARM_M_RAG_HELMET_SET_34_EVENT	24958
+#define	II_ARM_M_RAG_SUIT_SET_34_EVENT	24959
+#define	II_ARM_M_RAG_GAUNTLET_SET_34_EVENT	24960
+#define	II_ARM_M_RAG_BOOTS_SET_34_EVENT	24961
+#define	II_ARM_M_PSY_HELMET_SET_34_EVENT	24962
+#define	II_ARM_M_PSY_SUIT_SET_34_EVENT	24963
+#define	II_ARM_M_PSY_GAUNTLET_SET_34_EVENT	24964
+#define	II_ARM_M_PSY_BOOTS_SET_34_EVENT	24965
+#define	II_ARM_M_KIN_HELMET_SET_34_EVENT	24966
+#define	II_ARM_M_KIN_SUIT_SET_34_EVENT	24967
+#define	II_ARM_M_KIN_GAUNTLET_SET_34_EVENT	24968
+#define	II_ARM_M_KIN_BOOTS_SET_34_EVENT	24969
+#define	II_ARM_M_JST_HELMET_SET_34_EVENT	24970
+#define	II_ARM_M_JST_SUIT_SET_34_EVENT	24971
+#define	II_ARM_M_JST_GAUNTLET_SET_34_EVENT	24972
+#define	II_ARM_M_JST_BOOTS_SET_34_EVENT	24973
+#define	II_ARM_M_ELE_HELMET_SET_34_EVENT	24974
+#define	II_ARM_M_ELE_SUIT_SET_34_EVENT	24975
+#define	II_ARM_M_ELE_GAUNTLET_SET_34_EVENT	24976
+#define	II_ARM_M_ELE_BOOTS_SET_34_EVENT	24977
+#define	II_ARM_M_BLA_HELMET_SET_34_EVENT	24978
+#define	II_ARM_M_BLA_SUIT_SET_34_EVENT	24979
+#define	II_ARM_M_BLA_GAUNTLET_SET_34_EVENT	24980
+#define	II_ARM_M_BLA_BOOTS_SET_34_EVENT	24981
+#define	II_ARM_M_BIL_HELMET_SET_34_EVENT	24982
+#define	II_ARM_M_BIL_SUIT_SET_34_EVENT	24983
+#define	II_ARM_M_BIL_GAUNTLET_SET_34_EVENT	24984
+#define	II_ARM_M_BIL_BOOTS_SET_34_EVENT	24985
+#define	II_ARM_F_RIN_HELMET_SET_34_EVENT	24986
+#define	II_ARM_F_RIN_SUIT_SET_34_EVENT	24987
+#define	II_ARM_F_RIN_GAUNTLET_SET_34_EVENT	24988
+#define	II_ARM_F_RIN_BOOTS_SET_34_EVENT	24989
+#define	II_ARM_F_RAG_HELMET_SET_34_EVENT	24990
+#define	II_ARM_F_RAG_SUIT_SET_34_EVENT	24991
+#define	II_ARM_F_RAG_GAUNTLET_SET_34_EVENT	24992
+#define	II_ARM_F_RAG_BOOTS_SET_34_EVENT	24993
+#define	II_ARM_F_PSY_HELMET_SET_34_EVENT	24994
+#define	II_ARM_F_PSY_SUIT_SET_34_EVENT	24995
+#define	II_ARM_F_PSY_GAUNTLET_SET_34_EVENT	24996
+#define	II_ARM_F_PSY_BOOTS_SET_34_EVENT	24997
+#define	II_ARM_F_KIN_HELMET_SET_34_EVENT	24998
+#define	II_ARM_F_KIN_SUIT_SET_34_EVENT	24999
+#define	II_ARM_F_KIN_GAUNTLET_SET_34_EVENT	25000
+#define	II_ARM_F_KIN_BOOTS_SET_34_EVENT	25001
+#define	II_ARM_F_JST_HELMET_SET_34_EVENT	25002
+#define	II_ARM_F_JST_SUIT_SET_34_EVENT	25003
+#define	II_ARM_F_JST_GAUNTLET_SET_34_EVENT	25004
+#define	II_ARM_F_JST_BOOTS_SET_34_EVENT	25005
+#define	II_ARM_F_ELE_HELMET_SET_34_EVENT	25006
+#define	II_ARM_F_ELE_SUIT_SET_34_EVENT	25007
+#define	II_ARM_F_ELE_GAUNTLET_SET_34_EVENT	25008
+#define	II_ARM_F_ELE_BOOTS_SET_34_EVENT	25009
+#define	II_ARM_F_BLA_HELMET_SET_34_EVENT	25010
+#define	II_ARM_F_BLA_SUIT_SET_34_EVENT	25011
+#define	II_ARM_F_BLA_GAUNTLET_SET_34_EVENT	25012
+#define	II_ARM_F_BLA_BOOTS_SET_34_EVENT	25013
+#define	II_ARM_F_BIL_HELMET_SET_34_EVENT	25014
+#define	II_ARM_F_BIL_SUIT_SET_34_EVENT	25015
+#define	II_ARM_F_BIL_GAUNTLET_SET_34_EVENT	25016
+#define	II_ARM_F_BIL_BOOTS_SET_34_EVENT	25017
+#define	II_SYS_SYS_SCR_BXMRIN125SET_EVENT	25018
+#define	II_SYS_SYS_SCR_BXMRAG125SET_EVENT	25019
+#define	II_SYS_SYS_SCR_BXMPSY125SET_EVENT	25020
+#define	II_SYS_SYS_SCR_BXMKNT125SET_EVENT	25021
+#define	II_SYS_SYS_SCR_BXMJST125SET_EVENT	25022
+#define	II_SYS_SYS_SCR_BXMELE125SET_EVENT	25023
+#define	II_SYS_SYS_SCR_BXMBLA125SET_EVENT	25024
+#define	II_SYS_SYS_SCR_BXMBIL125SET_EVENT	25025
+#define	II_SYS_SYS_SCR_BXFRIN125SET_EVENT	25026
+#define	II_SYS_SYS_SCR_BXFRAG125SET_EVENT	25027
+#define	II_SYS_SYS_SCR_BXFPSY125SET_EVENT	25028
+#define	II_SYS_SYS_SCR_BXFKNT125SET_EVENT	25029
+#define	II_SYS_SYS_SCR_BXFJST125SET_EVENT	25030
+#define	II_SYS_SYS_SCR_BXFELE125SET_EVENT	25031
+#define	II_SYS_SYS_SCR_BXFBLA125SET_EVENT	25032
+#define	II_SYS_SYS_SCR_BXFBIL125SET_EVENT	25033
+//20ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Í¼Óµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_WEA_SWO_ANCIENT_EVENT	25034
+#define	II_WEA_SWT_ANCIENT_EVENT	25035
+#define	II_WEA_AXE_ANCIENT_EVENT	25036
+#define	II_WEA_AXT_ANCIENT_EVENT	25037
+#define	II_WEA_KNU_ANCIENT_EVENT	25038
+#define	II_WEA_CHE_ANCIENT_EVENT	25039
+#define	II_WEA_WAN_ANCIENT_EVENT	25040
+#define	II_WEA_STA_ANCIENT_EVENT	25041
+#define	II_WEA_BOW_ANCIENT_EVENT	25042
+#define	II_WEA_YOY_ANCIENT_EVENT	25043
+#define	II_SYS_SYS_SCR_BXANCIENT_1	25044
+#define	II_SYS_SYS_SCR_BXANCIENT_2	25045
+#define	II_SYS_SYS_SCR_BXANCIENT_3	25046
+#define	II_SYS_SYS_SCR_BXANCIENT_4	25047
+#define	II_SYS_SYS_SCR_BXANCIENT_5	25048
+//20ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½Í¼ï¿½ ï¿½ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_GEN_JEW_RIN_FIRERING_EVENT	25049
+#define	II_GEN_JEW_RIN_LANDRING_EVENT	25050
+#define	II_GEN_JEW_RIN_WATERRING_EVENT	25051
+#define	II_GEN_JEW_RIN_ELECTRICRING_EVENT	25052
+#define	II_GEN_JEW_EAR_ATTEARRINGEST_EVENT	25053
+#define	II_GEN_JEW_EAR_DEFEARRINGEST_EVENT	25054
+#define	II_GEN_JEW_EAR_MAGICRINGEST_EVENT	25055
+#define	II_GEN_JEW_EAR_RANGERINGEST_EVENT	25056
+#define	II_GEN_JEW_NEC_HPNECKLACEMR_EVENT	25057
+#define	II_GEN_JEW_NEC_MPNECKLACEMR_EVENT	25058
+#define	II_GEN_JEW_NEC_FPNECKLACEMR_EVENT	25059
+#define	II_GEN_JEW_NEC_HPMPNECKLACE_EVENT	25060
+#define	II_SYS_SYS_SCR_BXJEW_FIRE_EVENT	25061
+#define	II_SYS_SYS_SCR_BXJEW_LAND_EVENT	25062
+#define	II_SYS_SYS_SCR_BXJEW_WATER_EVENT	25063
+#define	II_SYS_SYS_SCR_BXJEW_ELECTRIC_EVENT	25064
+
+//20ï¿½ï¿½ï¿½Ìºï¿½Æ®ï¿½ë·¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½_ï¿½Í¼ï¿½
+#define	II_SYS_SYS_SCR_BXMERCENARY_15	25065
+#define	II_SYS_SYS_SCR_BXASSIST_15	25066
+#define	II_SYS_SYS_SCR_BXMAGICIAN_15	25067
+#define	II_SYS_SYS_SCR_BXACROBAT_15	25068
+#define	II_SYS_SYS_SCR_BXKNIGHT_60	25069
+#define	II_SYS_SYS_SCR_BXBLADE_60	25070
+#define	II_SYS_SYS_SCR_BXRINGMASTER_60	25071
+#define	II_SYS_SYS_SCR_BXBILLPOSTER_60	25072
+#define	II_SYS_SYS_SCR_BXELEMENTOR_60	25073
+#define	II_SYS_SYS_SCR_BXPSYCHIKEEPER_60	25074
+#define	II_SYS_SYS_SCR_BXJESTER_60	25075
+#define	II_SYS_SYS_SCR_BXRANGER_60	25076
+#define	II_SYS_SYS_SCR_BXKNIGHT_105	25077
+#define	II_SYS_SYS_SCR_BXBLADE_105	25078
+#define	II_SYS_SYS_SCR_BXRINGMASTER_105	25079
+#define	II_SYS_SYS_SCR_BXBILLPOSTER_105	25080
+#define	II_SYS_SYS_SCR_BXELEMENTOR_105	25081
+#define	II_SYS_SYS_SCR_BXPSYCHIKEEPER_105	25082
+#define	II_SYS_SYS_SCR_BXJESTER_105	25083
+#define	II_SYS_SYS_SCR_BXRANGER_105	25084
+#define	II_SYS_SYS_SCR_BXKNIGHT_125	25085
+#define	II_SYS_SYS_SCR_BXBLADE_125	25086
+#define	II_SYS_SYS_SCR_BXRINGMASTER_125	25087
+#define	II_SYS_SYS_SCR_BXBILLPOSTER_125	25088
+#define	II_SYS_SYS_SCR_BXELEMENTOR_125	25089
+#define	II_SYS_SYS_SCR_BXPSYCHIKEEPER_125	25090
+#define	II_SYS_SYS_SCR_BXJESTER_125	25091
+#define	II_SYS_SYS_SCR_BXRANGER_125	25092
+
+//ï¿½ï¿½ï¿½Îºï¿½ï¿½ì·¹ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼_ï¿½ï¿½
+#define	II_RID_RID_STI_WOODHORSE1_S	25093
+#define	II_RID_RID_STI_WOODHORSE1	25094
+
+//2016ï¿½ï¿½ï¿½Ìºï¿½Æ®
+#define	II_ARM_S_CLO_CLO_SPRINGCLOCK01	25095
+#define	II_ARM_S_CLO_CLO_SPRINGCLOCK02	25096
+#define	II_ARM_S_CLO_CLO_SPRINGCLOCK03	25097
+#define	II_ARM_S_CLO_MAS_NEWGOGLE	25098
+#define	II_SYS_SYS_SCR_BX_CLO_SPRINGCLOCK02_30	25099
+#define	II_SYS_SYS_SCR_BX_CLO_SPRINGCLOCK03_30	25100
+#define	II_SYS_SYS_SCR_BXGREEN05	25101
+#define	II_SYS_SYS_SCR_BXSPIRIT_30	25102
+
+//2016 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Þ¿ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_HELLOBOX_01	25103
+#define	II_SYS_SYS_EVE_HELLOBOX_02	25104
+
+//ï¿½ï¿½ï¿½×¿ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define II_RID_RID_WIN_METEONYKER01	25105
+#define II_RID_RID_WIN_METEONYKER02	25106
+
+//ï¿½Ïºï¿½ 12ï¿½Ö³ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_BXBIGINNER	25107
+#define	II_ARM_S_CLO_CLO_FLYFFGOCLOCK	25108
+#define	II_ARM_S_CLO_MAS_MASCATT02	25109
+#define	II_SYS_SYS_SCR_BX_CLO_MASCATT	25110
+
+//ï¿½ï¿½ï¿½Ï¼ï¿½ ï¿½Ìºï¿½Æ® 2016(Ä¥ï¿½ï¿½ï¿½Ìºï¿½Æ®)
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2016	25111
+#define II_ARM_S_CLO_HAT_STATHAT01_2016	25112
+
+//ï¿½ï¿½Ä«Å¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½ß°ï¿½
+#define	II_ARM_M_CHR_YUKATA09CAP		25113
+#define	II_ARM_M_CHR_YUKATA09SUIT		25114
+#define	II_ARM_M_CHR_YUKATA09GLOVES		25115
+#define	II_ARM_M_CHR_YUKATA09SHOES		25116
+#define	II_SYS_SYS_SCR_BXMYUKATASET09		25117
+#define	II_ARM_F_CHR_YUKATA09CAP		25118
+#define	II_ARM_F_CHR_YUKATA09SUIT		25119
+#define	II_ARM_F_CHR_YUKATA09GLOVES		25120
+#define	II_ARM_F_CHR_YUKATA09SHOES		25121
+#define	II_SYS_SYS_SCR_BXFYUKATASET09		25122
+#define	II_ARM_M_CHR_YUKATA10CAP		25123
+#define	II_ARM_M_CHR_YUKATA10SUIT		25124
+#define	II_ARM_M_CHR_YUKATA10GLOVES		25125
+#define	II_ARM_M_CHR_YUKATA10SHOES		25126
+#define	II_SYS_SYS_SCR_BXMYUKATASET10		25127
+#define	II_ARM_F_CHR_YUKATA10CAP		25128
+#define	II_ARM_F_CHR_YUKATA10SUIT		25129
+#define	II_ARM_F_CHR_YUKATA10GLOVES		25130
+#define	II_ARM_F_CHR_YUKATA10SHOES		25131
+#define	II_SYS_SYS_SCR_BXFYUKATASET10		25132
+#define	II_ARM_F_CHR_YUKATA11CAP		25133
+#define	II_ARM_F_CHR_YUKATA11SUIT		25134
+#define	II_ARM_F_CHR_YUKATA11GLOVES		25135
+#define	II_ARM_F_CHR_YUKATA11SHOES		25136
+#define	II_SYS_SYS_SCR_BXFYUKATASET11		25137
+#define	II_ARM_M_CHR_YUKATA11CAP		25138
+#define	II_ARM_M_CHR_YUKATA11SUIT		25139
+#define	II_ARM_M_CHR_YUKATA11GLOVES		25140
+#define	II_ARM_M_CHR_YUKATA11SHOES		25141
+#define	II_SYS_SYS_SCR_BXMYUKATASET11		25142
+// ï¿½Ïºï¿½ 12ï¿½Ö³ï¿½ Ä«ï¿½ï¿½-ï¿½ï¿½ï¿½Ì¾ï¿½Î±×¹Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
+#define II_SYS_SYS_EVE_12CARD_2016		25143
+// ï¿½ï¿½Ä«Å¸ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
+#define II_ARM_F_CHR_YUKATA09CAP_OPTION		25144
+#define II_ARM_F_CHR_YUKATA09SUIT_OPTION		25145
+#define II_ARM_F_CHR_YUKATA09GLOVES_OPTION		25146
+#define II_ARM_F_CHR_YUKATA09SHOES_OPTION		25147
+#define II_SYS_SYS_SCR_BXFYUKATASET09_OPTION		25148
+#define II_ARM_M_CHR_YUKATA10CAP_OPTION		25149
+#define II_ARM_M_CHR_YUKATA10SUIT_OPTION		25150
+#define II_ARM_M_CHR_YUKATA10GLOVES_OPTION		25151
+#define II_ARM_M_CHR_YUKATA10SHOES_OPTION		25152
+#define II_SYS_SYS_SCR_BXMYUKATASET10_OPTION		25153
+#define II_SYS_SYS_SCR_BXFYUKATASET09_BOX		25154
+#define II_SYS_SYS_SCR_BXMYUKATASET10_BOX		25155
+// ï¿½â¸° ï¿½Ú½ï¿½Æ¬
+#define II_ARM_M_CHR_GIRAFFE01CAP		25156
+#define II_ARM_M_CHR_GIRAFFE01SUIT		25157
+#define II_ARM_M_CHR_GIRAFFE01GLOVES		25158
+#define II_ARM_M_CHR_GIRAFFE01SHOES		25159
+#define II_SYS_SYS_SCR_BXMGIRAFFESET01		25160
+#define II_ARM_F_CHR_GIRAFFE01CAP		25161
+#define II_ARM_F_CHR_GIRAFFE01SUIT		25162
+#define II_ARM_F_CHR_GIRAFFE01GLOVES		25163
+#define II_ARM_F_CHR_GIRAFFE01SHOES		25164
+#define II_SYS_SYS_SCR_BXFGIRAFFESET01		25165
+// ï¿½Ïºï¿½ 12ï¿½Ö³ï¿½ ï¿½Ìºï¿½Æ®
+#define II_SYS_SYS_EVE_TWINCLE01		25166
+#define II_SYS_SYS_SCR_BXLUCKEY			25167
+#define II_SYS_SYS_SCR_BXFLYFFS212TH		25168
+
+// 2016 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® 
+#define II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2016	25169
+#define II_SYS_SYS_CHRISTMASBOX_PET_2016		25170
+#define II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2016	25171
+#define II_SYS_SYS_CHRISTMASBOX_WEAPON_B_2016	25172
+#define II_SYS_SYS_CHRISTMASBOX_COSTUME_2016	25173
+#define II_SYS_SYS_CHRISTMASBOX_MASK_2016		25174
+#define II_SYS_SYS_CHRISTMASBOX_PREMIUM_2016	25175
+// 2016 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define II_GEN_JEW_RIN_MAGICSTICK_UPGRADESTICK		25176
+#define II_GEN_JEW_RIN_CHRISTMAS_WING_RING_2016		25177
+#define II_GEN_JEW_NEC_CHRISTMAS_HARP_EARRING_2016	25178
+#define II_GEN_JEW_EAR_CHRISTMAS_ANGEL_NECKLACE_2016	25179
+#define II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_2016	25180
+#define II_SYS_SYS_CHRISTMASBOX_PRESENT_B_2016		25181
+// 2016 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BX_PET_CHICKEN_7	25182
+// 2017 ï¿½Å³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_BXSWALLOW01		25183
+// 2016 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
+#define II_GEN_JEW_RIN_CHRISTMAS_WING_RING_2016_02		25184
+#define II_GEN_JEW_NEC_CHRISTMAS_HARP_EARRING_2016_02	25185
+#define II_GEN_JEW_EAR_CHRISTMAS_ANGEL_NECKLACE_2016_02	25186
+#define II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_2016_02	25187
+// 2017 ï¿½â¼®Ã¼Å© ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define II_GEN_FOO_COO_DDUKGUKHOT_02		25188
+#define II_GEN_FOO_COO_DDUKGUKFRESH_02		25189
+#define II_GEN_FOO_COO_DDUKGUKSWEET_02		25190
+#define II_SYS_SYS_SCR_DDUKGUKBX		25191
+#define II_GEN_POT_NEWBIE_WAR_02		25192
+#define II_GEN_POT_NEWBIE_MAG_02		25193
+#define II_GEN_POT_NEWBIE_ARC_02		25194
+#define II_SYS_SYS_SCR_NEWBIEBX		25195
+#define II_SYS_SYS_SCR_RESURRECTION_02		25196
+#define II_SYS_SYS_SCR_BLESSING_02		25197
+#define II_SYS_SYS_SCR_RESURRECTION_BLESSINGBX		25198
+#define II_SYS_SYS_SCR_AWAKESAFE_02		25199
+#define II_SYS_SYS_SCR_AWAKECANCEL_02		25200
+#define II_SYS_SYS_SCR_BXAWAKE02		25201
+#define II_SYS_SYS_SCR_TELEPORTS_02	25202
+#define II_SYS_VIS_LV3_FOREVERKILLHP03_02	25203
+// 2017 ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define II_SYS_SYS_EVE_GIFTBOX_JESSICA_2017	25204
+#define II_SYS_SYS_EVE_GIFTTBOX_NANA_2017	25205
+// ï¿½â¸° ï¿½Ú½ï¿½Æ¬ (ï¿½Å·ï¿½ï¿½Ò°ï¿½)
+#define II_ARM_M_CHR_GIRAFFE01CAP_02		25206
+#define II_ARM_M_CHR_GIRAFFE01SUIT_02		25207
+#define II_ARM_M_CHR_GIRAFFE01GLOVES_02		25208
+#define II_ARM_M_CHR_GIRAFFE01SHOES_02		25209
+#define II_SYS_SYS_SCR_BXMGIRAFFESET01_02		25210
+#define II_ARM_F_CHR_GIRAFFE01CAP_02		25211
+#define II_ARM_F_CHR_GIRAFFE01SUIT_02		25212
+#define II_ARM_F_CHR_GIRAFFE01GLOVES_02		25213
+#define II_ARM_F_CHR_GIRAFFE01SHOES_02		25214
+#define II_SYS_SYS_SCR_BXFGIRAFFESET01_02		25215
+// 2017 ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Æ®ï¿½ï¿½
+#define	II_SYS_SYS_SCR_CLOVERBOX_2017		25216
+// 2017 È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_ARM_F_CHR_BLACKRIBBON_2017		25217
+#define	II_SYS_SYS_EVE_BXLOVE01_2017		25218
+// 2017 ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BXGREEN04_2017		25219
+// 2017 ï¿½ï¿½È°ï¿½ï¿½
+#define	II_SYS_SYS_EVE_BOXEGG2017		25220
+#define	II_SYS_SYS_EVE_PURPLEEGG2017		25221
+#define	II_SYS_SYS_EVE_GREENEGG2017		25222
+#define	II_SYS_SYS_EVE_BLUEGG2017		25223
+#define	II_SYS_SYS_EVE_REDEGG2017		25224
+#define	II_SYS_SYS_EVE_SKYBLUEEGG2017		25225
+#define	II_SYS_SYS_EVE_PINKEGG2017		25226
+#define	II_SYS_SYS_EVE_YELLOWEGG2017		25227
+#define	II_SYS_SYS_EVE_WHITEGG2017		25228
+#define	II_SYS_SYS_EVE_GRAYEGG2017		25229
+#define	II_SYS_SYS_EVE_ORANGEEGG2017		25230
+// 5ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_AMPESE120150		25231
+#define	II_SYS_SYS_SCR_MAYBOX_2017		25232
+// 2017 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SMELPROT6		25233
+#define	II_SYS_SYS_SCR_PIEPROT2			25234
+#define	II_SYS_SYS_SCR_RANDOMOPTIONRTRY2	25235
+// 2017 Ä¥ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2017		25236
+// ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½È¯
+#define	II_SYS_SYS_SCR_REWARD_BX_ORIMOON_2017	25237
+// 2017 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® 		
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2017	25238
+#define	II_SYS_SYS_CHRISTMASBOX_PET_2017	25239
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2017	25240
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_B_2017	25241
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_2017	25242
+#define	II_SYS_SYS_CHRISTMASBOX_MASK_2017	25243
+#define	II_SYS_SYS_CHRISTMASBOX_PREMIUM_2017	25244
+// 2017 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®		
+#define	II_GEN_JEW_RIN_CHRISTMAS_WING_RING_2017	25245
+#define	II_GEN_JEW_NEC_CHRISTMAS_HARP_EARRING_2017	25246
+#define	II_GEN_JEW_EAR_CHRISTMAS_ANGEL_NECKLACE_2017	25247
+#define	II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_2017	25248
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_B_2017	25249
+#define	II_ARM_S_CLO_MAS_MASCATT03	25250
+// 2017 ï¿½ß¼ï¿½ ï¿½Ìºï¿½Æ®		
+#define	II_SYS_SYS_SCR_WEAPONTICKET	25251
+#define	II_SYS_SYS_SCR_ARMORTICKET	25252
+#define	II_SYS_SYS_SCR_WEABOX	25253
+#define	II_SYS_SYS_SCR_ARMBOX_01	25254
+#define	II_SYS_SYS_SCR_ARMBOX_02	25255
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Êºï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_SUPPORTBOX	25256
+// 21ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_WEA_SWO_YGGDRASILL	    25257
+#define	II_WEA_SWT_YGGDRASILL	    25258
+#define	II_WEA_SWOT_YGGDRASILL	    25259
+#define	II_WEA_AXE_YGGDRASILL	    25260
+#define	II_WEA_AXT_YGGDRASILL	    25261
+#define	II_ARM_ARM_SHI_YGGDRASILL	25262
+#define	II_WEA_KNU_YGGDRASILL	    25263
+#define	II_WEA_CHE_YGGDRASILL	    25264
+#define	II_WEA_WAN_YGGDRASILL	    25265
+#define	II_WEA_STA_YGGDRASILL	    25266
+#define	II_WEA_BOW_YGGDRASILL	    25267
+#define	II_WEA_YOY_YGGDRASILL	    25268
+#define	II_WEA_BOOK_YGG	25269
+// 21ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½î±¸		
+#define	II_ARM_F_CRACKS_BOOTS_SET_YGG	25270
+#define	II_ARM_F_CRACKS_GAUNTLET_SET_YGG	25271
+#define	II_ARM_F_CRACKS_HELMET_SET_YGG	25272
+#define	II_ARM_F_CRACKS_SUIT_SET_YGG	25273
+#define	II_ARM_F_ELEL_BOOTS_SET_YGG	25274
+#define	II_ARM_F_ELEL_GAUNTLET_SET_YGG	25275
+#define	II_ARM_F_ELEL_HELMET_SET_YGG	25276
+#define	II_ARM_F_ELEL_SUIT_SET_YGG	25277
+#define	II_ARM_F_FLOR_BOOTS_SET_YGG	25278
+#define	II_ARM_F_FLOR_GAUNTLET_SET_YGG	25279
+#define	II_ARM_F_FLOR_HELMET_SET_YGG	25280
+#define	II_ARM_F_FLOR_SUIT_SET_YGG	25281
+#define	II_ARM_F_FORCEM_BOOTS_SET_YGG	25282
+#define	II_ARM_F_FORCEM_GAUNTLET_SET_YGG	25283
+#define	II_ARM_F_FORCEM_HELMET_SET_YGG	25284
+#define	II_ARM_F_FORCEM_SUIT_SET_YGG	25285
+#define	II_ARM_F_LORDK_BOOTS_SET_YGG	25286
+#define	II_ARM_F_LORDK_GAUNTLET_SET_YGG	25287
+#define	II_ARM_F_LORDK_HELMET_SET_YGG	25288
+#define	II_ARM_F_LORDK_SUIT_SET_YGG	25289
+#define	II_ARM_F_MENT_BOOTS_SET_YGG	25290
+#define	II_ARM_F_MENT_GAUNTLET_SET_YGG	25291
+#define	II_ARM_F_MENT_HELMET_SET_YGG	25292
+#define	II_ARM_F_MENT_SUIT_SET_YGG	25293
+#define	II_ARM_F_STORMB_BOOTS_SET_YGG	25294
+#define	II_ARM_F_STORMB_GAUNTLET_SET_YGG	25295
+#define	II_ARM_F_STORMB_HELMET_SET_YGG	25296
+#define	II_ARM_F_STORMB_SUIT_SET_YGG	25297
+#define	II_ARM_F_WINDL_BOOTS_SET_YGG	25298
+#define	II_ARM_F_WINDL_GAUNTLET_SET_YGG	25299
+#define	II_ARM_F_WINDL_HELMET_SET_YGG	25300
+#define	II_ARM_F_WINDL_SUIT_SET_YGG	25301
+#define	II_ARM_M_CRACKS_BOOTS_SET_YGG	25302
+#define	II_ARM_M_CRACKS_GAUNTLET_SET_YGG	25303
+#define	II_ARM_M_CRACKS_HELMET_SET_YGG	25304
+#define	II_ARM_M_CRACKS_SUIT_SET_YGG	25305
+#define	II_ARM_M_ELEL_BOOTS_SET_YGG	25306
+#define	II_ARM_M_ELEL_GAUNTLET_SET_YGG	25307
+#define	II_ARM_M_ELEL_HELMET_SET_YGG	25308
+#define	II_ARM_M_ELEL_SUIT_SET_YGG	25309
+#define	II_ARM_M_FLOR_BOOTS_SET_YGG	25310
+#define	II_ARM_M_FLOR_GAUNTLET_SET_YGG	25311
+#define	II_ARM_M_FLOR_HELMET_SET_YGG	25312
+#define	II_ARM_M_FLOR_SUIT_SET_YGG	25313
+#define	II_ARM_M_FORCEM_BOOTS_SET_YGG	25314
+#define	II_ARM_M_FORCEM_GAUNTLET_SET_YGG	25315
+#define	II_ARM_M_FORCEM_HELMET_SET_YGG	25316
+#define	II_ARM_M_FORCEM_SUIT_SET_YGG	25317
+#define	II_ARM_M_LORDK_BOOTS_SET_YGG	25318
+#define	II_ARM_M_LORDK_GAUNTLET_SET_YGG	25319
+#define	II_ARM_M_LORDK_HELMET_SET_YGG	25320
+#define	II_ARM_M_LORDK_SUIT_SET_YGG	25321
+#define	II_ARM_M_MENT_BOOTS_SET_YGG	25322
+#define	II_ARM_M_MENT_GAUNTLET_SET_YGG	25323
+#define	II_ARM_M_MENT_HELMET_SET_YGG	25324
+#define	II_ARM_M_MENT_SUIT_SET_YGG	25325
+#define	II_ARM_M_STORMB_BOOTS_SET_YGG	25326
+#define	II_ARM_M_STORMB_GAUNTLET_SET_YGG	25327
+#define	II_ARM_M_STORMB_HELMET_SET_YGG	25328
+#define	II_ARM_M_STORMB_SUIT_SET_YGG	25329
+#define	II_ARM_M_WINDL_BOOTS_SET_YGG	25330
+#define	II_ARM_M_WINDL_GAUNTLET_SET_YGG	25331
+#define	II_ARM_M_WINDL_HELMET_SET_YGG	25332
+#define	II_ARM_M_WINDL_SUIT_SET_YGG	25333
+// 21ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½È­		
+#define	II_GEN_MAT_LIGHTNINGSTONE	25334
+#define	II_GEN_MAT_ELE_CURRENTDUST	25335
+#define	II_SYS_SYS_SCR_COSTUMEPROT	25336
+// 21ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½		
+#define	II_GEN_MAT_COSTUME_GEM_CANCEL	25337
+#define	II_GEN_MAT_GARNET	25338
+#define	II_GEN_MAT_TURQUOISE	25339
+#define	II_GEN_MAT_AQUAMARINE	25340
+#define	II_GEN_MAT_AMETHYST	25341
+// 21ï¿½ï¿½ Ã¤ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_GARNET	25342
+#define	II_SYS_SYS_SCR_TURQUOISE	25343
+#define	II_SYS_SYS_SCR_AQUAMARINE	25344
+#define	II_SYS_SYS_SCR_AMETHYST	25345
+#define	II_SYS_SYS_SCR_SCRAPORICHALCUM02	25346
+// 21ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_SANDDUST	25347
+#define	II_SYS_SYS_SCR_MUD	25348
+#define	II_SYS_SYS_SCR_TONIC	25349
+#define	II_SYS_SYS_SCR_NEUTRALIZINGAGENT	25350
+#define	II_SYS_SYS_SCR_GOODSOIL	25351
+#define	II_GEN_GEM_GEM_YGGDRASILL_LEAF	25352
+// 21ï¿½ï¿½ ï¿½ï¿½Å» ï¿½ï¿½ï¿½ï¿½		
+#define	II_WEA_SWO_RENTAL01	25353
+#define	II_WEA_AXE_RENTAL01	25354
+#define	II_ARM_ARM_SHI_RENTAL01	25355
+#define	II_WEA_KNU_RENTAL01	25356
+#define	II_WEA_CHE_RENTAL01	25357
+#define	II_WEA_WAN_RENTAL01	25358
+#define	II_WEA_STA_RENTAL01	25359
+#define	II_WEA_BOW_RENTAL01	25360
+#define	II_WEA_YOY_RENTAL01	25361
+#define	II_WEA_SWO_RENTAL02	25362
+#define	II_WEA_SWT_RENTAL02	25363
+#define	II_WEA_AXE_RENTAL02	25364
+#define	II_WEA_AXT_RENTAL02	25365
+#define	II_ARM_ARM_SHI_RENTAL02	25366
+#define	II_WEA_KNU_RENTAL02	25367
+#define	II_WEA_CHE_RENTAL02	25368
+#define	II_WEA_WAN_RENTAL02	25369
+#define	II_WEA_STA_RENTAL02	25370
+#define	II_WEA_BOW_RENTAL02	25371
+#define	II_WEA_YOY_RENTAL02	25372
+#define	II_WEA_SWO_RENTAL03	25373
+#define	II_WEA_SWT_RENTAL03	25374
+#define	II_WEA_AXE_RENTAL03	25375
+#define	II_WEA_AXT_RENTAL03	25376
+#define	II_ARM_ARM_SHI_RENTAL03	25377
+#define	II_WEA_KNU_RENTAL03	25378
+#define	II_WEA_CHE_RENTAL03	25379
+#define	II_WEA_WAN_RENTAL03	25380
+#define	II_WEA_STA_RENTAL03	25381
+#define	II_WEA_BOW_RENTAL03	25382
+#define	II_WEA_YOY_RENTAL03	25383
+#define	II_WEA_SWO_RENTAL04	25384
+#define	II_WEA_SWT_RENTAL04	25385
+#define	II_WEA_AXE_RENTAL04	25386
+#define	II_WEA_AXT_RENTAL04	25387
+#define	II_ARM_ARM_SHI_RENTAL04	25388
+#define	II_WEA_KNU_RENTAL04	25389
+#define	II_WEA_CHE_RENTAL04	25390
+#define	II_WEA_WAN_RENTAL04	25391
+#define	II_WEA_STA_RENTAL04	25392
+#define	II_WEA_BOW_RENTAL04	25393
+#define	II_WEA_YOY_RENTAL04	25394
+// 21ï¿½ï¿½ ï¿½ï¿½Å» ï¿½ï¿½î±¸		
+#define	II_ARM_F_BOOTS_SET_RENTAL01	25395
+#define	II_ARM_F_GAUNTLET_SET_RENTAL01	25396
+#define	II_ARM_F_HELMET_SET_RENTAL01	25397
+#define	II_ARM_F_SUIT_SET_RENTAL01	25398
+#define	II_ARM_F_BOOTS_SET_RENTAL02	25399
+#define	II_ARM_F_GAUNTLET_SET_RENTAL02	25400
+#define	II_ARM_F_HELMET_SET_RENTAL02	25401
+#define	II_ARM_F_SUIT_SET_RENTAL02	25402
+#define	II_ARM_F_BOOTS_SET_RENTAL03	25403
+#define	II_ARM_F_GAUNTLET_SET_RENTAL03	25404
+#define	II_ARM_F_HELMET_SET_RENTAL03	25405
+#define	II_ARM_F_SUIT_SET_RENTAL03	25406
+#define	II_ARM_F_BOOTS_SET_RENTAL04	25407
+#define	II_ARM_F_GAUNTLET_SET_RENTAL04	25408
+#define	II_ARM_F_HELMET_SET_RENTAL04	25409
+#define	II_ARM_F_SUIT_SET_RENTAL04	25410
+#define	II_ARM_M_BOOTS_SET_RENTAL01	25411
+#define	II_ARM_M_GAUNTLET_SET_RENTAL01	25412
+#define	II_ARM_M_HELMET_SET_RENTAL01	25413
+#define	II_ARM_M_SUIT_SET_RENTAL01	25414
+#define	II_ARM_M_BOOTS_SET_RENTAL02	25415
+#define	II_ARM_M_GAUNTLET_SET_RENTAL02	25416
+#define	II_ARM_M_HELMET_SET_RENTAL02	25417
+#define	II_ARM_M_SUIT_SET_RENTAL02	25418
+#define	II_ARM_M_BOOTS_SET_RENTAL03	25419
+#define	II_ARM_M_GAUNTLET_SET_RENTAL03	25420
+#define	II_ARM_M_HELMET_SET_RENTAL03	25421
+#define	II_ARM_M_SUIT_SET_RENTAL03	25422
+#define	II_ARM_M_BOOTS_SET_RENTAL04	25423
+#define	II_ARM_M_GAUNTLET_SET_RENTAL04	25424
+#define	II_ARM_M_HELMET_SET_RENTAL04	25425
+#define	II_ARM_M_SUIT_SET_RENTAL04	25426
+// 21ï¿½ï¿½ ï¿½ï¿½Å» ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_F_RENTAL01	25427
+#define	II_SYS_SYS_SCR_F_RENTAL02	25428
+#define	II_SYS_SYS_SCR_F_RENTAL03	25429
+#define	II_SYS_SYS_SCR_F_RENTAL04	25430
+#define	II_SYS_SYS_SCR_M_RENTAL01	25431
+#define	II_SYS_SYS_SCR_M_RENTAL02	25432
+#define	II_SYS_SYS_SCR_M_RENTAL03	25433
+#define	II_SYS_SYS_SCR_M_RENTAL04	25434
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½Å©ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_ENCHANT_ABSOLUTE06	25435
+#define	II_SYS_SYS_SCR_ENCHANT_ABSOLUTE07	25436
+#define	II_SYS_SYS_SCR_ENCHANT_ABSOLUTE08	25437
+#define	II_SYS_SYS_SCR_ENCHANT_ABSOLUTE09	25438
+#define	II_SYS_SYS_SCR_ENCHANT_ABSOLUTE10	25439
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_CLO_GUILD	25440
+// ï¿½ï¿½ï¿½×µï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_GEN_GEM_GEM_YGGBRANCH	25441
+#define	II_GEN_GEM_GEM_DRYADSPIRITS	25442
+#define	II_GEN_GEM_GEM_QUEENJAW	25443
+#define	II_GEN_GEM_GEM_GUARDJAW	25444
+#define	II_GEN_GEM_GEM_BUGBACKSKIN	25445
+#define	II_GEN_GEM_GEM_ANTJUICE	25446
+#define	II_GEN_GEM_GEM_HUGEBRANCH	25447
+#define	II_GEN_GEM_GEM_NAIPHINBRANCH	25448
+#define	II_GEN_GEM_GEM_HARDBRANCH	25449
+#define	II_GEN_GEM_GEM_SOFTBRANCH	25450
+// 21ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½Å»ï¿½ï¿½)		
+#define	II_GEN_DAILY_QUEST5	25451
+#define	II_GEN_DAILY_QUEST6	25452
+#define	II_GEN_DAILY_QUEST7	25453
+#define	II_GEN_DAILY_QUEST8	25454
+// ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½Í¸ï¿½		
+#define	II_GEN_TOO_COL_SILVERBATTERY_P	25455
+#define	II_GEN_TOO_COL_GOLDBATTERY_P	25456
+#define	II_GEN_TOO_COL_BATTERY001_P	25457
+// ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ Æ¼ï¿½ï¿½		
+#define	II_SYS_TICKET_PRIMARKET01	25458
+#define	II_SYS_TICKET_PRIMARKET02	25459
+#define	II_SYS_TICKET_PRIMARKET03	25460
+// ï¿½Ù·ç³ª ï¿½ï¿½È­ È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_SMELTING_BARUNA	25461
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_ENCHANT_ABSOLUTE_BOX	25462
+// 21ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)		
+#define	II_GEN_DAILY_QUEST9	25463
+#define	II_GEN_DAILY_QUEST10	25464
+#define	II_GEN_DAILY_QUEST11	25465
+#define	II_GEN_DAILY_QUEST12	25466
+#define	II_GEN_DAILY_QUEST13	25467
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_CLO_DARKDEVIL	25468
+#define	II_SYS_SYS_GUILD_BOX	25469
+#define	II_SYS_SYS_GUILD_GOOD_BOX	25470
+// ï¿½ë¸¸ ï¿½ï¿½Ã» ï¿½Ú½ï¿½Æ¬ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_2018_RANDOMSKI_M	25471
+#define	II_SYS_SYS_2018_RANDOMSKI_F	25472
+#define	II_SYS_SYS_2018_RANDOMWOLF_M	25473
+#define	II_SYS_SYS_2018_RANDOMWOLF_F	25474
+#define	II_ARM_M_CHR_SNOWBOARDER01HAT_2018	25475
+#define	II_ARM_M_CHR_SNOWBOARDER01SUIT_2018	25476
+#define	II_ARM_M_CHR_SNOWBOARDER01GLOVES_2018	25477
+#define	II_ARM_M_CHR_SNOWBOARDER01SHOES_2018	25478
+#define	II_SYS_SYS_SCR_BXMSNOWBOARDER2018	25479
+#define	II_ARM_F_CHR_SNOWBOARDER01HAT_2018	25480
+#define	II_ARM_F_CHR_SNOWBOARDER01SUIT_2018	25481
+#define	II_ARM_F_CHR_SNOWBOARDER01GLOVES_2018	25482
+#define	II_ARM_F_CHR_SNOWBOARDER01SHOES_2018	25483
+#define	II_SYS_SYS_SCR_BXFSNOWBOARDER2018	25484
+#define	II_ARM_M_CHR_FAIRYTALE01HAT_2018	25485
+#define	II_ARM_M_CHR_FAIRYTALE01SUIT_2018	25486
+#define	II_ARM_M_CHR_FAIRYTALE01GLOVES_2018	25487
+#define	II_ARM_M_CHR_FAIRYTALE01SHOES_2018	25488
+#define	II_SYS_SYS_SCR_BXMFAIRYTALE01_2018	25489
+#define	II_ARM_F_CHR_FAIRYTALE01HAT_2018	25490
+#define	II_ARM_F_CHR_FAIRYTALE01SUIT_2018	25491
+#define	II_ARM_F_CHR_FAIRYTALE01GLOVES_2018	25492
+#define	II_ARM_F_CHR_FAIRYTALE01SHOES_2018	25493
+#define	II_SYS_SYS_SCR_BXFFAIRYTALE01_2018	25494
+// 2018 ï¿½ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_KOREAN05HAT	25495
+#define	II_ARM_M_CHR_KOREAN05SUIT	25496
+#define	II_ARM_M_CHR_KOREAN05GLOVES	25497
+#define	II_ARM_M_CHR_KOREAN05SHOES	25498
+#define	II_SYS_SYS_SCR_BXMKOREAN05	25499
+#define	II_ARM_F_CHR_KOREAN05HAT	25500
+#define	II_ARM_F_CHR_KOREAN05SUIT	25501
+#define	II_ARM_F_CHR_KOREAN05GLOVES	25502
+#define	II_ARM_F_CHR_KOREAN05SHOES	25503
+#define	II_SYS_SYS_SCR_BXFKOREAN05	25504
+// FWC ï¿½Ç»ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_MAZURITENOBLECLOTH	25505               // [InGame Shop]
+#define	II_ARM_M_MAZURITENOBLEGLOVE	25506               // [InGame Shop]
+#define	II_ARM_M_MAZURITENOBLESHOES	25507               // [InGame Shop]
+#define	II_ARM_M_MAZURITENOBLEHAT	25508               // [InGame Shop]
+#define	II_SYS_SYS_SCR_M_MAZURITENOBLEBOX	25509       // [InGame Shop]
+#define	II_ARM_F_FAZURITENOBLECLOTH	25510               // [InGame Shop]
+#define	II_ARM_F_FAZURITENOBLEGLOVE	25511               // [InGame Shop]
+#define	II_ARM_F_FAZURITENOBLESHOES	25512               // [InGame Shop]
+#define	II_ARM_F_FAZURITENOBLEHAT	25513               // [InGame Shop]
+#define	II_SYS_SYS_SCR_F_FAZURITENOBLEBOX	25514       // [InGame Shop]
+#define	II_ARM_M_MDARKPRINCECLOTH	25515               // [InGame Shop]
+#define	II_ARM_M_MDARKPRINCEGLOVE	25516               // [InGame Shop]
+#define	II_ARM_M_MDARKPRINCESHOES	25517               // [InGame Shop]
+#define	II_ARM_M_MDARKPRINCEHAT	25518                   // [InGame Shop]
+#define	II_SYS_SYS_SCR_M_MDARKPRINCEBOX	25519           // [InGame Shop]
+#define	II_ARM_F_FDARKPRINCESSCLOTH	25520               // [InGame Shop]
+#define	II_ARM_F_FDARKPRINCESSGLOVE	25521               // [InGame Shop]
+#define	II_ARM_F_FDARKPRINCESSSHOES	25522               // [InGame Shop]
+#define	II_ARM_F_FDARKPRINCESSHAT	25523               // [InGame Shop]
+#define	II_SYS_SYS_SCR_F_FDARKPRINCESSBOX	25524       // [InGame Shop]
+#define	II_ARM_M_MREGALCLOTH	25525                   // [InGame Shop]
+#define	II_ARM_M_MREGALGLOVE	25526                   // [InGame Shop]
+#define	II_ARM_M_MREGALSHOES	25527                   // [InGame Shop]
+#define	II_ARM_M_MREGALHAT	25528                       // [InGame Shop]
+#define	II_SYS_SYS_SCR_M_MREGALBOX	25529               // [InGame Shop]
+#define	II_ARM_F_FREGALCLOTH	25530       	        // [InGame Shop]
+#define	II_ARM_F_FREGALGLOVE	25531       	        // [InGame Shop]
+#define	II_ARM_F_FREGALSHOES	25532       	        // [InGame Shop]
+#define	II_ARM_F_FREGALHAT	25533                       // [InGame Shop]
+#define	II_SYS_SYS_SCR_F_FREGALBOX	25534               // [InGame Shop]
+#define	II_ARM_M_MEMERALDCLOTH	25535                   // [InGame Shop]
+#define	II_ARM_M_MEMERALDGLOVE	25536                   // [InGame Shop]
+#define	II_ARM_M_MEMERALDSHOES	25537                   // [InGame Shop]
+#define	II_ARM_M_MEMERALDHAT	25538                   // [InGame Shop]
+#define	II_SYS_SYS_SCR_M_MEMERALDBOX	25539           // [InGame Shop]
+#define	II_ARM_F_FEMERALDCLOTH	25540                   // [InGame Shop]
+#define	II_ARM_F_FEMERALDGLOVE	25541                   // [InGame Shop]
+#define	II_ARM_F_FEMERALDSHOES	25542                   // [InGame Shop]
+#define	II_ARM_F_FEMERALDHAT	25543                   // [InGame Shop]
+#define	II_SYS_SYS_SCR_F_FEMERALDBOX	25544           // [InGame Shop]
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GUILD_BOX_1ST	25545
+#define	II_SYS_SYS_GUILD_BOX_2ND	25546
+#define	II_SYS_SYS_GUILD_BOX_3RD	25547
+// ï¿½Å±ï¿½ ï¿½Ç»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_M_NOBLE_RANDOMBOX	25548
+#define	II_SYS_SYS_SCR_F_NOBLE_RANDOMBOX	25549
+#define	II_SYS_SYS_SCR_M_DARKPRINCE_RANDOMBOX	25550
+#define	II_SYS_SYS_SCR_F_DARKPRINCESS_RANDOMBOX	25551
+#define	II_SYS_SYS_SCR_M_REGAL_RANDOMBOX	25552
+#define	II_SYS_SYS_SCR_F_REGAL_RANDOMBOX	25553
+#define	II_SYS_SYS_SCR_M_EMERALD_RANDOMBOX	25554
+#define	II_SYS_SYS_SCR_F_EMERALD_RANDOMBOX	25555
+// ï¿½ï¿½Ã½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_ENCHANT_ABSOLUTE_BOX_2	25556
+// ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_MSEAKINGCROWNBX_2018	25557
+#define	II_SYS_SYS_SCR_MSEAKINGCROWN_1BX_2018	25558
+#define	II_SYS_SYS_SCR_MSEAKINGCROWN_2BX_2018	25559
+#define	II_SYS_SYS_SCR_FSEAKINGCROWNBX_2018	25560
+#define	II_SYS_SYS_SCR_FSEAKINGCROWN_1BX_2018	25561
+#define	II_SYS_SYS_SCR_FSEAKINGCROWN_2BX_2018	25562
+// 2018 È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_BXDUMBULL_2018	25563
+// ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_JUMPUP	25564
+#define	II_SYS_SYS_EVE_MPSONGPYUN_2	25565
+#define	II_SYS_SYS_EVE_FPSONGPYUN_2	25566
+#define	II_GEN_FOO_PIL_GOLD_2	25567
+// 2018 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_CLO_RUSSIA_2018	25568
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_GUILD_COIN	25569
+// ï¿½Ù·ç³ª ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½		
+#define	II_GEN_MAT_ELE_PIERCECARD_SR_FIRE	25570
+#define	II_GEN_MAT_ELE_PIERCECARD_SR_WATER	25571
+#define	II_GEN_MAT_ELE_PIERCECARD_SR_ELECTRIC	25572
+#define	II_GEN_MAT_ELE_PIERCECARD_SR_LAND	25573
+#define	II_GEN_MAT_ELE_PIERCECARD_15_VOLCANO	25574
+#define	II_GEN_MAT_ELE_PIERCECARD_15_OCEAN	25575
+#define	II_GEN_MAT_ELE_PIERCECARD_15_VACCUM	25576
+#define	II_GEN_MAT_ELE_PIERCECARD_15_LIGHTING	25577
+#define	II_GEN_MAT_ELE_PIERCECARD_15_EARTHQUAKE	25578
+//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_CLO_SKELDEVIL_01	25579
+//ï¿½Å±ï¿½ ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_GEN_MAT_COSMOSTONE	25580
+#define	II_SYS_SYS_SCR_PIEPROT3	25581
+// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Â¸ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_LS_WINNERDIGNITY	25582
+#define	II_SYS_SYS_LS_SPLENDIDGLORY	25583
+// ï¿½Ù·ç³ª ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_GEN_MAT_BARUNA_CANCEL	25584
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_GUILD_BOX_1ST_02	25585
+// ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_SOCKET_CARD_BOX	25586
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_CARD_2011_N	25587
+#define	II_SYS_SYS_SCR_CARD_2011FWC_N	25588
+#define	II_GEN_POT_MASTER_WAR_1_N	    25589
+#define	II_GEN_POT_MASTER_MAG_1_N	    25590
+#define	II_GEN_POT_MASTER_ARC_1_N	    25591
+#define	II_SYS_SYS_SCR_KING_BUFF_N	    25592
+#define	II_SYS_SYS_SCR_QUEEN_BUFF_N	    25593
+#define	II_SYS_SYS_SCR_JACK_BUFF_N	    25594
+#define	II_SYS_SYS_SCR_ACE_BUFF_N	    25595
+#define	II_SYS_SYS_EVE_CANDY01_N	    25596
+#define	II_SYS_SYS_SCR_TELEPORTS_N	    25597
+#define	II_SYS_SYS_SCR_TELEPORTV_N	    25598
+#define	II_SYS_SYS_EVE_CHOCOLATE09_N	25599
+#define	II_SYS_SYS_EVE_CHRISTMASCAKE01_N	25600
+#define	II_SYS_SYS_EVE_GINGERBRADE01_N	25601
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_SUPERIOR_CARD_BOX	25602
+// 2018ï¿½ï¿½ Ä¥ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2018	25603
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_01	25604
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_02	25605
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_03	25606
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_04	25607
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_05	25608
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_06	25609
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_07	25610
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_08	25611
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_09	25612
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_10	25613
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_11	25614
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_12	25615
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_13	25616
+#define	II_SYS_SYS_SCR_PHILIPPINES_BOX_14	25617
+// 2018 ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_QUE_CANDY_BOX_2018	25618
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_KIN_BOOTS_SET_09_PH	25619
+#define	II_ARM_F_KIN_BOOTS_SET_09_PH	25620
+#define	II_ARM_M_KIN_GAUNTLET_SET_09_PH	25621
+#define	II_ARM_F_KIN_GAUNTLET_SET_09_PH	25622
+#define	II_ARM_M_KIN_HELMET_SET_09_PH	25623
+#define	II_ARM_F_KIN_HELMET_SET_09_PH	25624
+#define	II_ARM_M_KIN_SUIT_SET_09_PH	25625
+#define	II_ARM_F_KIN_SUIT_SET_09_PH	25626
+#define	II_ARM_M_BLA_BOOTS_SET_12_PH	25627
+#define	II_ARM_F_BLA_BOOTS_SET_12_PH	25628
+#define	II_ARM_M_BLA_GAUNTLET_SET_12_PH	25629
+#define	II_ARM_F_BLA_GAUNTLET_SET_12_PH	25630
+#define	II_ARM_M_BLA_HELMET_SET_12_PH	25631
+#define	II_ARM_F_BLA_HELMET_SET_12_PH	25632
+#define	II_ARM_M_BLA_SUIT_SET_12_PH	25633
+#define	II_ARM_F_BLA_SUIT_SET_12_PH	25634
+#define	II_ARM_M_JST_BOOTS_SET_15_PH	25635
+#define	II_ARM_F_JST_BOOTS_SET_15_PH	25636
+#define	II_ARM_M_JST_GAUNTLET_SET_15_PH	25637
+#define	II_ARM_F_JST_GAUNTLET_SET_15_PH	25638
+#define	II_ARM_M_JST_HELMET_SET_15_PH	25639
+#define	II_ARM_F_JST_HELMET_SET_15_PH	25640
+#define	II_ARM_M_JST_SUIT_SET_15_PH	25641
+#define	II_ARM_F_JST_SUIT_SET_15_PH	25642
+#define	II_ARM_M_RAG_BOOTS_SET_18_PH	25643
+#define	II_ARM_F_RAG_BOOTS_SET_18_PH	25644
+#define	II_ARM_M_RAG_GAUNTLET_SET_18_PH	25645
+#define	II_ARM_F_RAG_GAUNTLET_SET_18_PH	25646
+#define	II_ARM_M_RAG_HELMET_SET_18_PH	25647
+#define	II_ARM_F_RAG_HELMET_SET_18_PH	25648
+#define	II_ARM_M_RAG_SUIT_SET_18_PH	25649
+#define	II_ARM_F_RAG_SUIT_SET_18_PH	25650
+#define	II_ARM_M_RIN_BOOTS_SET_21_PH	25651
+#define	II_ARM_F_RIN_BOOTS_SET_21_PH	25652
+#define	II_ARM_M_RIN_GAUNTLET_SET_21_PH	25653
+#define	II_ARM_F_RIN_GAUNTLET_SET_21_PH	25654
+#define	II_ARM_M_RIN_HELMET_SET_21_PH	25655
+#define	II_ARM_F_RIN_HELMET_SET_21_PH	25656
+#define	II_ARM_M_RIN_SUIT_SET_21_PH	25657
+#define	II_ARM_F_RIN_SUIT_SET_21_PH	25658
+#define	II_ARM_M_BIL_BOOTS_SET_24_PH	25659
+#define	II_ARM_F_BIL_BOOTS_SET_24_PH	25660
+#define	II_ARM_M_BIL_GAUNTLET_SET_24_PH	25661
+#define	II_ARM_F_BIL_GAUNTLET_SET_24_PH	25662
+#define	II_ARM_M_BIL_HELMET_SET_24_PH	25663
+#define	II_ARM_F_BIL_HELMET_SET_24_PH	25664
+#define	II_ARM_M_BIL_SUIT_SET_24_PH	25665
+#define	II_ARM_F_BIL_SUIT_SET_24_PH	25666
+#define	II_ARM_M_PSY_BOOTS_SET_27_PH	25667
+#define	II_ARM_F_PSY_BOOTS_SET_27_PH	25668
+#define	II_ARM_M_PSY_GAUNTLET_SET_27_PH	25669
+#define	II_ARM_F_PSY_GAUNTLET_SET_27_PH	25670
+#define	II_ARM_M_PSY_HELMET_SET_27_PH	25671
+#define	II_ARM_F_PSY_HELMET_SET_27_PH	25672
+#define	II_ARM_M_PSY_SUIT_SET_27_PH	25673
+#define	II_ARM_F_PSY_SUIT_SET_27_PH	25674
+#define	II_ARM_M_ELE_BOOTS_SET_30_PH	25675
+#define	II_ARM_F_ELE_BOOTS_SET_30_PH	25676
+#define	II_ARM_M_ELE_GAUNTLET_SET_30_PH	25677
+#define	II_ARM_F_ELE_GAUNTLET_SET_30_PH	25678
+#define	II_ARM_M_ELE_HELMET_SET_30_PH	25679
+#define	II_ARM_F_ELE_HELMET_SET_30_PH	25680
+#define	II_ARM_M_ELE_SUIT_SET_30_PH	25681
+#define	II_ARM_F_ELE_SUIT_SET_30_PH	25682
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_M_WEES_BOX	25683
+#define	II_SYS_SYS_SCR_F_WEES_BOX	25684
+#define	II_SYS_SYS_SCR_M_DAYST_BOX	25685
+#define	II_SYS_SYS_SCR_F_DAYST_BOX	25686
+#define	II_SYS_SYS_SCR_M_RESTRA_BOX	25687
+#define	II_SYS_SYS_SCR_F_RESTRA_BOX	25688
+#define	II_SYS_SYS_SCR_M_ASREN_BOX	25689
+#define	II_SYS_SYS_SCR_F_ASREN_BOX	25690
+#define	II_SYS_SYS_SCR_M_SHUPON_BOX	25691
+#define	II_SYS_SYS_SCR_F_SHUPON_BOX	25692
+#define	II_SYS_SYS_SCR_M_AKENT_BOX	25693
+#define	II_SYS_SYS_SCR_F_AKENT_BOX	25694
+#define	II_SYS_SYS_SCR_M_GENIUN_BOX	25695
+#define	II_SYS_SYS_SCR_F_GENIUN_BOX	25696
+#define	II_SYS_SYS_SCR_M_ELDER_BOX	25697
+#define	II_SYS_SYS_SCR_F_ELDER_BOX	25698
+// 21ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_CLO_MAZURITENOBLE	25699       // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_MDARKPRINCE	25700       // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_MREGAL	25701               // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_MEMERALD	25702           // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_FAZURITENOBLE	25703       // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_FDARKPRINCE	25704       // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_FREGAL	25705               // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_FEMERALD	25706           // [InGame Shop]
+// 21ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_MNOBLE_CLOAK_BOX	25707
+#define	II_SYS_SYS_SCR_FNOBLE_CLOAK_BOX	25708
+#define	II_SYS_SYS_SCR_MDARKP_CLOAK_BOX	25709
+#define	II_SYS_SYS_SCR_FDARKP_CLOAK_BOX	25710
+#define	II_SYS_SYS_SCR_MREGAL_CLOAK_BOX	25711
+#define	II_SYS_SYS_SCR_FREGAL_CLOAK_BOX	25712
+#define	II_SYS_SYS_SCR_MEMERALD_CLOAK_BOX	25713
+#define	II_SYS_SYS_SCR_FEMERALD_CLOAK_BOX	25714
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ä¿ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_POWERBOX01_PH	25715
+#define	II_SYS_SYS_SCR_POWERBOX02_PH	25716
+#define	II_SYS_SYS_SCR_POWERBOX03_PH	25717
+// 21ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ë¸¸ï¿½ï¿½
+#define	II_SYS_SYS_SCR_MNOBLE_CLOAK_BOX_TW	25718
+#define	II_SYS_SYS_SCR_FNOBLE_CLOAK_BOX_TW	25719
+#define	II_SYS_SYS_SCR_MDARKP_CLOAK_BOX_TW	25720
+#define	II_SYS_SYS_SCR_FDARKP_CLOAK_BOX_TW	25721
+#define	II_SYS_SYS_SCR_MREGAL_CLOAK_BOX_TW	25722
+#define	II_SYS_SYS_SCR_FREGAL_CLOAK_BOX_TW	25723
+#define	II_SYS_SYS_SCR_MEMERALD_CLOAK_BOX_TW	25724
+#define	II_SYS_SYS_SCR_FEMERALD_CLOAK_BOX_TW	25725
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 90ï¿½ï¿½ ï¿½Ç»ï¿½Æ®
+#define	II_ARM_M_MSEAKINGLOOKUPPER_PH	25726
+#define	II_ARM_M_MSEAKINGLOOKHAND_PH	25727
+#define	II_ARM_M_MSEAKINGLOOKFOOT_PH	25728
+#define	II_ARM_M_MSEAKINGLOOKCAP_PH	25729
+#define	II_ARM_F_FSEAKINGLOOKUPPER_PH	25730
+#define	II_ARM_F_FSEAKINGLOOKHAND_PH	25731
+#define	II_ARM_F_FSEAKINGLOOKFOOT_PH	25732
+#define	II_ARM_F_FSEAKINGLOOKCAP_PH	25733
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_PH	25734
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_PH	25735
+#define	II_ARM_S_CLO_CLO_MSEAKING01_PH	25736
+#define	II_ARM_S_CLO_CLO_FSEAKING01_PH	25737
+#define	II_ARM_M_CHR_CASUAL01HAT_2015_PH	25738
+#define	II_ARM_M_CHR_CASUAL01SUIT_2015_PH	25739
+#define	II_ARM_M_CHR_CASUAL01GLOVES_2015_PH	25740
+#define	II_ARM_M_CHR_CASUAL01SHOES_2015_PH	25741
+#define	II_ARM_F_CHR_CASUAL01HAT_2015_PH	25742
+#define	II_ARM_F_CHR_CASUAL01SUIT_2015_PH	25743
+#define	II_ARM_F_CHR_CASUAL01GLOVES_2015_PH	25744
+#define	II_ARM_F_CHR_CASUAL01SHOES_2015_PH	25745
+#define	II_SYS_SYS_SCR_MDRAGONKING_BOX_PH	25746
+#define	II_SYS_SYS_SCR_FDRAGONKING_BOX_PH	25747
+#define	II_SYS_SYS_SCR_2015MCASUAL_BOX_PH	25748
+#define	II_SYS_SYS_SCR_2015FCASUAL_BOX_PH	25749
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 12ï¿½ï¿½ FUN ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_DECFUNBOX01_PH	25750
+#define	II_SYS_SYS_SCR_DECFUNBOX02_PH	25751
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ç¸®
+#define	II_GEN_JEW_RIN_RUDOLPHRING_PH	25752
+#define	II_GEN_JEW_NEC_RUDOLPHNECKLACE_PH	25753
+#define	II_GEN_JEW_EAR_RUDOLPHEARRING_PH	25754
+#define	II_SYS_SYS_SCR_RUDOLPHJEWELLERYBX_PH	25755
+#define	II_GEN_JEW_RIN_CHRISTMAS_RING_PH	25756
+#define	II_GEN_JEW_NEC_CHRISTMAS_NECKLACE_PH	25757
+#define	II_GEN_JEW_EAR_CHRISTMAS_EARRING_PH	25758
+#define	II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_PH	25759
+// 2018 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2018	25760
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2018_PH	25761
+#define	II_SYS_SYS_CHRISTMASBOX_PET_2018	25762
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2018	25763
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_2018	25764
+#define	II_SYS_SYS_CHRISTMASBOX_MASK_2018	25765
+#define	II_SYS_SYS_CHRISTMASBOX_PREMIUM_2018	25766
+// ï¿½Â±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½
+#define	II_CHR_SYS_SCR_ACTIVITION_NOTRADE	25767
+#define	II_ARM_S_CLO_CLO_OMG2_NOTRADE	25768
+#define	II_SYS_SYS_SCR_THAILAND_STARTBOX	25769
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 12ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_MSEAKINGLOOKUPPER_PH02	25770
+#define	II_ARM_M_MSEAKINGLOOKHAND_PH02	25771
+#define	II_ARM_M_MSEAKINGLOOKFOOT_PH02	25772
+#define	II_ARM_M_MSEAKINGLOOKCAP_PH02	25773
+#define	II_ARM_F_FSEAKINGLOOKUPPER_PH02	25774
+#define	II_ARM_F_FSEAKINGLOOKHAND_PH02	25775
+#define	II_ARM_F_FSEAKINGLOOKFOOT_PH02	25776
+#define	II_ARM_F_FSEAKINGLOOKCAP_PH02	25777
+#define	II_ARM_M_CHR_CASUAL01HAT_2015_PH02	25778
+#define	II_ARM_M_CHR_CASUAL01SUIT_2015_PH02	25779
+#define	II_ARM_M_CHR_CASUAL01GLOVES_2015_PH02	25780
+#define	II_ARM_M_CHR_CASUAL01SHOES_2015_PH02	25781
+#define	II_ARM_F_CHR_CASUAL01HAT_2015_PH02	25782
+#define	II_ARM_F_CHR_CASUAL01SUIT_2015_PH02	25783
+#define	II_ARM_F_CHR_CASUAL01GLOVES_2015_PH02	25784
+#define	II_ARM_F_CHR_CASUAL01SHOES_2015_PH02	25785
+#define	II_SYS_SYS_SCR_MDRAGONKING_BOX_PH02	25786
+#define	II_SYS_SYS_SCR_FDRAGONKING_BOX_PH02	25787
+#define	II_SYS_SYS_SCR_2015MCASUAL_BOX_PH02	25788
+#define	II_SYS_SYS_SCR_2015FCASUAL_BOX_PH02	25789
+#define	II_RID_RID_WIN_ANGEL01_PH	25790
+#define	II_RID_RID_WIN_BUTTERFLY01_PH	25791
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 12ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½ 2
+#define	II_SYS_SYS_SCR_DECFUNBOX03_PH	25792
+#define	II_SYS_SYS_SCR_DECFUNBOX04_PH	25793
+#define	II_SYS_SYS_SCR_DECFUNBOX05_PH	25794
+// ï¿½Å±ï¿½ ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_PUMKSOUP_N	25795
+#define	II_SYS_SYS_SCR_URICNOODLE_N	25796
+#define	II_CHR_FOO_COO_BULLHAMS_2019	25797
+// 2019 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_ARM_M_MDEMONKORDRES_UPPER_2019	25798
+#define	II_ARM_M_MDEMONKORDRES_HAND_2019	25799
+#define	II_ARM_M_MDEMONKORDRES_FOOT_2019	25800
+#define	II_ARM_M_MDEMONKORDRES_HAT_2019	25801
+#define	II_SYS_SYS_MHANBOK_PACK_2019	25802
+#define	II_ARM_F_FDEMONKORDRES_UPPER_2019	25803
+#define	II_ARM_F_FDEMONKORDRES_HAND_2019	25804
+#define	II_ARM_F_FDEMONKORDRES_FOOT_2019	25805
+#define	II_ARM_F_FDEMONKORDRES_HAT_2019	25806
+#define	II_SYS_SYS_FHANBOK_PACK_2019	25807
+#define	II_SYS_SYS_SCR_BXMHAN30_2019	25808
+#define	II_SYS_SYS_SCR_BXFHAN30_2019	25809
+#define	II_ARM_M_CHR_KOREAN01SUIT_2019	25810
+#define	II_ARM_M_CHR_KOREAN01SHOES_2019	25811
+#define	II_ARM_F_CHR_KOREAN01HAT_2019	25812
+#define	II_ARM_F_CHR_KOREAN01SUIT_2019	25813
+#define	II_ARM_F_CHR_KOREAN01SHOES_2019	25814
+#define	II_SYS_SYS_SCR_BUFF_BOX	25815
+#define	II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2019	25816
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_GUILD_BOX_PH	25817
+#define	II_SYS_SYS_GUILD_GOOD_BOX_PH	25818
+#define	II_SYS_SYS_GUILD_BOX_1ST_PH	25819
+#define	II_SYS_SYS_GUILD_BOX_2ND_PH	25820
+#define	II_SYS_SYS_GUILD_BOX_3RD_PH	25821
+#define	II_SYS_SYS_GUILD_BOX_1ST_02_PH	25822
+#define	II_ARM_S_CLO_CLO_DARKDEVIL_PH	25823
+#define	II_ARM_S_CLO_CLO_GUILD_PH	25824
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 1ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_JANFUNBOX01_PH	25825
+#define	II_SYS_SYS_SCR_JANFUNBOX02_PH	25826
+//ï¿½Â±ï¿½ï¿½ï¿½Ã» 1ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_JANFUNBOX01_TH	25827
+#define	II_SYS_SYS_SCR_JANFUNBOX02_TH	25828
+#define	II_SYS_SYS_SCR_JANFUNBOX03_TH	25829
+// ï¿½Ñ±ï¿½ VIP ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_VIPBOX_01	25830
+#define	II_SYS_SYS_SCR_VIPBOX_02	25831
+#define	II_SYS_SYS_SCR_VIPBOX_03	25832
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_FEBFUNBOX01_PH	25833
+#define	II_SYS_SYS_SCR_FEBFUNBOX02_PH	25834
+#define	II_SYS_SYS_SCR_FEBFUNBOX03_PH	25835
+// 1ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î·ç¸¶ï¿½ï¿½
+#define	II_SYS_SYS_SCR_EXPSCROLL03_HOUR	25836
+#define	II_SYS_SYS_SCR_EXPSCROLL04_HOUR	25837
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ê¸ï¿½Æ® ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_TOURNAMENTBOX01_PH	25838
+#define	II_SYS_SYS_SCR_TOURNAMENTBOX02_PH	25839
+#define	II_SYS_SYS_SCR_TOURNAMENTBOX03_PH	25840
+#define	II_SYS_SYS_SCR_TOURNAMENTBOX04_PH	25841
+// 2019 valentain
+#define	II_SYS_SYS_EVE_GIFTBOX_JESSICA_2015_PH	25842
+#define	II_SYS_SYS_EVE_GIFTTBOX_NANA_2015_PH	25843
+#define	II_SYS_SYS_EVE_GIFTBOX_JESSICA_2019	25844
+#define	II_SYS_SYS_EVE_GIFTTBOX_NANA_2019	25845
+#define	II_SYS_SYS_EVE_LOVEBOX_JESSICA_2019	25846
+#define	II_SYS_SYS_EVE_JESSICAS_RING_2019	25847
+#define	II_SYS_SYS_EVE_LOVEBOX_NANA_2019	25848
+#define	II_SYS_SYS_EVE_NANAS_RING_2019	25849
+// PH newbie box
+#define	II_SYS_SYS_SCR_SUPPORTBOX_PH	25850
+// TH Feb Funbox
+#define	II_SYS_SYS_SCR_FEBFUNBOX01_TH	25851
+#define	II_SYS_SYS_SCR_FEBFUNBOX02_TH	25852
+#define	II_SYS_SYS_SCR_FEBFUNBOX03_TH	25853
+#define	II_SYS_SYS_SCR_FEBFUNBOX04_TH	25854
+#define	II_SYS_SYS_SCR_FEBFUNBOX05_TH	25855
+#define	II_SYS_SYS_SCR_FEBFUNBOX06_TH	25856
+#define	II_SYS_SYS_SCR_FEBFUNBOX07_TH	25857
+#define	II_SYS_SYS_SCR_FEBFUNBOX08_TH	25858
+#define	II_SYS_SYS_SCR_FEBFUNBOX09_TH	25859
+#define	II_SYS_SYS_SCR_FEBFUNBOX10_TH	25860
+#define	II_SYS_SYS_SCR_FEBFUNBOX11_TH	25861
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ê¸ï¿½Æ® ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_FWCCHAMPION_PH	25862
+// 2019 ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Æ®ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_CLOVERBOX_2019	25863
+// 2019 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_PUMPKIN01_PH	25864
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½â°£ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_RISINGSUN_F_BOX_PH	25865
+#define	II_SYS_SYS_SCR_RISINGSUN_M_BOX_PH	25866
+#define	II_SYS_SYS_SCR_FPC_F_BOX_PH	25867
+#define	II_SYS_SYS_SCR_FPC_M_BOX_PH	25868
+#define	II_SYS_SYS_SCR_FPCCLOAK_BOX_PH	25869
+#define	II_SYS_SYS_SCR_FPCMASK_BOX_PH	25870
+#define	II_SYS_SYS_SCR_FPCWING_BOX_PH	25871
+#define	II_ARM_RISINGSUN_FSUIT	25872
+#define	II_ARM_RISINGSUN_FHELMET	25873
+#define	II_ARM_RISINGSUN_FGAUNTLET	25874
+#define	II_ARM_RISINGSUN_FBOOTS	25875
+#define	II_ARM_RISINGSUN_MSUIT	25876
+#define	II_ARM_RISINGSUN_MHELMET	25877
+#define	II_ARM_RISINGSUN_MGAUNTLET	25878
+#define	II_ARM_RISINGSUN_MBOOTS	25879
+#define	II_ARM_FPC_MSUIT	25880
+#define	II_ARM_FPC_MHELMET	25881
+#define	II_ARM_FPC_MGAUNTLET	25882
+#define	II_ARM_FPC_MBOOTS	25883
+#define	II_ARM_FPC_FSUIT	25884
+#define	II_ARM_FPC_FHELMET	25885
+#define	II_ARM_FPC_FGAUNTLET	25886
+#define	II_ARM_FPC_FBOOTS	25887
+#define	II_ARM_S_CLO_CLO_FPC	25888
+#define	II_ARM_S_CLO_MAS_FPC	25889
+#define	II_RID_RID_WIN_FPC	25890
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2019 ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_JESSICAS_RING_2019_EU	25891
+#define	II_SYS_SYS_EVE_NANAS_RING_2019_EU	25892
+// FLY coin
+#define	II_SYS_SYS_SCR_FLYCOIN	25893
+// ï¿½Â±ï¿½ ï¿½ï¿½Ã» 4ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_APRFUNBOX01_TH	25894
+#define	II_SYS_SYS_SCR_APRFUNBOX02_TH	25895
+#define	II_SYS_SYS_SCR_APRFUNBOX03_TH	25896
+#define	II_SYS_SYS_SCR_APRFUNBOX04_TH	25897
+#define	II_SYS_SYS_SCR_APRFUNBOX05_TH	25898
+#define	II_SYS_SYS_SCR_APRFUNBOX06_TH	25899
+#define	II_SYS_SYS_SCR_APRFUNBOX07_TH	25900
+#define	II_SYS_SYS_SCR_APRFUNBOX08_TH	25901
+#define	II_SYS_SYS_SCR_APRFUNBOX09_TH	25902
+#define	II_SYS_SYS_SCR_APRFUNBOX10_TH	25903
+#define	II_SYS_SYS_SCR_APRFUNBOX11_TH	25904
+#define	II_SYS_SYS_SCR_APRFUNBOX12_TH	25905
+#define	II_SYS_SYS_SCR_APRFUNBOX13_TH	25906
+#define	II_SYS_SYS_SCR_APRFUNBOX14_TH	25907
+#define	II_SYS_SYS_SCR_APRFUNBOX15_TH	25908
+#define	II_SYS_SYS_SCR_APRFUNBOX16_TH	25909
+#define	II_SYS_SYS_SCR_APRFUNBOX17_TH	25910
+#define	II_SYS_SYS_SCR_APRFUNBOX18_TH	25911
+#define	II_SYS_SYS_SCR_APRFUNBOX19_TH	25912
+#define	II_SYS_SYS_SCR_APRFUNBOX20_TH	25913
+#define	II_SYS_SYS_SCR_APRFUNBOX21_TH	25914
+#define	II_SYS_SYS_SCR_APRFUNBOX22_TH	25915
+#define	II_SYS_SYS_SCR_APRFUNBOX23_TH	25916
+#define	II_SYS_SYS_SCR_APRFUNBOX24_TH	25917
+#define	II_SYS_SYS_SCR_APRFUNBOX25_TH	25918
+#define	II_SYS_SYS_SCR_APRFUNBOX26_TH	25919
+#define	II_SYS_SYS_SCR_APRFUNBOX27_TH	25920
+#define	II_SYS_SYS_SCR_APRFUNBOX28_TH	25921
+#define	II_SYS_SYS_SCR_APRFUNBOX29_TH	25922
+#define	II_SYS_SYS_SCR_APRFUNBOX30_TH	25923
+#define	II_SYS_SYS_SCR_APRFUNBOX31_TH	25924
+#define	II_SYS_SYS_SCR_APRFUNBOX32_TH	25925
+#define	II_SYS_SYS_SCR_APRFUNBOX33_TH	25926
+#define	II_SYS_SYS_SCR_APRFUNBOX34_TH	25927
+#define	II_SYS_SYS_SCR_APRFUNBOX35_TH	25928
+#define	II_SYS_SYS_SCR_APRFUNBOX36_TH	25929
+#define	II_SYS_SYS_SCR_APRFUNBOX37_TH	25930
+#define	II_SYS_SYS_SCR_APRFUNBOX38_TH	25931
+// ï¿½Â±ï¿½ 4ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_S_CLO_CLO_DROPBLOCK_01	25932
+#define	II_ARM_S_CLO_CLO_DROPBLOCK_07	25933
+#define	II_ARM_S_CLO_CLO_DROPBLOCK_14	25934
+#define	II_ARM_S_CLO_CLO_SCHOOL_01	25935
+#define	II_ARM_S_CLO_CLO_SCHOOL_07	25936
+#define	II_ARM_S_CLO_CLO_SCHOOL_14	25937
+#define	II_ARM_S_CLO_CLO_EXPDEF_01	25938
+#define	II_ARM_S_CLO_CLO_EXPDEF_07	25939
+#define	II_ARM_S_CLO_CLO_EXPDEF_14	25940
+// ï¿½Â±ï¿½ 4ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_APRCOSBOX01_TH	25941
+#define	II_SYS_SYS_SCR_APRCOSBOX02_TH	25942
+#define	II_SYS_SYS_SCR_APRCOSBOX03_TH	25943
+#define	II_SYS_SYS_SCR_APRCOSBOX04_TH	25944
+#define	II_SYS_SYS_SCR_APRCOSBOX05_TH	25945
+#define	II_SYS_SYS_SCR_APRCOSBOX06_TH	25946
+#define	II_SYS_SYS_SCR_APRCOSBOX07_TH	25947
+#define	II_SYS_SYS_SCR_APRCOSBOX08_TH	25948
+#define	II_SYS_SYS_SCR_APRCOSBOX09_TH	25949
+#define	II_SYS_SYS_SCR_APRCOSBOX10_TH	25950
+#define	II_SYS_SYS_SCR_APRCOSBOX11_TH	25951
+#define	II_SYS_SYS_SCR_APRCOSBOX12_TH	25952
+// ï¿½Â±ï¿½ 4ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬		
+#define	II_ARM_M_CHR_SHOWERHAT_TH	25953
+#define	II_ARM_M_CHR_SHOWERSUIT_TH	25954
+#define	II_ARM_M_CHR_SHOWERGLOVES_TH	25955
+#define	II_ARM_M_CHR_SHOWERSHOES_TH	25956
+#define	II_ARM_F_CHR_SHOWERHAT_TH	25957
+#define	II_ARM_F_CHR_SHOWERSUIT_TH	25958
+#define	II_ARM_F_CHR_SHOWERGLOVES_TH	25959
+#define	II_ARM_F_CHR_SHOWERSHOES_TH	25960
+#define	II_ARM_M_CHR_SOCCER03SUIT_TH	25961
+#define	II_ARM_M_CHR_SOCCER03SHOES_TH	25962
+#define	II_ARM_F_CHR_SOCCER03SUIT_TH	25963
+#define	II_ARM_F_CHR_SOCCER03SHOES_TH	25964
+#define	II_ARM_M_CHR_KOREAN04HAT_TH	25965
+#define	II_ARM_M_CHR_KOREAN04SUIT_TH	25966
+#define	II_ARM_M_CHR_KOREAN04GLOVES_TH	25967
+#define	II_ARM_M_CHR_KOREAN04SHOES_TH	25968
+#define	II_ARM_F_CHR_KOREAN04HAT_TH	25969
+#define	II_ARM_F_CHR_KOREAN04SUIT_TH	25970
+#define	II_ARM_F_CHR_KOREAN04GLOVES_TH	25971
+#define	II_ARM_F_CHR_KOREAN04SHOES_TH	25972
+#define	II_ARM_M_CHR_CHINESE01HAT_TH	25973
+#define	II_ARM_M_CHR_CHINESE01SUIT_TH	25974
+#define	II_ARM_M_CHR_CHINESE01GLOVES_TH	25975
+#define	II_ARM_M_CHR_CHINESE01SHOES_TH	25976
+#define	II_ARM_F_CHR_MARTIALART01HAT_TH	25977
+#define	II_ARM_F_CHR_MARTIALART01SUIT_TH	25978
+#define	II_ARM_F_CHR_MARTIALART01GLOVES_TH	25979
+#define	II_ARM_F_CHR_MARTIALART01SHOES_TH	25980
+#define	II_ARM_F_CHR_SWIM09UPPER_TH	25981
+#define	II_ARM_F_CHR_SWIM09GLOVES_TH	25982
+#define	II_ARM_F_CHR_SWIM09FOOT_TH	25983
+#define	II_ARM_M_CHR_SWIM03UPPER_TH	25984
+#define	II_ARM_M_CHR_SWIM03FOOT_TH	25985
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 4ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_APRFUNBOX01_PH	27000
+#define	II_SYS_SYS_SCR_APRFUNBOX02_PH	27001
+#define	II_SYS_SYS_SCR_APRFUNBOX03_PH	27002
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 4ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬		
+#define	II_SYS_SYS_SCR_FPCWIN_F_BOX_PH	27003
+#define	II_SYS_SYS_SCR_FPCWIN_M_BOX_PH	27004
+#define	II_SYS_SYS_SCR_FPCREG_F_BOX_PH	27005
+#define	II_SYS_SYS_SCR_FPCREG_M_BOX_PH	27006
+#define	II_ARM_M_MFWCWINNERCLOTH_PH30	27007
+#define	II_ARM_M_MFWCWINNERGLOVE_PH30	27008
+#define	II_ARM_M_MFWCWINNERSHOES_PH30	27009
+#define	II_ARM_M_MFWCWINNERHAT_PH30	27010
+#define	II_ARM_S_CLO_CLO_FWCWINNER_M_PH30	27011
+#define	II_ARM_F_FFWCWINNERCLOTH_PH30	27012
+#define	II_ARM_F_FFWCWINNERGLOVE_PH30	27013
+#define	II_ARM_F_FFWCWINNERSHOES_PH30	27014
+#define	II_ARM_F_FFWCWINNERHAT_PH30	27015
+#define	II_ARM_S_CLO_CLO_FWCWINNER_F_PH30	27016
+#define	II_ARM_M_MFWCWINNERCLOTH_PH15	27017
+#define	II_ARM_M_MFWCWINNERGLOVE_PH15	27018
+#define	II_ARM_M_MFWCWINNERSHOES_PH15	27019
+#define	II_ARM_M_MFWCWINNERHAT_PH15	27020
+#define	II_ARM_F_FFWCWINNERCLOTH_PH15	27021
+#define	II_ARM_F_FFWCWINNERGLOVE_PH15	27022
+#define	II_ARM_F_FFWCWINNERSHOES_PH15	27023
+#define	II_ARM_F_FFWCWINNERHAT_PH15	27024
+// 2019 ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXGREEN04_2019	27025
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» 4ï¿½ï¿½ ï¿½Ú½ï¿½2
+#define	II_SYS_SYS_SCR_APRFUNBOX04_PH	27026
+#define	II_SYS_SYS_SCR_APRFUNBOX05_PH	27027
+#define	II_SYS_SYS_SCR_APRFUNBOX06_PH	27028
+// ï¿½Â±ï¿½ 4ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_CARD01HAT2019	27029
+#define	II_ARM_M_CHR_CARD01SUIT2019	27030
+#define	II_ARM_M_CHR_CARD01SHOES2019	27031
+#define	II_ARM_F_CHR_CARD01HAT2019	27032
+#define	II_ARM_F_CHR_CARD01SUIT2019	27033
+#define	II_ARM_F_CHR_CARD01SHOES2019	27034
+// ï¿½Â±ï¿½ 4ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_APRCOSBOX13_TH	27035
+#define	II_SYS_SYS_SCR_APRCOSBOX14_TH	27036
+#define	II_SYS_SYS_SCR_APRCOSBOX15_TH	27037
+// ï¿½Â±ï¿½ 5ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_M_CHR_SAILOR02SUIT_TH	27038
+#define	II_ARM_F_CHR_SAILOR01SUIT_TH	27039
+#define	II_RID_RID_WIN_BUTTERFLY02_TH	27040
+#define	II_PET_BABYBURR_TH	27041
+#define	II_ARM_CHR_JESSICARIBBON_TH	27042
+#define	II_RID_RID_BOR_MAGICCARPET_TH	27043
+#define	II_RID_RID_WIN_PROPHET01_TH	27044
+#define	II_RID_RID_WIN_PROPHET02_TH	27045
+#define	II_SYS_SYS_SCR_BXMCOOK01_TH	27046
+#define	II_SYS_SYS_SCR_BXFCOOK01_TH	27047
+#define	II_ARM_S_CLO_MAS_BALL05_TH	27048
+#define	II_ARM_S_CLO_MAS_BALL04_TH	27049
+#define	II_RID_RID_WIN_BUTTERFLY02_TH_30	27050
+#define	II_ARM_CHR_JESSICARIBBON_TH_30	27051
+// 2019 ï¿½Ê¸ï¿½ï¿½ï¿½ È¦ï¿½ï¿½		
+#define	II_SYS_SYS_SCR_BXACE_2019	27052
+#define	II_SYS_SYS_SCR_BXKING_2019	27053
+#define	II_SYS_SYS_SCR_BXQUE_2019	27054
+#define	II_SYS_SYS_SCR_BXJACK_2019	27055
+#define	II_SYS_SYS_SCR_BXMIG10_2019	27056
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 5ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_MAYFUNBOX01_PH	27057
+#define	II_SYS_SYS_SCR_MAYFUNBOX02_PH	27058
+#define	II_SYS_SYS_SCR_MAYFUNBOX03_PH	27059
+#define	II_SYS_SYS_SCR_MAYFUNBOX04_PH	27060
+// ï¿½Â±ï¿½ 5ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_RID_RID_ANI_PIYOKO90	27061
+#define	II_SYS_SYS_SCR_MAYLEVELBOX01_TH	27062
+#define	II_SYS_SYS_SCR_MAYLEVELBOX02_TH	27063
+#define	II_SYS_SYS_SCR_MAYLEVELBOX03_TH	27064
+#define	II_RID_RID_ANI_PIYOKO02	27065
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 5ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_MAYFUNBOX05_PH	27066
+#define	II_SYS_SYS_SCR_MAYFUNBOX06_PH	27067
+#define	II_SYS_SYS_SCR_MAYFUNBOX07_PH	27068
+#define	II_SYS_SYS_SCR_MAYFUNBOX08_PH	27069
+#define	II_SYS_SYS_SCR_MAYFUNBOX09_PH	27070
+#define	II_SYS_SYS_SCR_MAYFUNBOX10_PH	27071
+#define	II_SYS_SYS_SCR_MAYFUNBOX11_PH	27072
+#define	II_SYS_SYS_SCR_MAYFUNBOX12_PH	27073
+#define	II_SYS_SYS_SCR_MAYFUNBOX13_PH	27074
+#define	II_SYS_SYS_SCR_MAYFUNBOX14_PH	27075
+#define	II_SYS_SYS_SCR_MAYFUNBOX15_PH	27076
+#define	II_SYS_SYS_SCR_MAYFUNBOX16_PH	27077
+#define	II_SYS_SYS_SCR_MAYFUNBOX17_PH	27078
+// ï¿½Â±ï¿½ 5ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_MAYSTARTBOX_TH	27079
+// ï¿½Â±ï¿½ 5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_MAYFUNBOX01_TH	27080
+#define	II_SYS_SYS_SCR_MAYFUNBOX02_TH	27081
+#define	II_SYS_SYS_SCR_MAYFUNBOX03_TH	27082
+#define	II_SYS_SYS_SCR_MAYFUNBOX04_TH	27083
+#define	II_SYS_SYS_SCR_MAYFUNBOX05_TH	27084
+#define	II_SYS_SYS_SCR_MAYFUNBOX06_TH	27085
+#define	II_SYS_SYS_SCR_MAYFUNBOX07_TH	27086
+#define	II_SYS_SYS_SCR_MAYFUNBOX08_TH	27087
+#define	II_SYS_SYS_SCR_MAYFUNBOX09_TH	27088
+#define	II_SYS_SYS_SCR_MAYFUNBOX10_TH	27089
+// ï¿½Â±ï¿½ 5ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_PET_REDPAANG_TH	27090
+#define	II_ARM_S_CLO_CLO_DAEHAN_1_TH	27091
+#define	II_CHR_SYS_SCR_SHOUTFULL15_NOTRADE	27092
+#define	II_CHR_SYS_SCR_PSKILLFULL15_NOTRADE	27093
+#define	II_CHR_SYS_SCR_COMMBANK15_NOTRADE	27094
+#define	II_ARM_F_CLOFROK01HAT_TH	27095
+#define	II_ARM_M_CLOFROK01HAT_TH	27096
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX12_TH	27097
+#define	II_SYS_SYS_SCR_BAGBAG001_TH	27098
+#define	II_SYS_SYS_SCR_BXSURPRISE100_TH	27099
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 5ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_MAYLOGINBOX_PH	27100
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 6ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¸Ó´ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_2019HAPPY1000BX	27101
+// 2019ï¿½ï¿½ Ä¥ï¿½ï¿½ ï¿½Ìºï¿½Æ®ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2019	27102
+// GXC ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_GXCCARDBOX_SFR	27103
+#define	II_SYS_SYS_SCR_GXCCARDBOX_SWT	27104
+#define	II_SYS_SYS_SCR_GXCCARDBOX_SLD	27105
+#define	II_SYS_SYS_SCR_GXCCARDBOX_SWD	27106
+#define	II_SYS_SYS_SCR_GXCCARDBOX_10VO	27107
+#define	II_SYS_SYS_SCR_GXCCARDBOX_10OC	27108
+#define	II_SYS_SYS_SCR_GXCCARDBOX_10LI	27109
+#define	II_SYS_SYS_SCR_GXCCARDBOX_10EA	27110
+#define	II_SYS_SYS_SCR_GXCCARDBOX_10VA	27111
+#define	II_SYS_SYS_SCR_GXCTWINBLADEMBX	27112
+#define	II_SYS_SYS_SCR_GXCTWINBLADEFMX	27113
+#define	II_SYS_SYS_SCR_GXCGREATSMBX	27114
+#define	II_SYS_SYS_SCR_GXCGREATSFBX	27115
+#define	II_SYS_SYS_SCR_GXCGREATAMBX	27116
+#define	II_SYS_SYS_SCR_GXCGREATAFBX	27117
+#define	II_SYS_SYS_SCR_GXCSWORDSHMBX	27118
+#define	II_SYS_SYS_SCR_GXCSWORDSHFBX	27119
+#define	II_SYS_SYS_SCR_GXCBOWMBX	27120
+#define	II_SYS_SYS_SCR_GXCBOWFBX	27121
+#define	II_SYS_SYS_SCR_GXCYOYOMBX	27122
+#define	II_SYS_SYS_SCR_GXCYOYOFBX	27123
+#define	II_SYS_SYS_SCR_GXCKNUCKLEMBX	27124
+#define	II_SYS_SYS_SCR_GXCKNUCKLEFBX	27125
+#define	II_SYS_SYS_SCR_GXCSTICKMBX	27126
+#define	II_SYS_SYS_SCR_GXCSTICKFBX	27127
+#define	II_SYS_SYS_SCR_GXCSTAFFMBX	27128
+#define	II_SYS_SYS_SCR_GXCSTAFFFBX	27129
+#define	II_SYS_SYS_SCR_GXCWANDMBX	27130
+#define	II_SYS_SYS_SCR_GXCWANDFBX	27131
+#define	II_SYS_SYS_SCR_GXCCARDBOX_SEL	27132
+// ï¿½Â±ï¿½ 7ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_JULYSTARTBOX_TH	27133
+// 2019 ï¿½Â±ï¿½ È¦ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXACE_2019_TH	27134
+#define	II_SYS_SYS_SCR_BXKING_2019_TH	27135
+#define	II_SYS_SYS_SCR_BXQUE_2019_TH	27136
+#define	II_SYS_SYS_SCR_BXJACK_2019_TH	27137
+#define	II_SYS_SYS_SCR_BXMIG10_2019_TH	27138
+// 2019 ï¿½Ê¸ï¿½ï¿½ï¿½ Ä¥ï¿½ï¿½ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_NEWSTARBOX_2019_PH	27139
+#define	II_ARM_M_CHR_KOREAN04HAT_PH	27140
+#define	II_ARM_M_CHR_KOREAN04SUIT_PH	27141
+#define	II_ARM_M_CHR_KOREAN04GLOVES_PH	27142
+#define	II_ARM_M_CHR_KOREAN04SHOES_PH	27143
+#define	II_SYS_SYS_SCR_BXMKOREAN04_PH	27144
+#define	II_ARM_F_CHR_KOREAN04HAT_PH	27145
+#define	II_ARM_F_CHR_KOREAN04SUIT_PH	27146
+#define	II_ARM_F_CHR_KOREAN04GLOVES_PH	27147
+#define	II_ARM_F_CHR_KOREAN04SHOES_PH	27148
+#define	II_SYS_SYS_SCR_BXFKOREAN04_PH	27149
+// 2019 ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_ARM_S_CLO_CLO_METEDOR2019	27150
+// 2019 ï¿½Ê¸ï¿½ï¿½ï¿½ 7ï¿½ï¿½ ï¿½ï¿½Ê¸ï¿½Æ® ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_M_MFWCFINAL1CLOTH_PH	27151
+#define	II_ARM_M_MFWCFINAL1GLOVE_PH	27152
+#define	II_ARM_M_MFWCFINAL1SHOES_PH	27153
+#define	II_ARM_M_MFWCFINAL1HAT_PH	27154
+#define	II_ARM_S_CLO_CLO_FWCFINAL1_M_PH	27155
+#define	II_ARM_S_CLO_MAS_BALL03_M_PH	27156
+#define	II_SYS_SYS_SCR_FPCCHAMP_M_BOX_PH	27157
+#define	II_ARM_F_FFWCFINAL1CLOTH_PH	27158
+#define	II_ARM_F_FFWCFINAL1GLOVE_PH	27159
+#define	II_ARM_F_FFWCFINAL1SHOES_PH	27160
+#define	II_ARM_F_FFWCFINAL1HAT_PH	27161
+#define	II_ARM_S_CLO_CLO_FWCFINAL1_F_PH	27162
+#define	II_ARM_S_CLO_MAS_BALL03_F_PH	27163
+#define	II_SYS_SYS_SCR_FPCCHAMP_F_BOX_PH	27164
+#define	II_ARM_M_MFWCFINAL2CLOTH_PH	27165
+#define	II_ARM_M_MFWCFINAL2GLOVE_PH	27166
+#define	II_ARM_M_MFWCFINAL2SHOES_PH	27167
+#define	II_ARM_M_MFWCFINAL2HAT_PH	27168
+#define	II_ARM_S_CLO_CLO_FWCFINAL2_M_PH	27169
+#define	II_SYS_SYS_SCR_FPC1ST_M_BOX_PH	27170
+#define	II_ARM_F_FFWCFINAL2CLOTH_PH	27171
+#define	II_ARM_F_FFWCFINAL2GLOVE_PH	27172
+#define	II_ARM_F_FFWCFINAL2SHOES_PH	27173
+#define	II_ARM_F_FFWCFINAL2HAT_PH	27174
+#define	II_ARM_S_CLO_CLO_FWCFINAL2_F_PH	27175
+#define	II_SYS_SYS_SCR_FPC1ST_F_BOX_PH	27176
+#define	II_ARM_M_MFWCFINAL3CLOTH_PH	27177
+#define	II_ARM_M_MFWCFINAL3GLOVE_PH	27178
+#define	II_ARM_M_MFWCFINAL3SHOES_PH	27179
+#define	II_ARM_M_MFWCFINAL3HAT_PH	27180
+#define	II_SYS_SYS_SCR_FPC2ND_M_BOX_PH	27181
+#define	II_ARM_F_FFWCFINAL3CLOTH_PH	27182
+#define	II_ARM_F_FFWCFINAL3GLOVE_PH	27183
+#define	II_ARM_F_FFWCFINAL3SHOES_PH	27184
+#define	II_ARM_F_FFWCFINAL3HAT_PH	27185
+#define	II_SYS_SYS_SCR_FPC2ND_F_BOX_PH	27186
+#define	II_ARM_M_MEMERALDCLOTH_PH	27187
+#define	II_ARM_M_MEMERALDGLOVE_PH	27188
+#define	II_ARM_M_MEMERALDSHOES_PH	27189
+#define	II_ARM_M_MEMERALDHAT_PH	27190
+#define	II_SYS_SYS_SCR_FPC3RD_M_BOX_PH	27191
+#define	II_ARM_F_FEMERALDCLOTH_PH	27192
+#define	II_ARM_F_FEMERALDGLOVE_PH	27193
+#define	II_ARM_F_FEMERALDSHOES_PH	27194
+#define	II_ARM_F_FEMERALDHAT_PH	27195
+#define	II_SYS_SYS_SCR_FPC3RD_F_BOX_PH	27196
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 7ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_JULYFUNBOX01	27197
+#define	II_SYS_SYS_SCR_JULYFUNBOX02	27198
+#define	II_SYS_SYS_SCR_JULYFUNBOX03	27199
+#define	II_SYS_SYS_SCR_JULYFUNBOX04	27200
+#define	II_SYS_SYS_SCR_JULYFUNBOX05	27201
+#define	II_SYS_SYS_SCR_JULYFUNBOX06	27202
+#define	II_SYS_SYS_SCR_JULYFUNBOX07	27203
+#define	II_SYS_SYS_SCR_JULYFUNBOX08	27204
+#define	II_SYS_SYS_SCR_JULYFUNBOX09	27205
+// 2019 È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®(ï¿½ï¿½ï¿½ï¿½)
+#define	II_SYS_SYS_SCR_BXDUMBULL_2019	27206
+// 2019 ï¿½å·¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®		
+#define	II_ARM_M_MSEAQUEENLOOKUPPER	27207
+#define	II_ARM_M_MSEAQUEENLOOKHAND	27208
+#define	II_ARM_M_MSEAQUEENLOOKFOOT	27209
+#define	II_ARM_M_MSEAQUEENLOOKCAP	27210
+#define	II_ARM_S_CLO_CLO_MSEAQUEEN01	27211
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN	27212
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_1	27213
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_2	27214
+#define	II_ARM_F_FSEAQUEENLOOKUPPER	27215
+#define	II_ARM_F_FSEAQUEENLOOKHAND	27216
+#define	II_ARM_F_FSEAQUEENLOOKFOOT	27217
+#define	II_ARM_F_FSEAQUEENLOOKCAP	27218
+#define	II_ARM_S_CLO_CLO_FSEAQUEEN01	27219
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN	27220
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_1	27221
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_2	27222
+#define	II_ARM_M_MSEAQUEENLOOKUPPER_1	27223
+#define	II_ARM_M_MSEAQUEENLOOKHAND_1	27224
+#define	II_ARM_M_MSEAQUEENLOOKFOOT_1	27225
+#define	II_ARM_M_MSEAQUEENLOOKCAP_1	27226
+#define	II_ARM_S_CLO_CLO_MSEAQUEEN02	27227
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_3	27228
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_4	27229
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_5	27230
+#define	II_ARM_F_FSEAQUEENLOOKUPPER_1	27231
+#define	II_ARM_F_FSEAQUEENLOOKHAND_1	27232
+#define	II_ARM_F_FSEAQUEENLOOKFOOT_1	27233
+#define	II_ARM_F_FSEAQUEENLOOKCAP_1	27234
+#define	II_ARM_S_CLO_CLO_FSEAQUEEN02	27235
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_3	27236
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_4	27237
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_5	27238
+#define	II_ARM_M_MSEAQUEENLOOKUPPER_2	27239
+#define	II_ARM_M_MSEAQUEENLOOKHAND_2	27240
+#define	II_ARM_M_MSEAQUEENLOOKFOOT_2	27241
+#define	II_ARM_M_MSEAQUEENLOOKCAP_2	27242
+#define	II_ARM_S_CLO_CLO_MSEAQUEEN03	27243
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_6	27244
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_7	27245
+#define	II_ARM_S_CLO_MAS_MSEAQUEENCROWN_8	27246
+#define	II_ARM_F_FSEAQUEENLOOKUPPER_2	27247
+#define	II_ARM_F_FSEAQUEENLOOKHAND_2	27248
+#define	II_ARM_F_FSEAQUEENLOOKFOOT_2	27249
+#define	II_ARM_F_FSEAQUEENLOOKCAP_2	27250
+#define	II_ARM_S_CLO_CLO_FSEAQUEEN03	27251
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_6	27252
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_7	27253
+#define	II_ARM_S_CLO_MAS_FSEAQUEENCROWN_8	27254
+#define	II_SYS_SYS_SCR_MSEAQUEENLOOKBX	27255
+#define	II_SYS_SYS_SCR_MSEAQUEENLOOKBX_1	27256
+#define	II_SYS_SYS_SCR_MSEAQUEENLOOKBX_2	27257
+#define	II_SYS_SYS_SCR_FSEAQUEENLOOKBX	27258
+#define	II_SYS_SYS_SCR_FSEAQUEENLOOKBX_1	27259
+#define	II_SYS_SYS_SCR_FSEAQUEENLOOKBX_2	27260
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½å·¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©		
+#define	II_ARM_S_CLO_MAS_SEAQUEENCROWN	27261
+#define	II_ARM_S_CLO_MAS_SEAQUEENCROWN_1	27262
+#define	II_ARM_S_CLO_MAS_SEAQUEENCROWN_2	27263
+#define	II_ARM_S_CLO_CLO_SEAQUEEN01	27264
+#define	II_ARM_S_CLO_CLO_SEAQUEEN02	27265
+#define	II_ARM_S_CLO_CLO_SEAQUEEN03	27266
+//ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½Ú¸ï¿½Ä¡		
+#define	II_PET_MOCOMOCI_PINK	27267
+#define	II_PET_MOCOMOCI_RAINBOW	27268
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å©		
+#define	II_RID_RID_STI_HARLYBIKE_BLUE	27269
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½å·¡ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_QUEENFUNBOX01_PH	27270
+#define	II_SYS_SYS_SCR_QUEENFUNBOX02_PH	27271
+#define	II_SYS_SYS_SCR_QUEENFUNBOX03_PH	27272
+#define	II_SYS_SYS_SCR_QUEENFUNBOX04_PH	27273
+#define	II_SYS_SYS_SCR_QUEENFUNBOX05_PH	27274
+#define	II_SYS_SYS_SCR_QUEENFUNBOX06_PH	27275
+#define	II_SYS_SYS_SCR_QUEENFUNBOX07_PH	27276
+#define	II_SYS_SYS_SCR_QUEENFUNBOX08_PH	27277
+#define	II_SYS_SYS_SCR_QUEENFUNBOX09_PH	27278
+// ï¿½Â±ï¿½ ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_GEN_GEM_GEM_JASMINE	27279
+#define	II_SYS_SYS_SCR_JASMINEBOX	27280
+// ï¿½Â±ï¿½ 7ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½
+#define	II_ARM_F_CHR_ALICE01HAT_B	27281
+#define	II_ARM_F_CHR_ALICE01SUIT_B	27282
+#define	II_ARM_F_CHR_ALICE01GLOVES_B	27283
+#define	II_ARM_F_CHR_ALICE01SHOES_B	27284
+#define	II_ARM_M_CHR_HATTER01HAT_B	27285
+#define	II_ARM_M_CHR_HATTER01SUIT_B	27286
+#define	II_ARM_M_CHR_HATTER01GLOVES_B	27287
+#define	II_ARM_M_CHR_HATTER01SHOES_B	27288
+#define	II_ARM_F_CHR_ALICE01HAT_A	27289
+#define	II_ARM_F_CHR_ALICE01SUIT_A	27290
+#define	II_ARM_F_CHR_ALICE01GLOVES_A	27291
+#define	II_ARM_F_CHR_ALICE01SHOES_A	27292
+#define	II_ARM_M_CHR_HATTER01HAT_A	27293
+#define	II_ARM_M_CHR_HATTER01SUIT_A	27294
+#define	II_ARM_M_CHR_HATTER01GLOVES_A	27295
+#define	II_ARM_M_CHR_HATTER01SHOES_A	27296
+#define	II_ARM_F_CHR_ALICE01HAT_S	27297
+#define	II_ARM_F_CHR_ALICE01SUIT_S	27298
+#define	II_ARM_F_CHR_ALICE01GLOVES_S	27299
+#define	II_ARM_F_CHR_ALICE01SHOES_S	27300
+#define	II_ARM_M_CHR_HATTER01HAT_S	27301
+#define	II_ARM_M_CHR_HATTER01SUIT_S	27302
+#define	II_ARM_M_CHR_HATTER01GLOVES_S	27303
+#define	II_ARM_M_CHR_HATTER01SHOES_S	27304
+#define	II_ARM_M_CHR_YETI01HAT_B	27305
+#define	II_ARM_M_CHR_YETI01SUIT_B	27306
+#define	II_ARM_M_CHR_YETI01GLOVES_B	27307
+#define	II_ARM_M_CHR_YETI01SHOES_B	27308
+#define	II_ARM_F_CHR_YETI01HAT_B	27309
+#define	II_ARM_F_CHR_YETI01SUIT_B	27310
+#define	II_ARM_F_CHR_YETI01GLOVES_B	27311
+#define	II_ARM_F_CHR_YETI01SHOES_B	27312
+#define	II_ARM_M_CHR_YETI01HAT_A	27313
+#define	II_ARM_M_CHR_YETI01SUIT_A	27314
+#define	II_ARM_M_CHR_YETI01GLOVES_A	27315
+#define	II_ARM_M_CHR_YETI01SHOES_A	27316
+#define	II_ARM_F_CHR_YETI01HAT_A	27317
+#define	II_ARM_F_CHR_YETI01SUIT_A	27318
+#define	II_ARM_F_CHR_YETI01GLOVES_A	27319
+#define	II_ARM_F_CHR_YETI01SHOES_A	27320
+#define	II_ARM_M_CHR_YETI01HAT_S	27321
+#define	II_ARM_M_CHR_YETI01SUIT_S	27322
+#define	II_ARM_M_CHR_YETI01GLOVES_S	27323
+#define	II_ARM_M_CHR_YETI01SHOES_S	27324
+#define	II_ARM_F_CHR_YETI01HAT_S	27325
+#define	II_ARM_F_CHR_YETI01SUIT_S	27326
+#define	II_ARM_F_CHR_YETI01GLOVES_S	27327
+#define	II_ARM_F_CHR_YETI01SHOES_S	27328
+#define	II_SYS_SYS_SCR_JUNECOSBOX01	27329
+#define	II_SYS_SYS_SCR_JUNECOSBOX02	27330
+#define	II_SYS_SYS_SCR_JUNECOSBOX03	27331
+#define	II_SYS_SYS_SCR_JUNECOSBOX04	27332
+#define	II_SYS_SYS_SCR_JUNECOSBOX05	27333
+#define	II_SYS_SYS_SCR_JUNECOSBOX06	27334
+#define	II_SYS_SYS_SCR_JUNECOSBOX07	27335
+#define	II_SYS_SYS_SCR_JUNECOSBOX08	27336
+#define	II_SYS_SYS_SCR_JUNECOSBOX09	27337
+#define	II_SYS_SYS_SCR_JUNECOSBOX10	27338
+#define	II_SYS_SYS_SCR_JUNECOSBOX11	27339
+#define	II_SYS_SYS_SCR_JUNECOSBOX12	27340
+#define	II_SYS_SYS_SCR_JUNEFUNBOX01	27341
+#define	II_SYS_SYS_SCR_JUNEFUNBOX02	27342
+#define	II_SYS_SYS_SCR_JUNEFUNBOX03	27343
+#define	II_SYS_SYS_SCR_JUNEFUNBOX04	27344
+#define	II_SYS_SYS_SCR_JUNEFUNBOX05	27345
+#define	II_SYS_SYS_SCR_JUNEFUNBOX06	27346
+#define	II_SYS_SYS_SCR_JUNEFUNBOX07	27347
+#define	II_SYS_SYS_SCR_JUNEFUNBOX08	27348
+#define	II_SYS_SYS_SCR_JUNEFUNBOX09	27349
+#define	II_SYS_SYS_SCR_JUNEFUNBOX10	27350
+#define	II_SYS_SYS_SCR_JUNEFUNBOX11	27351
+#define	II_SYS_SYS_SCR_JUNEFUNBOX12	27352
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_AUGUSTLOGINBOX	27353
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½Ú½ï¿½		
+#define	II_ARM_M_MAZURITENOBLECLOTH_PH	27354
+#define	II_ARM_M_MAZURITENOBLEGLOVE_PH	27355
+#define	II_ARM_M_MAZURITENOBLESHOES_PH	27356
+#define	II_ARM_M_MAZURITENOBLEHAT_PH	27357
+#define	II_ARM_S_CLO_CLO_MAZURITENOBLE_PH	27358
+#define	II_ARM_S_CLO_MAS_BALL08_M_PH	27359
+#define	II_RID_RID_WIN_METEONYKER01_PH	27360
+#define	II_PET_KIMPD_PH	27361
+#define	II_SYS_SYS_SCR_AUGPPASBOX_M	27362
+#define	II_ARM_F_FAZURITENOBLECLOTH_PH	27363
+#define	II_ARM_F_FAZURITENOBLEGLOVE_PH	27364
+#define	II_ARM_F_FAZURITENOBLESHOES_PH	27365
+#define	II_ARM_F_FAZURITENOBLEHAT_PH	27366
+#define	II_ARM_S_CLO_CLO_FAZURITENOBLE_PH	27367
+#define	II_ARM_S_CLO_MAS_BALL08_F_PH	27368
+#define	II_SYS_SYS_SCR_AUGPPASBOX_F	27369
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ Ã¨ï¿½Ç¾ï¿½ ï¿½Ú½ï¿½		
+#define	II_ARM_M_MFWCFINAL1CLOTH_AUG	27370
+#define	II_ARM_M_MFWCFINAL1GLOVE_AUG	27371
+#define	II_ARM_M_MFWCFINAL1SHOES_AUG	27372
+#define	II_ARM_M_MFWCFINAL1HAT_AUG	27373
+#define	II_ARM_S_CLO_CLO_FWCFINAL1_AUG_M	27374
+#define	II_ARM_S_CLO_MAS_BALL03_AUG_M	27375
+#define	II_SYS_SYS_SCR_AUGCHAMPBOX_M	27376
+#define	II_ARM_F_FFWCFINAL1CLOTH_AUG	27377
+#define	II_ARM_F_FFWCFINAL1GLOVE_AUG	27378
+#define	II_ARM_F_FFWCFINAL1SHOES_AUG	27379
+#define	II_ARM_F_FFWCFINAL1HAT_AUG	27380
+#define	II_ARM_S_CLO_CLO_FWCFINAL1_AUG_F	27381
+#define	II_ARM_S_CLO_MAS_BALL03_AUG_F	27382
+#define	II_SYS_SYS_SCR_AUGCHAMPBOX_F	27383
+//ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ 1st ï¿½Ú½ï¿½		
+#define	II_ARM_M_MFWCFINAL2CLOTH_AUG	27384
+#define	II_ARM_M_MFWCFINAL2GLOVE_AUG	27385
+#define	II_ARM_M_MFWCFINAL2SHOES_AUG	27386
+#define	II_ARM_M_MFWCFINAL2HAT_AUG	27387
+#define	II_ARM_S_CLO_CLO_FWCFINAL2_AUG_M	27388
+#define	II_SYS_SYS_SCR_AUG1STBOX_M	27389
+#define	II_ARM_F_FFWCFINAL2CLOTH_AUG	27390
+#define	II_ARM_F_FFWCFINAL2GLOVE_AUG	27391
+#define	II_ARM_F_FFWCFINAL2SHOES_AUG	27392
+#define	II_ARM_F_FFWCFINAL2HAT_AUG	27393
+#define	II_ARM_S_CLO_CLO_FWCFINAL2_AUG_F	27394
+#define	II_SYS_SYS_SCR_AUG1STBOX_F	27395
+//ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ 2nd ï¿½Ú½ï¿½		
+#define	II_ARM_M_MFWCFINAL3CLOTH_AUG	27396
+#define	II_ARM_M_MFWCFINAL3GLOVE_AUG	27397
+#define	II_ARM_M_MFWCFINAL3SHOES_AUG	27398
+#define	II_ARM_M_MFWCFINAL3HAT_AUG	27399
+#define	II_SYS_SYS_SCR_AUG2NDBOX_M	27400
+#define	II_ARM_F_FFWCFINAL3CLOTH_AUG	27401
+#define	II_ARM_F_FFWCFINAL3GLOVE_AUG	27402
+#define	II_ARM_F_FFWCFINAL3SHOES_AUG	27403
+#define	II_ARM_F_FFWCFINAL3HAT_AUG	27404
+#define	II_SYS_SYS_SCR_AUG2NDBOX_F	27405
+//ï¿½Ê¸ï¿½ï¿½ï¿½ 8ï¿½ï¿½ 3rd ï¿½Ú½ï¿½		
+#define	II_ARM_M_MFWCWINNERCLOTH_AUG	27406
+#define	II_ARM_M_MFWCWINNERGLOVE_AUG	27407
+#define	II_ARM_M_MFWCWINNERSHOES_AUG	27408
+#define	II_ARM_M_MFWCWINNERHAT_AUG	27409
+#define	II_SYS_SYS_SCR_AUG3RDBOX_M	27410
+#define	II_ARM_F_FFWCWINNERCLOTH_AUG	27411
+#define	II_ARM_F_FFWCWINNERGLOVE_AUG	27412
+#define	II_ARM_F_FFWCWINNERSHOES_AUG	27413
+#define	II_ARM_F_FFWCWINNERHAT_AUG	27414
+#define	II_SYS_SYS_SCR_AUG3RDBOX_F	27415
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 9ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_SEPLOGINBOX	27416
+// ï¿½Ñ±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½å·¡ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_QUEENFUNBOX01_KR	27417
+#define	II_SYS_SYS_SCR_QUEENFUNBOX02_KR	27418
+#define	II_SYS_SYS_SCR_QUEENFUNBOX03_KR	27419
+#define	II_SYS_SYS_SCR_QUEENFUNBOX04_KR	27420
+#define	II_SYS_SYS_SCR_QUEENFUNBOX05_KR	27421
+#define	II_SYS_SYS_SCR_QUEENFUNBOX06_KR	27422
+#define	II_SYS_SYS_SCR_QUEENFUNBOX07_KR	27423
+#define	II_SYS_SYS_SCR_QUEENFUNBOX08_KR	27424
+#define	II_SYS_SYS_SCR_QUEENFUNBOX09_KR	27425
+#define	II_SYS_SYS_SCR_QUEENFUNBOX10_KR	27426
+#define	II_SYS_SYS_SCR_QUEENFUNBOX11_KR	27427
+#define	II_SYS_SYS_SCR_QUEENFUNBOX12_KR	27428
+#define	II_SYS_SYS_SCR_QUEENFUNBOX13_KR	27429
+#define	II_SYS_SYS_SCR_QUEENFUNBOX14_KR	27430
+#define	II_SYS_SYS_SCR_QUEENFUNBOX15_KR	27431
+#define	II_SYS_SYS_SCR_QUEENFUNBOX16_KR	27432
+#define	II_SYS_SYS_SCR_QUEENFUNBOX17_KR	27433
+#define	II_SYS_SYS_SCR_QUEENFUNBOX18_KR	27434
+//2019ï¿½ï¿½ ï¿½ß¼ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_REDBALL_2019	27435
+#define	II_SYS_SYS_EVE_ORANGEBALL_2019	27436
+#define	II_SYS_SYS_EVE_YELLOWBALL_2019	27437
+#define	II_SYS_SYS_EVE_GREENBALL_2019	27438
+#define	II_SYS_SYS_EVE_COMMERGIFTBOX6_2019	27439
+#define	II_SYS_SYS_EVE_SONGPYUN_2019	27440
+// 2019 ï¿½ï¿½ï¿½ï¿½ ï¿½ä½ºÆ¼ï¿½ï¿½ ï¿½Ê¸ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_MUSICFESTIVALDROPITEM_YELLOW_PH	27441
+#define	II_SYS_SYS_MUSICFESTIVALDROPITEM_RED_PH	27442
+#define	II_SYS_SYS_MUSICFESTIVALDROPITEM_BLUE_PH	27443
+#define	II_SYS_SYS_MUSICFESTIVALDROPITEM_GREEN_PH	27444
+#define	II_SYS_SYS_MUSICRESTIVALREWARD_YELLOW	27445
+#define	II_SYS_SYS_MUSICRESTIVALREWARD_RED	27446
+#define	II_SYS_SYS_MUSICRESTIVALREWARD_BLUE	27447
+#define	II_SYS_SYS_MUSICRESTIVALREWARD_GREEN	27448
+#define	II_SYS_SYS_MUSICRESTIVALREWARD_MUSIC	27449
+
+// ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_BUFF_PARTYBENEFITS01	27450
+#define	II_SYS_SYS_BUFF_PARTYBENEFITS02	27451
+#define	II_SYS_SYS_BUFF_PARTYBENEFITS03	27452
+#define	II_SYS_SYS_BUFF_PARTYBENEFITS04	27453
+
+// ï¿½Â±ï¿½ 9ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ú½ï¿½Æ¬		
+#define	II_ARM_M_CHR_WARLORDHAT_TH_7	27454
+#define	II_ARM_M_CHR_WARLORDSUIT_TH_7	27455
+#define	II_ARM_M_CHR_WARLORDGLOVES_TH_7	27456
+#define	II_ARM_M_CHR_WARLORDSHOES_TH_7	27457
+#define	II_SYS_SYS_SCR_BXMWARLORD_TH_7	27458
+#define	II_ARM_F_CHR_WARLORDHAT_TH_7	27459
+#define	II_ARM_F_CHR_WARLORDSUIT_TH_7	27460
+#define	II_ARM_F_CHR_WARLORDGLOVES_TH_7	27461
+#define	II_ARM_F_CHR_WARLORDSHOES_TH_7	27462
+#define	II_SYS_SYS_SCR_BXFWARLORD_TH_7	27463
+#define	II_ARM_M_CHR_WARLORDHAT_TH_14	27464
+#define	II_ARM_M_CHR_WARLORDSUIT_TH_14	27465
+#define	II_ARM_M_CHR_WARLORDGLOVES_TH_14	27466
+#define	II_ARM_M_CHR_WARLORDSHOES_TH_14	27467
+#define	II_SYS_SYS_SCR_BXMWARLORD_TH_14	27468
+#define	II_ARM_F_CHR_WARLORDHAT_TH_14	27469
+#define	II_ARM_F_CHR_WARLORDSUIT_TH_14	27470
+#define	II_ARM_F_CHR_WARLORDGLOVES_TH_14	27471
+#define	II_ARM_F_CHR_WARLORDSHOES_TH_14	27472
+#define	II_SYS_SYS_SCR_BXFWARLORD_TH_14	27473
+#define	II_SYS_SYS_SCR_BXMCHILE01_TH	27474
+#define	II_SYS_SYS_SCR_BXFCHILE01_TH	27475
+// ï¿½Â±ï¿½ 9ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_THAISEPBOX1_TH	27476
+#define	II_SYS_SYS_THAISEPBOX2_TH	27477
+#define	II_SYS_SYS_THAISEPBOX3_TH	27478
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½		
+#define	II_SYS_SYS_SCR_WELCOMEBOX1_PH	27479
+#define	II_SYS_SYS_SCR_WELCOMEBOX2_PH	27480
+#define	II_SYS_SYS_SCR_WELCOMEBOX3_PH	27481
+#define	II_SYS_SYS_SCR_WELCOMEBOX4_PH	27482
+#define	II_SYS_SYS_SCR_WELCOMEBOX5_PH	27483
+#define	II_SYS_SYS_SCR_WELCOMEBOX6_PH	27484
+#define	II_SYS_SYS_SCR_WELCOMEBOX7_PH	27485
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½Ú½ï¿½Æ¬ ï¿½ï¿½ ï¿½ï¿½		
+#define	II_ARM_M_CHR_VAMPIRE01HAT_PH_3DAY	27486
+#define	II_ARM_M_CHR_VAMPIRE01SUIT_PH_3DAY	27487
+#define	II_ARM_M_CHR_VAMPIRE01GLOVES_PH_3DAY	27488
+#define	II_ARM_M_CHR_VAMPIRE01SHOES_PH_3DAY	27489
+#define	II_ARM_F_CHR_VAMPIRE01HAT_PH_3DAY	27490
+#define	II_ARM_F_CHR_VAMPIRE01SUIT_PH_3DAY	27491
+#define	II_ARM_F_CHR_VAMPIRE01GLOVES_PH_3DAY	27492
+#define	II_ARM_F_CHR_VAMPIRE01SHOES_PH_3DAY	27493
+#define	II_ARM_M_CHR_VAMPIRE01HAT_PH_7DAY	27494
+#define	II_ARM_M_CHR_VAMPIRE01SUIT_PH_7DAY	27495
+#define	II_ARM_M_CHR_VAMPIRE01GLOVES_PH_7DAY	27496
+#define	II_ARM_M_CHR_VAMPIRE01SHOES_PH_7DAY	27497
+#define	II_ARM_F_CHR_VAMPIRE01HAT_PH_7DAY	27498
+#define	II_ARM_F_CHR_VAMPIRE01SUIT_PH_7DAY	27499
+#define	II_ARM_F_CHR_VAMPIRE01GLOVES_PH_7DAY	27500
+#define	II_ARM_F_CHR_VAMPIRE01SHOES_PH_7DAY	27501
+#define	II_ARM_M_CHR_VAMPIRE01HAT_PH_15DAY	27502
+#define	II_ARM_M_CHR_VAMPIRE01SUIT_PH_15DAY	27503
+#define	II_ARM_M_CHR_VAMPIRE01GLOVES_PH_15DAY	27504
+#define	II_ARM_M_CHR_VAMPIRE01SHOES_PH_15DAY	27505
+#define	II_ARM_F_CHR_VAMPIRE01HAT_PH_15DAY	27506
+#define	II_ARM_F_CHR_VAMPIRE01SUIT_PH_15DAY	27507
+#define	II_ARM_F_CHR_VAMPIRE01GLOVES_PH_15DAY	27508
+#define	II_ARM_F_CHR_VAMPIRE01SHOES_PH_15DAY	27509
+#define	II_ARM_M_CHR_VAMPIRE01HAT_PH_30DAY	27510
+#define	II_ARM_M_CHR_VAMPIRE01SUIT_PH_30DAY	27511
+#define	II_ARM_M_CHR_VAMPIRE01GLOVES_PH_30DAY	27512
+#define	II_ARM_M_CHR_VAMPIRE01SHOES_PH_30DAY	27513
+#define	II_ARM_F_CHR_VAMPIRE01HAT_PH_30DAY	27514
+#define	II_ARM_F_CHR_VAMPIRE01SUIT_PH_30DAY	27515
+#define	II_ARM_F_CHR_VAMPIRE01GLOVES_PH_30DAY	27516
+#define	II_ARM_F_CHR_VAMPIRE01SHOES_PH_30DAY	27517
+#define	II_PET_AIBATT1_PH	27518
+#define	II_PET_CAT1_PH	27519
+#define	II_PET_DOG1_PH	27520
+#define	II_PET_RACCON_PH	27521
+#define	II_ARM_S_CLO_MAS_GOGLE_PH	27522
+#define	II_ARM_S_CLO_MAS_BUTTERFLY_PH	27523
+#define	II_ARM_S_CLO_MAS_GLASS03_PH	27524
+#define	II_ARM_S_CLO_CLO_SPRINGCLOCK03_PH_15DAY	27525
+#define	II_RID_RID_STI_BIKE2_PH	27526
+#define	II_RID_RID_BOR_RIDINGCLOUD_PH	27527
+#define	II_ARM_S_CLO_CLO_SPRINGCLOCK03_PH_30DAY	27528
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_SYS_SYS_EVE_FESTIVALBOX03_PH	27529
+#define	II_ARM_M_CHR_GERMAN01HAT_PH	27530
+#define	II_ARM_M_CHR_GERMAN01SUIT_PH	27531
+#define	II_ARM_M_CHR_GERMAN01GLOVES_PH	27532
+#define	II_ARM_M_CHR_GERMAN01SHOES_PH	27533
+#define	II_SYS_SYS_SCR_BXMGERMAN01_PH	27534
+#define	II_ARM_F_CHR_GERMAN01HAT_PH	27535
+#define	II_ARM_F_CHR_GERMAN01SUIT_PH	27536
+#define	II_ARM_F_CHR_GERMAN01GLOVES_PH	27537
+#define	II_ARM_F_CHR_GERMAN01SHOES_PH	27538
+#define	II_SYS_SYS_SCR_BXFGERMAN01_PH	27539
+#define	II_SYS_SYS_GEM_OCTDRQBOX_M_PH	27540
+#define	II_SYS_SYS_GEM_OCTDRQBOX_F_PH	27541
+// ï¿½Â±ï¿½ 10ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Ú½ï¿½
+#define	II_ARM_M_CHR_CHILE02HAT_TH	27542
+#define	II_ARM_M_CHR_CHILE02SUIT_TH	27543
+#define	II_ARM_M_CHR_CHILE02GLOVES_TH	27544
+#define	II_ARM_M_CHR_CHILE02SHOES_TH	27545
+#define	II_SYS_SYS_SCR_BXMCHILE02_TH	27546
+#define	II_ARM_F_CHR_CHILE02HAT_TH	27547
+#define	II_ARM_F_CHR_CHILE02SUIT_TH	27548
+#define	II_ARM_F_CHR_CHILE02GLOVES_TH	27549
+#define	II_ARM_F_CHR_CHILE02SHOES_TH	27550
+#define	II_SYS_SYS_SCR_BXFCHILE02_TH	27551
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX01	27552
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX02	27553
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX03	27554
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX04	27555
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX05	27556
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX06	27557
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX07	27558
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX08	27559
+#define	II_SYS_SYS_GEM_OCTPACKAGEBOX09	27560
+// ï¿½Ñ±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä½ºÆ®
+#define	II_SYS_SYS_EVE_FESTIVALBOX03_KR	27561
+#define	II_ARM_M_CHR_GERMAN01HAT_KR	27562
+#define	II_ARM_M_CHR_GERMAN01SUIT_KR	27563
+#define	II_ARM_M_CHR_GERMAN01GLOVES_KR	27564
+#define	II_ARM_M_CHR_GERMAN01SHOES_KR	27565
+#define	II_SYS_SYS_SCR_BXMGERMAN01_KR	27566
+#define	II_ARM_F_CHR_GERMAN01HAT_KR	27567
+#define	II_ARM_F_CHR_GERMAN01SUIT_KR	27568
+#define	II_ARM_F_CHR_GERMAN01GLOVES_KR	27569
+#define	II_ARM_F_CHR_GERMAN01SHOES_KR	27570
+#define	II_SYS_SYS_SCR_BXFGERMAN01_KR	27571
+#define	II_SYS_SYS_SCR_OCTORTICKET	27572
+// 2019ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_ARM_M_CLO_ZOMBIEHAT_2019	27573
+#define	II_ARM_M_CLO_ZOMBIESUIT_2019	27574
+#define	II_ARM_M_CLO_ZOMBIEGLOVES_2019	27575
+#define	II_ARM_M_CLO_ZOMBIESHOES_2019	27576
+#define	II_SYS_SYS_SCR_BXMZOMBIE_2019	27577
+#define	II_ARM_F_CLO_ZOMBIEHAT_2019	27578
+#define	II_ARM_F_CLO_ZOMBIESUIT_2019	27579
+#define	II_ARM_F_CLO_ZOMBIEGLOVES_2019	27580
+#define	II_ARM_F_CLO_ZOMBIESHOES_2019	27581
+#define	II_SYS_SYS_SCR_BXFZOMBIE_2019	27582
+#define	II_ARM_M_CHR_SKULL01HAT_2019	27583
+#define	II_ARM_M_CHR_SKULL01SUIT_2019	27584
+#define	II_ARM_M_CHR_SKULL01SHOES_2019	27585
+#define	II_ARM_M_CHR_SKULL01GLOVES_2019	27586
+#define	II_SYS_SYS_SCR_BXMSKULL01_2019	27587
+#define	II_ARM_F_CHR_SKULL01HAT_2019	27588
+#define	II_ARM_F_CHR_SKULL01SUIT_2019	27589
+#define	II_ARM_F_CHR_SKULL01SHOES_2019	27590
+#define	II_ARM_F_CHR_SKULL01GLOVES_2019	27591
+#define	II_SYS_SYS_SCR_BXFSKULL01_2019	27592
+#define	II_SYS_SYS_SCR_HALLOWEENTICKET	27593
+#define	II_SYS_SYS_QUE_CANDY_BOX_2019	27594
+#define	II_SYS_SYS_SCR_HALLOWEENMASKBOX	27595
+// ï¿½Ñ±ï¿½ï¿½ï¿½ 10ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_SCR_OCTLOGINBOX	27596
+// ï¿½Ê¸ï¿½ï¿½É¿ï¿½ 10ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_SCR_OCTLOGINTICKET	27597
+#define	II_SYS_SYS_SCR_OCTLOGINBOX_PH	27598
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 2019 ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®		
+#define	II_ARM_M_CLO_ZOMBIEHAT_2019_7DAY	27599
+#define	II_ARM_M_CLO_ZOMBIESUIT_2019_7DAY	27600
+#define	II_ARM_M_CLO_ZOMBIEGLOVES_2019_7DAY	27601
+#define	II_ARM_M_CLO_ZOMBIESHOES_2019_7DAY	27602
+#define	II_SYS_SYS_SCR_BXMZOMBIE_2019_7DAY	27603
+#define	II_ARM_F_CLO_ZOMBIEHAT_2019_7DAY	27604
+#define	II_ARM_F_CLO_ZOMBIESUIT_2019_7DAY	27605
+#define	II_ARM_F_CLO_ZOMBIEGLOVES_2019_7DAY	27606
+#define	II_ARM_F_CLO_ZOMBIESHOES_2019_7DAY	27607
+#define	II_SYS_SYS_SCR_BXFZOMBIE_2019_7DAY	27608
+#define	II_PET_LITTLEZOMBIE_PH	27609
+#define	II_SYS_SYS_QUE_CANDY_BOX_2019_PH	27610
+#define	II_SYS_SYS_EVE_BXZOMBIES_2019	27611
+#define	II_ARM_M_CLO_ZOMBIEHAT_2019_PH	27612
+#define	II_ARM_M_CLO_ZOMBIESUIT_2019_PH	27613
+#define	II_ARM_M_CLO_ZOMBIEGLOVES_2019_PH	27614
+#define	II_ARM_M_CLO_ZOMBIESHOES_2019_PH	27615
+#define	II_SYS_SYS_SCR_BXMZOMBIE_2019_PH	27616
+#define	II_ARM_F_CLO_ZOMBIEHAT_2019_PH	27617
+#define	II_ARM_F_CLO_ZOMBIESUIT_2019_PH	27618
+#define	II_ARM_F_CLO_ZOMBIEGLOVES_2019_PH	27619
+#define	II_ARM_F_CLO_ZOMBIESHOES_2019_PH	27620
+#define	II_SYS_SYS_SCR_BXFZOMBIE_2019_PH	27621
+#define	II_ARM_S_CLO_CLO_CLOAKHATSALRA_PH	27622
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 11ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_BLUECASUAL01HAT	27623
+#define	II_ARM_M_CHR_BLUECASUAL01SUIT	27624
+#define	II_ARM_M_CHR_BLUECASUAL01GLOVES	27625
+#define	II_ARM_M_CHR_BLUECASUAL01SHOES	27626
+#define	II_SYS_SYS_SCR_BXMBLUECASUAL	27627
+#define	II_ARM_F_CHR_REDCASUAL01HAT	27628
+#define	II_ARM_F_CHR_REDCASUAL01SUIT	27629
+#define	II_ARM_F_CHR_REDCASUAL01GLOVES	27630
+#define	II_ARM_F_CHR_REDCASUAL01SHOES	27631
+#define	II_SYS_SYS_SCR_BXFREDCASUAL	27632
+#define	II_ARM_M_CHR_PURPLEGOTH01HAT	27633
+#define	II_ARM_M_CHR_PURPLEGOTH01SUIT	27634
+#define	II_ARM_M_CHR_PURPLEGOTH01GLOVES	27635
+#define	II_ARM_M_CHR_PURPLEGOTH01SHOES	27636
+#define	II_SYS_SYS_SCR_BXMPURPLEGOTH	27637
+#define	II_ARM_F_CHR_PURPLEGOTH01HAT	27638
+#define	II_ARM_F_CHR_PURPLEGOTH01SUIT	27639
+#define	II_ARM_F_CHR_PURPLEGOTH01GLOVES	27640
+#define	II_ARM_F_CHR_PURPLEGOTH01SHOES	27641
+#define	II_SYS_SYS_SCR_BXFPURPLEGOTH	27642
+#define	II_ARM_M_CHR_NEOHIPHOP01HAT	27643
+#define	II_ARM_M_CHR_NEOHIPHOP01SUIT	27644
+#define	II_ARM_M_CHR_NEOHIPHOP01GLOVES	27645
+#define	II_ARM_M_CHR_NEOHIPHOP01SHOES	27646
+#define	II_SYS_SYS_SCR_BXMNEOHIPHOP	27647
+#define	II_ARM_M_CHR_BLACKWED01HAT	27648
+#define	II_ARM_M_CHR_BLACKWED01SUIT	27649
+#define	II_ARM_M_CHR_BLACKWED01GLOVES	27650
+#define	II_ARM_M_CHR_BLACKWED01SHOES	27651
+#define	II_SYS_SYS_SCR_BXMBLACKWED01	27652
+#define	II_ARM_F_CHR_BLACKWED01HAT	27653
+#define	II_ARM_F_CHR_BLACKWED01SUIT	27654
+#define	II_ARM_F_CHR_BLACKWED01GLOVES	27655
+#define	II_ARM_F_CHR_BLACKWED01SHOES	27656
+#define	II_SYS_SYS_SCR_BXFBLACKWED01	27657
+#define	II_ARM_F_CHR_NEOWORKOUT01HAT	27658
+#define	II_ARM_F_CHR_NEOWORKOUT01SUIT	27659
+#define	II_ARM_F_CHR_NEOWORKOUT01GLOVES	27660
+#define	II_ARM_F_CHR_NEOWORKOUT01SHOES	27661
+#define	II_SYS_SYS_SCR_BXFNEOWORKOUT01	27662
+#define	II_PET_BLACKBULLDOG	27663
+#define	II_PET_REDDRAGON	27664
+#define	II_RID_RID_REDCADILAC	27665
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã» ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - Removed from the game
+//#define	II_ARM_S_CLO_CLO_FIRST120_1	27666
+//#define	II_ARM_S_CLO_CLO_FIRST120_2	27667
+//#define	II_ARM_S_CLO_CLO_FIRST120_3	27668
+//#define	II_ARM_S_CLO_CLO_FIRST120_4	27669
+//#define	II_ARM_S_CLO_CLO_FIRST120_5	27670
+//#define	II_ARM_S_CLO_CLO_FIRST120_6	27671
+//#define	II_ARM_S_CLO_CLO_FIRST120_7	27672
+//#define	II_ARM_S_CLO_CLO_FIRST120_8	27673
+// ï¿½Ê¸ï¿½ï¿½ï¿½ PPXP ï¿½Ú½ï¿½Æ¬
+#define	II_ARM_M_CHRISMASMSUIT_PH	27674
+#define	II_ARM_M_CHRISMASMHELMET_PH	27675
+#define	II_ARM_M_CHRISMASMGAUNTLET_PH	27676
+#define	II_ARM_M_CHRISMASMBOOTS_PH	27677
+#define	II_ARM_F_CHRISMASFSUIT_PH	27678
+#define	II_ARM_F_CHRISMASFHELMET_PH	27679
+#define	II_ARM_F_CHRISMASFGAUNTLET_PH	27680
+#define	II_ARM_F_CHRISMASFBOOTS_PH	27681
+#define	II_ARM_S_CLO_CLO_MSKELDEVIL_PH	27682
+#define	II_ARM_S_CLO_MAS_MRUDOLPH_NOSE_PH	27683
+#define	II_ARM_S_CLO_CLO_FSKELDEVIL_PH	27684
+#define	II_ARM_S_CLO_MAS_FRUDOLPH_NOSE_PH	27685
+#define	II_RID_RID_BOR_JLADOLF_PH	27686
+#define	II_PET_CHRISTMASDEER_PH	27687
+#define	II_ARM_M_CHRISMASMSUIT_PH_1	27688
+#define	II_ARM_M_CHRISMASMHELMET_PH_1	27689
+#define	II_ARM_M_CHRISMASMGAUNTLET_PH_1	27690
+#define	II_ARM_M_CHRISMASMBOOTS_PH_1	27691
+#define	II_ARM_F_CHRISMASFSUIT_PH_1	27692
+#define	II_ARM_F_CHRISMASFHELMET_PH_1	27693
+#define	II_ARM_F_CHRISMASFGAUNTLET_PH_1	27694
+#define	II_ARM_F_CHRISMASFBOOTS_PH_1	27695
+#define	II_ARM_S_CLO_CLO_MSKELDEVIL_PH_1	27696
+#define	II_ARM_S_CLO_MAS_MRUDOLPH_1_NOSE_PH_1	27697
+#define	II_ARM_S_CLO_CLO_FSKELDEVIL_PH_1	27698
+#define	II_ARM_S_CLO_MAS_FRUDOLPH_1_NOSE_PH_1	27699
+#define	II_RID_RID_BOR_JLADOLF_PH_1	27700
+#define	II_PET_CHRISTMASDEER_PH_1	27701
+#define	II_SYS_SYS_SCR_BXMPPXP01	27702
+#define	II_SYS_SYS_SCR_BXFPPXP01	27703
+#define	II_SYS_SYS_SCR_BXMPPXP02	27704
+#define	II_SYS_SYS_SCR_BXFPPXP02	27705
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¸ ï¿½Ú½ï¿½Æ¬
+#define	II_ARM_M_CLO_BLUESANTA01HAT	27706
+#define	II_ARM_M_CLO_BLUESANTA01SUIT	27707
+#define	II_ARM_M_CLO_BLUESANTA01GLOVES	27708
+#define	II_ARM_M_CLO_BLUESANTA01SHOES	27709
+#define	II_ARM_F_CLO_BLUESANTA01HAT	27710
+#define	II_ARM_F_CLO_BLUESANTA01SUIT	27711
+#define	II_ARM_F_CLO_BLUESANTA01GLOVES	27712
+#define	II_ARM_F_CLO_BLUESANTA01SHOES	27713
+#define	II_SYS_SYS_SCR_BXMBLUESANTA	27714
+#define	II_SYS_SYS_SCR_BXFBLUESANTA	27715
+// 2019 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_REDBALL_2019_EU	27716
+#define	II_SYS_SYS_EVE_ORANGEBALL_2019_EU	27717
+// 2019 Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2019	27718
+#define	II_GEN_JEW_RIN_CHRISTMAS_CAKE_RING_2019	27719
+#define	II_GEN_JEW_NEC_CHRISTMAS_TURKEY_NECKLACE_2019	27720
+#define	II_GEN_JEW_EAR_CHRISTMAS_COOKIE_EARRING_2019	27721
+#define	II_SYS_SYS_SCR_CHRISTMAS_JEWELLERYBX_2019	27722
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_B_2019	27723
+#define	II_ARM_S_CLO_MAS_BALL_CRISTMAS	27724
+// 2019 ï¿½Ê¸ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_EVESNOW_GOLD_PH	27725
+#define	II_SYS_SYS_EVE_CHRISTMASSALT01_PH	27726
+#define	II_SYS_SYS_EVE_CHRISTMASSOIL01_PH	27727
+#define	II_SYS_SYS_EVE_CHRISTMASWATER01_PH	27728
+#define	II_SYS_SYS_EVE_CHRISTMASBEESWAX01_PH	27729
+#define	II_SYS_SYS_EVE_CHRISTMASGLASS01_PH	27730
+#define	II_SYS_SYS_EVE_CHRISTMASMEDAL01_PH	27731
+#define	II_SYS_SYS_EVE_CHRISTMASROPE01_PH	27732
+#define	II_SYS_SYS_CHRISTMASBOX_PRESENT_A_2019_PH	27733
+#define	II_ARM_M_CHRISMASMHELMET_7DAY	27734
+#define	II_ARM_M_CHRISMASMSUIT_7DAY	27735
+#define	II_ARM_M_CHRISMASMGAUNTLET_7DAY	27736
+#define	II_ARM_M_CHRISMASMBOOTS_7DAY	27737
+#define	II_ARM_F_CHRISMASFHELMET_7DAY	27738
+#define	II_ARM_F_CHRISMASFSUIT_7DAY	27739
+#define	II_ARM_F_CHRISMASFGAUNTLET_7DAY	27740
+#define	II_ARM_F_CHRISMASFBOOTS_7DAY	27741
+#define	II_SYS_SYS_SCR_BXMCHRISTMAS_7DAY	27742
+#define	II_SYS_SYS_SCR_BXFCHRISTMAS_7DAY	27743
+#define	II_SYS_SYS_EMPTYGIFTBOX_PH	27744
+#define	II_SYS_SYS_CRISTMASGIFTBOX2019_PH	27745
+#define	II_SYS_EVEPOWDER_GOLD_PH	27746
+#define	II_SYS_SYS_CHRISTMASBOX_PET_2019_PH	27747
+#define	II_SYS_SYS_CHRISTMASBOX_WEAPON_A_2019_PH	27748
+#define	II_SYS_SYS_CHRISTMASBOX_COSTUME_2019_PH	27749
+#define	II_SYS_SYS_CHRISTMASBOX_MASK_2019_PH	27750
+#define	II_SYS_SYS_CHRISTMASBOX_PREMIUM_2019_PH	27751
+#define	II_SYS_SYS_SCR_CHRISTMASGLORY	27752
+#define	II_SYS_SYS_SCR_CHRISTMASVALOR	27753
+#define	II_SYS_SYS_SCR_CHRISTMAS_EARRINGBX_2019	27754
+#define	II_SYS_SYS_SCR_CHRISTMAS_NECKLACEBX_2019	27755
+#define	II_SYS_SYS_CHRISTMASSANTAGIFTBX_2019	27756
+#define	II_ARM_M_CHRISMASMHELMET_PH_2019	27757
+#define	II_ARM_M_CHRISMASMSUIT_PH_2019	27758
+#define	II_ARM_M_CHRISMASMGAUNTLET_PH_2019	27759
+#define	II_ARM_M_CHRISMASMBOOTS_PH_2019	27760
+#define	II_ARM_F_CHRISMASFHELMET_PH_2019	27761
+#define	II_ARM_F_CHRISMASFSUIT_PH_2019	27762
+#define	II_ARM_F_CHRISMASFGAUNTLET_PH_2019	27763
+#define	II_ARM_F_CHRISMASFBOOTS_PH_2019	27764
+#define	II_SYS_SYS_SCR_BXMCHRISTMAS_PH_2019	27765
+#define	II_SYS_SYS_SCR_BXFCHRISTMAS_PH_2019	27766
+#define	II_ARM_S_CLO_CLO_SPIRIT_PH	27767
+#define	II_ARM_S_CLO_CLO_SPIRIT_1_PH	27768
+#define	II_SYS_SYS_EVE_CHRISTMASFAIRY_PH	27769
+#define	II_SYS_SYS_EVE_CHRISTMASTOKEN_PH	27770
+// 2019 ï¿½Ê¸ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_SNOWBOARDER01HAT_2019	27771
+#define	II_ARM_M_CHR_SNOWBOARDER01SUIT_2019	27772
+#define	II_ARM_M_CHR_SNOWBOARDER01GLOVES_2019	27773
+#define	II_ARM_M_CHR_SNOWBOARDER01SHOES_2019	27774
+#define	II_SYS_SYS_SCR_BXMSNOWBOARDER01_2019	27775
+#define	II_ARM_F_CHR_SNOWBOARDER01HAT_2019	27776
+#define	II_ARM_F_CHR_SNOWBOARDER01SUIT_2019	27777
+#define	II_ARM_F_CHR_SNOWBOARDER01GLOVES_2019	27778
+#define	II_ARM_F_CHR_SNOWBOARDER01SHOES_2019	27779
+#define	II_SYS_SYS_SCR_BXFSNOWBOARDER01_2019	27780
+#define	II_ARM_M_CHR_SNOWMAN01HAT_2019	27781
+#define	II_ARM_M_CHR_SNOWMAN01SUIT_2019	27782
+#define	II_ARM_M_CHR_SNOWMAN01GLOVES_2019	27783
+#define	II_ARM_M_CHR_SNOWMAN01SHOES_2019	27784
+#define	II_SYS_SYS_SCR_BXMSNOWMAN01_2019	27785
+#define	II_ARM_F_CHR_SNOWMAN01HAT_2019	27786
+#define	II_ARM_F_CHR_SNOWMAN01SUIT_2019	27787
+#define	II_ARM_F_CHR_SNOWMAN01GLOVES_2019	27788
+#define	II_ARM_F_CHR_SNOWMAN01SHOES_2019	27789
+#define	II_SYS_SYS_SCR_BXFSNOWMAN01_2019	27790
+#define	II_PET_SNOWMAN02_2019	27791
+// Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BUFF_BOX_CHRIST	27792
+// Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CLO_GREENSANTA01HAT	27793
+#define	II_ARM_M_CLO_GREENSANTA01SUIT	27794
+#define	II_ARM_M_CLO_GREENSANTA01GLOVES	27795
+#define	II_ARM_M_CLO_GREENSANTA01SHOES	27796
+#define	II_ARM_F_CLO_GREENSANTA01HAT	27797
+#define	II_ARM_F_CLO_GREENSANTA01SUIT	27798
+#define	II_ARM_F_CLO_GREENSANTA01GLOVES	27799
+#define	II_ARM_F_CLO_GREENSANTA01SHOES	27800
+#define	II_SYS_SYS_SCR_BXMGREENSANTA	27801
+#define	II_SYS_SYS_SCR_BXFGREENSANTA	27802
+#define	II_ARM_M_CLO_BLACKSANTA01HAT	27803
+#define	II_ARM_M_CLO_BLACKSANTA01SUIT	27804
+#define	II_ARM_M_CLO_BLACKSANTA01GLOVES	27805
+#define	II_ARM_M_CLO_BLACKSANTA01SHOES	27806
+#define	II_ARM_F_CLO_BLACKSANTA01HAT	27807
+#define	II_ARM_F_CLO_BLACKSANTA01SUIT	27808
+#define	II_ARM_F_CLO_BLACKSANTA01GLOVES	27809
+#define	II_ARM_F_CLO_BLACKSANTA01SHOES	27810
+#define	II_SYS_SYS_SCR_BXMBLACKSANTA	27811
+#define	II_SYS_SYS_SCR_BXFBLACKSANTA	27812
+#define	II_ARM_M_CLO_RUDOLFHAT_2019	27813
+#define	II_ARM_M_CLO_RUDOLFSUIT_2019	27814
+#define	II_ARM_M_CLO_RUDOLFGLOVES_2019	27815
+#define	II_ARM_M_CLO_RUDOLFSHOES_2019	27816
+#define	II_ARM_F_CLO_RUDOLFHAT_2019	27817
+#define	II_ARM_F_CLO_RUDOLFSUIT_2019	27818
+#define	II_ARM_F_CLO_RUDOLFGLOVES_2019	27819
+#define	II_ARM_F_CLO_RUDOLFSHOES_2019	27820
+#define	II_SYS_SYS_SCR_BXMRUDOLF_2019	27821
+#define	II_SYS_SYS_SCR_BXFRUDOLF_2019	27822
+#define	II_PET_CHRISTMASDEER_2019	27823
+#define	II_PET_SANTACLAUS_2019	27824
+// ï¿½Ñ±ï¿½ VIP ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_VVIPBUFF	27825
+// ï¿½Ê¸ï¿½ï¿½ï¿½ PVP ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_DEFENSE20_PH	27826
+#define	II_SYS_SYS_SCR_DEFENSE50_PH	27827
+// ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½Å³ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½		
+#define	II_ARM_M_CHR_FAIRYTALE01HAT_TH	27828
+#define	II_ARM_M_CHR_FAIRYTALE01SUIT_TH	27829
+#define	II_ARM_M_CHR_FAIRYTALE01GLOVES_TH	27830
+#define	II_ARM_M_CHR_FAIRYTALE01SHOES_TH	27831
+#define	II_SYS_SYS_SCR_BXMFAIRYTALE01_TH	27832
+#define	II_ARM_F_CHR_FAIRYTALE01HAT_TH	27833
+#define	II_ARM_F_CHR_FAIRYTALE01SUIT_TH	27834
+#define	II_ARM_F_CHR_FAIRYTALE01GLOVES_TH	27835
+#define	II_ARM_F_CHR_FAIRYTALE01SHOES_TH	27836
+#define	II_SYS_SYS_SCR_BXFFAIRYTALE01_TH	27837
+#define	II_ARM_M_CLO_RUDOLFHAT_2015_TH	27838
+#define	II_ARM_M_CLO_RUDOLFSUIT_2015_TH	27839
+#define	II_ARM_M_CLO_RUDOLFGLOVES_2015_TH	27840
+#define	II_ARM_M_CLO_RUDOLFSHOES_2015_TH	27841
+#define	II_ARM_F_CLO_RUDOLFHAT_2015_TH	27842
+#define	II_ARM_F_CLO_RUDOLFSUIT_2015_TH	27843
+#define	II_ARM_F_CLO_RUDOLFGLOVES_2015_TH	27844
+#define	II_ARM_F_CLO_RUDOLFSHOES_2015_TH	27845
+#define	II_SYS_SYS_SCR_BXMRUDOLF_2015_TH	27846
+#define	II_SYS_SYS_SCR_BXFRUDOLF_2015_TH	27847
+#define	II_ARM_M_CHR_CASUAL02HAT_TH	27848
+#define	II_ARM_M_CHR_CASUAL02SUIT_TH	27849
+#define	II_ARM_M_CHR_CASUAL02GLOVES_TH	27850
+#define	II_ARM_M_CHR_CASUAL02SHOES_TH	27851
+#define	II_SYS_SYS_SCR_BXMCASUAL02_TH	27852
+#define	II_ARM_F_CHR_NEOWORKOUT01HAT_TH	27853
+#define	II_ARM_F_CHR_NEOWORKOUT01SUIT_TH	27854
+#define	II_ARM_F_CHR_NEOWORKOUT01GLOVES_TH	27855
+#define	II_ARM_F_CHR_NEOWORKOUT01SHOES_TH	27856
+#define	II_SYS_SYS_SCR_BXFNEOWORKOUT01_TH	27857
+#define	II_ARM_S_CLO_MAS_NEWFLOWERMASK01_TH	27858
+#define	II_ARM_S_CLO_MAS_NEWFLOWERMASK02_TH	27859
+#define	II_ARM_S_CLO_MAS_NEWGOGLE_TH	27860
+#define	II_ARM_M_CLO_RUDOLFHAT_TH	27861
+#define	II_ARM_M_CLO_RUDOLFSUIT_TH	27862
+#define	II_ARM_M_CLO_RUDOLFGLOVES_TH	27863
+#define	II_ARM_M_CLO_RUDOLFSHOES_TH	27864
+#define	II_ARM_F_CLO_RUDOLFHAT_TH	27865
+#define	II_ARM_F_CLO_RUDOLFSUIT_TH	27866
+#define	II_ARM_F_CLO_RUDOLFGLOVES_TH	27867
+#define	II_ARM_F_CLO_RUDOLFSHOES_TH	27868
+#define	II_SYS_SYS_SCR_BXMRUDOLF_TH	27869
+#define	II_SYS_SYS_SCR_BXFRUDOLF_TH	27870
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 2020 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_QUE_RATTOOTH_PH	27871
+#define	II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2019_PH	27872
+#define	II_SYS_SYS_SCR_BUFF_BOX_PH	27873
+#define	II_ARM_M_MDEMONKORDRES_HAT_PH	27874
+#define	II_ARM_M_MDEMONKORDRES_UPPER_PH	27875
+#define	II_ARM_M_MDEMONKORDRES_HAND_PH	27876
+#define	II_ARM_M_MDEMONKORDRES_FOOT_PH	27877
+#define	II_SYS_SYS_MHANBOK_PACK_PH	27878
+#define	II_ARM_F_FDEMONKORDRES_HAT_PH	27879
+#define	II_ARM_F_FDEMONKORDRES_UPPER_PH	27880
+#define	II_ARM_F_FDEMONKORDRES_HAND_PH	27881
+#define	II_ARM_F_FDEMONKORDRES_FOOT_PH	27882
+#define	II_SYS_SYS_FHANBOK_PACK_PH	27883
+#define	II_ARM_M_CHR_KOREAN01SUIT_PH	27884
+#define	II_ARM_M_CHR_KOREAN01SHOES_PH	27885
+#define	II_SYS_SYS_SCR_BXMHAN_PH	27886
+#define	II_ARM_F_CHR_KOREAN01HAT_PH	27887
+#define	II_ARM_F_CHR_KOREAN01SUIT_PH	27888
+#define	II_ARM_F_CHR_KOREAN01SHOES_PH	27889
+#define	II_SYS_SYS_SCR_BXFHAN_PH	27890
+#define	II_ARM_M_MDEMONKORDRES_HAT_PH_2	27891
+#define	II_ARM_M_MDEMONKORDRES_UPPER_PH_2	27892
+#define	II_ARM_M_MDEMONKORDRES_HAND_PH_2	27893
+#define	II_ARM_M_MDEMONKORDRES_FOOT_PH_2	27894
+#define	II_SYS_SYS_MHANBOK_PACK_PH_2	27895
+#define	II_ARM_F_FDEMONKORDRES_HAT_PH_2	27896
+#define	II_ARM_F_FDEMONKORDRES_UPPER_PH_2	27897
+#define	II_ARM_F_FDEMONKORDRES_HAND_PH_2	27898
+#define	II_ARM_F_FDEMONKORDRES_FOOT_PH_2	27899
+#define	II_SYS_SYS_FHANBOK_PACK_PH_2	27900
+// ï¿½Â±ï¿½ 2020 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ® ï¿½Ú½ï¿½
+#define	II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2020_TH	27901
+// 2020 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_NEWYEAR_TICKET_M	27902
+#define	II_SYS_SYS_EVE_NEWYEAR_TICKET_F	27903
+#define	II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2020	27904
+// ï¿½ë¸¸ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ç»ï¿½		
+#define	II_ARM_M_MOMGWARRIORCLOTH_TW	27905
+#define	II_ARM_M_MOMGWARRIORGLOVE_TW	27906
+#define	II_ARM_M_MOMGWARRIORSHOES_TW	27907
+#define	II_ARM_M_MOMGWARRIORHAT_TW	27908
+#define	II_ARM_S_CLO_CLO_OMGM_TW	27909
+#define	II_SYS_SYS_SCR_MBXOMGWARRIORS_TW	27910
+#define	II_ARM_F_FOMGWARRIORCLOTH_TW	27911
+#define	II_ARM_F_FOMGWARRIORGLOVE_TW	27912
+#define	II_ARM_F_FOMGWARRIORSHOES_TW	27913
+#define	II_ARM_F_FOMGWARRIORHAT_TW	27914
+#define	II_ARM_S_CLO_CLO_OMGF_TW	27915
+#define	II_SYS_SYS_SCR_FBXOMGWARRIORS_TW	27916
+#define	II_ARM_M_CHR_POLICE01HAT_TW	27917
+#define	II_ARM_M_CHR_POLICE01SUIT_TW	27918
+#define	II_ARM_M_CHR_POLICE01GLOVES_TW	27919
+#define	II_ARM_M_CHR_POLICE01SHOES_TW	27920
+#define	II_SYS_SYS_SCR_BXMPOLICE_TW	27921
+#define	II_ARM_F_CHR_POLICE01HAT_TW	27922
+#define	II_ARM_F_CHR_POLICE01SUIT_TW	27923
+#define	II_ARM_F_CHR_POLICE01GLOVES_TW	27924
+#define	II_ARM_F_CHR_POLICE01SHOES_TW	27925
+#define	II_SYS_SYS_SCR_BXFPOLICE_TW	27926
+#define	II_ARM_S_CLO_CLO_EVEZOMBIE_TW	27927
+#define	II_ARM_S_CLO_FLOWER01_TW	27928
+#define	II_RID_RID_WIN_FairieWingsB_TW	27929
+#define	II_RID_RID_WIN_FairieWingsP_TW	27930
+#define	II_RID_RID_WIN_FEATHER02_TW	27931
+#define	II_RID_RID_WIN_ANGEL01_TW	27932
+#define	II_SYS_SYS_EVE_NEW_TW_GIFTBOX1	27933
+#define	II_SYS_SYS_EVE_NEW_TW_GIFTBOX2	27934
+#define	II_SYS_SYS_EVE_NEW_TW_GIFTBOX3	27935
+#define	II_SYS_SYS_EVE_NEW_TW_GIFTBOX4	27936
+#define	II_SYS_SYS_EVE_NEW_TW_ACCEBOX1	27937
+#define	II_SYS_SYS_EVE_NEW_TW_ACCEBOX2	27938
+#define	II_SYS_SYS_EVE_NEW_TW_ACCEBOX3	27939
+#define	II_SYS_SYS_EVE_NEW_TW_ACCEBOX4	27940
+#define	II_SYS_SYS_EVE_NEW_TW_ACCEBOX5	27941
+// ï¿½ë¸¸ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Êºï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½
+#define	II_SYS_SYS_SCR_NEWBIEBX_TW	27942
+// 2020 ï¿½Å³ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_EVE_NEW_YEAR_GIFTBOX_2020_EN	27943
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ú½ï¿½Æ¬
+#define	II_ARM_F_CHR_MOMMYCAP	27944   	            // [InGame Shop]
+#define	II_ARM_F_CHR_MOMMYSUIT	27945   	            // [InGame Shop]
+#define	II_ARM_F_CHR_MOMMYGLOVES	27946               // [InGame Shop]
+#define	II_ARM_F_CHR_MOMMYSHOES	27947                   // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_FDARKVADER_PH	27948           // [InGame Shop]
+#define	II_ARM_S_CLO_MAS_FHEARTSUNGLASS_PH	27949       // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXFMOMMY	27950                   // [InGame Shop]
+#define	II_ARM_M_CHR_DADDYEJHAT	27951                   // [InGame Shop]
+#define	II_ARM_M_CHR_DADDYEJSUIT	27952               // [InGame Shop]
+#define	II_ARM_M_CHR_DADDYEJGLOVES	27953               // [InGame Shop]
+#define	II_ARM_M_CHR_DADDYEJSHOES	27954               // [InGame Shop]
+#define	II_ARM_S_CLO_CLO_MDARKVADER_PH	27955           // [InGame Shop]
+#define	II_ARM_S_CLO_MAS_MSOUL01_PH	27956               // [InGame Shop]
+#define	II_SYS_SYS_SCR_BXMDADDY	27957                   // [InGame Shop]
+#define	II_ARM_F_CHR_MARTIALART01HAT_PH	27958
+#define	II_ARM_F_CHR_MARTIALART01SUIT_PH	27959
+#define	II_ARM_F_CHR_MARTIALART01GLOVES_PH	27960
+#define	II_ARM_F_CHR_MARTIALART01SHOES_PH	27961
+#define	II_SYS_SYS_SCR_BXFCHINAD	27962
+#define	II_ARM_M_CHR_CHINESE01HAT_PH	27963
+#define	II_ARM_M_CHR_CHINESE01SUIT_PH	27964
+#define	II_ARM_M_CHR_CHINESE01GLOVES_PH	27965
+#define	II_ARM_M_CHR_CHINESE01SHOES_PH	27966
+#define	II_SYS_SYS_SCR_BXMBRUCEL	27967
+#define	II_ARM_F_CHR_KUNGFU01HAT_PH	27968
+#define	II_ARM_F_CHR_KUNGFU01SUIT_PH	27969
+#define	II_ARM_F_CHR_KUNGFU01GLOVES_PH	27970
+#define	II_ARM_F_CHR_KUNGFU01SHOES_PH	27971
+#define	II_SYS_SYS_SCR_BXFKUNGFUPH	27972
+#define	II_ARM_M_CHR_KUNGFU01HAT_PH	27973
+#define	II_ARM_M_CHR_KUNGFU01SUIT_PH	27974
+#define	II_ARM_M_CHR_KUNGFU01GLOVES_PH	27975
+#define	II_ARM_M_CHR_KUNGFU01SHOES_PH	27976
+#define	II_SYS_SYS_SCR_BXMKUNGFUPH	27977
+// ï¿½ë¸¸ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define	II_CHR_TOC_FUN_OMGCOIN_NEW	27978
+// 2020 ï¿½ß·ï¿½Å¸ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_ARM_CHR_JESSICARIBBON_2020	27979
+#define	II_ARM_CHR_NANAHAIRBAND_2020	27980
+#define	II_SYS_SYS_EVE_GIFTBOX_JESSICA_2020	27981
+#define	II_SYS_SYS_EVE_LOVEBOX_JESSICA_2020	27982
+#define	II_SYS_SYS_EVE_GIFTTBOX_NANA_2020	27983
+#define	II_SYS_SYS_EVE_LOVEBOX_NANA_2020	27984
+//2020 ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_ARM_M_MSEAKINGLOOKUPPER_NEWBIE	27985
+#define	II_ARM_M_MSEAKINGLOOKHAND_NEWBIE	27986
+#define	II_ARM_M_MSEAKINGLOOKFOOT_NEWBIE	27987
+#define	II_ARM_M_MSEAKINGLOOKCAP_NEWBIE	27988
+#define	II_ARM_F_FSEAKINGLOOKUPPER_NEWBIE	27989
+#define	II_ARM_F_FSEAKINGLOOKHAND_NEWBIE	27990
+#define	II_ARM_F_FSEAKINGLOOKFOOT_NEWBIE	27991
+#define	II_ARM_F_FSEAKINGLOOKCAP_NEWBIE	27992
+#define	II_ARM_S_CLO_CLO_MSEAKING01_NEWBIE	27993
+#define	II_ARM_S_CLO_CLO_FSEAKING01_NEWBIE	27994
+#define	II_ARM_S_CLO_MAS_MSEAKINGCROWN_NEWBIE	27995
+#define	II_ARM_S_CLO_MAS_FSEAKINGCROWN_NEWBIE	27996
+#define	II_RID_RID_WIN_DRAGON01_NEWBIE	27997
+#define	II_PET_REDDRAGON_NEWBIE	27998
+#define	II_SYS_SYS_SCR_DRMNEWBIEBX	27999
+#define	II_SYS_SYS_SCR_DRFNEWBIEBX	28000
+#define	II_SYS_SYS_SCR_REDWINGNEWBIEBX	28001
+#define	II_SYS_SYS_SCR_REDPETNEWBIEBX	28002
+#define	II_SYS_SYS_SCR_NEWBIEBX_RHISIS	28003
+#define	II_SYS_SYS_SCR_NEWBIEBX_LORDPANG	28004
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_BLUEWED01HAT	28005
+#define	II_ARM_M_CHR_BLUEWED01SUIT	28006
+#define	II_ARM_M_CHR_BLUEWED01GLOVES	28007
+#define	II_ARM_M_CHR_BLUEWED01SHOES	28008
+#define	II_SYS_SYS_SCR_BXMBLUEWED01	28009
+#define	II_ARM_F_CHR_BLUEWED01HAT	28010
+#define	II_ARM_F_CHR_BLUEWED01SUIT	28011
+#define	II_ARM_F_CHR_BLUEWED01GLOVES	28012
+#define	II_ARM_F_CHR_BLUEWED01SHOES	28013
+#define	II_SYS_SYS_SCR_BXFBLUEWED01	28014
+#define	II_ARM_S_CLO_CLO_DARKDEVIL_PH02	28015
+// ï¿½ë¸¸ ï¿½ï¿½Ã» VIP ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½
+#define	II_SYS_SYS_VVIPBUFF_TW	28016
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_01	28017
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_02	28018
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_03	28019
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_04	28020
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_05	28021
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_06	28022
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_07	28023
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_08	28024
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_09	28025
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_10	28026
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_11	28027
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_12	28028
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_13	28029
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_14	28030
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_15	28031
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_16	28032
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_17	28033
+#define	II_SYS_SYS_SCR_TWARMOR_BOX_18	28034
+// ï¿½Ê¸ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½
+#define	II_ARM_M_CHR_PURPLEBASKETHAT	28035
+#define	II_ARM_M_CHR_PURPLEBASKETSUIT	28036
+#define	II_ARM_M_CHR_PURPLEBASKETGLOVES	28037
+#define	II_ARM_M_CHR_PURPLEBASKETSHOES	28038
+#define	II_SYS_SYS_SCR_BXMPURPLEBASKET	28039
+#define	II_ARM_M_CHR_YELLOWBASKETHAT	28040
+#define	II_ARM_M_CHR_YELLOWBASKETSUIT	28041
+#define	II_ARM_M_CHR_YELLOWBASKETGLOVES	28042
+#define	II_ARM_M_CHR_YELLOWBASKETSHOES	28043
+#define	II_SYS_SYS_SCR_BXMYELLOWBASKET	28044
+#define	II_ARM_F_CHR_DRESSBLUEHAT	28045
+#define	II_ARM_F_CHR_DRESSBLUESUIT	28046
+#define	II_ARM_F_CHR_DRESSBLUEGLOVES	28047
+#define	II_ARM_F_CHR_DRESSBLUESHOES	28048
+#define	II_SYS_SYS_SCR_BXFBLUEDRESS	28049
+#define	II_ARM_F_CHR_DRESSLAVENDERHAT	28050
+#define	II_ARM_F_CHR_DRESSLAVENDERSUIT	28051
+#define	II_ARM_F_CHR_DRESSLAVENDERGLOVES	28052
+#define	II_ARM_F_CHR_DRESSLAVENDERSHOES	28053
+#define	II_SYS_SYS_SCR_BXFLAVENDERDRESS	28054
+#define	II_ARM_F_CHR_DRESSYELLOWHAT	28055
+#define	II_ARM_F_CHR_DRESSYELLOWSUIT	28056
+#define	II_ARM_F_CHR_DRESSYELLOWGLOVES	28057
+#define	II_ARM_F_CHR_DRESSYELLOWSHOES	28058
+#define	II_SYS_SYS_SCR_BXFYELLOWDRESS	28059
+#define	II_ARM_M_CHR_TUXEDOCYANSUIT	28060
+#define	II_ARM_M_CHR_TUXEDOCYANGLOVES	28061
+#define	II_ARM_M_CHR_TUXEDOCYANSHOES	28062
+#define	II_SYS_SYS_SCR_BXMCYANTUX	28063
+#define	II_ARM_M_CHR_TUXEDOMAROONSUIT	28064
+#define	II_ARM_M_CHR_TUXEDOMAROONGLOVES	28065
+#define	II_ARM_M_CHR_TUXEDOMAROONSHOES	28066
+#define	II_SYS_SYS_SCR_BXMMAROONTUX	28067
+#define	II_ARM_M_CHR_TUXEDOGREENSUIT	28068
+#define	II_ARM_M_CHR_TUXEDOGREENGLOVES	28069
+#define	II_ARM_M_CHR_TUXEDOGREENSHOES	28070
+#define	II_SYS_SYS_SCR_BXMGREENTUX	28071
+// 2020 È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®
+#define	II_SYS_SYS_EVE_REDJEWEL_RING_2020	28072
+#define	II_SYS_SYS_EVE_GREENJEWEL_RING_2020	28073
+#define	II_SYS_SYS_EVE_WHITEDAYRINGBX_2020	28074
+#define	II_SYS_SYS_EVE_WHITEDAYBX_2020	28075
+#define	II_SYS_SYS_EVE_SUGAR_2020	28076
+#define	II_SYS_SYS_EVE_MEAT_2020	28077
+#define	II_SYS_SYS_EVE_SYRUP01_2020	28078
+#define	II_SYS_SYS_EVE_GREENPEAS01_2020	28079
+#define	II_SYS_SYS_EVE_CORN01_2020	28080
+// ï¿½Ê¸ï¿½ï¿½ï¿½ Ä¡ï¿½î¸®ï¿½ï¿½
+#define	II_ARM_F_CHR_PURPLECHEERHAT	28081
+#define	II_ARM_F_CHR_PURPLECHEERSUIT	28082
+#define	II_ARM_F_CHR_PURPLECHEERGLOVES	28083
+#define	II_ARM_F_CHR_PURPLECHEERSHOES	28084
+#define	II_SYS_SYS_SCR_BXFPURPLECHEER	28085
+#define	II_ARM_F_CHR_YELLOWCHEERHAT	28086
+#define	II_ARM_F_CHR_YELLOWCHEERSUIT	28087
+#define	II_ARM_F_CHR_YELLOWCHEERGLOVES	28088
+#define	II_ARM_F_CHR_YELLOWCHEERSHOES	28089
+#define	II_SYS_SYS_SCR_BXFYELLOWCHEER	28090
+// 2020 ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Æ®ï¿½ï¿½
+#define	II_SYS_SYS_SCR_BXCLOVERRANDOM_2020	28091
+#define	II_ARM_S_CLO_CLO_CLOVER_2020	28092
+#define	II_ARM_M_CHR_GUARDS04HAT_2020	28093
+#define	II_ARM_M_CHR_GUARDS04SUIT_2020	28094
+#define	II_ARM_M_CHR_GUARDS04GLOVES_2020	28095
+#define	II_ARM_M_CHR_GUARDS04SHOES_2020	28096
+#define	II_SYS_SYS_SCR_BXMGUARDS04_2020	28097
+#define	II_ARM_F_CHR_GUARDS04HAT_2020	28098
+#define	II_ARM_F_CHR_GUARDS04SUIT_2020	28099
+#define	II_ARM_F_CHR_GUARDS04GLOVES_2020	28100
+#define	II_ARM_F_CHR_GUARDS04SHOES_2020	28101
+#define	II_SYS_SYS_SCR_BXFGUARDS04_2020	28102
+#define	II_SYS_SYS_EVE_CLOVER02_2020	28103
+#define	II_WEA_SWO_ANCIENT_DEVIL	28104
+#define	II_WEA_SWT_ANCIENT_DEVIL	28105
+#define	II_WEA_AXE_ANCIENT_DEVIL	28106
+#define	II_WEA_AXT_ANCIENT_DEVIL	28107
+#define	II_WEA_KNU_ANCIENT_DEVIL	28108
+#define	II_WEA_CHE_ANCIENT_DEVIL	28109
+#define	II_WEA_WAN_ANCIENT_DEVIL	28110
+#define	II_WEA_STA_ANCIENT_DEVIL	28111
+#define	II_WEA_YOY_ANCIENT_DEVIL	28112
+#define	II_WEA_BOW_ANCIENT_DEVIL	28113
+#define	II_WEA_LC_TURTLEKING_SHIELD_DEVIL	28114
+#define	II_ARM_S_CLO_CLO_SKELDEVIL_2020	28115
+// 2020 ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Æ®ï¿½ï¿½
+#define	II_SYS_SYS_EVE_GUARDS04_TICKET_M	28116
+#define	II_SYS_SYS_EVE_GUARDS04_TICKET_F	28117
+#define	II_SYS_SYS_SCR_BXCLOVERRANDOM_2020_EN	28118
+// ï¿½ë¸¸ ï¿½Å±Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½
+#define	II_ARM_S_CLO_MAS_BALL01_2020	28119
+#define	II_ARM_S_CLO_MAS_BALL02_2020	28120
+#define	II_ARM_S_CLO_MAS_BALL03_2020	28121
+#define	II_ARM_S_CLO_MAS_BALL04_2020	28122
+#define	II_ARM_S_CLO_MAS_BALL05_2020	28123
+#define	II_ARM_S_CLO_MAS_BALL06_2020	28124
+#define	II_ARM_S_CLO_MAS_BALL07_2020	28125
+#define	II_ARM_S_CLO_MAS_BALL08_2020	28126
+#define	II_SYS_SYS_SCR_BXKNIGHT_105_TW	28213
+#define	II_SYS_SYS_SCR_BXBLADE_105_TW	28214
+#define	II_SYS_SYS_SCR_BXRINGMASTER_105_TW	28215
+#define	II_SYS_SYS_SCR_BXBILLPOSTER_105_TW	28216
+#define	II_SYS_SYS_SCR_BXELEMENTOR_105_TW	28217
+#define	II_SYS_SYS_SCR_BXPSYCHIKEEPER_105_TW	28218
+#define	II_SYS_SYS_SCR_BXJESTER_105_TW	28219
+#define	II_SYS_SYS_SCR_BXRANGER_105_TW	28220
+
+// ï¿½Â±ï¿½ 2020 4ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ç»ï¿½		
+#define	II_ARM_M_MOTERBIKEMSUIT_TH_20	28252
+#define	II_ARM_M_MOTERBIKEMHELMET_TH_20	28253
+#define	II_ARM_M_MOTERBIKEMGAUNTLET_TH_20	28254
+#define	II_ARM_M_MOTERBIKEMBOOTS_TH_20	28255
+#define	II_ARM_F_MOTERBIKEFSUIT_TH_20	28256
+#define	II_ARM_F_MOTERBIKEFHELMET_TH_20	28257
+#define	II_ARM_F_MOTERBIKEFGAUNTLET_TH_20	28258
+#define	II_ARM_F_MOTERBIKEFBOOTS_TH_20	28259
+#define	II_ARM_F_CLOFROK01HAT_TH_20	28260
+#define	II_ARM_F_CLOFROK01CLOTH_TH_20	28261
+#define	II_ARM_F_CLOFROK01GLOVE_TH_20	28262
+#define	II_ARM_F_CLOFROK01SHOES_TH_20	28263
+#define	II_ARM_M_CLOFROK01HAT_TH_20	28264
+#define	II_ARM_M_CLOFROK01CLOTH_TH_20	28265
+#define	II_ARM_M_CLOFROK01GLOVE_TH_20	28266
+#define	II_ARM_M_CLOFROK01SHOES_TH_20	28267
+#define	II_ARM_F_CLOFROK01HAT_TH_30	28268
+#define	II_ARM_F_CLOFROK01CLOTH_TH_30	28269
+#define	II_ARM_F_CLOFROK01GLOVE_TH_30	28270
+#define	II_ARM_F_CLOFROK01SHOES_TH_30	28271
+#define	II_ARM_M_CLOFROK01HAT_TH_30	28272
+#define	II_ARM_M_CLOFROK01CLOTH_TH_30	28273
+#define	II_ARM_M_CLOFROK01GLOVE_TH_30	28274
+#define	II_ARM_M_CLOFROK01SHOES_TH_30	28275
+#define	II_ARM_M_CHR_MUAYTHAI01HAT_TH_20	28276
+#define	II_ARM_M_CHR_MUAYTHAI01SUIT_TH_20	28277
+#define	II_ARM_M_CHR_MUAYTHAI01GLOVES_TH_20	28278
+#define	II_ARM_M_CHR_MUAYTHAI01SHOES_TH_20	28279
+#define	II_ARM_F_CHR_MUAYTHAI01HAT_TH_20	28280
+#define	II_ARM_F_CHR_MUAYTHAI01SUIT_TH_20	28281
+#define	II_ARM_F_CHR_MUAYTHAI01GLOVES_TH_20	28282
+#define	II_ARM_F_CHR_MUAYTHAI01SHOES_TH_20	28283
+#define	II_ARM_M_CHR_KUNGFU01HAT_TH_20	28284
+#define	II_ARM_M_CHR_KUNGFU01SUIT_TH_20	28285
+#define	II_ARM_M_CHR_KUNGFU01GLOVES_TH_20	28286
+#define	II_ARM_M_CHR_KUNGFU01SHOES_TH_20	28287
+#define	II_ARM_F_CHR_KUNGFU01HAT_TH_20	28288
+#define	II_ARM_F_CHR_KUNGFU01SUIT_TH_20	28289
+#define	II_ARM_F_CHR_KUNGFU01GLOVES_TH_20	28290
+#define	II_ARM_F_CHR_KUNGFU01SHOES_TH_20	28291
+#define	II_ARM_F_CHR_NINJA01HAT_TH_20	28292
+#define	II_ARM_F_CHR_NINJA01SUIT_TH_20	28293
+#define	II_ARM_F_CHR_NINJA01GLOVES_TH_20	28294
+#define	II_ARM_F_CHR_NINJA01SHOES_TH_20	28295
+#define	II_ARM_M_CHR_NINJA01HAT_TH_20	28296
+#define	II_ARM_M_CHR_NINJA01SUIT_TH_20	28297
+#define	II_ARM_M_CHR_NINJA01GLOVES_TH_20	28298
+#define	II_ARM_M_CHR_NINJA01SHOES_TH_20	28299
+
+// --- ï¿½ï¿½è¼±, ï¿½Ï¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 30004 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Û¼ï¿½ ï¿½ï¿½
 
 
 #define	II_SYS_SYS_SCR_BXMYUKATASET	30005	// 20060317 ByDonny
 #define	II_SYS_SYS_SCR_BXFYUKATASET	30006	// 20060323 ByDonny
 #define	II_SYS_SYS_SCR_FONTEDIT	30011
-#define	II_SYS_SYS_SCR_RANDOMSTR	30012	// ÈûÀÇ °­È­½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_RANDOMDEX	30013	// ¹ÎÃ¸ÀÇ °­È­½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_RANDOMSTA	30014	// Ã¼·ÂÀÇ °­È­½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_RANDOMINT	30015	// Áö´ÉÀÇ °­È­½ºÅ©·Ñ
-#define	II_SYS_SYS_SCR_STRONG_STR	30016	// °­ÇÑ ÈûÀÇ ¹°¾à
-#define	II_SYS_SYS_SCR_STRONG_DEX	30017	// °­ÇÑ ¹ÎÃ¸ÀÇ ¹°¾à
-#define	II_SYS_SYS_SCR_STRONG_INT	30018	// °­ÇÑ Áö´ÉÀÇ ¹°¾à
-#define	II_SYS_SYS_SCR_STRONG_STA	30019	// °­ÇÑ Ã¼·ÂÀÇ ¹°¾à
-#define	II_SYS_SYS_SCR_STRONG_ADJDEF	30020	// °­ÇÑ ¹æ¾îÀÇ ¹°¾à
+#define	II_SYS_SYS_SCR_RANDOMSTR	30012	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMDEX	30013	// ï¿½ï¿½Ã¸ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMSTA	30014	// Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_RANDOMINT	30015	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å©ï¿½ï¿½
+#define	II_SYS_SYS_SCR_STRONG_STR	30016	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_STRONG_DEX	30017	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_STRONG_INT	30018	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_STRONG_STA	30019	// ï¿½ï¿½ï¿½ï¿½ Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+#define	II_SYS_SYS_SCR_STRONG_ADJDEF	30020	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-#define	II_SYS_SYS_SCR_BEAUTYSHOP	30024	// ºäÆ¼¼¥
-#define	II_SYS_SYS_SCR_VENDOR	30025	// °³ÀÎ»óÁ¡
+#define	II_SYS_SYS_SCR_BEAUTYSHOP	30024	// ï¿½ï¿½Æ¼ï¿½ï¿½
+#define	II_SYS_SYS_SCR_VENDOR	30025	// ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½
 
 #define	II_GEN_FOO_COO_MEDICINE01	30026
 #define	II_GEN_FOO_COO_MEDICINE02	30027
 #define	II_SYS_SYS_GM_DIS_LAWOLF_BUFF	30028
 
-#define	II_SYS_SYS_QUE_ANGEL_RED	30035	// "·¹µå¿£Á©"
-#define	II_SYS_SYS_QUE_ANGEL_BLUE	30036	// "ºí·ç¿£Á©"
-#define	II_SYS_SYS_QUE_ANGEL_GREEN	30037	// "±×¸°¿£Á©"
-#define	II_SYS_SYS_QUE_ANGEL_WHITE	30038	// "È­ÀÌÆ®¿£Á©"
-#define	II_SYS_SYS_QUE_ANGEL_RED100	30039	// "·¹µå¿£Á©100%»óÅÂ"
-#define	II_SYS_SYS_QUE_ANGEL_BLUE100	30040	// "ºí·ç¿£Á©100%»óÅÂ"
-#define	II_SYS_SYS_QUE_ANGEL_GREEN100	30041	// "±×¸°¿£Á©100%»óÅÂ"
-#define	II_SYS_SYS_QUE_ANGEL_WHITE100	30042	// "È­ÀÌÆ®¿£Á©100%»óÅÂ"
+#define	II_SYS_SYS_QUE_ANGEL_RED	30035	// "ï¿½ï¿½ï¿½å¿£ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_BLUE	30036	// "ï¿½ï¿½ï¿½ç¿£ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_GREEN	30037	// "ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_WHITE	30038	// "È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_RED100	30039	// "ï¿½ï¿½ï¿½å¿£ï¿½ï¿½100%ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_BLUE100	30040	// "ï¿½ï¿½ï¿½ç¿£ï¿½ï¿½100%ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_GREEN100	30041	// "ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½100%ï¿½ï¿½ï¿½ï¿½"
+#define	II_SYS_SYS_QUE_ANGEL_WHITE100	30042	// "È­ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½100%ï¿½ï¿½ï¿½ï¿½"
+
+
+// ##32767ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½
+//120 ï¿½ï¿½Æ® ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½ (ï¿½Ç¼ï¿½ï¿½ï¿½ ï¿½ï¿½î°£ ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!)
+#define	II_SYS_SYS_SCR_BXMKNT120SET	32767
+#define	II_SYS_SYS_SCR_BXMBLA120SET	32768
+#define	II_SYS_SYS_SCR_BXFKNT120SET	32769
+#define	II_SYS_SYS_SCR_BXFBLA120SET	32770
+#define	II_SYS_SYS_SCR_BXMJST120SET	32771
+#define	II_SYS_SYS_SCR_BXMRAG120SET	32772
+#define	II_SYS_SYS_SCR_BXFJST120SET	32773
+#define	II_SYS_SYS_SCR_BXFRAG120SET	32774
+#define	II_SYS_SYS_SCR_BXMRIN120SET	32775
+#define	II_SYS_SYS_SCR_BXMBIL120SET	32776
+#define	II_SYS_SYS_SCR_BXFRIN120SET	32777
+#define	II_SYS_SYS_SCR_BXFBIL120SET	32778
+#define	II_SYS_SYS_SCR_BXMPSY120SET	32779
+#define	II_SYS_SYS_SCR_BXMELE120SET	32780
+#define	II_SYS_SYS_SCR_BXFPSY120SET	32781
+#define	II_SYS_SYS_SCR_BXFELE120SET	32782
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+//---------------------------------Mystralia NEW ITEMS---------------------------------------//
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//Polarized Weapon Set
+#define II_WEA_AXE_POLARIZEDWEAPON	    32783	//Polarized Sword
+#define II_WEA_AXT_POLARIZEDWEAPON	    32784	//Polarized 2h Sword
+#define II_WEA_SWO_POLARIZEDWEAPON	    32785	//Polarized Axe	
+#define II_WEA_SWT_POLARIZEDWEAPON	    32786	//Polarized 2h Axe
+#define II_WEA_KNU_POLARIZEDWEAPON	    32787	//Polarized Knuckle 
+#define II_WEA_CHE_POLARIZEDWEAPON	    32788	//Polarized Stick	
+#define II_WEA_STA_POLARIZEDWEAPON	    32789	//Polarized Wand
+#define II_WEA_WAN_POLARIZEDWEAPON	    32790	//Polarized Staff	
+#define II_WEA_BOW_POLARIZEDWEAPON	    32791	//Polarized Bow		
+#define II_WEA_YOY_POLARIZEDWEAPON	    32792	//Polarized Yoyo
+#define II_WEA_BOK_POLARIZEDWEAPON	    32793	//Polarized Shield
+#define II_WEA_BOK_POLARIZEDWEAPON1	    32794	//Polarized Zem
+#define II_WEA_BOK_POLARIZEDWEAPON2	    32795	//Polarized Book	
+
+//Golden Weapon
+#define II_WEA_SWT_CFLYFFG           	32796   // Gold Sword	
+#define II_WEA_AXT_CFLYFFG           	32797   // Gold 2h Sword
+#define II_WEA_SWO_CFLYFFG           	32798   // Gold Axe		
+#define II_WEA_AXE_CFLYFFG           	32799   // Gold 2h Axe 
+#define II_WEA_BOW_CFLYFFG           	32801   // Gold Knuckle 
+#define II_WEA_YOY_CFLYFFG           	32802   // Gold Stick	
+#define II_WEA_KNU_CFLYFFG           	32803   // Gold Wand	
+#define II_WEA_CHE_CFLYFFG           	32804   // Gold Staff
+#define II_WEA_WAN_CFLYFFG           	32805   // Gold Bow		
+#define II_WEA_STA_CFLYFFG           	32806   // Gold Yoyo	
+
+// Revert Awake Scroll
+#define	II_SYS_SYS_SCR_AEGONREVERT		32807	//Awake Revert Scroll
+
+// Offline Vendor Items - Kiyo
+#define II_VENDOR_01_1D		32808	//Bear Vendor (24 Hours)		
+#define II_VENDOR_02_1D		32809	//Flower House Vendor (24 Hours)
+#define II_VENDOR_03_1D		32810	//Cupcake Vendor (24 Hours)		
+#define II_VENDOR_04_1D		32811	//Happy Campers Vendor (24 Hours)
+#define II_VENDOR_05_1D		32812	//Hot Chocolate Vendor (24 Hours)	
+#define II_VENDOR_06_1D		32813	//Igloo Vendor (24 Hours)	
+#define II_VENDOR_07_1D		32814	//Orange Mush Vendor (24 Hours)		
+#define II_VENDOR_08_1D		32815	//Green Mush Vendor (24 Hours)	
+#define II_VENDOR_09_1D		32816	//Pinapple Vendor (24 Hours)		
+#define II_VENDOR_10_1D		32817	//T-Rex Vendor (24 Hours)			
+#define II_VENDOR_11_1D		32818	//Shark Vendor (24 Hours)			
+#define II_VENDOR_12_1D		32819	//Takoyaki Vendor (24 Hours)		
+
+#define II_VENDOR_01_7D		32820	//Bear Vendor (7 Days)		
+#define II_VENDOR_02_7D		32821	//Flower House Vendor (7 Days)
+#define II_VENDOR_03_7D		32822	//Cupcake Vendor (7 Days)		
+#define II_VENDOR_04_7D		32823	//Happy Campers Vendor (7 Days)	
+#define II_VENDOR_05_7D		32824	//Hot Chocolate Vendor (7 Days)	
+#define II_VENDOR_06_7D		32825	//Igloo Vendor (7 Days)		
+#define II_VENDOR_07_7D		32826	//Orange Mush Vendor (7 Days)
+#define II_VENDOR_08_7D		32827	//Green Mush Vendor (7 Days)	
+#define II_VENDOR_09_7D		32828	//Pinapple Vendor (7 Days)		
+#define II_VENDOR_10_7D		32829	//T-Rex Vendor (7 Days)			
+#define II_VENDOR_11_7D		32830	//Shark Vendor (7 Days)			
+#define II_VENDOR_12_7D		32831	//Takoyaki Vendor (7 Days)	
+
+#define II_VENDOR_BOX_1D		32832	//Random Offline Vendor Box (24 Hours)	
+#define II_VENDOR_BOX_7D		32833	//Random Offline Vendor Box (7 Days)	
+
+// Darkness Weapon Model - Kiyo
+#define II_WEA_SWO_DARKNESS	  	32834	//Darkness Sword	
+#define II_WEA_SWT_DARKNESS	  	32835	//Darkness Big Sword	
+#define II_WEA_AXE_DARKNESS	  	32836	//Darkness Axe
+#define II_WEA_AXT_DARKNESS	  	32837	//Darkness Big Axe	
+#define II_WEA_KNU_DARKNESS	  	32838	//Darkness Knuckle	
+#define II_WEA_CHE_DARKNESS	  	32839	//Darkness Stick		
+#define II_WEA_WAN_DARKNESS	  	32840	//Darkness Wand	
+#define II_WEA_STA_DARKNESS	  	32841	//Darkness Staff		
+#define II_WEA_BOW_DARKNESS	  	32842	//Darkness Bow	
+#define II_WEA_YOY_DARKNESS	  	32843	//Darkness Yoyo
+#define II_ARM_ARM_SHI_DARKNESS	32844	//Darkness Shield
+#define II_ARM_ARM_ZEM_DARKNESS	32845	//Darkness Zem
+#define II_ARM_ARM_BOK_DARKNESS	32846	//Darkness Book
+
+// Phantom Weapon Model - Kiyo
+#define II_WEA_SWO_PHANTOM	  	32847	//Phantom Sword	
+#define II_WEA_SWT_PHANTOM	  	32848	//Phantom Big Sword	
+#define II_WEA_AXE_PHANTOM	  	32849	//Phantom Axe
+#define II_WEA_AXT_PHANTOM	  	32850	//Phantom Big Sword	
+#define II_WEA_KNU_PHANTOM	  	32851	//Phantom Knuckle	
+#define II_WEA_CHE_PHANTOM	  	32852	//Phantom Stick		
+#define II_WEA_WAN_PHANTOM	  	32853	//Phantom Wand	
+#define II_WEA_STA_PHANTOM	  	32854	//Phantom Staff		
+#define II_WEA_BOW_PHANTOM	  	32855	//Phantom Bow	
+#define II_WEA_YOY_PHANTOM	  	32856	//Phantom Yoyo
+#define II_ARM_ARM_SHI_PHANTOM	32857	//Phantom Shield
+#define II_ARM_ARM_ZEM_PHANTOM	32858	//Phantom Zem
+#define II_ARM_ARM_BOK_PHANTOM	32859	//Phantom Book
+
+// Scrolls - Kiyo
+#define II_SYS_SCR_RPROTECT				32860	// Scroll of R-Protect
+#define II_SYS_SYS_BLING_BLING			32861	// Scroll of Reflect
+#define II_SYS_SYS_REMOVE_BLING_BLING	32862	// Scroll of Reflect Remove
+#define II_SYS_SCR_CUSTOMTITLE			32863	// Scroll of Custom Title
+#define II_SYS_SCR_REMOVE_CUSTOM		32864	// Scroll of Custom Title Remove
+
+// Aedilhun Weapon Model - Kiyo
+#define II_WEA_SWO_AEDILHUN			32865	//Aedilhun Sword	
+#define II_WEA_SWT_AEDILHUN			32866	//Aedilhun Big Sword
+#define II_WEA_AXE_AEDILHUN			32867	//Aedilhun Axe	
+#define II_WEA_AXT_AEDILHUN			32868	//Aedilhun Big Axe
+#define II_WEA_KNU_AEDILHUN			32869	//Aedilhun Knuckle	
+#define II_WEA_CHE_AEDILHUN			32870	//Aedilhun Stick	
+#define II_WEA_WAN_AEDILHUN			32871	//Aedilhun Wand		
+#define II_WEA_STA_AEDILHUN			32872	//Aedilhun Staff	
+#define II_WEA_BOW_AEDILHUN			32873	//Aedilhun Bow		
+#define II_WEA_YOY_AEDILHUN			32874	//Aedilhun Yoyo		
+#define II_ARM_ARM_SHI_AEDILHUN		32875	//Aedilhun Shield 
+#define II_ARM_ARM_ZEM_AEDILHUN		32876	//Aedilhun Zem		
+#define II_ARM_ARM_BOK_AEDILHUN		32877	//Aedilhun Book		
+
+// Magical Weapon Model - Kiyo
+#define II_WEA_SWO_MAGICAL			32878	//Magical Sword	
+#define II_WEA_SWT_MAGICAL			32879	//Magical Big Sword
+#define II_WEA_AXE_MAGICAL			32880	//Magical Axe	
+#define II_WEA_AXT_MAGICAL			32881	//Magical Big Axe
+#define II_WEA_KNU_MAGICAL			32882	//Magical Knuckle	
+#define II_WEA_CHE_MAGICAL			32883	//Magical Stick	
+#define II_WEA_WAN_MAGICAL			32884	//Magical Wand		
+#define II_WEA_STA_MAGICAL			32885	//Magical Staff	
+#define II_WEA_BOW_MAGICAL			32886	//Magical Bow		
+#define II_WEA_YOY_MAGICAL			32887	//Magical Yoyo		
+#define II_ARM_ARM_SHI_MAGICAL		32888	//Magical Shield 
+#define II_ARM_ARM_ZEM_MAGICAL		32889	//Magical Zem		
+#define II_ARM_ARM_BOK_MAGICAL		32890	//Magical Book		
+
+#define II_SYS_MOUNT_01				32891	//Green Ceberus Mount		
+#define II_SYS_MOUNT_02				32892	//Blue Dinosaur Mount		
+#define II_SYS_MOUNT_03				32893	//Orange Fox Mount			
+#define II_SYS_MOUNT_04				32894	//Ghost Horse Mount			
+#define II_SYS_MOUNT_05				32895	//Basilisk Mount			
+#define II_SYS_MOUNT_06				32896	//Black Bear Mount			
+#define II_SYS_MOUNT_07				32897	//Old Lazy Camel Mount		
+#define II_SYS_MOUNT_08				32898	//Cellocopter Mount		
+#define II_SYS_MOUNT_09				32899	//Large Chicken Mount		
+#define II_SYS_MOUNT_10				32900	//Racing Bird Mount			
+#define II_SYS_MOUNT_11				32901	//Dead Purple Tiger Mount
+#define II_SYS_MOUNT_12				32902	//Grumpy Orc Mount
+#define II_SYS_MOUNT_13				32903	//Shredder X-3000 Mount	
+#define II_SYS_MOUNT_14				32904	//Ghost Lion Mount	
+#define II_SYS_MOUNT_15				32905	//Big Mantis Mount
+#define II_SYS_MOUNT_16				32906	//Muscular Tiger Mount	
+#define II_SYS_MOUNT_17				32907	//Spider Queen Mount	
+#define II_SYS_MOUNT_18				32908	//Skeleton Dinosaur Mount	
+#define II_SYS_MOUNT_19				32909	//Shredder XYZ-9500 Mount
+#define II_SYS_MOUNT_20				32910	//Red Scorpion Mount
+#define II_SYS_MOUNT_21				32911	//Chinese Lion Mount
+#define II_SYS_MOUNT_22				32912	//Black Yeti Mount
+//#define II_SYS_MOUNT_23			32913	// ??
+#define II_SYS_MOUNT_24				32914	//Tracked Motorcycle Mount
+#define II_SYS_MOUNT_25				32915	//Ice Wolf Mount	
+#define II_SYS_MOUNT_26				32916	//Fire Tiger Mount	
+#define II_SYS_MOUNT_27				32917	//Mountain Elephant Mount
+#define II_SYS_MOUNT_28				32918	//Velociraptor Mount
+#define II_SYS_MOUNT_29				32919	//Ghost Lava Horse Mount	
+#define II_SYS_MOUNT_30				32920	//Crocodile Mount	
+#define II_SYS_MOUNT_31				32921	//Deer Female Mount		
+#define II_SYS_MOUNT_32				32922	//Elephant Mount		
+#define II_SYS_MOUNT_33				32923	//Deer Male Mount		
+#define II_SYS_MOUNT_34				32924	//Triceratops Mount		
+#define II_SYS_MOUNT_35				32925	//Monkey Mount		
+#define II_SYS_MOUNT_36				32926	//Raptor Mount			
+#define II_SYS_MOUNT_37				32927	//Robot Bear Mount			
+#define II_SYS_MOUNT_38				32928	//Emerald Panda Mount
+#define II_SYS_MOUNT_39				32929	//Pink Tiger Mount
+#define II_SYS_MOUNT_40				32930	//Orange Ghost Tiger Mount	
+#define II_SYS_MOUNT_41				32931	//Majestic Unicorn Mount
+#define II_SYS_MOUNT_42				32932	//Ghost Ice Smilodon Mount	
+#define II_SYS_MOUNT_43				32933	//Black Smilodon Mount	
+#define II_SYS_MOUNT_44				32934	//Vicious Racing Bird Mount	
+#define II_SYS_MOUNT_45				32935	//Hippogryph Mount	
+#define II_SYS_MOUNT_46				32936	//Ice Hippogryph Mount	
+#define II_SYS_MOUNT_47				32937	//Night Dragon Mount
+#define II_SYS_MOUNT_48				32938	//Thunder Dragon Mount
+#define II_SYS_MOUNT_49				32939	//Hell Dragon Mount
+#define II_SYS_MOUNT_50				32940	//Lightning Dragon Mount
+#define II_SYS_MOUNT_51				32941	//Kawaii Dragon Mount			
+#define II_SYS_MOUNT_52				32942	//Ice Cerberus Mount	
+//#define II_SYS_MOUNT_53			32943	// 	??
+#define II_SYS_MOUNT_54				32944	//Garuru Mount
+//#define II_SYS_MOUNT_55			32945	//	??
+#define II_SYS_MOUNT_56				32946	//Night Ship Mount				
+#define II_SYS_MOUNT_57				32947	//Swing Mount
+#define II_SYS_MOUNT_58				32948	//Adorable Llama Mount		
+#define II_SYS_MOUNT_59				32949	//gPotato Mount					
+
+// Electro Weapon Model - Kiyo
+#define II_WEA_SWO_ELECTRO			32950	//Electro Sword	
+#define II_WEA_SWT_ELECTRO			32951	//Electro Big Sword
+#define II_WEA_AXE_ELECTRO			32952	//Electro Axe	
+#define II_WEA_AXT_ELECTRO			32953	//Electro Big Axe
+#define II_WEA_KNU_ELECTRO			32954	//Electro Knuckle	
+#define II_WEA_CHE_ELECTRO			32955	//Electro Stick	
+#define II_WEA_WAN_ELECTRO			32956	//Electro Wand		
+#define II_WEA_STA_ELECTRO			32957	//Electro Staff	
+#define II_WEA_BOW_ELECTRO			32958	//Electro Bow		
+#define II_WEA_YOY_ELECTRO			32959	//Electro Yoyo		
+#define II_ARM_ARM_SHI_ELECTRO		32960	//Electro Shield 
+#define II_ARM_ARM_ZEM_ELECTRO		32961	//Electro Zem		
+#define II_ARM_ARM_BOK_ELECTRO		32962	//Electro Book	
+
+// Tall Chief Weapon Model - Kiyo
+#define II_WEA_SWO_TALLCHIEF		32963	//Tall Chief Sword	
+#define II_WEA_SWT_TALLCHIEF		32964	//Tall Chief Big Sword
+#define II_WEA_AXE_TALLCHIEF		32965	//Tall Chief Axe	
+#define II_WEA_AXT_TALLCHIEF		32966	//Tall Chief Big Axe
+#define II_WEA_KNU_TALLCHIEF		32967	//Tall Chief Knuckle	
+#define II_WEA_CHE_TALLCHIEF		32968	//Tall Chief Stick	
+#define II_WEA_WAN_TALLCHIEF		32969	//Tall Chief Wand		
+#define II_WEA_STA_TALLCHIEF		32970	//Tall Chief Staff	
+#define II_WEA_BOW_TALLCHIEF		32971	//Tall Chief Bow		
+#define II_WEA_YOY_TALLCHIEF		32972	//Tall Chief Yoyo		
+#define II_ARM_ARM_SHI_TALLCHIEF	32973	//Tall Chief Shield 
+#define II_ARM_ARM_ZEM_TALLCHIEF	32974	//Tall Chief Zem		
+#define II_ARM_ARM_BOK_TALLCHIEF	32975	//Tall Chief Book	
+
+//Beginner boxes
+#define II_SYS_SYS_SCR_MBGINRBOX    32976	//Male beginner box
+#define II_SYS_SYS_SCR_FBGINRBOX    32977	//Female beginner box
+
+//Pokemon Weapons - Kiyo
+#define II_WEA_SWO_POKEMON_01       32978   //Pokemon Sword Type 1
+#define II_WEA_SWO_POKEMON_02       32979   //Pokemon Sword Type 2
+#define II_WEA_SWO_POKEMON_03       32980   //Pokemon Sword Type 3
+#define II_WEA_SWO_POKEMON_04       32981   //Pokemon Sword Type 4
+#define II_WEA_SWO_POKEMON_05       32982   //Pokemon Sword Type 5
+#define II_WEA_SWT_POKEMON_01       32983   //Pokemon Big Sword Type 1
+#define II_WEA_SWT_POKEMON_02       32984   //Pokemon Big Sword Type 2
+#define II_WEA_KNU_POKEMON_01       32985   //Pokemon Knuckle Type 1
+#define II_WEA_KNU_POKEMON_02       32986   //Pokemon Knuckle Type 2
+#define II_WEA_CHE_POKEMON_01       32987   //Pokemon Stick Type 1
+#define II_WEA_CHE_POKEMON_02       32988   //Pokemon Stick Type 2
+#define II_WEA_WAN_POKEMON_01       32989   //Pokemon Wand Type 1
+#define II_WEA_WAN_POKEMON_02       32990   //Pokemon Wand Type 2
+#define II_WEA_STA_POKEMON_01       32991   //Pokemon Staff Type 1
+#define II_WEA_STA_POKEMON_02       32992   //Pokemon Staff Type 2
+#define II_WEA_BOW_POKEMON_01       32993   //Pokemon Bow Type 1
+#define II_WEA_BOW_POKEMON_02       32994   //Pokemon Bow Type 2
+#define II_WEA_YOY_POKEMON_01       32995   //Pokemon Yoyo Type 1
+#define II_WEA_YOY_POKEMON_02       32996   //Pokemon Yoyo Type 2
+
+// Anarchy - Kiyo
+#define II_ANARCHY_BUFF01			32997	//Anarchy Buff 1
+#define II_ANARCHY_BUFF02			32998	//Anarchy Buff 2
+#define II_ANARCHY_BUFF03			32999	//Anarchy Buff 3
+#define II_ANARCHY_BUFF04			33000	//Anarchy Buff 4
+#define II_ANARCHY_BUFF05			33001	//Anarchy Buff 5
+#define II_ANARCHY_BUFF06			33002	//Anarchy Buff 6
+#define II_ANARCHY_BUFF07			33003	//Anarchy Buff 7
+#define II_ANARCHY_BUFF08			33004	//Anarchy Buff 8
+#define II_ANARCHY_BUFF_BOX			33005	//Anarchy Buff Box
+
+// Tall Chief Weapon Model - Kiyo
+#define II_WEA_SWO_BLOODQUENCH		33006	//Bloodquench Sword	
+#define II_WEA_SWT_BLOODQUENCH		33007	//Bloodquench Big Sword
+#define II_WEA_AXE_BLOODQUENCH		33008	//Bloodquench Axe	
+#define II_WEA_AXT_BLOODQUENCH		33009	//Bloodquench Big Axe
+#define II_WEA_KNU_BLOODQUENCH		33010	//Bloodquench Knuckle	
+#define II_WEA_CHE_BLOODQUENCH		33011	//Bloodquench Stick	
+#define II_WEA_WAN_BLOODQUENCH		33012	//Bloodquench Wand		
+#define II_WEA_STA_BLOODQUENCH		33013	//Bloodquench Staff	
+#define II_WEA_BOW_BLOODQUENCH		33014	//Bloodquench Bow		
+#define II_WEA_YOY_BLOODQUENCH		33015	//Bloodquench Yoyo		
+#define II_ARM_ARM_SHI_BLOODQUENCH	33016	//Bloodquench Shield 
+#define II_ARM_ARM_ZEM_BLOODQUENCH	33017	//Bloodquench Zem		
+#define II_ARM_ARM_BOK_BLOODQUENCH	33018	//Bloodquench Book	
+
+//Alpakonea Cs Set (M) - Kiyo 
+#define II_ARM_M_CHR_ALPAKONEA01HAT     33019  //Alpakonea Hat (M)          // [InGame Shop]
+#define II_ARM_M_CHR_ALPAKONEA01SUIT    33020  //Alpakonea Suit (M)         // [InGame Shop]
+#define II_ARM_M_CHR_ALPAKONEA01SHOES   33021  //Alpakonea Shoes (M)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMALPAKONEA01   33022  //Alpakonea Cs Box (M)       // [InGame Shop]
+
+//Alpakonea Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ALPAKONEA01HAT     33023  //Alpakonea Hat (F)          // [InGame Shop]
+#define II_ARM_F_CHR_ALPAKONEA01SUIT    33024  //Alpakonea Suit (F)         // [InGame Shop]
+#define II_ARM_F_CHR_ALPAKONEA01SHOES   33025  //Alpakonea Shoes (F)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFALPAKONEA01   33026  //Alpakonea Cs Box (F)       // [InGame Shop]
+
+//Campbelloop Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CAMPBELLOOP01HAT   33027  //Campbelloop Hat (M)        // [InGame Shop]
+#define II_ARM_M_CHR_CAMPBELLOOP01SUIT  33028  //Campbelloop Suit (M)       // [InGame Shop]
+#define II_ARM_M_CHR_CAMPBELLOOP01SHOES 33029  //Campbelloop Shoes (M)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMCAMPBELLOOP01 33030  //Campbelloop Cs Box (M)     // [InGame Shop]
+
+//Campbelloop Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CAMPBELLOOP01HAT   33031  //Campbelloop Hat (F)        // [InGame Shop]
+#define II_ARM_F_CHR_CAMPBELLOOP01SUIT  33032  //Campbelloop Suit (F)       // [InGame Shop]
+#define II_ARM_F_CHR_CAMPBELLOOP01SHOES 33033  //Campbelloop Shoes (F)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFCAMPBELLOOP01 33034  //Campbelloop Cs Box (F)     // [InGame Shop]
+
+//Creerzil Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CREERZIL01HAT      33035  //Creerzil Hat (M)           // [InGame Shop]
+#define II_ARM_M_CHR_CREERZIL01SUIT     33036  //Creerzil Suit (M)          // [InGame Shop]
+#define II_ARM_M_CHR_CREERZIL01SHOES    33037  //Creerzil Shoes (M)         // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMCREERZIL01    33038  //Creerzil Cs Box (M)        // [InGame Shop]
+
+//Creerzil Cs Set (F) - Kiyo 
+#define II_ARM_F_CHR_CREERZIL01HAT      33039  //Creerzil Hat (F)          // [InGame Shop]
+#define II_ARM_F_CHR_CREERZIL01SUIT     33040  //Creerzil Suit (F)         // [InGame Shop]
+#define II_ARM_F_CHR_CREERZIL01SHOES    33041  //Creerzil Shoes (F)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFCREERZIL01    33042  //Creerzil Cs Box (F)       // [InGame Shop]
+
+//Devious Cs Set (M) - Kiyo 
+#define II_ARM_M_CHR_DEVIOUS01HAT       33043  //Devious Hat (M)           // [InGame Shop]
+#define II_ARM_M_CHR_DEVIOUS01SUIT      33044  //Devious Suit (M)          // [InGame Shop]
+#define II_ARM_M_CHR_DEVIOUS01SHOES     33045  //Devious Shoes (M)         // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMDEVIOUS01     33046  //Devious Cs Box (M)        // [InGame Shop]
+
+//Devious Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DEVIOUS01HAT       33047 //Devious Hat (F)            // [InGame Shop]
+#define II_ARM_F_CHR_DEVIOUS01SUIT      33048 //Devious Suit (F)           // [InGame Shop]
+#define II_ARM_F_CHR_DEVIOUS01SHOES     33049 //Devious Shoes (F)          // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFDEVIOUS01     33050 //Devious Cs Box (F)         // [InGame Shop]
+
+//Casino Royal Cs Set (M) - Kiyo 
+#define II_ARM_M_CHR_CASINOROYAL01HAT       33051  //Casino Royal Hat (M)         // [InGame Shop]
+#define II_ARM_M_CHR_CASINOROYAL01SUIT      33052  //Casino Royal Suit (M)        // [InGame Shop]
+#define II_ARM_M_CHR_CASINOROYAL01SHOES     33053  //Casino Royal Shoes (M)       // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMCASINOROYAL01     33054  //Casino Royal Cs Box (M)      // [InGame Shop]
+
+//Casino Royal Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CASINOROYAL01HAT       33055 //Casino Royal Hat (F)          // [InGame Shop]
+#define II_ARM_F_CHR_CASINOROYAL01SUIT      33056 //Casino Royal Suit (F)         // [InGame Shop]
+#define II_ARM_F_CHR_CASINOROYAL01SHOES     33057 //Casino Royal Shoes (F)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFCASINOROYAL01     33058 //Casino Royal Cs Box (F)       // [InGame Shop]
+
+//Osasuchi Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_OSASUCHI01HAT      33059  //Osasuchi Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_OSASUCHI01SUIT     33060  //Osasuchi Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_OSASUCHI01SHOES    33061  //Osasuchi Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMOSASUCHI01    33062  //Osasuchi Cs Box (M)    // [InGame Shop]
+
+//Osasuchi Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_OSASUCHI01HAT      33063 //Osasuchi Hat (F)        // [InGame Shop]
+#define II_ARM_F_CHR_OSASUCHI01SUIT     33064 //Osasuchi Suit (F)       // [InGame Shop]
+#define II_ARM_F_CHR_OSASUCHI01SHOES    33065 //Osasuchi Shoes (F)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFOSASUCHI01    33066 //Osasuchi Cs Box (F)     // [InGame Shop]
+
+//Daansel Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_DAANSEL01HAT       33067  //Daansel Hat (M)        // [InGame Shop]
+#define II_ARM_M_CHR_DAANSEL01SUIT      33068  //Daansel Suit (M)       // [InGame Shop]
+#define II_ARM_M_CHR_DAANSEL01SHOES     33069  //Daansel Shoes (M)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMDAANSEL01     33070  //Daansel Cs Box (M)     // [InGame Shop]
+
+//Daansel Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DAANSEL01HAT       33071  //Daansel Hat (F)        // [InGame Shop]
+#define II_ARM_F_CHR_DAANSEL01SUIT      33072  //Daansel Suit (F)       // [InGame Shop]
+#define II_ARM_F_CHR_DAANSEL01SHOES     33073  //Daansel Shoes (F)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFDAANSEL01     33074  //Daansel Cs Box (F)     // [InGame Shop]
+
+//Edishi Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_EDISHI01HAT        33075  //Edishi Set Hat (M)     // [InGame Shop]
+#define II_ARM_M_CHR_EDISHI01SUIT       33076  //Edishi Set Suit (M)    // [InGame Shop]
+#define II_ARM_M_CHR_EDISHI01SHOES      33077  //Edishi Set Shoes (M)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMEDISHI01      33078  //Edishi Set Cs Box (M)  // [InGame Shop]
+
+//Edishi Set Set Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_EDISHI01HAT        33079  //Edishi Set Hat (F)     // [InGame Shop]
+#define II_ARM_F_CHR_EDISHI01SUIT       33080  //Edishi Set Suit (F)    // [InGame Shop]
+#define II_ARM_F_CHR_EDISHI01SHOES      33081  //Edishi Set Shoes (F)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFEDISHI01      33082  //Edishi Set Cs Box (F)  // [InGame Shop]
+
+//Elossum Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ELOSSUM01HAT       33083  //Elossum Set Hat (M)    // [InGame Shop]
+#define II_ARM_M_CHR_ELOSSUM01SUIT      33084  //Elossum Set Suit (M)   // [InGame Shop]
+#define II_ARM_M_CHR_ELOSSUM01SHOES     33085  //Elossum Set Shoes (M)  // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMELOSSUM01     33086  //Elossum Set Cs Box (M) // [InGame Shop]
+
+//Elossum Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ELOSSUM01HAT       33087  //Elossum Set Hat (F)    // [InGame Shop]
+#define II_ARM_F_CHR_ELOSSUM01SUIT      33088  //Elossum Set Suit (F)   // [InGame Shop]
+#define II_ARM_F_CHR_ELOSSUM01SHOES     33089  //Elossum Set Shoes (F)  // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFELOSSUM01     33090  //Elossum Set Cs Box (F) // [InGame Shop]
+
+//Dorres Drottdunn Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_DORRESDROTTDUNN01HAT       33091  //Dorres Drottdunn Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_DORRESDROTTDUNN01SUIT      33092  //Dorres Drottdunn Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_DORRESDROTTDUNN01SHOES     33093  //Dorres Drottdunn Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMDORRESDROTTDUNN01     33094  //Dorres Drottdunn Set Cs Box (M)   // [InGame Shop]
+
+//Dorres Drottdunn Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DORRESDROTTDUNN01HAT       33095  //Dorres Drottdunn Set Hat (F)      // [InGame Shop]
+#define II_ARM_F_CHR_DORRESDROTTDUNN01SUIT      33096  //Dorres Drottdunn Set Suit (F)     // [InGame Shop]
+#define II_ARM_F_CHR_DORRESDROTTDUNN01SHOES     33097  //Dorres Drottdunn Set Shoes (F)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFDORRESDROTTDUNN01     33098  //Dorres Drottdunn Set Cs Box (F)   // [InGame Shop]
+
+//Gitsalo Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_GITSALO01HAT       33099  //Gitsalo Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_GITSALO01SUIT      33100  //Gitsalo Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_GITSALO01SHOES     33101  //Gitsalo Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMGITSALO01     33102  //Gitsalo Set Cs Box (M)   // [InGame Shop]
+
+//Gitsalo Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GITSALO01HAT       33103  //Gitsalo Set Hat (F)     // [InGame Shop]
+#define II_ARM_F_CHR_GITSALO01SUIT      33104  //Gitsalo Set Suit (F)    // [InGame Shop]
+#define II_ARM_F_CHR_GITSALO01SHOES     33105  //Gitsalo Set Shoes (F)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFGITSALO01     33106  //Gitsalo Set Cs Box (F)  // [InGame Shop]
+
+//Winter Firemos Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_WINTERFIREMOS01HAT       33107  //Winter Firemos Set Hat (M)         // [InGame Shop]
+#define II_ARM_M_CHR_WINTERFIREMOS01SUIT      33108  //Winter Firemos Set Suit (M)        // [InGame Shop]
+#define II_ARM_M_CHR_WINTERFIREMOS01SHOES     33109  //Winter Firemos Set Shoes (M)       // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMWINTERFIREMOS01     33110  //Winter Firemos Set Cs Box (M)      // [InGame Shop]
+
+//Winter Firemos Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WINTERFIREMOS01HAT       33111  //Winter Firemos Set Hat (F)         // [InGame Shop]
+#define II_ARM_F_CHR_WINTERFIREMOS01SUIT      33112  //Winter Firemos Set Suit (F)        // [InGame Shop]
+#define II_ARM_F_CHR_WINTERFIREMOS01SHOES     33113  //Winter Firemos Set Shoes (F)       // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFWINTERFIREMOS01     33114  //Winter Firemos Set Cs Box (F)      // [InGame Shop]
+
+//Wendmorgan Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_WENDMORGAN01HAT       33115  //Wendmorgan Set Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_WENDMORGAN01SUIT      33116  //Wendmorgan Set Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_WENDMORGAN01SHOES     33117  //Wendmorgan Set Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMWENDMORGAN01     33118  //Wendmorgan Set Cs Box (M)    // [InGame Shop]
+
+//Wendmorgan Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WENDMORGAN01HAT       33119  //Wendmorgan Set Hat (F)      // [InGame Shop]
+#define II_ARM_F_CHR_WENDMORGAN01SUIT      33120  //Wendmorgan Set Suit (F)     // [InGame Shop]
+#define II_ARM_F_CHR_WENDMORGAN01SHOES     33121  //Wendmorgan Set Shoes (F)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFWENDMORGAN01     33122  //Wendmorgan Set Cs Box (F)   // [InGame Shop]
+
+//Grindycollins Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_GRINDYCOLLINS01HAT       33123  //Grindycollins Set Hat (M)           // [InGame Shop]
+#define II_ARM_M_CHR_GRINDYCOLLINS01SUIT      33124  //Grindycollins Set Suit (M)          // [InGame Shop]
+#define II_ARM_M_CHR_GRINDYCOLLINS01GLOVES    33125  //Grindycollins Set Gloves (M)        // [InGame Shop]
+#define II_ARM_M_CHR_GRINDYCOLLINS01SHOES     33126  //Grindycollins Set Shoes (M)         // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMGRINDYCOLLINS01     33127  //Grindycollins Set Cs Box (M)
+
+//Grindycollins Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GRINDYCOLLINS01HAT       33128  //Grindycollins Set Hat (F)           // [InGame Shop]
+#define II_ARM_F_CHR_GRINDYCOLLINS01SUIT      33129  //Grindycollins Set Suit (F)          // [InGame Shop]
+#define II_ARM_F_CHR_GRINDYCOLLINS01SHOES     33130  //Grindycollins Set Shoes (F)         // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFGRINDYCOLLINS01     33131  //Grindycollins Set Cs Box (F)        // [InGame Shop]
+
+//Dyryke the Noble Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_DYRKETHENOBLE01HAT       33132  //Dyryke the Noble Set Hat (M)         // [InGame Shop]
+#define II_ARM_M_CHR_DYRKETHENOBLE01SUIT      33133  //Dyryke the Noble Set Suit (M)        // [InGame Shop]
+#define II_ARM_M_CHR_DYRKETHENOBLE01SHOES     33134  //Dyryke the Noble Set Shoes (M)       // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMDYRKETHENOBLE01     33135  //Dyryke the Noble Set Cs Box (M)      // [InGame Shop]
+
+//Dyryke the Noble Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DYRKETHENOBLE01HAT       33136  //Dyryke the Noble Set Hat (F)         // [InGame Shop]
+#define II_ARM_F_CHR_DYRKETHENOBLE01SUIT      33137  //Dyryke the Noble Set Suit (F)        // [InGame Shop]
+#define II_ARM_F_CHR_DYRKETHENOBLE01SHOES     33138  //Dyryke the Noble Set Shoes (F)       // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFDYRKETHENOBLE01     33139  //Dyryke the Noble Set Cs Box (F)      // [InGame Shop]
+
+//Fangyan Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_FANGYAN01HAT       33140  //Fangyan Set Hat (M)        // [InGame Shop]
+#define II_ARM_M_CHR_FANGYAN01SUIT      33141  //Fangyan Set Suit (M)       // [InGame Shop]
+#define II_ARM_M_CHR_FANGYAN01SHOES     33142  //Fangyan Set Shoes (M)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMFANGYAN01     33143  //Fangyan Set Cs Box (M)     // [InGame Shop]
+
+//Fangyan Cs Set (F) - Kiyo                                                // [InGame Shop]
+#define II_ARM_F_CHR_FANGYAN01HAT       33144  //Fangyan Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_FANGYAN01SUIT      33145  //Fangyan Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_FANGYAN01SHOES     33146  //Fangyan Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFFANGYAN01     33147  //Fangyan Set Cs Box (F)    // [InGame Shop]
+
+//Bhalri Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BHALRI01HAT       33148  //Bhalri Set Hat (M)        // [InGame Shop]
+#define II_ARM_M_CHR_BHALRI01SUIT      33149  //Bhalri Set Suit (M)       // [InGame Shop]
+#define II_ARM_M_CHR_BHALRI01GLOVES    33150  //Bhalri Set Gloves (M)     // [InGame Shop]
+#define II_ARM_M_CHR_BHALRI01SHOES     33151  //Bhalri Set Shoes (M)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMBHALRI01     33152  //Bhalri Set Cs Box (M)     // [InGame Shop]
+                                                                          
+//Bhalri Cs Set (F) - Kiyo                                                
+#define II_ARM_F_CHR_BHALRI01HAT       33153  //Bhalri Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_BHALRI01SUIT      33154  //Bhalri Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_BHALRI01GLOVES    33155  //Bhalri Set Gloves (F)    // [InGame Shop]
+#define II_ARM_F_CHR_BHALRI01SHOES     33156  //Bhalri Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFBHALRI01     33157  //Bhalri  Set Cs Box (F)   // [InGame Shop]
+
+//Black Dragon Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLACKDRAGON01HAT       33158  //Black Dragon Set Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_BLACKDRAGON01SUIT      33159  //Black Dragon Set Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_BLACKDRAGON01GLOVES    33160  //Black Dragon Set Gloves (M)    // [InGame Shop]
+#define II_ARM_M_CHR_BLACKDRAGON01SHOES     33161  //Black Dragon Set Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMBLACKDRAGON01     33162  //Black Dragon Set Cs Box (M)    // [InGame Shop]
+
+//Black Dragon Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLACKDRAGON01HAT       33163  //Black Dragon Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_BLACKDRAGON01SUIT      33164  //Black Dragon Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_BLACKDRAGON01GLOVES    33165  //Black Dragon Set Gloves (F)    // [InGame Shop]
+#define II_ARM_F_CHR_BLACKDRAGON01SHOES     33166  //Black Dragon Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFBLACKDRAGON01     33167  //Black Dragon  Set Cs Box (F)   // [InGame Shop]
+
+//Dhemzac Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_DHEMZAC01HAT       33168  //Dhemzac Set Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_DHEMZAC01SUIT      33169  //Dhemzac Set Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_DHEMZAC01GLOVES    33170  //Dhemzac Set Gloves (M)    // [InGame Shop]
+#define II_ARM_M_CHR_DHEMZAC01SHOES     33171  //Dhemzac Set Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMDHEMZAC01     33172  //Dhemzac Set Cs Box (M)    // [InGame Shop]
+
+//Dhemzac Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DHEMZAC01HAT       33173  //Dhemzac Set Hat (F)      // [InGame Shop]
+#define II_ARM_F_CHR_DHEMZAC01SUIT      33174  //Dhemzac Set Suit (F)     // [InGame Shop]
+#define II_ARM_F_CHR_DHEMZAC01GLOVES    33175  //Dhemzac Set Gloves (F)   // [InGame Shop]
+#define II_ARM_F_CHR_DHEMZAC01SHOES     33176  //Dhemzac Set Shoes (F)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFDHEMZAC01     33177  //Dhemzac  Set Cs Box (F)  // [InGame Shop]
+
+//Gonzaheart Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_GONZAHEART01HAT       33178  //Gonzaheart Set Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_GONZAHEART01SUIT      33179  //Gonzaheart Set Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_GONZAHEART01SHOES     33180  //Gonzaheart Set Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMGONZAHEART01     33181  //Gonzaheart Set Cs Box (M)    // [InGame Shop]
+                                                                                 // [InGame Shop]
+//Gonzaheart Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GONZAHEART01HAT       33182  //Gonzaheart Set Hat (F)      // [InGame Shop]
+#define II_ARM_F_CHR_GONZAHEART01SUIT      33183  //Gonzaheart Set Suit (F)     // [InGame Shop]
+#define II_ARM_F_CHR_GONZAHEART01SHOES     33184  //Gonzaheart Set Shoes (F)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFGONZAHEART01     33185  //Gonzaheart Set Cs Box (F)   // [InGame Shop]
+                                                                                
+//Erolith Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_EROLITH01HAT       33186  //Erolith Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_EROLITH01SUIT      33187  //Erolith Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_EROLITH01GLOVES    33188  //Erolith Set Gloves (M)   // [InGame Shop]
+#define II_ARM_M_CHR_EROLITH01SHOES     33189  //Erolith Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMEROLITH01     33190  //Erolith Set Cs Box (M)   // [InGame Shop]
+
+//Erolith Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_EROLITH01HAT       33191  //Erolith Set Hat (F)     // [InGame Shop]
+#define II_ARM_F_CHR_EROLITH01SUIT      33192  //Erolith Set Suit (F)    // [InGame Shop]
+#define II_ARM_F_CHR_EROLITH01GLOVES    33193  //Erolith Set Gloves (F)  // [InGame Shop]
+#define II_ARM_F_CHR_EROLITH01SHOES     33194  //Erolith Set Shoes (F)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFEROLITH01     33195  //Erolith Set Cs Box (F)  // [InGame Shop]
+
+//Hohikne Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HOHIKNE01HAT       33196  //Hohikne Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_HOHIKNE01SUIT      33197  //Hohikne Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_HOHIKNE01GLOVES    33198  //Hohikne Set Gloves (M)   // [InGame Shop]
+#define II_ARM_M_CHR_HOHIKNE01SHOES     33199  //Hohikne Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMHOHIKNE01     33200  //Hohikne Set Cs Box (M)   // [InGame Shop]
+
+//Hohikne Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HOHIKNE01HAT       33201  //Hohikne Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_HOHIKNE01SUIT      33202  //Hohikne Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_HOHIKNE01GLOVES    33203  //Hohikne Set Gloves (F)    // [InGame Shop]
+#define II_ARM_F_CHR_HOHIKNE01SHOES     33204  //Hohikne Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFHOHIKNE01     33205  //Hohikne  Set Cs Box (F)   // [InGame Shop]
+
+//Yashita Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_YASHITA01HAT       33206  //Yashita Set Hat (M)       // [InGame Shop]
+#define II_ARM_M_CHR_YASHITA01SUIT      33207  //Yashita Set Suit (M)      // [InGame Shop]
+#define II_ARM_M_CHR_YASHITA01GLOVES    33208  //Yashita Set Gloves (M)    // [InGame Shop]
+#define II_ARM_M_CHR_YASHITA01SHOES     33209  //Yashita Set Shoes (M)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMYASHITA01     33210  //Yashita Set Cs Box (M)    // [InGame Shop]
+
+//Yashita Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_YASHITA01HAT       33211  //Yashita Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_YASHITA01SUIT      33212  //Yashita Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_YASHITA01GLOVES    33213  //Yashita Set Gloves (F)    // [InGame Shop]
+#define II_ARM_F_CHR_YASHITA01SHOES     33214  //Yashita Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFYASHITA01     33215  //Yashita  Set Cs Box (F)   // [InGame Shop]
+
+
+//Howardore Cs Set (M) - Kiyo                                                       
+#define II_ARM_M_CHR_HOWARDORE01HAT         33216  //Howardore Hat (M)                // [InGame Shop]
+#define II_ARM_M_CHR_HOWARDORE01SUIT        33217  //Howardore Suit (M)               // [InGame Shop]
+#define II_ARM_M_CHR_HOWARDORE01SHOES       33218  //Howardore Shoes (M)              // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMHOWARDORE01       33219  //Howardore Cs Box (M)             // [InGame Shop]
+
+//Howardore Set (F) - Kiyo 
+#define II_ARM_F_CHR_HOWARDORE01HAT         33220  //Howardore Hat (F)            // [InGame Shop]
+#define II_ARM_F_CHR_HOWARDORE01SUIT        33221  //Howardore Suit (F)           // [InGame Shop]
+#define II_ARM_F_CHR_HOWARDORE01SHOES       33222  //Howardore Shoes (F)          // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFHOWARDORE01       33223  //Howardore Cs Box (F)         // [InGame Shop]
+                                                                                 
+//Lixopus Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_LIXOPUS01HAT           33224  //Lixopus Set Hat (M)        // [InGame Shop]
+#define II_ARM_M_CHR_LIXOPUS01SUIT          33225  //Lixopus Set Suit (M)       // [InGame Shop]
+#define II_ARM_M_CHR_LIXOPUS01SHOES         33226  //Lixopus Set Shoes (M)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMLIXOPUS01         33227  //Lixopus Set Cs Box (M)     // [InGame Shop]
+   
+//Lixopus Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_LIXOPUS01HAT           33228  //Lixopus Set Hat (F)        // [InGame Shop]
+#define II_ARM_F_CHR_LIXOPUS01SUIT          33229  //Lixopus Set Suit (F)       // [InGame Shop]
+#define II_ARM_F_CHR_LIXOPUS01SHOES         33230  //Lixopus Set Shoes (F)      // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFLIXOPUS01         33231  //Lixopus Set Cs Box (F)     // [InGame Shop]
+
+//Irene March Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_IRENEMARCH01HAT        33232  //Irene March Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_IRENEMARCH01SUIT       33233  //Irene March Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_IRENEMARCH01GLOVES     33234  //Irene March Set Gloves (M)   // [InGame Shop]
+#define II_ARM_M_CHR_IRENEMARCH01SHOES      33235  //Irene March Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMIRENEMARCH01      33236  //Irene March Set Cs Box (M)   // [InGame Shop]
+   
+//Irene March Cs Set (F) - Kiyo            
+#define II_ARM_F_CHR_IRENEMARCH01HAT        33237  //Irene March Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_IRENEMARCH01SUIT       33238  //Irene March Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_IRENEMARCH01GLOVES     33239  //Irene March Set Gloves (F)    // [InGame Shop]
+#define II_ARM_F_CHR_IRENEMARCH01SHOES      33240  //Irene March Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFIRENEMARCH01      33241  //Irene March  Set Cs Box (F)   // [InGame Shop]
+
+//Wizard of Oz Cs Set (M) - Kiyo           
+#define II_ARM_M_CHR_WIZARDOFOZ01HAT        33242  //Wizard of Oz Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_WIZARDOFOZ01SUIT       33243  //Wizard of Oz Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_WIZARDOFOZ01GLOVES     33244  //Wizard of Oz Set Gloves (M)   // [InGame Shop]
+#define II_ARM_M_CHR_WIZARDOFOZ01SHOES      33245  //Wizard of Oz Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMWIZARDOFOZ01      33246  //Wizard of Oz Set Cs Box (M)   // [InGame Shop]
+   
+//Wizard of Oz Cs Set (F) - Kiyo           
+#define II_ARM_F_CHR_WIZARDOFOZ01HAT        33247  //Wizard of Oz Set Hat (F)     // [InGame Shop]
+#define II_ARM_F_CHR_WIZARDOFOZ01SUIT       33248  //Wizard of Oz Set Suit (F)    // [InGame Shop]
+#define II_ARM_F_CHR_WIZARDOFOZ01GLOVES     33249  //Wizard of Oz Set Gloves (F)  // [InGame Shop]
+#define II_ARM_F_CHR_WIZARDOFOZ01SHOES      33250  //Wizard of Oz Set Shoes (F)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFWIZARDOFOZ01      33251  //Wizard of Oz  Set Cs Box (F) // [InGame Shop]
+
+//Mazigan Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_MAZIGAN01HAT           33252  //Mazigan Set Hat (M)     // [InGame Shop]
+#define II_ARM_M_CHR_MAZIGAN01SUIT          33253  //Mazigan Set Suit (M)    // [InGame Shop]
+#define II_ARM_M_CHR_MAZIGAN01GLOVES        33254  //Mazigan Set Gloves (M)  // [InGame Shop]
+#define II_ARM_M_CHR_MAZIGAN01SHOES         33255  //Mazigan Set Shoes (M)   // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMMAZIGAN01         33256  //Mazigan Set Cs Box (M)  // [InGame Shop]
+   
+//Mazigan Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_MAZIGAN01HAT           33257  //Mazigan Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_MAZIGAN01SUIT          33258  //Mazigan Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_MAZIGAN01SHOES         33259  //Mazigan Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFMAZIGAN01         33260  //Mazigan  Set Cs Box (F)   // [InGame Shop]
+                                                                               
+//Zemastu Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ZEMASTU01HAT           33261  //Zemastu Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_ZEMASTU01SUIT          33262  //Zemastu Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_ZEMASTU01SHOES         33263  //Zemastu Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMZEMASTU01         33264  //Zemastu Set Cs Box (M)   // [InGame Shop]
+                                                                             
+//Zemastu Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_ZEMASTU01HAT           33265  //Zemastu Set Hat (F)          // [InGame Shop]
+#define II_ARM_F_CHR_ZEMASTU01SUIT          33266  //Zemastu Set Suit (F)         // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFZEMASTU01         33267  //Zemastu  Set Cs Box (F)      // [InGame Shop]
+//Mosusha Cs Set (M) - Kiyo                                                       
+#define II_ARM_M_CHR_MOSUSHA01HAT           33268  //Mosusha Set Hat (M)          // [InGame Shop]
+#define II_ARM_M_CHR_MOSUSHA01SUIT          33269  //Mosusha Set Suit (M)         // [InGame Shop]
+#define II_ARM_M_CHR_MOSUSHA01GLOVES        33270  //Mosusha Set Gloves (M)       // [InGame Shop]
+#define II_ARM_M_CHR_MOSUSHA01SHOES         33271  //Mosusha Set Shoes (M)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMMOSUSHA01         33272  //Mosusha Set Cs Box (M)       // [InGame Shop]
+   
+//Mosusha Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_MOSUSHA01HAT           33273  //Mosusha Set Hat (F)          // [InGame Shop]
+#define II_ARM_F_CHR_MOSUSHA01SUIT          33274  //Mosusha Set Suit (F)         // [InGame Shop]
+#define II_ARM_F_CHR_MOSUSHA01GLOVES        33275  //Mosusha Set Gloves (F)       // [InGame Shop]
+#define II_ARM_F_CHR_MOSUSHA01SHOES         33276  //Mosusha Set Shoes (F)        // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFMOSUSHA01         33277  //Mosusha  Set Cs Box (F)      // [InGame Shop]
+
+//Pumpkin Wizard Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_PUMPWIZZARD01HAT       33278  //Pumpkin Wizard Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_PUMPWIZZARD01SUIT      33279  //Pumpkin Wizard Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_PUMPWIZZARD01SHOES     33280  //Pumpkin Wizard Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMPUMPWIZZARD01     33281  //Pumpkin Wizard Set Cs Box (M)   // [InGame Shop]
+                                                                                     
+//Pumpkin Wizard Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PUMPWIZZARD01HAT       33282  //Pumpkin Wizard Set Hat (F)      // [InGame Shop]
+#define II_ARM_F_CHR_PUMPWIZZARD01SUIT      33283  //Pumpkin Wizard Set Suit (F)     // [InGame Shop]
+#define II_ARM_F_CHR_PUMPWIZZARD01SHOES     33284  //Pumpkin Wizard Set Shoes (F)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFPUMPWIZZARD01     33285  //Pumpkin Wizard Set Cs Box (F)   // [InGame Shop]
+                                                                                     
+//Sanderstomp Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_SANDERSTOMP01HAT       33286  //Sanderstomp Set Hat (M)      // [InGame Shop]
+#define II_ARM_M_CHR_SANDERSTOMP01SUIT      33287  //Sanderstomp Set Suit (M)     // [InGame Shop]
+#define II_ARM_M_CHR_SANDERSTOMP01GLOVES    33288  //Sanderstomp Set Gloves (M)   // [InGame Shop]
+#define II_ARM_M_CHR_SANDERSTOMP01SHOES     33289  //Sanderstomp Set Shoes (M)    // [InGame Shop]
+#define II_SYS_SYS_SCR_BXMSANDERSTOMP01     33290  //Sanderstomp Set Cs Box (M)   // [InGame Shop]
+
+//Sanderstomp Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SANDERSTOMP01HAT       33291  //Sanderstomp Set Hat (F)       // [InGame Shop]
+#define II_ARM_F_CHR_SANDERSTOMP01SUIT      33292  //Sanderstomp Set Suit (F)      // [InGame Shop]
+#define II_ARM_F_CHR_SANDERSTOMP01SHOES     33293  //Sanderstomp Set Shoes (F)     // [InGame Shop]
+#define II_SYS_SYS_SCR_BXFSANDERSTOMP01     33294  //Sanderstomp Set Cs Box (F)    // [InGame Shop]
+                                                                                   
+//Ukno Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_UKNO01HAT              33295  //Ukno Set Hat (M)
+#define II_ARM_M_CHR_UKNO01SUIT             33296  //Ukno Set Suit (M)
+#define II_ARM_M_CHR_UKNO01SHOES            33297  //Ukno Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMUKNO01            33298  //Ukno Set Cs Box (M)
+   
+//Ukno Cs Set (F) - Kiyo                   
+#define II_ARM_F_CHR_UKNO01HAT              33299  //Ukno Set Hat (F)
+#define II_ARM_F_CHR_UKNO01SUIT             33300  //Ukno Set Suit (F)
+#define II_ARM_F_CHR_UKNO01SHOES            33301  //Ukno Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFUKNO01            33302  //Ukno  Set Cs Box (F)
+
+//Saracuda Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_SARACUDA01HAT          33303  //Saracuda Set Hat (M)
+#define II_ARM_M_CHR_SARACUDA01SUIT         33304  //Saracuda Set Suit (M)
+#define II_ARM_M_CHR_SARACUDA01SHOES        33305  //Saracuda Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMSARACUDA01        33306  //Saracuda Set Cs Box (M)
+   
+//Saracuda Cs Set (F) - Kiyo               
+#define II_ARM_F_CHR_SARACUDA01HAT          33307  //Saracuda Set Hat (F)
+#define II_ARM_F_CHR_SARACUDA01SUIT         33308  //Saracuda Set Suit (F)
+#define II_ARM_F_CHR_SARACUDA01SHOES        33309  //Saracuda Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSARACUDA01        33310  //Saracuda  Set Cs Box (F)
+
+//Valentine Twins Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_VALENTINETWINS01HAT    33311  //Valentine Twins Set Hat (M)
+#define II_ARM_M_CHR_VALENTINETWINS01SUIT   33312  //Valentine Twins Set Suit (M)
+#define II_ARM_M_CHR_VALENTINETWINS01SHOES  33313  //Valentine Twins Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMVALENTINETWINS01  33314  //Valentine Twins Set Cs Box (M)
+   
+//Valentine Twins Cs Set (F) - Kiyo        
+#define II_ARM_F_CHR_VALENTINETWINS01HAT    33315  //Valentine Twins Set Hat (F)
+#define II_ARM_F_CHR_VALENTINETWINS01SUIT   33316  //Valentine Twins Set Suit (F)
+#define II_ARM_F_CHR_VALENTINETWINS01SHOES  33317  //Valentine Twins Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFVALENTINETWINS01  33318  //Valentine Twins Set Cs Box (F)
+
+//Blue Twinkle Star Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLUETWINKSTAR01HAT     33319  //Blue Twinkle Star Set Hat (M)
+#define II_ARM_M_CHR_BLUETWINKSTAR01SUIT    33320  //Blue Twinkle Star Set Suit (M)
+#define II_ARM_M_CHR_BLUETWINKSTAR01GLOVES  33321  //Blue Twinkle Star Set Gloves (M)
+#define II_ARM_M_CHR_BLUETWINKSTAR01SHOES   33322  //Blue Twinkle Star Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLUETWINKSTAR01   33323  //Blue Twinkle Star Set Cs Box (M)
+
+//Blue Twinkle Star Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLUETWINKSTAR01HAT     33324  //Blue Twinkle Star Set Hat (F)
+#define II_ARM_F_CHR_BLUETWINKSTAR01SUIT    33325  //Blue Twinkle Star Set Suit (F)
+#define II_ARM_F_CHR_BLUETWINKSTAR01SHOES   33326  //Blue Twinkle Star Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLUETWINKSTAR01   33327  //Blue Twinkle Star Set Cs Box (F)
+
+//Black Twinkle Star Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLACKTWINKSTAR01HAT    33328  //Black Twinkle Star Set Hat (M)
+#define II_ARM_M_CHR_BLACKTWINKSTAR01SUIT   33329  //Black Twinkle Star Set Suit (M)
+#define II_ARM_M_CHR_BLACKTWINKSTAR01SHOES  33330  //Black Twinkle Star Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLACKTWINKSTAR01  33331  //Black Twinkle Star Set Cs Box (M)
+
+//Black Twinkle Star Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLACKTWINKSTAR01HAT    33332  //Black Twinkle Star Set Hat (F)
+#define II_ARM_F_CHR_BLACKTWINKSTAR01SUIT   33333  //Black Twinkle Star Set Suit (F)
+#define II_ARM_F_CHR_BLACKTWINKSTAR01SHOES  33334  //Black Twinkle Star Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLACKTWINKSTAR01  33335  //Black Twinkle Star  Set Cs Box (F)
+
+//White Twinkle Star Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_WHITETWINKSTAR01HAT    33336  //White Twinkle Star Set Hat (M)
+#define II_ARM_M_CHR_WHITETWINKSTAR01SUIT   33337  //White Twinkle Star Set Suit (M)
+#define II_ARM_M_CHR_WHITETWINKSTAR01SHOES  33338  //White Twinkle Star Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMWHITETWINKSTAR01  33339  //White Twinkle Star Set Cs Box (M)
+
+//White Twinkle Star Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WHITETWINKSTAR01HAT    33340  //White Twinkle Star Set Hat (F)
+#define II_ARM_F_CHR_WHITETWINKSTAR01SUIT   33341  //White Twinkle Star Set Suit (F)
+#define II_ARM_F_CHR_WHITETWINKSTAR01SHOES  33342  //White Twinkle Star Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFWHITETWINKSTAR01  33343  //White Twinkle Star  Set Cs Box (F)
+
+//Castanic Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_CASTANIC01HAT          33344  //Castanic Set Hat (M)
+#define II_ARM_M_CHR_CASTANIC01SUIT         33345  //Castanic Set Suit (M)
+#define II_ARM_M_CHR_CASTANIC01GLOVES       33346  //Castanic Set Gloves (M)
+#define II_ARM_M_CHR_CASTANIC01SHOES        33347  //Castanic Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMCASTANIC01        33348  //Castanic Set Cs Box (M)
+
+//Forest Leaf Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_FORESTLEAF01HAT        33349  //Forest Leaf Set Hat (M)
+#define II_ARM_M_CHR_FORESTLEAF01SUIT       33350  //Forest Leaf Set Suit (M)
+#define II_ARM_M_CHR_FORESTLEAF01GLOVES     33351  //Forest Leaf Set Gloves (M)
+#define II_ARM_M_CHR_FORESTLEAF01SHOES      33352  //Forest Leaf Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMFORESTLEAF01      33353  //Forest Leaf Set Cs Box (M)
+
+//High Elf Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HIGHELF01HAT           33354  //High Elf Set Hat (M)
+#define II_ARM_M_CHR_HIGHELF01SUIT          33355  //High Elf Set Suit (M)
+#define II_ARM_M_CHR_HIGHELF01GLOVES        33356  //High Elf Set Gloves (M)
+#define II_ARM_M_CHR_HIGHELF01SHOES         33357  //High Elf Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMHIGHELF01         33358  //High Elf Set Cs Box (M)
+
+//Velskud Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_VELSKUD01HAT           33359  //Velskud Set Hat (M)
+#define II_ARM_M_CHR_VELSKUD01SUIT          33360  //Velskud Set Suit (M)
+#define II_ARM_M_CHR_VELSKUD01GLOVES        33361  //Velskud Set Gloves (M)
+#define II_ARM_M_CHR_VELSKUD01SHOES         33362  //Velskud Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMVELSKUD01         33363  //Velskud Set Cs Box (M)
+
+//Autumn Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AUTUMNGIRL01HAT        33364  //Autumn Girl Set Hat (F)
+#define II_ARM_F_CHR_AUTUMNGIRL01SUIT       33365  //Autumn Girl Set Suit (F)
+#define II_ARM_F_CHR_AUTUMNGIRL01SHOES      33366  //Autumn Girl Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFAUTUMNGIRL01      33367  //Autumn Girl  Set Cs Box (F)
+
+//Aviator Irelia Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AVIIRELIA01HAT         33368  //Aviator Irelia Set Hat (F)
+#define II_ARM_F_CHR_AVIIRELIA01SUIT        33369  //Aviator Irelia Set Suit (F)
+#define II_ARM_F_CHR_AVIIRELIA01SHOES       33370  //Aviator Irelia Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFAVIIRELIA01       33371  //Aviator Irelia  Set Cs Box (F)
+
+//Breakfast Princess Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BREAKPRINCE01HAT       33372  //Breakfast Princess Star Set Hat (F)
+#define II_ARM_F_CHR_BREAKPRINCE01SUIT      33373  //Breakfast Princess Star Set Suit (F)
+#define II_ARM_F_CHR_BREAKPRINCE01SHOES     33374  //Breakfast Princess Star Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFBREAKPRINCE01     33375  //Breakfast Princess Star  Set Cs Box (F)
+
+//Autumn Samurai Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_AUTUSAMURAI01HAT       33376  //Autumn Samurai Set Hat (M)
+#define II_ARM_M_CHR_AUTUSAMURAI01SUIT      33377  //Autumn Samurai Set Suit (M)
+#define II_ARM_M_CHR_AUTUSAMURAI01GLOVES    33378  //Autumn Samurai Set Gloves (M)
+#define II_ARM_M_CHR_AUTUSAMURAI01SHOES     33379  //Autumn Samurai Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMAUTUSAMURAI01     33380  //Autumn Samurai Set Cs Box (M)
+
+//Blue Rock Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLUEROCK01HAT          33381  //Blue Rock Set Hat (M)
+#define II_ARM_M_CHR_BLUEROCK01SUIT         33382  //Blue Rock Set Suit (M)
+#define II_ARM_M_CHR_BLUEROCK01GLOVES       33383  //Blue Rock Set Gloves (M)
+#define II_ARM_M_CHR_BLUEROCK01SHOES        33384  //Blue Rock Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLUEROCK01        33385  //Blue Rock Set Cs Box (M)
+
+//Monkey D. Luffy Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_MONKEYDL01HAT          33386  //Monkey D. Luffy Set Hat (M)
+#define II_ARM_M_CHR_MONKEYDL01SUIT         33387  //Monkey D. Luffy Set Suit (M)
+#define II_ARM_M_CHR_MONKEYDL01SHOES        33388  //Monkey D. Luffy Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMMONKEYDL01        33389  //Monkey D. Luffy Set Cs Box (M)
+
+//Portgas D. Ace Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_PORTGASDACE01HAT       33390  //Portgas D. Ace Set Hat (M)
+#define II_ARM_M_CHR_PORTGASDACE01SUIT      33391  //Portgas D. Ace Set Suit (M)
+#define II_ARM_M_CHR_PORTGASDACE01SHOES     33392  //Portgas D. Ace Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMPORTGASDACE01     33393  //Portgas D. Ace Set Cs Box (M)
+
+//Chad Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_CHAD01HAT              33394  //Chad Set Hat (M)
+#define II_ARM_M_CHR_CHAD01SUIT             33395  //Chad Set Suit (M)
+#define II_ARM_M_CHR_CHAD01SHOES            33396  //Chad Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMCHAD01            33397  //Chad Set Cs Box (M)
+
+//Christmass Deer Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CHRISTDEER01HAT        33398  //Christmass Deer Set Hat (F)
+#define II_ARM_F_CHR_CHRISTDEER01SUIT       33399  //Christmass Deer Set Suit (F)
+#define II_ARM_F_CHR_CHRISTDEER01SHOES      33400  //Christmass Deer Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFCHRISTDEER01      33401  //Christmass Deer  Set Cs Box (F)
+
+//Bless Miku Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLESSMIKU01HAT         33402  //Bless Miku Set Hat (F)
+#define II_ARM_F_CHR_BLESSMIKU01SUIT        33403  //Bless Miku Set Suit (F)
+#define II_ARM_F_CHR_BLESSMIKU01SHOES       33404  //Bless Miku Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLESSMIKU01       33405  //Bless Miku Set Cs Box (F)
+
+//Cyan Yukata Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CYANYUKATA01HAT        33406  //Cyan Yukata  Set Hat (F)
+#define II_ARM_F_CHR_CYANYUKATA01SUIT       33407  //Cyan Yukata  Set Suit (F)
+#define II_ARM_F_CHR_CYANYUKATA01SHOES      33408  //Cyan Yukata  Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFCYANYUKATA01      33409  //Cyan Yukata  Set Cs Box (F)
+
+//Falcia Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_FALCIA01HAT            33410  //Falcia  Set Hat (F)
+#define II_ARM_F_CHR_FALCIA01SUIT           33411  //Falcia  Set Suit (F)
+#define II_ARM_F_CHR_FALCIA01SHOES          33412  //Falcia  Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFFALCIA01          33413  //Falcia  Set Cs Box (F)
+
+//Halloween Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HALLOWGIRL01HAT        33414  //Halloween Girl  Set Hat (F)
+#define II_ARM_F_CHR_HALLOWGIRL01SUIT       33415  //Halloween Girl  Set Suit (F)
+#define II_ARM_F_CHR_HALLOWGIRL01SHOES      33416  //Halloween Girl  Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFHALLOWGIRL01      33417  //Halloween Girl  Set Cs Box (F)
+
+//Ayato Kirishima Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_AYATOKIRISHIMA01HAT       33418  //Ayato Kirishima Set Hat (M)
+#define II_ARM_M_CHR_AYATOKIRISHIMA01SUIT      33419  //Ayato Kirishima Set Suit (M)
+#define II_ARM_M_CHR_AYATOKIRISHIMA01SHOES     33420  //Ayato Kirishima Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMAYATOKIRISHIMA01     33421  //Ayato Kirishima Set Cs Box (M)
+
+//Punk Guy Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_PUNKGUY01HAT              33422  //Punk Guy Set Hat (M)
+#define II_ARM_M_CHR_PUNKGUY01SUIT             33423  //Punk Guy Set Suit (M)
+#define II_ARM_M_CHR_PUNKGUY01SHOES            33424  //Punk Guy Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMPUNKGUY01            33425  //Punk Guy Set Cs Box (M)
+
+//Black Valkyria Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLACKVALKYRIA01HAT        33426  //Black Valkyria Set Hat (M)
+#define II_ARM_M_CHR_BLACKVALKYRIA01SUIT       33427  //Black Valkyria Set Suit (M)
+#define II_ARM_M_CHR_BLACKVALKYRIA01SHOES      33428  //Black Valkyria Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLACKVALKYRIA01      33429  //Black Valkyria Set Cs Box (M)
+
+//Blue Polo Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLUEPOLO01HAT             33430  //Blue Polo Set Hat (M)
+#define II_ARM_M_CHR_BLUEPOLO01SUIT            33431  //Blue Polo Set Suit (M)
+#define II_ARM_M_CHR_BLUEPOLO01SHOES           33432  //Blue Polo Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLUEPOLO01           33433  //Blue Polo Set Cs Box (M)
+
+//Forest Hunter Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_FORESTHUNT01HAT           33434  //Forest Hunter Set Hat (M)
+#define II_ARM_M_CHR_FORESTHUNT01SUIT          33435  //Forest Hunter Set Suit (M)
+#define II_ARM_M_CHR_FORESTHUNT01SHOES         33436  //Forest Hunter Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMFORESTHUNT01         33437  //Forest Hunter Set Cs Box (M)
+
+//Ice Lady Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ICELADY01HAT              33438  //Ice Lady Set Hat (F)
+#define II_ARM_F_CHR_ICELADY01SUIT             33439  //Ice Lady Set Suit (F)
+#define II_ARM_F_CHR_ICELADY01SHOES            33440  //Ice Lady Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFICELADY01            33441  //Ice Lady  Set Cs Box (F)
+
+//Mages Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MAGES01HAT                33442  //Mages Set Hat (F)
+#define II_ARM_F_CHR_MAGES01SUIT               33443  //Mages Set Suit (F)
+#define II_ARM_F_CHR_MAGES01SHOES              33444  //Mages Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFMAGES01              33445  //Mages Set Cs Box (F)
+
+//Silence Rose Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SILENCEROSE01HAT          33446  //Silence Rose  Set Hat (F)
+#define II_ARM_F_CHR_SILENCEROSE01SUIT         33447  //Silence Rose  Set Suit (F)
+#define II_ARM_F_CHR_SILENCEROSE01SHOES        33448  //Silence Rose  Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSILENCEROSE01        33449  //Silence Rose  Set Cs Box (F)
+  
+//Japan Kung Fu Cs Set (F) - Kiyo             
+#define II_ARM_F_CHR_JAPANKUNGFU01HAT          33450  //Japan Kung Fu  Set Hat (F)
+#define II_ARM_F_CHR_JAPANKUNGFU01SUIT         33451  //Japan Kung Fu  Set Suit (F)
+#define II_ARM_F_CHR_JAPANKUNGFU01GLOVES       33452  //Japan Kung Fu  Set Shoes (F)
+#define II_ARM_F_CHR_JAPANKUNGFU01SHOES        33453  //Japan Kung Fu  Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFJAPANKUNGFU01        33454  //Japan Kung Fu  Set Cs Box (F
+
+//Starguardian Ahri Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_STARGUARDA01HAT           33455  //Starguardian Ahri Set Hat (F)
+#define II_ARM_F_CHR_STARGUARDA01SUIT          33456  //Starguardian Ahri Set Suit (F)
+#define II_ARM_F_CHR_STARGUARDA01SHOES         33457  //Starguardian Ahri Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSTARGUARDA01         33458  //Starguardian Ahri Set Cs Box (F)
+
+//Grimmjow Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_GRIMMJOW01HAT             33459  //Grimmjow Set Hat (M)
+#define II_ARM_M_CHR_GRIMMJOW01SUIT            33460  //Grimmjow Set Suit (M)
+#define II_ARM_M_CHR_GRIMMJOW01SHOES           33461  //Grimmjow Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMGRIMMJOW01           33462  //Grimmjow Set Cs Box (M)
+
+//Hipstah Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HIPSTAH01HAT              33463  //Hipstah Set Hat (M)
+#define II_ARM_M_CHR_HIPSTAH01SUIT             33464  //Hipstah Set Suit (M)
+#define II_ARM_M_CHR_HIPSTAH01SHOES            33465  //Hipstah Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMHIPSTAH01            33466  //Hipstah Set Cs Box (M)
+
+//Illusionist Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ILLUSIONIST01HAT          33467  //Illusionist Set Hat (M)
+#define II_ARM_M_CHR_ILLUSIONIST01SUIT         33468  //Illusionist Set Suit (M)
+#define II_ARM_M_CHR_ILLUSIONIST01SHOES        33469  //Illusionist Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMILLUSIONIST01        33470  //Illusionist Set Cs Box (M)
+
+//Lightning Ball Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_LIGHTBALL01HAT            33471  //Lightning Ball Set Hat (M)
+#define II_ARM_M_CHR_LIGHTBALL01SUIT           33472  //Lightning Ball Set Suit (M)
+#define II_ARM_M_CHR_LIGHTBALL01SHOES          33473  //Lightning Ball Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMLIGHTBALL01          33474  //Lightning Ball Set Cs Box (M
+
+//Starguardian Ezreal Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_STARGUARDEZ01HAT          33475  //Starguardian Ezreal Set Hat (M)
+#define II_ARM_M_CHR_STARGUARDEZ01SUIT         33476  //Starguardian Ezreal Set Suit (M)
+#define II_ARM_M_CHR_STARGUARDEZ01SHOES        33477  //Starguardian Ezreal Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMSTARGUARDEZ01        33478  //Starguardian Ezreal Set Cs Box (M)
+
+//Sakura Rose Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SAKURAROSE01HAT           33479  //Sakura Rose Set Hat (F)
+#define II_ARM_F_CHR_SAKURAROSE01SUIT          33480  //Sakura Rose Set Suit (F)
+#define II_ARM_F_CHR_SAKURAROSE01SHOES         33481  //Sakura Rose Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSAKURAROSE01         33482  //Sakura Rose Set Cs Box (F)
+
+//Shiro Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SHIRO01HAT                33483  //Shiro Set Hat (F)
+#define II_ARM_F_CHR_SHIRO01SUIT               33484  //Shiro Set Suit (F)
+#define II_ARM_F_CHR_SHIRO01SHOES              33485  //Shiro Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSHIRO01              33486  //Shiro Set Cs Box (F)
+
+//Valentine Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_VALENTINEGIRL01HAT        33487  //Valentine Girl Set Hat (F)
+#define II_ARM_F_CHR_VALENTINEGIRL01SUIT       33488  //Valentine Girl Set Suit (F)
+#define II_ARM_F_CHR_VALENTINEGIRL01SHOES      33489  //Valentine Girl Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFVALENTINEGIRL01      33490  //Valentine Girl Set Cs Box (F)
+
+//WilBel Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WILBEL01HAT               33491  //WilBel Set Hat (F)
+#define II_ARM_F_CHR_WILBEL01SUIT              33492  //WilBel Set Suit (F)
+#define II_ARM_F_CHR_WILBEL01SHOES             33493  //WilBel Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFWILBEL01             33494  //WilBel Set Cs Box (F)
+
+//Starguardian Syndra Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_STARSYNDRA01HAT           33495  //Starguardian Syndra Set Hat (F)
+#define II_ARM_F_CHR_STARSYNDRA01SUIT          33496  //Starguardian Syndra Set Suit (F)
+#define II_ARM_F_CHR_STARSYNDRA01SHOES         33497  //Starguardian Syndra Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSTARSYNDRA01         33498  //Starguardian Syndra Set Cs Box (F)
+
+//Asuma Cs Set (M) - Kiyo                                      
+#define II_ARM_M_CHR_ASUMA01HAT                33499    //Asuma Set Hat (M)        
+#define II_ARM_M_CHR_ASUMA01SUIT               33500    //Asuma Set Suit (M)        
+#define II_ARM_M_CHR_ASUMA01SHOES              33501    //Asuma Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMASUMA01              33502    //Asuma Set Cs Box (M)        
+
+//Byakuya Cs Set (M) - Kiyo                               
+#define II_ARM_M_CHR_BYAKUYA01HAT              33503    //Byakuya Set Hat (M)        
+#define II_ARM_M_CHR_BYAKUYA01SUIT             33504    //Byakuya Set Suit (M)        
+#define II_ARM_M_CHR_BYAKUYA01SHOES            33505    //Byakuya SetS hoes (M)         
+#define II_SYS_SYS_SCR_BXMBYAKUYA01            33506    //Byakuya Set Cs Box (M)           
+  
+//Choji Cs Set (M) - Kiyo                                 
+#define II_ARM_M_CHR_CHOJI01HAT                33507    //Choji Set Hat (M)        
+#define II_ARM_M_CHR_CHOJI01SUIT               33508    //Choji Set Suit (M)        
+#define II_ARM_M_CHR_CHOJI01SHOES              33509    //Choji Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMCHOJI01              33510    //Choji Set Cs Box (M)        
+ 
+//Gaara Cs Set (M) - Kiyo                                 
+#define II_ARM_M_CHR_GAARA01HAT                33511    //Gaara Set Hat (M)        
+#define II_ARM_M_CHR_GAARA01SUIT               33512    //Gaara Set Suit (M)        
+#define II_ARM_M_CHR_GAARA01SHOES              33513    //Gaara Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMGAARA01              33514    //Gaara Set Cs Box (M)        
+
+//Gintoki Sakata Cs Set (M) - Kiyo                       
+#define II_ARM_M_CHR_GINTOKISAKATA01HAT        33515    //Gintoki Sakata Set Hat (M)                   
+#define II_ARM_M_CHR_GINTOKISAKATA01SUIT       33516    //Gintoki Sakata Set Suit (M)                     
+#define II_ARM_M_CHR_GINTOKISAKATA01SHOES      33517    //Gintoki Sakata Set Shoes (M)                       
+#define II_SYS_SYS_SCR_BXMGINTOKISAKATA01      33518    //Gintoki Sakata Set Cs Box (M)        
+  
+//Goth  Cs Set (F) - Kiyo                              
+#define II_ARM_F_CHR_GOTHH01HAT                33519    //Goth Set Hat (F)        
+#define II_ARM_F_CHR_GOTHH01SUIT               33520    //Goth Set Suit (F)        
+#define II_ARM_F_CHR_GOTHH01SHOES              33521    //Goth Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFGOTHH01              33522    //Goth Set Cs Box (F)   
+  
+//Hadelia  Cs Set (F) - Kiyo                           
+#define II_ARM_F_CHR_HADELIA01HAT              33523    //Hadelia Set Hat (F)        
+#define II_ARM_F_CHR_HADELIA01SUIT             33524    //Hadelia Set Suit (F)        
+#define II_ARM_F_CHR_HADELIA01SHOES            33525    //Hadelia Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFHADELIA01            33526    //Hadelia Set Cs Box (F) 
+  
+//Miss Rainbow Cs Set (F) - Kiyo                       
+#define II_ARM_F_CHR_MISSRAINBOW01HAT          33527    //Miss Rainbow Set Hat (F)               
+#define II_ARM_F_CHR_MISSRAINBOW01SUIT         33528    //Miss Rainbow Set Suit (F)                 
+#define II_ARM_F_CHR_MISSRAINBOW01GLOVES       33529    //Miss Rainbow Set Gloves (F)                     
+#define II_ARM_F_CHR_MISSRAINBOW01SHOES        33530    //Miss Rainbow Set Shoes (F)                   
+#define II_SYS_SYS_SCR_BXFMISSRAINBOW01        33531    //Miss Rainbow Set Cs Box (F)     
+ 
+//Snowflake Cs Set (F) - Kiyo                           
+#define II_ARM_F_CHR_SNOWFLAKE01HAT            33532    //Snowflake Set Hat (F)        
+#define II_ARM_F_CHR_SNOWFLAKE01SUIT           33533    //Snowflake Set Suit (F)        
+#define II_ARM_F_CHR_SNOWFLAKE01SHOES          33534    //Snowflake Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFSNOWFLAKE01          33535    //Snowflake Set Cs Box (F) 
+  
+//Twinklenor  Cs Set (F) - Kiyo                           
+#define II_ARM_F_CHR_TWINKLENOR01HAT           33536    //Twinklenor Set Hat (F)        
+#define II_ARM_F_CHR_TWINKLENOR01SUIT          33537    //Twinklenor Set Suit (F)        
+#define II_ARM_F_CHR_TWINKLENOR01SHOES         33538    //Twinklenor Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFTWINKLENOR01         33539    //Twinklenor Set Cs Box (F) 
+
+//Jiraya Cs Set (M) - Kiyo                                      
+#define II_ARM_M_CHR_JIRAYA01HAT               33540    //Jiraya Set Hat (M)        
+#define II_ARM_M_CHR_JIRAYA01SUIT              33541    //Jiraya Set Suit (M)        
+#define II_ARM_M_CHR_JIRAYA01SHOES             33542    //Jiraya Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMJIRAYA01             33543    //Jiraya Set Cs Box (M)  
+  
+//Jugo Cs Set (M) - Kiyo                                          
+#define II_ARM_M_CHR_JUGO01HAT                 33544    //Jugo Set Hat (M)        
+#define II_ARM_M_CHR_JUGO01SUIT                33545    //Jugo Set Suit (M)        
+#define II_ARM_M_CHR_JUGO01SHOES               33546    //Jugo Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMJUGO01               33547    //Jugo Set Cs Box (M)
+  
+//Kiba Cs Set (M) - Kiyo                                          
+#define II_ARM_M_CHR_KIBA01HAT                 33548    //Kiba Set Hat (M)        
+#define II_ARM_M_CHR_KIBA01SUIT                33549    //Kiba Set Suit (M)        
+#define II_ARM_M_CHR_KIBA01SHOES               33550    //Kiba Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMKIBA01               33551    //Kiba Set Cs Box (M)
+  
+//Sky Samurai Cs Set (M) - Kiyo                                          
+#define II_ARM_M_CHR_SKYSAMURAI01HAT           33552    //Sky Samurai Set Hat (M)        
+#define II_ARM_M_CHR_SKYSAMURAI01SUIT          33553    //Sky Samurai Set Suit (M)        
+#define II_ARM_M_CHR_SKYSAMURAI01SHOES         33554    //Sky Samurai Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMSKYSAMURAI01         33555    //Sky Samurai Set Cs Box (M)
+  
+//Urahara Cs Set (M) - Kiyo                                          
+#define II_ARM_M_CHR_URAHARA01HAT              33556    //Urahara Set Hat (M)        
+#define II_ARM_M_CHR_URAHARA01SUIT             33557    //Urahara Set Suit (M)        
+#define II_ARM_M_CHR_URAHARA01SHOES            33558    //Urahara Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMURAHARA01            33559    //Urahara Set Cs Box (M)
+
+//Yolo Cowboy Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_YOLOCOWB01HAT             33560  //Yolo Cowboy Set Hat (M)
+#define II_ARM_M_CHR_YOLOCOWB01SUIT            33561  //Yolo Cowboy Set Suit (M)
+#define II_ARM_M_CHR_YOLOCOWB01SHOES           33562  //Yolo Cowboy Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMYOLOCOWB01           33563  //Yolo Cowboy Set Cs Box (M)
+
+//Yellow Footballer Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_YELLOWFOOTB01HAT          33564  //Yellow Footballer Set Hat (M)
+#define II_ARM_M_CHR_YELLOWFOOTB01SUIT         33565  //Yellow Footballer Set Suit (M)
+#define II_ARM_M_CHR_YELLOWFOOTB01SHOES        33566  //Yellow Footballer Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMYELLOWFOOTB01        33567  //Yellow Footballer Set Cs Box (M)
+
+//Zack Fair Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ZACKFAIR01HAT             33568  //Zack Fair Set Hat (M)
+#define II_ARM_M_CHR_ZACKFAIR01SUIT            33569  //Zack Fair Set Suit (M)
+#define II_ARM_M_CHR_ZACKFAIR01SHOES           33570  //Zack Fair Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMZACKFAIR01           33571  //Zack Fair Set Cs Box (M)
+
+//Snow Leo Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SNOWLEO01HAT              33572  //Snow Leo Set Hat (F)
+#define II_ARM_F_CHR_SNOWLEO01SUIT             33573  //Snow Leo Set Suit (F)
+#define II_ARM_F_CHR_SNOWLEO01SHOES            33574  //Snow Leo Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSNOWLEO01            33575  //Snow Leo  Set Cs Box (F)
+
+//Jasmine Arcane Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_JASMINEARC01HAT           33576  //Jasmine Arcane Set Hat (F)
+#define II_ARM_F_CHR_JASMINEARC01SUIT          33577  //Jasmine Arcane Set Suit (F)
+#define II_ARM_F_CHR_JASMINEARC01SHOES         33578  //Jasmine Arcane Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFJASMINEARC01         33579  //Jasmine Arcane Set Cs Box (F)
+
+//Japan Autumn Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_JAPANAUTUGIRL01HAT        33580  //Japan Autumn Girl Set Hat (F)
+#define II_ARM_F_CHR_JAPANAUTUGIRL01SUIT       33581  //Japan Autumn Girl Set Suit (F)
+#define II_ARM_F_CHR_JAPANAUTUGIRL01SHOES      33582  //Japan Autumn Girl Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFJAPANAUTUGIRL01      33583  //Japan Autumn Girl Set Cs Box (F)
+
+//Prim Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PRIM01HAT                 33584  //Prim  Set Hat (F)
+#define II_ARM_F_CHR_PRIM01SUIT                33585  //Prim  Set Suit (F)
+#define II_SYS_SYS_SCR_BXFPRIM01               33586  //Prim  Set Cs Box (F)
+
+//Belts Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BELTS01HAT                33587  //Belts Set Hat (M)
+#define II_ARM_M_CHR_BELTS01SUIT               33588  //Belts Set Suit (M)
+#define II_SYS_SYS_SCR_BXMBELTS01              33589  //Belts Set Cs Box (M)
+
+//Summer Shirt Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_SUMMERSHHAT               33590  //Summer Shirt Set Hat (M)
+#define II_ARM_M_CHR_SUMMERSHSUIT              33591  //Summer Shirt Set Suit (M)
+#define II_SYS_SYS_SCR_BXMSUMMERSH             33592  //Summer Shirt Set Cs Box (M)
+
+//HipStar Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HIPSTAR01SUIT             33593  //HipStar Set Suit (M)
+#define II_ARM_M_CHR_HIPSTAR01SHOES            33594  //HipStar Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMHIPSTAR01            33595  //HipStar Set Cs Box (M)
+
+//Love Agent Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_LOVEAGENT01SUIT           33596  //Love Agent Set Suit (M)
+#define II_ARM_M_CHR_LOVEAGENT01SHOES          33597  //Love Agent Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMLOVEAGENT01          33598  //Love Agent Set Cs Box (M)
+  
+//Ohichana Cs Set (M) - Kiyo                  
+#define II_ARM_M_CHR_OHICHANA01SUIT            33599  //Ohichana Set Suit (M)
+#define II_ARM_M_CHR_OHICHANA01SHOES           33600  //Ohichana Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMOHICHANA01           33601  //Ohichana Set Cs Box (M)
+ 
+//Black Hanekawa Cs Set (F) - Kiyo            
+#define II_ARM_F_CHR_BLACKHANEK01HAT           33602  //Black Hanekawa Set Hat (F)
+#define II_ARM_F_CHR_BLACKHANEK01SUIT          33603  //Black Hanekawa Set Suit (F)
+#define II_SYS_SYS_SCR_BXFBLACKHANEK01         33604  //Black Hanekawa  Set Cs Box (F)
+ 
+//Red Chan Cs Set (F) - Kiyo                  
+#define II_ARM_F_CHR_REDCHAN01HAT              33605  //Red Chan Set Hat (F)
+#define II_ARM_F_CHR_REDCHAN01SUIT             33606  //Red Chan Set Suit (F)
+#define II_SYS_SYS_SCR_BXFREDCHAN01            33607  //Red Chan Set Cs Box (F)
+
+//Sonic Miku Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SONICMIKU01SUIT           33608  //Sonic Miku Set Suit (F)
+#define II_ARM_F_CHR_SONICMIKU01SHOES          33609  //Sonic Miku Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSONICMIKU01          33610  //Sonic Miku Set Cs Box (F)
+  
+//Shinobu Oshino Cs Set (F) - Kiyo            
+#define II_ARM_F_CHR_SHINOBUOSH01HAT           33611  //Shinobu Oshino Set Hat (F)
+#define II_ARM_F_CHR_SHINOBUOSH01SUIT          33612  //Shinobu Oshino Set Suit (F)
+#define II_SYS_SYS_SCR_BXFSHINOBUOSH01         33613  //Shinobu Oshino Set Cs Box (F)
+  
+//Raper Cs Set (M) - Kiyo                     
+#define II_ARM_M_CHR_RAPERR01SUIT              33614  //Raper Set Suit (M)
+#define II_ARM_M_CHR_RAPERR01SHOES             33615  //Raper Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMRAPERR01             33616  //Raper Set Cs Box (M)
+ 
+//Uniform v2 Cs Set (M) - Kiyo                
+#define II_ARM_M_CHR_UNIFORMV2R01SUIT          33617  //Uniform v2 Set Suit (M)
+#define II_ARM_M_CHR_UNIFORMV2R01SHOES         33618  //Uniform v2 Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMUNIFORMV2R01         33619  //Uniform v2 Set Cs Box (M)
+ 
+//Jarperkins Cs Set (M) - Kiyo                                                  
+#define II_ARM_M_CHR_JARPERKINS01HAT           33620    //Jarperkins Set Hat (M)        
+#define II_ARM_M_CHR_JARPERKINS01SUIT          33621    //Jarperkins Set Suit (M)        
+#define II_ARM_M_CHR_JARPERKINS01SHOES         33622    //Jarperkins Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMJARPERKINS01         33623    //Jarperkins Set Cs Box (M)
+
+//Juuzou Suzuya Cs Set (M) - Kiyo                                                    
+#define II_ARM_M_CHR_JUUZOUSUZUYA01HAT         33624    //Juuzou Suzuya Set Hat (M)        
+#define II_ARM_M_CHR_JUUZOUSUZUYA01SUIT        33625    //Juuzou Suzuya Set Suit (M)        
+#define II_ARM_M_CHR_JUUZOUSUZUYA01SHOES       33626    //Juuzou Suzuya Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMJUUZOUSUZUYA01       33627    //Juuzou Suzuya Set Cs Box (M)
+ 
+//RedFoo Cs Set (M) - Kiyo                                                       
+#define II_ARM_M_CHR_REDFOO01HAT               33628    //RedFoo Set Hat (M)        
+#define II_ARM_M_CHR_REDFOO01SUIT              33629    //RedFoo Set Suit (M)        
+#define II_ARM_M_CHR_REDFOO01SHOES             33630    //RedFoo Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMREDFOO01             33631    //RedFoo Set Cs Box (M)
+
+//Sea Saver Cs Set (M) - Kiyo                                          
+#define II_ARM_M_CHR_SEASAVER01HAT             33632    //Sea Saver Set Hat (M)        
+#define II_ARM_M_CHR_SEASAVER01SUIT            33633    //Sea Saver Set Suit (M)        
+#define II_ARM_M_CHR_SEASAVER01SHOES           33634    //Sea Saver Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMSEASAVER01           33635    //Sea Saver Set Cs Box (M)
+
+//Uryuu Cs Set (M) - Kiyo                                           
+#define II_ARM_M_CHR_URYUU01HAT                33636    //Uryuu Set Hat (M)        
+#define II_ARM_M_CHR_URYUU01SUIT               33637    //Uryuu Set Suit (M)        
+#define II_ARM_M_CHR_URYUU01SHOES              33638    //Uryuu Set Shoes (M)        
+#define II_SYS_SYS_SCR_BXMURYUU01              33639    //Uryuu Set Cs Box (M)
+
+//Bat Cs Set (F) - Kiyo                                    
+#define II_ARM_F_CHR_BAT01HAT                  33640    //Bat Set Hat (F)               
+#define II_ARM_F_CHR_BAT01SUIT                 33641    //Bat Set Suit (F)                 
+#define II_ARM_F_CHR_BAT01GLOVES               33642    //Bat Set Gloves (F)                     
+#define II_ARM_F_CHR_BAT01SHOES                33643    //Bat Set Shoes (F)                   
+#define II_SYS_SYS_SCR_BXFBAT01                33644    //Bat Set Cs Box (F)   
+
+//Hachikuji Mayoi Cs Set (F) - Kiyo                                
+#define II_ARM_F_CHR_HACHIKUJIMAYOI01HAT       33645    //Hachikuji Mayoi Set Hat (F)        
+#define II_ARM_F_CHR_HACHIKUJIMAYOI01SUIT      33646    //Hachikuji Mayoi Set Suit (F)        
+#define II_ARM_F_CHR_HACHIKUJIMAYOI01SHOES     33647    //Hachikuji Mayoi Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFHACHIKUJIMAYOI01     33648    //Hachikuji Mayoi Set Cs Box (F)
+
+//Hitagi Senjougahara Cs Set (F) - Kiyo                              
+#define II_ARM_F_CHR_HITAGISENJOUGAHARA01HAT   33649    //Hitagi Senjougahara Set Hat (F)        
+#define II_ARM_F_CHR_HITAGISENJOUGAHARA01SUIT  33650    //Hitagi Senjougahara Set Suit (F)        
+#define II_ARM_F_CHR_HITAGISENJOUGAHARA01SHOES 33651    //Hitagi Senjougahara Set Shoes (F)         
+#define II_SYS_SYS_SCR_BXFHITAGISENJOUGAHARA01 33652    //Hitagi Senjougahara Set Cs Box (F)
+
+//Kanbaru Suruga Cs Set (F) - Kiyo                       
+#define II_ARM_F_CHR_KANBARUSURUGA01HAT        33653    //Kanbaru Suruga Set Hat (F)      
+#define II_ARM_F_CHR_KANBARUSURUGA01SUIT       33654    //Kanbaru Suruga Set Suit (F)     
+#define II_ARM_F_CHR_KANBARUSURUGA01GLOVES     33655    //Kanbaru Suruga Set Gloves (F)   
+#define II_ARM_F_CHR_KANBARUSURUGA01SHOES      33656    //Kanbaru Suruga Set Shoes (F)    
+#define II_SYS_SYS_SCR_BXFKANBARUSURUGA01      33657    //Kanbaru Suruga Set Cs Box (F)   
+
+//Starguardian Miss Fortune Cs Set (F) - Kiyo                         
+#define II_ARM_F_CHR_STARGUARDIANMISSFORTUNE01HAT        33658  //Starguardian Miss Fortune Set Hat (F)    
+#define II_ARM_F_CHR_STARGUARDIANMISSFORTUNE01SUIT       33659  //Starguardian Miss Fortune Set Suit (F)   
+#define II_ARM_F_CHR_STARGUARDIANMISSFORTUNE01SHOES      33660  //Starguardian Miss Fortune Set Shoes (F)  
+#define II_SYS_SYS_SCR_BXFSTARGUARDIANMISSFORTUNE01      33661  //Starguardian Miss Fortune Set Cs Box (F)
+
+//Bloody Soul Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLOODYSOULMIKU01SUIT     33662     //Bloody Soul Set Suit (F)
+#define II_ARM_F_CHR_BLOODYSOULMIKU01SHOES    33663     //Bloody Soul Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLOODYSOULMIKU01    33664     //Bloody Soul Set Cs Box (F)
+
+//Azusa Nakano Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AZUSANAKA01HAT           33665     //Azusa Nakano Set Hat (F)
+#define II_ARM_F_CHR_AZUSANAKA01SUIT          33666     //Azusa Nakano Set Suit (F)
+#define II_SYS_SYS_SCR_BXFAZUSANAKA01         33667     //Azusa Nakano Set Cs Box (F)
+   
+//Mio Akiyama Cs Set (F) - Kiyo                        
+#define II_ARM_F_CHR_MIOAKIYAMA01HAT          33668     //Mio Akiyama Set Hat (F)
+#define II_ARM_F_CHR_MIOAKIYAMA01SUIT         33669     //Mio Akiyama Set Suit (F)
+#define II_SYS_SYS_SCR_BXFMIOAKIYAMA01        33670     //Mio Akiyama  Set Cs Box (F)
+   
+//Ritsu Tainaka Cs Set (F) - Kiyo                      
+#define II_ARM_F_CHR_RITSUTAIN01HAT           33671     //Ritsu Tainaka Set Hat (F)
+#define II_ARM_F_CHR_RITSUTAIN01SUIT          33672     //Ritsu Tainaka Set Suit (F)
+#define II_SYS_SYS_SCR_BXFRITSUTAIN01         33673     //Ritsu Tainaka  Set Cs Box (F)
+    
+//Tsumugi Kotobuki Cs Set (F) - Kiyo                   
+#define II_ARM_F_CHR_TSUMUGIKOT01HAT          33674     //Tsumugi Kotobuki Set Hat (F)
+#define II_ARM_F_CHR_TSUMUGIKOT01SUIT         33675     //Tsumugi Kotobuki Set Suit (F)
+#define II_SYS_SYS_SCR_BXFTSUMUGIKOT01        33676     //Tsumugi Kotobuki  Set Cs Box (F)
+ 
+//Yui Hirasawa Cs Set (F) - Kiyo                       
+#define II_ARM_F_CHR_YUIHIRASAWA01HAT         33677     //Yui Hirasawa Set Hat (F)
+#define II_ARM_F_CHR_YUIHIRASAWA01SUIT        33678     //Yui Hirasawa Set Suit (F)
+#define II_SYS_SYS_SCR_BXFYUIHIRASAWA01       33679     //Yui Hirasawa  Set Cs Box (F)
+
+//Animated Hats - Kiyo
+#define II_SYS_ANIHAT_COLDSNOWMAN             33680    //Cold Snowman Animated Hat
+#define II_SYS_ANIHAT_KINGOWEEN               33681    //Kingoween Animated Hat
+#define II_SYS_ANIHAT_LIBRALO                 33682    //Libralo Animated Hat
+#define II_SYS_ANIHAT_LUCKYCAT                33683    //LuckyCat Animated Hat
+#define II_SYS_ANIHAT_NUTCRACKER              33684    //Nutcracker Animated Hat
+#define II_SYS_ANIHAT_OTTEY                   33685    //Ottey Animated Hat
+#define II_SYS_ANIHAT_PLUMPY                  33686    //Plumpy Animated Hat
+#define II_SYS_ANIHAT_PROPELLR                33687    //Propeller Animated Hat
+#define II_SYS_ANIHAT_RICHMAN                 33688    //Richman Animated Hat
+#define II_SYS_ANIHAT_TENTACLE                33689    //Tentacle Animated Hat
+#define II_SYS_ANIHAT_TIGAR                   33690    //Tigar Animated Hat
+#define II_SYS_ANIHAT_TOICAT                  33691    //Toicat Animated Hat
+#define II_SYS_ANIHAT_TRIBBY                  33692    //Tribby Animated Hat
+#define II_SYS_ANIHAT_WEDDINGVEIL             33693    //Wedding Veil Animated Hat
+#define II_SYS_ANIHAT_WEENY                   33694    //Weeny Animated Hat
+#define II_SYS_ANIHAT_WINTERTREE              33695    //Winter Tree Animated Hat
+#define II_SYS_ANIHAT_XMASANTLER              33696    //Xmas Antler Animated Hat
+#define II_SYS_ANIHAT_ZOMBEAT                 33697    //Zombeat Animated Hat
+#define II_SYS_ANIHAT_BADSOUL                 33698    //Bad Soul Animated Hat
+#define II_SYS_ANIHAT_CHIMERA                 33699    //Chimera Animated Hat
+#define II_SYS_ANIHAT_CLIPPINGBEAR            33700    //Clipping Bear Animated Hat
+#define II_SYS_ANIHAT_CLIPPINGDOG             33701    //Clipping Dog Animated Hat
+#define II_SYS_ANIHAT_CONFIRMEDCAT            33702    //Confirmed Cat Animated Hat
+#define II_SYS_ANIHAT_CUTEPYRAMID             33703    //Cute Pyramid Animated Hat
+#define II_SYS_ANIHAT_DIZZY                   33704    //Dizzy Animated Hat
+#define II_SYS_ANIHAT_DRABBIT                 33705    //Drabbit Animated Hat
+#define II_SYS_ANIHAT_DRACULA                 33706    //Dracula Animated Hat
+#define II_SYS_ANIHAT_ENERGYCRAB              33707    //Energy Crab Animated Hat
+#define II_SYS_ANIHAT_FISHY                   33708    //Fishy Animated Hat
+#define II_SYS_ANIHAT_FLOATING                33709    //Floating Crone Animated Hat
+#define II_SYS_ANIHAT_FOXYHATSCARF            33710    //Foxy Hatscarf Animated Hat
+#define II_SYS_ANIHAT_GIFTPLUMPY              33711    //Gift Plumpy Animated Hat
+#define II_SYS_ANIHAT_CUTEPANDA               33712    //Cute Panda Animated Hat
+
+//Siweard Templar Armor Set (M) - Kiyo  
+#define II_ARM_M_LORDK_HELMET_SET_35          33713    //Siweard Templar Armor Set Hat (M)
+#define II_ARM_M_LORDK_SUIT_SET_35            33714    //Siweard Templar Armor Set Suit (M)
+#define II_ARM_M_LORDK_GAUNTLET_SET_35        33715    //Siweard Templar Armor Set Gloves (M)
+#define II_ARM_M_LORDK_BOOTS_SET_35           33716    //Siweard Templar Armor Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMSIWEARD01           33717    //Siweard Templar Armor Set Box (M)
+
+//Siweard Templar Armor Set (F) - Kiyo         
+#define II_ARM_F_LORDK_HELMET_SET_35          33718    //Siweard Templar Armor Set Hat (F)
+#define II_ARM_F_LORDK_SUIT_SET_35            33719    //Siweard Templar Armor Set Suit (F)
+#define II_ARM_F_LORDK_GAUNTLET_SET_35        33720    //Siweard Templar Armor Set Gloves (F)
+#define II_ARM_F_LORDK_BOOTS_SET_35           33721    //Siweard Templar Armor Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFSIWEARD01           33722    //Siweard Templar Armor Set Box (F)
+
+//Vernissac Mentalist Armor Set (M) - Kiyo  
+#define II_ARM_M_MENT_HELMET_SET_35           33723    //Vernissac Mentalist Armor Set Hat (M)
+#define II_ARM_M_MENT_SUIT_SET_35             33724    //Vernissac Mentalist Armor Set Suit (M)
+#define II_ARM_M_MENT_GAUNTLET_SET_35         33725    //Vernissac Mentalist Armor Set Gloves (M)
+#define II_ARM_M_MENT_BOOTS_SET_35            33726    //Vernissac Mentalist Armor Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMVERNISSAC01         33727    //Vernissac Mentalist Armor Box (M)
+
+//Vernissac Mentalist Armor Set (F) - Kiyo         
+#define II_ARM_F_MENT_HELMET_SET_35           33728    //Vernissac Mentalist Armor Set Hat (F)
+#define II_ARM_F_MENT_SUIT_SET_35             33729    //Vernissac Mentalist Armor Set Suit (F)
+#define II_ARM_F_MENT_GAUNTLET_SET_35         33730    //Vernissac Mentalist Armor Set Gloves (F)
+#define II_ARM_F_MENT_BOOTS_SET_35            33731    //Vernissac Mentalist Armor Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFVERNISSAC01         33732    //Vernissac Mentalist Armor Set Box (F)
+
+//Nerechade Arcanist Armor Set (M) - Kiyo  
+#define II_ARM_M_ELEL_HELMET_SET_35           33733    //Nerechade Arcanist Armor Set Hat (M)
+#define II_ARM_M_ELEL_SUIT_SET_35             33734    //Nerechade Arcanist Armor Set Suit (M)
+#define II_ARM_M_ELEL_GAUNTLET_SET_35         33735    //Nerechade Arcanist Armor Set Gloves (M)
+#define II_ARM_M_ELEL_BOOTS_SET_35            33736    //Nerechade Arcanist Armor Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMNERECHADE01         33737    //Nerechade Arcanist Armor Set Box (M)
+ 
+//Nerechade Arcanist Armor Set (F) - Kiyo         
+#define II_ARM_F_ELEL_HELMET_SET_35           33738    //Nerechade Arcanist Armor Set Hat (F)
+#define II_ARM_F_ELEL_SUIT_SET_35             33739    //Nerechade Arcanist Armor Set Suit (F)
+#define II_ARM_F_ELEL_GAUNTLET_SET_35         33740    //Nerechade Arcanist Armor Set Gloves (F)
+#define II_ARM_F_ELEL_BOOTS_SET_35            33741    //Nerechade Arcanist Armor Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFNERECHADE01         33742    //Nerechade Arcanist Armor Set Box (F)
+
+//Aguezin Crackshooter Armor Set (M) - Kiyo  
+#define II_ARM_M_CRACKS_HELMET_SET_35         33743    //Aguezin Crackshooter Armor Set Hat (M)
+#define II_ARM_M_CRACKS_SUIT_SET_35           33744    //Aguezin Crackshooter Armor Set Suit (M)
+#define II_ARM_M_CRACKS_GAUNTLET_SET_35       33745    //Aguezin Crackshooter Armor Set Gloves (M)
+#define II_ARM_M_CRACKS_BOOTS_SET_35          33746    //Aguezin Crackshooter Armor Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMAGUEZIN01           33747    //Aguezin Crackshooter Armor Set Box (M)
+
+//Aguezin Crackshooter Armor Set (F) - Kiyo         
+#define II_ARM_F_CRACKS_HELMET_SET_35         33748    //Aguezin Crackshooter Armor Set Hat (F)
+#define II_ARM_F_CRACKS_SUIT_SET_35           33749    //Aguezin Crackshooter Armor Set Suit (F)
+#define II_ARM_F_CRACKS_GAUNTLET_SET_35       33750    //Aguezin Crackshooter Armor Set Gloves (F)
+#define II_ARM_F_CRACKS_BOOTS_SET_35          33751    //Aguezin Crackshooter Armor Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFAGUEZIN01           33752    //Aguezin Crackshooter Armor Set Box (F)
+
+//Warrad Slayer Armor Set (M) - Kiyo  
+#define II_ARM_M_STORMB_HELMET_SET_35         33753    //Warrad Slayer Armor Set Hat (M)
+#define II_ARM_M_STORMB_SUIT_SET_35           33754    //Warrad Slayer Armor Set Suit (M)
+#define II_ARM_M_STORMB_GAUNTLET_SET_35       33755    //Warrad Slayer Armor Set Gloves (M)
+#define II_ARM_M_STORMB_BOOTS_SET_35          33756    //Warrad Slayer Armor Set Shoes (M)
+#define II_SYS_SYS_SCR_BXMWARRAD01            33757    //Warrad Slayer Armor Set Box (M)
+
+//Warrad Slayer Armor Set (F) - Kiyo
+#define II_ARM_F_STORMB_HELMET_SET_35         33758    //Warrad Slayer Armor Set Hat (F)
+#define II_ARM_F_STORMB_SUIT_SET_35           33759    //Warrad Slayer Armor Set Suit (F)
+#define II_ARM_F_STORMB_GAUNTLET_SET_35       33760    //Warrad Slayer Armor Set Gloves (F)
+#define II_ARM_F_STORMB_BOOTS_SET_35          33761    //Warrad Slayer Armor Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFWARRAD01            33762    //Warrad Slayer Armor Set Box (F)
+
+//Holyless Harlequin Armor Set (M) - Kiyo 
+#define II_ARM_M_WINDL_HELMET_SET_35          33763    //Holyless Harlequin Armor Hat (M)
+#define II_ARM_M_WINDL_SUIT_SET_35            33764    //Holyless Harlequin Armor Suit (M)
+#define II_ARM_M_WINDL_GAUNTLET_SET_35        33765    //Holyless Harlequin Armor Gloves (M)
+#define II_ARM_M_WINDL_BOOTS_SET_35           33766    //Holyless Harlequin Armor Shoes (M)
+#define II_SYS_SYS_SCR_BXMHOLYLESS01          33767    //Holyless Harlequin Armor Set Box (M)
+
+//Holyless Harlequin Armor Set (F) - Kiyo 
+#define II_ARM_F_WINDL_HELMET_SET_35          33768    //Holyless Harlequin Armor Hat (F)
+#define II_ARM_F_WINDL_SUIT_SET_35            33769    //Holyless Harlequin Armor Suit (F)
+#define II_ARM_F_WINDL_GAUNTLET_SET_35        33770    //Holyless Harlequin Armor Gloves (F)
+#define II_ARM_F_WINDL_BOOTS_SET_35           33771    //Holyless Harlequin Armor Shoes (F)
+#define II_SYS_SYS_SCR_BXFHOLYLESS01          33772    //Holyless Harlequin Armor Set Box (F)
+
+//Ilthuryn Seraph Armor Set (M) - Kiyo 
+#define II_ARM_M_FLOR_HELMET_SET_35           33773    //Ilthuryn Seraph Armor Hat (M)
+#define II_ARM_M_FLOR_SUIT_SET_35             33774    //Ilthuryn Seraph Armor Suit (M)
+#define II_ARM_M_FLOR_GAUNTLET_SET_35         33775    //Ilthuryn Seraph Armor Gloves (M)
+#define II_ARM_M_FLOR_BOOTS_SET_35            33776    //Ilthuryn Seraph Armor Shoes (M)
+#define II_SYS_SYS_SCR_BXMILTHURYN01          33777    //Ilthuryn Seraph Armor Set Box (M)
+
+//Ilthuryn Seraph Armor Set (F) - Kiyo 
+#define II_ARM_F_FLOR_HELMET_SET_35           33778    //Ilthuryn Seraph Armor Hat (F)
+#define II_ARM_F_FLOR_SUIT_SET_35             33779    //Ilthuryn Seraph Armor Suit (F)
+#define II_ARM_F_FLOR_GAUNTLET_SET_35         33780    //Ilthuryn Seraph Armor Gloves (F)
+#define II_ARM_F_FLOR_BOOTS_SET_35            33781    //Ilthuryn Seraph Armor Shoes (F)
+#define II_SYS_SYS_SCR_BXFILTHURYN01          33782    //Ilthuryn Seraph Armor Set Box (F)
+
+//Ilzogas Forcemaster Armor Set (M) - Kiyo 
+#define II_ARM_M_FORCEM_HELMET_SET_35         33783    //Ilzogas Forcemaster Armor Hat (M)
+#define II_ARM_M_FORCEM_SUIT_SET_35           33784    //Ilzogas Forcemaster Armor Suit (M)
+#define II_ARM_M_FORCEM_GAUNTLET_SET_35       33785    //Ilzogas Forcemaster Armor Gloves (M)
+#define II_ARM_M_FORCEM_BOOTS_SET_35          33786    //Ilzogas Forcemaster Armor Shoes (M)
+#define II_SYS_SYS_SCR_BXMILZOGAS01           33787    //Ilzogas Forcemaster Armor Set Box (F)
+
+//Ilzogas Formaster Armor Set (F) - Kiyo 
+#define II_ARM_F_FORCEM_HELMET_SET_35         33788    //Ilzogas Forcemaster Armor Hat (F)                             
+#define II_ARM_F_FORCEM_SUIT_SET_35           33789    //Ilzogas Forcemaster Armor Suit (F)
+#define II_ARM_F_FORCEM_GAUNTLET_SET_35       33790    //Ilzogas Forcemaster Armor Gloves (F)
+#define II_ARM_F_FORCEM_BOOTS_SET_35          33791    //Ilzogas Forcemaster Armor Shoes (F)
+#define II_SYS_SYS_SCR_BXFILZOGAS01           33792    //Ilzogas Forcemaster Armor Set Box (F)
+
+//Animated Hats Part 2 - Kiyo
+#define II_SYS_ANIHAT_GLIBBOY                 33793    //Glibboy Animated Hat
+#define II_SYS_ANIHAT_HEADYCHICK              33794    //Heady Chick Animated Hat
+#define II_SYS_ANIHAT_ISLANDH                 33795    //Island Animated Hat
+#define II_SYS_ANIHAT_MECHAWING               33796    //Mecha Wing Animated Hat
+#define II_SYS_ANIHAT_MONSTERHAT              33797    //Monster Animated Hat
+#define II_SYS_ANIHAT_SAKURANOODLE            33798    //Sakura Noodles Animated Hat
+#define II_SYS_ANIHAT_SLEEPSHEEP              33799    //Sleep Sheep Animated Hat
+#define II_SYS_ANIHAT_SNOWKINGCUBE            33800    //Snow King Cube Animated Hat
+#define II_SYS_ANIHAT_STUCKSANTA              33801    //Stucking Santa Animated Hat
+#define II_SYS_ANIHAT_SUITCASE                33802    //Suit Case Animated Hat
+
+//Badges - Kiyo		
+#define II_BADGE_DEFAULT	33803 	// Default Job Badge
+#define II_BADGE_NONE		33804	// Disable Badge
+#define II_BADGE01			33805	// Sunshine Badge
+#define II_BADGE02			33806	// Potion Badge
+#define II_BADGE03			33807	// Love Badge
+#define II_BADGE04			33808	// Flower Badge
+#define II_BADGE05			33809	// Scroll Badge
+#define II_BADGE06			33810	// Sword Badge
+#define II_BADGE07			33811	// Twitch Badge
+#define II_BADGE08			33812	// Youtube Badge
+#define II_BADGE09			33813	// Easter Badge
+#define II_BADGE10			33814	// EXP Badge
+#define II_BADGE11			33815	// Magic Badge
+#define II_BADGE12			33816	// Letter Badge
+#define II_BADGE13			33817	// Blue Star Badge
+#define II_BADGE14			33818	// Tree Badge
+#define II_BADGE15			33819	// Alt F4 Badge
+#define II_BADGE16			33820	// Emblem Badge
+#define II_BADGE17			33821	// Orb Badge
+#define II_BADGE18			33822	// Jewel Badge
+#define II_BADGE19			33823	// Star Badge
+#define II_BADGE20			33824	// Blue Fire Badge
+#define II_BADGE21			33825	// Orange Fire Badge
+#define II_BADGE22			33826	// Kappa Badge
+#define II_BADGE23			33827	// Robot Badge
+#define II_BADGE24			33828	// Pepe Badge
+#define II_BADGE25			33829	// Escobar Badge
+#define II_BADGE26			33830	// Valentine Badge
+#define II_BADGE27			33831	// Soda Badge
+#define II_BADGE28			33832	// Pepe Cool Badge
+#define II_BADGE29			33833	// Donut Badge
+#define II_BADGE30			33834	// Bear Badge
+#define II_BADGE31			33835	// Cactus Badge
+#define II_BADGE32			33836	// Giraffe Badge
+
+//Unique Flasks - Kiyo
+#define II_GEN_POT_FLASK_OF_SKILL             33837    //Flask of Skill
+#define II_GEN_POT_FLASK_OF_POWER             33838    //Flask of Power
+#define II_GEN_POT_FLASK_OF_CHANCE            33839    //Flask of Chance
+#define II_GEN_POT_FLASK_OF_ABILITY           33840    //Flask of Ability
+#define II_GEN_POT_FLASK_OF_UNKNOWN           33841    //Flask of Unknown
+#define II_GEN_POT_FLASK_OF_STATS             33842    //Flask of Stats
+#define II_SYS_SYS_SCR_BX_OF_FLASKS           33843    //Box of Flasks
+
+//Scroll of Experience Ultra - Kiyo
+#define II_SYS_SYS_SCR_EXPSCROLL05            33844    //Scroll of Experience Ultra
+
+//Beginner Fashion Set (M) - Kiyo  
+#define II_ARM_M_CHR_BEGINNERFASH01HAT        33845    //Beginner Fashion Hat (M)
+#define II_ARM_M_CHR_BEGINNERFASH01SUIT       33846    //Beginner Fashion Suit (M)
+#define II_ARM_M_CHR_BEGINNERFASH01GLOVES     33847    //Beginner Fashion Gloves (M)
+#define II_ARM_M_CHR_BEGINNERFASH01SHOES      33848    //Beginner Fashion Shoes (M)
+#define II_SYS_SYS_SCR_BXMBEGINNERFASH01      33849    //Beginner Fashion Box (M)
+
+//Beginner Fashion Set (F) - Kiyo - Kiyo
+#define II_ARM_F_CHR_BEGINNERFASH01HAT        33850    //Beginner Fashion Hat (F)
+#define II_ARM_F_CHR_BEGINNERFASH01SUIT       33851    //Beginner Fashion Suit (F)
+#define II_ARM_F_CHR_BEGINNERFASH01GLOVES     33852    //Beginner Fashion Suit (F)
+#define II_ARM_F_CHR_BEGINNERFASH01SHOES      33853    //Beginner Fashion Shoes (F)
+#define II_SYS_SYS_SCR_BXFBEGINNERFASH01      33854    //Beginner Fashion Box (F)
+
+//Beginner Looter Pet
+#define	II_PET_JINTHEBLACKFOX	              33855    //Beginner Looter Pet 
+
+//Royal Furniture - Kiyo
+#define II_GHOU_FUR_TAB_ROYAL01_03            33856    //Royal Sofa            
+#define II_GHOU_FUR_WAR_ROYAL01_02            33857    //Royal Wardrobe      
+#define II_GHOU_FUR_CLO_ROYAL01_02            33858    //Royal Drawer           
+#define II_GHOU_FUR_CHA_ROYAL01_02            33859    //Royal Stool           
+#define II_GHOU_FUR_TAB_ROYAL01_02            33860    //Royal Dinner Table           
+#define II_GHOU_FUR_FLO_ROYAL01_02            33861    //Royal Carpet           
+#define II_GHOU_FUR_WAL_ROYAL01_02            33862    //Royal Cabinet
+#define II_GHOU_FUR_BED_ROYAL01_02            33863    //Royal Bed 
+
+//Aqua Furniture - Kiyo
+#define II_GHOU_FUR_BATH_AQUA01               33864     //Aqua Bathtub    
+#define II_GHOU_FUR_BATH_AQUA02               33865     //Aqua Bathtub Type 2
+#define II_GHOU_FUR_CLO_AQUA01                33866     //Aqua Fridge  
+#define II_GHOU_FUR_TAB_AQUA01                33867     //Aqua Kitchen   
+#define II_GHOU_FUR_WAR_AQUA01                33868     //Aqua Cabinet   
+#define II_GHOU_FUR_CHA_AQUA01                33869     //Aqua Pinguin  
+#define II_GHOU_FUR_SOF_AQUA01                33870     //Aqua Sofa
+#define II_GHOU_FUR_SOF_AQUA02                33871     //Aqua Couch 
+#define II_GHOU_FUR_CHA_AQUA02                33872     //Aqua Stool    
+#define II_GHOU_FUR_CHA_AQUA03                33873     //Aqua Chair
+#define II_GHOU_FUR_TAB_AQUA02                33874     //Aqua Table  
+#define II_GHOU_FUR_CHA_AQUA04                33875     //Aqua Carpet   
+#define II_GHOU_FUR_BED_AQUA01                33876     //Aqua Bed   
+
+//Wooden Furniture - Kiyo
+#define II_GHOU_FUR_BATH_WOODENF01            33877     //Wooden Bathtub    
+#define II_GHOU_FUR_BED_WOODENF01             33878     //Wooden Bed  
+#define II_GHOU_FUR_WAR_WOODENF01             33879     //Wooden Book Shelf   
+#define II_GHOU_FUR_CHA_WOODENF01             33880     //Wooden Chair   
+#define II_GHOU_FUR_CHA_WOODENF02             33881     //Wooden Fire Place  
+#define II_GHOU_FUR_CHA_WOODENF03             33882     //Wooden Flower
+#define II_GHOU_FUR_CHA_WOODENF04             33883     //Wooden Stair 
+#define II_GHOU_FUR_WAR_WOODENF02             33884     //Wooden Wall Shelf 
+
+//Modern Furniture - Kiyo                    
+#define II_GHOU_FUR_WAR_MODERNF01             33885     //Modern Bar    
+#define II_GHOU_FUR_BATH_MODERNF01            33886     //Modern Bathtub  
+#define II_GHOU_FUR_BED_MODERNF01             33887     //Modern Bed v1   
+#define II_GHOU_FUR_BED_MODERNF02             33888     //Modern Bed v2   
+#define II_GHOU_FUR_CLO_MODERNF01             33889     //Modern Fridge  
+#define II_GHOU_FUR_TAB_MODERNF01             33890     //Modern Kitchen
+#define II_GHOU_FUR_TAB_MODERNF02             33891     //Modern Table 
+#define II_GHOU_FUR_TAB_MODERNF03             33892     //Modern Dinner Table 
+
+// Scroll of Guild Name Color Change - Kiyo
+#define II_SYS_SYS_SCR_GUILDCOLOR			  33893		//Scroll of Guild Name Color Change
+
+//Unique Looter Pets - Kiyo 
+#define	II_PET_ARCADEZIGGY	                  33894      //Arcade Ziggs Pet    
+#define	II_PET_FROSTWYRM	                  33895      //Baby Frostwyrm Pet 
+#define	II_PET_LICH	                          33896      //Baby Lich Pet  
+#define	II_PET_CRAZYTURTLE	                  33897      //Crazy Turtle Pet   
+#define	II_PET_DIABLOMURLOC	                  33898      //Diablo Murloc Pet  
+#define	II_PET_FELSTALKER	                  33899      //Felstalker Pet
+#define	II_PET_HOOPA	                      33900      //Hoopa Pet 
+#define	II_PET_MANAPANTHER	                  33901      //Mana Panther Pet
+#define	II_PET_MECHAHAND	                  33902      //Mecha Hand pet   
+#define	II_PET_MEDVIHFOX	                  33903      //Medvih Fox Pet  
+#define	II_PET_NEWYEARDRAGON	              33904      //New Year Dragon Pet   
+#define	II_PET_OCTOPIRATE	                  33905      //Octo Pirate Pet   
+#define	II_PET_SACURO	                      33906      //Baby Sacuro Pet  
+#define	II_PET_SERAPHDRAGON	                  33907      //Seraph Dragon Pet
+#define	II_PET_ARCADECORKI	                  33908      //Arcade Corki Pet
+#define	II_PET_ARCADEHECARIM	              33909      //Arcade Hecarim Pet
+#define	II_PET_FOOTBALLMEOWTH	              33910      //Football Meowth Pet  
+#define	II_PET_FOOTBALLMEWTWO	              33911      //Football Mewtwo Pet
+#define	II_PET_FOOTBALLPIKACHU	              33912      //Football Pikachu Pet
+#define	II_PET_FOOTBALLWAKA	                  33913      //Football Waka Pet
+
+//Unique Masks - Kiyo
+#define II_ARM_S_CLO_MAS_ANTARESMASK01        33914      //Antares Mask    
+#define II_ARM_S_CLO_MAS_AYARELLAMASK01       33915      //Ayarella Mask 
+#define II_ARM_S_CLO_MAS_DRWRIGHTMASK01       33916      //Dr Wright Mask  
+#define II_ARM_S_CLO_MAS_DWESAMASK01          33917      //Dwesa Mask  
+#define II_ARM_S_CLO_MAS_GASMASK01            33918      //Gas Mask   
+#define II_ARM_S_CLO_MAS_GOOMBAMASK01         33919      //Goomba Mask 
+#define II_ARM_S_CLO_MAS_JINZOMASK01          33920      //Jinzo Mask 
+#define II_ARM_S_CLO_MAS_MAJORASMASK01        33921      //Majoras Mask 
+#define II_ARM_S_CLO_MAS_CREGANMASK01         33922      //Cregan Mask   
+#define II_ARM_S_CLO_MAS_KIRESSIMASK01        33923      //Kiressi Mask  
+#define II_ARM_S_CLO_MAS_OMGGLASSESMASK01     33924      //OMG Glasses
+#define II_ARM_S_CLO_MAS_ONIKISENPAIMASK01    33925      //Oniki Senpai Mask 
+#define II_ARM_S_CLO_MAS_PINOCHIOMASK01       33926      //Pinocchio Mask
+#define II_ARM_S_CLO_MAS_SABBATHMASK01        33927      //Sabbath Mask
+#define II_ARM_S_CLO_MAS_SUBCONEYEMASK01      33928      //Subcon Eye Mask
+#define II_ARM_S_CLO_MAS_TWEETERMASK01        33929      //Tweeter Mask
+#define II_ARM_S_CLO_MAS_WIZZROBEMASK01       33930      //Wizzrobe Mask
+#define II_ARM_S_CLO_MAS_YIGAMASK01           33931      //Yiga Mask
+#define II_ARM_S_CLO_MAS_BLUEEYED01           33932      //Blue Eyes Dragon Mask
+#define II_ARM_S_CLO_MAS_BOMCHU01             33933      //Bomchu Mask
+#define II_ARM_S_CLO_MAS_CRAZYDEVIL01         33934      //Crazy Devil Mask
+
+//Unique Cloaks - Kiyo
+#define	II_ARM_S_CLO_CLO_ADMIRALMADRIGAL      33935      //Admiral of Madrigal Cloak
+#define	II_ARM_S_CLO_CLO_CAPTAINMADRIGAL      33936      //Captain of Madrigal Cloak
+#define	II_ARM_S_CLO_CLO_COMMANDERMADRIGAL    33937      //Commander of Madrigal Cloak
+#define	II_ARM_S_CLO_CLO_GENERALMADRIGAL      33938      //General of Madrigal Cloak
+#define	II_ARM_S_CLO_CLO_MAJOROFMADRIGAL      33939      //Major of Madrigal Cloak
+#define	II_ARM_S_CLO_CLO_MADRIGALSTAR         33940      //Madrigal Star Cloak
+#define	II_ARM_S_CLO_CLO_DARKVEIL             33941      //Dark Veil Cloak
+#define	II_ARM_S_CLO_CLO_LIGHTOFTHEANGEL      33942      //Light of The Angel Cloak
+#define	II_ARM_S_CLO_CLO_TWINEAGLES           33943      //Twin Eagles Cloak
+
+//Kiyo - More Badges			
+#define	II_BADGE33		33944	// Santa Badge
+#define	II_BADGE34		33945	// Snowman Badge
+#define	II_BADGE35		33946	// Cookie Badge
+#define	II_BADGE36		33947	// Weed Badge
+#define	II_BADGE37		33948	// Icecream Badge
+#define	II_BADGE38		33949	// Sunflower Badge
+#define	II_BADGE39		33950	// Kiwi Badge
+#define	II_BADGE40		33951	// Watermelon Badge
+#define	II_BADGE41		33952	// Cake Badge
+#define	II_BADGE42		33953	// Potter Badge
+#define	II_BADGE43		33954	// Torch Badge
+#define	II_BADGE44		33955	// Ying Yang Badge
+#define	II_BADGE45		33956	// Cash Badge
+#define	II_BADGE46		33957	// Banana Badge
+#define	II_BADGE47		33958	// Pokeball Badge
+#define	II_BADGE48		33959	// Cherry Badge
+#define	II_BADGE49		33960	// Skull Badge
+#define	II_BADGE50		33961	// Bitcoin Badge
+#define	II_BADGE51		33962	// Batman Badge
+#define	II_BADGE52		33963	// Knuckles Badge
+#define	II_BADGE53		33964	// Clown Badge
+#define	II_BADGE54		33965	// Candy Badge
+#define	II_BADGE55		33966	// Sleep Badge
+#define	II_BADGE56		33967	// Beach Badge
+#define	II_BADGE57		33968	// Ring Badge
+#define	II_BADGE58		33969	// Wing Badge
+#define	II_BADGE59		33970	// Feather Badge
+#define	II_BADGE60		33971	// Strawberry Badge
+#define	II_BADGE61		33972	// Castle Badge
+#define	II_BADGE62		33973	// Vampire Badge
+#define	II_BADGE63		33974	// Dark Cat Badge
+#define	II_BADGE64		33975	// R.I.P Badge
+#define	II_BADGE65		33976	// Link Badge
+#define	II_BADGE66		33977	// Flower Badge
+#define	II_BADGE67		33978	// Unicorn Badge
+#define	II_BADGE68		33979	// Artifact Badge
+#define	II_BADGE69		33980	// Demon Badge
+#define	II_BADGE70		33981	// Dog Badge
+#define	II_BADGE71		33982	// Joker Badge
+#define	II_BADGE72		33983	// Stoned Badge
+#define	II_BADGE73		33984	// Bunny Badge
+#define	II_BADGE74		33985	// Hand Badge
+#define	II_BADGE75		33986	// Firework Badge
+#define	II_BADGE76		33987	// Rainbow Badge
+#define	II_BADGE77		33988	// Ufo Badge
+#define	II_BADGE78		33989	// Beer Badge
+#define	II_BADGE79		33990	// Equinox Badge
+#define	II_BADGE80		33991	// Box Badge
+#define	II_BADGE81		33992	// Valentine 2 Badge
+#define	II_BADGE82		33993	// Speed Badge
+#define	II_BADGE83		33994	// Toxic Badge
+#define	II_BADGE84		33995	// Mushroom Badge
+#define	II_BADGE85		33996	// Icecream 2 Badge
+#define	II_BADGE86		33997	// 1 UP Badge
+#define	II_BADGE87		33998	// Crafting Badge
+#define	II_BADGE88		33999	// Dragon Badge
+#define	II_BADGE89		34000	// Golden Aibatt Badge
+#define	II_BADGE90		34001	// Sheep Badge
+
+#define	II_BADGE91		34002	// Skull 2 Badge
+#define	II_BADGE92		34003	// Cookie 2 Badge
+#define	II_BADGE93		34004	// Gold Emblem Badge
+#define	II_BADGE94		34005	// Captain Badge
+#define	II_BADGE95		34006	// Orange Cactus Badge
+#define	II_BADGE96		34007	// Emerald Badge
+#define	II_BADGE97		34008	// Firework 2 Badge
+#define	II_BADGE98		34009	// Cake 2 Badge
+#define	II_BADGE99		34010	// Vodoo Badge 
+#define	II_BADGE100		34011	// Excalibur Badge
+
+// Christmas Badges
+#define	II_BADGE101		34012	// Christmas Socks Badge
+#define	II_BADGE102		34013	// Christmas Cake Badge
+#define	II_BADGE103		34014	// Christmas Cookie Badge
+#define	II_BADGE104		34015	// Christmas Tree Badge
+#define	II_BADGE105		34016	// Christmas Candy Badge 
+#define	II_BADGE106		34017	// Christmas Snowflake Badge
+#define	II_BADGE107		34018	// Christmas Hearts Badge
+
+// Halloween Badges
+#define	II_BADGE108		34019	// Halloween Bats Badge
+#define	II_BADGE109		34020	// Halloween Pumpkin Badge
+#define	II_BADGE110		34021	// Halloween Dark Pumpkin Badge
+#define	II_BADGE111		34022	// Halloween Spook Badge
+#define	II_BADGE112		34023	// Halloween Coffin Badge
+#define	II_BADGE113		34024	// Halloween Skull Badge
+
+#define	II_BADGE114		34025	// Monopoly Badge
+#define	II_BADGE115		34026	// Parchment Badge
+#define	II_BADGE116		34027	// Pirate Wheel Badge
+
+// Animated Badges
+#define	II_BADGE117		34028	// Animated Heart Badge
+#define	II_BADGE118		34029	// Animated Doge Badge
+#define	II_BADGE119		34030	// Animated Butt Badge
+#define	II_BADGE120		34031   // Animated Beer Badge
+#define	II_BADGE121		34032   // Animated Bug Cat v2 Badge
+#define	II_BADGE122		34033   // Animated Bug Cat Badge
+#define	II_BADGE123		34034   // Animated Bug Cat v3 Badge
+#define	II_BADGE124		34035   // Animated Bug Cat v4 Badge
+#define	II_BADGE125		34036   // Animated Cupcake Badge
+#define	II_BADGE126		34037   // Animated Yes Dance Badge
+#define	II_BADGE127		34038   // Animated Diamond Badge
+#define	II_BADGE128		34039   // Animated Floating Badge
+#define	II_BADGE129		34040   // Animated Piggy Badge
+#define	II_BADGE130		34041   // Animated Rainbow Dance Badge
+#define	II_BADGE131		34042   // Animated Yes Badge
+#define	II_BADGE132		34043   // Animated Proud Parrot Badge
+#define	II_BADGE133		34044   // Animated Wiggle Badge
+#define	II_BADGE134		34045   // Animated Porn God Badge
+#define	II_BADGE135		34046   // Animated Handicapped Badge
+#define	II_BADGE136		34047   // Animated Miku Badge
+#define	II_BADGE137		34048   // Animated Hip - Hop Dance Badge
+#define	II_BADGE138		34049   // Animated Kekw Badge
+#define	II_BADGE139		34050   // Animated Knuckles Badge
+#define	II_BADGE140		34051   // Animated Lolipop Badge
+#define	II_BADGE141		34052   // Animated Loop Badge
+#define	II_BADGE142		34053   // Animated Siren Badge
+#define	II_BADGE143		34054   // Animated Moon Badge
+#define	II_BADGE144		34055   // Animated Peepo Toxic Badge
+#define	II_BADGE145		34056   // Animated Peppo Love Badge
+#define	II_BADGE146		34057   // Animated Peppo Red Card Badge
+#define	II_BADGE147		34058   // Animated Peppo Disco Badge
+#define	II_BADGE148		34059   // Animated Peppo Hack Badge
+#define	II_BADGE149		34060   // Animated Peppo Hype Badge
+#define	II_BADGE150		34061   // Animated Peppo Punch Badge
+#define	II_BADGE151		34062   // Animated Peppo Sautmm Badge
+#define	II_BADGE152		34063   // Animated Peppo Wink Badge
+#define	II_BADGE153		34064   // Animated Pink Space Badge
+#define	II_BADGE154		34065   // Animated Roses Badge
+#define	II_BADGE155		34066   // Animated Tea Cup Badge
+#define	II_BADGE156		34067   // Animated Pink Wings Badge
+#define	II_BADGE157		34068   // Animated Sparkling Star Badge
+#define	II_BADGE158		34069   // Animated Pink Rocket Badge
+#define	II_BADGE159		34070   // Animated Searching Bunny Badge
+#define	II_BADGE160		34071   // Animated Bongo Cat Badge
+#define	II_BADGE161		34072   // Animated Sharingan Badge
+#define	II_BADGE162		34073   // Animated Spank Badge
+#define	II_BADGE163		34074   // Animated Sweet Sheep Badge
+#define	II_BADGE164		34075   // Animated Like Badge
+#define	II_BADGE165		34076   // Animated Twitch Badge
+#define	II_BADGE166		34077   // Animated Void Badge
+#define	II_BADGE167		34078   // Animated Pink Whale Badge
+#define	II_BADGE168		34079   // Animated Whatchu Lookin At Badge
+#define	II_BADGE169		34080   // Animated Yeah Badge
+#define	II_BADGE170		34081   // Animated Brownie Dance Badge
+#define	II_BADGE171		34082   // Animated Zero Two Bounce Badge
+#define	II_BADGE172		34083   // Animated Zero Two Dance Badge
+#define	II_BADGE173		34084   // Animated Bruh Badge
+#define	II_BADGE174		34085   // Animated Bug Cat v5 Badge
+#define	II_BADGE175		34086   // Animated Bug Cat v6 Badge
+#define	II_BADGE176		34087   // Animated Abdul Pls Badge
+#define	II_BADGE177		34088   // Animated Blue Lolipop Badge
+#define	II_BADGE178		34089   // Animated Octipus Badge
+#define	II_BADGE179		34090   // Animated Bunny Badge
+#define	II_BADGE180		34091   // Animated Coin Badge
+#define	II_BADGE181		34092   // Animated Pink Sheep Badge
+
+#define	II_BADGE182		34093   // Ace Badge
+#define	II_BADGE183		34094   // Pink Diamond Badge
+#define	II_BADGE184		34095   // Rainbow Mickey Badge
+#define	II_BADGE185		34096   // Groot Badge
+#define	II_BADGE186		34097   // Pokemon Badge v1
+#define	II_BADGE187		34098   // Pokemon Badge v2
+#define	II_BADGE188		34099   // Pokemon Badge v3
+#define	II_BADGE189		34100   // Pokemon Badge v4
+#define	II_BADGE190		34101   // Pokemon Badge v5
+#define	II_BADGE191		34102   // Pokemon Badge v6
+#define	II_BADGE192		34103   // Pokemon Badge v7
+#define	II_BADGE193		34104   // Pokemon Badge v8
+#define	II_BADGE194		34105   // Pokemon Badge v9
+#define	II_BADGE195		34106   // Pokemon Badge v10
+#define	II_BADGE196		34107   // Trainer Cap Badge
+#define	II_BADGE197		34108   // Baby Chick Badge
+#define	II_BADGE198		34109   // Baby Yoda Badge
+#define	II_BADGE199		34110   // Psyduck Badge
+#define	II_BADGE200		34111   // Glaceon Badge
+
+//Alister Mask - Kiyo
+#define II_ARM_S_CLO_MAS_ALLISTERMASK01       34112
+
+//Jade Weapon Model - Kiyo
+#define II_WEA_SWO_JADE		       34113	//Jade Sword	
+#define II_WEA_SWT_JADE		       34114	//Jade Big Sword
+#define II_WEA_AXE_JADE		       34115	//Jade Axe	
+#define II_WEA_AXT_JADE		       34116	//Jade Big Axe
+#define II_WEA_KNU_JADE		       34117	//Jade Knuckle	
+#define II_WEA_CHE_JADE		       34118	//Jade Stick	
+#define II_WEA_WAN_JADE		       34119	//Jade Wand		
+#define II_WEA_STA_JADE		       34120	//Jade Staff	
+#define II_WEA_BOW_JADE		       34121	//Jade Bow		
+#define II_WEA_YOY_JADE		       34122	//Jade Yoyo		
+#define II_ARM_ARM_SHI_JADE	       34123	//Jade Shield 
+
+//Dark Demon Weapon Model - Kiyo
+#define II_WEA_SWO_DARKDEMON	   34124	//Dark Demon Sword	
+#define II_WEA_AXE_DARKDEMON	   34125	//Dark Demon Axe
+#define II_WEA_AXT_DARKDEMON01	   34126    //Dark Demon Big Axe Type 1	
+#define II_WEA_AXT_DARKDEMON02	   34127	//Dark Demon Big Axe Type 2
+#define II_WEA_KNU_DARKDEMON	   34128	//Dark Demon Knuckle	
+#define II_WEA_CHE_DARKDEMON	   34129	//Dark Demon Stick	
+#define II_WEA_WAN_DARKDEMON	   34130	//Dark Demon Wand		
+#define II_WEA_STA_DARKDEMON	   34131	//Dark Demon Staff	
+#define II_WEA_BOW_DARKDEMON01	   34132	//Dark Demon Bow Type 1	
+#define II_WEA_BOW_DARKDEMON02	   34133	//Dark Demon Bow Type 2		
+#define II_WEA_YOY_DARKDEMON	   34134	//Dark Demon Yoyo		
+#define II_ARM_ARM_SHI_DARKDEMON   34135	//Dark Demon Shield 
+
+//Zensoz Weapon Model - Kiyo
+#define II_WEA_AXE_ZENSOZ		   34136	//Zensoz Axe	
+#define II_WEA_AXT_ZENSOZ		   34137	//Zensoz Big Axe
+#define II_WEA_BOW_ZENSOZ01		   34138    //Zensoz Bow Type 1	
+#define II_WEA_BOW_ZENSOZ02		   34139	//Zensoz Bow Type 2
+#define II_WEA_KNU_ZENSOZ		   34140	//Zensoz Knuckle	
+#define II_WEA_CHE_ZENSOZ		   34141	//Zensoz Stick	
+#define II_WEA_WAN_ZENSOZ		   34142	//Zensoz Wand		
+#define II_WEA_STA_ZENSOZ		   34143	//Zensoz Staff	
+#define II_WEA_SWO_ZENSOZ		   34144	//Zensoz Sword	
+#define II_WEA_SWT_ZENSOZ		   34145	//Zensoz Big Sword		
+#define II_WEA_YOY_ZENSOZ		   34146	//Zensoz Yoyo		
+#define II_ARM_ARM_SHI_ZENSOZ	   34147	//Zensoz Shield 
+#define II_ARM_ARM_ZEM_ZENSOZ	   34148	//Zensoz Zem		
+
+//Gardiel Weapon Model - Kiyo
+#define II_WEA_SWO_GARDIEL02	   34149	//Gardiel Sword Type 2	
+#define II_WEA_AXT_GARDIEL		   34150	//Gardiel Big Axe
+#define II_WEA_BOW_GARDIEL01	   34151    //Gardiel Bow Type 1	
+#define II_WEA_BOW_GARDIEL02	   34152	//Gardiel Bow Type 2
+#define II_WEA_KNU_GARDIEL		   34153	//Gardiel Knuckle	
+#define II_WEA_CHE_GARDIEL		   34154	//Gardiel Stick		
+#define II_WEA_AXE_GARDIEL		   34155	//Gardiel Axe	
+#define II_WEA_SWO_GARDIEL01	   34156	//Gardiel Sword Type 1	
+#define II_WEA_SWT_GARDIEL		   34157	//Gardiel Big Sword		
+#define II_WEA_YOY_GARDIEL		   34158	//Gardiel Yoyo		
+#define II_ARM_ARM_ZEM_GARDIEL	   34159	//Gardiel Zem		
+
+//Shield Models - Kiyo
+#define II_ARM_ARM_SHI_CELESTIAL        34160    //Celestial Shield 
+#define II_ARM_ARM_SHI_DEMONSION        34161    //Demonsion Shield 
+#define II_ARM_ARM_SHI_ELECTRON         34162    //Electron Shield 
+#define II_ARM_ARM_SHI_GLACIAL          34163    //Glacial Shield 
+#define II_ARM_ARM_SHI_HELLOKITTY       34164    //Hello Kitty Shield 
+#define II_ARM_ARM_SHI_GOLDHELLOKITTY   34165    //Hello Kitty Golden Shield 
+#define II_ARM_ARM_SHI_HOLYSAKURA       34166    //Holy Sakura Shield 
+#define II_ARM_ARM_SHI_LIONKING         34167    //Lion King Shield 
+#define II_ARM_ARM_SHI_LUCKYLEGO        34168    //Lucky Lego Shield 
+#define II_ARM_ARM_SHI_MARTIN           34169    //Martin Shield 
+#define II_ARM_ARM_SHI_SAKURA           34170    //Sakura Shield 
+#define II_ARM_ARM_SHI_SWEETTURTLE      34171    //Sweet Turtle Shield 
+#define II_ARM_ARM_SHI_TERROCORE        34172    //Terrocore Shield 
+#define II_ARM_ARM_SHI_YSERA            34173    //Ysera Shield 
+#define II_ARM_ARM_SHI_ANTIKID          34174    //Anti - Kid Shield 
+
+//Book Models - Kiyo
+#define II_ARM_ARM_BOK_BUTTERFLY   34175	//Butterfly Book	
+#define II_ARM_ARM_BOK_DEMONSION   34176	//Demonsion Book	
+#define II_ARM_ARM_BOK_DRAGONIC	   34177	//Dragonic Book	
+#define II_ARM_ARM_BOK_MIRROR	   34178	//Mirror Book	
+#define II_ARM_ARM_BOK_TRICKSTER   34179	//Trickster Book	
+#define II_ARM_ARM_BOK_YSERA	   34180	//Ysera Book	
+
+//Sword Models - Kiyo
+#define II_WEA_SWO_CLAPPER		   34181	//Clapper Sword	
+#define II_WEA_SWO_CORNY		   34182	//Corny Sword	
+#define II_WEA_SWO_DELICIOUS	   34183	//Delicious Sword	
+#define II_WEA_SWO_DRAGONBREATH	   34184	//Dragon Breath Sword	
+#define II_WEA_SWO_LUCKYFISHER	   34185	//Lucky Fisher Sword	
+#define II_WEA_SWO_FRUITYCORNET	   34186	//Fruity Cornet Sword	
+#define II_WEA_SWO_HOLYFORK		   34187	//Holy Fork Sword	
+#define II_WEA_SWO_KINGDOM		   34188	//Kingdom Sword	
+#define II_WEA_SWO_ROASTEDFISH	   34189	//Roasted Fish Sword	
+#define II_WEA_SWO_SAKURA		   34190	//Sakura Sword	
+#define II_WEA_SWO_BLACKROSE	   34191	//Black Rose Sword	
+
+
+//Big Sword Models - Kiyo
+#define II_WEA_SWT_ARES		       34192	//Ares Big Sword	
+#define II_WEA_SWT_CELESTIAL	   34193	//Celestial Big Sword	
+#define II_WEA_SWT_ELECTRON		   34194	//Electron Big Sword	
+#define II_WEA_SWT_KINGDOM		   34195	//Kingdom Big Sword	
+#define II_WEA_SWT_KINGSCEPTER	   34196	//King Scepter Big Sword	
+#define II_WEA_SWT_LEVIATHANA	   34197	//Leviathana Big Sword	
+#define II_WEA_SWT_RRAGNAROS	   34198	//Ragnaros Big Sword	
+#define II_WEA_SWT_SKYLIGHT		   34199	//Skylight Big Sword	
+
+//Axe Models - Kiyo
+#define II_WEA_AXE_ANUBIS		   34200	//Anubis Axe	
+#define II_WEA_AXE_DEMONSION	   34201	//Demonsion Axe	
+
+//Staff Models - Kiyo
+#define II_WEA_STA_CELESTIAL	   34202	//Celestial Staff	
+#define II_WEA_STA_EMERALD		   34203	//Emerald Staff	
+#define II_WEA_STA_SCARECROW	   34204	//Scarecrow Staff	
+#define II_WEA_STA_SKYLIGHT		   34205	//Skylight Staff	
+#define II_WEA_STA_TERRORCORE	   34206	//Terrorcore Staff	
+#define II_WEA_STA_WINTER		   34207	//Winter Staff	
+#define II_WEA_STA_ZOMBIE		   34208	//Zombie Staff	
+#define II_WEA_STA_POISON		   34209	//Poison Staff	
+
+//Wand Models - Kiyo
+#define II_WEA_WAN_DEMONSION	   34210	//Demonsion Wand	
+#define II_WEA_WAN_FROSTY		   34211	//Frosty Wand	
+#define II_WEA_WAN_KINGS	       34212	//King's Wand	
+#define II_WEA_WAN_MIRRORSTONE	   34213	//Mirror Stone Wand	
+#define II_WEA_WAN_ZOMBIE01	       34214	//Zombie Wand	
+#define II_WEA_WAN_TRICKSTER	   34215	//Trickster Wand	
+
+//Bow Models - Kiyo
+#define II_WEA_BOW_CELESTIAL	   34216	//Celestial Bow	
+#define II_WEA_BOW_DEMONSION	   34217	//Demonsion Bow	
+#define II_WEA_BOW_FOREST	       34218	//Forest Bow
+#define II_WEA_BOW_FROSTY	       34219	//Frosty Bow	
+
+//Stick Models - Kiyo  
+#define II_WEA_CHE_CELESTIAL	   34220	//Celestial Stick	
+#define II_WEA_CHE_SANTASHEEP	   34221	//Santa Sheep Stick	
+#define II_WEA_CHE_WHITECAT	       34222	//White Cat Stick
+#define II_WEA_CHE_WONDER	       34223	//Wonder Stick
+
+//Shop Design - Kiyo
+#define II_SHOPDESIGN01				34224	// Shop Design: Black Skull
+#define II_SHOPDESIGN02				34225	// Shop Design: Explosive
+#define II_SHOPDESIGN03				34226	// Shop Design: Clean
+#define II_SHOPDESIGN04				34227	// Shop Design: Dollar
+#define II_SHOPDESIGN05				34228	// Shop Design: Kitty 1
+#define II_SHOPDESIGN06				34229	// Shop Design: Kitty 2
+#define II_SHOPDESIGN07				34230	// Shop Design: Kitty 3
+#define II_SHOPDESIGN08				34231	// Shop Design: Potion
+#define II_SHOPDESIGN09				34232	// Shop Design: Pumpkin
+#define II_SHOPDESIGN10				34233	// Shop Design: Purply Kitty
+#define II_SHOPDESIGN11				34234	// Shop Design: Radioactive
+#define II_SHOPDESIGN12				34235	// Shop Design: Ruby
+
+//Unique Looter Pets Part 2 - Kiyo
+#define II_PET_BEARZKY		        34236    //Bearzky Pet
+#define II_PET_BUTCH		        34237    //Butch Pet
+#define II_PET_CONSTRUCTR		    34238    //Construct Radiant Pet
+#define II_PET_DOOMING		        34239    //Dooming Pet
+#define II_PET_EASTERBUNNY01		34240    //Easter Bunny Pet
+#define II_PET_EVIL		            34241    //Evil Thunder Pet
+#define II_PET_FACELESS		        34242    //Faceless Rex Pet
+#define II_PET_GAMBLEGIRL		    34243    //Gambling Girl Pet
+#define II_PET_HELLDOG		        34244    //Hell Dog Pet
+#define II_PET_LORDFEY		        34245    //Lord Fey Pet
+#define II_PET_SOI		            34246    //Soi Pet
+#define II_PET_SUSHISHRIMP		    34247    //Sushi Shrimp Pet
+#define II_PET_VAALDIRE		        34248    //Vaaldire Construct Pet
+#define II_PET_WINTERWYFIRE		    34249    //Fire Winter Wyvern Pet
+#define II_PET_WINTERWYGOLD		    34250    //Gold Winter Wyvern Pet
+#define II_PET_WINDWYCYAN		    34251    //Cyan Winter Wyvern Pet
+#define II_PET_LOOTER01		        34252    //Madrigal Princess Pet
+#define II_PET_LOOTER02		        34253    //Love Duck Pet
+#define II_PET_LOOTER03		        34254    //Diabolic Soul Pet
+#define II_PET_LOOTER04		        34255    //Ro-Bearto Pet 
+#define II_PET_LOOTER05		        34256    //Rainbow Fox Pet
+#define II_PET_LOOTER06		        34257    //Lord of The Edge Pet
+#define II_PET_LOOTER07		        34258    //Cyclopion Pet
+#define II_PET_LOOTER08		        34259    //Blaziecorn Pet
+#define II_PET_LOOTER09		        34260    //Wolf Beast Pet
+#define II_PET_FOOTBALLFORRE		34261    //Foodball Forretress Pet
+#define II_PET_FOOTBALLGALLADE		34262    //Foodball Gallade Pet
+#define II_PET_FOOTBALLLUCARIO		34263    //Foodball Lucario Pet
+#define II_PET_HARIYAMA		        34264    //Foodball Hariyama Pet
+#define II_PET_EASTERBUNNY02		34265    //Yellow Easter Bunny Pet 
+#define II_PET_EASTERBUNNY03		34266    //Blue Easter Bunny Pet
+#define II_PET_MOONGIRL		        34267    //Moon Girl Pet 
+#define II_PET_FLIX		            34268    //Flix Pet
+#define II_PET_EASTERBUNNY04		34269    //Orange Easter Bunny Pet
+
+//Unique Cloaks Part 2 - Kiyo
+#define	II_ARM_S_CLO_CLO_REDTAILFOX         34270      //Red Fox Tail Cloak
+#define	II_ARM_S_CLO_CLO_ILLIDANBLUE        34271      //Illidan Blue Cloak
+#define	II_ARM_S_CLO_CLO_ILLIDAN            34272      //Illidan Cloak
+#define	II_ARM_S_CLO_CLO_ILLIDANRED         34273      //Red Illidan Cloak
+#define	II_ARM_S_CLO_CLO_ONYXIAGREEN        34274      //Onyxia Green Cloak
+#define	II_ARM_S_CLO_CLO_PURPLESUNWELL      34275      //Purple Sunwell Cloak
+#define	II_ARM_S_CLO_CLO_REDSCARF           34276      //Red Scarf Cloak
+#define	II_ARM_S_CLO_CLO_CASTER             34277      //Caster Cloak
+#define	II_ARM_S_CLO_CLO_CATACLYSM          34278      //Cataclysm Cloak
+#define	II_ARM_S_CLO_CLO_CATACLYSMTANK      34279      //Cataclysm Tank Cloak
+#define	II_ARM_S_CLO_CLO_CRUSADE            34280      //Crusade Cloak
+
+//Asuna Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ASUNA01HAT       34281  //Asuna Hat (F)
+#define II_ARM_F_CHR_ASUNA01SUIT      34282  //Asuna Suit (F)
+#define II_ARM_F_CHR_ASUNA01SHOES     34283  //Asuna Shoes (F)
+#define II_SYS_SYS_SCR_BXFASUNA01     34284  //Asuna Set Cs Box (F)
+
+//Beer Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BEER01HAT        34285  //Beer Hat (F)
+#define II_ARM_F_CHR_BEER01SUIT       34286  //Beer Suit (F)
+#define II_ARM_F_CHR_BEER01SHOES      34287  //Beer Shoes (F)
+#define II_SYS_SYS_SCR_BXFBEER01      34288  //Beer Cs Box (F)
+
+//Candy Sheep Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CANDYSHEEPGIRL01HAT       34289  //Candy Sheep Hat (F)
+#define II_ARM_F_CHR_CANDYSHEEPGIRL01SUIT      34290  //Candy Sheep Suit (F)
+#define II_ARM_F_CHR_CANDYSHEEPGIRL01SHOES     34291  //Candy Sheep Shoes (F)
+#define II_SYS_SYS_SCR_BXFCANDYSHEEPGIRL01     34292  //Candy Sheep Cs Box (F)
+
+//Yohshino Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_YOSHINO01HAT       34293  //Yoshino Hat (F)
+#define II_ARM_F_CHR_YOSHINO01SUIT      34294  //Yoshino Suit (F)
+#define II_ARM_F_CHR_YOSHINO01SHOES     34295  //Yoshino Shoes (F)
+#define II_SYS_SYS_SCR_BXFYOSHINO01     34296  //Yoshino Cs Box (F)
+
+//Honey Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HONEY01HAT         34297  //Honey Set Hat (F)
+#define II_ARM_F_CHR_HONEY01SUIT        34298  //Honey Set Suit (F)
+#define II_ARM_F_CHR_HONEY01SHOES       34299  //Honey Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFHONEY01       34300  //Honey Set Cs Box (F)
+
+//Crystal Dust Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_CRYSTALDUST01HAT       34301  //Crystal Dust Hat (M)
+#define II_ARM_M_CHR_CRYSTALDUST01SUIT      34302  //Crystal Dust Suit (M)
+#define II_ARM_M_CHR_CRYSTALDUST01SHOES     34303  //Crystal Dust Shoes (M)
+#define II_SYS_SYS_SCR_BXMCRYSTALDUST01     34304  //Crystal Dust Cs Box (M)
+
+//Eva Ikari Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_EVAIKARI01HAT       34305  //Eva Ikari Hat (M)
+#define II_ARM_M_CHR_EVAIKARI01SUIT      34306  //Eva Ikari Suit (M)
+#define II_ARM_M_CHR_EVAIKARI01SHOES     34307  //Eva Ikari Shoes (M)
+#define II_SYS_SYS_SCR_BXMEVAIKARI01     34308  //Eva Ikari Cs Box (M)
+
+//Eva Rei Cs Set (F) - Kiyo  
+#define II_ARM_F_CHR_EVAREI01HAT         34309  //Eva Rei Hat (F)
+#define II_ARM_F_CHR_EVAREI01SUIT        34310  //Eva Rei Suit (F
+#define II_ARM_F_CHR_EVAREI01SHOES       34311  //Eva Rei Shoes (F)
+#define II_SYS_SYS_SCR_BXFEVAREI01       34312  //Eva Rei Cs Box (F)
+
+//Kirito Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_KIRITO01HAT         34313  //Kirito Hat (M)
+#define II_ARM_M_CHR_KIRITO01SUIT        34314  //Kirito Suit (M)
+#define II_ARM_M_CHR_KIRITO01SHOES       34315  //Kirito Shoes (M)
+#define II_SYS_SYS_SCR_BXMKIRITO01       34316  //Kirito Cs Box (M)
+
+//Luigi Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_LUIGIHAT            34317  //Luigi Hat (M)
+#define II_ARM_M_CHR_LUIGISUIT           34318  //Luigi Suit (M)
+#define II_ARM_M_CHR_LUIGISHOES          34319  //Luigi Shoes (M)
+#define II_SYS_SYS_SCR_BXMLUIGI          34320  //Luigi Cs Box (M)
+
+//GLaDOSS Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GLADOSS01HAT        34321  //GLaDOSS Hat (F)
+#define II_ARM_F_CHR_GLADOSS01SUIT       34322  //GLaDOSS Suit (F)
+#define II_ARM_F_CHR_GLADOSS01GLOVES     34323  //GLaDOSS Gloves (F)
+#define II_ARM_F_CHR_GLADOSS01SHOES      34324  //GLaDOSS Shoes (F)
+#define II_SYS_SYS_SCR_BXFGLADOSS01      34325  //GLaDOSS Cs Box (F)
+
+//Aqua Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AQUA01HAT           34326  //Aqua Hat (F)
+#define II_ARM_F_CHR_AQUA01SUIT          34327  //Aqua Suit (F)
+#define II_ARM_F_CHR_AQUA01GLOVES        34328  //Aqua Gloves (F)
+#define II_ARM_F_CHR_AQUA01SHOES         34329  //Aqua Shoes (F)
+#define II_SYS_SYS_SCR_BXFAQUA01         34330  //Aqua Cs Box (F)
+
+//Crochet Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CROCHET01HAT        34331  //Crochet Hat (F)
+#define II_ARM_F_CHR_CROCHET01SUIT       34332  //Crochet Suit (F)
+#define II_ARM_F_CHR_CROCHET01GLOVES     34333  //Crochet Gloves (F)
+#define II_ARM_F_CHR_CROCHET01SHOES      34334  //Crochet Shoes (F)
+#define II_SYS_SYS_SCR_BXFCROCHET01      34335  //Crochet Cs Box (F)
+
+//Crystal Cove Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CRYSTALCOVE01HAT       34336  //Crystal Cove Hat (F)
+#define II_ARM_F_CHR_CRYSTALCOVE01SUIT      34337  //Crystal Cove Suit (F)
+#define II_ARM_F_CHR_CRYSTALCOVE01GLOVES    34338  //Crystal Cove Gloves (F)
+#define II_ARM_F_CHR_CRYSTALCOVE01SHOES     34339  //Crystal Cove Shoes (F)
+#define II_SYS_SYS_SCR_BXFCRYSTALCOVE01     34340  //Crystal Cove Cs Box (F)
+
+//Erza Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ERZA01HAT           34341  //Erza Hat (F)
+#define II_ARM_F_CHR_ERZA01SUIT          34342  //Erza Suit (F)
+#define II_ARM_F_CHR_ERZA01GLOVES        34343  //Erza Gloves (F)
+#define II_ARM_F_CHR_ERZA01SHOES         34344  //Erza Shoes (F)
+#define II_SYS_SYS_SCR_BXFERZA01         34345  //Erza Cs Box (F)
+
+//Flower Dress Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_FLOWERDRESS01HAT           34346  //Flower Dress Hat (F)
+#define II_ARM_F_CHR_FLOWERDRESS01SUIT          34347  //Flower Dress Suit (F)
+#define II_ARM_F_CHR_FLOWERDRESS01GLOVES        34348  //Flower Dress Gloves (F)
+#define II_ARM_F_CHR_FLOWERDRESS01SHOES         34349  //Flower Dress Shoes (F)
+#define II_SYS_SYS_SCR_BXFFLOWERDRESS01         34350  //Flower Dress Cs Box (F)
+
+//Minato Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_MINATO01HAT         34351  //Minato Hat (M)
+#define II_ARM_M_CHR_MINATO01SUIT        34352  //Minato Suit (M)
+#define II_ARM_M_CHR_MINATO01GLOVES      34353  //Minato Gloves (M)
+#define II_ARM_M_CHR_MINATO01SHOES       34354  //Minato Shoes (M)
+#define II_SYS_SYS_SCR_BXMMINATO01       34355  //Minato Cs Box (M)
+
+//Naruto Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_NARUTO01HAT         34356  //Naruto Hat (M)
+#define II_ARM_M_CHR_NARUTO01SUIT        34357  //Naruto Suit (M)
+#define II_ARM_M_CHR_NARUTO01GLOVES      34358  //Naruto Gloves (M)
+#define II_ARM_M_CHR_NARUTO01SHOES       34359  //Naruto Shoes (M)
+#define II_SYS_SYS_SCR_BXMNARUTO01       34360  //Naruto Cs Box (M)
+
+//Navy Wind Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_NAVYWIND01HAT       34361  //Navy Wind Hat (M)
+#define II_ARM_M_CHR_NAVYWIND01SUIT      34362  //Navy Wind Suit (M)
+#define II_ARM_M_CHR_NAVYWIND01GLOVES    34363  //Navy Wind Gloves (M)
+#define II_ARM_M_CHR_NAVYWIND01SHOES     34364  //Navy Wind Shoes (M)
+#define II_SYS_SYS_SCR_BXMNAVYWIND01     34365  //Navy Wind Cs Box (M)
+
+//Yoh Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_YOH01HAT            34366  //Yoh Hat (M)
+#define II_ARM_M_CHR_YOH01SUIT           34367  //Yoh Suit (M)
+#define II_ARM_M_CHR_YOH01GLOVES         34368  //Yoh Gloves (M)
+#define II_ARM_M_CHR_YOH01SHOES          34369  //Yoh Shoes (M)
+#define II_SYS_SYS_SCR_BXMYOH01          34370  //Yoh Cs Box (M)
+
+//Blue Hipster Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_BLUEHIPSTER01HAT       34371  //Blue Hipster Hat (M)
+#define II_ARM_M_CHR_BLUEHIPSTER01SUIT      34372  //Blue Hipster Suit (M)
+#define II_ARM_M_CHR_BLUEHIPSTER01GLOVES    34373  //Blue Hipster Gloves (M)
+#define II_ARM_M_CHR_BLUEHIPSTER01SHOES     34374  //Blue Hipster Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLUEHIPSTER01     34375  //Blue Hipster Cs Box (M)
+
+//Shop Design 2 - Kiyo
+#define II_SHOPDESIGN13 	34376	// Shop Design: Shopping Cart
+#define II_SHOPDESIGN14 	34377	// Shop Design: Derp Face
+#define II_SHOPDESIGN15 	34378	// Shop Design: Lol Face
+#define II_SHOPDESIGN16 	34379	// Shop Design: Chest
+#define II_SHOPDESIGN17 	34380	// Shop Design: Shield
+#define II_SHOPDESIGN18 	34381	// Shop Design: Kappa
+#define II_SHOPDESIGN19 	34382	// Shop Design: Link
+#define II_SHOPDESIGN20 	34383	// Shop Design: Meme Link
+#define II_SHOPDESIGN21 	34384	// Shop Design: Cartman
+#define II_SHOPDESIGN22 	34385	// Shop Design: Patrick
+#define II_SHOPDESIGN23 	34386	// Shop Design: PlsBuy
+#define II_SHOPDESIGN24 	34387	// Shop Design: PogChamp
+#define II_SHOPDESIGN25 	34388	// Shop Design: Roshi
+#define II_SHOPDESIGN26 	34389	// Shop Design: Youtube
+
+//Inuyasha Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_INUYASHA01HAT          34390  //Inuyasha Hat (M)
+#define II_ARM_M_CHR_INUYASHA01SUIT         34391  //Inuyasha Suit (M)
+#define II_ARM_M_CHR_INUYASHA01GLOVES       34392  //Inuyasha Gloves (M)
+#define II_ARM_M_CHR_INUYASHA01SHOES        34393  //Inuyasha Shoes (M)
+#define II_SYS_SYS_SCR_BXMINUYASHA01        34394  //Inuyasha Cs Box (M)
+
+//Kagome Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KAGOME01HAT            34395  //Kagome Hat (F)
+#define II_ARM_F_CHR_KAGOME01SUIT           34396  //Kagome Suit (F)
+#define II_ARM_F_CHR_KAGOME01GLOVES         34397  //Kagome Gloves (F)
+#define II_ARM_F_CHR_KAGOME01SHOES          34398  //Kagome Shoes (F)
+#define II_SYS_SYS_SCR_BXFKAGOME01          34399  //Kagome Cs Box (F)
+
+//Mickey Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MICKEY01HAT            34400  //Mickey Hat (F)
+#define II_ARM_F_CHR_MICKEY01SUIT           34401  //Mickey Suit (F)
+#define II_ARM_F_CHR_MICKEY01GLOVES         34402  //Mickey Gloves (F)
+#define II_ARM_F_CHR_MICKEY01SHOES          34403  //Mickey Shoes (F)
+#define II_SYS_SYS_SCR_BXFMICKEY01          34404  //Mickey Cs Box (F)
+
+//Niel Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_NIEL01HAT              34405  //Niel Hat (F)
+#define II_ARM_F_CHR_NIEL01SUIT             34406  //Niel Suit (F)
+#define II_ARM_F_CHR_NIEL01GLOVES           34407  //Niel Gloves (F)
+#define II_ARM_F_CHR_NIEL01SHOES            34408  //Niel Shoes (F)
+#define II_SYS_SYS_SCR_BXFNIEL01            34409  //Niel Cs Box (F)
+
+//Passion Dress Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PASSDRESS01HAT         34410  //Passion Dress Hat (F)
+#define II_ARM_F_CHR_PASSDRESS01SUIT        34411  //Passion Dress Suit (F)
+#define II_ARM_F_CHR_PASSDRESS01GLOVES      34412  //Passion Dress Gloves (F)
+#define II_ARM_F_CHR_PASSDRESS01SHOES       34413  //Passion Dress Shoes (F)
+#define II_SYS_SYS_SCR_BXFPASSDRESS01       34414  //Passion Dress Cs Box (F)
+
+//Lady Gaga Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_LADYGAGA01HAT          34415  //Lady Gaga Hat (F)
+#define II_ARM_F_CHR_LADYGAGA01SUIT         34416  //Lady Gaga Suit (F)
+#define II_ARM_F_CHR_LADYGAGA01GLOVES       34417  //Lady Gaga Gloves (F)
+#define II_ARM_F_CHR_LADYGAGA01SHOES        34418  //Lady Gaga Shoes (F)
+#define II_SYS_SYS_SCR_BXFLADYGAGA01        34419  //Lady Gaga Cs Box (F)
+
+//Mark Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_MARK01HAT              34420  //Mark Hat (M)
+#define II_ARM_M_CHR_MARK01SUIT             34421  //Mark Suit (M)
+#define II_ARM_M_CHR_MARK01GLOVES           34422  //Mark Gloves (M)
+#define II_ARM_M_CHR_MARK01SHOES            34423  //Mark Shoes (M)
+#define II_SYS_SYS_SCR_BXMMARK01            34424  //Mark Cs Box (M)
+
+//Jin Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_JIN01HAT               34425  //Jin Hat (M)
+#define II_ARM_M_CHR_JIN01SUIT              34426  //Jin Suit (M)
+#define II_ARM_M_CHR_JIN01GLOVES            34427  //Jin Gloves (M)
+#define II_ARM_M_CHR_JIN01SHOES             34428  //Jin Shoes (M)
+#define II_SYS_SYS_SCR_BXMJIN01             34429  //Jin Cs Box (M)
+
+//Natsu Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_NATSU01HAT             34430  //Natsu Hat (M)
+#define II_ARM_M_CHR_NATSU01SUIT            34431  //Natsu Suit (M)
+#define II_ARM_M_CHR_NATSU01GLOVES          34432  //Natsu Gloves (M)
+#define II_ARM_M_CHR_NATSU01SHOES           34433  //Natsu Shoes (M)
+#define II_SYS_SYS_SCR_BXMNATSU01           34434  //Natsu Cs Box (M)
+
+//Obito Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_OBITO01HAT             34435  //Obito Hat (M)
+#define II_ARM_M_CHR_OBITO01SUIT            34436  //Obito Suit (M)
+#define II_ARM_M_CHR_OBITO01GLOVES          34437  //Obito Gloves (M)
+#define II_ARM_M_CHR_OBITO01SHOES           34438  //Obito Shoes (M)
+#define II_SYS_SYS_SCR_BXMOBITO01           34439  //Obito Cs Box (M)
+
+//Hao Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HAO01HAT               34440  //Hao Hat (M)
+#define II_ARM_M_CHR_HAO01SUIT              34441  //Hao Suit (M)
+#define II_ARM_M_CHR_HAO01GLOVES            34442  //Hao Gloves (M)
+#define II_ARM_M_CHR_HAO01SHOES             34443  //Hao Shoes (M)
+#define II_SYS_SYS_SCR_BXMHAO01             34444  //Hao Cs Box (M)
+
+//Jackson Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_JACKSON01HAT           34445  //Jackson Hat (F)
+#define II_ARM_F_CHR_JACKSON01SUIT          34446  //Jackson Suit (F)
+#define II_ARM_F_CHR_JACKSON01GLOVES        34447  //Jackson Gloves (F)
+#define II_ARM_F_CHR_JACKSON01SHOES         34448  //Jackson Shoes (F)
+#define II_SYS_SYS_SCR_BXFJACKSON01         34449  //Jackson Cs Box (F)
+
+//Lulu Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_LULU01HAT              34450  //Lulu Hat (F)
+#define II_ARM_F_CHR_LULU01SUIT             34451  //Lulu Suit (F)
+#define II_ARM_F_CHR_LULU01SHOES            34452  //Lulu Shoes (F)
+#define II_SYS_SYS_SCR_BXFLULU01            34453  //Lulu Cs Box (F)
+
+//Yoko Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_YOKO01HAT              34454  //Yoko Hat (F)
+#define II_ARM_F_CHR_YOKO01SUIT             34455  //Yoko Suit (F)
+#define II_ARM_F_CHR_YOKO01GLOVES           34456  //Yoko Gloves (F)
+#define II_ARM_F_CHR_YOKO01SHOES            34457  //Yoko Shoes (F)
+#define II_SYS_SYS_SCR_BXFYOKO01            34458  //Yoko Cs Box (F)
+
+//Medal Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MEDAL01HAT             34459  //Medal Hat (F)
+#define II_ARM_F_CHR_MEDAL01SUIT            34461  //Medal Suit (F)
+#define II_ARM_F_CHR_MEDAL01SHOES           34462  //Medal Shoes (F)
+#define II_SYS_SYS_SCR_BXFMEDAL01           34463  //Medal Cs Box (F)
+
+//Purple Magic Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PURPLEMAGIC01HAT       34464  //Purple Magic Hat (F)
+#define II_ARM_F_CHR_PURPLEMAGIC01SUIT      34465  //Purple Magic Suit (F)
+#define II_ARM_F_CHR_PURPLEMAGIC01GLOVES    34466  //Purple Magic Gloves (F)
+#define II_ARM_F_CHR_PURPLEMAGIC01SHOES     34467  //Purple Magic Shoes (F)
+#define II_SYS_SYS_SCR_BXFPURPLEMAGIC01     34468  //Purple Magic Cs Box (F)
+
+//Sasuke Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_SASUKE01HAT            34469  //Sasuke Hat (M)
+#define II_ARM_M_CHR_SASUKE01SUIT           34470  //Sasuke Suit (M)
+#define II_ARM_M_CHR_SASUKE01GLOVES         34471  //Sasuke Gloves (M)
+#define II_ARM_M_CHR_SASUKE01SHOES          34472  //Sasuke Shoes (M)
+#define II_SYS_SYS_SCR_BXMSASUKE01          34473  //Sasuke Cs Box (M)
+
+//Hippie Punk Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HIPPIEPUNK01HAT        34474  //Hippie Punk Hat (M)
+#define II_ARM_M_CHR_HIPPIEPUNK01SUIT       34475  //Hippie Punk Suit (M)
+#define II_ARM_M_CHR_HIPPIEPUNK01GLOVES     34476  //Hippie Punk Gloves (M)
+#define II_ARM_M_CHR_HIPPIEPUNK01SHOES      34477  //Hippie Punk Shoes (M)
+#define II_SYS_SYS_SCR_BXMHIPPIEPUNK01      34478  //Hippie Punk Cs Box (M
+
+//Winter Punk Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_WINTERPUNK01HAT        34479  //Winter Punk Hat (M)
+#define II_ARM_M_CHR_WINTERPUNK01SUIT       34480  //Winter Punk Suit (M)
+#define II_ARM_M_CHR_WINTERPUNK01GLOVES     34481  //Winter Punk Gloves (M)
+#define II_ARM_M_CHR_WINTERPUNK01SHOES      34482  //Winter Punk Shoes (M)
+#define II_SYS_SYS_SCR_BXMWINTERPUNK01      34483  //Winter Punk Cs Box (M)
+
+//Jackson Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_JACKSON01HAT           34484  //Jackson Hat (M)
+#define II_ARM_M_CHR_JACKSON01SUIT          34485  //Jackson Suit (M)
+#define II_ARM_M_CHR_JACKSON01GLOVES        34486  //Jackson Gloves (M)
+#define II_ARM_M_CHR_JACKSON01SHOES         34487  //Jackson Shoes (M)
+#define II_SYS_SYS_SCR_BXMJACKSON01         34488  //Jackson Cs Box (M)
+
+//Fad Finder Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_FADFINDER01HAT         34489  //Fad Finder Hat (M)
+#define II_ARM_M_CHR_FADFINDER01SUIT        34490  //Fad Finder Suit (M)
+#define II_ARM_M_CHR_FADFINDER01GLOVES      34491  //Fad Finder Gloves (M)
+#define II_ARM_M_CHR_FADFINDER01SHOES       34492  //Fad Finder Shoes (M)
+#define II_SYS_SYS_SCR_BXMFADFINDER01       34493  //Fad Finder Cs Box (M)
+
+//Siwangsenlin Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SIWANGSENLIN01HAT      34495  //Siwangsenlin Hat (F)
+#define II_ARM_F_CHR_SIWANGSENLIN01SUIT     34496  //Siwangsenlin Suit (F)
+#define II_ARM_F_CHR_SIWANGSENLIN01GLOVES   34497  //Siwangsenlin Gloves (F)
+#define II_ARM_F_CHR_SIWANGSENLIN01SHOES    34498  //Siwangsenlin Shoes (F)
+#define II_SYS_SYS_SCR_BXFSIWANGSENLIN01    34499  //Siwangsenlin Cs Box (F)
+
+//Wenqingdongri Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WENQINGDON01HAT        34500  //Wenqingdongri Hat (F)
+#define II_ARM_F_CHR_WENQINGDON01SUIT       34501  //Wenqingdongri Suit (F)
+#define II_ARM_F_CHR_WENQINGDON01GLOVES     34502  //Wenqingdongri Gloves (F)
+#define II_ARM_F_CHR_WENQINGDON01SHOES      34503  //Wenqingdongri Shoes (F)
+#define II_SYS_SYS_SCR_BXFWENQINGDON01      34504  //Wenqingdongri Cs Box (F)
+
+//Suzaku Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SUZAKU01HAT            34505  //Suzaku Hat (F)
+#define II_ARM_F_CHR_SUZAKU01SUIT           34506  //Suzaku Suit (F)
+#define II_ARM_F_CHR_SUZAKU01SHOES          34507  //Suzaku Shoes (F)
+#define II_SYS_SYS_SCR_BXFSUZAKU01          34508  //Suzaku Cs Box (F)
+
+//Tiara Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TIARA01HAT             34509  //Tiara Hat (F)
+#define II_ARM_F_CHR_TIARA01SUIT            34510  //Tiara Suit (F)
+#define II_ARM_F_CHR_TIARA01SHOES           34511  //Tiara Shoes (F)
+#define II_SYS_SYS_SCR_BXFTIARA01           34512  //Tiara Cs Box (F)
+
+//Teto Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TETO01HAT              34513  //Teto Hat (F)
+#define II_ARM_F_CHR_TETO01SUIT             34514  //Teto Suit (F)
+#define II_ARM_F_CHR_TETO01SHOES            34515  //Teto Shoes (F)
+#define II_SYS_SYS_SCR_BXFTETO01            34516  //Teto Cs Box (F)
+
+//Hunsha Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_HUNSHA01HAT            34517  //Hunsha Hat (M)
+#define II_ARM_M_CHR_HUNSHA01SUIT           34518  //Hunsha Suit (M)
+#define II_ARM_M_CHR_HUNSHA01SHOES          34519  //Hunsha Shoes (M)
+#define II_SYS_SYS_SCR_BXMHUNSHA01          34520  //Hunsha Cs Box (M)
+
+//Lyjhuang Jiake Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_LYJHUANGJ01HAT         34521  //Lyjhuang Jiake Hat (M)
+#define II_ARM_M_CHR_LYJHUANGJ01SUIT        34522  //Lyjhuang Jiake Suit (M)
+#define II_ARM_M_CHR_LYJHUANGJ01SHOES       34523  //Lyjhuang Jiake Shoes (M)
+#define II_SYS_SYS_SCR_BXMLYJHUANGJ01       34524  //Lyjhuang Jiake Cs Box (M)
+
+//Xiaocao Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_XIAOCAO01HAT           34525  //Xiaocao Hat (M)
+#define II_ARM_M_CHR_XIAOCAO01SUIT          34526  //Xiaocao Suit (M)
+#define II_ARM_M_CHR_XIAOCAO01SHOES         34527  //Xiaocao Shoes (M)
+#define II_SYS_SYS_SCR_BXMXIAOCAO01         34528  //Xiaocao Cs Box (M)
+
+//Wenqingdongri Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_WENQINGDON01HAT        34529  //Wenqingdongri Hat (M)
+#define II_ARM_M_CHR_WENQINGDON01SUIT       34530  //Wenqingdongri Suit (M)
+#define II_ARM_M_CHR_WENQINGDON01SHOES      34531  //Wenqingdongri Shoes (M)
+#define II_SYS_SYS_SCR_BXMWENQINGDON01      34532  //Wenqingdongri Cs Box (M)
+
+//Araragi Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ARARAGI01HAT           34533  //Araragi Hat (M)
+#define II_ARM_M_CHR_ARARAGI01SUIT          34534  //Araragi Suit (M)
+#define II_ARM_M_CHR_ARARAGI01SHOES         34535  //Araragi Shoes (M)
+#define II_SYS_SYS_SCR_BXMARARAGI01         34536  //Araragi Cs Box (M)
+
+//Leishi Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_LEISHI01HAT            34537  //Leishi Hat (F)
+#define II_ARM_F_CHR_LEISHI01SUIT           34538  //Leishi Suit (F)
+#define II_ARM_F_CHR_LEISHI01SHOES          34539  //Leishi Shoes (F)
+#define II_SYS_SYS_SCR_BXFLEISHI01          34540  //Leishi Cs Box (F)
+
+//Pinkista Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PINKISTA01SUIT         34541  //Pinkista Suit (F)
+#define II_ARM_F_CHR_PINKISTA01GLOVES       34542  //Pinkista Gloves (F)
+#define II_ARM_F_CHR_PINKISTA01SHOES        34543  //Pinkista Shoes (F)
+#define II_SYS_SYS_SCR_BXFPINKISTA01        34544  //Pinkista Cs Box (F)
+
+//Potter Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_POTTER01HAT            34545  //Potter Hat (F)
+#define II_ARM_F_CHR_POTTER01SUIT           34546  //Potter Suit (F)
+#define II_ARM_F_CHR_POTTER01SHOES          34547  //Potter Shoes (F)
+#define II_SYS_SYS_SCR_BXFPOTTER01          34548  //Potter Cs Box (F)
+
+//Red Swimskirt Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_REDSWIMS01HAT          34549  //Red Swimskirt Hat (F)
+#define II_ARM_F_CHR_REDSWIMS01SUIT         34550  //Red Swimskirt Suit (F)
+#define II_ARM_F_CHR_REDSWIMS01SHOES        34551  //Red Swimskirt Shoes (F)
+#define II_SYS_SYS_SCR_BXFREDSWIMS01        34552  //Red Swimskirt Cs Box (F)
+
+//Oran Wai Coat Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_ORANWAICOAT01HAT       34553  //Oran Wai Coat Hat (M)
+#define II_ARM_M_CHR_ORANWAICOAT01SUIT      34554  //Oran Wai Coat Suit (M)
+#define II_ARM_M_CHR_ORANWAICOAT01SHOES     34555  //Oran Wai Coat Shoes (M)
+#define II_SYS_SYS_SCR_BXMORANWAICOAT01     34556  //Oran Wai Coat Cs Box (M)
+
+//Tidus Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_TIDUS01HAT             34557  //Tidus Hat (M)
+#define II_ARM_M_CHR_TIDUS01SUIT            34558  //Tidus Suit (M)
+#define II_SYS_SYS_SCR_BXMTIDUS01           34559  //Tidus Cs Box (M)
+
+//Zidian Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ZIDIAN01SUIT           34560  //Zidian Suit (F)
+#define II_ARM_F_CHR_ZIDIAN01GLOVES         34561  //Zidian Gloves (F)
+#define II_ARM_F_CHR_ZIDIAN01SHOES          34562  //Zidian Shoes (F)
+#define II_SYS_SYS_SCR_BXFZIDIAN01          34563  //Zidian Cs Box (F)
+
+//Mario Cs Set (M) - Kiyo  
+#define II_ARM_M_CHR_MARIO01HAT             34564  //Mario Hat (M)
+#define II_ARM_M_CHR_MARIO01SUIT            34565  //Mario Suit (M)
+#define II_ARM_M_CHR_MARIO01SHOES           34566  //Mario Shoes (M)
+#define II_SYS_SYS_SCR_BXMMARIO01           34567  //Mario Cs Box (M)
+
+//Ares Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_ARES1HAT               34568  //Ares Hat (M)
+#define II_ARM_M_CHR_ARES1SUIT              34569  //Ares Suit (M)
+#define II_ARM_M_CHR_ARES1SHOES             34570  //Ares Shoes (M)
+#define II_SYS_SYS_SCR_BXMARES01            34571  //Ares Cs Box (M)
+
+//Pururut Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PURURUT01HAT           34572  //Pururut Hat (F)
+#define II_ARM_F_CHR_PURURUT01SUIT          34573  //Pururut Suit (F)
+#define II_ARM_F_CHR_PURURUT01SHOES         34574  //Pururut Shoes (F)
+#define II_SYS_SYS_SCR_BXFPURURUT01         34575  //Pururut Cs Box (F)
+
+//Boa Hancock Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BOAHAN01HAT            34576  //Boa Hancock Hat (F)
+#define II_ARM_F_CHR_BOAHAN01SUIT           34577  //Boa Hancock Suit (F)
+#define II_ARM_F_CHR_BOAHAN01SHOES          34578  //Boa Hancock Shoes (F)
+#define II_SYS_SYS_SCR_BXFBOAHAN01          34579  //Boa Hancock Cs Box (F)
+
+//Loff Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_LOFF01HAT              34580  //Loff Hat (M)
+#define II_ARM_M_CHR_LOFF01SUIT             34581  //Loff Suit (M)
+#define II_ARM_M_CHR_LOFF01GLOVES           34582  //Loff Gloves (M)
+#define II_ARM_M_CHR_LOFF01SHOES            34583  //Loff Shoes (M)
+#define II_SYS_SYS_SCR_BXMLOFF01            34584  //Loff Cs Box (M)
+
+//Random Boxes
+#define II_SYS_SYS_SCR_BXSHLD				34585  //Random Shield Boxes 
+
+// Item Boxen - Kiyo
+#define II_SYS_SYS_ITMBOX_MOONSTONE			34586  //Item Box Moonstone 
+#define II_SYS_SYS_ITMBOX_ORICHALCUM01		34587  //Item Box Sunstone 
+#define II_SYS_SYS_ITMBOX_ORICHALCUM02		34588  //Item Box Orichalcum 
+#define II_SYS_SYS_ITMBOX_AWAKE				34589  //Item Box Scroll of Awake 
+#define II_SYS_SYS_ITMBOX_AWAKECANCEL		34590  //Item Box Scroll of Awake Cancel 
+
+//Shop Design 3 - Kiyo
+#define II_SHOPDESIGN27		34591	// Shop Design: Pepe Cool
+#define II_SHOPDESIGN28		34592	// Shop Design: Stars
+#define II_SHOPDESIGN29		34593	// Shop Design: Love
+#define II_SHOPDESIGN30		34594	// Shop Design: Chest 2
+#define II_SHOPDESIGN31		34595	// Shop Design: Mushroom
+#define II_SHOPDESIGN32		34596	// Shop Design: Chicken
+#define II_SHOPDESIGN33		34597	// Shop Design: Hammer
+#define II_SHOPDESIGN34		34598	// Shop Design: Timemachine
+#define II_SHOPDESIGN35		34599	// Shop Design: Dragon
+#define II_SHOPDESIGN36		34600	// Shop Design: Swap
+#define II_SHOPDESIGN37		34601	// Shop Design: Hearts
+#define II_SHOPDESIGN38		34602	// Shop Design: Chest 3
+#define II_SHOPDESIGN39		34603	// Shop Design: Party
+#define II_SHOPDESIGN40		34604	// Shop Design: Diamond
+#define II_SHOPDESIGN41		34605	// Shop Design: Kitty 4
+#define II_SHOPDESIGN42		34606	// Shop Design: Party 2
+#define II_SHOPDESIGN43		34607	// Shop Design: Pendant 1
+#define II_SHOPDESIGN44		34608	// Shop Design: Pendant 2
+#define II_SHOPDESIGN45		34609	// Shop Design: Kitty 5
+#define II_SHOPDESIGN46		34610	// Shop Design: Shopping Bag
+#define II_SHOPDESIGN47		34611	// Shop Design: Valentine
+#define II_SHOPDESIGN48		34612	// Shop Design: Kitty 6
+#define II_SHOPDESIGN49		34613	// Shop Design: Dices
+#define II_SHOPDESIGN50		34614	// Shop Design: Wilds
+#define II_SHOPDESIGN51		34615	// Shop Design: Holy Cross
+#define II_SHOPDESIGN52		34616	// Shop Design: Discord Boost
+
+//Sun Swimsuit 2020 Set (M) - Kiyo
+#define II_ARM_M_CHR_SWIMSUIT20201HAT             34617  //Sun Swimsuit 2020 Hat (M)
+#define II_ARM_M_CHR_SWIMSUIT20201SUIT            34618  //Sun Swimsuit 2020 Suit (M)
+#define II_ARM_M_CHR_SWIMSUIT20201SHOES           34619  //Sun Swimsuit 2020 Shoes (M)
+#define II_SYS_SYS_SCR_BXMSWIMSUIT20201           34620  //Sun Swimsuit 2020 Cs Box (M)
+
+//Sun Swimsuit 2020 Set (F) - Kiyo
+#define II_ARM_F_CHR_SWIMSUIT20201HAT             34621  //Sun Swimsuit 2020 Hat (F)
+#define II_ARM_F_CHR_SWIMSUIT20201SUIT            34622  //Sun Swimsuit 2020 Suit (F)
+#define II_ARM_F_CHR_SWIMSUIT20201SHOES           34623  //Sun Swimsuit 2020 Shoes (F)
+#define II_SYS_SYS_SCR_BXFSWIMSUIT20201           34624  //Sun Swimsuit 2020 Cs Box (F)
+
+//Black Armor Dragon Set (M) - Kiyo
+#define II_ARM_M_CHR_BLACKD01HAT                  34625  //Black Armor Dragon Hat (M)
+#define II_ARM_M_CHR_BLACKD01SUIT                 34626  //Black Armor Dragon Suit (M)
+#define II_ARM_M_CHR_BLACKD01SHOES                34627  //Black Armor Dragon Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLACKD01                34628  //Black Armor Dragon Cs Box (M)
+
+//Catas Set (M) - Kiyo
+#define II_ARM_M_CHR_CATAS01HAT                   34629  //Catas Hat (M)
+#define II_ARM_M_CHR_CATAS01SUIT                  34630  //Catas Suit (M)
+#define II_ARM_M_CHR_CATAS01GLOVES                34631  //Catas Gloves (M)
+#define II_ARM_M_CHR_CATAS01SHOES                 34632  //Catas Shoes (M)
+#define II_SYS_SYS_SCR_BXMCATAS01                 34633  //Catas Cs Box (M)
+
+//Deadpool Set (M) - Kiyo
+#define II_ARM_M_CHR_DEADPOOL01HAT                34634  //Deadpool Hat (M)
+#define II_ARM_M_CHR_DEADPOOL01SUIT               34635  //Deadpool Suit (M)
+#define II_ARM_M_CHR_DEADPOOL01GLOVES             34636  //Deadpool Gloves (M)
+#define II_ARM_M_CHR_DEADPOOL01SHOES              34637  //Deadpool Shoes (M)
+#define II_SYS_SYS_SCR_BXMDEADPOOL01              34638  //Deadpool Cs Box (M)
+
+//Demon's Set (M) - Kiyo
+#define II_ARM_M_CHR_DEMONS01HAT                  34639  //Demon's Hat (M)
+#define II_ARM_M_CHR_DEMONS01SUIT                 34640  //Demon's Suit (M)
+#define II_ARM_M_CHR_DEMONS01GLOVES               34641  //Demon's Gloves (M)
+#define II_ARM_M_CHR_DEMONS01SHOES                34642  //Demon's Shoes (M)
+#define II_SYS_SYS_SCR_BXMDEMONS01                34643  //Demon's Cs Box (M)
+
+//Emperor Set (M) - Kiyo
+#define II_ARM_M_CHR_EMPEROR01HAT                 34644  //Emperor Hat (M)
+#define II_ARM_M_CHR_EMPEROR01SUIT                34645  //Emperor Suit (M)
+#define II_ARM_M_CHR_EMPEROR01GLOVES              34646  //Emperor Gloves (M)
+#define II_ARM_M_CHR_EMPEROR01SHOES               34647  //Emperor Shoes (M)
+#define II_SYS_SYS_SCR_BXMEMPEROR01               34648  //Emperor Cs Box (M)
+
+//Empress Set (F) - Kiyo
+#define II_ARM_F_CHR_EMPEROR01HAT                 34649  //Empress Hat (F)
+#define II_ARM_F_CHR_EMPEROR01SUIT                34650  //Empress Suit (F)
+#define II_ARM_F_CHR_EMPEROR01SHOES               34651  //Empress Shoes (F)
+#define II_SYS_SYS_SCR_BXFEMPEROR01               34652  //Empress Cs Box (F)
+
+//Fury Ghost Set (M) - Kiyo
+#define II_ARM_M_CHR_FURYGHOST01HAT               34653  //Fury Ghost Hat (M)
+#define II_ARM_M_CHR_FURYGHOST01SUIT              34654  //Fury Ghost Suit (M)
+#define II_ARM_M_CHR_FURYGHOST01GLOVES            34655  //Fury Ghost Gloves (M)
+#define II_ARM_M_CHR_FURYGHOST01SHOES             34656  //Fury Ghost Shoes (M)
+#define II_SYS_SYS_SCR_BXMFURYGHOST01             34657  //Fury Ghost Cs Box (M)
+
+//Fury Ghost Set (F) - Kiyo
+#define II_ARM_F_CHR_FURYGHOST01HAT               34658  //Fury Ghost Hat (F)
+#define II_ARM_F_CHR_FURYGHOST01SUIT              34659  //Fury Ghost Suit (F)
+#define II_ARM_F_CHR_FURYGHOST01GLOVES            34660  //Fury Ghost Gloves (F)
+#define II_ARM_F_CHR_FURYGHOST01SHOES             34661  //Fury Ghost Shoes (F)
+#define II_SYS_SYS_SCR_BXFFURYGHOST01             34662  //Fury Ghost Cs Box (F)
+
+//Gray Fullbuster Set (M) - Kiyo
+#define II_ARM_M_CHR_GRAYFULLB01HAT               34663  //Gray Fullbuster Hat (M)
+#define II_ARM_M_CHR_GRAYFULLB01SUIT              34664  //Gray Fullbuster Suit (M)
+#define II_ARM_M_CHR_GRAYFULLB01GLOVES            34665  //Gray Fullbuster Gloves (M)
+#define II_ARM_M_CHR_GRAYFULLB01SHOES             34666  //Gray Fullbuster Shoes (M)
+#define II_SYS_SYS_SCR_BXMGRAYFULLB01             34667  //Gray Fullbuster Cs Box (M)
+
+//Kaneki Set (M) - Kiyo
+#define II_ARM_M_CHR_KANEKI01HAT                  34668  //Kaneki Hat (M)
+#define II_ARM_M_CHR_KANEKI01SUIT                 34669  //Kaneki Suit (M)
+#define II_ARM_M_CHR_KANEKI01GLOVES               34670  //Kaneki Gloves (M)
+#define II_ARM_M_CHR_KANEKI01SHOES                34671  //Kaneki Shoes (M)
+#define II_SYS_SYS_SCR_BXMKANEKI01                34672  //Kaneki Cs Box (M)
+
+//Kiana Set (F) - Kiyo
+#define II_ARM_F_CHR_KIANA01HAT                   34673  //Kiana Hat (F)
+#define II_ARM_F_CHR_KIANA01SUIT                  34674  //Kiana Suit (F)
+#define II_ARM_F_CHR_KIANA01SHOES                 34675  //Kiana Shoes (F)
+#define II_SYS_SYS_SCR_BXFKIANA01                 34676  //Kiana Cs Box (F)
+
+//Kotori Itsuka Set (F) - Kiyo
+#define II_ARM_F_CHR_KOTORIIT01HAT                34677  //Kotori Itsuka Hat (F)
+#define II_ARM_F_CHR_KOTORIIT01SUIT               34678  //Kotori Itsuka Suit (F)
+#define II_ARM_F_CHR_KOTORIIT01SHOES              34679  //Kotori Itsuka Shoes (F)
+#define II_SYS_SYS_SCR_BXFKOTORIIT01              34680  //Kotori Itsuka Cs Box (F)
+
+//Kotori Itsuka Spirit Set (F) - Kiyo
+#define II_ARM_F_CHR_KOTORIITS01HAT               34681  //Kotori Itsuka Spirit Hat (F)
+#define II_ARM_F_CHR_KOTORIITS01SUIT              34682  //Kotori Itsuka Spirit Suit (F)
+#define II_ARM_F_CHR_KOTORIITS01SHOES             34683  //Kotori Itsuka Spirit Shoes (F)
+#define II_SYS_SYS_SCR_BXFKOTORIITS01             34684  //Kotori Itsuka Spirit Cs Box (F)
+
+//Leefa Set (F) - Kiyo
+#define II_ARM_F_CHR_LEEFA01HAT                   34685  //Leefa Hat (F)
+#define II_ARM_F_CHR_LEEFA01SUIT                  34686  //Leefa Suit (F)
+#define II_ARM_F_CHR_LEEFA01SHOES                 34687  //Leefa Shoes (F)
+#define II_SYS_SYS_SCR_BXFLEEFA01                 34688  //Leefa Cs Box (F)
+
+//Mashmellow Set (M) - Kiyo
+#define II_ARM_M_CHR_MASHMELLOW1HAT               34689  //Mashmellow Hat (M)
+#define II_ARM_M_CHR_MASHMELLOW1SUIT              34690  //Mashmellow Suit (M)
+#define II_ARM_M_CHR_MASHMELLOW1GLOVES            34691  //Mashmellow Gloves (M)
+#define II_ARM_M_CHR_MASHMELLOW1SHOES             34692  //Mashmellow Shoes (M)
+#define II_SYS_SYS_SCR_BXMMASHMELLOW01            34693  //Mashmellow Cs Box (M)
+
+//Modern Miku Set (F) - Kiyo
+#define II_ARM_F_CHR_MODERNMIKU01HAT              34694  //Modern Miku Hat (F)
+#define II_ARM_F_CHR_MODERNMIKU01SUIT             34695  //Modern Miku Suit (F)
+#define II_ARM_F_CHR_MODERNMIKU01SHOES            34696  //Modern Miku Shoes (F)
+#define II_SYS_SYS_SCR_BXFMODERNMIKU01            34697  //Modern Miku Cs Box (F)
+
+//Nasty Chick Set (F) - Kiyo
+#define II_ARM_F_CHR_NASTYCHICK01HAT              34698  //Nasty Chick Hat (F)
+#define II_ARM_F_CHR_NASTYCHICK01SUIT             34699  //Nasty Chick Suit (F)
+#define II_ARM_F_CHR_NASTYCHICK01SHOES            34700  //Nasty Chick Shoes (F)
+#define II_SYS_SYS_SCR_BXFNASTYCHICK01            34701  //Nasty Chick Cs Box (F)
+
+//Tohka Yatogami Inverse Set (F) - Kiyo
+#define II_ARM_F_CHR_TOHKAYATO01HAT               34702  //Tohka Yatogami Inverse Hat (F)
+#define II_ARM_F_CHR_TOHKAYATO01SUIT              34703  //Tohka Yatogami Inverse Suit (F)
+#define II_ARM_F_CHR_TOHKAYATO01GLOVES            34704  //Tohka Yatogami Inverse Gloves (F)
+#define II_ARM_F_CHR_TOHKAYATO01SHOES             34705  //Tohka Yatogami Inverse Shoes (F)
+#define II_SYS_SYS_SCR_BXFTOHKAYATO01             34706  //Tohka Yatogami Inverse Cs Box (F)
+
+//Ocean Neko Set (F) - Kiyo
+#define II_ARM_F_CHR_OCEANNEKO01HAT               34707  //Ocean Neko Hat (F)
+#define II_ARM_F_CHR_OCEANNEKO01SUIT              34708  //Ocean Neko Suit (F)
+#define II_ARM_F_CHR_OCEANNEKO01SHOES             34709  //Ocean Neko Shoes (F)
+#define II_SYS_SYS_SCR_BXFOCEANNEKO01             34710  //Ocean Neko Cs Box (F)
+
+//Origami Tobiichi Set (F) - Kiyo
+#define II_ARM_F_CHR_ORIGTOBII01HAT               34711  //Origami Tobiichi Hat (F)
+#define II_ARM_F_CHR_ORIGTOBII01SUIT              34712  //Origami Tobiichi Suit (F)
+#define II_ARM_F_CHR_ORIGTOBII01GLOVES            34713  //Origami Tobiichi Gloves (F)
+#define II_ARM_F_CHR_ORIGTOBII01SHOES             34714  //Origami Tobiichi Shoes (F)
+#define II_SYS_SYS_SCR_BXFORIGTOBII01             34715  //Origami Tobiichi Cs Box (F)
+
+//Pikachu Set (M) - Kiyo
+#define II_ARM_M_CHR_PIKACHU01HAT                 34716  //Pikachu Hat (M)
+#define II_ARM_M_CHR_PIKACHU01SUIT                34717  //Pikachu Suit (M)
+#define II_ARM_M_CHR_PIKACHU01GLOVES              34718  //Pikachu Gloves (M)
+#define II_ARM_M_CHR_PIKACHU01SHOES               34719  //Pikachu Shoes (M)
+#define II_SYS_SYS_SCR_BXMPIKACHU01               34720  //Pikachu Cs Box (M)
+
+//Raven Quill Set (F) - Kiyo
+#define II_ARM_F_CHR_RAVENQ01HAT                  34721  //Raven Quill Hat (F)
+#define II_ARM_F_CHR_RAVENQ01SUIT                 34722  //Raven Quill Suit (F)
+#define II_ARM_F_CHR_RAVENQ01GLOVES               34723  //Raven Quill Gloves (F)
+#define II_ARM_F_CHR_RAVENQ01SHOES                34724  //Raven Quill Shoes (F)
+#define II_SYS_SYS_SCR_BXFRAVENQ01                34725  //Raven Quill Cs Box (F)
+
+//Sandshrew Set (M) - Kiyo
+#define II_ARM_M_CHR_SANDSHREW01HAT               34726  //Sandshrew Hat (M)
+#define II_ARM_M_CHR_SANDSHREW01SUIT              34727  //Sandshrew Suit (M)
+#define II_ARM_M_CHR_SANDSHREW01GLOVES            34728  //Sandshrew Gloves (M)
+#define II_ARM_M_CHR_SANDSHREW01SHOES             34729  //Sandshrew Shoes (M)
+#define II_SYS_SYS_SCR_BXMSANDSHREW01             34730  //Sandshrew Cs Box (M)
+
+//Slashing Water Set (M) - Kiyo
+#define II_ARM_M_CHR_SLASHWATER01HAT              34731  //Slashing Water Hat (M)
+#define II_ARM_M_CHR_SLASHWATER01SUIT             34732  //Slashing Water Suit (M)
+#define II_ARM_M_CHR_SLASHWATER01GLOVES           34733  //Slashing Water Gloves (M)
+#define II_ARM_M_CHR_SLASHWATER01SHOES            34734  //Slashing Water Shoes (M)
+#define II_SYS_SYS_SCR_BXMSLASHWATER01            34735  //Slashing Water Cs Box (M)
+
+//Spring Blossom Set (F) - Kiyo
+#define II_ARM_F_CHR_SPRINGBLOSSOM01HAT           34736  //Spring Blossom Hat (F)
+#define II_ARM_F_CHR_SPRINGBLOSSOM01SUIT          34737  //Spring Blossom Suit (F)
+#define II_ARM_F_CHR_SPRINGBLOSSOM01SHOES         34738  //Spring Blossom Shoes (F)
+#define II_SYS_SYS_SCR_BXFSPRINGBLOSSOM01         34739  //Spring Blossom Cs Box (F)
+
+//Summer Wolf Set (F) - Kiyo
+#define II_ARM_F_CHR_SUMMERWOLF01HAT              34740  //Summer Wolf Hat (F)
+#define II_ARM_F_CHR_SUMMERWOLF01SUIT             34741  //Summer Wolf Suit (F)
+#define II_ARM_F_CHR_SUMMERWOLF01SHOES            34742  //Summer Wolf Shoes (F)
+#define II_SYS_SYS_SCR_BXFSUMMERWOLF01            34743  //Summer Wolf Cs Box (F)
+
+//Summer Wolf Set (M) - Kiyo
+#define II_ARM_M_CHR_SUMMERWOLF01HAT              34744  //Summer Wolf Hat (M)
+#define II_ARM_M_CHR_SUMMERWOLF01SUIT             34745  //Summer Wolf Suit (M)
+#define II_ARM_M_CHR_SUMMERWOLF01GLOVES           34746  //Summer Wolf Gloves (M)
+#define II_ARM_M_CHR_SUMMERWOLF01SHOES            34747  //Summer Wolf Shoes (M)
+#define II_SYS_SYS_SCR_BXMSUMMERWOLF01            34748  //Summer Wolf Cs Box (M)
+
+//True Damage Set (M) - Kiyo
+#define II_ARM_M_CHR_TRUEDAMAGE01HAT              34749  //True Damage Hat (M)
+#define II_ARM_M_CHR_TRUEDAMAGE01SUIT             34750  //True Damage Suit (M)
+#define II_ARM_M_CHR_TRUEDAMAGE01SHOES            34751  //True Damage Shoes (M)
+#define II_SYS_SYS_SCR_BXMTRUEDAMAGE01            34752  //True Damage Cs Box (M)
+
+//Tsunade Set (F) - Kiyo
+#define II_ARM_F_CHR_TSUNADE01HAT                 34753  //Tsunade Hat (F)
+#define II_ARM_F_CHR_TSUNADE01SUIT                34754  //Tsunade Suit (F)
+#define II_ARM_F_CHR_TSUNADE01GLOVES              34755  //Tsunade Gloves (F)
+#define II_ARM_F_CHR_TSUNADE01SHOES               34756  //Tsunade Shoes (F)
+#define II_SYS_SYS_SCR_BXFTSUNADE01               34757  //Tsunade Cs Box (F)
+
+//Two Tone Dress Set (F) - Kiyo
+#define II_ARM_F_CHR_TWOTOTNE01HAT                34758  //Two Tone Dress Hat (F)
+#define II_ARM_F_CHR_TWOTOTNE01SUIT               34759  //Two Tone Dress Suit (F)
+#define II_ARM_F_CHR_TWOTOTNE01GLOVES             34760  //Two Tone Dress Gloves (F)
+#define II_ARM_F_CHR_TWOTOTNE01SHOES              34761  //Two Tone Dress Shoes (F)
+#define II_SYS_SYS_SCR_BXFTWOTOTNE01              34762  //Two Tone Dress Cs Box (F)
+
+//Vulcano Set (M) - Kiyo
+#define II_ARM_M_CHR_VULCANO01HAT                 34763  //Vulcano Hat (M)
+#define II_ARM_M_CHR_VULCANO01SUIT                34764  //Vulcano Suit (M)
+#define II_ARM_M_CHR_VULCANO01SHOES               34765  //Vulcano Shoes (M)
+#define II_SYS_SYS_SCR_BXMVULCANO01               34766  //Vulcano Cs Box (M)
+
+//Wizard Set (M) - Kiyo
+#define II_ARM_M_CHR_WIZARD01HAT                  34767  //Wizard Hat (M)
+#define II_ARM_M_CHR_WIZARD01SUIT                 34768  //Wizard Suit (M)
+#define II_ARM_M_CHR_WIZARD01SHOES                34769  //Wizard Shoes (M)
+#define II_SYS_SYS_SCR_BXMWIZARD01                34770  //Wizard Cs Box (M)
+
+//Yukata 2019 (F) - Kiyo
+#define II_ARM_F_CHR_YUKATA201901HAT              34771  //Yukata 2019 Hat (F)
+#define II_ARM_F_CHR_YUKATA201901SUIT             34772  //Yukata 2019 Suit (F)
+#define II_ARM_F_CHR_YUKATA201901SHOES            34773  //Yukata 2019 Shoes (F)
+#define II_SYS_SYS_SCR_BXFYUKATA201901            34775  //Yukata 2019 Cs Box (F)
+
+//Raven Quill Set (M) - Kiyo
+#define II_ARM_M_CHR_RAVENQ01HAT                  34776  //Raven Quill Hat (M)
+#define II_ARM_M_CHR_RAVENQ01SUIT                 34777  //Raven Quill Suit (M)
+#define II_ARM_M_CHR_RAVENQ01GLOVES               34778  //Raven Quill Gloves (M)
+#define II_ARM_M_CHR_RAVENQ01SHOES                34779  //Raven Quill Shoes (M)
+#define II_SYS_SYS_SCR_BXMRAVENQ01                34780  //Raven Quill Cs Box (M)
+
+//More Cloaks - Kiyo
+#define	II_ARM_S_CLO_CLO_FURYGHOSTQ               34781  //Fury Ghost Quad Cloak
+#define	II_ARM_S_CLO_CLO_FURYGHOSTD               34782  //Fury Ghost Duel Cloak
+#define	II_ARM_S_CLO_CLO_KIANA                    34783  //Kiana Cloak
+#define	II_ARM_S_CLO_CLO_LEAFBUNNY                34784  //Leaf Bunny Cloak
+#define	II_ARM_S_CLO_CLO_CATAS                    34785  //Catas Cloak
+#define	II_ARM_S_CLO_CLO_DEADPOOL                 34786  //Deadpool Cloak
+#define	II_ARM_S_CLO_CLO_DIVCONQ                  34787  //Divine Conqueror Cloak
+#define	II_ARM_S_CLO_CLO_ROYALCONQ                34788  //Royal Conqueror Cloak
+#define	II_ARM_S_CLO_CLO_SIEGE01                  34789  //Siege Lord Cloak (Green)
+#define	II_ARM_S_CLO_CLO_CORRCONQ                 34790  //Corrupted Conqueror Cloak
+#define	II_ARM_S_CLO_CLO_SIEGE02                  34791  //Siege Lord Cloak (Blue)
+#define	II_ARM_S_CLO_CLO_CRYSTAL                  34792  //Crystal Cloak
+#define	II_ARM_S_CLO_CLO_SIEGE03                  34793  //Siege Lord Cloak (Lime Green)
+#define	II_ARM_S_CLO_CLO_SIEGE04                  34794  //Siege Lord Cloak (Pink)
+#define	II_ARM_S_CLO_CLO_SIEGE05                  34795  //Siege Lord Cloak (Purple)
+#define	II_ARM_S_CLO_CLO_SIEGE06                  34796  //Siege Lord Cloak (Blood Red)
+#define	II_ARM_S_CLO_CLO_SIEGE07                  34797  //Siege Lord Cloak (Silver)
+#define	II_ARM_S_CLO_CLO_MONHUNT01                34798  //Monster Hunter Lord Cloak (Blue)
+#define	II_ARM_S_CLO_CLO_MONHUNT02                34799  //Monster Hunter Lord Cloak (Gold)
+#define	II_ARM_S_CLO_CLO_MONHUNT03                34800  //Monster Hunter Lord Cloak (Sky Blue)
+#define	II_ARM_S_CLO_CLO_PINKBUNNY                34801  //White Bunny Backpack
+#define	II_ARM_S_CLO_CLO_WHITEBUNNY               34802  //White Bunny Backpack
+#define	II_ARM_S_CLO_CLO_ROBIN                    34803  //Robin Cloak
+#define	II_ARM_S_CLO_CLO_CANDYBUNNY               34804  //Candy Bunny Cloak
+#define	II_ARM_S_CLO_CLO_HALLOWEEN                34805  //Halloween Cloak
+#define	II_ARM_S_CLO_CLO_MEWTAIL                  34806  //Mew Tail
+#define	II_ARM_S_CLO_CLO_SNOWBIRD                 34807  //Snow Bird Cloak
+#define	II_ARM_S_CLO_CLO_MYSTICCAT                34808  //Mystic Cat Cloak
+#define	II_ARM_S_CLO_CLO_HONEYBEAR                34809  //Honey Bear Cloak
+#define	II_ARM_S_CLO_CLO_CHUPACHU                 34810  //Chupa Chup Cloak
+#define	II_ARM_S_CLO_CLO_TSUNADE                  34811  //Tsunade Cloak
+#define	II_ARM_S_CLO_CLO_MINATO                   34812  //Minato Cloak
+#define	II_ARM_S_CLO_CLO_SWAINDARK                34813  //Dark Swain Cloak
+#define	II_ARM_S_CLO_CLO_SWAINDRAG                34814  //Swain Dragonscale Cloak
+#define	II_ARM_S_CLO_CLO_MYSTOGAN                 34815  //Mystogan Cloak
+
+//Unique Balloons 1 Day - Kiyo
+#define	II_SYS_SYS_1DBALLOONX1                    34816   //Black Spirit Balloon (1 Day)	
+#define	II_SYS_SYS_1DBALLOONX2                    34817   //Clefairy Balloon (1 Day)		
+#define	II_SYS_SYS_1DBALLOONX3                    34818   //Duskull Balloon	(1 Day)
+#define	II_SYS_SYS_1DBALLOONX4                    34819   //Gulpin Balloon (1 Day)	 
+#define	II_SYS_SYS_1DBALLOONX6                    34820   //Jigglypuff Balloon (1 Day)
+#define	II_SYS_SYS_1DBALLOONX7                    34821   //Lotad Balloon (1 Day)			
+#define	II_SYS_SYS_1DBALLOONX8                    34822   //Marill Balloon (1 Day)	 
+#define	II_SYS_SYS_1DBALLOONX9                    34823   //Seedot Balloon (1 Day)		
+#define	II_SYS_SYS_1DBALLOONX10                   34824   //Togepi Balloon (1 Day)	
+
+//Unique Balloons 7 Day - Kiyo
+#define	II_SYS_SYS_7DBALLOONX1                    34825   //Black Spirit Balloon (7 Day)	
+#define	II_SYS_SYS_7DBALLOONX2                    34826   //Clefairy Balloon (7 Day)		
+#define	II_SYS_SYS_7DBALLOONX3                    34827   //Duskull Balloon	(7 Day)
+#define	II_SYS_SYS_7DBALLOONX4                    34828   //Gulpin Balloon (7 Day)	 
+#define	II_SYS_SYS_7DBALLOONX6                    34829   //Jigglypuff Balloon (7 Day)
+#define	II_SYS_SYS_7DBALLOONX7                    34830   //Lotad Balloon (7 Day)			
+#define	II_SYS_SYS_7DBALLOONX8                    34831   //Marill Balloon (7 Day)	 
+#define	II_SYS_SYS_7DBALLOONX9                    34832   //Seedot Balloon (7 Day)		
+#define	II_SYS_SYS_7DBALLOONX10                   34833   //Togepi Balloon (7 Day)	
+
+//Unique Balloons 15 Day - Kiyo
+#define	II_SYS_SYS_15DBALLOONX1                   34834   //Black Spirit Balloon (15 Day)	
+#define	II_SYS_SYS_15DBALLOONX2                   34835   //Clefairy Balloon (15 Day)		
+#define	II_SYS_SYS_15DBALLOONX3                   34836   //Duskull Balloon	(15 Day)
+#define	II_SYS_SYS_15DBALLOONX4                   34837   //Gulpin Balloon (15 Day)	 
+#define	II_SYS_SYS_15DBALLOONX6                   34838   //Jigglypuff Balloon (15 Day)
+#define	II_SYS_SYS_15DBALLOONX7                   34839   //Lotad Balloon (15 Day)			
+#define	II_SYS_SYS_15DBALLOONX8                   34840   //Marill Balloon (15 Day)	 
+#define	II_SYS_SYS_15DBALLOONX9                   34841   //Seedot Balloon (15 Day)		
+#define	II_SYS_SYS_15DBALLOONX10                  34842   //Togepi Balloon (15 Day)	
+	
+
+//Unique Masks - Kiyo
+#define II_ARM_S_CLO_MAS_KIANA01                  34844   //Kiana Mask
+#define II_ARM_S_CLO_MAS_AURABALL01               34845   //Aura Ball Mask
+#define II_ARM_S_CLO_MAS_NINJAMASK01              34846   //Ninja Mask
+#define II_ARM_S_CLO_MAS_CONFBUNNY01              34847   //Confident Bunny Mask
+#define II_ARM_S_CLO_MAS_DONUTBUNNY01             34848   //Bunny Donut Mask
+#define II_ARM_S_CLO_MAS_KITTYCOOK01              34849   //Kitty Cook Mask
+#define II_ARM_S_CLO_MAS_HONEYPIPE01              34850   //Honey Pipe Mask
+#define II_ARM_S_CLO_MAS_KITTYPIPE01              34851   //Kitty Pipe Mask
+
+//Nitro Guardian Weapons - Kiyo
+//#define II_WEA_AXT_NITROGUARDWEAPON		          34852   //Nitro Guardian Big Axe
+//#define II_WEA_AXE_NITROGUARDWEAPON		          34853   //Nitro Guardian Axe
+//#define II_WEA_SWO_NITROGUARDWEAPON		          34854   //Nitro Guardian Sword
+//#define II_WEA_SWT_NITROGUARDWEAPON		          34855   //Nitro Guardian Big Sword
+//#define II_WEA_CHE_NITROGUARDWEAPON		          34856   //Nitro Guardian Stick
+//#define II_WEA_KNU_NITROGUARDWEAPON		          34857   //Nitro Guardian Knuckle
+//#define II_WEA_BOW_NITROGUARDWEAPON		          34858   //Nitro Guardian Bow
+//#define II_WEA_YOY_NITROGUARDWEAPON		          34859   //Nitro Guardian Yo-yo
+//#define II_WEA_WAN_NITROGUARDWEAPON		          34860   //Nitro Guardian Wand
+//#define II_WEA_STA_NITROGUARDWEAPON		          34861   //Nitro Guardian Staff
+//#define II_ARM_ARM_SHI_NITROGUARDWEAPON		      34862   //Nitro Guardian Shield 
+//#define II_ARM_ARM_BOK_NITROGUARDWEAPON		      34863   //Nitro Guardian Book 
+//#define II_ARM_ARM_ZEM_NITROGUARDWEAPON		      34864   //Nitro Guardian Zem 
+
+//Warrior Armor (M) - Kiyo
+#define II_ARM_M_STORMB_HELMET_SET_36             34865   //Warrior Slayer Hat (M)
+#define II_ARM_M_STORMB_SUIT_SET_36               34866   //Warrior Slayer Suit (M)
+#define II_ARM_M_STORMB_GAUNTLET_SET_36           34867   //Warrior Slayer Gloves (M)
+#define II_ARM_M_STORMB_BOOTS_SET_36              34868   //Warrior Slayer Shoes (M)
+#define II_SYS_SYS_SCR_BXMWARRIOR01               34869   //Warrior Slayer Box (M)
+
+//Warrior Armor (F) - Kiyo
+#define II_ARM_F_STORMB_HELMET_SET_36             34870   //Warrior Slayer Hat (F)
+#define II_ARM_F_STORMB_SUIT_SET_36               34871   //Warrior Slayer Suit (F)
+#define II_ARM_F_STORMB_GAUNTLET_SET_36           34872   //Warrior Slayer Gloves (F)
+#define II_ARM_F_STORMB_BOOTS_SET_36              34873   //Warrior Slayer Shoes (F)
+#define II_SYS_SYS_SCR_BXFWARRIOR01               34874   //Warrior Slayer Box (F)
+
+//Sniper Armor (M) - Kiyo
+#define II_ARM_M_CRACKS_HELMET_SET_36             34875   //Sniper Crackshooter Hat (M)
+#define II_ARM_M_CRACKS_SUIT_SET_36               34876   //Sniper Crackshooter Suit (M)
+#define II_ARM_M_CRACKS_GAUNTLET_SET_36           34877   //Sniper Crackshooter Gloves (M)
+#define II_ARM_M_CRACKS_BOOTS_SET_36              34878   //Sniper Crackshooter Shoes (M)
+#define II_SYS_SYS_SCR_BXMSNIPER01                34879   //Sniper Crackshooter Box (M)
+
+//Sniper Armor (F) - Kiyo
+#define II_ARM_F_CRACKS_HELMET_SET_36             34880   //Sniper Crackshooter Hat (F)
+#define II_ARM_F_CRACKS_SUIT_SET_36               34881   //Sniper Crackshooter Suit (F)
+#define II_ARM_F_CRACKS_GAUNTLET_SET_36           34882   //Sniper Crackshooter Gloves (F)
+#define II_ARM_F_CRACKS_BOOTS_SET_36              34883   //Sniper Crackshooter Shoes (F)
+#define II_SYS_SYS_SCR_BXFSNIPER01                34884   //Sniper Crackshooter Box (F)
+
+//Asassin Armor (M) - Kiyo
+#define II_ARM_M_WINDL_HELMET_SET_36              34885   //Asasin Harlequin Hat (M)
+#define II_ARM_M_WINDL_SUIT_SET_36                34886   //Asasin Harlequin Suit (M)
+#define II_ARM_M_WINDL_GAUNTLET_SET_36            34887   //Asasin Harlequin Gloves (M)
+#define II_ARM_M_WINDL_BOOTS_SET_36               34888   //Asasin Harlequin Shoes (M)
+#define II_SYS_SYS_SCR_BXMASSASSIN01              34889   //Asasin Harlequin Box (M)
+
+//Asassin Armor (F) - Kiyo
+#define II_ARM_F_WINDL_HELMET_SET_36              34890   //Asasin Harlequin Hat (F)
+#define II_ARM_F_WINDL_SUIT_SET_36                34891   //Asasin Harlequin Suit (F)
+#define II_ARM_F_WINDL_GAUNTLET_SET_36            34892   //Asasin Harlequin Gloves (F)
+#define II_ARM_F_WINDL_BOOTS_SET_36               34893   //Asasin Harlequin Shoes (F)
+#define II_SYS_SYS_SCR_BXFASSASSIN01              34894   //Asasin Harlequin Box (F)
+
+//Angelic Armor (M) - Kiyo
+#define II_ARM_M_FLOR_HELMET_SET_36               34895   //Angelic Seraph Hat (M)
+#define II_ARM_M_FLOR_SUIT_SET_36                 34896   //Angelic Seraph Suit (M)
+#define II_ARM_M_FLOR_GAUNTLET_SET_36             34897   //Angelic Seraph Gloves (M)
+#define II_ARM_M_FLOR_BOOTS_SET_36                34898   //Angelic Seraph Shoes (M)
+#define II_SYS_SYS_SCR_BXMANGELIC01               34899   //Angelic Seraph Box (M)
+
+//Angelic Armor (F) - Kiyo
+#define II_ARM_F_FLOR_HELMET_SET_36               34900   //Angelic Seraph Hat (F)
+#define II_ARM_F_FLOR_SUIT_SET_36                 34901   //Angelic Seraph Suit (F)
+#define II_ARM_F_FLOR_GAUNTLET_SET_36             34902   //Angelic Seraph Gloves (F)
+#define II_ARM_F_FLOR_BOOTS_SET_36                34903   //Angelic Seraph Shoes (F)
+#define II_SYS_SYS_SCR_BXFANGELIC01               34904   //Angelic Seraph Box (F)
+
+//Champion Armor (M) - Kiyo
+#define II_ARM_M_FORCEM_HELMET_SET_36             34905   //Champion Forcemaster Hat (M)
+#define II_ARM_M_FORCEM_SUIT_SET_36               34906   //Champion Forcemaster Suit (M)
+#define II_ARM_M_FORCEM_GAUNTLET_SET_36           34907   //Champion Forcemaster Gloves (M)
+#define II_ARM_M_FORCEM_BOOTS_SET_36              34908   //Champion Forcemaster Shoes (M)
+#define II_SYS_SYS_SCR_BXMCHAMP01                 34909   //Champion Forcemaster Box (M)
+
+//Champion Armor (F) - Kiyo
+#define II_ARM_F_FORCEM_HELMET_SET_36             34910   //Champion Forcemaster Hat (F)
+#define II_ARM_F_FORCEM_SUIT_SET_36               34911   //Champion Forcemaster Suit (F)
+#define II_ARM_F_FORCEM_GAUNTLET_SET_36           34912   //Champion Forcemaster Gloves (F)
+#define II_ARM_F_FORCEM_BOOTS_SET_36              34913   //Champion Forcemaster Shoes (F)
+#define II_SYS_SYS_SCR_BXFCHAMP01                 34914   //Champion Forcemaster Box (F)
+
+//Sorcerer Armor (M) - Kiyo
+#define II_ARM_M_ELEL_HELMET_SET_36               34915   //Sorcerer Arcanist Hat (M)
+#define II_ARM_M_ELEL_SUIT_SET_36                 34916   //Sorcerer Arcanist Suit (M)
+#define II_ARM_M_ELEL_GAUNTLET_SET_36             34917   //Sorcerer Arcanist Gloves (M)
+#define II_ARM_M_ELEL_BOOTS_SET_36                34918   //Sorcerer Arcanist Shoes (M)
+#define II_SYS_SYS_SCR_BXMSORCER01                34919   //Sorcerer Arcanist Box (M)
+
+//Sorcerer Armor (F) - Kiyo
+#define II_ARM_F_ELEL_HELMET_SET_36               34920   //Sorcerer Arcanist Hat (F)
+#define II_ARM_F_ELEL_SUIT_SET_36                 34921   //Sorcerer Arcanist Suit (F)
+#define II_ARM_F_ELEL_GAUNTLET_SET_36             34922   //Sorcerer Arcanist Gloves (F)
+#define II_ARM_F_ELEL_BOOTS_SET_36                34923   //Sorcerer Arcanist Shoes (F)
+#define II_SYS_SYS_SCR_BXFSORCER01                34924   //Sorcerer Arcanist Box (F)
+
+//Warlock Armor (M) - Kiyo
+#define II_ARM_M_MENT_HELMET_SET_36               34925   //Warlock Mentalist Hat (M)
+#define II_ARM_M_MENT_SUIT_SET_36                 34926   //Warlock Mentalist Suit (M)
+#define II_ARM_M_MENT_GAUNTLET_SET_36             34927   //Warlock Mentalist Gloves (M)
+#define II_ARM_M_MENT_BOOTS_SET_36                34928   //Warlock Mentalist Shoes (M)
+#define II_SYS_SYS_SCR_BXMWARLOCK01               34929   //Warlock Mentalist Box (M)
+
+//Warlock Armor (F) - Kiyo
+#define II_ARM_F_MENT_HELMET_SET_36               34930   //Warlock Mentalist Hat (F)
+#define II_ARM_F_MENT_SUIT_SET_36                 34931   //Warlock Mentalist Suit (F)
+#define II_ARM_F_MENT_GAUNTLET_SET_36             34932   //Warlock Mentalist Gloves (F)
+#define II_ARM_F_MENT_BOOTS_SET_36                34933   //Warlock Mentalist Shoes (F)
+#define II_SYS_SYS_SCR_BXFWARLOCK01               34934   //Warlock Mentalist Box (F)
+
+//Paladin Armor (M) - Kiyo
+#define II_ARM_M_LORDK_HELMET_SET_36              34935   //Paladin Templar Hat (M)
+#define II_ARM_M_LORDK_SUIT_SET_36                34936   //Paladin Templar Suit (M)
+#define II_ARM_M_LORDK_GAUNTLET_SET_36            34937   //Paladin Templar Gloves (M)
+#define II_ARM_M_LORDK_BOOTS_SET_36               34938   //Paladin Templar Shoes (M)
+#define II_SYS_SYS_SCR_BXMPALADIN01               34939   //Paladin Templar Box (M)
+
+//Paladin Armor (F) - Kiyo
+#define II_ARM_F_LORDK_HELMET_SET_36              34940   //Paladin Templar Hat (F)
+#define II_ARM_F_LORDK_SUIT_SET_36                34941   //Paladin Templar Suit (F)
+#define II_ARM_F_LORDK_GAUNTLET_SET_36            34942   //Paladin Templar Gloves (F)
+#define II_ARM_F_LORDK_BOOTS_SET_36               34943   //Paladin Templar Shoes (F)
+#define II_SYS_SYS_SCR_BXFPALADIN01               34944   //Paladin Templar Box (F)
+
+//Dark Fighter Armor (M) - Kiyo
+#define II_ARM_M_STORMB_HELMET_SET_37             34945   //Dark Fighter Slayer Hat (M)
+#define II_ARM_M_STORMB_SUIT_SET_37               34946   //Dark Fighter Slayer Suit (M)
+#define II_ARM_M_STORMB_GAUNTLET_SET_37           34947   //Dark Fighter Slayer Gloves (M)
+#define II_ARM_M_STORMB_BOOTS_SET_37              34948   //Dark Fighter Slayer Shoes (M)
+#define II_SYS_SYS_SCR_BXMFIGHTER01               34949   //Dark Fighter Slayer Box (M)
+
+//Dark Fighter Armor (F) - Kiyo
+#define II_ARM_F_STORMB_HELMET_SET_37             34950   //Dark Fighter Slayer Hat (F)
+#define II_ARM_F_STORMB_SUIT_SET_37               34951   //Dark Fighter Slayer Suit (F)
+#define II_ARM_F_STORMB_GAUNTLET_SET_37           34952   //Dark Fighter Slayer Gloves (F)
+#define II_ARM_F_STORMB_BOOTS_SET_37              34953   //Dark Fighter Slayer Shoes (F)
+#define II_SYS_SYS_SCR_BXFFIGHTER01               34954   //Dark Fighter Slayer Box (F)
+
+//Dark Archer Armor (M) - Kiyo
+#define II_ARM_M_CRACKS_HELMET_SET_37             34955   //Dark Archer Crackshooter Hat (M)
+#define II_ARM_M_CRACKS_SUIT_SET_37               34956   //Dark Archer Crackshooter Suit (M)
+#define II_ARM_M_CRACKS_GAUNTLET_SET_37           34957   //Dark Archer Crackshooter Gloves (M)
+#define II_ARM_M_CRACKS_BOOTS_SET_37              34958   //Dark Archer Crackshooter Shoes (M)
+#define II_SYS_SYS_SCR_BXMARCHER01                34959   //Dark Archer Crackshooter Box (M)
+
+//Dark Archer Armor (F) - Kiyo
+#define II_ARM_F_CRACKS_HELMET_SET_37             34960   //Dark Archer Crackshooter Hat (F)
+#define II_ARM_F_CRACKS_SUIT_SET_37               34961   //Dark Archer Crackshooter Suit (F)
+#define II_ARM_F_CRACKS_GAUNTLET_SET_37           34962   //Dark Archer Crackshooter Gloves (F)
+#define II_ARM_F_CRACKS_BOOTS_SET_37              34963   //Dark Archer Crackshooter Shoes (F)
+#define II_SYS_SYS_SCR_BXFARCHER01                34964   //Dark Archer Crackshooter Box (F)
+
+//Dark Assassin Armor (M) - Kiyo
+#define II_ARM_M_WINDL_HELMET_SET_37              34965   //Dark Assasin Harlequin Hat (M)
+#define II_ARM_M_WINDL_SUIT_SET_37                34966   //Dark Assasin Harlequin Suit (M)
+#define II_ARM_M_WINDL_GAUNTLET_SET_37            34967   //Dark Assasin Harlequin Gloves (M)
+#define II_ARM_M_WINDL_BOOTS_SET_37               34968   //Dark Assasin Harlequin Shoes (M)
+#define II_SYS_SYS_SCR_BXMDASSASSIN01             34969   //Dark Assasin Harlequin Box (M)
+
+//Dark Assassin Armor (F) - Kiyo
+#define II_ARM_F_WINDL_HELMET_SET_37              34970   //Dark Assasin Harlequin Hat (F)
+#define II_ARM_F_WINDL_SUIT_SET_37                34971   //Dark Assasin Harlequin Suit (F)
+#define II_ARM_F_WINDL_GAUNTLET_SET_37            34972   //Dark Assasin Harlequin Gloves (F)
+#define II_ARM_F_WINDL_BOOTS_SET_37               34973   //Dark Assasin Harlequin Shoes (F)
+#define II_SYS_SYS_SCR_BXFDASSASSIN01             34974   //Dark Assasin Harlequin Box (F)
+
+//Dark Pastor Armor (M) - Kiyo
+#define II_ARM_M_FLOR_HELMET_SET_37               34975   //Dark Pastor Seraph Hat (M)
+#define II_ARM_M_FLOR_SUIT_SET_37                 34976   //Dark Pastor Seraph Suit (M)
+#define II_ARM_M_FLOR_GAUNTLET_SET_37             34977   //Dark Pastor Seraph Gloves (M)
+#define II_ARM_M_FLOR_BOOTS_SET_37                34978   //Dark Pastor Seraph Shoes (M)
+#define II_SYS_SYS_SCR_BXMPASTOR01                34979   //Dark Pastor Seraph Box (M)
+
+//Dark Pastor Armor (F) - Kiyo
+#define II_ARM_F_FLOR_HELMET_SET_37               34980   //Dark Pastor Seraph Hat (F)
+#define II_ARM_F_FLOR_SUIT_SET_37                 34981   //Dark Pastor Seraph Suit (F)
+#define II_ARM_F_FLOR_GAUNTLET_SET_37             34982   //Dark Pastor Seraph Gloves (F)
+#define II_ARM_F_FLOR_BOOTS_SET_37                34983   //Dark Pastor Seraph Shoes (F)
+#define II_SYS_SYS_SCR_BXFPASTOR01                34984   //Dark Pastor Seraph Box (F)
+
+//Dark Priest Armor (M) - Kiyo
+#define II_ARM_M_FORCEM_HELMET_SET_37             34985   //Dark Priest Forcemaster Hat (M)
+#define II_ARM_M_FORCEM_SUIT_SET_37               34986   //Dark Priest Forcemaster Suit (M)
+#define II_ARM_M_FORCEM_GAUNTLET_SET_37           34987   //Dark Priest Forcemaster Gloves (M)
+#define II_ARM_M_FORCEM_BOOTS_SET_37              34988   //Dark Priest Forcemaster Shoes (M)
+#define II_SYS_SYS_SCR_BXMPRIEST01                34989   //Dark Priest Forcemaster Box (M)
+
+//Dark Priest Armor (F) - Kiyo
+#define II_ARM_F_FORCEM_HELMET_SET_37			34990   //Dark Priest Forcemaster Hat (F)
+#define II_ARM_F_FORCEM_SUIT_SET_37				34991   //Dark Priest Forcemaster Suit (F)
+#define II_ARM_F_FORCEM_GAUNTLET_SET_37			34992   //Dark Priest Forcemaster Gloves (F)
+#define II_ARM_F_FORCEM_BOOTS_SET_37			34993   //Dark Priest Forcemaster Shoes (F)
+#define II_SYS_SYS_SCR_BXFPRIEST01				34994   //Dark Priest Forcemaster Box (F)
+
+//Dark Wizzard Armor (M) - Kiyo
+#define II_ARM_M_ELEL_HELMET_SET_37				34995   //Dark Wizzard Arcanist Hat (M)
+#define II_ARM_M_ELEL_SUIT_SET_37				34996   //Dark Wizzard Arcanist Suit (M)
+#define II_ARM_M_ELEL_GAUNTLET_SET_37			34997   //Dark Wizzard Arcanist Gloves (M)
+#define II_ARM_M_ELEL_BOOTS_SET_37				34998   //Dark Wizzard Arcanist Shoes (M)
+#define II_SYS_SYS_SCR_BXMDWIZARD01				34999   //Dark Wizzard Arcanist Box (M)
+
+//Dark Wizzard Armor (F) - Kiyo
+#define II_ARM_F_ELEL_HELMET_SET_37				35000   //Dark Wizzard Arcanist Hat (F)
+#define II_ARM_F_ELEL_SUIT_SET_37				35001   //Dark Wizzard Arcanist Suit (F)
+#define II_ARM_F_ELEL_GAUNTLET_SET_37			35002   //Dark Wizzard Arcanist Gloves (F)
+#define II_ARM_F_ELEL_BOOTS_SET_37				35003   //Dark Wizzard Arcanist Shoes (F)
+#define II_SYS_SYS_SCR_BXFDWIZARD01				35004   //Dark Wizzard Arcanist Box (F)
+
+//Dark Mage Armor (M) - Kiyo
+#define II_ARM_M_MENT_HELMET_SET_37				35005   //Dark Mage Mentalist Hat (M)
+#define II_ARM_M_MENT_SUIT_SET_37				35006   //Dark Mage Mentalist Suit (M)
+#define II_ARM_M_MENT_GAUNTLET_SET_37			35007   //Dark Mage Mentalist Gloves (M)
+#define II_ARM_M_MENT_BOOTS_SET_37				35008   //Dark Mage Mentalist Shoes (M)
+#define II_SYS_SYS_SCR_BXMDMAGE01				35009   //Dark Mage Mentalist Box (M)
+
+//Dark Mage Armor (F) - Kiyo
+#define II_ARM_F_MENT_HELMET_SET_37				35010   //Dark Mage Mentalist Hat (F)
+#define II_ARM_F_MENT_SUIT_SET_37				35011   //Dark Mage Mentalist Suit (F)
+#define II_ARM_F_MENT_GAUNTLET_SET_37			35012   //Dark Mage Mentalist Gloves (F)
+#define II_ARM_F_MENT_BOOTS_SET_37				35013   //Dark Mage Mentalist Shoes (F)
+#define II_SYS_SYS_SCR_BXFDMAGE01				35014   //Dark Mage Mentalist Box (F)
+
+//Dark Knight Armor (M) - Kiyo
+#define II_ARM_M_LORDK_HELMET_SET_37			35015   //Dark Knight Templar Hat (M)
+#define II_ARM_M_LORDK_SUIT_SET_37				35016   //Dark Knight Templar Suit (M)
+#define II_ARM_M_LORDK_GAUNTLET_SET_37			35017   //Dark Knight Templar Gloves (M)
+#define II_ARM_M_LORDK_BOOTS_SET_37				35018   //Dark Knight Templar Shoes (M)
+#define II_SYS_SYS_SCR_BXMDKNIGHT01				35019   //Dark Knight Templar Box (M)
+
+//Dark Knight Armor (F) - Kiyo
+#define II_ARM_F_LORDK_HELMET_SET_37			35020   //Dark Knight Templar Hat (F)
+#define II_ARM_F_LORDK_SUIT_SET_37				35021   //Dark Knight Templar Suit (F)
+#define II_ARM_F_LORDK_GAUNTLET_SET_37			35022   //Dark Knight Templar Gloves (F)
+#define II_ARM_F_LORDK_BOOTS_SET_37				35023   //Dark Knight Templar Shoes (F)
+#define II_SYS_SYS_SCR_BXFDKNIGHT01				35024   //Dark Knight Templar Box (F)
+
+//More Unique Balloons 1 Day - Kiyo
+#define	II_SYS_SYS_1DBALLOONS1					35025   //Agumon Balloon (1 Day)		
+#define	II_SYS_SYS_1DBALLOONS2					35026   //Penguin Love Balloon (1 Day)		
+#define	II_SYS_SYS_1DBALLOONS3					35027   //Golden Mine Balloon (1 Day)
+#define	II_SYS_SYS_1DBALLOONS4					35028   //Angry Dwarpet Balloon (1 Day)	 
+#define	II_SYS_SYS_1DBALLOONS5					35029   //Super Goku Balloon (1 Day)
+#define	II_SYS_SYS_1DBALLOONS6					35030   //Goku Balloon (1 Day)			
+#define	II_SYS_SYS_1DBALLOONS7					35031   //Ultra Pokemon Ball Balloon (1 Day)	 
+#define	II_SYS_SYS_1DBALLOONS8					35032   //Pickachu Balloon (1 Day)		
+
+//Unique Balloons 7 Day - Kiyo
+#define	II_SYS_SYS_7DBALLOONS1					35033   //Agumon Balloon (7 Day)		
+#define	II_SYS_SYS_7DBALLOONS2					35034   //Penguin Love Balloon (7 Day)		
+#define	II_SYS_SYS_7DBALLOONS3					35035   //Golden Mine Balloon (7 Day)
+#define	II_SYS_SYS_7DBALLOONS4					35036   //Angry Dwarpet Balloon (7 Day)	 
+#define	II_SYS_SYS_7DBALLOONS5					35037   //Super Goku Balloon (7 Day)
+#define	II_SYS_SYS_7DBALLOONS6					35038   //Goku Balloon (7 Day)			
+#define	II_SYS_SYS_7DBALLOONS7					35039   //Ultra Pokemon Ball Balloon (7 Day)	 
+#define	II_SYS_SYS_7DBALLOONS8					35040   //Pickachu Balloon (7 Day)		
+
+//Unique Balloons 15 Day - Kiyo
+#define	II_SYS_SYS_15DBALLOONS1					35041   //Agumon Balloon (15 Day)		
+#define	II_SYS_SYS_15DBALLOONS2					35042   //Penguin Love Balloon (15 Day)		
+#define	II_SYS_SYS_15DBALLOONS3					35043   //Golden Mine Balloon (15 Day)
+#define	II_SYS_SYS_15DBALLOONS4					35044   //Angry Dwarpet Balloon (15 Day)	 
+#define	II_SYS_SYS_15DBALLOONS5					35045   //Super Goku Balloon (15 Day)
+#define	II_SYS_SYS_15DBALLOONS6					35046   //Goku Balloon (15 Day)			
+#define	II_SYS_SYS_15DBALLOONS7					35047   //Ultra Pokemon Ball Balloon (15 Day)	 
+#define	II_SYS_SYS_15DBALLOONS8					35048   //Pickachu Balloon (15 Day)		
+
+//Titles - Kiyo										
+#define	II_SYS_TITLE_01							35049	  //Title: The Immortal
+#define	II_SYS_TITLE_02							35050	  //Title: Professor
+#define	II_SYS_TITLE_03							35051	  //Title: 1337
+#define	II_SYS_TITLE_04							35052	  //Title: Skylord
+#define	II_SYS_TITLE_05							35053	  //Title: Insane
+#define	II_SYS_TITLE_06							35054	  //Title: Soloist
+#define	II_SYS_TITLE_07							35055	  //Title: Incompetent
+#define	II_SYS_TITLE_08							35056	  //Title: Over 9000
+#define	II_SYS_TITLE_09							35057	  //Title: Epic
+#define	II_SYS_TITLE_10							35058	  //Title: FTW
+#define	II_SYS_TITLE_11							35059	  //Title: The Fallen
+#define	II_SYS_TITLE_12							35060	  //Title: Awesomeness
+#define	II_SYS_TITLE_13							35061	  //Title: Sucker Punch
+#define	II_SYS_TITLE_14							35062	  //Title: Disappointing
+#define	II_SYS_TITLE_15							35063	  //Title: Banana
+#define	II_SYS_TITLE_16							35064	  //Title: Superstar
+#define	II_SYS_TITLE_17							35065	  //Title: Duelist
+#define	II_SYS_TITLE_18							35066	  //Title: Juggler
+#define	II_SYS_TITLE_19							35067	  //Title: Reckless
+#define	II_SYS_TITLE_20							35068	  //Title: Diva
+#define	II_SYS_TITLE_21							35069	  //Title: Magnificent
+
+//Unique Quest Drop - Kiyo 
+#define	II_SYS_SYS_EVE_QUESTDROP1				35070   //Bag of Glory    
+#define	II_SYS_SYS_EVE_QUESTDROP2				35071   //Blue Bag of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP3				35072   //Pink Bag of Glory 
+#define	II_SYS_SYS_EVE_QUESTDROP4				35073   //Purple Bag of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP5				35074   //Yellow Bag of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP6				35075   //Red Bag of Glory	 
+
+//Colosseum Chip - Kiyo
+#define II_CHP_COLOSSEUM						35076   //Colosseum Chip
+
+// Wing Animted - Kiyo
+#define II_ANIWING_TSX820A						35077   //Aniamted Wing 01
+
+//Beginner Accessories - Kiyo
+#define II_GEN_JEW_NEC_BEGINNER					35078   //Beginner Necklace
+#define II_GEN_JEW_EAR_BEGINNER					35079   //Beginner Earring
+#define II_GEN_JEW_RIN_BEGINNER					35080   //Beginner Ring
+#define II_SYS_SYS_SCR_BXBEGINNERA				35081   //Beginner Accessory Box
+
+//Blue Remantis - Kiyo
+#define	II_CHR_FOO_COO_BLUEREMANTIS				35082   //Blue Remantis Laccotte
+
+//Colosseum Perin - Kiyo
+#define II_SYS_COLOPERIN						35083   //Colosseum Perin
+
+//Monster Clash - Kiyo
+#define II_SYS_MONSTERCLASH						35084   //Monster Clash Fragment
+
+//Wing Masks - Kiyo
+#define II_ANIWING_TRANSBLUE	                35085   //Translucent Blue Wing Mask
+#define II_ANIWING_WHITEBELL	                35086   //White Bell Wing Mask
+#define II_ANIWING_REDPHOENIX                   35087   //Red Phoenix Wing Mask
+#define II_ANIWING_BURNTREBIR	                35088   //Burnt Rebirth Wing Mask
+#define II_ANIWING_MAZECOMPLET	                35089   //Maze Completionist Wing Mask
+#define II_ANIWING_INLOVECUPID	                35090   //In-Love Cupid Wing Mask
+#define II_ANIWING_INLOVEHEART	                35091   //In-Love Heart Balloon Wing Mask
+#define II_ANIWING_DARKEAGLE	                35092   //Dark Eagle Wing Mask
+#define II_ANIWING_LORDOFDEMONS	                35093   //Nathrezim's Lord of Demons Wing Mask
+#define II_ANIWING_VEZULSLEGS	                35094   //Ven'Zul's Creepy Legs Wing Mask
+#define II_ANIWING_CHIBIANGEL	                35095   //Chibi Angel Wing Mask
+#define II_ANIWING_PINKCHIBI	                35096   //Pink Chibi Angel Wing Mask
+#define II_ANIWING_AIBATTLORD	                35097   //Aibatt Lord Wing Mask
+#define II_ANIWING_BLACKAIBATT	                35098   //Black Aibatt Lord Wing Mask
+#define II_ANIWING_ICEFAIRY	                    35099   //Ice Fairy Wing Mask
+#define II_ANIWING_CORRUPTION	                35100   //Wings of Corruption Wing Mask
+#define II_ANIWING_GLORY	                    35101   //Wings of Glory Wing Mask
+#define II_ANIWING_OCCULTIST	                35102   //Occultist Wing Mask
+#define II_ANIWING_KANEKI	                    35103   //Kaneki Wing Mask
+#define II_ANIWING_ARGENTA	                    35104   //Argenta Wing Mask					
+#define II_ANIWING_BLACKBABY	                35105   //Black Baby Angel Wing Mask		
+#define II_ANIWING_GOLDBABY	                    35106   //Gold Baby Angel Wing Mask			
+#define II_ANIWING_WHITEBABY	                35107   //White Baby Angel Wing Mask	
+#define II_ANIWING_BABYDEVIL	                35108   //Baby Devil Wing Mask			
+#define II_ANIWING_BATTLEDRAGON	                35109   //Battle Dragon Wing Mask			
+#define II_ANIWING_OLDBLACK	                    35110   //Old Black Wing Mask				
+#define II_ANIWING_SMALLHARPY	                35111   //Small Harpy Wing Mask				
+#define II_ANIWING_LOTR	                        35112   //LOTR Wing Mask					
+#define II_ANIWING_BLUESKELE	                35113   //Blue Skeleton Wing Mask		
+#define II_ANIWING_BATTLEDRAGON1	            35114   //Battle Dragon Wing Mask			
+#define II_ANIWING_GREENDRAGON1	                35115   //Green Battle Dragon Wing Mask		
+#define II_ANIWING_REDBATTLED	                35116   //Red Battle Dragon Wing Mask	
+#define II_ANIWING_WHITEBATTLED	                35117   //White Battle Dragon Wing MasK		
+#define II_ANIWING_RUSTYDRAGON	                35118   //Rusty Dragon Wing Mask			
+#define II_ANIWING_BATTLEANGEL	                35119   //Battle Angel Wing Mask			
+#define II_ANIWING_FAIRYSPIRIT	                35120   //Fairy Spirit Wing Mask		
+#define II_ANIWING_QUEENOFHEART	                35121   //Queen of Hearts Wing Mask			
+#define II_ANIWING_BLUERUBY	                    35122   //Blue Ruby Wing Mask		
+#define II_ANIWING_MAJESTICW	                35123   //White Majestic Wing Mask		
+#define II_ANIWING_BLUELOLI	                    35124   //BlackBlue Lollipop Wing Mask	
+#define II_ANIWING_WHITEPURPLO	                35125   //WhitePurple Lollipop Wing Mask	
+#define II_ANIWING_REDBLACKLO	                35126   //RedBlack Lollipop Wing Mask	
+#define II_ANIWING_DRAGONOVERLORD	            35127   //Dragon Overlord Wing Mask		
+#define II_ANIWING_ICEAGE	                    35128   //Ice Age Wing Mask				
+#define II_ANIWING_HOLYFAIRY	                35129   //Holy White Fairy Wing Mask	
+#define II_ANIWING_HALLOWEENGING	            35130   //Halloween Ginger Kitten Wing Mask	
+#define II_ANIWING_HALLOWEENGRAY	            35131   //Halloween Gray Kitten Wing Mask
+#define II_ANIWING_2017VALENT	                35132   //2017 Valentines Wings	        
+#define II_ANIWING_GREENDRAGON	                35133   //Green Dragon Wings        
+#define II_ANIWING_MAGMADRAGON	                35134   //Magma Dragon Wings	        
+#define II_ANIWING_HALLOWEEN	                35135   //Halloween Wings
+#define II_ANIWING_DREAMQUEEN	                35136   //Dream Queen Wing Mask
+#define II_ANIWING_FLUGKRIEG	                35137   //Flug Krieger Wing Mask
+#define II_ANIWING_EVILTRON	                    35138   //X900 EvilTron Wing Mask
+#define II_ANIWING_SKYTOOTH	                    35139   //Skytooth Wing Mask
+#define II_ANIWING_ACCURSEDST	                35140   //Accursed Storm Wing Mask
+//#define II_ANIWING_HAPPYB	                    35141   //Happy Floppy Balloon Wing Mask - Removed
+#define II_ANIWING_CALYPSO	                    35142   //Calypso Wings
+#define II_ANIWING_DIABLO	                    35143   //Diabolo Wings
+#define II_ANIWING_GREATFUL	                    35144   //Demonic Wings
+#define II_ANIWING_KINESSA	                    35145   //Fire Fragments Wing Mask
+#define II_ANIWING_STRAW	                    35146   //Shards of Ice Wing Mask
+
+//Trails - Kiyo
+#define II_SYS_SYS_SCR_TRAIL_01					35147
+#define II_SYS_SYS_SCR_TRAIL_02					35148
+#define II_SYS_SYS_SCR_TRAIL_03					35149
+#define II_SYS_SYS_SCR_TRAIL_04					35150
+#define II_SYS_SYS_SCR_TRAIL_05					35151
+#define II_SYS_SYS_SCR_TRAIL_06					35152
+#define II_SYS_SYS_SCR_TRAIL_07					35153
+#define II_SYS_SYS_SCR_TRAIL_08					35154
+#define II_SYS_SYS_SCR_TRAIL_09					35155
+#define II_SYS_SYS_SCR_TRAIL_10					35156
+#define II_SYS_SYS_SCR_TRAIL_11					35157
+#define II_SYS_SYS_SCR_TRAIL_12					35158
+#define II_SYS_SYS_SCR_TRAIL_13					35159
+#define II_SYS_SYS_SCR_TRAIL_14					35160
+#define II_SYS_SYS_SCR_TRAIL_15					35161
+#define II_SYS_SYS_SCR_TRAIL_16					35162
+#define II_SYS_SYS_SCR_TRAIL_17					35163
+#define II_SYS_SYS_SCR_TRAIL_18					35164
+#define II_SYS_SYS_SCR_TRAIL_19					35165
+#define II_SYS_SYS_SCR_TRAIL_20					35166
+#define II_SYS_SYS_SCR_TRAIL_21					35167
+#define II_SYS_SYS_SCR_TRAIL_22					35168
+#define II_SYS_SYS_SCR_TRAIL_23					35169
+#define II_SYS_SYS_SCR_TRAIL_24					35170
+#define II_SYS_SYS_SCR_TRAIL_25					35171
+#define II_SYS_SYS_SCR_TRAIL_26					35172
+#define II_SYS_SYS_SCR_TRAIL_27					35173
+#define II_SYS_SYS_SCR_TRAIL_28					35174
+#define II_SYS_SYS_SCR_TRAIL_29					35175
+#define II_SYS_SYS_SCR_TRAIL_30					35176
+#define II_SYS_SYS_SCR_TRAIL_31					35177
+#define II_SYS_SYS_SCR_TRAIL_32					35178
+#define II_SYS_SYS_SCR_TRAIL_33					35179
+#define II_SYS_SYS_SCR_TRAIL_34					35180
+#define II_SYS_SYS_SCR_TRAIL_35					35181
+#define II_SYS_SYS_SCR_TRAIL_36					35182
+#define II_SYS_SYS_SCR_TRAIL_37					35183
+#define II_SYS_SYS_SCR_TRAIL_38					35184
+#define II_SYS_SYS_SCR_TRAIL_39					35185
+#define II_SYS_SYS_SCR_TRAIL_40					35186
+#define II_SYS_SYS_SCR_TRAIL_41					35187
+#define II_SYS_SYS_SCR_TRAIL_42					35188
+#define II_SYS_SYS_SCR_TRAIL_43					35189
+#define II_SYS_SYS_SCR_TRAIL_44					35190
+#define II_SYS_SYS_SCR_TRAIL_45					35191
+#define II_SYS_SYS_SCR_TRAIL_46					35192
+#define II_SYS_SYS_SCR_TRAIL_47					35193
+#define II_SYS_SYS_SCR_TRAIL_48					35194
+#define II_SYS_SYS_SCR_TRAIL_49					35195
+#define II_SYS_SYS_SCR_TRAIL_50					35196
+
+//Vote Coin - Kiyo
+#define II_SYS_VOTECOIN                         35197  //Vote Coin
+
+//Monsters Looter Pets - Kiyo
+#define	II_PET_TOTEMIA	                        35198  //Baby Totemia
+#define	II_PET_PUKEPUKE	                        35199  //Baby Pukepuke
+#define	II_PET_DEMIAN	                        35200  //Baby Demian
+#define	II_PET_NYANGNYANG	                    35201  //Baby Nyangyang
+#define	II_PET_ROCKMUSCLE	                    35202  //Baby Rock Muscle
+#define	II_PET_MRPUMPKIN	                    35203  //Baby Mr.Pumpkin
+#define	II_PET_WAGSAAC	                        35204  //Baby Wagsaac
+#define	II_PET_BASQUE	                        35205  //Baby Basque
+#define	II_PET_HARPY	                        35206  //Baby Harpy
+#define	II_PET_SYLIACA	                        35207  //Baby Syliaca
+#define	II_PET_GREEMONG	                        35208  //Baby Greemong
+#define	II_PET_MUSHPOI	                        35209  //Baby Mushpoie
+#define	II_PET_ANTIQUERY	                    35210  //Baby Antiquery
+#define	II_PET_GONGURY	                        35211  //Baby Gongury
+#define	II_PET_POPCRANK	                        35212  //Baby Popcrank
+#define	II_PET_GLAPHAN	                        35213  //Baby Glaphan
+#define	II_PET_MAMMOTH	                        35214  //Baby Mammoth
+#define	II_PET_ROACH	                        35215  //Baby Pink Roach
+#define	II_PET_CYCLOPX	                        35216  //Baby CyclopsX
+#define	II_PET_TOADRIN	                        35217  //Baby Battle Toadrin
+#define	II_PET_REPTILION	                    35218  //Baby Reptilion
+#define	II_PET_RISENMAGE	                    35219  //Baby Risen Mage
+#define	II_PET_HELLHOUND	                    35220  //Baby Hellhound
+#define	II_PET_MAGERED	                        35221  //Baby Mage Redcloud
+#define	II_PET_TAIAHA	                        35222  //Baby Taiaha
+#define	II_PET_SAKAI	                        35223  //Baby Sakai
+#define	II_PET_MARA	                            35224  //Baby Mara
+#define	II_PET_MORRIGAN	                        35225  //Baby Morrigan
+#define	II_PET_GHED	                            35226  //Baby Ghed
+
+//World Bosses Looter Pets - Kiyo
+#define	II_PET_KHAN	                            35227  //Baby Beast King Khan
+#define	II_PET_RANGDA	                        35228  //Baby Rangda
+#define	II_PET_REDMETEO	                        35229  //Baby Red Meteonyker
+#define	II_PET_GUANYU	                        35230  //Baby Guan Yu Heavyblade
+#define	II_PET_KEOKUK	                        35231  //Baby Chief Keokuk
+#define	II_PET_RAZGUL	                        35232  //Baby Razgul
+#define	II_PET_KHELDOR	                        35233  //Baby Kheldor
+#define	II_PET_DRAKUL	                        35234  //Baby Drakul The Diabolic
+#define	II_PET_ASMODAN	                        35235  //Baby Asmodan
+#define	II_PET_ANKOU	                        35236  //Baby Behemoth
+#define	II_PET_CLOCKWORKS	                    35237  //Baby Clockworks
+
+// Scroll of Name Color Change - Kiyo
+#define II_SYS_SYS_SCR_NAMECOLOR				35238  //Scroll of Name Color Change
+
+// Collecting Chips - Kiyo
+#define II_CHP_COLLECTOR						35239  //Collector Chip
+#define II_CHP_FASHION						    35240  //Fashion Chip
+#define II_SYS_COLLECTPERIN						35241  //Collector Perin
+#define II_SYS_FASHPERIN						35242  //Fashion Perin
+
+// Random Boxes - Kiyo
+#define II_SYS_SYS_SCR_BXFLYI				    35243  //Random Flying Box 
+#define II_SYS_SYS_SCR_BX1DBALLOON				35244  //Random 1 Day Balloon Box 
+#define II_SYS_SYS_SCR_BXSBEADS				    35245  //Random Bead Box 
+
+// Vote Amplification Scroll - Kiyo           
+#define II_SYS_SYS_SCR_EXPSCROLL25              35246  //Scroll of Amplification (25%)
+
+// New Custom Wings - Kiyo
+#define II_ANIWING_CUSTOMWING01				    35247  //  Eclipse Wing Mask  
+#define II_ANIWING_CUSTOMWING02				    35248  //  Wings of Hell      
+#define II_ANIWING_CUSTOMWING03				    35249  //  Wings of Heaven    
+#define II_ANIWING_CUSTOMWING04				    35250  //  Infinity Wing Mask 
+#define II_ANIWING_CUSTOMWING05				    35251  //  Wings of Flame     
+#define II_ANIWING_CUSTOMWING06				    35252  //  Crystallex Wing Mask
+#define II_ANIWING_CUSTOMWING07				    35253  //  Demon's Wings      
+#define II_ANIWING_CUSTOMWING08				    35254  //  Ancient Wing Mask  
+#define II_ANIWING_CUSTOMWING09				    35255  //  Angelic Wing Mask  
+#define II_ANIWING_CUSTOMWING10				    35256  //  Cursed Wings
+#define II_ANIWING_CUSTOMWING11				    35257  //  Haunted Wings      
+#define II_ANIWING_CUSTOMWING12				    35258  //  Dreamer Wings      
+#define II_ANIWING_CUSTOMWING13				    35259  //  Slayer Wings       
+#define II_ANIWING_CUSTOMWING14				    35260  //  Wings of Eternity  
+
+// Custom User Cloak - Kiyo
+#define II_ARM_S_CLO_CLO_CUSTOMUSER01		    35261  //Bingarrie Cloak
+
+// Random Quest Boxes - Kiyo
+#define II_SYS_SYS_SCR_BXQUESW				    35262  //Random Sword Box 
+#define II_SYS_SYS_SCR_BXQUEBSW				    35263  //Random Big Sword Box 
+#define II_SYS_SYS_SCR_BXQUEAX				    35264  //Random Axe Box 
+#define II_SYS_SYS_SCR_BXQUEBX				    35265  //Random Big Axe Box 
+#define II_SYS_SYS_SCR_BXQUECH				    35266  //Random Stick Box 
+#define II_SYS_SYS_SCR_BXQUEKN				    35267  //Random Knuckle Box 
+#define II_SYS_SYS_SCR_BXQUEBO				    35268  //Random Bow Box 
+#define II_SYS_SYS_SCR_BXQUEYO				    35269  //Random Yo-Yo Box 
+#define II_SYS_SYS_SCR_BXQUEWA				    35270  //Random Wand Box 
+#define II_SYS_SYS_SCR_BXQUEST				    35271  //Random Staff Box 
+#define II_SYS_SYS_SCR_BXQUEZE				    35272  //Random Shield Box V2
+#define II_SYS_SYS_SCR_BXQUEBOO				    35273  //Random Book Box 
+#define II_SYS_SYS_SCR_BXMQUEHAT			    35274  //Random Fashion Hat Box (M)  
+#define II_SYS_SYS_SCR_BXFQUEHAT			    35275  //Random Fashion Hat Box (F)  
+#define II_SYS_SYS_SCR_BXMQUESUIT			    35276  //Random Fashion Suit Box (M) 
+#define II_SYS_SYS_SCR_BXFQUESUIT			    35277  //Random Fashion Suit Box (F) 
+#define II_SYS_SYS_SCR_BXMQUEGLOVES				35278  //Random Fashion Gloves Box (M)
+#define II_SYS_SYS_SCR_BXFQUEGLOVES				35279  //Random Fashion Gloves Box (F)
+#define II_SYS_SYS_SCR_BXMQUESHOES			    35280  //Random Fashion Shoes Box (M)
+#define II_SYS_SYS_SCR_BXFQUESHOES 				35281  //Random Fashion Shoes Box (F)
+
+// More Sword Models - Kiyo
+#define	II_WEA_SWO_GLINTING                     35282  //Glinting Blade Sword	
+#define	II_WEA_SWO_REAPER					    35283  //Reaper Sword	
+#define	II_WEA_SWO_MAMELUKE					    35284  //Mameluke Sword	
+#define	II_WEA_SWO_WAVES					    35285  //Splashing Waves Sword	
+#define	II_WEA_SWO_GILDED					    35286  //Gilded Sword	
+#define	II_WEA_SWO_POINT					    35287  //Point Sword	
+#define	II_WEA_SWO_SPINAL					    35288  //Spinal Sword	
+#define	II_WEA_SWO_SCISSORS					    35289  //Scissors Sword	
+#define	II_WEA_SWO_KINGS					    35290  //Kings Sword	
+#define	II_WEA_SWO_LAPIS					    35291  //Lapis Sword
+#define	II_WEA_SWO_MYSTERY					    35292  //Mystery Eye Sword	
+#define	II_WEA_SWO_IMPULSE					    35293  //Impulse Sword	
+#define	II_WEA_SWO_WINGEDANGEL				    35294  //Winged Angel Sword
+#define	II_WEA_SWO_SOULLESS					    35295  //Soulless Sword	
+#define	II_WEA_SWO_INFERNO					    35296  //Inferno Sword	
+#define	II_WEA_SWO_DIAMOND					    35297  //Diamond Sword	
+#define	II_WEA_SWO_WITHERBRAND				    35298  //Witherbrand Sword	
+#define	II_WEA_SWO_EMERALD					    35299  //Emerald Sword	
+#define	II_WEA_SWO_AMETHYST					    35300  //Amethyst Sword	
+#define	II_WEA_SWO_LONGINUS					    35301  //Longinus Sword	
+#define	II_WEA_SWO_ATTILA					    35302  //Attila Sword
+#define	II_WEA_SWO_GLAMDRING				    35303  //Glamdring Sword	
+#define	II_WEA_SWO_SOULRIP					    35304  //Soul Rip Sword	
+#define	II_WEA_SWO_ONIX				            35305  //Onix Sword	
+													   								
+// More Big Sword Models - Kiyo
+#define	II_WEA_SWT_TEMPLER				        35306  //Templar Slayer	
+#define	II_WEA_SWT_DILIGENCE				    35307  //Diligence Slayer	
+#define	II_WEA_SWT_BONESLAYER				    35308  //Bone Slayer	
+#define	II_WEA_SWT_GLIMMER				        35309  //Glimmer Slayer	
+#define	II_WEA_SWT_AZUREWRATH			        35310  //Azurewrath Slayer	
+#define	II_WEA_SWT_NIGHTBANE				    35311  //Nightbane Slayer	
+#define	II_WEA_SWT_ENVY				            35312  //Envy Slayer	
+#define	II_WEA_SWT_SCALPEL				        35313  //Scalpel Slayer	
+#define	II_WEA_SWT_HELLREAVER				    35314  //Hellreaver Slayer	
+#define	II_WEA_SWT_STORM				        35315  //Storm Slayer	
+#define	II_WEA_SWT_WATERD				        35316  //Water Dragon Slayer	
+#define	II_WEA_SWT_FORCEWATER				    35317  //Forced Water Slayer	
+#define	II_WEA_SWT_SOULRIP				        35318  //Soul Rip Slayer	
+#define	II_WEA_SWT_DAWN				            35319  //Dawn Slayer	
+#define	II_WEA_SWT_DESOLATION				    35320  //Desolation Slayer	
+#define	II_WEA_SWT_GILDED				        35321  //Gilded Slayer	
+#define	II_WEA_SWT_BLUEROSE				        35322  //Blue Rose Slayer	
+#define	II_WEA_SWT_OMEGA				        35323  //Omega Slayer	
+#define	II_WEA_SWT_VENGEANCE				    35324  //Vengeance Slayer	
+#define	II_WEA_SWT_AMETHYST				        35325  //Amethyst Slayer	
+#define	II_WEA_SWT_ARCHEDR				        35326  //Arched Reaver Slayer	
+#define	II_WEA_SWT_GUTRENDER				    35327  //Gutrender Slayer	
+#define	II_WEA_SWT_SPINAL				        35328  //Spinal Slayer	
+#define	II_WEA_SWT_ONIX				            35329  //Onix Slayer	
+
+// More Axe Models - Kiyo
+#define	II_WEA_AXE_MIDNIGHT				        35330  //Midnight Axe
+#define	II_WEA_AXE_PURIFIER				        35331  //Purifier Axe
+#define	II_WEA_AXE_RAGING				        35332  //Raging Bull Axe
+#define	II_WEA_AXE_TRIBAL				        35333  //Tribal Axe
+#define	II_WEA_AXE_FROSTBITE			        35334  //Frostbite Axe
+#define	II_WEA_AXE_DOOMWAR		                35335  //Doom War Axe
+#define	II_WEA_AXE_HELLSSC				        35336  //Hells Scream Axe
+#define	II_WEA_AXE_EAGLE			            35337  //Eagle Axe
+#define	II_WEA_AXE_BEAST			            35338  //Beast Axe
+#define	II_WEA_AXE_GEAR				            35339  //Gear Axe
+#define	II_WEA_AXE_NIGHTBANE				    35340  //Nightbane Axe
+#define	II_WEA_AXE_OATHBREAK				    35341  //Oathbreaker Axe
+#define	II_WEA_AXE_KNIGHTGUARD				    35342  //Knights Guard Axe
+#define	II_WEA_AXE_CRISMON				        35343  //Crimson Axe
+#define	II_WEA_AXE_MYSTERYEYE				    35344  //Mystery Eye Axe
+#define	II_WEA_AXE_FAITHKEEP				    35345  //Faithkeeper Axe
+#define	II_WEA_AXE_TEMPLAR				        35346  //Templar Axe
+#define	II_WEA_AXE_DRAGONFIRE				    35347  //Dragon Fire Axe
+#define	II_WEA_AXE_ENDBRINGER				    35348  //Endbringer Axe
+#define	II_WEA_AXE_UNICORN				        35349  //Unicorn Knight Axe
+#define	II_WEA_AXE_WINDREAPER				    35350  //Windreaper Axe
+#define	II_WEA_AXE_SKULLBASH				    35351  //Skull Basher Axe
+#define	II_WEA_AXE_SOULRIP				        35352  //Soul Rip Axe
+#define	II_WEA_AXE_DEATHSPADE				    35353  //Deathspade Axe		
+
+// More Big Axe Models - Kiyo
+#define	II_WEA_AXT_MIDNIGHT				        35354  //Midnight Destroyer	
+#define	II_WEA_AXT_PURIFIER				        35355  //Purifier Destroyer
+#define	II_WEA_AXT_RAGINGBULL				    35356  //Raging Bull Destroyer
+#define	II_WEA_AXT_TRIBAL				        35357  //Tribal Destroyer
+#define	II_WEA_AXT_FROSTBITE				    35358  //Frostbite Destroyer
+#define	II_WEA_AXT_DOOMWAR				        35359  //Doom War Destroyer
+#define	II_WEA_AXT_HELLS				        35360  //Hells Scream Destroyer
+#define	II_WEA_AXT_EAGLE				        35361  //Eagle Destroyer
+#define	II_WEA_AXT_BEAST				        35362  //Beast Destroyer
+#define	II_WEA_AXT_GEARDEST				        35363  //Gear Destroyer
+#define	II_WEA_AXT_NIGHTBANE				    35364  //Nightbane Destroyer
+#define	II_WEA_AXT_OATHBREAKER				    35365  //Oathbreaker Destroyer
+#define	II_WEA_AXT_KNIGHTGUARD				    35366  //Knights Guard Destroyer
+#define	II_WEA_AXT_CRISMON				        35367  //Crimson Destroyer
+#define	II_WEA_AXT_MYSTERY				        35368  //Mystery Eye Destroyer
+#define	II_WEA_AXT_FAITHKEEPER				    35369  //Faithkeeper Destroyer
+#define	II_WEA_AXT_TEMPLAR				        35370  //Templar Destroyer
+#define	II_WEA_AXT_DRAGONFIRE				    35371  //Dragon Fire Destroyer
+#define	II_WEA_AXT_ENDBRINGER				    35372  //Endbringer Destroyer
+#define	II_WEA_AXT_UNICORN				        35373  //Unicorn Knight Destroyer		
+#define	II_WEA_AXT_WINDREAPER				    35374  //Windreaper Destroyer
+#define	II_WEA_AXT_SKULLBASHER				    35375  //Skull Basher Destroyer
+#define	II_WEA_AXT_SOULRIP				        35376  //Soul Rip Destroyer
+#define	II_WEA_AXT_DEATHSPADE				    35377  //Deathspade Destroyer
+
+// More Stick Models - Kiyo
+#define	II_WEA_CHE_EARTHBINDING				    35378  //Earth Binding Stick
+#define	II_WEA_CHE_CROWTOTEM				    35379  //Crow Totem Stick
+#define	II_WEA_CHE_SUDARASANA				    35380  //Sudarsana Stick
+#define	II_WEA_CHE_SHAMANS				        35381  //Shamans Gold Stick
+#define	II_WEA_CHE_CRYSTAL				        35382  //Crystal Flower Stick
+#define	II_WEA_CHE_CRESCENT				        35383  //Crescent Moon Stick
+#define	II_WEA_CHE_HANDBEAST				    35384  //Hand Of The Beast Stick
+#define	II_WEA_CHE_VENO				            35385  //Veno Stick
+#define	II_WEA_CHE_WHITESNOW				    35386  //White Snow Stick
+#define	II_WEA_CHE_SOULLESS				        35387  //Soulless Beast Stick
+#define	II_WEA_CHE_VAMPIRIC				        35388  //Vampiric Leech Stick
+#define	II_WEA_CHE_UNIVERSE				        35389  //Universe Stick	
+#define	II_WEA_CHE_FIREGEM				        35390  //Fire Gem Stick
+#define	II_WEA_CHE_PEARLYGRAY				    35391  //Pearly Gray Stick		
+#define	II_WEA_CHE_SETTINGSUN				    35392  //Setting Sun Stick
+#define	II_WEA_CHE_BLACKSCALE				    35393  //Black Scale Stick
+#define	II_WEA_CHE_DRAGONFIRE				    35394  //Dragon Fire Stick
+#define	II_WEA_CHE_SPLASHINGWAVE				35395  //Splashing Waves Stick	
+#define	II_WEA_CHE_MYSTERYEYE				    35396  //Mystery Eye Stick		
+#define	II_WEA_CHE_GROND				        35397  //Grond Stick	
+#define	II_WEA_CHE_WAYLAND				        35398  //Wayland Stick
+#define	II_WEA_CHE_FIEND				        35399  //Fiend Stick
+#define	II_WEA_CHE_KINGGUARD				    35400  //Kings Guard Stick
+#define	II_WEA_CHE_HARPY				        35401  //Harpy Stick
+#define	II_WEA_CHE_BLACKSUN				        35402  //Black Sun Stick
+#define	II_WEA_CHE_CYANBLOODY				    35403  //Cyan Bloody Stick
+#define	II_WEA_CHE_GREENBLOODY				    35404  //Green Bloody Stick	
+#define	II_WEA_CHE_PURPLEBLOODY				    35405  //Purple Bloody Stick
+#define	II_WEA_CHE_GREENICEBORN				    35406  //Green Iceborn Stick
+#define	II_WEA_CHE_ORANGEICEBORN				35407  //Orange Iceborn Stick
+#define	II_WEA_CHE_PURPLEICEBORN				35408  //Purple Iceborn Stick
+#define	II_WEA_CHE_REDICEBORN				    35409  //Red Iceborn Stick
+#define	II_WEA_CHE_YELLOWICEBORN				35410  //Yellow Iceborn Stick
+
+// More Knuckle Models - Kiyo
+#define	II_WEA_KNU_BLADE 				        35411  //Blade Knuckle
+#define	II_WEA_KNU_ABARIS 				        35412  //Abaris Knuckle
+#define	II_WEA_KNU_ICECLE 				        35413  //Icicle Knuckle
+#define	II_WEA_KNU_THREEPRONG 				    35414  //Three Prong Knuckle
+#define	II_WEA_KNU_EMERALD				        35415  //Emerald Knuckle
+#define	II_WEA_KNU_ENVYBALL 				    35416  //Envy Bull Knuckle
+#define	II_WEA_KNU_PRECISION 				    35417  //Precision Dart Knuckle
+#define	II_WEA_KNU_VENEER 				        35418  //Veneer Knuckle
+#define	II_WEA_KNU_TEMPLAR 				        35419  //Templar Knuckle
+#define	II_WEA_KNU_VIOLET				        35420  //Violet Dart Knuckle
+#define	II_WEA_KNU_SHADOW				        35421  //Shadow Knuckle
+#define	II_WEA_KNU_SAFEGUARD				    35422  //Safeguard Knuckle
+#define	II_WEA_KNU_VIOLETDASH				    35423  //Violet Dash Knuckle
+#define	II_WEA_KNU_KNIGHTSGUARD				    35424  //Knights Guard Knuckle
+#define	II_WEA_KNU_GREENBEAST			        35425  //Green Beast Knuckle
+#define	II_WEA_KNU_TRIBAL				        35426  //Tribal Knuckle	
+#define	II_WEA_KNU_CHAINED			            35427  //Chained Beast Knuckle
+#define	II_WEA_KNU_ICEDEMON				        35428  //Ice Demon Knuckle
+#define	II_WEA_KNU_DEMON				        35429  //Demon Knuckle
+#define	II_WEA_KNU_GLACIER				        35430  //Glacier Knuckle
+#define	II_WEA_KNU_VINE				            35431  //Vine Knuckle
+#define	II_WEA_KNU_FIEND				        35432  //Fiend Gauntlet Knuckle
+
+// More Wand Models - Kiyo
+#define	II_WEA_WAN_EARTH				        35433  //Earth Binding Wand
+#define	II_WEA_WAN_CROWTOTEM				    35434  //Crow Totem Wand
+#define	II_WEA_WAN_SUDARSANA				    35435  //Sudarsana Wand
+#define	II_WEA_WAN_SHAMAN				        35436  //Shaman Aura Wand
+#define	II_WEA_WAN_CRYSTALF				        35437  //Crystal Flower Wand
+#define	II_WEA_WAN_CRESCENT				        35438  //Crescent Moon Wand
+#define	II_WEA_WAN_HANDBEAST				    35439  //Hand Of The Beast Wand
+#define	II_WEA_WAN_VENO				            35440  //Veno Wand
+#define	II_WEA_WAN_WHITESNOW				    35441  //White Snow Wand
+#define	II_WEA_WAN_SOULLESS				        35442  //Soulless Beast Wand
+#define	II_WEA_WAN_VAMPIRIC				        35443  //Vampiric Leech Wand
+#define	II_WEA_WAN_UNIVERSE				        35444  //Universe Wand
+#define	II_WEA_WAN_FIREGEM				        35445  //Fire Gem Wand
+#define	II_WEA_WAN_PEARLY			            35446  //Pearly Gray Wand
+#define	II_WEA_WAN_SETTINGSUN				    35447  //Setting Sun Wand
+#define	II_WEA_WAN_BLACKSCALE				    35448  //Black Scale Wand
+#define	II_WEA_WAN_DRAGONFIRE				    35449  //Dragon Fire Wand
+#define	II_WEA_WAN_SPLASHWAVE				    35450  //Splashing Waves Wand
+#define	II_WEA_WAN_MYSTERYEYE				    35451  //Mystery Eye Wand
+#define	II_WEA_WAN_GRONDWAND				    35452  //Grond Wand
+#define	II_WEA_WAN_WAYLAND				        35453  //Wayland Wand
+#define	II_WEA_WAN_FIENDWAND				    35454  //Fiend Wand
+#define	II_WEA_WAN_KINGGUARD				    35455  //Kings Guard Wand
+#define	II_WEA_WAN_HARPY				        35456  //Harpy Wand
+
+// More Staff Models - Kiyo
+#define	II_WEA_STA_EARTH					    35457  //Earth Binding Staff
+#define	II_WEA_STA_CROWTOTEM				    35458  //Crow Totem Staff
+#define	II_WEA_STA_SUDARSANA				    35459  //Sudarsana Staff
+#define	II_WEA_STA_SHAMAN					    35460  //Shamans Gold Staff
+#define	II_WEA_STA_CRYSTALF					    35461  //Crystal Flower Staff
+#define	II_WEA_STA_CRESCENT					    35462  //Crescent Moon Staff
+#define	II_WEA_STA_HANDBEAST				    35463  //Hand Of The Beast Staff
+#define	II_WEA_STA_VENO						    35464  //Veno Staff
+#define	II_WEA_STA_WHITESNOW				    35465  //White Snow Staff
+#define	II_WEA_STA_VAMPIRIC				        35466  //Vampiric Leech Staff
+#define	II_WEA_STA_UNIVERSE				        35467  //Universe Staff
+#define	II_WEA_STA_FIREGEM				        35468  //Fire Gem Staff
+#define	II_WEA_STA_PEARLY				        35469  //Pearly Gray Staff
+#define	II_WEA_STA_SETTINGSUN				    35470  //Setting Sun Staff
+#define	II_WEA_STA_BLACKSCALE				    35471  //Black Scale Staff
+#define	II_WEA_STA_DRAGONFIRE				    35472  //Dragon Fire Staff
+#define	II_WEA_STA_SPLASHWAVE				    35473  //Splashing Waves Staff
+#define	II_WEA_STA_MYSTERYEYE				    35474  //Mystery Eye Staff
+#define	II_WEA_STA_GRONDWAND				    35475  //Grond Staff
+#define	II_WEA_STA_WAYLAND				        35476  //Wayland Staff
+#define	II_WEA_STA_FIENDWAND				    35478  //Fiend Staff
+#define	II_WEA_STA_KINGGUARD				    35479  //Kings Guard Staff
+#define	II_WEA_STA_HARPY				        35480  //Harpy Staff
+
+// More Bow Models - Kiyo
+#define	II_WEA_BOW_NATURES				        35481  //Natures Guise Bow
+#define	II_WEA_BOW_BLADE				        35482  //Blade Bow
+#define	II_WEA_BOW_GRAM				            35483  //Gram Bow
+#define	II_WEA_BOW_HARPY				        35484  //Harpy Bow
+#define	II_WEA_BOW_SWIFTB				        35485  //Blue Swiftness Bow	
+#define	II_WEA_BOW_MARKSMAN				        35486  //Marksman Bow
+#define	II_WEA_BOW_CREATURE				        35487  //Creature Of The Deep Bow
+#define	II_WEA_BOW_PEARLY				        35488  //Pearly Bow
+#define	II_WEA_BOW_FLAMBERGE				    35489  //Flamberge Bow
+#define	II_WEA_BOW_BUTTERFLY				    35490  //Butterfly Bow
+#define	II_WEA_BOW_NORTH				        35491  //North Bow
+#define	II_WEA_BOW_BLUEROSE				        35492  //Blue Rose Bow
+#define	II_WEA_BOW_BEEAST				        35493  //Beast Bow
+#define	II_WEA_BOW_GOLDENGEAR				    35494  //Golden Gear Bow
+#define	II_WEA_BOW_FIENDEYE				        35495  //Fiend Eye Bow
+#define	II_WEA_BOW_ANDURIL				        35496  //Anduril Bow
+#define	II_WEA_BOW_KNIGHTGUARD				    35497  //Knights Guard Bow
+#define	II_WEA_BOW_DEMONKING				    35498  //Demon King Bow
+#define	II_WEA_BOW_BLACKEAGLE				    35499  //Black Eagle Bow
+#define	II_WEA_BOW_POWER				        35500  //Power Charged Bow
+#define	II_WEA_BOW_DEMON				        35501  //Demon Gear Bow
+#define	II_WEA_BOW_FEATHERED				    35502  //Feathered Serpent Bow
+#define	II_WEA_BOW_DRAGONFIRE				    35503  //Dragon Fire Bow
+#define	II_WEA_BOW_ICESHARD				        35504  //Ice Shard Bow
+
+// More Yo-Yo Models - Kiyo
+#define	II_WEA_YOY_ICECOLD				        35505  //Ice Cold Aura Yo-Yo	
+#define	II_WEA_YOY_LAVAHOT				        35506  //Lava Hot Aura Yo-Yo	
+#define	II_WEA_YOY_MAGNUM				        35507  //Magnum Aura Yo-Yo	
+#define	II_WEA_YOY_BLUETHUNDER				    35508  //Blue Thunder Aura Yo-Yo
+#define	II_WEA_YOY_AURA				            35509  //Aura Yo-Yo of Bones	
+#define	II_WEA_YOY_DRAGONSCALE				    35510  //Dragon Scale Aura Yo-Yo
+#define	II_WEA_YOY_BLUETOPAZ				    35511  //Blue Topaz Aura Yo-Yo	
+#define	II_WEA_YOY_SWIFTB				        35512  //Blue Swift Aura Yo-Yo	
+#define	II_WEA_YOY_ROOTED				        35513  //Rooted Aura Yo-Yo		
+#define	II_WEA_YOY_BLOODDRAGON				    35514  //Blood Dragon Aura Yo-Yo
+#define	II_WEA_YOY_YANGFANG				        35515  //Yang Fang Aura Yo-Yo
+#define	II_WEA_YOY_BLACKLILLA				    35516  //Black Lilla Aura Yo-Yo
+#define	II_WEA_YOY_LEEFES				        35517  //Leafes Yo-Yo
+#define	II_WEA_YOY_WOODEN				        35518  //Wooden Yo-Yo
+#define	II_WEA_YOY_DARKBLOOD				    35519  //Dark Blood Yo-Yo
+#define	II_WEA_YOY_REDROMAN				        35520  //Red Roman Yo-Yo
+#define	II_WEA_YOY_BLUEROMAN				    35521  //Blue Roman Yo-Yo
+#define	II_WEA_YOY_CHAINS				        35522  //Chains Yo-Yo
+#define	II_WEA_YOY_LOTR				            35523  //LOTR Short Yo-Yo
+#define	II_WEA_YOY_YELLOWMAL				    35524  //Yellow Malefic Yo-Yo
+#define	II_WEA_YOY_QUEENDEATH				    35525  //Queen Death Yo-Yo
+#define	II_WEA_YOY_RUBY				            35526  //Ruby Century Yo-Yo
+#define	II_WEA_YOY_AQUA				            35527  //Aqua Beast Yo-Yo
+
+// More Book Models - Kiyo
+#define	II_WEA_BOK_DRABBIT				        35528  //Dark Rabbit Book
+#define	II_WEA_BOK_HALOWCOFFIN				    35529  //Halloween Coffin Book
+#define	II_WEA_BOK_HALLOWLANT				    35530  //Halloween Lantern Book
+#define	II_WEA_BOK_INFECTBOY				    35531  //Infected Boy Book
+#define	II_WEA_BOK_SKELEPUPPET				    35532  //Skeleton Puppet Book
+#define	II_WEA_BOK_SNOWKITTY				    35533  //Snow Kitty Book
+#define	II_WEA_BOK_SNOWSOLIDER				    35534  //Snow Solider Book
+#define	II_WEA_BOK_RUDOLPH				        35535  //Rudolph Book
+
+// More Shield Models - Kiyo
+#define II_ARM_ARM_SHI_BEAST                    35536  //Beast Shield		 
+#define II_ARM_ARM_SHI_MYSTERY                  35537  //Mystery Eye Shield
+#define II_ARM_ARM_SHI_KINGSGUARD               35538  //Kings Guard Shield
+#define II_ARM_ARM_SHI_FLOURISHING              35539  //Flourishing Shield
+#define II_ARM_ARM_SHI_UNICORN                  35540  //Unicorn Shield	 
+#define II_ARM_ARM_SHI_ICESHARD                 35541  //Ice Shard Shield	 
+#define II_ARM_ARM_SHI_ROSETHORN                35542  //Rose Thorn Shield	 
+#define II_ARM_ARM_SHI_CRISMON                  35543  //Crimson Shard Shiel 
+#define II_ARM_ARM_SHI_FIEND                    35544  //Fiend Shield	 
+#define II_ARM_ARM_SHI_WOLFSBANE                35545  //Wolfsbane Shield	 
+#define II_ARM_ARM_SHI_PEARL                    35546  //Pearl Shield	 
+#define II_ARM_ARM_SHI_TEMPLAR                  35547  //Templar Shield 
+#define II_ARM_ARM_SHI_REDGUARD                 35548  //Red Guard Shield	 
+#define II_ARM_ARM_SHI_ZOMBIE                   35549  //Zombie Shield		 
+#define II_ARM_ARM_SHI_WATERWING                35550  //Water Wing Shield	 
+#define II_ARM_ARM_SHI_HELLSGATE                35551  //Hells Gate Shield	 
+#define II_ARM_ARM_SHI_SOLAR                    35552  //Solar Crest Shield
+#define II_ARM_ARM_SHI_NORTHSTAR                35553  //North Star Shield	 
+#define II_ARM_ARM_SHI_PHARAOH                  35554  //Pharaoh Shield 
+#define II_ARM_ARM_SHI_ROOK                     35555  //Rook Shield 
+#define II_ARM_ARM_SHI_TRIDENT                  35556  //Trident Shield
+#define II_ARM_ARM_SHI_DRAGONWING               35557  //Dragon Wing Shield 
+#define II_ARM_ARM_SHI_MOONSHARD                35558  //Moon Shard Shield	
+#define II_ARM_ARM_SHI_BLUESUN                  35559  //Blue Sun Shield
+
+// Anime Masks - Kiyo
+#define II_ARM_S_CLO_MAS_ANIME01                35560  //Anime Mask V1
+#define II_ARM_S_CLO_MAS_ANIME02                35561  //Anime Mask V2
+#define II_ARM_S_CLO_MAS_ANIME03                35562  //Anime Mask V3
+#define II_ARM_S_CLO_MAS_ANIME04                35563  //Anime Mask V4
+#define II_ARM_S_CLO_MAS_ANIME05                35564  //Anime Mask V5
+
+// Crafting Material - Kiyo
+#define II_GEN_GEM_CRAFTMATERIAL001             35565  // Gem Piece
+#define II_GEN_GEM_CRAFTMATERIAL002             35566  // Blue Feather
+#define II_GEN_GEM_CRAFTMATERIAL003             35567  // Ligt Ball
+#define II_GEN_GEM_CRAFTMATERIAL004             35568  // Green Acorn
+#define II_GEN_GEM_CRAFTMATERIAL005             35569  // Dinner Fish
+#define II_GEN_GEM_CRAFTMATERIAL006             35570  // Blue Poisen
+#define II_GEN_GEM_CRAFTMATERIAL007             35571  // Sky Light
+#define II_GEN_GEM_CRAFTMATERIAL008             35572  // Yellow Spirit
+#define II_GEN_GEM_CRAFTMATERIAL009             35573  // Garden Vegetables
+#define II_GEN_GEM_CRAFTMATERIAL010             35574  // Gray Sand Paper
+#define II_GEN_GEM_CRAFTMATERIAL011             35575  // Water Light
+#define II_GEN_GEM_CRAFTMATERIAL012             35576  // Black Jar
+#define II_GEN_GEM_CRAFTMATERIAL013             35577  // Rainbow Crystal
+#define II_GEN_GEM_CRAFTMATERIAL014             35578  // Blue Flower
+#define II_GEN_GEM_CRAFTMATERIAL015             35579  // Demon's Meal
+#define II_GEN_GEM_CRAFTMATERIAL016             35580  // Snake Basket
+#define II_GEN_GEM_CRAFTMATERIAL017             35581  // Earth Light
+#define II_GEN_GEM_CRAFTMATERIAL018             35582  // Blue Spirit
+#define II_GEN_GEM_CRAFTMATERIAL019             35583  // Angel's Spiral
+#define II_GEN_GEM_CRAFTMATERIAL020             35584  // Rare Fish
+#define II_GEN_GEM_CRAFTMATERIAL021             35585  // Dark Flame
+#define II_GEN_GEM_CRAFTMATERIAL022             35586  // Pink Crystal
+#define II_GEN_GEM_CRAFTMATERIAL023             35587  // Blue Surface
+#define II_GEN_GEM_CRAFTMATERIAL024             35588  // Compass Piece
+#define II_GEN_GEM_CRAFTMATERIAL025             35589  // Trapped Soul
+#define II_GEN_GEM_CRAFTMATERIAL026             35590  // Fluffy Fur
+#define II_GEN_GEM_CRAFTMATERIAL027             35591  // Red Spirit
+#define II_GEN_GEM_CRAFTMATERIAL028             35592  // Wooden Plank
+#define II_GEN_GEM_CRAFTMATERIAL029             35593  // Violet Wishes Tree
+#define II_GEN_GEM_CRAFTMATERIAL030             35594  // Jewel Pieces
+#define II_GEN_GEM_CRAFTMATERIAL031             35595  // Lost Power
+#define II_GEN_GEM_CRAFTMATERIAL032             35596  // Alchemy Diamonds
+#define II_GEN_GEM_CRAFTMATERIAL033             35597  // Dead Branch
+#define II_GEN_GEM_CRAFTMATERIAL034             35598  // Flower Pot
+#define II_GEN_GEM_CRAFTMATERIAL035             35599  // Green Dust
+#define II_GEN_GEM_CRAFTMATERIAL036             35600  // Yellow Spirit
+#define II_GEN_GEM_CRAFTMATERIAL037             35601  // Vampire's Toy
+#define II_GEN_GEM_CRAFTMATERIAL038             35602  // Holy Book
+#define II_GEN_GEM_CRAFTMATERIAL039             35603  // Carve Wood
+#define II_GEN_GEM_CRAFTMATERIAL040             35604  // Soul of the Sea
+#define II_GEN_GEM_CRAFTMATERIAL041             35605  // Red Scarf  
+#define II_GEN_GEM_CRAFTMATERIAL042             35606  // Pink Spirit
+#define II_GEN_GEM_CRAFTMATERIAL043             35607  // Mint Leaves
+#define II_GEN_GEM_CRAFTMATERIAL044             35608  // Devil's Mask
+#define II_GEN_GEM_CRAFTMATERIAL045             35609  // Ruby Piece
+#define II_GEN_GEM_CRAFTMATERIAL046             35610  // Green Wishes Tree
+#define II_GEN_GEM_CRAFTMATERIAL047             35611  // Blue Crystal
+#define II_GEN_GEM_CRAFTMATERIAL048             35612  // Brown Surface
+#define II_GEN_GEM_CRAFTMATERIAL049             35613  // Burning Branch
+#define II_GEN_GEM_CRAFTMATERIAL050             35614  // Yummy Taco
+#define II_GEN_GEM_CRAFTMATERIAL051             35615  // Eagle's Piece
+#define II_GEN_GEM_CRAFTMATERIAL052             35616  // Rock Piece
+#define II_GEN_GEM_CRAFTMATERIAL053             35617  // Dangerous Potion
+#define II_GEN_GEM_CRAFTMATERIAL054             35618  // Holiday Bell
+#define II_GEN_GEM_CRAFTMATERIAL055             35619  // Holiday Cake
+#define II_GEN_GEM_CRAFTMATERIAL056             35620  // Red Sand Paper
+#define II_GEN_GEM_CRAFTMATERIAL057             35621  // Orange Star
+#define II_GEN_GEM_CRAFTMATERIAL058             35622  // Secret Key
+#define II_GEN_GEM_CRAFTMATERIAL059             35623  // Holy Potion
+#define II_GEN_GEM_CRAFTMATERIAL060             35624  // Fire Light
+#define II_GEN_GEM_CRAFTMATERIAL061             35625  // Dinner Plate
+#define II_GEN_GEM_CRAFTMATERIAL062             35626  // Pink Great Tree
+#define II_GEN_GEM_CRAFTMATERIAL063             35627  // Pearl Piece
+#define II_GEN_GEM_CRAFTMATERIAL064             35628  // Living Branch
+#define II_GEN_GEM_CRAFTMATERIAL065             35629  // Backed Turkey
+#define II_GEN_GEM_CRAFTMATERIAL066             35630  // Red Wishes Tree
+#define II_GEN_GEM_CRAFTMATERIAL067             35631  // Flower Leaves
+#define II_GEN_GEM_CRAFTMATERIAL068             35632  // Clean Backpack
+#define II_GEN_GEM_CRAFTMATERIAL069             35633  // Yellow Wishes Tree
+#define II_GEN_GEM_CRAFTMATERIAL070             35634  // Purple Poisen	    
+#define II_GEN_GEM_CRAFTMATERIAL071             35635  // Book of Rules    
+#define II_GEN_GEM_CRAFTMATERIAL072             35636  // Pickaxe  
+#define II_GEN_GEM_CRAFTMATERIAL073             35637  // Flower Bag
+#define II_GEN_GEM_CRAFTMATERIAL074             35638  // Green Seed   
+#define II_GEN_GEM_CRAFTMATERIAL075             35639  // Bird Skull
+#define II_GEN_GEM_CRAFTMATERIAL076             35640  // White Feather
+#define II_GEN_GEM_CRAFTMATERIAL077             35641  // Green Feather
+#define II_GEN_GEM_CRAFTMATERIAL078             35642  // Light Feather
+#define II_GEN_GEM_CRAFTMATERIAL079             35643  // Beast Horn
+#define II_GEN_GEM_CRAFTMATERIAL080             35644  // Rope Piece  
+#define II_GEN_GEM_CRAFTMATERIAL081             35645  // Shiny Diamond Piece
+#define II_GEN_GEM_CRAFTMATERIAL082             35646  // Purple Bomb
+#define II_GEN_GEM_CRAFTMATERIAL083             35647  // Black Ribbon
+#define II_GEN_GEM_CRAFTMATERIAL084             35648  // Piece of Stone
+#define II_GEN_GEM_CRAFTMATERIAL085             35649  // Barrel of Water
+#define II_GEN_GEM_CRAFTMATERIAL086             35650  // Old Bone
+#define II_GEN_GEM_CRAFTMATERIAL087             35651  // Shiny Diamond
+#define II_GEN_GEM_CRAFTMATERIAL088             35652  // Orange Sprout
+#define II_GEN_GEM_CRAFTMATERIAL089             35653  // Candy Jar 
+#define II_GEN_GEM_CRAFTMATERIAL090             35654  // Red Poisen
+#define II_GEN_GEM_CRAFTMATERIAL091             35655  // Winner Medal  
+#define II_GEN_GEM_CRAFTMATERIAL092             35656  // Poisonous Snake
+#define II_GEN_GEM_CRAFTMATERIAL093             35657  // Brown Card
+#define II_GEN_GEM_CRAFTMATERIAL094             35658  // Purple Ore
+#define II_GEN_GEM_CRAFTMATERIAL095             35659  // Old Log
+#define II_GEN_GEM_CRAFTMATERIAL096             35660  // Candies
+#define II_GEN_GEM_CRAFTMATERIAL097             35661  // Old Coins
+#define II_GEN_GEM_CRAFTMATERIAL098             35662  // Yellow Card
+#define II_GEN_GEM_CRAFTMATERIAL099             35663  // Blue Ore
+#define II_GEN_GEM_CRAFTMATERIAL100             35664  // Rainbow Fire
+#define II_GEN_GEM_CRAFTMATERIAL101             35665  // Green Spirit
+                                                         
+// Random Moonstone & Sunstone Boxes - Kiyo              
+#define II_SYS_SYS_SCR_BXMOONS				    35666  //Random Moonstone Box 
+#define II_SYS_SYS_SCR_BXSUNST				    35667  //Random Sunstone Box 
+#define II_SYS_SYS_SCR_BXSHINO				    35668  //Random Shining Oricalkum Box 
+
+// More Unique Quest Items - Kiyo
+#define	II_SYS_SYS_EVE_QUESTDROP7				35669   //Red Seed of Glory 	 
+#define	II_SYS_SYS_EVE_QUESTDROP8				35670   //Yellow Seed of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP9				35671   //Green Seed of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP10				35672   //Purple Seed of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP11				35673   //Seed of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP12				35674   //Plant of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP13				35675   //Pink Fruit
+#define	II_SYS_SYS_EVE_QUESTDROP14				35676   //Orange Fruit
+#define	II_SYS_SYS_EVE_QUESTDROP15				35677   //Mushroom
+#define	II_SYS_SYS_EVE_QUESTDROP16				35678   //Biscuits
+#define	II_SYS_SYS_EVE_QUESTDROP17				35679   //Blue Fruit
+#define	II_SYS_SYS_EVE_QUESTDROP18				35680   //Purple Fruit
+#define	II_SYS_SYS_EVE_QUESTDROP19				35681   //Green Jar of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP20				35682   //Purple Jar of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP21				35683   //Yellow Jar of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP22				35684   //Blue Jar of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP23				35685   //Purple Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP24				35686   //Green Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP25				35687   //Yellow Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP26				35688   //Blue Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP27				35689   //Ping Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP28				35690   //Orange Bag of Heaven
+#define	II_SYS_SYS_EVE_QUESTDROP29				35691   //Crystal of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP30				35692   //Yellow Lolipop
+#define	II_SYS_SYS_EVE_QUESTDROP31				35693   //Red Stone of Glory 
+#define	II_SYS_SYS_EVE_QUESTDROP32				35694   //Orange Stone of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP33				35695   //Green Stone of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP34				35696   //Blue Stone of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP35				35697   //Red Imperial Stone
+#define	II_SYS_SYS_EVE_QUESTDROP36				35698   //Blue Imperial Stone
+#define	II_SYS_SYS_EVE_QUESTDROP37				35699   //Black Imperial Stone
+#define	II_SYS_SYS_EVE_QUESTDROP38				35700   //White Imperial Stone 
+#define	II_SYS_SYS_EVE_QUESTDROP39				35701   //Green Imperial Stone
+#define	II_SYS_SYS_EVE_QUESTDROP40				35702   //Golden Egg
+#define	II_SYS_SYS_EVE_QUESTDROP41				35703   //Gold Mysterious Bag
+#define	II_SYS_SYS_EVE_QUESTDROP42				35704   //Gray Mysterious Bag
+#define	II_SYS_SYS_EVE_QUESTDROP43				35705   //Coin Bag of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP44				35706   //Orange Cat Bag	 
+#define	II_SYS_SYS_EVE_QUESTDROP45				35707   //Green Cat Bag  	 
+#define	II_SYS_SYS_EVE_QUESTDROP46				35708   //Pink Cat Bag	 
+#define	II_SYS_SYS_EVE_QUESTDROP47				35709   //Yellow Cat Bag
+#define	II_SYS_SYS_EVE_QUESTDROP48				35710   //Blue Cat Bag  	 
+#define	II_SYS_SYS_EVE_QUESTDROP49				35711   //Gray Cat Bag  	 
+#define	II_SYS_SYS_EVE_QUESTDROP50				35712   //White Cat Bag	  	 
+#define	II_SYS_SYS_EVE_QUESTDROP51				35713   //Red Cat Bag  	 
+#define	II_SYS_SYS_EVE_QUESTDROP52				35714   //Purple Chest of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP53				35715   //Violet Chest of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP54				35716   //Pink Chest of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP55				35717   //Yellow Chest of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP56				35718   //Green Chest of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP57				35719   //Gold Chest of Glory	 
+#define	II_SYS_SYS_EVE_QUESTDROP58				35720   //Blue Chest of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP59				35721   //Chest of Glory
+#define	II_SYS_SYS_EVE_QUESTDROP60				35722   //Treasure of Glory
+
+// More Crafing Materials - Kiyo
+#define II_GEN_GEM_CRAFTMATERIAL102	            35723   //Red Color Flask	
+#define II_GEN_GEM_CRAFTMATERIAL103	            35724   //Blue Color Flask	
+#define II_GEN_GEM_CRAFTMATERIAL104	            35725   //Green Color Flask
+#define II_GEN_GEM_CRAFTMATERIAL105	            35726   //Orange Color Flask
+#define II_GEN_GEM_CRAFTMATERIAL106	            35727   //Pink Color Flask
+
+// More Quest items - Kiyo
+#define	II_SYS_SYS_EVE_QUESTDROP61				35728   //Red Bag of Soul
+#define	II_SYS_SYS_EVE_QUESTDROP62				35729   //Yellow Bag of Soul
+#define	II_SYS_SYS_EVE_QUESTDROP63				35730   //Blue Bag of Soul
+
+// Custom Mount - Kiyo
+#define II_SYS_MOUNT_60				35731	// Mount 01
+
+// Crafted Beads - Kiyo 
+#define	II_SYS_VIS_LV4_ATTACK	                35732  //Gold Bead of Gladiator
+#define	II_SYS_VIS_LV4_HP	 	                35733  //Gold Bead of Guardian 
+#define	II_SYS_VIS_LV4_BLOCK	                35734  //Gold Bead of Bubble 
+#define	II_SYS_VIS_LV4_HIT	 	                35735  //Gold Bead of Shades 
+#define	II_SYS_VIS_LV4_EXP	 	                35736  //Gold Bead of Experience
+
+// Suan Crafted Weapon Model - Kiyo
+#define II_WEA_SWO_SUAN		                    35737	//Suan Sword	
+#define II_WEA_SWT_SUAN		                    35738	//Suan Big Sword
+#define II_WEA_AXE_SUAN		                    35739	//Suan Axe	
+#define II_WEA_AXT_SUAN		                    35740	//Suan Big Axe
+#define II_WEA_KNU_SUAN		                    35741	//Suan Knuckle	
+#define II_WEA_CHE_SUAN		                    35742	//Suan Stick	
+#define II_WEA_WAN_SUAN		                    35743	//Suan Wand		
+#define II_WEA_STA_SUAN		                    35744	//Suan Staff	
+#define II_WEA_BOW_SUAN		                    35745	//Suan Bow		
+#define II_WEA_YOY_SUAN		                    35746	//Suan Yoyo		
+#define II_ARM_ARM_SHI_SUAN	                    35747	//Suan Shield 
+#define II_ARM_ARM_ZEM_SUAN	                    35748	//Suan Zem		
+#define II_ARM_ARM_BOK_SUAN	                    35749	//Suan Book	
+
+// Racing Crafted Weapon Model - Kiyo
+#define II_WEA_SWO_RACING		                35750	//Racing Sword	
+#define II_WEA_SWT_RACING		                35751	//Racing Big Sword
+#define II_WEA_AXE_RACING		                35752	//Racing Axe	
+#define II_WEA_AXT_RACING		                35753	//Racing Big Axe
+#define II_WEA_KNU_RACING		                35754	//Racing Knuckle	
+#define II_WEA_CHE_RACING		                35755	//Racing Stick	
+#define II_WEA_WAN_RACING		                35756	//Racing Wand		
+#define II_WEA_STA_RACING		                35757	//Racing Staff	
+#define II_WEA_BOW_RACING		                35758	//Racing Bow		
+#define II_WEA_YOY_RACING		                35759	//Racing Yoyo		
+#define II_ARM_ARM_SHI_RACING	                35760	//Racing Shield 
+#define II_ARM_ARM_ZEM_RACING	                35761	//Racing Zem		
+#define II_ARM_ARM_BOK_RACING	                35762	//Racing Book	
+
+// Medic Crafted Weapon Model - Kiyo
+#define II_WEA_SWO_MEDIC		                35763	//Medic Sword	
+#define II_WEA_SWT_MEDIC		                35764	//Medic Big Sword
+#define II_WEA_AXE_MEDIC		                35765	//Medic Axe	
+#define II_WEA_AXT_MEDIC		                35766	//Medic Big Axe
+#define II_WEA_KNU_MEDIC		                35767	//Medic Knuckle	
+#define II_WEA_CHE_MEDIC		                35768	//Medic Stick	
+#define II_WEA_WAN_MEDIC		                35769	//Medic Wand		
+#define II_WEA_STA_MEDIC		                35770	//Medic Staff	
+#define II_WEA_BOW_MEDIC		                35771	//Medic Bow		
+#define II_WEA_YOY_MEDIC		                35772	//Medic Yoyo		
+#define II_ARM_ARM_SHI_MEDIC	                35773	//Medic Shield 
+#define II_ARM_ARM_ZEM_MEDIC	                35774	//Medic Zem		
+#define II_ARM_ARM_BOK_MEDIC	                35775	//Medic Book	
+
+// Ice Weapon Models - Kiyo
+#define II_WEA_SWO_ICE			                35776   //Ice Sword	
+#define II_WEA_SWT_ICE			                35777   //Ice Slayer	
+#define II_WEA_AXE_ICE			                35778   //Ice Axe	
+#define II_WEA_AXT_ICE			                35779   //Ice Destroyer
+#define II_WEA_KNU_ICE			                35780   //Ice Knuckle	
+#define II_WEA_CHE_ICE			                35781   //Ice Stick	
+#define II_WEA_WAN_ICE			                35782   //Ice Wand	
+#define II_WEA_STA_ICE			                35783   //Ice Staff	
+#define II_WEA_BOW_ICE			                35784   //Ice Bow	
+#define II_WEA_YOY_ICE			                35785   //Ice Yo-Yo	
+
+// Snowy Weapon Models - Kiyo
+#define II_WEA_SWO_SNOWY				        35786   // Snowy Sword	
+#define II_WEA_SWT_SNOWY				        35787   // Snowy Slayer	
+#define II_WEA_AXE_SNOWY				        35788   // Snowy Axe	
+#define II_WEA_AXT_SNOWY				        35789   // Snowy Destroy
+#define II_WEA_KNU_SNOWY				        35790   // Snowy Knuckle
+#define II_WEA_CHE_SNOWY				        35791   // Snowy Stick	
+#define II_WEA_WAN_SNOWY				        35792   // Snowy Wand	
+#define II_WEA_STA_SNOWY				        35793   // Snowy Staff	
+#define II_WEA_BOW_SNOWY				        35794   // Snowy Bow	
+#define II_WEA_YOY_SNOWY				        35795   // Snowy Yo-Yo	
+#define II_ARM_ARM_SHI_SNOWY			        35796   // Snowy Shield 
+
+// Crafted Masks 
+#define II_ARM_S_CLO_MAS_BLOODY				    35797   // Bloody Mask
+#define II_ARM_S_CLO_MAS_GOLDEN			        35798   // Golden Mask	
+#define II_ARM_S_CLO_MAS_BLACK			        35799   // Black Mask
+#define II_ARM_S_CLO_MAS_BLOODY_1				    39795   // Bloody Mask (F)
+#define II_ARM_S_CLO_MAS_GOLDEN_1			        39796   // Golden Mask (F)	
+#define II_ARM_S_CLO_MAS_BLACK_1			        39797   // Black Mask (F)
+
+// Crafted Cloaks
+#define II_ARM_S_CLO_CLO_BLOODY			        35800   // Bloody Cloak
+#define II_ARM_S_CLO_CLO_GOLDEN			        35801   // Golden Cloak
+#define II_ARM_S_CLO_CLO_BLACK			        35802   // Black Cloak
+#define II_ARM_S_CLO_CLO_BLOODY_1			        39798   // Bloody Cloak (F)
+#define II_ARM_S_CLO_CLO_GOLDEN_1			        39799   // Golden Cloak (F)
+#define II_ARM_S_CLO_CLO_BLACK_1			        39800   // Black Cloak (F)
+
+// Crafted Food - Kiyo
+#define II_GEN_FOO_INS_SUPERSTARCANDY           35807  // Powerful Star Candy
+#define II_GEN_FOO_INS_PANCAKE                  35808  // Delicious Pancake
+
+// Crafted Armor Random Boxes - Kiyo
+#define II_SYS_SYS_SCR_BXMHELMET				35809  // Bloodlust Random Helmet Box (M)
+#define II_SYS_SYS_SCR_BXMSUIT				    35810  // Bloodlust Random Suit Box (M)
+#define II_SYS_SYS_SCR_BXMGAUNTLET				35811  // Bloodlust Random Gauntlet Box (M)
+#define II_SYS_SYS_SCR_BXMBOOTS				    35812  // Bloodlust Random Boots Box (M)
+#define II_SYS_SYS_SCR_BXFHELMET				35813  // Bloodlust Random Helmet Box (F)
+#define II_SYS_SYS_SCR_BXFSUIT			        35814  // Bloodlust Random Suit Box (F)
+#define II_SYS_SYS_SCR_BXFGAUNTLET			    35815  // Bloodlust Random Gauntlet Box (F)
+#define II_SYS_SYS_SCR_BXFBOOTS			        35816  // Bloodlust Random Boots Box (F)
+
+// More Crafting Materials - Kiyo
+#define II_GEN_GEM_CRAFTMATERIAL107             35817  // Minced Coconut
+
+// Crafted Power Ups - Kiyo
+#define	II_SYS_SYS_SCR_ICECOCO	                35818  // Ice flakes (Strawberry Coconut)
+
+// More Item Boxes - Kiyo
+#define II_SYS_SYS_ITMBOX_UPCUT			        35819  // Item Box Upcut Stone
+#define II_SYS_SYS_ITMBOX_DESERT		        35820  // Item Box Desert Card
+#define II_SYS_SYS_ITMBOX_GENERATOR		        35821  // Item Box Generator Card 
+#define II_SYS_SYS_ITMBOX_FLAME				    35822  // Item Box Flame Card 
+#define II_SYS_SYS_ITMBOX_RIVER		            35823  // Item Box River Card 
+#define II_SYS_SYS_ITMBOX_CYCLONE		        35824  // Item Box Cyclone Card 
+#define II_SYS_SYS_ITMBOX_HOLY			        35825  // Item Box Holy Scroll 
+#define II_SYS_SYS_ITMBOX_PERIN		            35826  // Item Box Perin 
+#define II_SYS_SYS_ITMBOX_XPROTECT		        35827  // Item Box Scroll of Xprotect 
+#define II_SYS_SYS_ITMBOX_APROTECT		        35828  // Item Box Scroll of Aprotect 
+#define II_SYS_SYS_ITMBOX_SPROTECT		        35829  // Item Box Scroll of Sprotect 
+#define II_SYS_SYS_ITMBOX_SMELTING		        35830  // Item Box Scroll of Smelting 
+#define II_SYS_SYS_ITMBOX_VELOCITY		        35831  // Item Box Scroll of Velocity 
+#define II_SYS_SYS_ITMBOX_SPRINT		        35832  // Item Box Scroll of Sprint
+
+// Anarchy Coupon & 4 Buffs - Kiyo
+#define II_ANARCHY_COUPON						35833  // Anarchy Coupon
+#define II_ANARCHY_BUFF09						35834  // Anarchy Buff 9
+#define II_ANARCHY_BUFF10						35835  // Anarchy Buff 10
+#define II_ANARCHY_BUFF11						35836  // Anarchy Buff 11
+#define II_ANARCHY_BUFF12						35837  // Anarchy Buff 12
+
+// Stated Loot Pets - Kiyo
+#define	II_PET_HP	                            35838  // HP Looter Pet
+#define	II_PET_PVP	                            35839  // PVP Looter Pet
+#define	II_PET_PVE	                            35840  // PVE Looter Pet
+
+// Random Scarces Accessory Box - Kiyo
+#define II_SYS_SYS_SCR_BXRING				    35841  // Random Ultimate Ring Box
+#define II_SYS_SYS_SCR_BXEARRING				35842  // Random Ultimate Earring Box
+#define II_SYS_SYS_SCR_BXNECKLACE				35843  // Random Ultimate Necklace Box
+
+// Random Monster Clash Box - Kiyo
+#define II_SYS_SYS_SCR_BXMONSTERCLASH	        35844  // Monster Clash Box
+
+// Craftable Black Diamond (__NEW_DIAMONDS)
+#define II_GEN_MAT_BLACK_DIAMOND    			35845  // Black Diamond Craftable Item
+#define II_GEN_MAT_BLACK_DIAMOND1    			35846  // Black Diamond DST 1
+#define II_GEN_MAT_BLACK_DIAMOND2    			35847  // Black Diamond DST 2
+#define II_GEN_MAT_BLACK_DIAMOND3    			35848  // Black Diamond DST 3	
+#define II_GEN_MAT_BLACK_DIAMOND4    			35849  // Black Diamond DST 4
+#define II_GEN_MAT_BLACK_DIAMOND5    			35850  // Black Diamond DST 5
+#define II_GEN_MAT_BLACK_DIAMOND6    			35851  // Black Diamond DST 6
+#define II_GEN_MAT_BLACK_DIAMOND7    			35852  // Black Diamond DST 7
+#define II_GEN_MAT_BLACK_DIAMOND8    			35853  // Black Diamond DST 8
+#define II_GEN_MAT_BLACK_DIAMOND9    			35854  // Black Diamond DST 9
+#define II_GEN_MAT_BLACK_DIAMOND10  			35855  // Black Diamond DST 10
+#define II_GEN_MAT_DIAMOND10	                35856  // Diamond DST 10
+#define II_GEN_MAT_TOPAZ10       	         	35857  // Topaz DST 10
+#define II_GEN_MAT_RUBY10       	            35858  // Ruby DST 10
+#define II_GEN_MAT_SAPPHIRE10     	            35859  // Saphire DST 10
+#define II_GEN_MAT_EMERALD10      	            35860  // Emerald DST 10
+
+
+// Map Buffs - (__SYS_MAP_BUFFS) - Balancing
+#define II_MAPBUFF_ATK5                 		35861  // Small Attack Rate Increase
+#define II_MAPBUFF_ATK10                		35862  // Big Attack Rate Increase	
+#define II_MAPBUFF_DEF5                 		35863  // Small Defense Rate Increase
+#define II_MAPBUFF_DEF10                		35864  // Big Defense Rate Increase	
+#define II_MAPBUFF_HP10                 		35865  // Small HP Rate Increase	
+#define II_MAPBUFF_HP25                 		35866  // Big HP Rate Increase		
+#define II_MAPBUFF_PVE5                 		35867  // Small PVE Rate Increase	
+#define II_MAPBUFF_PVE10                		35868  // Big PVE Rate Increase		
+#define II_MAPBUFF_PVP5                 		35869  // Small PVP Rate Increase	
+#define II_MAPBUFF_PVP10                		35870  // Big PVP Rate Increase		
+#define II_MAPBUFF_PENYA20              		35871  // Small EXP Rate Increase	
+#define II_MAPBUFF_EXP10                		35872  // Big EXP Rate Increase		
+#define II_MAPBUFF_EXP25                		35873  // Small Soul Leech Increase	
+#define II_MAPBUFF_LS5                  		35874  // Big Soul Leech Increase	
+#define II_MAPBUFF_LS10                 		35875  // Small Melee Block Increase
+#define II_MAPBUFF_MBLOCK5              		35876  // Small Range Block Increase
+#define II_MAPBUFF_RBLOCK5              		35877  // Big Penya Rate Increase	
+#define II_MAPBUFF_GIFTBOX              		35878  // Small Giftbox Increase	
+
+// Bunny Slayer Weapon Models - Kiyo
+#define II_WEA_SWO_BUNNYSLAY				    35879   // Bunny Slayer Sword	
+#define II_WEA_KNU_BUNNYSLAY				    35880   // Bunny Slayer Knuckle
+#define II_WEA_CHE_BUNNYSLAY				    35881   // Bunny Slayer Stick	
+#define II_WEA_WAN_BUNNYSLAY				    35882   // Bunny Slayer Wand	
+#define II_WEA_STA_BUNNYSLAY				    35883   // Bunny Slayer Staff	
+#define II_WEA_BOW_BUNNYSLAY				    35884   // Bunny Slayer Bow	
+#define II_WEA_YOY_BUNNYSLAY				    35885   // Bunny Slayer Yo-Yo	
+
+// Dreamy Weapon Models - Kiyo
+#define II_WEA_SWO_DREAMY				        35886   // Dreamy Sword	
+#define II_WEA_SWT_DREAMY				        35887   // Dreamy Slayer	
+#define II_WEA_AXE_DREAMY				        35888   // Dreamy Axe	
+#define II_WEA_AXT_DREAMY				        35889   // Dreamy Destroy
+#define II_WEA_KNU_DREAMY				        35890   // Dreamy Knuckle
+#define II_WEA_CHE_DREAMY				        35891   // Dreamy Stick	
+#define II_WEA_WAN_DREAMY				        35892   // Dreamy Wand	
+#define II_WEA_STA_DREAMY				        35893   // Dreamy Staff	
+#define II_WEA_BOW_DREAMY				        35894   // Dreamy Bow	
+#define II_WEA_YOY_DREAMY				        35895   // Dreamy Yo-Yo	
+                                                
+// Christmas Weapon Models - Kiyo
+#define II_WEA_SWO_XMAS				            35896   // Christmas Sword	
+#define II_WEA_SWT_XMAS				            35897   // Christmas Slayer	
+#define II_WEA_AXE_XMAS				            35898   // Christmas Axe	
+#define II_WEA_AXT_XMAS				            35899   // Christmas Destroy
+#define II_WEA_KNU_XMAS				            35900   // Christmas Knuckle
+#define II_WEA_CHE_XMAS				            35901   // Christmas Stick	
+#define II_WEA_WAN_XMAS				            35902   // Christmas Wand	
+#define II_WEA_STA_XMAS				            35903   // Christmas Staff	
+#define II_WEA_BOW_XMAS				            35904   // Christmas Bow	
+#define II_WEA_YOY_XMAS				            35905   // Christmas Yo-Yo	
+
+// Loot Box Coupons - Kiyo
+#define II_BRONZEBOX_COUPON						35906  // Bronze Box Coupon
+#define II_SILVERBOX_COUPON						35907  // Silver Box Coupon
+
+// Colorful Guan Yu Shields - Kiyo
+#define II_ARM_ARM_SHI_GUANY1	                35908  // Devil Shield 
+#define II_ARM_ARM_SHI_GUANY2	                35909  // Emerald Shield 
+#define II_ARM_ARM_SHI_GUANY3	                35910  // Foxy Shield 
+#define II_ARM_ARM_SHI_GUANY4	                35911  // Golden Shield 
+#define II_ARM_ARM_SHI_GUANY5	                35912  // Helonia Shield 
+#define II_ARM_ARM_SHI_GUANY6	                35913  // Sred Shield 
+#define II_ARM_ARM_SHI_GUANY7	                35914  // Portus Shield 
+#define II_ARM_ARM_SHI_GUANY8	                35915  // Portus Shield v2 
+#define II_ARM_ARM_SHI_GUANY9	                35916  // Valenic Shield 
+
+// Gold Arclight Weapons - Kiyo
+#define II_WEA_AXE_ARCGOLD		                35917	// Gold Arclight Axe	
+#define II_WEA_AXT_ARCGOLD		                35918	// Gold Arclight Big Axe
+#define II_WEA_BOW_ARCGOLD		                35919	// Gold Arclight Bow		
+#define II_WEA_CHE_ARCGOLD		                35920	// Gold Arclight Stick	
+#define II_WEA_KNU_ARCGOLD		                35921	// Gold Arclight Knuckle	
+#define II_WEA_STA_ARCGOLD		                35922	// Gold Arclight Staff	
+#define II_WEA_SWO_ARCGOLD		                35923	// Gold Arclight Sword	
+#define II_WEA_SWT_ARCGOLD		                35924	// Gold Arclight Big Sword
+#define II_WEA_SWT_ARCGOLD2		                35925	// Gold Arclight Big Sword
+#define II_WEA_WAN_ARCGOLD		                35926	// Gold Arclight Wand		
+#define II_WEA_YOY_ARCGOLD		                35927	// Gold Arclight Yoyo		
+#define II_ARM_ARM_SHI_ARCGOLD	                35928	// Gold Arclight Shield 
+
+// White Arclight Weapons - Kiyo
+#define II_WEA_AXE_ARCWHITE		                35929	// White Arclight Axe	
+#define II_WEA_AXT_ARCWHITE		                35930	// White Arclight Big Axe
+#define II_WEA_BOW_ARCWHITE		                35931	// White Arclight Bow		
+#define II_WEA_CHE_ARCWHITE		                35932	// White Arclight Stick	
+#define II_WEA_KNU_ARCWHITE		                35933	// White Arclight Knuckle	
+#define II_WEA_STA_ARCWHITE		                35934	// White Arclight Staff	
+#define II_WEA_SWO_ARCWHITE		                35935	// White Arclight Sword	
+#define II_WEA_SWT_ARCWHITE		                35936	// White Arclight Big Sword
+#define II_WEA_WAN_ARCWHITE		                35937	// White Arclight Wand		
+#define II_WEA_YOY_ARCWHITE		                35938	// White Arclight Yoyo		
+#define II_ARM_ARM_SHI_ARCWHITE	                35939	// White Arclight Shield 
+#define II_ARM_ARM_BOK_ARCWHITE	                35940	// White Book	
+
+// Dark Arclight Weapons - Kiyo
+#define II_WEA_AXE_ARCDARK		                35941	// Dark Arclight Axe	
+#define II_WEA_AXT_ARCDARK		                35942	// Dark Arclight Big Axe
+#define II_WEA_BOW_ARCDARK		                35943	// Dark Arclight Bow		
+#define II_WEA_CHE_ARCDARK		                35944	// Dark Arclight Stick	
+#define II_WEA_KNU_ARCDARK		                35945	// Dark Arclight Knuckle	
+#define II_WEA_STA_ARCDARK		                35946	// Dark Arclight Staff	
+#define II_WEA_SWO_ARCDARK		                35947	// Dark Arclight Sword	
+#define II_WEA_SWT_ARCDARK		                35948	// Dark Arclight Big Sword
+#define II_WEA_SWT_ARCDARK2		                35949	// Dark Arclight Big Sword
+#define II_WEA_WAN_ARCDARK		                35950	// Dark Arclight Wand		
+#define II_WEA_YOY_ARCDARK		                35951	// Dark Arclight Yoyo		
+#define II_ARM_ARM_SHI_ARCDARK	                35952	// Dark Arclight Shield 
+
+// Fire Arclight Weapons - Kiyo
+#define II_WEA_AXE_ARCFIRE		                35953	// Fire Arclight Axe	
+#define II_WEA_AXT_ARCFIRE		                35954	// Fire Arclight Big Axe
+#define II_WEA_BOW_ARCFIRE		                35955	// Fire Arclight Bow		
+#define II_WEA_CHE_ARCFIRE		                35956	// Fire Arclight Stick	
+#define II_WEA_KNU_ARCFIRE		                35957	// Fire Arclight Knuckle	
+#define II_WEA_STA_ARCFIRE		                35958	// Fire Arclight Staff	
+#define II_WEA_SWO_ARCFIRE		                35959	// Fire Arclight Sword	
+#define II_WEA_SWT_ARCFIRE		                35960	// Fire Arclight Big Sword
+#define II_WEA_WAN_ARCFIRE		                35961	// Fire Arclight Wand		
+#define II_WEA_YOY_ARCFIRE		                35962	// Fire Arclight Yoyo		
+#define II_ARM_ARM_SHI_ARCFIRE                  35963	// Fire Arclight Shield 
+#define II_ARM_ARM_BOK_ARCFIRE                  35964	// Fire Book	
+
+// Crismon Set (M) - Kiyo
+#define II_ARM_M_CHR_CRISMONHAT                 35965   // Crismon Hat (M)
+#define II_ARM_M_CHR_CRISMONSUIT                35966   // Crismon Suit (M)
+#define II_ARM_M_CHR_CRISMONGLOVES              35967   // Crismon Gloves (M)
+#define II_ARM_M_CHR_CRISMONSHOES               35968   // Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXMCRISMON               35969   // Crismon Cs Box (M)
+
+// Crismon Set (F) - Kiyo
+#define II_ARM_F_CHR_CRISMONHAT                 35970   // Crismon Hat (M)
+#define II_ARM_F_CHR_CRISMONSUIT                35971   // Crismon Suit (M)
+#define II_ARM_F_CHR_CRISMONGLOVES              35972   // Crismon Gloves (M)
+#define II_ARM_F_CHR_CRISMONSHOES               35973   // Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXFCRISMON               35974   // Crismon Cs Box (M)
+
+// Dark Red Crismon Set (M) - Kiyo
+#define II_ARM_M_CHR_RCRISMONHAT                35975   // Red Crismon Hat (M)
+#define II_ARM_M_CHR_RCRISMONSUIT               35976   // Red Crismon Suit (M)
+#define II_ARM_M_CHR_RCRISMONGLOVES             35977   // Red Crismon Gloves (M)
+#define II_ARM_M_CHR_RCRISMONSHOES              35978   // Red Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXMRCRISMON              35979   // Red Crismon Cs Box (M)
+
+// Dark Red Crismon Set (F) - Kiyo
+#define II_ARM_F_CHR_RCRISMONHAT                35980   // Red Crismon Hat (F)
+#define II_ARM_F_CHR_RCRISMONSUIT               35981   // Red Crismon Suit (F)
+#define II_ARM_F_CHR_RCRISMONGLOVES             35982   // Red Crismon Gloves (F)
+#define II_ARM_F_CHR_RCRISMONSHOES              35983   // Red Crismon Shoes (F)
+#define II_SYS_SYS_SCR_BXFRCRISMON              35984   // Red Crismon Cs Box (F)
+
+// Gold Crismon Set (M) - Kiyo
+#define II_ARM_M_CHR_GOCRISMONHAT               35985   // Gold Crismon Hat (M)
+#define II_ARM_M_CHR_GOCRISMONSUIT              35986   // Gold Crismon Suit (M)
+#define II_ARM_M_CHR_GOCRISMONGLOVES            35987   // Gold Crismon Gloves (M)
+#define II_ARM_M_CHR_GOCRISMONSHOES             35988   // Gold Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXMGOCRISMON             35989   // Gold Crismon Cs Box (M)
+
+// Green Crismon Set (M) - Kiyo
+#define II_ARM_M_CHR_GCRISMONHAT                35990   // Green Crismon Hat (M)
+#define II_ARM_M_CHR_GCRISMONSUIT               35991   // Green Crismon Suit (M)
+#define II_ARM_M_CHR_GCRISMONGLOVES             35992   // Green Crismon Gloves (M)
+#define II_ARM_M_CHR_GCRISMONSHOES              35993   // Green Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXMGCRISMON              35994   // Green Crismon Cs Box (M)
+
+// Green Crismon Set (F) - Kiyo
+#define II_ARM_F_CHR_GCRISMONHAT                35995   // Green Crismon Hat (F)
+#define II_ARM_F_CHR_GCRISMONSUIT               35996   // Green Crismon Suit (F)
+#define II_ARM_F_CHR_GCRISMONGLOVES             35997   // Green Crismon Gloves (F)
+#define II_ARM_F_CHR_GCRISMONSHOES              35998   // Green Crismon Shoes (F)
+#define II_SYS_SYS_SCR_BXFGCRISMON              35999   // Green Crismon Cs Box (F)
+
+// Pink Crismon Set (M) - Kiyo
+#define II_ARM_M_CHR_PCRISMONHAT                36000   // Pink Crismon Hat (M)
+#define II_ARM_M_CHR_PCRISMONSUIT               36001   // Pink Crismon Suit (M)
+#define II_ARM_M_CHR_PCRISMONGLOVES             36002   // Pink Crismon Gloves (M)
+#define II_ARM_M_CHR_PCRISMONSHOES              36003   // Pink Crismon Shoes (M)
+#define II_SYS_SYS_SCR_BXMPCRISMON              36004   // Pink Crismon Cs Box (M)
+
+// Pink Crismon Set (F) - Kiyo
+#define II_ARM_F_CHR_PCRISMONHAT                36005   // Pink Crismon Hat (F)
+#define II_ARM_F_CHR_PCRISMONSUIT               36006   // Pink Crismon Suit (F)
+#define II_ARM_F_CHR_PCRISMONGLOVES             36007   // Pink Crismon Gloves (F)
+#define II_ARM_F_CHR_PCRISMONSHOES              36008   // Pink Crismon Shoes (F)
+#define II_SYS_SYS_SCR_BXFPCRISMON              36009   // Pink Crismon Cs Box (F)
+
+// Frontliner Set (M) - Kiyo
+#define II_ARM_M_CHR_FRONTLINEHAT               36010   // Frontliner Hat (M)
+#define II_ARM_M_CHR_FRONTLINESUIT              36011   // Frontliner Suit (M)
+#define II_ARM_M_CHR_FRONTLINEGLOVES            36012   // Frontliner Gloves (M)
+#define II_ARM_M_CHR_FRONTLINESHOES             36013   // Frontliner Shoes (M)
+#define II_SYS_SYS_SCR_BXMFRONTLINE             36014   // Frontliner Cs Box (M)
+
+// Frontliner Set (F) - Kiyo
+#define II_ARM_F_CHR_FRONTLINEHAT               36015   // Frontliner Hat (F)
+#define II_ARM_F_CHR_FRONTLINESUIT              36016   // Frontliner Suit (F)
+#define II_ARM_F_CHR_FRONTLINEGLOVES            36017   // Frontliner Gloves (F)
+#define II_ARM_F_CHR_FRONTLINESHOES             36018   // Frontliner Shoes (F)
+#define II_SYS_SYS_SCR_BXFFRONTLINE             36019   // Frontliner Cs Box (F)
+
+// Frontliner Mask & Cloak
+#define II_ARM_S_CLO_CLO_FRONTLINE			    36020   // Frontliner Cloak
+#define II_ARM_S_CLO_MAS_FRONTLINE			    36021   // Frontliner Mask
+
+// Black Bolo Cloak 
+#define II_ARM_S_CLO_CLO_BOLO			        36022   // Black Bolo Cloak
+
+// More Unique Cloaks - Kiyo
+#define II_ARM_S_CLO_CLO_DC1		            36023   // Ben & Jerry Cloak
+#define II_ARM_S_CLO_CLO_DC2			        36024   // Adidas Cloak
+#define II_ARM_S_CLO_CLO_DC3			        36025   // Anime Girl Cloak
+#define II_ARM_S_CLO_CLO_DC4			        36026   // Smiley Cloak
+#define II_ARM_S_CLO_CLO_DC5			        36027   // Louis Vuitton Cloak
+#define II_ARM_S_CLO_CLO_DC6			        36028   // Bunnies Cloak
+#define II_ARM_S_CLO_CLO_DC7			        36029   // Chi Cloak
+#define II_ARM_S_CLO_CLO_DC8			        36030   // Coca Cola Cloak
+#define II_ARM_S_CLO_CLO_DC9			        36031   // Converse Cloak
+#define II_ARM_S_CLO_CLO_DC10			        36032   // Cytex Cloak v1
+#define II_ARM_S_CLO_CLO_DC11			        36033   // Cytex Cloak v2
+#define II_ARM_S_CLO_CLO_DC12			        36034   // Cytex Cloak v3
+#define II_ARM_S_CLO_CLO_DC13			        36035   // Cytex Cloak v4
+#define II_ARM_S_CLO_CLO_DC14			        36036   // Cytex Cloak v5
+#define II_ARM_S_CLO_CLO_DC15			        36037   // Cytex Cloak v6
+#define II_ARM_S_CLO_CLO_DC16			        36038   // Cytex Cloak v7
+#define II_ARM_S_CLO_CLO_DC17			        36039   // Cytex Cloak v8
+#define II_ARM_S_CLO_CLO_DC18			        36040   // Cytex Cloak v9
+#define II_ARM_S_CLO_CLO_DC19			        36041   // Cytex Cloak v10
+#define II_ARM_S_CLO_CLO_DC20			        36042   // Roses Cloak
+#define II_ARM_S_CLO_CLO_DC21			        36043   // Fanta Cloak
+#define II_ARM_S_CLO_CLO_DC22			        36044   // Goomba Cloak
+#define II_ARM_S_CLO_CLO_DC23			        36045   // Hello Kitty Cloak
+#define II_ARM_S_CLO_CLO_DC24			        36046   // Linking Park Cloak
+#define II_ARM_S_CLO_CLO_DC25			        36047   // Jack Daniels Cloak
+#define II_ARM_S_CLO_CLO_DC26			        36048   // Juventus Cloak
+#define II_ARM_S_CLO_CLO_DC27			        36049   // Joker Cloak
+#define II_ARM_S_CLO_CLO_DC28			        36050   // KFC Cloak
+#define II_ARM_S_CLO_CLO_DC29			        36051   // Manchester United Cloak
+#define II_ARM_S_CLO_CLO_DC30			        36052   // Marllboro Cloak
+#define II_ARM_S_CLO_CLO_DC31			        36053   // Mc Donalds Cloak
+#define II_ARM_S_CLO_CLO_DC32			        36054   // Metalica Cloak
+#define II_ARM_S_CLO_CLO_DC33			        36055   // Mona Lisa Cloak
+#define II_ARM_S_CLO_CLO_DC34			        36056   // MTV Cloak
+#define II_ARM_S_CLO_CLO_DC35			        36057   // Nike Cloak
+#define II_ARM_S_CLO_CLO_DC36			        36058   // Nintendo Cloak
+#define II_ARM_S_CLO_CLO_DC37			        36059   // Elfen Lied Cloak
+#define II_ARM_S_CLO_CLO_DC38			        36060   // Obama Cloak
+#define II_ARM_S_CLO_CLO_DC39			        36061   // One Piece Cloak
+#define II_ARM_S_CLO_CLO_DC40			        36062   // Pacman Cloak
+#define II_ARM_S_CLO_CLO_DC41			        36063   // Pepsi Cloak
+#define II_ARM_S_CLO_CLO_DC42			        36064   // Pirate Cloak
+#define II_ARM_S_CLO_CLO_DC43			        36065   // Rise Against Cloak
+#define II_ARM_S_CLO_CLO_DC44			        36066   // Rolling Stones Cloak
+#define II_ARM_S_CLO_CLO_DC45			        36067   // Shirley Cloak
+#define II_ARM_S_CLO_CLO_DC46			        36068   // Slayer Cloak
+#define II_ARM_S_CLO_CLO_DC47			        36069   // Staff Police Cloak
+#define II_ARM_S_CLO_CLO_DC48			        36070   // Starbucks Cloak
+#define II_ARM_S_CLO_CLO_DC49			        36071   // Super Mario Cloak
+#define II_ARM_S_CLO_CLO_DC50			        36072   // Security Team Cloak
+#define II_ARM_S_CLO_CLO_DC51			        36073   // What Have I Done Cloak
+#define II_ARM_S_CLO_CLO_DC52			        36074   // XBOX Cloak
+
+// Permanent Bufffs (Monster Hunt)
+#define II_PERM_BUFF_1							36075   // Aibatt Buff
+#define II_PERM_BUFF_2							36076   // Mushpang Buff
+#define II_PERM_BUFF_3							36077   // Burudeng Buff
+#define II_PERM_BUFF_4							36078   // Pukepuke Buff
+#define II_PERM_BUFF_5							36079   // Peakyturtle Buff
+#define II_PERM_BUFF_6							36080   // Demian Buff
+#define II_PERM_BUFF_7							36081   // Doridoma Buff
+#define II_PERM_BUFF_8							36082   // Lawolf Buff
+#define II_PERM_BUFF_9							36083   // Fefern Buff
+#define II_PERM_BUFF_10							36084   // Nyangnyang Buff
+#define II_PERM_BUFF_11							36085   // Bang Buff
+#define II_PERM_BUFF_12							36086   // Wagsaac Buff
+#define II_PERM_BUFF_13						    36087   // Flybat Buff
+#define II_PERM_BUFF_14							36088   // Mia Buff
+#define II_PERM_BUFF_15							36089   // Mr.Pumpkin Buff
+#define II_PERM_BUFF_16							36090   // Red Mantis Buff
+#define II_PERM_BUFF_17							36091   // Jack the Hammer Buff
+#define II_PERM_BUFF_18							36092   // Giggle Box Buff
+#define II_PERM_BUFF_19							36093   // Rock Muscle Buff
+#define II_PERM_BUFF_20						    36094   // Bucrow Buff
+#define II_PERM_BUFF_21							36095   // Hobo Buff
+#define II_PERM_BUFF_22							36096   // Dumbull Buff
+#define II_PERM_BUFF_23							36097   // Totemia Buff
+#define II_PERM_BUFF_24							36098   // Card Puppet Buff
+#define II_PERM_BUFF_25							36099   // Tombstone Bearer Buff
+#define II_PERM_BUFF_26							36100   // Scorpicon Buff
+#define II_PERM_BUFF_27							36101   // Basque Buff
+#define II_PERM_BUFF_28							36102   // Prankster Buff
+#define II_PERM_BUFF_29							36103   // Wheelem Buff
+#define II_PERM_BUFF_30							36104   // Kingster Buff
+#define II_PERM_BUFF_31							36105   // Kraken Buff
+#define II_PERM_BUFF_32							36106   // Creper Buff
+#define II_PERM_BUFF_33							36107   // Naga Buff
+#define II_PERM_BUFF_34							36108   // Atrox Buff
+#define II_PERM_BUFF_35							36110   // Okean Buff
+#define II_PERM_BUFF_36							36111   // Tigar Buff
+#define II_PERM_BUFF_37							36112   // Dorian Buff
+#define II_PERM_BUFF_38							36113   // Meral Buff
+#define II_PERM_BUFF_39							36114   // Leyena Buff
+#define II_PERM_BUFF_40						    36115   // Trafongma Buff
+#define II_PERM_BUFF_41							36116   // Steamwalker Buff
+#define II_PERM_BUFF_42							36117   // Steel Knight Buff
+#define II_PERM_BUFF_43							36118   // Nutty Wheel Buff
+#define II_PERM_BUFF_44							36119   // Driller Buff
+#define II_PERM_BUFF_45							36120   // Volt Buff
+#define II_PERM_BUFF_46							36121   // Elderguard Buff
+#define II_PERM_BUFF_47							36122   // Garbagepider Buff
+#define II_PERM_BUFF_48							36123   // Crane Machinery Buff
+#define II_PET_KRRR							    36124   // Baby Krrr
+#define II_PERM_BUFF_50							36125   // Nuctuvehicle Buff
+#define II_PERM_BUFF_51							36126   // Risem Buff
+#define II_PERM_BUFF_52							36127   // Syliaca Buff
+#define II_PERM_BUFF_53							36128   // Greemong Buff
+#define II_PERM_BUFF_54							36129   // Carrierbomb Buff
+#define II_PERM_BUFF_55							36130   // Nautrepy Buff
+#define II_PERM_BUFF_56							36131   // Boo Buff
+#define II_PERM_BUFF_57							36132   // Hoppre Buff
+#define II_PERM_BUFF_58							36133   // Mushopoie Buff
+#define II_PERM_BUFF_59							36134   // Iren Buff
+#define II_PERM_BUFF_60							36135   // Watangka Buff
+#define II_PERM_BUFF_61							36136   // Antiquery Buff
+#define II_PERM_BUFF_62							36137   // Grrr Buff
+#define II_PERM_BUFF_63							36138   // Dump Buff
+#define II_PERM_BUFF_64							36139   // Luia Buff
+#define II_PERM_BUFF_65							36140   // Gongury Buff
+#define II_PERM_BUFF_66							36141   // Chimeradon Buff
+#define II_PERM_BUFF_67							36142   // Shuhamma Buff
+#define II_PERM_BUFF_68							36143   // Bearnerky Buff
+#define II_PERM_BUFF_69							36144   // Kern Buff
+#define II_PERM_BUFF_70							36145   // Chef Muffrin Buff
+#define II_PERM_BUFF_71							36146   // Glaphan Buff
+#define II_PERM_BUFF_72							36147   // Popcrank Buff
+#define II_PERM_BUFF_73							36148   // Catsy Buff
+#define II_PERM_BUFF_74							36149   // Harpy Buff
+#define II_PERM_BUFF_75							36150   // Gullah Buff
+#define II_PERM_BUFF_76							36160   // Abraxas Buff
+#define II_PERM_BUFF_77							36161   // Hague Buff
+#define II_PERM_BUFF_78							36162   // Tengu Buff
+#define II_PERM_BUFF_79							36163   // Asterius Buff
+#define II_PERM_BUFF_80							36164   // Dantalian Buff
+#define II_PERM_BUFF_81							36165   // Ganessa Buff
+#define II_PERM_BUFF_82							36166   // Asura Buff
+#define II_PERM_BUFF_83							36167   // Yetti Buff
+#define II_PERM_BUFF_84							36168   // Augu Buff
+#define II_PERM_BUFF_85							36169   // Ghost of the Forgotten Prince Buff
+#define II_PERM_BUFF_86							36170   // Mammoth Buff
+#define II_PERM_BUFF_87							36171   // Battle Toadrin Buff
+#define II_PERM_BUFF_88							36172   // Spotted Bolo Buff
+#define II_PERM_BUFF_89							36173   // Troglodon Warrior Buff
+#define II_PERM_BUFF_90							36174   // Araknoid Buff
+#define II_PERM_BUFF_91							36175   // Club-tailed Reptilion Buff
+#define II_PERM_BUFF_92							36176   // Sakai Buff
+#define II_PERM_BUFF_93							36177   // Vile Thorn Buff
+#define II_PERM_BUFF_94							36178   // Grumble Mauler Buff
+#define II_PERM_BUFF_95							36179   // Blackweb Buff
+#define II_PERM_BUFF_96							36180   // Dire Razor Buff
+#define II_PERM_BUFF_97							36181   // Immovable Crag Buff
+#define II_PERM_BUFF_98							36182   // Meteonyker Buff
+#define II_PERM_BUFF_99							36183   // Cyclops X Buff
+#define II_PERM_BUFF_100					    36184   // Hellhound Buff
+#define II_PERM_BUFF_101					    36185   // Risen Gladiator Buff
+#define II_PERM_BUFF_102					    36186   // Risen Pikeman Buff
+#define II_PERM_BUFF_103					    36187   // Risen Mage Buff
+#define II_PERM_BUFF_104					    36188   // Risen Assassin Buff
+#define II_PERM_BUFF_105					    36189   // Risen Warrior Buff
+#define II_PERM_BUFF_106					    36190   // Hundur Sharpfoot Buff
+#define II_PERM_BUFF_107					    36191   // Samoset Buff
+#define II_PERM_BUFF_108					    36192   // Kyouchish Buff
+#define II_PERM_BUFF_109					    36193   // Kanonicus Buff
+#define II_PERM_BUFF_110					    36194   // Mage Redcloud Buff
+#define II_PERM_BUFF_111					    36195   // Taiaha Buff
+#define II_PERM_BUFF_112					    36196   // Wild Sand Skitter Buff
+#define II_PERM_BUFF_113					    36197   // Wild Sunbaked Rhino Buff
+#define II_PERM_BUFF_114					    36198   // Desert Spirit of the Fallen Soldier Buff
+#define II_PERM_BUFF_115					    36199   // Desert Spirut of the Fallen Mage Buff
+#define II_PERM_BUFF_116					    36200   // Warrior Sand Skitter Buff
+#define II_PERM_BUFF_117					    36201   // Sunbaked Rhino Buff
+#define II_PERM_BUFF_118					    36202   // Desert Spirit of the Commander Buff
+#define II_PERM_BUFF_119					    36203   // Desert Spirit of the Sage Buff
+#define II_PERM_BUFF_120					    36204   // Dark Guardian Terrapin Buff
+#define II_PERM_BUFF_121					    36205   // Dark Usagi Fighter Buff
+#define II_PERM_BUFF_122					    36206   // Dark Usagi Blade Master Buff
+#define II_PERM_BUFF_123					    36207   // Dark Usagi Yari Buff
+#define II_PERM_BUFF_124					    36208   // Dark Usagi Ninja Buff
+#define II_PERM_BUFF_125					    36209   // Dark Usagi Axe Master Buff
+
+// Motion Unlock
+#define II_UNLOCK_MOTION_1						36210   // Motion Unlock: Gangnam Style Dance
+#define II_UNLOCK_MOTION_2						36211   // Motion Unlock: Facepalm
+#define II_UNLOCK_MOTION_3						36212   // Motion Unlock: Kiss is a delicate
+#define II_UNLOCK_MOTION_4						36213   // Motion Unlock: Kiss is a surprise
+#define II_UNLOCK_MOTION_5						36214   // Motion Unlock: Meditate
+#define II_UNLOCK_MOTION_6						36215   // Motion Unlock: Moonwalk
+#define II_UNLOCK_MOTION_7						36216   // Motion Unlock: Dabbing
+#define II_UNLOCK_MOTION_8						36217   // Motion Unlock: Suicide
+#define II_UNLOCK_MOTION_9						36218   // Motion Unlock: Happy Jump
+#define II_UNLOCK_MOTION_10						36219   // Motion Unlock: Sleeep
+#define II_UNLOCK_MOTION_11 					36220   // Motion Unlock: Cute Squat
+#define II_UNLOCK_MOTION_12						36221   // Motion Unlock: Mother father gentleman
+#define II_UNLOCK_MOTION_13						36222   // Motion Unlock: Gentleman Dance
+#define II_UNLOCK_MOTION_14						36223   // Motion Unlock: Slav Squat
+#define II_UNLOCK_MOTION_15 					36224   // Motion Unlock: Twerk
+#define II_UNLOCK_MOTION_16						36225   // Motion Unlock: Belly Dancer
+#define II_UNLOCK_MOTION_17					    36226   // Motion Unlock: Crying
+#define II_UNLOCK_MOTION_18						36227   // Motion Unlock: Loser
+#define II_UNLOCK_MOTION_19						36228   // Motion Unlock: Rumba
+#define II_UNLOCK_MOTION_20						36229   // Motion Unlock: Shrug
+#define II_UNLOCK_MOTION_21						36230   // Motion Unlock: Chill             
+#define II_UNLOCK_MOTION_22						36231   // Motion Unlock: Air Violin
+#define II_UNLOCK_MOTION_23						36232   // Motion Unlock: Hip-Hop Dancing
+#define II_UNLOCK_MOTION_24						36233   // Motion Unlock: Samba Dancing
+#define II_UNLOCK_MOTION_25						36234   // Motion Unlock: Best Mates Dance
+#define II_UNLOCK_MOTION_26						36235   // Motion Unlock: Skibidi
+#define II_UNLOCK_MOTION_27						36236   // Motion Unlock: Break Dance
+#define II_UNLOCK_MOTION_28						36237   // Motion Unlock: Flippin' Sexy
+#define II_UNLOCK_MOTION_29						36238   // Motion Unlock: Floss Dance
+#define II_UNLOCK_MOTION_30						36239   // Motion Unlock: Hype Dance
+#define II_UNLOCK_MOTION_31						36240   // Motion Unlock: Infnite Dab
+#define II_UNLOCK_MOTION_32						36241   // Motion Unlock: Mime Time
+#define II_UNLOCK_MOTION_33						36242   // Motion Unlock: Squat Kick
+#define II_UNLOCK_MOTION_34						36243   // Motion Unlock: Take The L
+#define II_UNLOCK_MOTION_35						36244   // Motion Unlock: The Robot
+#define II_UNLOCK_MOTION_36						36245   // Motion Unlock: Tidy
+#define II_UNLOCK_MOTION_37						36246   // Motion Unlock: Accolades
+#define II_UNLOCK_MOTION_38						36247   // Motion Unlock: Aerobic
+#define II_UNLOCK_MOTION_39						36248   // Motion Unlock: Cowboy Moves
+#define II_UNLOCK_MOTION_40						36249   // Motion Unlock: Crazy Feet"            
+#define II_UNLOCK_MOTION_41						36250   // Motion Unlock: Criss Cross
+#define II_UNLOCK_MOTION_42						36251   // Motion Unlock: Dance Therapy
+#define II_UNLOCK_MOTION_43						36252   // Motion Unlock: Disco Moves     
+#define II_UNLOCK_MOTION_44						36253   // Motion Unlock: Eagle Move      
+#define II_UNLOCK_MOTION_45						36254   // Motion Unlock: Guitar Hero      
+#define II_UNLOCK_MOTION_46						36255   // Motion Unlock: Kitty Cat         
+#define II_UNLOCK_MOTION_47						36256   // Motion Unlock: Loool               
+#define II_UNLOCK_MOTION_48						36257   // Motion Unlock: Luchador Move
+#define II_UNLOCK_MOTION_49						36258   // Motion Unlock: Need to Pee   
+#define II_UNLOCK_MOTION_50						36259   // Motion Unlock: Taichi Move    
+#define II_UNLOCK_MOTION_51						36260   // Motion Unlock: TRex Moves    
+#define II_UNLOCK_MOTION_52						36261   // Motion Unlock: You are awesome!  
+#define II_UNLOCK_MOTION_53						36262   // Motion Unlock: Billie Jean Dance
+
+#define II_TOKEN_WLD_BOSS						36263	// World Boss Token
+
+// Farming Ticket - Kiyo
+#define	II_SYS_TICKET_FARMINGP_01	            36264   // 1 Day Emerald Plain Ticket 
+#define	II_SYS_TICKET_FARMINGP_02	            36265   // 7 Days Emerald Plain Ticket 
+#define	II_SYS_TICKET_FARMINGP_03	            36266   // 15 Days Emerald PlainTicket 
+
+// Bags_(Cloaks) - Test
+#define II_ARM_S_CLO_CLO_BAG01                  36267   // Yeti Bag                 
+
+// Pokemon Pets - Kiyo
+#define II_PET_POKE1                            36268   // Absol
+#define II_PET_POKE2                            36269   // Aerodactyl
+#define II_PET_POKE3                            36270   // Aggron
+#define II_PET_POKE4                            36271   // Altaria
+#define II_PET_POKE5                            36272   // Ampharos
+#define II_PET_POKE6                            36273   // Articuno
+#define II_PET_POKE7                            36274   // Banette
+#define II_PET_POKE8                            36275   // Beedrill
+#define II_PET_POKE9                            36276   // Blastoise
+#define II_PET_POKE10                           36277   // Celebi
+#define II_PET_POKE11                           36278   // Charizard
+#define II_PET_POKE12                           36279   // Dugtrio
+#define II_PET_POKE13                           36280   // Gardevoir
+#define II_PET_POKE14                           36281   // Gengar
+#define II_PET_POKE15                           36282   // Gyarados
+#define II_PET_POKE16                           36283   // Heracross
+#define II_PET_POKE17                           36284   // Latias
+#define II_PET_POKE18                           36285   // Latios
+#define II_PET_POKE19                           36286   // Lucario
+#define II_PET_POKE20                           36287   // Mawile
+#define II_PET_POKE21                           36288   // Medicham
+#define II_PET_POKE22                           36289   // Moltres
+#define II_PET_POKE23                           36290   // Muk
+#define II_PET_POKE24                           36291   // Ninetales
+#define II_PET_POKE25                           36292   // Persian
+#define II_PET_POKE26                           36293   // Raichu
+#define II_PET_POKE27                           36294   // Raticate
+#define II_PET_POKE28                           36295   // Rayquaza
+#define II_PET_POKE29                           36296   // Sandslash
+#define II_PET_POKE30                           36297   // Scizor
+#define II_PET_POKE31                           36298   // Sharpedo
+#define II_PET_POKE32                           36299   // Slowbro
+#define II_PET_POKE33                           36300   // Venusaur
+#define II_PET_POKE34                           36301   // Zapdos
+#define II_PET_POKE35                           36302   // Bulbasaur
+#define II_PET_POKE36                           36303   // Chicorita
+#define II_PET_POKE37                           36304   // Evee
+#define II_PET_POKE38                           36305   // Espeon
+#define II_PET_POKE39                           36306   // Pikachu
+#define II_PET_POKE40                           36307   // Psyduck
+#define II_PET_POKE41                           36308   // Snorlax
+#define II_PET_POKE42                           36309   // Squirtle
+
+// Christmas Pets - Kiyo
+#define II_PET_XMAS1                            36310   // Bad Veigar
+#define II_PET_XMAS2                            36311   // Christmas Tree
+#define II_PET_XMAS3                            36312   // Christmas Alpaca
+//#define II_PET_XMAS4                          36313   // Christmas Boy
+//#define II_PET_XMAS5                          36314   // Christmas Girl
+#define II_PET_XMAS4                            36315   // Christmas Slime
+#define II_PET_XMAS5                            36316   // Christmas Maokai
+
+// Stated Glasses - Kiyo
+#define II_ARM_S_CLO_MAS_HIPSTAR01              36317   // Hipster Glasses (Yellow)
+#define II_ARM_S_CLO_MAS_HIPSTAR02              36318   // Hipster Glasses (Blue)
+#define II_ARM_S_CLO_MAS_HIPSTAR03              36319   // Hipster Glasses (Green)
+#define II_ARM_S_CLO_MAS_HIPSTAR04              36320   // Hipster Glasses (Pink)
+
+// More Cloaks - Kiyo
+#define II_ARM_S_CLO_CLO_M01                    36321   // Cat Bag Cloak                
+#define II_ARM_S_CLO_CLO_M02                    36322   // Ghoul Bag Cloak                 
+#define II_ARM_S_CLO_CLO_M03                    36323   // Goblin Bag Cloak                 
+#define II_ARM_S_CLO_CLO_M04                    36324   // Rudolph Bag Cloak                 
+#define II_ARM_S_CLO_CLO_M05                    36325   // Zipper Bag Cloak                 
+#define II_ARM_S_CLO_CLO_M06                    36326   // Christmas Tail Cloak                 
+#define II_ARM_S_CLO_CLO_M07                    36327   // Cosmic Brilliant Tail                
+#define II_ARM_S_CLO_CLO_M08                    36328   // Fox Tail         
+#define II_ARM_S_CLO_CLO_M09                    36329   // Gack Tail                 
+#define II_ARM_S_CLO_CLO_M10                    36330   // Gloomy Fox Tail                 
+#define II_ARM_S_CLO_CLO_M11                    36331   // Xmas Cloak                 
+#define II_ARM_S_CLO_CLO_M12                    36332   // Mio Guitar Cloak                 
+#define II_ARM_S_CLO_CLO_M13                    36333   // Mugirk Cloak                
+#define II_ARM_S_CLO_CLO_M14                    36334   // Mustan Guitar Cloak                
+#define II_ARM_S_CLO_CLO_M15                    36335   // Plush Bunny Cloak           
+#define II_ARM_S_CLO_CLO_M16                    36336   // Plush Flower Cloak                 
+#define II_ARM_S_CLO_CLO_M17                    36337   // Panda Plushie Cloak                      
+#define II_ARM_S_CLO_CLO_M18                    36338   // Teddy Bear Plushie Cloak                 
+#define II_ARM_S_CLO_CLO_M19                    36339   // Bear Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M20                    36340   // Frog Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M21                    36341   // Blue Bear Plushie Cloak                  
+#define II_ARM_S_CLO_CLO_M22                    36342   // Thief Bear Plushie Cloak                 
+#define II_ARM_S_CLO_CLO_M23                    36343   // Pink Bear Plushie Cloak                  
+#define II_ARM_S_CLO_CLO_M24                    36344   // Yellow Bear Plushie Cloak                
+#define II_ARM_S_CLO_CLO_M25                    36345   // Happy Bear Plushie Cloak                 
+#define II_ARM_S_CLO_CLO_M26                    36346   // Purple Bear Plushie Cloak                 
+#define II_ARM_S_CLO_CLO_M27                    36347   // Angry Bear Plushie Cloak                  
+#define II_ARM_S_CLO_CLO_M28                    36348   // Weird Bear Plushie Cloak                  
+#define II_ARM_S_CLO_CLO_M29                    36349   // Piggy Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M30                    36350   // Girl Plushie Cloak                        
+#define II_ARM_S_CLO_CLO_M31                    36351   // Blackie Plushie Cloak                     
+#define II_ARM_S_CLO_CLO_M32                    36352   // Moustache Plushie Cloak                   
+#define II_ARM_S_CLO_CLO_M33                    36353   // Whity Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M34                    36354   // Cross Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M35                    36355   // Ghost Plushie Cloak                       
+#define II_ARM_S_CLO_CLO_M36                    36356   // Spring Girl Plushie Cloak               
+#define II_ARM_S_CLO_CLO_M37                    36357   // Plushie Ronman Cloak                 
+#define II_ARM_S_CLO_CLO_M38                    36358   // Cupid Bunny Cloak                       
+#define II_ARM_S_CLO_CLO_M39                    36359   // Valentines Chocolate Cloak             
+#define II_ARM_S_CLO_CLO_M40                    36360   // Cupid Cloak                             
+#define II_ARM_S_CLO_CLO_M41                    36361   // Admiral Cloak                 
+#define II_ARM_S_CLO_CLO_M42                    36362   // Estrrbt Cloak                 
+#define II_ARM_S_CLO_CLO_M43                    36363   // Estrubrll Cloak                 
+#define II_ARM_S_CLO_CLO_M44                    36364   // Ice King Cloak                 
+#define II_ARM_S_CLO_CLO_M45                    36365   // Hell Dracula Cloak                 
+#define II_ARM_S_CLO_CLO_M46                    36366   // Insane Pumpkin Cloak                 
+#define II_ARM_S_CLO_CLO_M47                    36367   // Pink Kitty Cloak                 
+#define II_ARM_S_CLO_CLO_M48                    36368   // Blue Kitty Cloak                 
+#define II_ARM_S_CLO_CLO_M49                    36369   // Green Kitty Cloak                 
+#define II_ARM_S_CLO_CLO_M50                    36370   // Orange Kitty Cloak                 
+#define II_ARM_S_CLO_CLO_M51                    36371   // Violet Kitty Cloak                 
+#define II_ARM_S_CLO_CLO_M52                    36372   // Feather Cloak                 
+#define II_ARM_S_CLO_CLO_M53                    36373   // Flower Back Cloak                 
+#define II_ARM_S_CLO_CLO_M54                    36374   // Flower Poring Cloak                 
+#define II_ARM_S_CLO_CLO_M55                    36375   // Love Bear Cloak
+#define II_ARM_S_CLO_CLO_M56                    36376   // Brite Backpack Cloak
+#define II_ARM_S_CLO_CLO_M57                    36377   // Bunny Plushie Cloak
+#define II_ARM_S_CLO_CLO_M58                    36378   // Cookie Bunny Cloak
+#define II_ARM_S_CLO_CLO_M59                    36379   // Cute Elephant Cloak
+#define II_ARM_S_CLO_CLO_M60                    36380   // Cute Roulette Cloak
+#define II_ARM_S_CLO_CLO_M61                    36381   // Dolphin Sailor Cloak
+#define II_ARM_S_CLO_CLO_M62                    36382   // Florensia Cloak v1
+#define II_ARM_S_CLO_CLO_M63                    36383   // Florensia Cloak v2
+#define II_ARM_S_CLO_CLO_M64                    36384   // Florensia Cloak v3
+#define II_ARM_S_CLO_CLO_M65                    36385   // Florensia Cloak v4
+#define II_ARM_S_CLO_CLO_M66                    36386   // Florensia Cloak v5
+#define II_ARM_S_CLO_CLO_M67                    36387   // Flying Piggy Cloak
+#define II_ARM_S_CLO_CLO_M68                    36388   // Goodie Bag Cloak
+#define II_ARM_S_CLO_CLO_M69                    36389   // Hatchling Bag Cloak
+#define II_ARM_S_CLO_CLO_M70                    36390   // Ice Elemental Cloak
+#define II_ARM_S_CLO_CLO_M71                    36391   // Ice Cream Cloak
+#define II_ARM_S_CLO_CLO_M72                    36392   // Karahan Cloak
+#define II_ARM_S_CLO_CLO_M73                    36393   // Kooh Bear Cloak
+#define II_ARM_S_CLO_CLO_M74                    36394   // Little Tiger Cloak
+#define II_ARM_S_CLO_CLO_M75                    36395   // Maw Penguin Cloak
+#define II_ARM_S_CLO_CLO_M76                    36396   // Pooring Cloak
+#define II_ARM_S_CLO_CLO_M77                    36397   // Dino Cloak
+#define II_ARM_S_CLO_CLO_M78                    36398   // Snowboard Penguin Cloak
+#define II_ARM_S_CLO_CLO_M79                    36399   // Snow Megaman Cloak
+#define II_ARM_S_CLO_CLO_M80                    36400   // Snow Neko Cloak
+#define II_ARM_S_CLO_CLO_M81                    36401   // Snow Teddy Cloak
+#define II_ARM_S_CLO_CLO_M82                    36402   // Snow Yetti Cloak
+#define II_ARM_S_CLO_CLO_M83                    36403   // Special Delivery Cloak
+#define II_ARM_S_CLO_CLO_M84                    36404   // Ezreal Star Guardian Cloak
+#define II_ARM_S_CLO_CLO_M85                    36405   // Star Guardian Cloak
+#define II_ARM_S_CLO_CLO_M86                    36406   // Talons Cloak
+#define II_ARM_S_CLO_CLO_M87                    36407   // Thief Swords Cloak
+#define II_ARM_S_CLO_CLO_M88                    36408   // Twin Dragons Cloak
+#define II_ARM_S_CLO_CLO_M89                    36409   // Valentine King Cloak
+#define II_ARM_S_CLO_CLO_M90                    36410   // Zeromin Cloak
+#define II_ARM_S_CLO_CLO_M91                    36411   // Marked Zombie Cloak
+                          
+// More Pets - Kiyo
+#define II_PET_GEISHA                           36412   // Geisha
+#define II_PET_CHIBIAN                          36413   // Chibi Angel
+#define II_PET_LITTLEDEV                        36414   // Little Devil
+#define II_PET_LOVEGHO                          36415   // Love Ghost
+#define II_PET_KIRBY                            36416   // Kirby
+#define II_PET_BUNNYS                           36417   // Bunny Slayer
+#define II_PET_AYAKO                            36418   // Ayako
+#define II_PET_HANGRA                           36419   // Hansel and Gretel
+#define II_PET_SNOWQUEEN                        36420   // Snowflake Queen
+#define II_PET_IGOR                             36421   // Igor
+#define II_PET_PATRICK                          36422   // Patrick
+#define II_PET_ALICE                            36423   // Baby Alice
+#define II_PET_SEIYU                            36424   // Seiyumary
+#define II_PET_SQUIDE                           36425   // Squidward
+#define II_PET_ANONA                            36426   // Anona
+#define II_PET_ARES                             36427   // Ares
+#define II_PET_ANAHITA                          36428   // Anahita
+//#define II_PET_CUTEBOX                        36429   // Cute Box - Removed, free define
+#define II_PET_MONKEYDL                         36430   // Monkey D. Luffy
+#define II_PET_NARUTO                           36431   // Baby Naruto
+
+// Glyphs - Leese
+#define II_ARM_S_GLYPH_01						36432	// Newbie Glyph
+#define II_ARM_S_GLYPH_02						36433	// Novice Glyph
+#define II_ARM_S_GLYPH_03						36434	// Rookie Glyph
+#define II_ARM_S_GLYPH_04						36435	// Beginner Glyph
+#define II_ARM_S_GLYPH_05						36436	// Talented Glyph
+#define II_ARM_S_GLYPH_06						36437	// Skilled Glyph
+#define II_ARM_S_GLYPH_07						36438	// Intermediate Glyph
+#define II_ARM_S_GLYPH_08						36439	// Skillful Glyph
+#define II_ARM_S_GLYPH_09						36440	// Seasoned Glyph
+#define II_ARM_S_GLYPH_10						36441	// Proficient Glyph
+#define II_ARM_S_GLYPH_11						36442	// Experienced Glyph
+#define II_ARM_S_GLYPH_12						36443	// Advanced Glyph
+#define II_ARM_S_GLYPH_13						36444	// Senior Glyph
+#define II_ARM_S_GLYPH_14						36445	// Expert Glyph
+#define II_SYS_GLYPH_SHARD						36446	// Glyph Shard
+
+// Achievement Items - Leese
+#define II_SYS_ACH_POINT						36447	// Achievement Coin
+
+// Vote Balloons - Kiyo 
+#define II_SYS_SYS_VOTEBALLOON1                 36448   // Balloon of Experience
+#define II_SYS_SYS_VOTEBALLOON2                 36449   // Balloon of Penya
+#define II_SYS_SYS_VOTEBALLOON3                 36450   // Balloon of Drop
+#define II_SYS_SYS_VOTEBALLOON4                 36451   // Balloon of Collecting
+#define II_SYS_SYS_VOTEBALLOON5                 36452   // Balloon of Pet Experience
+
+// Pokemon Balls - Kiyo
+#define II_SYS_SYS_SCR_POKEBALL1                36453   // Pokemon Ball
+#define II_SYS_SYS_SCR_POKEBALL2                36454   // Great Pokemon Ball
+#define II_SYS_SYS_SCR_POKEBALL3                36455   // Ultra Pokemon Ball
+#define II_SYS_SYS_SCR_POKEBALL4                36456   // Master Pokemon Ball
+#define II_SYS_SYS_SCR_POKEBALL5                36457   // Master Pokemon Ball
+
+
+// Special Pokemon Pets - Kiyo
+#define II_PET_SPOKE1                           36458   // Mega Absol
+#define II_PET_SPOKE2                           36459   // Mega Shiny Absol
+#define II_PET_SPOKE3                           36460   // Shiny Absol
+#define II_PET_SPOKE4                           36461   // Mega Aerodactyl
+#define II_PET_SPOKE5                           36462   // Mega Shiny Aerodactyl
+#define II_PET_SPOKE6                           36463   // Shiny Aerodactyl
+#define II_PET_SPOKE7                           36464   // Mega Aggron
+#define II_PET_SPOKE8                           36465   // Mega Shiny Aggron     
+#define II_PET_SPOKE9                           36466   // Shiny Aggron
+#define II_PET_SPOKE10                          36467   // Mega Altaria
+#define II_PET_SPOKE11                          36468   // Mega Shiny Altaria
+#define II_PET_SPOKE12                          36469   // Shiny Altaria
+#define II_PET_SPOKE13                          36470   // Mega Ampharos
+#define II_PET_SPOKE14                          36471   // Mega Shiny Ampharos
+#define II_PET_SPOKE15                          36472   // Shiny Ampharos
+#define II_PET_SPOKE16                          36473   // Shiny Articuno
+#define II_PET_SPOKE17                          36474   // Mega Banette
+#define II_PET_SPOKE18                          36475   // Mega Shiny Banette
+#define II_PET_SPOKE19                          36476   // Shiny Banette
+#define II_PET_SPOKE20                          36477   // Mega Beedrill
+#define II_PET_SPOKE21                          36478   // Mega Shiny Beedrill
+#define II_PET_SPOKE22                          36479   // Shiny Beedrill
+#define II_PET_SPOKE23                          36480   // Shiny Blastoise
+#define II_PET_SPOKE25                          36481   // Mega Charizard X
+#define II_PET_SPOKE26                          36482   // Mega Shiny Charizard X
+#define II_PET_SPOKE27                          36483   // Mega Charizard Y
+#define II_PET_SPOKE28                          36484   // Mega Shiny Charizard Y
+#define II_PET_SPOKE29                          36485   // Shiny Charizard
+#define II_PET_SPOKE30                          36486   // Alola Dugtrio
+#define II_PET_SPOKE31                          36487   // Alola Shiny Dugtrio
+#define II_PET_SPOKE32                          36488   // Shiny Dugtrio
+#define II_PET_SPOKE33                          36489   // Mega Gardevoir
+#define II_PET_SPOKE34                          36490   // Mega Shiny Gardevoir
+#define II_PET_SPOKE35                          36491   // Shiny Gardevoir
+#define II_PET_SPOKE36                          36492   // Mega Gengar
+#define II_PET_SPOKE38                          36493   // Shiny Gengar#endif                                          
+#define II_PET_SPOKE39                          36494   // Mega Gyarados
+#define II_PET_SPOKE40                          36495   // Mega Shiny Gyarados
+#define II_PET_SPOKE41                          36496   // Shiny Gyarados
+#define II_PET_SPOKE42                          36497   // Mega Heracross
+#define II_PET_SPOKE43                          36498   // Mega Shiny Heracross
+#define II_PET_SPOKE44                          36499   // Shiny Heracross
+#define II_PET_SPOKE45                          36500   // Mega Latias      
+#define II_PET_SPOKE46                          36501   // Mega Shiny Latias
+#define II_PET_SPOKE47                          36502   // Shiny Latias
+#define II_PET_SPOKE48                          36503   // Mega Latios      
+#define II_PET_SPOKE49                          36504   // Mega Shiny Latios
+#define II_PET_SPOKE50                          36505   // Shiny Latios
+#define II_PET_SPOKE51                          36506   // Mega Lucario      
+#define II_PET_SPOKE52                          36507   // Mega Shiny Lucario
+#define II_PET_SPOKE53                          36508   // Shiny Lucario
+#define II_PET_SPOKE54                          36509   // Mega Mawile      
+#define II_PET_SPOKE55                          36510   // Mega Shiny Mawile
+#define II_PET_SPOKE56                          36511   // Shiny Mawile
+#define II_PET_SPOKE57                          36512   // Mega Medicham      
+#define II_PET_SPOKE58                          36513   // Mega Shiny Medicham
+#define II_PET_SPOKE59                          36514   // Shiny Medicham
+#define II_PET_SPOKE60                          36515   // Shiny Moltres
+#define II_PET_SPOKE61                          36516   // Alola Muk      
+#define II_PET_SPOKE62                          36517   // Alola Shiny Muk
+#define II_PET_SPOKE63                          36518   // Shiny Muk
+#define II_PET_SPOKE64                          36519   // Alola Ninetales      
+#define II_PET_SPOKE65                          36520   // Alola Shiny Ninetales
+#define II_PET_SPOKE66                          36521   // Shiny Ninetales
+#define II_PET_SPOKE67                          36522   // Alola Persian      
+#define II_PET_SPOKE68                          36523   // Alola Shiny Persian
+#define II_PET_SPOKE69                          36524   // Shiny Persian
+#define II_PET_SPOKE70                          36525   // Alola Raichu      
+#define II_PET_SPOKE71                          36526   // Alola Shiny Raichu
+#define II_PET_SPOKE72                          36527   // Shiny Raichu
+#define II_PET_SPOKE73                          36528   // Alola Raticate      
+#define II_PET_SPOKE74                          36529   // Alola Shiny Raticate
+#define II_PET_SPOKE75                          36530   // Shiny Raticate
+#define II_PET_SPOKE76                          36531   // Mega Rayquaza      
+#define II_PET_SPOKE77                          36532   // Mega Shiny Rayquaza
+#define II_PET_SPOKE78                          36533   // Shiny Rayquaza
+#define II_PET_SPOKE79                          36534   // Alola Sandslash      
+#define II_PET_SPOKE80                          36535   // Alola Shiny Sandslash
+#define II_PET_SPOKE81                          36536   // Shiny Sandslash
+#define II_PET_SPOKE82                          36537   // Mega Scizor      
+#define II_PET_SPOKE83                          36538   // Mega Shiny Scizor
+#define II_PET_SPOKE84                          36539   // Shiny Scizor
+#define II_PET_SPOKE85                          36540   // Mega Sharpedo      
+#define II_PET_SPOKE86                          36541   // Mega Shiny Sharpedo
+#define II_PET_SPOKE87                          36542   // Shiny Sharpedo
+#define II_PET_SPOKE88                          36543   // Mega Slowbro      
+#define II_PET_SPOKE89                          36544   // Mega Shiny Slowbro
+#define II_PET_SPOKE90                          36545   // Shiny Slowbro
+#define II_PET_SPOKE91                          36546   // Mega Venusaur      
+#define II_PET_SPOKE92                          36547   // Mega Shiny Venusaur
+#define II_PET_SPOKE93                          36548   // Shiny Venusaur
+#define II_PET_SPOKE94                          36549   // Shiny Zapdos     
+
+// Rare Pokemon Pets - Kiyo
+#define II_PET_SUPERDIALGA                      36550   // Super Dialga  
+#define II_PET_GALAXYRAIKOU                     36551   // Galaxy Raikou
+#define II_PET_GALAXYSUICUNE                    36552   // Galaxy Suicune
+#define II_PET_METAGRGROSSX                     36553   // MetagrossX
+#define II_PET_METALCHARIZARD                   36554   // Metal Charizard
+#define II_PET_METALDEOXYS                      36555   // Metal Deoxys	   
+#define II_PET_METALGARCHOMP                    36556   // Metal Garchomp   
+#define II_PET_METALSCIZOR                      36557   // Metal Scizor  
+#define II_PET_SUPERBLASTOISE                   36558   // Super Blastoise
+#define II_PET_RAINBOWKYOGRE	                36559   // Rainbow Kyogre  
+#define II_PET_SUPERENTEI   	                36560   // Super Entei
+#define II_PET_SUPERGYARADOS	                36561   // Super Gyarados 
+#define II_PET_OBSIDIANGENGAR	                36562   // Obsidian Gengar
+#define II_PET_NECROZMA01	                    36563   // Small Necrozma
+#define II_PET_NECROZMA02	                    36564   // Necrozma     
+#define II_PET_NECROZMA03	                    36565   // Captain Necrozma
+#define II_PET_DELTAPALKA	                    36566   // Delta Palka 
+#define II_PET_CELESTIAL	                    36567   // Celestial Yveltal
+#define II_PET_DRACOLUCARIO	                    36568   // Dracol Lucario 
+#define II_PET_TOXICVENUSAUR	                36569   // Toxic Venusaur 
+#define II_PET_GRANITETYRANITAR                 36570   // Granite Tyranitar
+#define II_PET_HERCULESSWAMPERT                 36571   // Hercules Swampert
+#define II_PET_INFERNALGROUDON                  36572   // Infernal Groudon
+#define II_PET_KINETICLUGIA                     36573   // Kinetic Lugia	
+#define II_PET_INFERNOTORNADUS                  36574   // Inferno Tornadus
+#define II_PET_BURSTGIRA                        36575   // Burstgira   
+#define II_PET_SUPERDRAGONITE	                36576   // Super Dragonite
+
+// More Book Models - Kiyo
+#define II_ARM_ARM_BOK_1                        36577	// Deathnote Book	
+#define II_ARM_ARM_BOK_2                        36578	// Ginger Solider Book	
+#define II_ARM_ARM_BOK_3                        36579	// Hex Maniac Book	
+#define II_ARM_ARM_BOK_4                        36580	// Panda Plushie Book     	
+#define II_ARM_ARM_BOK_5                        36581	// Teddy Bear Plushie Book
+#define II_ARM_ARM_BOK_6                        36582	// Bear Plushie Book      	
+#define II_ARM_ARM_BOK_7                        36583	// Frog Plushie Book      	
+#define II_ARM_ARM_BOK_8                        36584	// Blue Bear Plushie Book	
+#define II_ARM_ARM_BOK_9                        36585	// Thief Bear Plushie Book	
+#define II_ARM_ARM_BOK_10                       36586	// Pink Bear Plushie Book	
+#define II_ARM_ARM_BOK_11                       36587	// Yellow Bear Plushie Book	
+#define II_ARM_ARM_BOK_12                       36588	// Happy Bear Plushie Book	
+#define II_ARM_ARM_BOK_13                       36589	// Purple Bear Plushie Book	
+#define II_ARM_ARM_BOK_14                       36590	// Angry Bear Plushie Book
+#define II_ARM_ARM_BOK_15                       36591	// Weird Bear Plushie Book
+#define II_ARM_ARM_BOK_16                       36592	// Piggy Plushie Book    	
+#define II_ARM_ARM_BOK_17                       36593	// Girl Plushie Book      	
+#define II_ARM_ARM_BOK_18                       36594	// Blackie Plushie Book	
+#define II_ARM_ARM_BOK_19                       36595	// Moustache Plushie Book	
+#define II_ARM_ARM_BOK_20                       36596	// Whity Plushie Book     	
+#define II_ARM_ARM_BOK_21                       36597	// Cross Plushie Book     	
+#define II_ARM_ARM_BOK_22                       36598	// Ghost Plushie Book     	
+#define II_ARM_ARM_BOK_23                       36599	// Spring Girl Plushie Book	
+#define II_ARM_ARM_BOK_24                       36600	// Black Ranger Book	
+#define II_ARM_ARM_BOK_25                       36601	// Blue Ranger Book	
+#define II_ARM_ARM_BOK_26                       36602	// Gold Ranger Book	
+#define II_ARM_ARM_BOK_27                       36603	// Green Ranger Book	
+#define II_ARM_ARM_BOK_28                       36604	// Pink Ranger Book	
+#define II_ARM_ARM_BOK_29                       36605	// Red Ranger Book	
+#define II_ARM_ARM_BOK_30                       36606	// Silver Ranger Book	
+#define II_ARM_ARM_BOK_31                       36607	// White Ranger Book	
+#define II_ARM_ARM_BOK_32                       36608	// Yellow Ranger Book	
+#define II_ARM_ARM_BOK_33                       36609	// Starguardian Book v1	
+#define II_ARM_ARM_BOK_34                       36610	// Starguardian Book v2		
+#define II_ARM_ARM_BOK_35                       36611	// VLC Book	
+
+// More Masks - Kiyo
+#define II_ARM_S_CLO_MAS_1			            36612   // Bunnies Mask
+#define II_ARM_S_CLO_MAS_2			            36613   // Caramel Candy Mask
+#define II_ARM_S_CLO_MAS_3			            36614   // Chocolate Bar Mask
+#define II_ARM_S_CLO_MAS_4			            36615   // Pocky Mask
+#define II_ARM_S_CLO_MAS_5			            36616   // Cupcake Mask
+#define II_ARM_S_CLO_MAS_6			            36617   // Christmas Candy Mask
+#define II_ARM_S_CLO_MAS_7			            36618   // Deal With it Glasses
+#define II_ARM_S_CLO_MAS_8			            36619   // Duck Mask
+#define II_ARM_S_CLO_MAS_9			            36620   // Frog Mask
+#define II_ARM_S_CLO_MAS_10			            36621   // Ghoul Mask
+#define II_ARM_S_CLO_MAS_11			            36622   // Gingerbead Mask
+#define II_ARM_S_CLO_MAS_12			            36623   // Ice Cream Mask (Ice)
+#define II_ARM_S_CLO_MAS_13			            36624   // Ice Cream Mask (Lime)
+#define II_ARM_S_CLO_MAS_14			            36625   // Ice Cream Mask (Orange)
+#define II_ARM_S_CLO_MAS_15			            36626   // Ice Cream Mask (Purple)
+#define II_ARM_S_CLO_MAS_16			            36627   // Ice Cream Mask (Strawberry)
+#define II_ARM_S_CLO_MAS_17			            36628   // Koala Mask
+#define II_ARM_S_CLO_MAS_18			            36629   // Red Lolipop Mask
+#define II_ARM_S_CLO_MAS_19			            36630   // Purple Lolipop Mask
+#define II_ARM_S_CLO_MAS_20			            36631   // Green Lolipop Mask
+#define II_ARM_S_CLO_MAS_21			            36632   // Blue Lolipop Mask
+#define II_ARM_S_CLO_MAS_22			            36633   // Black Lolipop Mask
+#define II_ARM_S_CLO_MAS_23			            36634   // Mango Cake Mask
+#define II_ARM_S_CLO_MAS_24			            36635   // Blue Mochi Mask
+#define II_ARM_S_CLO_MAS_25			            36636   // Green Mochi Mask
+#define II_ARM_S_CLO_MAS_26			            36637   // Pink Mochi Mask
+#define II_ARM_S_CLO_MAS_27			            36638   // Red Mochi Mask
+#define II_ARM_S_CLO_MAS_28			            36639   // Yellow Mochi Mask
+#define II_ARM_S_CLO_MAS_29			            36640   // Whale Mask
+#define II_ARM_S_CLO_MAS_30			            36642   // Thief Bunny Mask
+
+// Guild Buffs - Breeze
+#define II_GUILD_BUFF_01			            36643   // Guild Buff - Level 10
+#define II_GUILD_BUFF_02			            36644   // Guild Buff - Level 20
+#define II_GUILD_BUFF_03			            36645   // Guild Buff - Level 30
+#define II_GUILD_BUFF_04			            36646   // Guild Buff - Level 40
+#define II_GUILD_BUFF_05			            36647   // Guild Buff - Level 50
+#define II_GUILD_BUFF_06			            39991   // Guild Buff - Level 60
+#define II_GUILD_BUFF_07			            39992   // Guild Buff - Level 70
+#define II_GUILD_BUFF_08			            39993   // Guild Buff - Level 80
+#define II_GUILD_BUFF_09			            39994   // Guild Buff - Level 90
+#define II_GUILD_BUFF_10			            39995   // Guild Buff - Level 100
+
+#define II_UNLOCK_EMOTE_1						36648	// Emote Unlock: Blob Bear
+
+//Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_AZURILL	        36649   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_BALTOY		        36650   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_BLASTOISE	        36651   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_CHARIZARD	        36652   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_CHIKORIITA	        36653   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_CYNDAQUIL	        36654   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_INVISIBLE	        36655   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_KAKUREON	        36656   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_LAPRAS		        36657   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_LOTED		        36658   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_MARILL		        36659   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_MEOWTH		        36660   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_METAMON	        36661   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_MIGAWARI	        36662   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_MUDIKIP	        36663   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_PICHU		        36664   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_PIKACHU	        36665   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_PIPI		        36666   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_PURIN		        36667   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_REGICE		        36668   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_REGIROCK	        36669   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_REGISTEEL	        36670   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_RHYDON		        36671   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_SEEDOT		        36672   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_SMOOCHUM	        36673   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_SNORLAX	        36674   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_SWABLU		        36675   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_TOGEPI		        36676   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_TOTODILE	        36677   // Pokemon Dolls
+#define II_GHOU_FUR_DCR_DOLL_YOMAWARU	        36678   // Pokemon Dolls
+
+// Pokemon Doll Random Boxes - Kiyo
+//#define II_SYS_SYS_SCR_PODOBOX1			    36679   // Pokemon Doll Random Boxes
+//#define II_SYS_SYS_SCR_PODOBOX2			    36680   // Pokemon Doll Random Boxes
+//#define II_SYS_SYS_SCR_PODOBOX3			    36681   // Pokemon Doll Random Boxes
+//#define II_SYS_SYS_SCR_PODOBOX4			    36682   // Pokemon Doll Random Boxes
+//#define II_SYS_SYS_SCR_PODOBOX5			    36683   // Pokemon Doll Random Boxes
+//#define II_SYS_SYS_SCR_PODOBOX6			    36684   // Pokemon Doll Random Boxes
+
+// Emote Unlocks - Leese
+#define II_UNLOCK_EMOTE_2						36685	// Emote Unlock: Dude
+#define II_UNLOCK_EMOTE_3						36686	// Emote Unlock: F Party
+#define II_UNLOCK_EMOTE_4						36687	// Emote Unlock: Doge Dance
+#define II_UNLOCK_EMOTE_5						36688	// Emote Unlock: You Died
+#define II_UNLOCK_EMOTE_6						36689	// Emote Unlock: Salty Shower
+#define II_UNLOCK_EMOTE_7						36690	// Emote Unlock: Spongebob Mock
+#define II_UNLOCK_EMOTE_8						36691	// Emote Unlock: Think 3D
+#define II_UNLOCK_EMOTE_9						36692	// Emote Unlock: Meow Bop
+
+#define II_UNLOCK_EMOTE_10						36693	// Emote Unlock: Cat Dance
+#define II_UNLOCK_EMOTE_11						36694	// Emote Unlock: Weelchair
+#define II_UNLOCK_EMOTE_12						36695	// Emote Unlock: Eyes
+#define II_UNLOCK_EMOTE_13						36696	// Emote Unlock: Cat Lick
+#define II_UNLOCK_EMOTE_14						36697	// Emote Unlock: 200 IQ
+#define II_UNLOCK_EMOTE_15						36698	// Emote Unlock: Ping
+#define II_UNLOCK_EMOTE_16						36699	// Emote Unlock: Pepo Dance
+#define II_UNLOCK_EMOTE_17						36700	// Emote Unlock: KekW
+#define II_UNLOCK_EMOTE_18						36701	// Emote Unlock: Bongo Cat
+#define II_UNLOCK_EMOTE_19						36702	// Emote Unlock: Ban Hammer
+#define II_UNLOCK_EMOTE_20						36703	// Emote Unlock: Feels Special Man
+	
+#define II_UNLOCK_EMOTE_21						36704	// Emote Unlock: Popcorn Cat
+#define II_UNLOCK_EMOTE_22						36705	// Emote Unlock: Evil Fast
+#define II_UNLOCK_EMOTE_23						36706	// Emote Unlock: Heck Yes
+#define II_UNLOCK_EMOTE_24						36707	// Emote Unlock: Shook
+#define II_UNLOCK_EMOTE_25						36708	// Emote Unlock: Catpo Dance
+#define II_UNLOCK_EMOTE_26						36709	// Emote Unlock: Pep
+#define II_UNLOCK_EMOTE_27						36710	// Emote Unlock: Lebron Jam
+#define II_UNLOCK_EMOTE_28						36711	// Emote Unlock: Nani TF
+#define II_UNLOCK_EMOTE_29						36712	// Emote Unlock: Smart
+#define II_UNLOCK_EMOTE_30						36713	// Emote Unlock: Precious
+#define II_UNLOCK_EMOTE_31						36714	// Emote Unlock: Duck Walk
+#define II_UNLOCK_EMOTE_32						36715	// Emote Unlock: Squidward Dance
+#define II_UNLOCK_EMOTE_33						36716	// Emote Unlock: 100
+#define II_UNLOCK_EMOTE_34						36717	// Emote Unlock: Awkward
+#define II_UNLOCK_EMOTE_35						36718	// Emote Unlock: Haachama
+	
+// More Donate Cloaks - Kiyo	
+#define II_ARM_S_CLO_CLO_DC53                   36719   // Weapon of Dest Cloak
+#define II_ARM_S_CLO_CLO_DC54                   36720   // Ultimate Holy Guardian Cloak
+#define II_ARM_S_CLO_CLO_DC55                   36721   // Queen Savior Cloak
+#define II_ARM_S_CLO_CLO_DC56                   36722   // Wind Seal Cloak
+#define II_ARM_S_CLO_CLO_DC57                   36723   // Water Seal Cloak
+#define II_ARM_S_CLO_CLO_DC58                   36724   // Light Seal Cloak
+#define II_ARM_S_CLO_CLO_DC59                   36725   // Fire Seal Cloak
+#define II_ARM_S_CLO_CLO_DC60                   36726   // Dark Seal Cloak
+#define II_ARM_S_CLO_CLO_DC61                   36727   // Experiment Cloak
+#define II_ARM_S_CLO_CLO_DC62                   36728   // Flower Dragger Cloak
+#define II_ARM_S_CLO_CLO_DC63                   36729   // Wind Dice Magician Cloak
+#define II_ARM_S_CLO_CLO_DC64                   36730   // Wind Element Cloak
+#define II_ARM_S_CLO_CLO_DC65                   36731   // Wind Inferno Cloak
+#define II_ARM_S_CLO_CLO_DC66                   36732   // Wind Undead King Cloak
+#define II_ARM_S_CLO_CLO_DC67                   36733   // Winged Demon Cloak
+#define II_ARM_S_CLO_CLO_DC68                   36734   // Zen Rei Cloak
+#define II_ARM_S_CLO_CLO_DC69                   36735   // Skull Guardian Cloak
+#define II_ARM_S_CLO_CLO_DC70                   36736   // Solitaire Cloak
+#define II_ARM_S_CLO_CLO_DC71                   36737   // Valkyria Cloak
+#define II_ARM_S_CLO_CLO_DC72                   36738   // Victor Cloak
+#define II_ARM_S_CLO_CLO_DC73                   36739   // Water Dice Magician Cloak
+#define II_ARM_S_CLO_CLO_DC74                   36740   // Water Element Cloak
+#define II_ARM_S_CLO_CLO_DC75                   36741   // Water Inferno Cloak
+#define II_ARM_S_CLO_CLO_DC76                   36742   // Water Undead King Cloak
+#define II_ARM_S_CLO_CLO_DC77                   36743   // Mythical Monster Cloak
+#define II_ARM_S_CLO_CLO_DC78                   36744   // Order of Plus Cloak
+#define II_ARM_S_CLO_CLO_DC79                   36745   // Pail Long Cloak
+#define II_ARM_S_CLO_CLO_DC80                   36746   // Raider Cloak
+#define II_ARM_S_CLO_CLO_DC81                   36747   // Rina Cloak
+#define II_ARM_S_CLO_CLO_DC82                   36748   // Light Dice Magician Cloak
+#define II_ARM_S_CLO_CLO_DC83                   36749   // Light Element Cloak
+#define II_ARM_S_CLO_CLO_DC84                   36750   // Light Inferno Cloak
+#define II_ARM_S_CLO_CLO_DC85                   36751   // Light Undead King Cloak
+#define II_ARM_S_CLO_CLO_DC86                   36752   // Kel Cloak
+#define II_ARM_S_CLO_CLO_DC87                   36753   // Lady Succubus Cloak
+#define II_ARM_S_CLO_CLO_DC88                   36754   // Goddes of War Cloak
+#define II_ARM_S_CLO_CLO_DC89                   36755   // Goddes of Fire Cloak
+//#define II_ARM_S_CLO_CLO_DC90                 36756   // Gon Cloak - Removed, Buggy model
+#define II_ARM_S_CLO_CLO_DC91                   36757   // Gundam Hell Cloak
+#define II_ARM_S_CLO_CLO_DC92                   36758   // Zal Cloak
+#define II_ARM_S_CLO_CLO_DC93                   36759   // Dual Gunz Cloak
+#define II_ARM_S_CLO_CLO_DC94                   36760   // Ezmo Cloak
+#define II_ARM_S_CLO_CLO_DC95                   36761   // Fire Dice Magician Cloak
+#define II_ARM_S_CLO_CLO_DC96                   36762   // Fire Element Cloak
+#define II_ARM_S_CLO_CLO_DC97                   36763   // Fire Inferno Cloak
+#define II_ARM_S_CLO_CLO_DC98                   36764   // Fire Undead King Cloak
+#define II_ARM_S_CLO_CLO_DC99                   36765   // Gatekeeper of Dark Cloak
+#define II_ARM_S_CLO_CLO_DC100                  36766   // Gatekeeper of Eternity Cloak
+#define II_ARM_S_CLO_CLO_DC101                  36767   // Gatekeeper of East Cloak
+#define II_ARM_S_CLO_CLO_DC102                  36768   // Gatekeeper of Light Cloak
+#define II_ARM_S_CLO_CLO_DC103                  36769   // Gatekeeper of Water Cloak
+#define II_ARM_S_CLO_CLO_DC104                  36770   // Gatekeeper of Wind Cloak
+#define II_ARM_S_CLO_CLO_DC105                  36771   // Ghost Queen Cloak
+#define II_ARM_S_CLO_CLO_DC106                  36772   // Dark Inferno Cloak
+#define II_ARM_S_CLO_CLO_DC107                  36773   // Dark UndeadKing Cloak
+#define II_ARM_S_CLO_CLO_DC108                  36774   // Dragonaut Cloak
+#define II_ARM_S_CLO_CLO_DC109                  36775   // Dark Dice Magician Cloak
+#define II_ARM_S_CLO_CLO_DC110                  36776   // Dark Element Cloak
+#define II_ARM_S_CLO_CLO_DC111                  36777   // Dark Guardian Cloak
+#define II_ARM_S_CLO_CLO_DC112                  36778   // Dark Hallow Cloak
+#define II_ARM_S_CLO_CLO_DC113                  36779   // Gold Holycross Cloak
+#define II_ARM_S_CLO_CLO_DC114                  36780   // Red Holycross Cloak
+#define II_ARM_S_CLO_CLO_DC115                  36781   // Silver Holycross Cloak
+#define II_ARM_S_CLO_CLO_DC116                  36782   // Blue Holycross Cloak
+#define II_ARM_S_CLO_CLO_DC117                  36783   // Dark Holycross Cloak
+#define II_ARM_S_CLO_CLO_DC118                  36784   // Mr. Bulbasaur Cloak
+#define II_ARM_S_CLO_CLO_DC119                  36785   // Mr. Charmander Cloak
+#define II_ARM_S_CLO_CLO_DC120                  36786   // Mr. Pikachu Cloak
+#define II_ARM_S_CLO_CLO_DC121                  36787   // Mr. Squirtle Cloak
+#define II_ARM_S_CLO_CLO_DC122                  36788   // Snorlax Cloak
+
+// Snow Camo Set (M) - Kiyo
+#define II_ARM_M_CHR_SNOWCAMOHAT                36789   // Snow Camo Hat (M)
+#define II_ARM_M_CHR_SNOWCAMOSUIT               36790   // Snow Camo Suit (M)
+#define II_ARM_M_CHR_SNOWCAMOGLOVES             36791   // Snow Camo Gloves (M)
+#define II_ARM_M_CHR_SNOWCAMOSHOES              36792   // Snow Camo Shoes (M)
+#define II_SYS_SYS_SCR_BXMSNOWCAMO              36793   // Snow Camo Cs Box (M)
+
+// Haidao Set (F) - Kiyo
+#define II_ARM_F_CHR_HAIDAOHAT                  36794   // Haidao Hair (F)
+#define II_ARM_F_CHR_HAIDAOSUIT                 36795   // Haidao Suit (F)
+#define II_ARM_F_CHR_HAIDAOGLOVES               36796   // Haidao Gloves (F)
+#define II_ARM_F_CHR_HAIDAOSHOES                36797   // Haidao Shoes (F)
+#define II_SYS_SYS_SCR_BXFHAIDAO                36798   // Haidao Cs Box (F)
+
+// Black Rock Set (F) - Kiyo
+#define II_ARM_F_CHR_BLACKROCKHAT               36799   // Black Rock Hair (F)
+#define II_ARM_F_CHR_BLACKROCKSUIT              36800   // Black Rock Suit (F)
+#define II_ARM_F_CHR_BLACKROCKGLOVES            36801   // Black Rock Gloves (F)
+#define II_ARM_F_CHR_BLACKROCKSHOES             36802   // Black Rock Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLACKROCK             36803   // Black Rock Cs Box (F)
+
+// Cheeky Butterfly Set (F) - Kiyo
+#define II_ARM_F_CHR_CBUTTERFLYHAT              36804   // Cheeky Butterfly Hair (F)
+#define II_ARM_F_CHR_CBUTTERFLYSUIT             36805   // Cheeky Butterfly Suit (F)
+#define II_ARM_F_CHR_CBUTTERFLYGLOVES           36806   // Cheeky Butterfly Gloves (F)
+#define II_ARM_F_CHR_CBUTTERFLYSHOES            36807   // Cheeky Butterfly Shoes (F)
+#define II_SYS_SYS_SCR_BXFCBUTTERFLY            36808   // Cheeky Butterfly Cs Box (F)
+
+// Butterfly Set (F) - Kiyo
+#define II_ARM_F_CHR_BUTTERFLYHAT               36809   // Butterfly Hair (F)
+#define II_ARM_F_CHR_BUTTERFLYSUIT              36810   // Butterfly Suit (F)
+#define II_ARM_F_CHR_BUTTERFLYGLOVES            36811   // Butterfly Gloves (F)
+#define II_ARM_F_CHR_BUTTERFLYSHOES             36812   // Butterfly Shoes (F)
+#define II_SYS_SYS_SCR_BXFBUTTERFLY             36813   // Butterfly Cs Box (F)
+
+// Waitress Set (F) - Kiyo
+#define II_ARM_F_CHR_WAITRESSHAT                36814   // Waitress Hair (F)
+#define II_ARM_F_CHR_WAITRESSSUIT               36815   // Waitress Suit (F)
+#define II_ARM_F_CHR_WAITRESSGLOVES             36816   // Waitress Gloves (F)
+#define II_ARM_F_CHR_WAITRESSSHOES              36817   // Waitress Shoes (F)
+#define II_SYS_SYS_SCR_BXFWAITRESS              36818   // Waitress Cs Box (F)
+
+// Winter Blue Set (F) - Kiyo
+#define II_ARM_F_CHR_WINTERBHAT                 36819   // Winter Blue Hair (F)
+#define II_ARM_F_CHR_WINTERBSUIT                36820   // Winter Blue Suit (F)
+#define II_ARM_F_CHR_WINTERBSHOES               36821   // Winter Blue Shoes (F)
+#define II_SYS_SYS_SCR_BXFWINTERB               36822   // Winter Blue Cs Box (F)
+
+// Winter Purple Set (F) - Kiyo
+#define II_ARM_F_CHR_WINTERPHAT                 36823   // Winter Purple Hair (F)
+#define II_ARM_F_CHR_WINTERPSUIT                36824   // Winter Purple Suit (F)
+#define II_ARM_F_CHR_WINTERPSHOES               36825   // Winter Purple Shoes (F)
+#define II_SYS_SYS_SCR_BXFWINTERP               36826   // Winter Purple Cs Box (F)
+
+// Winter Red Set (F) - Kiyo
+#define II_ARM_F_CHR_WINTERRHAT                 36827   // Winter Red Hair (F)
+#define II_ARM_F_CHR_WINTERRSUIT                36828   // Winter Red Suit (F)
+#define II_ARM_F_CHR_WINTERRSHOES               36829   // Winter Red Shoes (F)
+#define II_SYS_SYS_SCR_BXFWINTERR               36830   // Winter Red Cs Box (F)
+
+// Kyubi Set (M) - Kiyo
+#define II_ARM_M_CHR_KYUBIHAT                   36831   // Kyubi Hat (M)
+#define II_ARM_M_CHR_KYUBISUIT                  36832   // Kyubi Suit (M)
+#define II_ARM_M_CHR_KYUBIGLOVES                36833   // Kyubi Gloves (M)
+#define II_ARM_M_CHR_KYUBISHOES                 36834   // Kyubi Shoes (M)
+#define II_ARM_S_CLO_CLO_KYUBITAIL              36835   // Kyubi Tail (M)
+#define II_SYS_SYS_SCR_BXMKYUBI                 36836   // Kyubi Cs Box (M)
+
+// Green Kitty Set (F) - Kiyo
+#define II_ARM_F_CHR_GKITTYHAT                  36837   // Green Kitty Hair (F)
+#define II_ARM_F_CHR_GKITTYSUIT                 36838   // Green Kitty Suit (F)
+#define II_ARM_F_CHR_GKITTYGLOVES               36839   // Green Kitty Gloves (F)
+#define II_ARM_F_CHR_GKITTYSHOES                36840   // Green Kitty Shoes (F)
+#define II_SYS_SYS_SCR_BXFGKITTY                36841   // Green Kitty Cs Box (F)
+
+// Purple Kitty Set (F) - Kiyo
+#define II_ARM_F_CHR_PKITTYHAT                  36842   // Purple Kitty Hair (F)
+#define II_ARM_F_CHR_PKITTYSUIT                 36843   // Purple Kitty Suit (F)
+#define II_ARM_F_CHR_PKITTYGLOVES               36844   // Purple Kitty Gloves (F)
+#define II_ARM_F_CHR_PKITTYSHOES                36845   // Purple Kitty Shoes (F)
+#define II_SYS_SYS_SCR_BXFPKITTY                36846   // Purple Kitty Cs Box (F)
+
+// Red Kitty Set (F) - Kiyo
+#define II_ARM_F_CHR_RKITTYHAT                  36847   // Red Kitty Hair (F)
+#define II_ARM_F_CHR_RKITTYSUIT                 36848   // Red Kitty Suit (F)
+#define II_ARM_F_CHR_RKITTYGLOVES               36849   // Red Kitty Gloves (F)
+#define II_ARM_F_CHR_RKITTYSHOES                36850   // Red Kitty Shoes (F)
+#define II_SYS_SYS_SCR_BXFRKITTY                36851   // Red Kitty Cs Box (F)
+
+// Rock Set (F) - Kiyo
+#define II_ARM_F_CHR_ROCKHAT                    36852   // Rock Hair (F)
+#define II_ARM_F_CHR_ROCKSUIT                   36853   // Rock Suit (F)
+#define II_ARM_F_CHR_ROCKGLOVES                 36854   // Rock Gloves (F)
+#define II_ARM_F_CHR_ROCKSHOES                  36855   // Rock Shoes (F)
+#define II_SYS_SYS_SCR_BXFROCK                  36856   // Rock Cs Box (F)
+
+// Upgraded Miku Hairs - Kiyo
+#define II_ARM_F_CHR_MIKUHAIR1                  36857   // Miku Hair v1
+#define II_ARM_F_CHR_MIKUHAIR2                  36858   // Miku Hair v2
+#define II_ARM_F_CHR_MIKUHAIR3                  36859   // Miku Hair v3
+#define II_ARM_F_CHR_MIKUHAIR4                  36860   // Miku Hair v4
+#define II_ARM_F_CHR_MIKUHAIR5                  36861   // Miku Hair v5
+#define II_ARM_F_CHR_MIKUHAIR6                  36862   // Miku Hair v6
+
+// Angel Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ANGEL01HAT                 36863   // Angel Set Hat (F)
+#define II_ARM_F_CHR_ANGEL01SUIT                36864   // Angel Set Suit (F)
+#define II_ARM_F_CHR_ANGEL01GLOVES              36865   // Angel Set Suit (F)
+#define II_ARM_F_CHR_ANGEL01SHOES               36866   // Angel Set Shoes (F)
+#define II_SYS_SYS_SCR_BXFANGEL01               36867   // Angel  Set Cs Box (F)
+
+// Baby Rabbit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BBYRABBIT01HAT             36868   // Baby Rabbit Hat (F)
+#define II_ARM_F_CHR_BBYRABBIT01SUIT            36869   // Baby Rabbit Suit (F)
+#define II_ARM_F_CHR_BBYRABBIT01SHOES           36870   // Baby Rabbit Shoes (F)
+#define II_SYS_SYS_SCR_BXFBBYRABBIT01           36871   // Baby Rabbit Cs Box (F)
+
+// Dark Rabbit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DARKRABBIT01HAT            36872   // Dark Rabbit Hat (F)
+#define II_ARM_F_CHR_DARKRABBIT01SUIT           36873   // Dark Rabbit Suit (F)
+#define II_ARM_F_CHR_DARKRABBIT01SHOES          36874   // Dark Rabbit Shoes (F)
+#define II_SYS_SYS_SCR_BXFDARKRABBIT01          36875   // Dark Rabbit Cs Box (F)
+
+// Effole Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_EFFOLE01HAT                36876   // Effole Hat (F)
+#define II_ARM_F_CHR_EFFOLE01SUIT               36877   // Effole Suit (F)
+#define II_ARM_F_CHR_EFFOLE01SHOES              36878   // Effole Shoes (F)
+#define II_SYS_SYS_SCR_BXFEFFOLE01              36879   // Effole Cs Box (F)
+
+// Hell Kitty Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HELLKITTY1HAT              36880   // Hell Kitty Hat (F)
+#define II_ARM_F_CHR_HELLKITTY1SUIT             36881   // Hell Kitty Suit (F)
+#define II_ARM_F_CHR_HELLKITTY1GLOVES           36882   // Hell Kitty Gloves (F)
+#define II_ARM_F_CHR_HELLKITTY1SHOES            36883   // Hell Kitty Shoes (F)
+#define II_SYS_SYS_SCR_BXFHELLKITTY01           36884   // Hell Kitty Cs Box (F)
+
+// Akua Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AKUA1HAT                   36885   // Akua Hat (F)
+#define II_ARM_F_CHR_AKUA1SUIT                  36886   // Akua Suit (F)
+#define II_ARM_F_CHR_AKUA1SHOES                 36887   // Akua Shoes (F)
+#define II_SYS_SYS_SCR_BXFAKUA01                36888   // Akua Cs Box (F)
+
+// Megumin Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MEGUMINHAT                 36889   // Megumin Hat (F)
+#define II_ARM_F_CHR_MEGUMINSUIT                36890   // Megumin Suit (F)
+#define II_ARM_F_CHR_MEGUMINSHOES               36891   // Megumin Shoes (F)
+#define II_SYS_SYS_SCR_BXFMEGUMIN01             36892   // Megumin Cs Box (F)
+
+// Darkness Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DARKNESS01HAT              36893   // Darkness Hat (F)
+#define II_ARM_F_CHR_DARKNESS01SUIT             36894   // Darkness Suit (F)
+#define II_ARM_F_CHR_DARKNESS01SHOES            36895   // Darkness Shoes (F)
+#define II_SYS_SYS_SCR_BXFDARKNESS01            36896   // Darkness Cs Box (F)
+
+// Kuma Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KUMA01HAT                  36897   // Kuma Hat (F)
+#define II_ARM_F_CHR_KUMA01SUIT                 36898   // Kuma Suit (F)
+#define II_ARM_F_CHR_KUMA01SHOES                36899   // Kuma Shoes (F)
+#define II_SYS_SYS_SCR_BXFKUMA01                36900   // Kuma Cs Box (F)
+
+// Kurisu Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KURISU01HAT                36901   // Kurisu Hat (F)
+#define II_ARM_F_CHR_KURISU01SUIT               36902   // Kurisu Suit (F)
+#define II_ARM_F_CHR_KURISU01SHOES              36903   // Kurisu Shoes (F)
+#define II_SYS_SYS_SCR_BXFKURISU01              36904   // Kurisu Cs Box (F)
+
+// Touka Rabbit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TOUKAR01HAT                36905   // Touka Rabbit Hat (F)
+#define II_ARM_F_CHR_TOUKAR01SUIT               36906   // Touka Rabbit Suit (F)
+#define II_ARM_F_CHR_TOUKAR01SHOES              36907   // Touka Rabbit Shoes (F)
+#define II_SYS_SYS_SCR_BXFTOUKAR01              36908   // Touka Rabbit Cs Box (F)
+
+// Baby Rabbit Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BBYRABBIT01HAT             36909   // Baby Rabbit Hat (M)
+#define II_ARM_M_CHR_BBYRABBIT01SUIT            36910   // Baby Rabbit Suit (M)
+#define II_ARM_M_CHR_BBYRABBIT01SHOES           36911   // Baby Rabbit Shoes (M)
+#define II_SYS_SYS_SCR_BXMBBYRABBIT01           36912   // Baby Rabbit Cs Box (M)
+
+// Dark Rabbit Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DARKRABBIT01HAT            36913   // Dark Rabbit Hat (M)
+#define II_ARM_M_CHR_DARKRABBIT01SUIT           36914   // Dark Rabbit Suit (M)
+#define II_ARM_M_CHR_DARKRABBIT01SHOES          36915   // Dark Rabbit Shoes (M)
+#define II_SYS_SYS_SCR_BXMDARKRABBIT01          36916   // Dark Rabbit Cs Box (M)
+
+// Hell Kitty Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_HELLKITTY1HAT              36917   // Hell Kitty Hat (M)
+#define II_ARM_M_CHR_HELLKITTY1SUIT             36918   // Hell Kitty Suit (M)
+#define II_ARM_M_CHR_HELLKITTY1GLOVES           36919   // Hell Kitty Gloves (M)
+#define II_ARM_M_CHR_HELLKITTY1SHOES            36920   // Hell Kitty Shoes (M)
+#define II_SYS_SYS_SCR_BXMHELLKITTY01           36921   // Hell Kitty Cs Box (M)
+
+// Kuma Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_KUMA01HAT                  36922   // Kuma Hat (M)
+#define II_ARM_M_CHR_KUMA01SUIT                 36923   // Kuma Suit (M)
+#define II_ARM_M_CHR_KUMA01SHOES                36924   // Kuma Shoes (M)
+#define II_SYS_SYS_SCR_BXMKUMA01                36925   // Kuma Cs Box (M)
+
+// Link Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_LINK01HAT                  36926   // Link Hat (M)
+#define II_ARM_M_CHR_LINK01SUIT                 36927   // Link Suit (M)
+#define II_ARM_M_CHR_LINK01SHOES                36928   // Link Shoes (M)
+#define II_SYS_SYS_SCR_BXMLINK01                36929   // Link Cs Box (M)
+
+// Galaxy Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GALAXY01HAT                36930   // Galaxy Hat (F)
+#define II_ARM_F_CHR_GALAXY01SUIT               36931   // Galaxy Suit (F)
+#define II_ARM_F_CHR_GALAXY01SHOES              36932   // Galaxy Shoes (F)
+#define II_SYS_SYS_SCR_BXFGALAXY01              36933   // Galaxy Cs Box (F)
+
+// Hello Kitty Cap - Kiyo
+#define II_ARM_F_CHR_HELLOKITTY1HAT             36934   // Hello Kitty Cap (F)
+
+// Royal Rumble
+#define II_SYS_ROYAL_RUMBLE_TOKEN				36935	// Royal Rumble Trophy
+
+// Remove Model Pro
+#define II_SYS_SYS_ITEMMODELRETURN_PRO			36936	// Remove Model Pro
+
+// Barielle Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BARIELLEHAT                36937   // Barielle Hat (F)
+#define II_ARM_F_CHR_BARIELLESUIT               36938   // Barielle Suit (F)
+#define II_ARM_F_CHR_BARIELLEGLOVES             36939   // Barielle Gloves (F)
+#define II_ARM_F_CHR_BARIELLESHOES              36940   // Barielle Shoes (F)
+#define II_SYS_SYS_SCR_BXFBARIELLE01            36941   // Barielle Cs Box (F)
+
+// Anime Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ANIMEHAT                   36942   // Anime Hat (F)
+#define II_ARM_F_CHR_ANIMESUIT                  36943   // Anime Suit (F)
+#define II_ARM_F_CHR_ANIMESHOES                 36944   // Anime Shoes (F)
+#define II_SYS_SYS_SCR_BXFANIME01               36945   // Anime Cs Box (F)
+
+// Emilia Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_EMILIAHAT                  36946   // Emilia Hat (F)
+#define II_ARM_F_CHR_EMILIASUIT                 36947   // Emilia Suit (F)
+#define II_ARM_F_CHR_EMILIASHOES                36948   // Emilia Shoes (F)
+#define II_SYS_SYS_SCR_BXFEMILIA01              36949   // Emilia Cs Box (F)
+
+// Easter Rabbit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ERABBIT1HAT                36950   // Easter Rabbit Hat (F)
+#define II_ARM_F_CHR_ERABBIT1SUIT               36951   // Easter Rabbit Suit (F)
+#define II_ARM_F_CHR_ERABBIT1GLOVES             36952   // Easter Rabbit Gloves (F)
+#define II_ARM_F_CHR_ERABBIT1SHOES              36953   // Easter Rabbit Shoes (F)
+#define II_SYS_SYS_SCR_BXFERABBIT01             36954   // Easter Rabbit Cs Box (F)
+
+// Snow Rabbit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SRABBITHAT                 36955   // Snow Rabbit Hat (F)
+#define II_ARM_F_CHR_SRABBITSUIT                36956   // Snow Rabbit Suit (F)
+#define II_ARM_F_CHR_SRABBITGLOVES              36957   // Snow Rabbit Gloves (F)
+#define II_ARM_F_CHR_SRABBITSHOES               36958   // Snow Rabbit Shoes (F)
+#define II_SYS_SYS_SCR_BXFSRABBIT01             36959   // Snow Rabbit Cs Box (F)
+
+// Katarina Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KATARINAHAT                36960   // Katarina Hat (F)
+#define II_ARM_F_CHR_KATARINASUIT               36961   // Katarina Suit (F)
+#define II_ARM_F_CHR_KATARINAGLOVES             36962   // Katarina Gloves (F)
+#define II_ARM_F_CHR_KATARINASHOES              36963   // Katarina Shoes (F)
+#define II_SYS_SYS_SCR_BXFKATARINA01            36964   // Katarina Cs Box (F)
+
+// Kurumi Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KURUMIHAT                  36965   // Kurumi Hat (F)
+#define II_ARM_F_CHR_KURUMISUIT                 36966   // Kurumi Suit (F)
+#define II_ARM_F_CHR_KURUMISHOES                36967   // Kurumi Shoes (F)
+#define II_SYS_SYS_SCR_BXFKURUMI01              36968   // Kurumi Cs Box (F)
+
+// One Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ONEHAT                     36969   // One Hat (F)
+#define II_ARM_F_CHR_ONESUIT                    36970   // One Suit (F)
+#define II_ARM_F_CHR_ONESHOES                   36971   // One Shoes (F)
+#define II_SYS_SYS_SCR_BXFONE01                 36972   // One Cs Box (F)
+
+// Pajama v1 Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PAJAMA1HAT                 36973   // Pajama v1 Hat (F)
+#define II_ARM_F_CHR_PAJAMA1SUIT                36974   // Pajama v1 Suit (F)
+#define II_ARM_F_CHR_PAJAMA1SHOES               36975   // Pajama v1 Shoes (F)
+#define II_SYS_SYS_SCR_BXFPAJAMA01              36976   // Pajama v1 Cs Box (F)
+
+// Pajama v2 Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_PAJAMA2HAT                 36977   // Pajama v2 Hat (F)
+#define II_ARM_F_CHR_PAJAMA2SUIT                36978   // Pajama v2 Suit (F)
+#define II_ARM_F_CHR_PAJAMA2SHOES               36979   // Pajama v2 Shoes (F)
+#define II_SYS_SYS_SCR_BXFPAJAMA02              36980   // Pajama v2 Cs Box (F)
+
+// Rain Coat Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_RAINCOATHAT                36981   // Rain Coat Hat (F)
+#define II_ARM_F_CHR_RAINCOATSUIT               36982   // Rain Coat Suit (F)
+#define II_ARM_F_CHR_RAINCOATSHOES              36983   // Rain Coat Shoes (F)
+#define II_SYS_SYS_SCR_BXFRAINCOAT01            36984   // Rain Coat Cs Box (F)
+
+// Rei Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_REIHAT                     36985   // Rei Hat (F)
+#define II_ARM_F_CHR_REISUIT                    36986   // Rei Suit (F)
+#define II_ARM_F_CHR_REISHOES                   36987   // Rei Shoes (F)
+#define II_SYS_SYS_SCR_BXFREI01                 36988   // Rei Cs Box (F)
+
+// Assasin Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ASSASINHAT                 36989   // Assasin Hat (F)
+#define II_ARM_F_CHR_ASSASINSUIT                36990   // Assasin Suit (F)
+#define II_ARM_F_CHR_ASSASINGLOVES              36991   // Assasin Suit (F)
+#define II_ARM_F_CHR_ASSASINSHOES               36992   // Assasin Shoes (F)
+#define II_SYS_SYS_SCR_BXFASSASIN01             36993   // Assasin Cs Box (F)
+
+// More Unlocks - Kiyo
+#define II_UNLOCK_EMOTE_36						36994	// Emote Unlock: Pepe Angry
+
+// Rebirth
+#define II_SYS_SCR_REBIRTH_LEVEL				36995	// Rebirth Level
+
+// Traseia QI - Kiyo
+#define II_GEN_GEM_GEM_TRASQI1				    36996	// Sakai's Carrot
+#define II_GEN_GEM_GEM_TRASQI2				    36997	// Crag's Eyeball
+#define II_GEN_GEM_GEM_TRASQI3				    36998	// Razor's Axe
+#define II_GEN_GEM_GEM_TRASQI4				    36999	// Thorn's Shield
+#define II_GEN_GEM_GEM_TRASQI5				    37000	// Shades's Sword
+#define II_GEN_GEM_GEM_TRASQI6				    37001	// Mauler's Bone
+
+// Dark Traseia QI - Kiyo
+#define II_GEN_GEM_GEM_RORE				        37002	// Red Ore
+#define II_GEN_GEM_GEM_PORE				        37003	// Pink Ore
+#define II_GEN_GEM_GEM_GORE				        37004	// Gold Ore
+#define II_GEN_GEM_GEM_SORE				        37005	// Red Stringed Ore
+#define II_GEN_GEM_GEM_CORE				        37006	// Orange Stringed Ore
+#define II_GEN_GEM_GEM_MORE				        37007	// Mystical Ore
+
+// Random Mount & Pet Box - Kiyo
+#define II_SYS_SYS_SCR_RPETBOX			        37008   // Random Pet Box
+
+// More CS Pets - Kiyo
+#define II_PET_CAVERNTHINK                      37009  // Baby Cavernthing     
+#define II_PET_TRANCEVINE                       37010  // Baby Trancevine     
+
+// Pet Boxes - Kiyo
+#define II_SYS_SYS_SCR_PETBOX1			        37011   // Jin The Black Fox Box
+#define II_SYS_SYS_SCR_PETBOX2			        37012   // Sushi Shrimp Box
+#define II_SYS_SYS_SCR_PETBOX3			        37013   // Love Duck Box
+#define II_SYS_SYS_SCR_PETBOX4			        37014   // Pink Bunny Box
+#define II_SYS_SYS_SCR_PETBOX5			        37015   // Blue Bunny Box
+#define II_SYS_SYS_SCR_PETBOX6			        37016   // Yellow Bunny Box
+#define II_SYS_SYS_SCR_PETBOX7			        37017   // Orange Bunny Box
+#define II_SYS_SYS_SCR_PETBOX8			        37018   // Igor Box
+#define II_SYS_SYS_SCR_PETBOX9			        37019   // Baby Cavernthing Box
+#define II_SYS_SYS_SCR_PETBOX10			        37020   // Baby Trancevine Box
+
+// SFX Wings - Kiyo
+#define II_SYS_SYS_SFX_WING01			        37021   // Angel Aura Wing
+#define II_SYS_SYS_SFX_WING02			        37022   // Blue Aura Wing
+#define II_SYS_SYS_SFX_WING03			        37023   // Butterfly Aura Wing
+#define II_SYS_SYS_SFX_WING04			        37024   // Cyan Aura Wing 1	
+#define II_SYS_SYS_SFX_WING05			        37025   // Cyan Aura Wing 2	
+#define II_SYS_SYS_SFX_WING06			        37026   // Cyan Aura Wing 3
+#define II_SYS_SYS_SFX_WING07			        37027   // Demon Aura Wing
+#define II_SYS_SYS_SFX_WING08			        37028   // Fire Aura Wing
+#define II_SYS_SYS_SFX_WING09			        37029   // Flame Aura Wing
+#define II_SYS_SYS_SFX_WING10			        37030   // Golden Aura Wing 1
+#define II_SYS_SYS_SFX_WING11			        37031   // Golden Aura Wing 2
+#define II_SYS_SYS_SFX_WING12			        37032   // Golden Aura Wing 3
+#define II_SYS_SYS_SFX_WING13			        37033   // Green Aura Wing
+#define II_SYS_SYS_SFX_WING14			        37034   // Mythical Aura Wing	
+#define II_SYS_SYS_SFX_WING15			        37035   // Purple Aura Wing 1
+#define II_SYS_SYS_SFX_WING16			        37036   // Purple Aura Wing 2
+#define II_SYS_SYS_SFX_WING17			        37037   // Rainbow Aura Wing 1
+#define II_SYS_SYS_SFX_WING18			        37038   // Rainbow Aura Wing 2
+#define II_SYS_SYS_SFX_WING19			        37039   // Red Aura Wing
+#define II_SYS_SYS_SFX_WING20			        37040   // Ice Aura Wing
+#define II_SYS_SYS_SFX_WING21			        37041   // Skeleton Aura Wing
+#define II_SYS_SYS_SFX_WING22			        37042   // Blue Flower Aura Wing
+#define II_SYS_SYS_SFX_WING23			        37043   // Purple Flower Aura Wing
+#define II_SYS_SYS_SFX_WING24			        37044   // Pink Flower Aura Wing
+#define II_SYS_SYS_SFX_WING25			        37045   // Red Flower Aura Wing
+#define II_SYS_SYS_SFX_WING26			        37046   // Yellow Flower Aura Wing
+
+// Fang Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_FANGHAT                    37047   // Fang Hat (M)
+#define II_ARM_M_CHR_FANGSUIT                   37048   // Fang Suit (M)
+#define II_ARM_M_CHR_FANGSHOES                  37049   // Fang Shoes (M)
+#define II_SYS_SYS_SCR_BXMFANG01                37050   // Fang Cs Box (M)
+
+// Finn Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_FINNHAT                    37051   // Finn Hat (M)
+#define II_ARM_M_CHR_FINNSUIT                   37052   // Finn Suit (M)
+#define II_ARM_M_CHR_FINNSHOES                  37053   // Finn Shoes (M)
+#define II_SYS_SYS_SCR_BXMFINN01                37054   // Finn Cs Box (M)
+
+// Flame Yukata Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_FLAMEYUKATAHAT             37055   // Flame Yukata Hat (M)
+#define II_ARM_M_CHR_FLAMEYUKATASUIT            37056   // Flame Yukata Suit (M)
+#define II_ARM_M_CHR_FLAMEYUKATASHOES           37057   // Flame Yukata Shoes (M)
+#define II_SYS_SYS_SCR_BXMFLAMEYUKATA01         37058   // Flame Yukata Cs Box (M)
+
+// Pajama Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_PAJAMAHAT                  37059   // Pajama Hat (M)
+#define II_ARM_M_CHR_PAJAMASUIT                 37060   // Pajama Suit (M)
+#define II_ARM_M_CHR_PAJAMASHOES                37061   // Pajama Shoes (M)
+#define II_SYS_SYS_SCR_BXMPAJAMA01              37062   // Pajama Cs Box (M)
+
+// Traveler Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SWIMTHAT                   37063   // Traveler Hat (M)
+#define II_ARM_M_CHR_SWIMTSUIT                  37064   // Traveler Suit (M)
+#define II_ARM_M_CHR_SWIMTSHOES                 37065   // Traveler Shoes (M)
+#define II_SYS_SYS_SCR_BXMSWIMT01               37066   // Traveler Cs Box (M)
+
+// Dagoon Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DAGOONHAT                  37067   // Dagoon Hat (M)
+#define II_ARM_M_CHR_DAGOONSUIT                 37068   // Dagoon Suit (M)
+#define II_ARM_M_CHR_DAGOONGLOVES               37069   // Dagoon Gloves (M)
+#define II_ARM_M_CHR_DAGOONSHOES                37070   // Dagoon Shoes (M)
+#define II_SYS_SYS_SCR_BXMDAGOON01              37071   // Dagoon Cs Box (M)
+
+// Loot Box Keys - Leese
+#define II_LOOTBOX_KEY_01						37072	// Bronze Casino Key
+#define II_LOOTBOX_KEY_02						37073	// Silver Casino Key
+#define II_LOOTBOX_KEY_03						37074	// Nature Casino Key
+#define II_LOOTBOX_KEY_04						37075	// Diamond Casino Key
+#define II_LOOTBOX_KEY_05						37076	// God Casino Key
+
+// Random Boxes - Kiyo
+#define II_SYS_SYS_SCR_CASINO1			        37077   // Bronze Box 
+#define II_SYS_SYS_SCR_CASINO2			        37078   // Silver Box
+#define II_SYS_SYS_SCR_CASINO3			        37079   // Nature Box
+#define II_SYS_SYS_SCR_CASINO4			        37080   // Diamond Box
+#define II_SYS_SYS_SCR_CASINO5			        37081   // God Box   
+
+// Traveler Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SWIMTHAT                   37082   // Traveler Hat (F)
+#define II_ARM_F_CHR_SWIMTSUIT                  37083   // Traveler Suit (F)
+#define II_ARM_F_CHR_SWIMTSHOES                 37084   // Traveler Shoes (F)
+#define II_SYS_SYS_SCR_BXFSWIMT01               37085   // Traveler Cs Box (F)
+
+// Teklili Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TEKILILIHAT                37086   // Teklili Hat (F)
+#define II_ARM_F_CHR_TEKILILISUIT               37087   // Teklili Suit (F)
+#define II_ARM_F_CHR_TEKILILISHOES              37088   // Teklili Shoes (F)
+#define II_SYS_SYS_SCR_BXFTEKILILI01            37089   // Teklili Cs Box (F)
+
+// Kitty Warrior Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_KWARRIORHAT                37090   // Kitty Warrior Hat (M)
+#define II_ARM_M_CHR_KWARRIORSUIT               37091   // Kitty Warrior Suit (M)
+#define II_ARM_M_CHR_KWARRIORSHOES              37092   // Kitty Warrior Shoes (M)
+#define II_SYS_SYS_SCR_BXMKWARRIOR01            37093   // Kitty Warrior Cs Box (M)
+
+// Ace Yukata Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_ACEYUKATARHAT              37094   // Ace Yukata Hat (M)
+#define II_ARM_M_CHR_ACEYUKATARSUIT             37095   // Ace Yukata Suit (M)
+#define II_ARM_M_CHR_ACEYUKATARSHOES            37096   // Ace Yukata Shoes (M)
+#define II_SYS_SYS_SCR_BXMACEYUKATA01           37097   // Ace Yukata Cs Box (M)
+
+// Androgynous Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_ANDROGHAT                  37098   // Androgynous Hat (M)
+#define II_ARM_M_CHR_ANDROGSUIT                 37099   // Androgynous Suit (M)
+#define II_ARM_M_CHR_ANDROGGLOVES               37100   // Androgynous Gloves (M)
+#define II_ARM_M_CHR_ANDROGSHOES                37101   // Androgynous Shoes (M)
+#define II_SYS_SYS_SCR_BXMANDROG01              37102   // Androgynous Cs Box (M)
+
+// Bankai Ichigo Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BANKAIICHIHAT              37103   // Bankai Ichigo Hat (M)
+#define II_ARM_M_CHR_BANKAIICHISUIT             37104   // Bankai Ichigo Suit (M)
+#define II_ARM_M_CHR_BANKAIICHISHOES            37105   // Bankai Ichigo Shoes (M)
+#define II_SYS_SYS_SCR_BXMBANKAIICHI01          37106   // Bankai Ichigo Cs Box (M)
+
+// Charizad Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CHARIZARDHAT               37107   // Charizad Hat (M)
+#define II_ARM_M_CHR_CHARIZARDSUIT              37108   // Charizad Suit (M)
+#define II_ARM_M_CHR_CHARIZARGLOVES             37109   // Charizad Gloves (M)
+#define II_ARM_M_CHR_CHARIZARDSHOES             37110   // Charizad Shoes (M)
+#define II_SYS_SYS_SCR_BXMCHARIZARD01           37111   // Charizad Cs Box (M)
+
+// Eren Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_ERENHAT                    37112   // Eren Hat (M)
+#define II_ARM_M_CHR_ERENSUIT                   37113   // Eren Suit (M)
+#define II_ARM_M_CHR_ERENSHOES                  37114   // Eren Shoes (M)
+#define II_SYS_SYS_SCR_BXMEREN01                37115   // Eren Cs Box (M)
+
+// Snow Rabbit Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SNOWRABBITHAT              37116   // Snow Rabbit Hat (M)
+#define II_ARM_M_CHR_SNOWRABBITSUIT             37117   // Snow Rabbit Suit (M)
+#define II_ARM_M_CHR_SNOWRABBITSHOES            37118   // Snow Rabbit Shoes (M)
+#define II_SYS_SYS_SCR_BXMSNOWRABBIT01          37119   // Snow Rabbit Cs Box (M)
+
+// Funky Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_FUNKYHAT                   37120   // Funky Hat (M)
+#define II_ARM_M_CHR_FUNKYSUIT                  37121   // Funky Suit (M)
+#define II_ARM_M_CHR_FUNKYSHOES                 37122   // Funky Shoes (M)
+#define II_SYS_SYS_SCR_BXMFUNKY01               37123   // Funky Cs Box (M)
+
+// Disco Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DISCOHAT                   37124   // Disco Hat (F)
+#define II_ARM_F_CHR_DISCOSUIT                  37125   // Disco Suit (F)
+#define II_ARM_F_CHR_DISCOSHOES                 37126   // Disco Shoes (F)
+#define II_SYS_SYS_SCR_BXFDISCO01               37127   // Disco Cs Box (F)
+
+// Kishou Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_KISHOUHAT                  37128   // Kishou Hat (M)
+#define II_ARM_M_CHR_KISHOUSUIT                 37129   // Kishou Suit (M)
+#define II_ARM_M_CHR_KISHOUSHOES                37130   // Kishou Shoes (M)
+#define II_SYS_SYS_SCR_BXMKISHOU01              37131   // Kishou Cs Box (M)
+
+// Malzahar Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_MALZAHERHAT                37132   // Malzahar Hat (M)
+#define II_ARM_M_CHR_MALZAHERSUIT               37133   // Malzahar Suit (M)
+#define II_ARM_M_CHR_MALZAHEGLOVES              37134   // Malzahar Gloves (M)
+#define II_ARM_M_CHR_MALZAHERSHOES              37135   // Malzahar Shoes (M)
+#define II_SYS_SYS_SCR_BXMMALZAHER01            37136   // Malzahar Cs Box (M)
+
+// Miles Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_MILESHAT                   37137   // Miles Hat (M)
+#define II_ARM_M_CHR_MILESSUIT                  37138   // Miles Suit (M)
+#define II_ARM_M_CHR_MILESGLOVES                37139   // Miles Gloves (M)
+#define II_ARM_M_CHR_MILESSHOES                 37140   // Miles Shoes (M)
+#define II_SYS_SYS_SCR_BXMMILES01               37141   // Miles Cs Box (M)
+
+// Cute Panda Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CPANDAHAT                  37142   // Cute Panda Hat (M)
+#define II_ARM_M_CHR_CPANDASUIT                 37143   // Cute Panda Suit (M)
+#define II_ARM_M_CHR_CPANDAGLOVES               37144   // Cute Panda Gloves (M)
+#define II_ARM_M_CHR_CPANDASHOES                37145   // Cute Panda Shoes (M)
+#define II_SYS_SYS_SCR_BXMCPANDA01              37146   // Cute Panda Cs Box (M)
+
+// Black Sailor Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BSAILORHAT                 37147   // Black Sailor Hat (M)
+#define II_ARM_M_CHR_BSAILORSUIT                37148   // Black Sailor Suit (M)
+#define II_ARM_M_CHR_BSAILORSHOES               37149   // Black Sailor Shoes (M)
+#define II_SYS_SYS_SCR_BXMBSAILOR01             37150   // Black Sailor Cs Box (M)
+
+// Shade Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SHADEHAT                   37151   // Shade Hat (M)
+#define II_ARM_M_CHR_SHADESUIT                  37152   // Shade Suit (M)
+#define II_ARM_M_CHR_SHADEGLOVES                37153   // Shade Gloves (M)
+#define II_ARM_M_CHR_SHADESHOES                 37154   // Shade Shoes (M)
+#define II_SYS_SYS_SCR_BXMSHADE01               37155   // Shade Cs Box (M)
+
+// Shirazu Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SHIRAZUHAT                 37156   // Shirazu Hat (M)
+#define II_ARM_M_CHR_SHIRAZUSUIT                37157   // Shirazu Suit (M)
+#define II_ARM_M_CHR_SHIRAZUSHOES               37158   // Shirazu Shoes (M)
+#define II_SYS_SYS_SCR_BXMSHIRAZU01             37159   // Shirazu Cs Box (M)
+
+// Vidar Cs Set (M) - Kiyo - Removed, buggy texture.
+//#define II_ARM_M_CHR_VIDARHAT                 37160   // Vidar Hat (M)
+//#define II_ARM_M_CHR_VIDARSUIT                37161   // Vidar Suit (M)
+//#define II_ARM_M_CHR_VIDARGLOVES              37162   // Vidar Gloves (M)
+//#define II_ARM_M_CHR_VIDARSHOES               37163   // Vidar Shoes (M)
+//#define II_SYS_SYS_SCR_BXMVIDAR01             37164   // Vidar Cs Box (M)
+
+// Dark Yetti Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DYETTIHAT                  37165   // Dark Yetti Hat (M)
+#define II_ARM_M_CHR_DYETTISUIT                 37166   // Dark Yetti Suit (M)
+#define II_ARM_M_CHR_DYETTIGLOVES               37167   // Dark Yetti Gloves (M)
+#define II_ARM_M_CHR_DYETTISHOES                37168   // Dark Yetti Shoes (M)
+#define II_SYS_SYS_SCR_BXMDYETTI01              37169   // Dark Yetti Cs Box (M)
+
+// Potter Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_POTTERHAT                  37170   // Potter Hat (M)
+#define II_ARM_M_CHR_POTTERSUIT                 37171   // Potter Suit (M)
+#define II_ARM_M_CHR_POTTERSHOES                37172   // Potter Shoes (M)
+#define II_SYS_SYS_SCR_BXMPOTTER01              37173   // Potter Cs Box (M)
+
+// Gaia Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_GAIAHAT                    37174   // Gaia Hat (M)
+#define II_ARM_M_CHR_GAIASUIT                   37175   // Gaia Suit (M)
+#define II_ARM_M_CHR_GAIASHOES                  37176   // Gaia Shoes (M)
+#define II_SYS_SYS_SCR_BXMGAIA01                37177   // Gaia Cs Box (M)
+
+// Dark Yetti Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DYETTIHAT                  37178   // Dark Yetti Hat (F)
+#define II_ARM_F_CHR_DYETTISUIT                 37179   // Dark Yetti Suit (F)
+#define II_ARM_F_CHR_DYETTIGLOVES               37180   // Dark Yetti Gloves (F)
+#define II_ARM_F_CHR_DYETTISHOES                37181   // Dark Yetti Shoes (F)
+#define II_SYS_SYS_SCR_BXFDYETTI01              37182   // Dark Yetti Cs Box (F)
+
+// Black Sailor Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BSAILORHAT                 37183   // Black Sailor Hat (F)
+#define II_ARM_F_CHR_BSAILORSUIT                37184   // Black Sailor Suit (F)
+#define II_ARM_F_CHR_BSAILORSHOES               37185   // Black Sailor Shoes (F)
+#define II_SYS_SYS_SCR_BXFBSAILOR01             37186   // Black Sailor Cs Box (F)
+
+// Nashiro Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_NASHIROHAT                 37187   // Nashiro Hat (F)
+#define II_ARM_F_CHR_NASHIROSUIT                37188   // Nashiro Suit (F)
+#define II_ARM_F_CHR_NASHIROSHOES               37189   // Nashiro Shoes (F)
+#define II_SYS_SYS_SCR_BXFNASHIRO01             37190   // Nashiro Cs Box (F)
+
+// Mikasa Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MIKASAHAT                  37191   // Mikasa Hat (F)
+#define II_ARM_F_CHR_MIKASASUIT                 37192   // Mikasa Suit (F)
+#define II_ARM_F_CHR_MIKASASHOES                37193   // Mikasa Shoes (F)
+#define II_SYS_SYS_SCR_BXF_MIKASA01             37194   // Mikasa Cs Box (F)
+
+// Mado Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MADOHAT                    37195   // Mado Hat (F)
+#define II_ARM_F_CHR_MADOSUIT                   37196   // Mado Suit (F)
+#define II_ARM_F_CHR_MADOSHOES                  37197   // Mado Shoes (F)
+#define II_SYS_SYS_SCR_BXFMADO01                37198   // Mado Cs Box (F)
+
+// Kirishima Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KIRISHIMAHAT               37199   // Kirishima Hat (F)
+#define II_ARM_F_CHR_KIRISHIMASUIT              37200   // Kirishima Suit (F)
+#define II_ARM_F_CHR_KIRISHIMASHOES             37201   // Kirishima Shoes (F)
+#define II_SYS_SYS_SCR_BXFKIRISHIMA01           37202   // Kirishima Cs Box (F)
+
+// Gaia Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_GAIAHAT                    37203   // Gaia Hat (F)
+#define II_ARM_F_CHR_GAIASUIT                   37204   // Gaia Suit (F)
+#define II_ARM_F_CHR_GAIASHOES                  37205   // Gaia Shoes (F)
+#define II_SYS_SYS_SCR_BXFGAIA01                37206   // Gaia Cs Box (F)
+
+// Alternative Effole Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AEFFOLEHAT                 37207   // Alternative Effole Hat (F)
+#define II_ARM_F_CHR_AEFFOLESUIT                37208   // Alternative Effole Suit (F)
+#define II_ARM_F_CHR_AEFFOLESHOES               37209   // Alternative Effole Shoes (F)
+#define II_SYS_SYS_SCR_BXFAEFFOLE01             37210   // Alternative Effole Cs Box (F)
+
+// Cute Panda Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CPANDAHAT                  37211   // Cute Panda Hat (F)
+#define II_ARM_F_CHR_CPANDASUIT                 37212   // Cute Panda Suit (F)
+#define II_ARM_F_CHR_CPANDAGLOVES               37213   // Cute Panda Gloves (F)
+#define II_ARM_F_CHR_CPANDASHOES                37214   // Cute Panda Shoes (F)
+#define II_SYS_SYS_SCR_BXFCPANDA01              37215   // Cute Panda Cs Box (F)
+
+// Casino Fashion Boxes - Kiyo
+#define II_SYS_SYS_SCR_CASINOFM			        37216   // Casino Fashion Box (M)  
+#define II_SYS_SYS_SCR_CASINOFF			        37217   // Casino Fashion Box (F)   
+
+// Bogdan Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BOGDANHAT                  37218   // Bogdan Hat (F)
+#define II_ARM_F_CHR_BOGDANSUIT                 37219   // Bogdan Suit (F)
+#define II_ARM_F_CHR_BOGDANGLOVES               37220   // Bogdan Gloves (F)
+#define II_ARM_F_CHR_BOGDANSHOES                37221   // Bogdan Shoes (F)
+#define II_SYS_SYS_SCR_BXFBOGDAN01              37222   // Bogdan Cs Box (F)
+
+// Modern Dancer Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MODDANCERHAT               37223   // Modern Dancer Hat (F)
+#define II_ARM_F_CHR_MODDANCERSUIT              37224   // Modern Dancer Suit (F)
+#define II_ARM_F_CHR_MODDANCERGLOVES            37225   // Modern Dancer Gloves (F)
+#define II_ARM_F_CHR_MODDANCERSHOES             37226   // Modern Dancer Shoes (F)
+#define II_SYS_SYS_SCR_BXFMODDANCER01           37227   // Modern Dancer Cs Box (F)
+
+// Dr Burger Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_DRBURGERHAT                37228   // Dr Burger Hat (F)
+#define II_ARM_F_CHR_DRBURGERSUIT               37229   // Dr Burger Suit (F)
+#define II_ARM_F_CHR_DRBURGERGLOVES             37230   // Dr Burger Gloves (F)
+#define II_ARM_F_CHR_DRBURGERSHOES              37231   // Dr Burger Shoes (F)
+#define II_SYS_SYS_SCR_BXFDRBURGER01            37232   // Dr Burger Cs Box (F)
+
+// Elf Queen Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ELFKINGHAT                 37233   // Elf Queen Hat (F)
+#define II_ARM_F_CHR_ELFKINGSUIT                37234   // Elf Queen Suit (F)
+#define II_ARM_F_CHR_ELFKINGGLOVES              37235   // Elf Queen Gloves (F)
+#define II_ARM_F_CHR_ELFKINGSHOES               37236   // Elf Queen Shoes (F)
+#define II_SYS_SYS_SCR_BXFELFKING01             37237   // Elf Queen Cs Box (F)
+
+// Izayoi Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_IZAYOIHAT                  37238   // Izayoi Hat (F)
+#define II_ARM_F_CHR_IZAYOISUIT                 37239   // Izayoi Suit (F)
+#define II_ARM_F_CHR_IZAYOISHOES                37240   // Izayoi Shoes (F)
+#define II_SYS_SYS_SCR_BXFIZAYOI01              37241   // Izayoi Cs Box (F)
+
+// Kairi Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KAIRIHAT                   37242   // Kairi Hat (F)
+#define II_ARM_F_CHR_KAIRISUIT                  37243   // Kairi Suit (F)
+#define II_ARM_F_CHR_KAIRIGLOVES                37244   // Kairi Gloves (F)
+#define II_ARM_F_CHR_KAIRISHOES                 37245   // Kairi Shoes (F)
+#define II_SYS_SYS_SCR_BXFKAIRI01               37246   // Kairi Cs Box (F)
+
+// Kamishiro Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_KAMISHIROHAT               37247   // Kamishiro Hat (F)
+#define II_ARM_F_CHR_KAMISHIROSUIT              37248   // Kamishiro Suit (F)
+#define II_ARM_F_CHR_KAMISHIROSHOES             37249   // Kamishiro Shoes (F)
+#define II_SYS_SYS_SCR_BXFKAMISHIRO01           37250   // Kamishiro Cs Box (F)
+
+// Marta Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MARTAHAT                   37251   // Marta Hat (F)
+#define II_ARM_F_CHR_MARTASUIT                  37252   // Marta Suit (F)
+#define II_ARM_F_CHR_MARTASHOES                 37253   // Marta Shoes (F)
+#define II_SYS_SYS_SCR_BXFMARTA01               37254   // Marta Cs Box (F)
+
+// Moon Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MOONGIRLHAT                37255   // Moon Girl Hat (F)
+#define II_ARM_F_CHR_MOONGIRLSUIT               37256   // Moon Girl Suit (F)
+#define II_ARM_F_CHR_MOONGIRLSHOES              37257   // Moon Girl Shoes (F)
+#define II_SYS_SYS_SCR_BXFMOONGIRL01            37258   // Moon Girl Cs Box (F)
+
+// Rem Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_REMHAT                     37259   // Rem Hat (F)
+#define II_ARM_F_CHR_REMSUIT                    37260   // Rem Suit (F)
+#define II_ARM_F_CHR_REMSHOES                   37261   // Rem Shoes (F)
+#define II_SYS_SYS_SCR_BXFREM01                 37262   // Rem Cs Box (F)
+
+// Sleeping Star Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SLEEPSTARHAT               37263   // Sleeping Star Hat (F)
+#define II_ARM_F_CHR_SLEEPSTARSUIT              37264   // Sleeping Star Suit (F)
+#define II_ARM_F_CHR_SLEEPSTARSHOES             37265   // Sleeping Star Shoes (F)
+#define II_SYS_SYS_SCR_BXFSLEEPSTAR01           37266   // Sleeping Star Cs Box (F)
+
+// Strawberry Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_STRAWBERRYHAT              37267   // Strawberry Hat (F)
+#define II_ARM_F_CHR_STRAWBERRYSUIT             37268   // Strawberry Suit (F)
+#define II_ARM_F_CHR_STRAWBERRYSHOES            37269   // Strawberry Shoes (F)
+#define II_SYS_SYS_SCR_BXFSTRAWBERRY01          37270   // Strawberry Cs Box (F)
+
+// Villain Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_VILIANHAT                  37271   // Villain Hat (F)
+#define II_ARM_F_CHR_VILIANSUIT                 37272   // Villain Suit (F)
+#define II_ARM_F_CHR_VILIANGLOVES               37273   // Villain Gloves (F)
+#define II_ARM_F_CHR_VILIANSHOES                37274   // Villain Shoes (F)
+#define II_SYS_SYS_SCR_BXFVILIAN01              37275   // Villain Cs Box (F)
+
+// Trabant Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TRABANTHAT                 37276   // Trabant Hat (F)
+#define II_ARM_F_CHR_TRABANTSUIT                37277   // Trabant Suit (F)
+#define II_ARM_F_CHR_TRABANTGLOVES              37278   // Trabant Gloves (F)
+#define II_ARM_F_CHR_TRABANTSHOES               37279   // Trabant Shoes (F)
+#define II_SYS_SYS_SCR_BXFTRABANT01             37280   // Trabant Cs Box (F)
+
+// Crystal Cove Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CRYSTALCOHAT               37281   // Crystal Cove Hat (M)
+#define II_ARM_M_CHR_CRYSTALCOSUIT              37282   // Crystal Cove Suit (M)
+#define II_ARM_M_CHR_CRYSTALCOGLOVES            37283   // Crystal Cove Gloves (M)
+#define II_ARM_M_CHR_CRYSTALCOSHOES             37284   // Crystal Cove Shoes (M)
+#define II_SYS_SYS_SCR_BXMCRYSTALCO01           37285   // Crystal Cove Cs Box (M)
+
+// Dead Mau Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DEADMAUHAT                 37286   // Dead Mau Hat (M)
+#define II_ARM_M_CHR_DEADMAUSUIT                37287   // Dead Mau Suit (M)
+#define II_ARM_M_CHR_DEADMAUGLOVES              37288   // Dead Mau Gloves (M)
+#define II_ARM_M_CHR_DEADMAUSHOES               37289   // Dead Mau Shoes (M)
+#define II_SYS_SYS_SCR_BXMDEADMAU01             37290   // Dead Mau Cs Box (M)
+
+// Dr Burger Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DRBURGERHAT                37291   // Dr Burger Hat (M)
+#define II_ARM_M_CHR_DRBURGERSUIT               37292   // Dr Burger Suit (M)
+#define II_ARM_M_CHR_DRBURGERGLOVES             37293   // Dr Burger Gloves (M)
+#define II_ARM_M_CHR_DRBURGERSHOES              37294   // Dr Burger Shoes (M)
+#define II_SYS_SYS_SCR_BXMDRBURGER01            37295   // Dr Burger Cs Box (M)
+
+// Elf King Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_ELFKINGHAT                 37296   // Elf King Hat (M)
+#define II_ARM_M_CHR_ELFKINGSUIT                37297   // Elf King Suit (M)
+#define II_ARM_M_CHR_ELFKINGGLOVES              37298   // Elf King Gloves (M)
+#define II_ARM_M_CHR_ELFKINGSHOES               37299   // Elf King Shoes (M)
+#define II_SYS_SYS_SCR_BXMELFKING01             37300   // Elf King Cs Box (M)
+
+// Haise Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_HAISEHAT                   37301   // Haise Hat (M)
+#define II_ARM_M_CHR_HAISESUIT                  37302   // Haise Suit (M)
+#define II_ARM_M_CHR_HAISESHOES                 37303   // Haise Shoes (M)
+#define II_SYS_SYS_SCR_BXMHAISE01               37304   // Haise Cs Box (M)
+
+// Young Sasuke Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_YOUNGSASHAT                37305   // Young Sasuke Hat (M)
+#define II_ARM_M_CHR_YOUNGSASSUIT               37306   // Young Sasuke Suit (M)
+#define II_ARM_M_CHR_YOUNGSASGLOVES             37307   // Young Sasuke Gloves (M)
+#define II_ARM_M_CHR_YOUNGSASSHOES              37308   // Young Sasuke Shoes (M)
+#define II_SYS_SYS_SCR_BXMYOUNGSAS01            37309   // Young Sasuke Cs Box (M)
+
+// Sora Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SORAHAT                    37310   // Sora Hat (M)
+#define II_ARM_M_CHR_SORASUIT                   37311   // Sora Suit (M)
+#define II_ARM_M_CHR_SORAGLOVES                 37312   // Sora Gloves (M)
+#define II_ARM_M_CHR_SORASHOES                  37313   // Sora Shoes (M)
+#define II_SYS_SYS_SCR_BXMSORA01                37314   // Sora Cs Box (M)
+
+// Sephiroth Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SEPHIROTHHAT               37315   // Sephiroth Hat (M)
+#define II_ARM_M_CHR_SEPHIROTHSUIT              37316   // Sephiroth Suit (M)
+#define II_ARM_M_CHR_SEPHIROTHGLOVES            37317   // Sephiroth Gloves (M)
+#define II_ARM_M_CHR_SEPHIROTHSHOES             37318   // Sephiroth Shoes (M)
+#define II_SYS_SYS_SCR_BXMSEPHIROTH01           37319   // Sephiroth Cs Box (M)
+
+// Sketch Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SKCHRDHAT                  37320   // Sketch Hat (M)
+#define II_ARM_M_CHR_SKCHRDSUIT                 37321   // Sketch Suit (M)
+#define II_ARM_M_CHR_SKCHRDSHOES                37322   // Sketch Shoes (M)
+#define II_SYS_SYS_SCR_BXMSKCHRD01              37323   // Sketch Cs Box (M)
+
+// Sleeping Star Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SLEEPSTARHAT               37324   // Sleeping Star Hat (M)
+#define II_ARM_M_CHR_SLEEPSTARSUIT              37325   // Sleeping Star Suit (M)
+#define II_ARM_M_CHR_SLEEPSTARSHOES             37326   // Sleeping Star Shoes (M)
+#define II_SYS_SYS_SCR_BXMSLEEPSTAR01           37327   // Sleeping Star Cs Box (M)
+
+// Modern Swimmer Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_MOSWIMHAT                  37328   // Modern Swimmer Hat (M)
+#define II_ARM_M_CHR_MOSWIMSUIT                 37329   // Modern Swimmer Suit (M)
+#define II_ARM_M_CHR_MOSWIMSHOES                37330   // Modern Swimmer Shoes (M)
+#define II_SYS_SYS_SCR_BXMMOSWIM01              37331   // Modern Swimmer Cs Box (M)
+
+// Modern Swimmer v2 Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_MOSWIM2HAT                 37332   // Modern Swimmer v2 Hat (M)
+#define II_ARM_M_CHR_MOSWIM2SUIT                37333   // Modern Swimmer v2 Suit (M)
+#define II_ARM_M_CHR_MOSWIM2SHOES               37334   // Modern Swimmer v2 Shoes (M)
+#define II_SYS_SYS_SCR_BXMMOSWIM02              37335   // Modern Swimmer v2 Cs Box (M)
+
+// Taiwan Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_TAIWANHAT                  37336   // Taiwan Hat (M)
+#define II_ARM_M_CHR_TAIWANSUIT                 37337   // Taiwan Suit (M)
+#define II_ARM_M_CHR_TAIWANGLOVES               37338   // Taiwan Gloves (M)
+#define II_ARM_M_CHR_TAIWANSHOES                37339   // Taiwan Shoes (M)
+#define II_SYS_SYS_SCR_BXMTAIWAN01              37340   // Taiwan Cs Box (M)
+
+// Yamai Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_YAMAIHAT                   37341   // Yamai Hat (F)
+#define II_ARM_F_CHR_YAMAISUIT                  37342   // Yamai Suit (F)
+#define II_ARM_F_CHR_YAMAIGLOVES                37343   // Yamai Gloves (F)
+#define II_ARM_F_CHR_YAMAISHOES                 37344   // Yamai Shoes (F)
+#define II_SYS_SYS_SCR_BXFYAMAI01               37345   // Yamai Cs Box (F)
+
+// Army Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ARMYHAT                    37346   // Army Hat (F)
+#define II_ARM_F_CHR_ARMYSUIT                   37347   // Army Suit (F)
+#define II_ARM_F_CHR_ARMYSHOES                  37348   // Army Shoes (F)
+#define II_SYS_SYS_SCR_BXFARMY01                37349   // Army Cs Box (F)
+											    
+// Electic Cs Set (F) - Kiyo                   
+#define II_ARM_F_CHR_ELECTRICHAT                37350   // Electic Hat (F)
+#define II_ARM_F_CHR_ELECTRICSUIT               37351   // Electic Suit (F)
+#define II_ARM_F_CHR_ELECTRICSHOES              37352   // Electic Shoes (F)
+#define II_SYS_SYS_SCR_BXFELECTRIC01            37353   // Electic Cs Box (F)
+											    
+// Animiku Cs Set (F) - Kiyo                   
+#define II_ARM_F_CHR_AMIKUHAT                   37354   // Animiku Hat (F)
+#define II_ARM_F_CHR_AMIKUSUIT                  37355   // Animiku Suit (F)
+#define II_ARM_F_CHR_AMIKUSHOES                 37356   // Animiku Shoes (F)
+#define II_SYS_SYS_SCR_BXFAMIKU01               37357   // Animiku Cs Box (F)
+											    									
+// Red Mun Set (M) - Kiyo
+#define II_ARM_M_CHR_REDMUNHAT                  37358   // Red Mun Hat (M)
+#define II_ARM_M_CHR_REDMUNSUIT                 37359   // Red Mun Suit (M)
+#define II_ARM_M_CHR_REDMUNGLOVES               37360   // Red Mun Gloves (M)
+#define II_ARM_M_CHR_REDMUNSHOES                37361   // Red Mun Shoes (M)
+#define II_SYS_SYS_SCR_BXMREDMUN01              37362   // Red Mun Cs Box (M)
+																						
+// White Bear Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_WHITEBEARHAT               37363   // White Bear Hat (F)
+#define II_ARM_F_CHR_WHITEBEARSUIT              37364   // White Bear Suit (F)
+#define II_ARM_F_CHR_WHITEBEARGLOVES            37365   // White Bear Gloves (F)
+#define II_ARM_F_CHR_WHITEBEARSHOES             37366   // White Bear Shoes (F)
+#define II_SYS_SYS_SCR_BXFWHITEBEAR01           37367   // White Bear Cs Box (F)
+											    
+// Biker Chick Cs Set (F) - Kiyo               
+#define II_ARM_F_CHR_BIKERRCHICKHAT             37368   // Biker Chick Hat (F)
+#define II_ARM_F_CHR_BIKERRCHICKSUIT            37369   // Biker Chick Suit (F)
+#define II_ARM_F_CHR_BIKERRCHICKGLOVES          37370   // Biker Chick Gloves (F)
+#define II_ARM_F_CHR_BIKERRCHICKSHOES           37371   // Biker Chick Shoes (F)
+#define II_SYS_SYS_SCR_BXFBIKERRCHICK01         37372   // Biker Chick Cs Box (F)
+											    
+// Black Dragon v2 Cs Set (F) - Kiyo           
+#define II_ARM_F_CHR_BDRAGON2HAT                37373   // Black Dragon v2 Hat (F)
+#define II_ARM_F_CHR_BDRAGON2SUIT               37374   // Black Dragon v2 Suit (F)
+#define II_ARM_F_CHR_BDRAGON2GLOVES             37375   // Black Dragon v2 Gloves (F)
+#define II_ARM_F_CHR_BDRAGON2SHOES              37376   // Black Dragon v2 Shoes (F)
+#define II_SYS_SYS_SCR_BXFBDRAGON201            37377   // Black Dragon v2 Cs Box (F)
+											    
+// Champion Cs Set (F) - Kiyo                  
+#define II_ARM_F_CHR_CHAMPIONNHAT               37378   // Champion Hat (F)
+#define II_ARM_F_CHR_CHAMPIONNSUIT              37379   // Champion Suit (F)
+#define II_ARM_F_CHR_CHAMPIONNSHOES             37380   // Champion Shoes (F)
+#define II_SYS_SYS_SCR_BXFCHAMPIONN01           37381   // Champion Cs Box (F)
+											    
+// Lady Devil Cs Set (F) - Kiyo                     
+#define II_ARM_F_CHR_LDEVILHAT                  37382   // Lady Devil Hat (F)
+#define II_ARM_F_CHR_LDEVILSUIT                 37383   // Lady Devil Suit (F)
+#define II_ARM_F_CHR_LDEVILGLOVES               37384   // Lady Devil Gloves (F)
+#define II_ARM_F_CHR_LDEVILSHOES                37385   // Lady Devil Shoes (F)
+#define II_SYS_SYS_SCR_BXFLDEVIL01              37386   // Lady Devil Cs Box (F)
+											    
+// Dark Mistole Cs Set (F) - Kiyo              
+#define II_ARM_F_CHR_DMISTOLEHAT                37387   // Dark Mistole Hat (F)
+#define II_ARM_F_CHR_DMISTOLESUIT               37388   // Dark Mistole Suit (F)
+#define II_ARM_F_CHR_DMISTOLEGLOVES             37389   // Dark Mistole Gloves (F)
+#define II_ARM_F_CHR_DMISTOLESHOES              37390   // Dark Mistole Shoes (F)
+#define II_SYS_SYS_SCR_BXFDMISTOLE01            37391   // Dark Mistole Cs Box (F)
+											    
+// Lancer Cs Set (F) - Kiyo                    
+#define II_ARM_F_CHR_LANCERHAT                  37392   // Lancer Hat (F)
+#define II_ARM_F_CHR_LANCERSUIT                 37393   // Lancer Suit (F)
+#define II_ARM_F_CHR_LANCERGLOVES               37394   // Lancer Gloves (F)
+#define II_ARM_F_CHR_LANCERSHOES                37395   // Lancer Shoes (F)
+#define II_SYS_SYS_SCR_BXFLANCER01              37396   // Lancer Cs Box (F)
+											    
+// Elf Cs Set (F) - Kiyo                       
+#define II_ARM_F_CHR_ELFHAT                     37397   // Elf Hat (F)
+#define II_ARM_F_CHR_ELFSUIT                    37398   // Elf Suit (F)
+#define II_ARM_F_CHR_ELFSHOES                   37399   // Elf Shoes (F)
+#define II_SYS_SYS_SCR_BXFELF01                 37400   // Elf Cs Box (F)
+											    
+// Dark Freya Cs Set (F) - Kiyo                
+#define II_ARM_F_CHR_DARKFREYHAT                37401   // Dark Freya Hat (F)
+#define II_ARM_F_CHR_DARKFREYSUIT               37402   // Dark Freya Suit (F)
+#define II_ARM_F_CHR_DARKFREYGLOVES             37403   // Dark Freya Gloves (F)
+#define II_ARM_F_CHR_DARKFREYSHOES              37404   // Dark Freya Shoes (F)
+#define II_SYS_SYS_SCR_BXFDARKFREY01            37405   // Dark Freya Cs Box (F)
+											    
+// Gothic Loli Cs Set (F) - Kiyo               
+#define II_ARM_F_CHR_LOLIGOTHHAT                37406   // Gothic Loli Hat (F)
+#define II_ARM_F_CHR_LOLIGOTHSUIT               37407   // Gothic Loli Suit (F)
+#define II_ARM_F_CHR_LOLIGOTHSHOES              37408   // Gothic Loli Shoes (F)
+#define II_SYS_SYS_SCR_BXFLOLIGOTH01            37409   // Gothic Loli Cs Box (F)
+											    
+// Jnx Odd Cs Set (F) - Kiyo                   
+#define II_ARM_F_CHR_JNXODDHAT                  37410   // Jnx Odd Hat (F)
+#define II_ARM_F_CHR_JNXODDSUIT                 37411   // Jnx Odd Suit (F)
+#define II_ARM_F_CHR_JNXODDGLOVES               37412   // Jnx Odd Gloves (F)
+#define II_ARM_F_CHR_JNXODDSHOES                37413   // Jnx Odd Shoes (F)
+#define II_SYS_SYS_SCR_BXFJNXODD01              37414   // Jnx Odd Cs Box (F)
+											    
+// Ram Cs Set (F) - Kiyo                       
+#define II_ARM_F_CHR_RAMHAT                     37415   // Ram Hat (F)
+#define II_ARM_F_CHR_RAMSUIT                    37416   // Ram Suit (F)
+#define II_ARM_F_CHR_RAMSHOES                   37417   // Ram Shoes (F)
+#define II_SYS_SYS_SCR_BXFRAM01                 37418   // Ram Cs Box (F)
+											    
+// Little Devil Cs Set (F) - Kiyo              
+#define II_ARM_F_CHR_LILDEVILHAT                37419   // Little Devil Hat (F)
+#define II_ARM_F_CHR_LILDEVILSUIT               37420   // Little Devil Suit (F)
+#define II_ARM_F_CHR_LILDEVILGLOVES             37421   // Little Devil Gloves (F)
+#define II_ARM_F_CHR_LILDEVILSHOES              37422   // Little Devil Shoes (F)
+#define II_SYS_SYS_SCR_BXFLILDEVIL01            37423   // Little Devil Cs Box (F)
+											    
+// Heierduo Cs Set (F) - Kiyo                  
+#define II_ARM_F_CHR_HEIERDUOHAT                37424   // Heierduo Hat (F)
+#define II_ARM_F_CHR_HEIERDUOSUIT               37425   // Heierduo Suit (F)
+#define II_ARM_F_CHR_HEIERDUOGLOVES             37426   // Heierduo Gloves (F)
+#define II_ARM_F_CHR_HEIERDUOSHOES              37427   // Heierduo Shoes (F)
+#define II_SYS_SYS_SCR_BXFHEIERDUO01            37428   // Heierduo Cs Box (F)
+											    
+// League Cs Set (F) - Kiyo                    
+#define II_ARM_F_CHR_LEAGUEHAT                  37429   // League Hat (F)
+#define II_ARM_F_CHR_LEAGUESUIT                 37430   // League Suit (F)
+#define II_ARM_F_CHR_LEAGUEGLOVES               37431   // League Gloves (F)
+#define II_ARM_F_CHR_LEAGUESHOES                37432   // League Shoes (F)
+#define II_SYS_SYS_SCR_BXFLEAGUE01              37433   // League Cs Box (F)
+											    
+// Bodian Cs Set (F) - Kiyo                    
+#define II_ARM_F_CHR_BODIANHAT                  37434   // Bodian Hat (F)
+#define II_ARM_F_CHR_BODIANSUIT                 37435   // Bodian Suit (F)
+#define II_ARM_F_CHR_BODIANGLOVES               37436   // Bodian Gloves (F)
+#define II_ARM_F_CHR_BODIANSHOES                37437   // Bodian Shoes (F)
+#define II_SYS_SYS_SCR_BXFBODIAN01              37438   // Bodian Cs Box (F)
+											    
+// Rosie Cs Set (F) - Kiyo                     
+#define II_ARM_F_CHR_ROSIEHAT                   37439   // Rosie Hat (F)
+#define II_ARM_F_CHR_ROSIESUIT                  37440   // Rosie Suit (F)
+#define II_ARM_F_CHR_ROSIEGLOVES                37441   // Rosie Gloves (F)
+#define II_ARM_F_CHR_ROSIESHOES                 37442   // Rosie Shoes (F)
+#define II_SYS_SYS_SCR_BXFROSIE01               37443   // Rosie Cs Box (F)
+
+// Marble Yukata Set (M) - Kiyo
+#define II_ARM_M_CHR_MAYUKAYAHAT                37444   // Marble Yukata Hat (M)
+#define II_ARM_M_CHR_MAYUKAYASUIT               37445   // Marble Yukata Suit (M)
+#define II_ARM_M_CHR_MAYUKAYASHOES              37446   // Marble Yukata Shoes (M)
+#define II_SYS_SYS_SCR_BXMMAYUKAYA01            37447   // Marble Yukata Cs Box (M)
+
+// Proper Punk Set (M) - Kiyo
+#define II_ARM_M_CHR_PROPUNKHAT                 37448   // Proper Punk Hat (M)
+#define II_ARM_M_CHR_PROPUNKSUIT                37449   // Proper Punk Suit (M)
+#define II_ARM_M_CHR_PROPUNKGLOVES              37450   // Proper Punk Gloves (M)
+#define II_ARM_M_CHR_PROPUNKSHOES               37451   // Proper Punk Shoes (M)
+#define II_SYS_SYS_SCR_BXMPROPUNK01             37452   // Proper Punk Cs Box (M)
+
+// Champion Set (M) - Kiyo
+#define II_ARM_M_CHR_CHAMPIONNHAT               37453   // Champion Hat (M)
+#define II_ARM_M_CHR_CHAMPIONNSUIT              37454   // Champion Suit (M)
+#define II_ARM_M_CHR_CHAMPIONNSHOES             37455   // Champion Shoes (M)
+#define II_SYS_SYS_SCR_BXMCHAMPIONN01           37456   // Champion Cs Box (M)
+
+// Dark Mistole Set (M) - Kiyo
+#define II_ARM_M_CHR_DMISTOLEHAT                37457   // Dark Mistole Hat (M)
+#define II_ARM_M_CHR_DMISTOLESUIT               37458   // Dark Mistole Suit (M)
+#define II_ARM_M_CHR_DMISTOLEGLOVES             37459   // Dark Mistole Gloves (M)
+#define II_ARM_M_CHR_DMISTOLESHOES              37460   // Dark Mistole Shoes (M)
+#define II_SYS_SYS_SCR_BXMDMISTOLE01            37461   // Dark Mistole Cs Box (M)
+
+// Lancer Set (M) - Kiyo
+#define II_ARM_M_CHR_LANCERHAT                  37462   // Lancer Hat (M)
+#define II_ARM_M_CHR_LANCERSUIT                 37463   // Lancer Suit (M)
+#define II_ARM_M_CHR_LANCERGLOVES               37464   // Lancer Gloves (M)
+#define II_ARM_M_CHR_LANCERSHOES                37465   // Lancer Shoes (M)
+#define II_SYS_SYS_SCR_BXMLANCER01              37466   // Lancer Cs Box (M)
+
+// Getsuga Set (M) - Kiyo
+#define II_ARM_M_CHR_GETSUGAHAT                 37467   // Getsuga Hat (M)
+#define II_ARM_M_CHR_GETSUGASUIT                37468   // Getsuga Suit (M)
+#define II_ARM_M_CHR_GETSUGAGLOVES              37469   // Getsuga Gloves (M)
+#define II_ARM_M_CHR_GETSUGASHOES               37470   // Getsuga Shoes (M)
+#define II_SYS_SYS_SCR_BXMGETSUGA01             37471   // Getsuga Cs Box (M)
+
+// Fire Demon Set (M) - Kiyo
+#define II_ARM_M_CHR_FIREDEMONHAT               37472   // Fire Demon Hat (M)
+#define II_ARM_M_CHR_FIREDEMONSUIT              37473   // Fire Demon Suit (M)
+#define II_ARM_M_CHR_FIREDEMONGLOVES            37474   // Fire Demon Gloves (M)
+#define II_ARM_M_CHR_FIREDEMONSHOES             37475   // Fire Demon Shoes (M)
+#define II_SYS_SYS_SCR_BXMFIREDEMON01           37476   // Fire Demon Cs Box (M)
+
+// Formal Set (M) - Kiyo
+#define II_ARM_M_CHR_FORMALHAT                  37477   // Formal Hat (M)
+#define II_ARM_M_CHR_FORMALSUIT                 37478   // Formal Suit (M)
+#define II_ARM_M_CHR_FORMALGLOVES               37479   // Formal Gloves (M)
+#define II_ARM_M_CHR_FORMALSHOES                37480   // Formal Shoes (M)
+#define II_SYS_SYS_SCR_BXMFORMAL01              37481   // Formal Cs Box (M)
+
+// Gajeel Set (M) - Kiyo
+#define II_ARM_M_CHR_GAJEELHAT                  37482   // Gajeel Hat (M)
+#define II_ARM_M_CHR_GAJEELSUIT                 37483   // Gajeel Suit (M)
+#define II_ARM_M_CHR_GAJEELSHOES                37484   // Gajeel Shoes (M)
+#define II_SYS_SYS_SCR_BXMGAJEEL01              37485   // Gajeel Cs Box (M)
+
+// Rave Set (M) - Kiyo
+#define II_ARM_M_CHR_GKNGHAT                    37486   // Rave Hat (M)
+#define II_ARM_M_CHR_GKNGSUIT                   37487   // Rave Suit (M)
+#define II_ARM_M_CHR_GKNGGLOVES                 37488   // Rave Gloves (M)
+#define II_ARM_M_CHR_GKNGSHOES                  37489   // Rave Shoes (M)
+#define II_SYS_SYS_SCR_BXMGKNG01                37490   // Rave Cs Box (M)
+											    
+// Glock Set (M) - Kiyo                        
+#define II_ARM_M_CHR_GLOCKHAT                   37491   // Glock Hat (M)
+#define II_ARM_M_CHR_GLOCKSUIT                  37492   // Glock Suit (M)
+#define II_ARM_M_CHR_GLOCKSHOES                 37493   // Glock Shoes (M)
+#define II_SYS_SYS_SCR_BXMGLOCK01               37494   // Glock Cs Box (M)
+
+// Ice Dragon Set (M) - Kiyo
+#define II_ARM_M_CHR_ICEDRAGONHAT               37495   // Ice Dragon Hat (M)
+#define II_ARM_M_CHR_ICEDRAGONSUIT              37496   // Ice Dragon Suit (M)
+#define II_ARM_M_CHR_ICEDRAGONGLOVES            37497   // Ice Dragon Gloves (M)
+#define II_ARM_M_CHR_ICEDRAGONSHOES             37498   // Ice Dragon Shoes (M)
+#define II_SYS_SYS_SCR_BXMICEDRAGON01           37499   // Ice Dragon Cs Box (M)
+
+// Mysto Set (M) - Kiyo
+#define II_ARM_M_CHR_MYSTOHAT                   37500   // Mysto Hat (M)
+#define II_ARM_M_CHR_MYSTOSUIT                  37501   // Mysto Suit (M)
+#define II_ARM_M_CHR_MYSTOGLOVES                37502   // Mysto Gloves (M)
+#define II_ARM_M_CHR_MYSTOSHOES                 37503   // Mysto Shoes (M)
+#define II_SYS_SYS_SCR_BXMMYSTO01               37504   // Mysto Cs Box (M)
+
+// Pika Set (M) - Kiyo
+#define II_ARM_M_CHR_PIKAHAT                    37505   // Pika Hat (M)
+#define II_ARM_M_CHR_PIKASUIT                   37506   // Pika Suit (M)
+#define II_ARM_M_CHR_PIKAGLOVES                 37507   // Pika Gloves (M)
+#define II_ARM_M_CHR_PIKASHOES                  37508   // Pika Shoes (M)
+#define II_SYS_SYS_SCR_BXMPIKA01                37509   // Pika Cs Box (M)
+
+// Elf Set (M) - Kiyo
+#define II_ARM_M_CHR_ELFHAT                     37510   // Elf Hat (M)
+#define II_ARM_M_CHR_ELFSUIT                    37511   // Elf Suit (M)
+#define II_ARM_M_CHR_ELFSHOES                   37512   // Elf Shoes (M)
+#define II_SYS_SYS_SCR_BXMELF01                 37513   // Elf Cs Box (M)
+                                                
+// More Axe Models - Kiyo
+#define II_WEA_AXE_NM1                          37514	// Cyber Axe 
+#define II_WEA_AXE_NM2                          37515	// Frost Wolf Axe 
+#define II_WEA_AXE_NM3                          37516	// Lucky Ham Axe 
+#define II_WEA_AXE_NM4                          37517	// Monotrom Axe 
+										        
+// More Big Axe Models - Kiyo                  
+#define II_WEA_AXT_NM1                          37518	// Carrot Big Axe 
+#define II_WEA_AXT_NM2                          37519	// Eleevi Big Axe 
+#define II_WEA_AXT_NM3                          37520	// Golden Key Big Axe 
+#define II_WEA_AXT_NM4                          37521	// Tanuki Big Axe 
+										        
+// More Sword Models - Kiyo                    
+#define II_WEA_SWO_NM1                          37522	// HK1 Sword 
+#define II_WEA_SWO_NM2                          37523	// HK2 Sword 
+#define II_WEA_SWO_NM3                          37524	// HK3 Sword 
+#define II_WEA_SWO_NM4                          37525	// HK4 Sword 
+#define II_WEA_SWO_NM5                          37526	// HK5 Sword 
+#define II_WEA_SWO_NM6                          37527	// HK6 Sword 
+#define II_WEA_SWO_NM7                          37528	// HK7 Sword 
+#define II_WEA_SWO_NM8                          37529	// HK8 Sword 
+#define II_WEA_SWO_NM9                          37530	// HK9 Sword 
+#define II_WEA_SWO_NM10                         37531	// HK10 Sword 
+#define II_WEA_SWO_NM11                         37532	// Ebony Gun 
+#define II_WEA_SWO_NM12                         37533	// Ivory Gun 
+#define II_WEA_SWO_NM13                         37534	// Katana Sword 
+#define II_WEA_SWO_NM14                         37535	// Kim Rosales Sword 
+#define II_WEA_SWO_NM15                         37536	// Cabel Sword 
+#define II_WEA_SWO_NM16                         37537	// Angslayer Sword 
+#define II_WEA_SWO_NM17                         37538	// Dargo Sword 
+#define II_WEA_SWO_NM18                         37539	// Dark Repulser Sword 
+#define II_WEA_SWO_NM19                         37540	// Holyharp Sword 
+#define II_WEA_SWO_NM20                         37541	// Honor Sword 
+#define II_WEA_SWO_NM21                         37542	// Midnight Rose Sword 
+#define II_WEA_SWO_NM22                         37543	// Red Thorn Sword 
+#define II_WEA_SWO_NM23                         37544	// Sakura Fashion Sword 
+#define II_WEA_SWO_NM24                         37545	// Samurai Sword 
+#define II_WEA_SWO_NM25                         37546	// Saphron Sword 
+#define II_WEA_SWO_NM26                         37547	// Skyscraper Sword 
+#define II_WEA_SWO_NM27                         37548	// Disk On Key Sword 
+#define II_WEA_SWO_NM28                         37549	// Disk On Key v2 Sword 
+#define II_WEA_SWO_NM29                         37550	// Thornadis Sword 
+#define II_WEA_SWO_NM30                         37551	// Undergr Sword 
+#define II_WEA_SWO_NM31                         37552	// Zangetsu Sword
+										        
+// More Big Sword Models - Kiyo                
+#define II_WEA_SWT_NM1                          37553	// Jarvan Big Sword 
+#define II_WEA_SWT_NM2                          37554	// Nidalee Big Sword 
+										        
+// More Knuckle Models - Kiyo                  
+#define II_WEA_KNU_NM1                          37555	// Hulk Fist 
+#define II_WEA_KNU_NM2                          37556	// Jak Saw Knuckle 
+#define II_WEA_KNU_NM3                          37557	// Lorderus Knuckle 
+#define II_WEA_KNU_NM4                          37558	// Onizaphk Knuckle
+										        
+// More Stick Models - Kiyo                    
+#define II_WEA_CHE_NM1                          37559	// Bagat Stick
+#define II_WEA_CHE_NM2                          37560	// Blacksak Stick
+#define II_WEA_CHE_NM3                          37561	// Cute Berty Stick
+#define II_WEA_CHE_NM4                          37562	// Imperial Stick
+#define II_WEA_CHE_NM5                          37563	// Kingdom Stick
+#define II_WEA_CHE_NM6                          37564	// Lucky Bunny Stick
+#define II_WEA_CHE_NM7                          37565	// Oblivion Stick
+#define II_WEA_CHE_NM8                          37566	// Phoenix Stick
+#define II_WEA_CHE_NM9                          37567	// Plum Stick
+#define II_WEA_CHE_NM10                         37568	// Che Stick
+#define II_WEA_CHE_NM11                         37569	// Soul Stick
+										        
+// More Yoyo Models - Kiyo                     
+#define II_WEA_YOY_NM1                          37570	// BoneI Yo-yo 
+#define II_WEA_YOY_NM2                          37571	// Crystal Cove Yo-yo 
+#define II_WEA_YOY_NM3                          37572	// Desolator Yo-yo 
+#define II_WEA_YOY_NM4                          37573	// Eight Yo-yo 
+#define II_WEA_YOY_NM5                          37574	// Fauna Dragon Yo-yo 
+#define II_WEA_YOY_NM6                          37575	// Fire Yo-yo 
+#define II_WEA_YOY_NM7                          37576	// Forth Yo-yo 
+#define II_WEA_YOY_NM8                          37577	// Lucent Yo-yo 
+#define II_WEA_YOY_NM9                          37578	// Oblivion Yo-yo 
+#define II_WEA_YOY_NM10                         37579	// Saku Yo-yo 
+										        
+// More Wand Models - Kiyo                     
+#define II_WEA_WAN_NM1                          37580	// Wizzard Wand 
+#define II_WEA_WAN_NM2                          37581	// Bunny Brush Wand 
+#define II_WEA_WAN_NM3                          37582	// Ice Cream Wand 
+#define II_WEA_WAN_NM4                          37583	// Lycarage Wand 
+#define II_WEA_WAN_NM5                          37584	// Mirror Wand 
+#define II_WEA_WAN_NM6                          37585	// Moon Wand 
+#define II_WEA_WAN_NM7                          37586	// Oblivion Wand 
+#define II_WEA_WAN_NM8                          37587	// Pumpkin Wand 
+#define II_WEA_WAN_NM9                          37588	// Rudo Wand 
+#define II_WEA_WAN_NM10                         37589	// Sailor Moon Wand 
+#define II_WEA_WAN_NM11                         37590	// Sunflower Wand 
+#define II_WEA_WAN_NM12                         37591	// Umbrella Wand 
+#define II_WEA_WAN_NM13                         37592	// Umbrella Red Wand 
+										        
+// More Staff Models - Kiyo                    
+#define II_WEA_STA_NM3                          37593	// Jax Staff 
+#define II_WEA_STA_NM4                          37594	// Leaf Staff 
+#define II_WEA_STA_NM5                          37595	// Soul Staff 
+#define II_WEA_STA_NM6                          37596	// Sakura Staff 
+#define II_WEA_STA_NM7                          37597	// Forest Staff 
+#define II_WEA_STA_NM8                          37598	// Hell Hand Staff 
+#define II_WEA_STA_NM9                          37599	// Kinessal Staff 
+#define II_WEA_STA_NM10                         37600	// Kingdom Staff 
+#define II_WEA_STA_NM11                         37601	// Neptune Staff 
+#define II_WEA_STA_NM12                         37602	// Rudra Staff 
+#define II_WEA_STA_NM13                         37603	// Snow Staff 
+										        
+// More Bow Models - Kiyo                      
+#define II_WEA_BOW_NM1                          37604	// Brohum Bow 
+#define II_WEA_BOW_NM2                          37605	// Army Delta Gun 
+#define II_WEA_BOW_NM3                          37606	// Crystal Cove Bow 
+#define II_WEA_BOW_NM4                          37607	// Fauna Dragon Bow 
+#define II_WEA_BOW_NM5                          37608	// Cabal Bow 
+#define II_WEA_BOW_NM6                          37609	// Loong Bow 
+#define II_WEA_BOW_NM7                          37610	// Oblivion Bow 
+#define II_WEA_BOW_NM8                          37611	// Papil Bow 
+#define II_WEA_BOW_NM9                          37612	// Black Harpy Bow 
+#define II_WEA_BOW_NM10                         37613	// White Harpy Bow 
+#define II_WEA_BOW_NM11                         37614	// Hyper Delta Gun 
+#define II_WEA_BOW_NM12                         37615	// Light Delta Gun 
+#define II_WEA_BOW_NM13                         37616	// Miku v1 Delta Gun 
+#define II_WEA_BOW_NM14                         37617	// Miku v2 Delta Gun 
+                                                 
+// More Shield Models - Kiyo                   
+#define II_ARM_ARM_SHI_NM1                      37618	// Kingdom Shield 
+#define II_ARM_ARM_SHI_NM2                      37619	// Oblivion Shield 
+#define II_ARM_ARM_SHI_NM3                      37620	// Captain America Shield 
+#define II_ARM_ARM_SHI_NM4                      37621	// Pizza Shield 
+#define II_ARM_ARM_SHI_NM5                      37622	// Poi Bear Shield 
+                                                 
+// More Book Models - Kiyo                     
+#define II_ARM_ARM_BOK_NM1                      37623	// Fireowl Assault Book 
+#define II_ARM_ARM_BOK_NM2                      37624	// Fireowl Breaker Book 
+#define II_ARM_ARM_BOK_NM3                      37625	// Mecha Smith Book 
+#define II_ARM_ARM_BOK_NM4                      37626	// Mini Hunter Book 
+#define II_ARM_ARM_BOK_NM5                      37627	// NaplessBear v1 Book 
+#define II_ARM_ARM_BOK_NM6                      37628	// NaplessBear v2 Book 
+#define II_ARM_ARM_BOK_NM7                      37629	// NaplessBear v3 Book 
+#define II_ARM_ARM_BOK_NM8                      37630	// NaplessBear v4 Book 
+#define II_ARM_ARM_BOK_NM9                      37631	// NaplessBear v5 Book
+
+// Flying Vehicles - Kiyo                     
+#define	II_RID_RID_WIN_RABBIT	                37632   // Rabbit Chaser Sled
+#define	II_RID_RID_WIN_RABBIT2	                37633   // Sweet Sled
+#define	II_RID_RID_WIN_N1	                    37634   // Tropic Fish
+#define	II_RID_RID_WIN_N2	                    37635   // Pink Mystic Broom
+#define	II_RID_RID_WIN_N3	                    37636   // Amused Dolphine
+#define	II_RID_RID_WIN_N4	                    37637   // Blue Fang Broom
+#define	II_RID_RID_WIN_N5	                    37638   // Fish Tail Broom
+#define	II_RID_RID_WIN_N6	                    37639   // Soul Broom
+#define	II_RID_RID_WIN_N7	                    37640   // Pink Retro Sled
+#define	II_RID_RID_WIN_N8	                    37641   // Blue Retro Sled
+#define	II_RID_RID_WIN_N9	                    37642   // Pink Manta ray
+#define	II_RID_RID_WIN_N10	                    37643   // Pink Abandoned Broom
+#define	II_RID_RID_WIN_N11	                    37644   // Ninja Manta Ray
+#define	II_RID_RID_WIN_N12	                    37645   // Alpaca Ship
+#define	II_RID_RID_WIN_N13	                    37646   // Ancient Board
+#define	II_RID_RID_WIN_N14	                    37647   // Ankou's Bird
+#define	II_RID_RID_WIN_N15	                    37648   // Sweet Bunny Broom
+#define	II_RID_RID_WIN_N17	                    37649   // Hot Air Balloon
+#define	II_RID_RID_WIN_N18	                    37650   // Kirk Dragon
+#define	II_RID_RID_WIN_N20	                    37651   // Mr. Frog's Car
+#define	II_RID_RID_WIN_N21	                    37652   // Mystic Tiger
+#define	II_RID_RID_WIN_N22	                    37653   // Purple Sword Board
+#define	II_RID_RID_WIN_N24	                    37654   // Black Bike
+#define	II_RID_RID_WIN_N25	                    37655   // Blue Bike
+#define	II_RID_RID_WIN_N26	                    37656   // Gold Bike
+#define	II_RID_RID_WIN_N27	                    37657   // Green Bike
+#define	II_RID_RID_WIN_N28	                    37658   // Pink Bike
+#define	II_RID_RID_WIN_N29	                    37659   // Red Bike
+#define	II_RID_RID_WIN_N30	                    37660   // Little Whale
+#define	II_RID_RID_WIN_N31	                    37661   // Witch Broom
+#define	II_RID_RID_WIN_N32	                    37662   // Gold Champion Broom
+#define	II_RID_RID_WIN_N33	                    37663   // Purple Manta Ray
+#define	II_RID_RID_WIN_N34	                    37664   // Violet Manta Ray
+#define	II_RID_RID_WIN_N35	                    37665   // Fire Mystic Broom
+
+// Random Vehicles Boxes - Kiyo
+#define II_SYS_SYS_SCR_RVBX1                    37666   // Random Exclusive Flying Box I  
+#define II_SYS_SYS_SCR_RVBX2                    37667   // Random Exclusive Flying Box II 
+#define II_SYS_SYS_SCR_RVBX3                    37668   // Random Exclusive Flying Box III
+
+// Sovereign Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SOVERHAT                   37669   // Sovereign Hat (F)
+#define II_ARM_F_CHR_SOVERSUIT                  37670   // Sovereign Suit (F)
+#define II_ARM_F_CHR_SOVERSHOES                 37671   // Sovereign Shoes (F)
+#define II_SYS_SYS_SCR_BXFSOVER01               37672   // Sovereign Cs Box (F)
+
+// Caster Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CASTERHAT                  37673   // Caster Hat (F)
+#define II_ARM_F_CHR_CASTERSUIT                 37674   // Caster Suit (F)
+#define II_ARM_F_CHR_CASTERGLOVES               37675   // Caster Gloves (F)
+#define II_ARM_F_CHR_CASTERSHOES                37676   // Caster Shoes (F)
+#define II_SYS_SYS_SCR_BXFCASTER01              37677   // Caster Cs Box (F)
+
+// Cherry Miku Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_CHERRYMIKUHAT              37678   // Cherry Miku Hat (F)
+#define II_ARM_F_CHR_CHERRYMIKUSUIT             37679   // Cherry Miku Suit (F)
+#define II_ARM_F_CHR_CHERRYMIKUGLOVES           37680   // Cherry Miku Gloves (F)
+#define II_ARM_F_CHR_CHERRYMIKUSHOES            37681   // Cherry Miku Shoes (F)
+#define II_SYS_SYS_SCR_BXFCHERRYMIKU01          37682   // Cherry Miku Cs Box (F)
+
+// Heaven Wheel Erza Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HWERZAHAT                  37683   // Heaven Wheel Erza Hat (F)
+#define II_ARM_F_CHR_HWERZASUIT                 37684   // Heaven Wheel Erza Suit (F)
+#define II_ARM_F_CHR_HWERZAGLOVES               37685   // Heaven Wheel Erza Gloves (F)
+#define II_ARM_F_CHR_HWERZASHOES                37686   // Heaven Wheel Erza Shoes (F)
+#define II_SYS_SYS_SCR_BXFHWERZA01              37687   // Heaven Wheel Erza Cs Box (F)
+
+// Murasame Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MURASAMEHAT                37688   // Murasame Hat (F)
+#define II_ARM_F_CHR_MURASAMESUIT               37689   // Murasame Suit (F)
+#define II_ARM_F_CHR_MURASAMESHOES              37690   // Murasame Shoes (F)
+#define II_SYS_SYS_SCR_BXFMURASAME01            37691   // Murasame Cs Box (F)
+
+// Royal Blood Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ROBLOODHAT                 37692   // Royal Blood Hat (F)
+#define II_ARM_F_CHR_ROBLOODSUIT                37693   // Royal Blood Suit (F)
+#define II_ARM_F_CHR_ROBLOODGLOVES              37694   // Royal Blood Gloves (F)
+#define II_ARM_F_CHR_ROBLOODSHOES               37695   // Royal Blood Shoes (F)
+#define II_SYS_SYS_SCR_BXFROBLOOD01             37696   // Royal Blood Cs Box (F)
+
+// Modern Sunny Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MODSUNHAT                  37697   // Modern Sunny Hat (F)
+#define II_ARM_F_CHR_MODSUNSUIT                 37698   // Modern Sunny Suit (F)
+#define II_ARM_F_CHR_MODSUNSHOES                37699   // Modern Sunny Shoes (F)
+#define II_SYS_SYS_SCR_BXFMODSUN01              37700   // Modern Sunny Cs Box (F)
+
+// Straw Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_STRAWHAT                   37701   // Straw Hat (F)
+#define II_ARM_F_CHR_STRAWSUIT                  37702   // Straw Suit (F)
+#define II_ARM_F_CHR_STRAWSHOES                 37703   // Straw Shoes (F)
+#define II_SYS_SYS_SCR_BXFSTRAW01               37704   // Straw Cs Box (F)
+
+// Tourist Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_TOURISTHAT                 37705   // Tourist Hat (F)
+#define II_ARM_F_CHR_TOURISTSUIT                37706   // Tourist Suit (F)
+#define II_ARM_F_CHR_TOURISTSHOES               37707   // Tourist Shoes (F)
+#define II_SYS_SYS_SCR_BXFTOURIST01             37708   // Tourist Cs Box (F)
+
+// Fancy Swimsuit Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_FANCYSWIMHAT               37709   // Fancy Swimsuit Hat (F)
+#define II_ARM_F_CHR_FANCYSWIMSUIT              37710   // Fancy Swimsuit Suit (F)
+#define II_ARM_F_CHR_FANCYSWIMSHOES             37711   // Fancy Swimsuit Shoes (F)
+#define II_SYS_SYS_SCR_BXFFANCYSWIM01           37712   // Fancy Swimsuit Cs Box (F)
+
+// Violet Swimwear Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_VIOSWIMHAT                 37713   // Violet Swimwear Hat (F)
+#define II_ARM_F_CHR_VIOSWIMSUIT                37714   // Violet Swimwear Suit (F)
+#define II_ARM_F_CHR_VIOSWIMSHOES               37715   // Violet Swimwear Shoes (F)
+#define II_SYS_SYS_SCR_BXFVIOSWIM01             37716   // Violet Swimwear Cs Box (F)
+
+// Anahita Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ANAHITAHAT                 37717   // Anahita Hat (F)
+#define II_ARM_F_CHR_ANAHITASUIT                37718   // Anahita Suit (F)
+#define II_ARM_F_CHR_ANAHITASHOES               37719   // Anahita Shoes (F)
+#define II_SYS_SYS_SCR_BXFANAHITA01             37720   // Anahita Cs Box (F)
+
+// Heaven Yukata Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_HEAVYUKHAT                 37721   // Heaven Yukata Hat (F)
+#define II_ARM_F_CHR_HEAVYUKSUIT                37722   // Heaven Yukata Suit (F)
+#define II_ARM_F_CHR_HEAVYUKSHOES               37723   // Heaven Yukata Shoes (F)
+#define II_SYS_SYS_SCR_BXFHEAVYUK01             37724   // Heaven Yukata Cs Box (F)
+
+// Spirit Yukata Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SPIYUKHAT                  37725   // Spirit Yukata Hat (F)
+#define II_ARM_F_CHR_SPIYUKSUIT                 37726   // Spirit Yukata Suit (F)
+#define II_ARM_F_CHR_SPIYUKSHOES                37727   // Spirit Yukata Shoes (F)
+#define II_SYS_SYS_SCR_BXFSPIYUK01              37728   // Spirit Yukata Cs Box (F)
+
+// Flower Yukata Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_FLOYUKHAT                  37729   // Flower Yukata Hat (F)
+#define II_ARM_F_CHR_FLOYUKSUIT                 37730   // Flower Yukata Suit (F)
+#define II_ARM_F_CHR_FLOYUKSHOES                37731   // Flower Yukata Shoes (F)
+#define II_SYS_SYS_SCR_BXFFLOYUK01              37732   // Flower Yukata Cs Box (F)
+
+// Water Fairy Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WATFAIRYHAT                37733   // Water Fairy Hat (F)
+#define II_ARM_F_CHR_WATFAIRYSUIT               37734   // Water Fairy Suit (F)
+#define II_ARM_F_CHR_WATFAIRYGLOVES             37735   // Water Fairy Gloves (F)
+#define II_ARM_F_CHR_WATFAIRYSHOES              37736   // Water Fairy Shoes (F)
+#define II_SYS_SYS_SCR_BXFWATFAIRY01            37737   // Water Fairy Cs Box (F)
+
+// Santa's Helper Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_SANTAHHAT                  37738   // Santa's Helper Hat (F)
+#define II_ARM_F_CHR_SANTAHSUIT                 37739   // Santa's Helper Suit (F)
+#define II_ARM_F_CHR_SANTAHGLOVES               37740   // Santa's Helper Gloves (F)
+#define II_ARM_F_CHR_SANTAHSHOES                37741   // Santa's Helper Shoes (F)
+#define II_SYS_SYS_SCR_BXFSANTAH01              37742   // Santa's Helper Cs Box (F)
+
+// Agnum Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_AGNUMHAT                   37743   // Agnum Hat (M)
+#define II_ARM_M_CHR_AGNUMSUIT                  37744   // Agnum Suit (M)
+#define II_ARM_M_CHR_AGNUMSHOES                 37745   // Agnum Shoes (M)
+#define II_SYS_SYS_SCR_BXMAGNUM01               37746   // Agnum Cs Box (M)
+
+// Easter Rabbit Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_EARABBHAT                  37747   // Easter Rabbit Hat (M)
+#define II_ARM_M_CHR_EARABBSUIT                 37748   // Easter Rabbit Suit (M)
+#define II_ARM_M_CHR_EARABBGLOVES               37749   // Easter Rabbit Gloves (M)
+#define II_ARM_M_CHR_EARABBSHOES                37750   // Easter Rabbit Shoes (M)
+#define II_SYS_SYS_SCR_BXMEARABB01              37751   // Easter Rabbit Cs Box (M)
+
+// Caster Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_CASTRHAT                   37752   // Caster Hat (M)
+#define II_ARM_M_CHR_CASTRSUIT                  37753   // Caster Suit (M)
+#define II_ARM_M_CHR_CASTRGLOVES                37754   // Caster Gloves (M)
+#define II_ARM_M_CHR_CASTRSHOES                 37755   // Caster Shoes (M)
+#define II_SYS_SYS_SCR_BXMCASTR01               37756   // Caster Cs Box (M)
+
+// Donut Swimsuit Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DONUTSHAT                  37757   // Donut Swimsuit Hat (M)
+#define II_ARM_M_CHR_DONUTSSUIT                 37758   // Donut Swimsuit Suit (M)
+#define II_ARM_M_CHR_DONUTSSHOES                37759   // Donut Swimsuit Shoes (M)
+#define II_SYS_SYS_SCR_BXMDONUTS01              37760   // Donut Swimsuit Cs Box (M)
+
+// Tourist Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_TOURISTHAT                 37761   // Tourist Hat (M)
+#define II_ARM_M_CHR_TOURISTSUIT                37762   // Tourist Suit (M)
+#define II_ARM_M_CHR_TOURISTSHOES               37763   // Tourist Shoes (M)
+#define II_SYS_SYS_SCR_BXMTOURIST01             37764   // Tourist Cs Box (M)
+
+// Recycling Materials - Kiyo
+#define II_GEN_GEM_RECYCLEMATERIAL1             37765   // Royal Gold Bars
+#define II_GEN_GEM_RECYCLEMATERIAL2             37766   // Mighty Gold Bars
+#define II_GEN_GEM_RECYCLEMATERIAL3             37767   // Majestic Gold Bars
+#define II_GEN_GEM_RECYCLEMATERIAL4             37768   // Golden Ore
+#define II_GEN_GEM_RECYCLEMATERIAL5             37769   // Bronze Crystal
+#define II_GEN_GEM_RECYCLEMATERIAL6             37770   // Bronze Ore
+#define II_GEN_GEM_RECYCLEMATERIAL7             37771   // Golden Key
+#define II_GEN_GEM_RECYCLEMATERIAL8             37772   // Bronze Mysterious Bag
+#define II_GEN_GEM_RECYCLEMATERIAL9             37773   // Golden Star
+#define II_GEN_GEM_RECYCLEMATERIAL10            37774   // Golden Fist
+#define II_GEN_GEM_RECYCLEMATERIAL11            37775   // Black Gold Stone
+#define II_GEN_GEM_RECYCLEMATERIAL12            37776   // Gold Microphone
+#define II_GEN_GEM_RECYCLEMATERIAL13            37777   // Lucky Coins
+#define II_GEN_GEM_RECYCLEMATERIAL14            37778   // Pile of Gold
+#define II_GEN_GEM_RECYCLEMATERIAL15            37779   // Bag of Golds
+#define II_GEN_GEM_RECYCLEMATERIAL16            37780   // Chest of Golds
+#define II_GEN_GEM_RECYCLEMATERIAL17            37781   // Ore Piece
+#define II_GEN_GEM_RECYCLEMATERIAL18            37782   // Golden Crystal
+#define II_GEN_GEM_RECYCLEMATERIAL19            37783   // Crystal Piece
+#define II_GEN_GEM_RECYCLEMATERIAL20            37784   // Gold Coins
+#define II_GEN_GEM_RECYCLEMATERIAL21            37785   // Golden Cross
+
+// More Emotes Unlocks - Kiyo
+#define II_UNLOCK_EMOTE_37						37786	// Emote Unlock: Pepe Comfy
+#define II_UNLOCK_EMOTE_38						37787	// Emote Unlock: Cat Blush
+#define II_UNLOCK_EMOTE_39						37788	// Emote Unlock: Pepe Heart
+#define II_UNLOCK_EMOTE_40						37789	// Emote Unlock: Pepe Hype
+#define II_UNLOCK_EMOTE_41						37790	// Emote Unlock: Pepe Kek
+#define II_UNLOCK_EMOTE_42						37791	// Emote Unlock: Pepe No
+#define II_UNLOCK_EMOTE_43						37792	// Emote Unlock: Pepe No u
+#define II_UNLOCK_EMOTE_44						37793	// Emote Unlock: Pepe Pride
+#define II_UNLOCK_EMOTE_45						37794	// Emote Unlock: Pepe Smirk
+#define II_UNLOCK_EMOTE_46						37795	// Emote Unlock: Pepe Pat
+#define II_UNLOCK_EMOTE_47						37796	// Emote Unlock: Pepe Take My Money
+#define II_UNLOCK_EMOTE_48						37797	// Emote Unlock: Pepe Sniff
+#define II_UNLOCK_EMOTE_49						37798	// Emote Unlock: Pog
+#define II_UNLOCK_EMOTE_50						37799	// Emote Unlock: Stache Cat
+#define II_UNLOCK_EMOTE_51						37800	// Emote Unlock: UwU
+#define II_UNLOCK_EMOTE_52						37801	// Emote Unlock: Komrade
+#define II_UNLOCK_EMOTE_53						37802	// Emote Unlock: Sadge
+#define II_UNLOCK_EMOTE_54						37803	// Emote Unlock: Pika Joy
+#define II_UNLOCK_EMOTE_55						37804	// Emote Unlock: Kek Keanu
+#define II_UNLOCK_EMOTE_56						37805	// Emote Unlock: Kappa
+#define II_UNLOCK_EMOTE_57						37806	// Emote Unlock: Pepe Bongo
+#define II_UNLOCK_EMOTE_58						37807	// Emote Unlock: Pepe Wave
+#define II_UNLOCK_EMOTE_59						37808	// Emote Unlock: Pepe Slam
+
+// More Craftable Food - Kiyo
+#define II_GEN_FOO_INS_DONUT                    37809   // Pink Donut
+
+// Magic Girl Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_MAGICGIRLHAT               37810   // Magic Girl Hat (F)
+#define II_ARM_F_CHR_MAGICGIRLSUIT              37811   // Magic Girl Suit (F)
+#define II_ARM_F_CHR_MAGICGIRLSHOES             37812   // Magic Girl Shoes (F)
+#define II_SYS_SYS_SCR_BXFMAGICGIRL01           37813   // Magic Girl Cs Box (F)
+
+// Azurlane Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_AZURELANEHAT               37814   // Azurlane Hat (F)
+#define II_ARM_F_CHR_AZURELANESUIT              37815   // Azurlane Suit (F)
+#define II_ARM_F_CHR_AZURELANESHOES             37816   // Azurlane Shoes (F)
+#define II_SYS_SYS_SCR_BXFAZURELANE01           37817   // Azurlane Cs Box (F)
+
+// Capricon Shura Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_SHURAHAT                   37818   // Capricon Shura Hat (M)
+#define II_ARM_M_CHR_SHURASUIT                  37819   // Capricon Shura Suit (M)
+#define II_ARM_M_CHR_SHURAGLOVES                37820   // Capricon Shura Suit (M)
+#define II_ARM_M_CHR_SHURASHOES                 37821   // Capricon Shura Shoes (M)
+#define II_SYS_SYS_SCR_BXMSHURA01               37822   // Capricon Shura Cs Box (M)
+
+// Red Royal Chess Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_RROYALHAT                  37823   // Red Royal Chess Hat (M)
+#define II_ARM_M_CHR_RROYALSUIT                 37824   // Red Royal Chess Suit (M)
+#define II_ARM_M_CHR_RROYALGLOVES               37825   // Red Royal Chess Suit (M)
+#define II_ARM_M_CHR_RROYALSHOES                37826   // Red Royal Chess Shoes (M)
+#define II_SYS_SYS_SCR_BXMRROYAL01              37827   // Red Royal Chess Cs Box (M)
+
+// Black Royal Chess Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BROYALHAT                  37828   // Black Royal Chess Hat (M)
+#define II_ARM_M_CHR_BROYALSUIT                 37829   // Black Royal Chess Suit (M)
+#define II_ARM_M_CHR_BROYALGLOVES               37830   // Black Royal Chess Suit (M)
+#define II_ARM_M_CHR_BROYALSHOES                37831   // Black Royal Chess Shoes (M)
+#define II_SYS_SYS_SCR_BXMBROYAL01              37832   // Black Royal Chess Cs Box (M)
+
+// White Royal Chess Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_WROYALHAT                  37833   // White Royal Chess Hat (M)
+#define II_ARM_M_CHR_WROYALSUIT                 37834   // White Royal Chess Suit (M)
+#define II_ARM_M_CHR_WROYALGLOVES               37835   // White Royal Chess Suit (M)
+#define II_ARM_M_CHR_WROYALSHOES                37836   // White Royal Chess Shoes (M)
+#define II_SYS_SYS_SCR_BXMWROYAL01              37837   // White Royal Chess Cs Box (M)
+
+// Red Royal Chess Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_RROYALHAT                  37838   // Red Royal Chess Hat (F)
+#define II_ARM_F_CHR_RROYALSUIT                 37839   // Red Royal Chess Suit (F)
+#define II_ARM_F_CHR_RROYALGLOVES               37840   // Red Royal Chess Suit (F)
+#define II_ARM_F_CHR_RROYALSHOES                37841   // Red Royal Chess Shoes (F)
+#define II_SYS_SYS_SCR_BXFRROYAL01              37842   // Red Royal Chess Cs Box (F)
+
+// Black Royal Chess Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BROYALHAT                  37843   // Black Royal Chess Hat (F)
+#define II_ARM_F_CHR_BROYALSUIT                 37844   // Black Royal Chess Suit (F)
+#define II_ARM_F_CHR_BROYALGLOVES               37845   // Black Royal Chess Suit (F)
+#define II_ARM_F_CHR_BROYALSHOES                37846   // Black Royal Chess Shoes (F)
+#define II_SYS_SYS_SCR_BXFBROYAL01              37847   // Black Royal Chess Cs Box (F)
+
+// Black Royal Chess Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_WROYALHAT                  37848   // White Royal Chess Hat (F)
+#define II_ARM_F_CHR_WROYALSUIT                 37849   // White Royal Chess Suit (F)
+#define II_ARM_F_CHR_WROYALGLOVES               37850   // White Royal Chess Suit (F)
+#define II_ARM_F_CHR_WROYALSHOES                37851   // White Royal Chess Shoes (F)
+#define II_SYS_SYS_SCR_BXFWROYAL01              37852   // White Royal Chess Cs Box (F)
+
+// Disco Man Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_DISCOOHAT                  37853   // Disco Man Hat (M)
+#define II_ARM_M_CHR_DISCOOSUIT                 37854   // Disco Man Suit (M)
+#define II_ARM_M_CHR_DISCOOSHOES                37855   // Disco Man Shoes (M)
+#define II_SYS_SYS_SCR_BXMDISCOO01              37856   // Disco Man Cs Box (M)
+
+// Disco Girl Cs Set (M) - Kiyo
+#define II_ARM_F_CHR_DISCOOHAT                  37857   // Disco Girl Hat (F)
+#define II_ARM_F_CHR_DISCOOSUIT                 37858   // Disco Girl Suit (F)
+#define II_ARM_F_CHR_DISCOOSHOES                37859   // Disco Girl Shoes (F)
+#define II_SYS_SYS_SCR_BXFDISCOO01              37860   // Disco Girl Cs Box (F)
+
+// Ara Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ARAHAT                     37861   // Ara Hat (F)
+#define II_ARM_F_CHR_ARASUIT                    37862   // Ara Suit (F)
+#define II_ARM_F_CHR_ARAGLOVES                  37863   // Ara Gloves (F)
+#define II_ARM_F_CHR_ARASHOES                   37864   // Ara Shoes (F)
+#define II_SYS_SYS_SCR_BXFARA01                 37865   // Ara Cs Box (F)
+
+// Omega Cs Set v1 (F) - Kiyo
+#define II_ARM_F_CHR_OMEGA1HAT                  37866   // Omega Cs Set v1 Hat (F)
+#define II_ARM_F_CHR_OMEGA1SUIT                 37867   // Omega Cs Set v1 Suit (F)
+#define II_ARM_F_CHR_OMEGA1GLOVES               37868   // Omega Cs Set v1 Gloves (F)
+#define II_ARM_F_CHR_OMEGA1SHOES                37869   // Omega Cs Set v1 Shoes (F)
+#define II_SYS_SYS_SCR_BXFOMEGA01               37870   // Omega Cs Set v1 Cs Box (F)
+
+// Omega Cs Set v2 (F) - Kiyo
+#define II_ARM_F_CHR_OMEGA2HAT                  37871   // Omega Cs Set v2 Hat (F)
+#define II_ARM_F_CHR_OMEGA2SUIT                 37872   // Omega Cs Set v2 Suit (F)
+#define II_ARM_F_CHR_OMEGA2GLOVES               37873   // Omega Cs Set v2 Gloves (F)
+#define II_ARM_F_CHR_OMEGA2SHOES                37874   // Omega Cs Set v2 Shoes (F)
+#define II_SYS_SYS_SCR_BXFOMEGA02               37875   // Omega Cs Set v2 Cs Box (F)
+
+// Black Techno Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BLATECHHAT                 37876   // Black Techno Hat (F)
+#define II_ARM_F_CHR_BLATECHSUIT                37877   // Black Techno Suit (F)
+#define II_ARM_F_CHR_BLATECHGLOVES              37878   // Black Techno Gloves (F)
+#define II_ARM_F_CHR_BLATECHSHOES               37879   // Black Techno Shoes (F)
+#define II_SYS_SYS_SCR_BXFBLATECH01             37880   // Black Techno Cs Box (F)
+
+// Red Techno Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_RTECHHAT                   37881   // Red Techno Hat (F)
+#define II_ARM_F_CHR_RTECHSUIT                  37882   // Red Techno Suit (F)
+#define II_ARM_F_CHR_RTECHGLOVES                37883   // Red Techno Gloves (F)
+#define II_ARM_F_CHR_RTECHSHOES                 37884   // Red Techno Shoes (F)
+#define II_SYS_SYS_SCR_BXFRTECH01               37885   // Red Techno Cs Box (F)
+
+// Blue Techno Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_BTECHHAT                   37886   // Blue Techno Hat (F)
+#define II_ARM_F_CHR_BTECHSUIT                  37887   // Blue Techno Suit (F)
+#define II_ARM_F_CHR_BTECHGLOVES                37888   // Blue Techno Gloves (F)
+#define II_ARM_F_CHR_BTECHSHOES                 37889   // Blue Techno Shoes (F)
+#define II_SYS_SYS_SCR_BXFBTECH01               37890   // Blue Techno Cs Box (F)
+
+// Omega Cs Set v1 (M) - Kiyo
+#define II_ARM_M_CHR_OMEGA1HAT                  37891   // Omega Cs Set v1 Hat (M)
+#define II_ARM_M_CHR_OMEGA1SUIT                 37892   // Omega Cs Set v1 Suit (M)
+#define II_ARM_M_CHR_OMEGA1GLOVES               37893   // Omega Cs Set v1 Gloves (M)
+#define II_ARM_M_CHR_OMEGA1SHOES                37894   // Omega Cs Set v1 Shoes (M)
+#define II_SYS_SYS_SCR_BXMOMEGA01               37895   // Omega Cs Set v1 Cs Box (M)
+
+// Omega Cs Set v2 (M) - Kiyo
+#define II_ARM_M_CHR_OMEGA2HAT                  37896   // Omega Cs Set v2 Hat (M)
+#define II_ARM_M_CHR_OMEGA2SUIT                 37897   // Omega Cs Set v2 Suit (M)
+#define II_ARM_M_CHR_OMEGA2GLOVES               37898   // Omega Cs Set v2 Gloves (M)
+#define II_ARM_M_CHR_OMEGA2SHOES                37899   // Omega Cs Set v2 Shoes (M)
+#define II_SYS_SYS_SCR_BXMOMEGA02               37900   // Omega Cs Set v2 Cs Box (M)
+
+// Black Techno Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BLATECHHAT                 37901   // Black Techno Hat (M)
+#define II_ARM_M_CHR_BLATECHSUIT                37902   // Black Techno Suit (M)
+#define II_ARM_M_CHR_BLATECHGLOVES              37903   // Black Techno Gloves (M)
+#define II_ARM_M_CHR_BLATECHSHOES               37904   // Black Techno Shoes (M)
+#define II_SYS_SYS_SCR_BXMBLATECH01             37905   // Black Techno Cs Box (M)
+
+// Red Techno Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_RTECHHAT                   37906   // Red Techno Hat (M)
+#define II_ARM_M_CHR_RTECHSUIT                  37907   // Red Techno Suit (M)
+#define II_ARM_M_CHR_RTECHGLOVES                37908   // Red Techno Gloves (M)
+#define II_ARM_M_CHR_RTECHSHOES                 37909   // Red Techno Shoes (M)
+#define II_SYS_SYS_SCR_BXMRTECH01               37910   // Red Techno Cs Box (M)
+
+// Blue Techno Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_BTECHHAT                   37911   // Blue Techno Hat (M)
+#define II_ARM_M_CHR_BTECHSUIT                  37912   // Blue Techno Suit (M)
+#define II_ARM_M_CHR_BTECHGLOVES                37913   // Blue Techno Gloves (M)
+#define II_ARM_M_CHR_BTECHSHOES                 37914   // Blue Techno Shoes (M)
+#define II_SYS_SYS_SCR_BXMBTECH01               37915   // Blue Techno Cs Box (M)
+
+// Wumpus Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_WUMPUSHAT                  37916   // Wumpus Hat (M)
+#define II_ARM_M_CHR_WUMPUSSUIT                 37917   // Wumpus Suit (M)
+#define II_ARM_M_CHR_WUMPUSGLOVES               37918   // Wumpus Gloves (M)
+#define II_ARM_M_CHR_WUMPUSSHOES                37919   // Wumpus Shoes (M)
+#define II_SYS_SYS_SCR_BXMWUMPUS01              37920   // Wumpus Cs Box (M)
+
+// More Donate Masks - Kiyo
+#define II_ARM_S_CLO_DOMAS_11			        37921   // Capricorn Horns
+#define II_ARM_S_CLO_DOMAS_12			        37922   // Kitty Headphones
+#define II_ARM_S_CLO_DOMAS_13			        37923   // Angel Wings Mask
+#define II_ARM_S_CLO_DOMAS_14			        37924   // White Devil Horns
+#define II_ARM_S_CLO_DOMAS_15			        37925   // Purple Devil Horns
+#define II_ARM_S_CLO_DOMAS_16			        37926   // Mystical Wings Mask
+#define II_ARM_S_CLO_DOMAS_17			        37927   // Silver Crown
+#define II_ARM_S_CLO_DOMAS_18			        37928   // Golden Crown
+#define II_ARM_S_CLO_DOMAS_19			        37929   // Little Husky Headphones
+#define II_ARM_S_CLO_DOMAS_20			        37930   // Formal Glasses
+#define II_ARM_S_CLO_DOMAS_21			        37931   // Purple Eyepatch
+#define II_ARM_S_CLO_DOMAS_22			        37932   // Red Ball Mask
+#define II_ARM_S_CLO_DOMAS_23			        37933   // Purple Festival Mask
+#define II_ARM_S_CLO_DOMAS_24			        37934   // Biker Sunglasses
+#define II_ARM_S_CLO_DOMAS_25			        37935   // Mummy Mask
+#define II_ARM_S_CLO_DOMAS_26			        37936   // Hipstah Glasses
+#define II_ARM_S_CLO_DOMAS_27			        37937   // Hunter's Mask
+#define II_ARM_S_CLO_DOMAS_28			        37938   // Kitten Pacifier
+
+// More Donate Cloaks - Kiyo
+#define II_ARM_S_CLO_DOCLO_1			        37939   // Ancient Sign Cloak
+#define II_ARM_S_CLO_DOCLO_2			        37940   // Dragon Battle Cloak
+#define II_ARM_S_CLO_DOCLO_3			        37941   // Dragon Guardian Cloak
+#define II_ARM_S_CLO_DOCLO_4			        37942   // Mystical String Cloak
+#define II_ARM_S_CLO_DOCLO_5			        37943   // Holy Spell Cloak
+#define II_ARM_S_CLO_DOCLO_6			        37944   // Ying Yang Sword Cloak
+
+// More Donate Wings - Kiyo
+#define II_ANIWING_DOWING01				        37945   // Blue Cursed Bat Wing Mask
+#define II_ANIWING_DOWING02				        37946   // Red Cursed Bat Wing Mask
+#define II_ANIWING_DOWING03				        37947   // Dark Beyond Wing Mask
+#define II_ANIWING_DOWING04				        37948   // Red Beyond Wing Mask
+#define II_ANIWING_DOWING05				        37949   // Red Aibatt Wing Mask
+#define II_ANIWING_DOWING06				        37950   // Purple Aibatt Wing Mask
+#define II_ANIWING_DOWING07				        37951   // Rave Wing Mask
+#define II_ANIWING_DOWING08				        37952   // Black Vein Wing Mask
+#define II_ANIWING_DOWING09				        37953   // Bloody Vein Wing Mask
+#define II_ANIWING_DOWING10				        37954   // Paradise Wing Mask
+#define II_ANIWING_DOWING11				        37955   // Volcane Wing Mask
+#define II_ANIWING_DOWING12				        37956   // Syth Wing Mask
+#define II_ANIWING_DOWING13				        37957   // Goddes Wing Mask
+#define II_ANIWING_DOWING14				        37958   // Dark Feather Wing Mask
+#define II_ANIWING_DOWING15				        37959   // Light Feather Wing Mask
+#define II_ANIWING_DOWING16				        37960   // Violet Butterfly Wing Mask
+
+// Donate Pets - Kiyo
+#define II_PET_DOPET1                           37961   // Baby Umbrella Cherry
+#define II_PET_DOPET3                           37962   // Baby Maskottchen
+#define II_PET_DOPET4                           37963   // Magic Girl
+#define II_PET_DOPET5                           37964   // Jumo
+#define II_PET_DOPET6                           37965   // Halloween Thief
+#define II_PET_DOPET7                           37966   // Flower Girl
+#define II_PET_DOPET8                           37967   // Ice Dragon
+#define II_PET_DOPET9                           37968   // Dragon Boy
+#define II_PET_DOPET10                          37969   // Demon Girl
+#define II_PET_DOPET11                          37970   // Crazy Duck
+#define II_PET_DOPET12                          37971   // Baby Aram
+
+// More Wings - Kiyo
+#define II_ANIWING_DOWING17				        37972   // Violet Butterfly Wing Mask
+
+// Poke Models
+#define II_ARM_DCR_M_ZGLOVES_HAND               37973
+#define II_ARM_DCR_F_ZGLOVES_HAND               37974
+#define II_ARM_DCR_M_MGLOVES_HAND               37975
+#define II_ARM_DCR_F_MGLOVES_HAND               37976
+#define II_ARM_DCR_CLO_SPORTYBACKPACK			37977
+
+// CHANGE PLS - NO NPC ATM - Kiyo 
+#define II_SHOPDESIGN53 37978   // Totodile  
+#define II_SHOPDESIGN54 37979   // Torchic
+#define II_SHOPDESIGN55 37980   // Treecko
+#define II_SHOPDESIGN56 37981   // Mudkip
+#define II_SHOPDESIGN57 37982   // Houndoom
+#define II_SHOPDESIGN58 37983   // Cyndaquil
+#define II_SHOPDESIGN59 37984   // Chikorita
+#define II_SHOPDESIGN60 37985   // Knuckles
+#define II_SHOPDESIGN61 37986   // Sad Man
+#define II_SHOPDESIGN62 37987   // Take my Money
+#define II_SHOPDESIGN63 37988   // Gold bar
+#define II_SHOPDESIGN64 37989   // Swtich
+#define II_SHOPDESIGN65 37990   // Wing
+#define II_SHOPDESIGN66 37991   // Magician Hat
+#define II_SHOPDESIGN67 37992   // Blue Ghost
+#define II_SHOPDESIGN68 37993   // Pumpkin magician
+#define II_SHOPDESIGN69 37994   // Magic Tree
+#define II_SHOPDESIGN70 37995   // Clockwork Time
+#define II_SHOPDESIGN71 37996   // Red Rubin
+#define II_SHOPDESIGN72 37997   // Scroll
+#define II_SHOPDESIGN73 37998   // Flask
+#define II_SHOPDESIGN74 37999   // Flame Skeleton
+#define II_SHOPDESIGN75 38000   // Skeleton Ghost
+#define II_SHOPDESIGN76 38001   // Cute Mob
+#define II_SHOPDESIGN77 38002   // Sad Cat
+#define II_SHOPDESIGN78 38003   // Sad banana
+#define II_SHOPDESIGN79 38004   // That Ass
+#define II_SHOPDESIGN80 38005   // Crazy Dude
+#define II_SHOPDESIGN81 38006   // Flame Man
+#define II_SHOPDESIGN82 38007   // Flame Girl
+#define II_SHOPDESIGN83 38008   // F for the Boy
+#define II_SHOPDESIGN84 38009   // Pepe Girl
+#define II_SHOPDESIGN85 38010   // Cat ass
+#define II_SHOPDESIGN86 38011   // Discord Nitro Premium
+
+#define II_UNLOCK_EMOTE_60						38012	// Emote Unlock: Who is a good boy
+#define II_UNLOCK_EMOTE_61						38013	// Emote Unlock: Weewoo Blue
+#define II_UNLOCK_EMOTE_62						38014	// Emote Unlock: Tips Fedora
+#define II_UNLOCK_EMOTE_63						38015	// Emote Unlock: Stress Warning
+#define II_UNLOCK_EMOTE_64						38016	// Emote Unlock: Strawberry Fairy Bunny
+#define II_UNLOCK_EMOTE_65						38017	// Emote Unlock: Stanley Money Run
+#define II_UNLOCK_EMOTE_66						38018	// Emote Unlock: Alien
+#define II_UNLOCK_EMOTE_67						38019	// Emote Unlock: Baku Go Cry
+#define II_UNLOCK_EMOTE_68						38020	// Emote Unlock: Bear Kiss
+#define II_UNLOCK_EMOTE_69						38021	// Emote Unlock: Beat Up
+#define II_UNLOCK_EMOTE_70						38022	// Emote Unlock: Birb
+#define II_UNLOCK_EMOTE_71						38023	// Emote Unlock: Birb Oh No
+#define II_UNLOCK_EMOTE_72						38024	// Emote Unlock: Birb Waving
+#define II_UNLOCK_EMOTE_73						38025	// Emote Unlock: Blonde Neko Huh
+#define II_UNLOCK_EMOTE_74						38026	// Emote Unlock: Blonde Neko Pout
+#define II_UNLOCK_EMOTE_75						38027	// Emote Unlock: Blonde Neko Shy
+#define II_UNLOCK_EMOTE_76						38028	// Emote Unlock: Blonde Neko Tantrum
+#define II_UNLOCK_EMOTE_77						38029	// Emote Unlock: Blonde Neko Thumbsup
+#define II_UNLOCK_EMOTE_78						38030	// Emote Unlock: Blonde Neko Wave
+#define II_UNLOCK_EMOTE_79						38031	// Emote Unlock: Blonde Neko Yawn
+#define II_UNLOCK_EMOTE_80						38032	// Emote Unlock: Burger
+#define II_UNLOCK_EMOTE_81						38033	// Emote Unlock: Cat Gun
+#define II_UNLOCK_EMOTE_82						38034	// Emote Unlock: Chat
+#define II_UNLOCK_EMOTE_83						38035	// Emote Unlock: Chaves
+#define II_UNLOCK_EMOTE_85						38036	// Emote Unlock: Spooky Heart
+#define II_UNLOCK_EMOTE_86						38037	// Emote Unlock: Shut Up Please
+#define II_UNLOCK_EMOTE_87						38038	// Emote Unlock: Pumba Fart
+#define II_UNLOCK_EMOTE_88						38039	// Emote Unlock: Pink Roses
+#define II_UNLOCK_EMOTE_90						38040	// Emote Unlock: Pepe Yikes
+#define II_UNLOCK_EMOTE_91						38041	// Emote Unlock: Pepe Wave
+#define II_UNLOCK_EMOTE_92						38042	// Emote Unlock: Pepe True
+#define II_UNLOCK_EMOTE_93						38043	// Emote Unlock: Pepe Not Like This
+#define II_UNLOCK_EMOTE_94						38044	// Emote Unlock: Pepe Happy
+#define II_UNLOCK_EMOTE_95						38045	// Emote Unlock: Pepe Hacker
+#define II_UNLOCK_EMOTE_96						38046	// Emote Unlock: Pepe Fast Run
+#define II_UNLOCK_EMOTE_97						38047	// Emote Unlock: Pepe EZ
+#define II_UNLOCK_EMOTE_98						38048	// Emote Unlock: Panika
+#define II_UNLOCK_EMOTE_99						38049	// Emote Unlock: OOF
+#define II_UNLOCK_EMOTE_100						38050	// Emote Unlock: Cleaning That Cringe
+#define II_UNLOCK_EMOTE_101					    38051	// Emote Unlock: Cry Vibe
+#define II_UNLOCK_EMOTE_102						38052	// Emote Unlock: Destiny2 Cayde
+#define II_UNLOCK_EMOTE_103						38053	// Emote Unlock: Destiny2 Ghost
+#define II_UNLOCK_EMOTE_104						38054	// Emote Unlock: Destiny2 Sweeper Bot
+#define II_UNLOCK_EMOTE_105						38055	// Emote Unlock: Destiny2 The Stranger
+#define II_UNLOCK_EMOTE_107						38056	// Emote Unlock: Cat Pop
+#define II_UNLOCK_EMOTE_108						38057	// Emote Unlock: Donk Pls
+#define II_UNLOCK_EMOTE_109						38058	// Emote Unlock: Eth
+#define II_UNLOCK_EMOTE_110						38059	// Emote Unlock: Flying Kiss
+#define II_UNLOCK_EMOTE_111						38060	// Emote Unlock: Fruit Tart
+#define II_UNLOCK_EMOTE_112						38061	// Emote Unlock: Fumin
+#define II_UNLOCK_EMOTE_113						38062	// Emote Unlock: Ganyuping Reeeee
+#define II_UNLOCK_EMOTE_114						38063	// Emote Unlock: Heart Bubble
+#define II_UNLOCK_EMOTE_115						38064	// Emote Unlock: Heart Gem
+#define II_UNLOCK_EMOTE_116						38065	// Emote Unlock: Kekwwa
+#define II_UNLOCK_EMOTE_117						38066	// Emote Unlock: Kris
+#define II_UNLOCK_EMOTE_118						38067	// Emote Unlock: Laughing So Hard
+#define II_UNLOCK_EMOTE_119						38068	// Emote Unlock: Mash
+#define II_UNLOCK_EMOTE_120						38069	// Emote Unlock: Nerdge
+#define II_UNLOCK_EMOTE_121						38070	// Emote Unlock: Note Pen
+
+// Random Emote Unlocks Boxes - Kiyo
+#define II_SYS_SYS_SCR_EMOTEBOX1                38071   // Random Emote Unlock Box I
+#define II_SYS_SYS_SCR_EMOTEBOX2                38072   // Random Emote Unlock Box II
+#define II_SYS_SYS_SCR_EMOTEBOX3                38073   // Random Emote Unlock Box III
+#define II_SYS_SYS_SCR_EMOTEBOX4                38074   // Random Emote Unlock Box IV
+#define II_SYS_SYS_SCR_EMOTEBOX5                38075   // Random Emote Unlock Box V
+#define II_SYS_SYS_SCR_EMOTEBOX6                38076   // Random Emote Unlock Box VI
+
+// Shop Designs by Ankou - Kiyo
+#define II_SHOPDESIGN87                         38077   // Shop Design: Toxic Waste
+#define II_SHOPDESIGN88                         38078   // Shop Design: Biohazard
+#define II_SHOPDESIGN89                         38079   // Shop Design: Nuclear Weapon
+#define II_SHOPDESIGN90                         38080   // Shop Design: Kinda SuS
+#define II_SHOPDESIGN91                         38081   // Shop Design: Exhausted
+#define II_SHOPDESIGN92                         38082   // Shop Design: Doge
+#define II_SHOPDESIGN93                         38083   // Shop Design: Wasted Money
+#define II_SHOPDESIGN94                         38084   // Shop Design: Bitcoin
+#define II_SHOPDESIGN95                         38085   // Shop Design: 1Up
+#define II_SHOPDESIGN96                         38086   // Shop Design: It's a me
+
+// Mystralia Badge - Kiyo
+#define	II_BADGE201		                        38087   // Mystralia Badge
+
+// Packed Emote Boxes - Kiyo
+#define II_SYS_SYS_SCR_PEMOTEBOX1               38088   // Emote Unlock Box V1 
+#define II_SYS_SYS_SCR_PEMOTEBOX2               38089   // Emote Unlock Box V2 
+#define II_SYS_SYS_SCR_PEMOTEBOX3               38090   // Emote Unlock Box V3 
+#define II_SYS_SYS_SCR_PEMOTEBOX4               38091   // Emote Unlock Box V4 
+#define II_SYS_SYS_SCR_PEMOTEBOX5               38092   // Emote Unlock Box V5 
+#define II_SYS_SYS_SCR_PEMOTEBOX6               38093   // Emote Unlock Box V6 
+#define II_SYS_SYS_SCR_PEMOTEBOX7               38094   // Emote Unlock Box V7 
+#define II_SYS_SYS_SCR_PEMOTEBOX8               38095   // Emote Unlock Box V8 
+#define II_SYS_SYS_SCR_PEMOTEBOX9               38096   // Emote Unlock Box V9 
+#define II_SYS_SYS_SCR_PEMOTEBOX10              38097   // Emote Unlock Box V10
+#define II_SYS_SYS_SCR_PEMOTEBOX11              38098   // Emote Unlock Box V11
+#define II_SYS_SYS_SCR_PEMOTEBOX12              38099   // Emote Unlock Box V12
+#define II_SYS_SYS_SCR_PEMOTEBOX13              38100   // Emote Unlock Box V13
+#define II_SYS_SYS_SCR_PEMOTEBOX14              38101   // Emote Unlock Box V14
+#define II_SYS_SYS_SCR_PEMOTEBOX15              38102   // Emote Unlock Box V15
+#define II_SYS_SYS_SCR_PEMOTEBOX16              38103   // Emote Unlock Box V16
+#define II_SYS_SYS_SCR_PEMOTEBOX17              38104   // Emote Unlock Box V17
+#define II_SYS_SYS_SCR_PEMOTEBOX18              38105   // Emote Unlock Box V18
+#define II_SYS_SYS_SCR_PEMOTEBOX19              38106   // Emote Unlock Box V19
+#define II_SYS_SYS_SCR_PEMOTEBOX20              38107   // Emote Unlock Box V20
+#define II_SYS_SYS_SCR_PEMOTEBOX21              38108   // Emote Unlock Box V21
+#define II_SYS_SYS_SCR_PEMOTEBOX22              38109   // Emote Unlock Box V22
+#define II_SYS_SYS_SCR_PEMOTEBOX23              38110   // Emote Unlock Box V23
+#define II_SYS_SYS_SCR_PEMOTEBOX24              38111   // Emote Unlock Box V24
+#define II_SYS_SYS_SCR_PEMOTEBOX25              38112   // Emote Unlock Box V25
+#define II_SYS_SYS_SCR_PEMOTEBOX26              38113   // Emote Unlock Box V26
+#define II_SYS_SYS_SCR_PEMOTEBOX27              38114   // Emote Unlock Box V27
+#define II_SYS_SYS_SCR_PEMOTEBOX28              38115   // Emote Unlock Box V28	
+#define II_SYS_SYS_SCR_PEMOTEBOX29              38116   // Emote Unlock Box V29
+#define II_SYS_SYS_SCR_PEMOTEBOX30              38117   // Emote Unlock Box V30 
+#define II_SYS_SYS_SCR_PEMOTEBOX31              38118   // Emote Unlock Box V31
+#define II_SYS_SYS_SCR_PEMOTEBOX32              38119   // Emote Unlock Box V32
+#define II_SYS_SYS_SCR_PEMOTEBOX33              38120   // Emote Unlock Box V33	
+#define II_SYS_SYS_SCR_PEMOTEBOX34              38121   // Emote Unlock Box V34
+#define II_SYS_SYS_SCR_PEMOTEBOX35              38122   // Emote Unlock Box V35
+#define II_SYS_SYS_SCR_PEMOTEBOX36              38123   // Emote Unlock Box V36
+#define II_SYS_SYS_SCR_PEMOTEBOX37              38124   // Emote Unlock Box V37	
+#define II_SYS_SYS_SCR_PEMOTEBOX38              38125   // Emote Unlock Box V38
+//#define II_SYS_SYS_SCR_PEMOTEBOX39            38126   // Emote Unlock Box V39
+//#define II_SYS_SYS_SCR_PEMOTEBOX40            38127   // Emote Unlock Box V40
+
+// More Emote Unlocks - Kiyo
+#define II_UNLOCK_EMOTE_122						38128	// Emote Unlock: Fox Ache
+#define II_UNLOCK_EMOTE_123						38129	// Emote Unlock: Fox Amazed
+#define II_UNLOCK_EMOTE_124						38130	// Emote Unlock: Fox Angry
+#define II_UNLOCK_EMOTE_125						38131	// Emote Unlock: Fox Beat
+#define II_UNLOCK_EMOTE_126						38132	// Emote Unlock: Fox Bags
+#define II_UNLOCK_EMOTE_127						38133	// Emote Unlock: Fox Bird
+#define II_UNLOCK_EMOTE_128						38134	// Emote Unlock: Fox Birthday
+#define II_UNLOCK_EMOTE_129						38135	// Emote Unlock: Fox Blep
+#define II_UNLOCK_EMOTE_130						38136	// Emote Unlock: Fox Cheeks
+#define II_UNLOCK_EMOTE_132						38137	// Emote Unlock: Fox Chill
+#define II_UNLOCK_EMOTE_133						38138	// Emote Unlock: Fox Couple
+#define II_UNLOCK_EMOTE_134						38139	// Emote Unlock: Fox Cry
+#define II_UNLOCK_EMOTE_135						38140	// Emote Unlock: Fox Dead
+#define II_UNLOCK_EMOTE_137						38141	// Emote Unlock: Fox Dizzy
+#define II_UNLOCK_EMOTE_138						38142	// Emote Unlock: Fox Drooling
+#define II_UNLOCK_EMOTE_139						38143	// Emote Unlock: Fox Excited
+#define II_UNLOCK_EMOTE_140						38144	// Emote Unlock: Fox Facepalm
+#define II_UNLOCK_EMOTE_141						38145	// Emote Unlock: Fox Fight
+#define II_UNLOCK_EMOTE_142						38146	// Emote Unlock: Fox Grin
+#define II_UNLOCK_EMOTE_143						38147	// Emote Unlock: Fox Ha
+#define II_UNLOCK_EMOTE_144						38148	// Emote Unlock: Fox Heart
+#define II_UNLOCK_EMOTE_145						38149	// Emote Unlock: Fox Heartbroken
+#define II_UNLOCK_EMOTE_149						38150	// Emote Unlock: Fox Hello
+#define II_UNLOCK_EMOTE_151						38151	// Emote Unlock: Fox Affection
+#define II_UNLOCK_EMOTE_152						38152	// Emote Unlock: Fox Hug
+#define II_UNLOCK_EMOTE_153						38153	// Emote Unlock: Fox Inlove
+#define II_UNLOCK_EMOTE_155						38154	// Emote Unlock: Fox Leg
+#define II_UNLOCK_EMOTE_156						38155	// Emote Unlock: Fox Lovely
+#define II_UNLOCK_EMOTE_157						38156	// Emote Unlock: Fox Lovers
+#define II_UNLOCK_EMOTE_158						38157	// Emote Unlock: Fox Meat
+#define II_UNLOCK_EMOTE_160						38158	// Emote Unlock: Fox Nosepick
+#define II_UNLOCK_EMOTE_161						38159	// Emote Unlock: Fox Omg
+#define II_UNLOCK_EMOTE_162						38160	// Emote Unlock: Fox Ouch
+#define II_UNLOCK_EMOTE_163						38161	// Emote Unlock: Fox Palm
+#define II_UNLOCK_EMOTE_164						38162	// Emote Unlock: Fox Party
+#define II_UNLOCK_EMOTE_165						38163	// Emote Unlock: Fox Pat
+#define II_UNLOCK_EMOTE_166						38164	// Emote Unlock: Fox Phone
+#define II_UNLOCK_EMOTE_167						38165	// Emote Unlock: Fox Rage
+#define II_UNLOCK_EMOTE_168						38166	// Emote Unlock: Fox Savage
+#define II_UNLOCK_EMOTE_169						38167	// Emote Unlock: Fox Shocked
+#define II_UNLOCK_EMOTE_170						38168	// Emote Unlock: Fox Shy Smile
+#define II_UNLOCK_EMOTE_171						38169	// Emote Unlock: Fox Silly
+#define II_UNLOCK_EMOTE_172						38170	// Emote Unlock: Fox Sleeping
+#define II_UNLOCK_EMOTE_173						38171	// Emote Unlock: Fox Slap
+#define II_UNLOCK_EMOTE_174						38172	// Emote Unlock: Fox Smirk
+#define II_UNLOCK_EMOTE_175						38173	// Emote Unlock: Fox Smush
+#define II_UNLOCK_EMOTE_176						38174	// Emote Unlock: Fox Sneaky
+#define II_UNLOCK_EMOTE_178						38175	// Emote Unlock: Fox Stretch
+#define II_UNLOCK_EMOTE_179						38176	// Emote Unlock: Fox Sweat
+#define II_UNLOCK_EMOTE_181						38177	// Emote Unlock: Fox Think
+#define II_UNLOCK_EMOTE_182						38178	// Emote Unlock: Fox Tired
+#define II_UNLOCK_EMOTE_183						38179	// Emote Unlock: Fox Ty
+#define II_UNLOCK_EMOTE_184						38180	// Emote Unlock: Fox Watermelon
+#define II_UNLOCK_EMOTE_185						38181	// Emote Unlock: Fox What
+#define II_UNLOCK_EMOTE_186						38182	// Emote Unlock: Fox Wide Mouth
+#define II_UNLOCK_EMOTE_187						38183	// Emote Unlock: Fox Wow
+#define II_UNLOCK_EMOTE_188						38184	// Emote Unlock: Fox WTF
+#define II_UNLOCK_EMOTE_189						38185	// Emote Unlock: Fox Yay
+#define II_UNLOCK_EMOTE_190						38186	// Emote Unlock: Ok
+#define II_UNLOCK_EMOTE_191						38187	// Emote Unlock: Kill
+#define II_UNLOCK_EMOTE_192						38188	// Emote Unlock: Good Job
+#define II_UNLOCK_EMOTE_193						38189	// Emote Unlock: Red Face
+#define II_UNLOCK_EMOTE_194						38190	// Emote Unlock: Nya
+#define II_UNLOCK_EMOTE_195						38191	// Emote Unlock: Poke
+#define II_UNLOCK_EMOTE_196						38192	// Emote Unlock: Red Angry
+#define II_UNLOCK_EMOTE_197						38193	// Emote Unlock: Red Cry
+#define II_UNLOCK_EMOTE_198						38194	// Emote Unlock: Red Inhale
+#define II_UNLOCK_EMOTE_199						38195	// Emote Unlock: Red Think
+#define II_UNLOCK_EMOTE_200						38196	// Emote Unlock: ehh
+#define II_UNLOCK_EMOTE_201						38197	// Emote Unlock: Holy Shit
+#define II_UNLOCK_EMOTE_202						38198	// Emote Unlock: WHATTHEFUCK
+
+
+// Behemoth Bow_(Fix) - Kiyo
+#define II_WEA_BOW_BEHEMOTHBOW                  38199   // Dragons Rain
+
+// Yggdrasil Zem - Kiyo
+#define II_ARM_ARM_ZEM_YGGDRASIL                38200   // Yggdrasil Zem
+
+// Beta Badge - Kiyo
+#define	II_BADGE202                             38201   // Beta Badge
+
+// Beta Fashion (F) - Kiyo
+#define II_ARM_F_CHR_BFHAT                      38202   // [Beta Reward] Teco Hat (F)
+#define II_ARM_F_CHR_BFSUIT                     38203   // [Beta Reward] Teco Suit (F)
+#define II_ARM_F_CHR_BFGLOVES                   38204   // [Beta Reward] Teco Gloves (F)
+#define II_ARM_F_CHR_BFSHOES                    38205   // [Beta Reward] Teco Shoes (F)
+#define II_SYS_SYS_SCR_BXFBF01                  38206   // [Beta Reward] Teco Cs Box (F)
+
+// Beta Fashion (M) - Kiyo
+#define II_ARM_M_CHR_BFHAT                      38207   // [Beta Reward] Teco Hat (M)
+#define II_ARM_M_CHR_BFSUIT                     38208   // [Beta Reward] Teco Suit (M)
+#define II_ARM_M_CHR_BFGLOVES                   38209   // [Beta Reward] Teco Gloves (M)
+#define II_ARM_M_CHR_BFSHOES                    38210   // [Beta Reward] Teco Shoes (M)
+#define II_SYS_SYS_SCR_BXMBF01                  38211   // [Beta Reward] Teco Cs Box (M)
+
+// Random Mount Box - Kiyo
+//#define II_SYS_SYS_SCR_RBMB                   38212   // Random Mount Box
+											    
+// Random Pet Box - Kiyo                       
+//#define II_SYS_SYS_SCR_RBPB                   38213   // Random Pet Box
+											    
+// Random Model Box - Kiyo                     
+//#define II_SYS_SYS_SCR_RBMB                   38214   // Random Model Box
+
+// Beta Pick Up Pets - Kiyo
+//#define II_PET_BP1                            38215   // Beta Pet
+//#define II_PET_BP2                            38216   // Beta Pet
+//#define II_PET_BP3                            38217   // Beta Pet
+//#define II_PET_BP4                            38218   // Beta Pet
+//#define II_PET_BP5                            38219   // Beta Pet
+
+// Beta Pick Up Pets Boxes - Kiyo
+//#define II_SYS_SYS_SCR_BXBP1                  38220   // Beta Pet Box
+//#define II_SYS_SYS_SCR_BXBP2                  38221   // Beta Pet Box
+//#define II_SYS_SYS_SCR_BXBP3                  38222   // Beta Pet Box
+//#define II_SYS_SYS_SCR_BXBP4                  38223   // Beta Pet Box
+//#define II_SYS_SYS_SCR_BXBP5                  38224   // Beta Pet Box
+
+// Beta Mount Boxes - Kiyo
+//#define II_SYS_SYS_SCR_BXBM1                  38225   // Beta Mount Box
+//#define II_SYS_SYS_SCR_BXBM2                  38226   // Beta Mount Box
+//#define II_SYS_SYS_SCR_BXBM3                  38227   // Beta Mount Box
+//#define II_SYS_SYS_SCR_BXBM4                  38228   // Beta Mount Box
+//#define II_SYS_SYS_SCR_BXBM5                  38229   // Beta Mount Box
+
+// Streamer Box - Kiyo
+#define II_SYS_SYS_SCR_BXSW1                    38230   // Streamer Random Box
+#define II_SYS_TITLE_22                         38231   // Streamer Title 
+
+#define II__PET_SERUSURIEL                      38232	// Serus Uriel Pet									
+#define II_SYS_SYS_SCR_BXLV15                   38233	// Level 15 Powerup Box	
+
+//Ophidian Looterpets/Items
+#define II_PET_CHAOSSOUL                     38234	// Chaossoul									
+#define II_PET_PHASEBEAST                    38235	// Phasebeast									
+#define II_PET_BLAZELICH                     38236	// Blazelich									
+#define II_SYS_SYS_SCR_OPHIDIANAMP           38237	// Amplification 15% scroll	
+
+//Card Boxes and Farm Chips
+#define II_CHP_FARMCHIP                      38238	// Farm Chip								
+#define II_SYS_SYS_BACARDBOX                 38239	// B/4% card box								
+#define II_SYS_SYS_ELECARDBOX                38240	// Elementcardbox								
+#define II_SYS_FARMPERIN                     38241	// Farm Perin								
+
+//1on1 Neclus Set
+#define II_ARM_F_RIN_HELMET_SET_22_1O1      38242
+#define II_ARM_F_RIN_SUIT_SET_22_1O1	    38243
+#define II_ARM_F_RIN_GAUNTLET_SET_22_1O1    38244
+#define II_ARM_F_RIN_BOOTS_SET_22_1O1	    38245
+#define II_ARM_M_RIN_HELMET_SET_22_1O1      38246
+#define II_ARM_M_RIN_SUIT_SET_22_1O1	    38247
+#define II_ARM_M_RIN_GAUNTLET_SET_22_1O1    38248
+#define II_ARM_M_RIN_BOOTS_SET_22_1O1	    38249
+
+//New Potions
+#define II_GEN_FOO_INS_HPPOTION1	    38250 // HP Potion Beginner
+#define II_GEN_FOO_INS_HPPOTION2	    38251 // HP Potion Low
+#define II_GEN_FOO_INS_HPPOTION3	    38252 // HP Potion Average
+#define II_GEN_FOO_INS_HPPOTION4	    38253 // HP Potion High
+#define II_GEN_FOO_INS_FPPOTION1	    38254 // FP Potion Beginner
+#define II_GEN_FOO_INS_FPPOTION2	    38255 // FP Potion Low
+#define II_GEN_FOO_INS_FPPOTION3	    38256 // FP Potion Average
+#define II_GEN_FOO_INS_FPPOTION4	    38257 // FP Potion High
+#define II_GEN_FOO_INS_MPPOTION1	    38258 // MP Potion Beginner
+#define II_GEN_FOO_INS_MPPOTION2	    38259 // MP Potion Low
+#define II_GEN_FOO_INS_MPPOTION3	    38260 // MP Potion Average
+#define II_GEN_FOO_INS_MPPOTION4	    38261 // MP Potion High
+
+//Craft/Recyle Items
+#define II_GEN_GEM_CRAFTRECYCLE01	    38262 // Guardian Dust
+#define II_GEN_GEM_CRAFTRECYCLE02	    38263 // Historic Dust
+#define II_GEN_GEM_CRAFTRECYCLE03	    38264 // Angels Dust
+#define II_GEN_GEM_CRAFTRECYCLE04	    38265 // Legendary Dust
+#define II_GEN_GEM_CRAFTRECYCLE05	    38266 // Lusaka Dust
+#define II_GEN_GEM_CRAFTRECYCLE06	    38267 // Lusaka Crystal Dust
+#define II_GEN_GEM_CRAFTRECYCLE07	    38268 // Bloody Dust
+#define II_GEN_GEM_CRAFTRECYCLE08	    38269 // Vampire Dust
+#define II_GEN_GEM_CRAFTRECYCLE09	    38270 // Ancient Dust
+#define II_GEN_GEM_CRAFTRECYCLE10	    38271 // Behemoth Dust
+#define II_GEN_GEM_CRAFTRECYCLE11	    38272 // Jewelry Dust
+#define II_GEN_GEM_CRAFTRECYCLE12	    38273 // Unique Jewelry Dust
+#define II_GEN_GEM_CRAFTRECYCLE13	    38274 // Common Dust
+#define II_GEN_GEM_CRAFTRECYCLE14	    38275 // Uncommon Dust
+
+//New Class based Beads
+#define II_SYS_VIS_LV5_BEAD01   	38276 // Prisma Bead of Power                     
+#define II_SYS_VIS_LV5_BEAD02	    38277 // Prisma Bead of Lightspeed	                 
+#define II_SYS_VIS_LV5_BEAD03	    38278 // Prisma Bead of Luck                     
+#define II_SYS_VIS_LV5_BEAD04	    38279 // Prisma Bead of Health                     
+#define II_SYS_VIS_LV5_BEAD05	    38280 // Prisma Bead of Wind                     
+#define II_SYS_VIS_LV5_BEAD06	    38281 // Prisma Bead of Earth                     
+#define II_SYS_VIS_LV5_BEAD07	    38282 // Prisma Bead of Fire                     
+#define II_SYS_VIS_LV5_BEAD08	    38283 // Prisma Bead of Thunder               
+#define II_SYS_VIS_LV5_BEAD09	    38284 // Prisma Bead of Water                     
+#define II_SYS_VIS_LV5_BEAD10	    38285 // Prisma Bead of Spells                  
+#define II_SYS_VIS_LV5_BEAD11	    38286 // Prisma Bead of Spells	                     
+#define II_SYS_VIS_LV5_BEAD12	    38287 // Prisma Bead of Destruction	             
+#define II_SYS_VIS_LV5_BEAD13	    38288 // Prisma Bead of Spells	                     
+#define II_SYS_VIS_LV5_BEAD14	    38289 // Prisma Bead of Revenge (Psykeeper)	     
+#define II_SYS_VIS_LV5_BEAD15	    38290 // Prisma Bead of Revenge (Knight)	         
+#define II_SYS_VIS_LV5_BEAD16	    38291 // Prisma Bead of Block	                     
+#define II_SYS_VIS_LV5_BEAD17	    38292 // Prisma Bead of Evade	                     
+#define II_SYS_VIS_LV5_BEAD18	    38293 // Prisma Bead of Strength	                 
+#define II_SYS_VIS_LV5_BEAD19	    38294 // Prisma Bead of Dexterity	                 
+#define II_SYS_VIS_LV5_BEAD20	    38295 // Prisma Bead of Stamina	                 
+#define II_SYS_VIS_LV5_BEAD21	    38296 // Prisma Bead of Intelligence	             
+#define II_SYS_VIS_LV5_BEAD22	    38297 // Prisma Bead of Stats Up	                 
+#define II_SYS_VIS_LV5_BEAD23	    38298 // Prisma Bead of empower weapon (Sword 1H)	 
+#define II_SYS_VIS_LV5_BEAD24	    38299 // Prisma Bead of empower weapon (Sword 2H)	 
+#define II_SYS_VIS_LV5_BEAD25	    38300 // Prisma Bead of empower weapon (Bow)	     
+#define II_SYS_VIS_LV5_BEAD26	    38301 // Prisma Bead of empower weapon (Yoyo)	     
+#define II_SYS_VIS_LV5_BEAD27	    38302 // Prisma Bead of empower weapon (Stick)	     
+#define II_SYS_VIS_LV5_BEAD28	    38303 // Prisma Bead of empower weapon (Axe 1H)	 
+#define II_SYS_VIS_LV5_BEAD29	    38304 // Prisma Bead of empower weapon (Axe 2H)	 
+#define II_SYS_VIS_LV5_BEAD30	    38305 // Prisma Bead of empower weapon (BP)         
+#define II_SYS_VIS_LV5_BEAD31	    38306 // Prisma Bead of empower weapon (RM)         
+#define II_SYS_VIS_LV5_BEAD32	    38307 // Prisma Bead of Experience	                 
+#define II_SYS_VIS_LV5_BEAD33	    38308 // Prisma Bead of Berserk (Knight)	         
+#define II_SYS_VIS_LV5_BEAD34	    38309 // Prisma Bead of Berserk (RM)	             
+#define II_SYS_VIS_LV5_BEAD35	    38310 // Prisma Bead of Vampire	                 
+#define II_SYS_VIS_LV5_BEAD36	    38311 // Prisma Bead of Animals	                 
+#define II_SYS_VIS_LV5_BEAD37	    38312 // Prisma Bead of Damage reduction (PvP)	     
+#define II_SYS_VIS_LV5_BEAD38	    38313 // Prisma Bead of Player damage	             
+#define II_SYS_VIS_LV5_BEAD39	    38314 // Prisma Bead of Fly High	                 
+#define II_SYS_VIS_LV5_BEAD40	    38315 // Prisma Bead of Healing	                 
+#define II_SYS_VIS_LV5_BEAD41	    39804 // Prisma Bead of Critical	     	                 
+#define II_SYS_VIS_LV5_BEAD42	    39805 // Prisma Bead of critical Damage	                 
+#define II_SYS_VIS_LV5_BEAD43	    39806 // Prisma Bead of Infinity Magic	 	                 
+#define II_SYS_VIS_LV5_BEAD44	    39807 // Prisma Bead of Infinity Critical	                 
+#define II_SYS_VIS_LV5_BEAD45	    39808 // Prisma Bead of critical Damage	                 
+#define II_SYS_VIS_LV5_BEAD46	    39809 // Prisma Bead of Infinity Magic"	 	                 
+#define II_SYS_VIS_LV5_BEAD47	    39810 // Prisma Bead of Infinity Stamina	                 
+#define II_SYS_VIS_LV5_BEAD48	    39811 // Prisma Bead of Critical	     	                 
+#define II_SYS_VIS_LV5_BEAD49	    39812 // Prisma Bead of critical Damage 	                 
+#define II_SYS_VIS_LV5_BEAD50	    39813 // Prisma Bead of Infinity Magic	 	                 
+#define II_SYS_VIS_LV5_BEAD51	    39814 // Prisma Bead of Infinity Stamina	                 
+#define II_SYS_VIS_LV5_BEAD52	    39815 // Prisma Bead of Critical	     	                 
+#define II_SYS_VIS_LV5_BEAD53	    39816 // Prisma Bead of critical Damage 	                 
+#define II_SYS_VIS_LV5_BEAD54	    39817 // Prisma Bead of Infinity Magic	 	                 
+#define II_SYS_VIS_LV5_BEAD55	    39818 // Prisma Bead of Earth	         	                 
+#define II_SYS_VIS_LV5_BEAD56	    39819 // Prisma Bead of Wind	         	                 
+#define II_SYS_VIS_LV5_BEAD57	    39820 // Prisma Bead of Fire	         	                 
+#define II_SYS_VIS_LV5_BEAD58	    39821 // Prisma Bead of Water	         	                 
+#define II_SYS_VIS_LV5_BEAD59	    39822 // Prisma Bead of Electriciy	     	                 
+
+//New CW Armor crafting sets and parts
+#define  II_ARM_M_MER_SET01HELMET_1	   38316     
+#define  II_ARM_M_MER_SET01SUIT_1	   38317
+#define  II_ARM_M_MER_SET01GAUNTLET_1  38318
+#define  II_ARM_M_MER_SET01BOOTS_1	   38319
+#define  II_ARM_M_ASS_SET01HELMET_1	   38320
+#define  II_ARM_M_ASS_SET01SUIT_1	   38321
+#define  II_ARM_M_ASS_SET01GAUNTLET_1  38322
+#define  II_ARM_M_ASS_SET01BOOTS_1	   38323
+#define  II_ARM_M_MAG_SET01HELMET_1	   38324
+#define  II_ARM_M_MAG_SET01SUIT_1	   38325
+#define  II_ARM_M_MAG_SET01GAUNTLET_1  38326
+#define  II_ARM_M_MAG_SET01BOOTS_1	   38327
+#define  II_ARM_F_MER_SET01HELMET_1	   38328
+#define  II_ARM_F_MER_SET01SUIT_1	   38329
+#define  II_ARM_F_MER_SET01GAUNTLET_1  38330
+#define  II_ARM_F_MER_SET01BOOTS_1	   38331
+#define  II_ARM_F_ASS_SET01HELMET_1	   38332
+#define  II_ARM_F_ASS_SET01SUIT_1	   38333
+#define  II_ARM_F_ASS_SET01GAUNTLET_1  38334
+#define  II_ARM_F_ASS_SET01BOOTS_1	   38335
+#define  II_ARM_F_MAG_SET01HELMET_1	   38336
+#define  II_ARM_F_MAG_SET01SUIT_1	   38337
+#define  II_ARM_F_MAG_SET01GAUNTLET_1  38338
+#define  II_ARM_F_MAG_SET01BOOTS_1	   38339
+#define  II_ARM_M_ACR_SET01HELMET_1	   38340
+#define  II_ARM_M_ACR_SET01SUIT_1	   38341
+#define  II_ARM_M_ACR_SET01GAUNTLET_1  38342
+#define  II_ARM_M_ACR_SET01BOOTS_1	   38343
+#define  II_ARM_F_ACR_SET01HELMET_1	   38344
+#define  II_ARM_F_ACR_SET01SUIT_1	   38345
+#define  II_ARM_F_ACR_SET01GAUNTLET_1  38346
+#define  II_ARM_F_ACR_SET01BOOTS_1	   38347
+
+//New CW craft Weapons
+#define  II_WEA_SWO_IMPROVEDCW	        38348    
+#define  II_WEA_SWT_IMPROVEDCW	        38349 
+#define  II_WEA_AXE_IMPROVEDCW	        38350 
+#define  II_WEA_AXT_IMPROVEDCW	        38351 
+#define  II_WEA_KNU_IMPROVEDCW	        38352 
+#define  II_WEA_CHE_IMPROVEDCW	        38353 
+#define  II_WEA_WAN_IMPROVEDCW	        38354 
+#define  II_WEA_STA_IMPROVEDCW	        38355 
+#define  II_WEA_BOW_IMPROVEDCW	        38356  
+#define  II_WEA_YOY_IMPROVEDCW	        38357       
+#define  II_ARM_ARM_SHI_IMPROVEDCW      38358 
+#define  II_ARM_ARM_SHI_IMPROVEDCW_1    38359 
+#define  II_ARM_ARM_SHI_IMPROVEDCW_2    38360 
+
+//craft Material
+#define  II_GEN_GEM_CRAFTBAR              38361 // Bronze bar
+#define  II_GEN_GEM_CRAFTBAR01            38362 // Silver bar
+#define  II_GEN_GEM_CRAFTBAR02            38363 // Gold bar
+#define  II_GEN_GEM_CRAFTBAR03            38364 // Mythril bar
+#define  II_GEN_GEM_CRAFTBAR04            38365 // Calamity bar
+#define  II_GEN_GEM_CRAFTMATERIAL108      38366 // Red Feather
+#define  II_GEN_GEM_CRAFTMATERIAL109      38367 // Brown Feather
+
+//Craft Sets 60 - 105 + shields
+#define II_ARM_M_MER_HELMET_SET_04_1       38368
+#define II_ARM_F_MER_HELMET_SET_04_1       38369
+#define II_ARM_M_ACR_HELMET_SET_05_1       38370
+#define II_ARM_F_ACR_HELMET_SET_05_1       38371
+#define II_ARM_M_ASS_HELMET_SET_06_1       38372
+#define II_ARM_F_ASS_HELMET_SET_06_1       38373
+#define II_ARM_M_MAG_HELMET_SET_07_1       38374
+#define II_ARM_F_MAG_HELMET_SET_07_1       38375
+#define II_ARM_M_KIN_HELMET_SET_08_1       38376
+#define II_ARM_F_KIN_HELMET_SET_08_1       38377
+#define II_ARM_M_KIN_HELMET_SET_09_1       38378
+#define II_ARM_F_KIN_HELMET_SET_09_1       38379
+#define II_ARM_M_KIN_HELMET_SET_10_1       38380
+#define II_ARM_F_KIN_HELMET_SET_10_1       38381
+#define II_ARM_M_BLA_HELMET_SET_11_1       38382
+#define II_ARM_F_BLA_HELMET_SET_11_1       38383
+#define II_ARM_M_BLA_HELMET_SET_12_1       38384
+#define II_ARM_F_BLA_HELMET_SET_12_1       38385
+#define II_ARM_M_BLA_HELMET_SET_13_1       38386
+#define II_ARM_F_BLA_HELMET_SET_13_1       38387
+#define II_ARM_M_JST_HELMET_SET_14_1       38388
+#define II_ARM_F_JST_HELMET_SET_14_1       38389
+#define II_ARM_M_JST_HELMET_SET_15_1       38390
+#define II_ARM_F_JST_HELMET_SET_15_1       38391
+#define II_ARM_M_JST_HELMET_SET_16_1       38392
+#define II_ARM_F_JST_HELMET_SET_16_1       38393
+#define II_ARM_M_RAG_HELMET_SET_17_1       38394
+#define II_ARM_F_RAG_HELMET_SET_17_1       38395
+#define II_ARM_M_RAG_HELMET_SET_18_1       38396
+#define II_ARM_F_RAG_HELMET_SET_18_1       38397
+#define II_ARM_M_RAG_HELMET_SET_19_1       38398
+#define II_ARM_F_RAG_HELMET_SET_19_1       38399
+#define II_ARM_M_RIN_HELMET_SET_20_1       38400
+#define II_ARM_F_RIN_HELMET_SET_20_1       38401
+#define II_ARM_M_RIN_HELMET_SET_21_1       38402
+#define II_ARM_F_RIN_HELMET_SET_21_1       38403
+#define II_ARM_M_RIN_HELMET_SET_22_1       38404
+#define II_ARM_F_RIN_HELMET_SET_22_1       38405
+#define II_ARM_M_BIL_HELMET_SET_23_1       38406
+#define II_ARM_F_BIL_HELMET_SET_23_1       38407
+#define II_ARM_M_BIL_HELMET_SET_24_1       38408
+#define II_ARM_F_BIL_HELMET_SET_24_1       38409
+#define II_ARM_M_BIL_HELMET_SET_25_1       38410
+#define II_ARM_F_BIL_HELMET_SET_25_1       38411
+#define II_ARM_M_PSY_HELMET_SET_26_1       38412
+#define II_ARM_F_PSY_HELMET_SET_26_1       38413
+#define II_ARM_M_PSY_HELMET_SET_27_1       38414
+#define II_ARM_F_PSY_HELMET_SET_27_1       38415
+#define II_ARM_M_PSY_HELMET_SET_28_1       38416
+#define II_ARM_F_PSY_HELMET_SET_28_1       38417
+#define II_ARM_M_ELE_HELMET_SET_29_1       38418
+#define II_ARM_F_ELE_HELMET_SET_29_1       38419
+#define II_ARM_M_ELE_HELMET_SET_30_1       38420
+#define II_ARM_F_ELE_HELMET_SET_30_1       38421
+#define II_ARM_M_ELE_HELMET_SET_31_1       38422
+#define II_ARM_F_ELE_HELMET_SET_31_1       38423
+#define II_ARM_M_KIN_HELMET_SET_32_1       38424
+#define II_ARM_F_KIN_HELMET_SET_32_1       38425
+#define II_ARM_M_BLA_HELMET_SET_32_1       38426
+#define II_ARM_F_BLA_HELMET_SET_32_1       38427
+#define II_ARM_M_JST_HELMET_SET_32_1       38428
+#define II_ARM_F_JST_HELMET_SET_32_1       38429
+#define II_ARM_M_RAG_HELMET_SET_32_1       38430
+#define II_ARM_F_RAG_HELMET_SET_32_1       38431
+#define II_ARM_M_RIN_HELMET_SET_32_1       38432
+#define II_ARM_F_RIN_HELMET_SET_32_1       38433
+#define II_ARM_M_BIL_HELMET_SET_32_1       38434
+#define II_ARM_F_BIL_HELMET_SET_32_1       38435
+#define II_ARM_M_PSY_HELMET_SET_32_1       38436
+#define II_ARM_F_PSY_HELMET_SET_32_1       38437
+#define II_ARM_M_ELE_HELMET_SET_32_1       38438
+#define II_ARM_F_ELE_HELMET_SET_32_1       38439
+#define II_ARM_M_MER_SUIT_SET_04_1         38440
+#define II_ARM_F_MER_SUIT_SET_04_1         38441
+#define II_ARM_M_ACR_SUIT_SET_05_1         38442
+#define II_ARM_F_ACR_SUIT_SET_05_1         38443
+#define II_ARM_M_ASS_SUIT_SET_06_1         38444
+#define II_ARM_F_ASS_SUIT_SET_06_1         38445
+#define II_ARM_M_MAG_SUIT_SET_07_1         38446
+#define II_ARM_F_MAG_SUIT_SET_07_1         38447
+#define II_ARM_M_KIN_SUIT_SET_08_1         38448
+#define II_ARM_F_KIN_SUIT_SET_08_1         38449
+#define II_ARM_M_KIN_SUIT_SET_09_1         38450
+#define II_ARM_F_KIN_SUIT_SET_09_1         38451
+#define II_ARM_M_KIN_SUIT_SET_10_1         38452
+#define II_ARM_F_KIN_SUIT_SET_10_1         38453
+#define II_ARM_M_BLA_SUIT_SET_11_1         38454
+#define II_ARM_F_BLA_SUIT_SET_11_1         38455
+#define II_ARM_M_BLA_SUIT_SET_12_1         38456
+#define II_ARM_F_BLA_SUIT_SET_12_1         38457
+#define II_ARM_M_BLA_SUIT_SET_13_1         38458
+#define II_ARM_F_BLA_SUIT_SET_13_1         38459
+#define II_ARM_M_JST_SUIT_SET_14_1         38460
+#define II_ARM_F_JST_SUIT_SET_14_1         38461
+#define II_ARM_M_JST_SUIT_SET_15_1         38462
+#define II_ARM_F_JST_SUIT_SET_15_1         38463
+#define II_ARM_M_JST_SUIT_SET_16_1         38464
+#define II_ARM_F_JST_SUIT_SET_16_1         38465
+#define II_ARM_M_RAG_SUIT_SET_17_1         38466
+#define II_ARM_F_RAG_SUIT_SET_17_1         38467
+#define II_ARM_M_RAG_SUIT_SET_18_1         38468
+#define II_ARM_F_RAG_SUIT_SET_18_1         38469
+#define II_ARM_M_RAG_SUIT_SET_19_1         38470
+#define II_ARM_F_RAG_SUIT_SET_19_1         38471
+#define II_ARM_M_RIN_SUIT_SET_20_1         38472
+#define II_ARM_F_RIN_SUIT_SET_20_1         38473
+#define II_ARM_M_RIN_SUIT_SET_21_1         38474
+#define II_ARM_F_RIN_SUIT_SET_21_1         38475
+#define II_ARM_M_RIN_SUIT_SET_22_1         38476
+#define II_ARM_F_RIN_SUIT_SET_22_1         38477
+#define II_ARM_M_BIL_SUIT_SET_23_1         38478
+#define II_ARM_F_BIL_SUIT_SET_23_1         38479
+#define II_ARM_M_BIL_SUIT_SET_24_1         38480
+#define II_ARM_F_BIL_SUIT_SET_24_1         38481
+#define II_ARM_M_BIL_SUIT_SET_25_1         38482
+#define II_ARM_F_BIL_SUIT_SET_25_1         38483
+#define II_ARM_M_PSY_SUIT_SET_26_1         38484
+#define II_ARM_F_PSY_SUIT_SET_26_1         38485
+#define II_ARM_M_PSY_SUIT_SET_27_1         38486
+#define II_ARM_F_PSY_SUIT_SET_27_1         38487
+#define II_ARM_M_PSY_SUIT_SET_28_1         38488
+#define II_ARM_F_PSY_SUIT_SET_28_1         38489
+#define II_ARM_M_ELE_SUIT_SET_29_1         38490
+#define II_ARM_F_ELE_SUIT_SET_29_1         38491
+#define II_ARM_M_ELE_SUIT_SET_30_1         38492
+#define II_ARM_F_ELE_SUIT_SET_30_1         38493
+#define II_ARM_M_ELE_SUIT_SET_31_1         38494
+#define II_ARM_F_ELE_SUIT_SET_31_1         38495
+#define II_ARM_M_KIN_SUIT_SET_32_1         38496
+#define II_ARM_F_KIN_SUIT_SET_32_1         38497
+#define II_ARM_M_BLA_SUIT_SET_32_1         38498
+#define II_ARM_F_BLA_SUIT_SET_32_1         38499
+#define II_ARM_M_JST_SUIT_SET_32_1         38500
+#define II_ARM_F_JST_SUIT_SET_32_1         38501
+#define II_ARM_M_RAG_SUIT_SET_32_1         38502
+#define II_ARM_F_RAG_SUIT_SET_32_1         38503
+#define II_ARM_M_RIN_SUIT_SET_32_1         38504
+#define II_ARM_F_RIN_SUIT_SET_32_1         38505
+#define II_ARM_M_BIL_SUIT_SET_32_1         38506
+#define II_ARM_F_BIL_SUIT_SET_32_1         38507
+#define II_ARM_M_PSY_SUIT_SET_32_1         38508
+#define II_ARM_F_PSY_SUIT_SET_32_1         38509
+#define II_ARM_M_ELE_SUIT_SET_32_1         38510
+#define II_ARM_F_ELE_SUIT_SET_32_1         38511
+#define II_ARM_M_MER_GAUNTLET_SET_04_1     38512
+#define II_ARM_F_MER_GAUNTLET_SET_04_1     38513
+#define II_ARM_M_ACR_GAUNTLET_SET_05_1     38514
+#define II_ARM_F_ACR_GAUNTLET_SET_05_1     38515
+#define II_ARM_M_ASS_GAUNTLET_SET_06_1     38516
+#define II_ARM_F_ASS_GAUNTLET_SET_06_1     38517
+#define II_ARM_M_MAG_GAUNTLET_SET_07_1     38518
+#define II_ARM_F_MAG_GAUNTLET_SET_07_1     38519
+#define II_ARM_M_KIN_GAUNTLET_SET_08_1     38520
+#define II_ARM_F_KIN_GAUNTLET_SET_08_1     38521
+#define II_ARM_M_KIN_GAUNTLET_SET_09_1     38522
+#define II_ARM_F_KIN_GAUNTLET_SET_09_1     38523
+#define II_ARM_M_KIN_GAUNTLET_SET_10_1     38524
+#define II_ARM_F_KIN_GAUNTLET_SET_10_1     38525
+#define II_ARM_M_BLA_GAUNTLET_SET_11_1     38526
+#define II_ARM_F_BLA_GAUNTLET_SET_11_1     38527
+#define II_ARM_M_BLA_GAUNTLET_SET_12_1     38528
+#define II_ARM_F_BLA_GAUNTLET_SET_12_1     38529
+#define II_ARM_M_BLA_GAUNTLET_SET_13_1     38530
+#define II_ARM_F_BLA_GAUNTLET_SET_13_1     38531
+#define II_ARM_M_JST_GAUNTLET_SET_14_1     38532
+#define II_ARM_F_JST_GAUNTLET_SET_14_1     38533
+#define II_ARM_M_JST_GAUNTLET_SET_15_1     38534
+#define II_ARM_F_JST_GAUNTLET_SET_15_1     38535
+#define II_ARM_M_JST_GAUNTLET_SET_16_1     38536
+#define II_ARM_F_JST_GAUNTLET_SET_16_1     38537
+#define II_ARM_M_RAG_GAUNTLET_SET_17_1     38538
+#define II_ARM_F_RAG_GAUNTLET_SET_17_1     38539
+#define II_ARM_M_RAG_GAUNTLET_SET_18_1     38540
+#define II_ARM_F_RAG_GAUNTLET_SET_18_1     38541
+#define II_ARM_M_RAG_GAUNTLET_SET_19_1     38542
+#define II_ARM_F_RAG_GAUNTLET_SET_19_1     38543
+#define II_ARM_M_RIN_GAUNTLET_SET_20_1     38544
+#define II_ARM_F_RIN_GAUNTLET_SET_20_1     38545
+#define II_ARM_M_RIN_GAUNTLET_SET_21_1     38546
+#define II_ARM_F_RIN_GAUNTLET_SET_21_1     38547
+#define II_ARM_M_RIN_GAUNTLET_SET_22_1     38548
+#define II_ARM_F_RIN_GAUNTLET_SET_22_1     38549
+#define II_ARM_M_BIL_GAUNTLET_SET_23_1     38550
+#define II_ARM_F_BIL_GAUNTLET_SET_23_1     38551
+#define II_ARM_M_BIL_GAUNTLET_SET_24_1     38552
+#define II_ARM_F_BIL_GAUNTLET_SET_24_1     38553
+#define II_ARM_M_BIL_GAUNTLET_SET_25_1     38554
+#define II_ARM_F_BIL_GAUNTLET_SET_25_1     38555
+#define II_ARM_M_PSY_GAUNTLET_SET_26_1     38556
+#define II_ARM_F_PSY_GAUNTLET_SET_26_1     38557
+#define II_ARM_M_PSY_GAUNTLET_SET_27_1     38558
+#define II_ARM_F_PSY_GAUNTLET_SET_27_1     38559
+#define II_ARM_M_PSY_GAUNTLET_SET_28_1     38560
+#define II_ARM_F_PSY_GAUNTLET_SET_28_1     38561
+#define II_ARM_M_ELE_GAUNTLET_SET_29_1     38562
+#define II_ARM_F_ELE_GAUNTLET_SET_29_1     38563
+#define II_ARM_M_ELE_GAUNTLET_SET_30_1     38564
+#define II_ARM_F_ELE_GAUNTLET_SET_30_1     38565
+#define II_ARM_M_ELE_GAUNTLET_SET_31_1     38566
+#define II_ARM_F_ELE_GAUNTLET_SET_31_1     38567
+#define II_ARM_M_KIN_GAUNTLET_SET_32_1     38568
+#define II_ARM_F_KIN_GAUNTLET_SET_32_1     38569
+#define II_ARM_M_BLA_GAUNTLET_SET_32_1     38570
+#define II_ARM_F_BLA_GAUNTLET_SET_32_1     38571
+#define II_ARM_M_JST_GAUNTLET_SET_32_1     38572
+#define II_ARM_F_JST_GAUNTLET_SET_32_1     38573
+#define II_ARM_M_RAG_GAUNTLET_SET_32_1     38574
+#define II_ARM_F_RAG_GAUNTLET_SET_32_1     38575
+#define II_ARM_M_RIN_GAUNTLET_SET_32_1     38576
+#define II_ARM_F_RIN_GAUNTLET_SET_32_1     38577
+#define II_ARM_M_BIL_GAUNTLET_SET_32_1     38578
+#define II_ARM_F_BIL_GAUNTLET_SET_32_1     38579
+#define II_ARM_M_PSY_GAUNTLET_SET_32_1     38580
+#define II_ARM_F_PSY_GAUNTLET_SET_32_1     38581
+#define II_ARM_M_ELE_GAUNTLET_SET_32_1     38582
+#define II_ARM_F_ELE_GAUNTLET_SET_32_1     38583
+#define II_ARM_M_MER_BOOTS_SET_04_1        38584
+#define II_ARM_F_MER_BOOTS_SET_04_1        38585
+#define II_ARM_M_ACR_BOOTS_SET_05_1        38586
+#define II_ARM_F_ACR_BOOTS_SET_05_1        38587
+#define II_ARM_M_ASS_BOOTS_SET_06_1        38588
+#define II_ARM_F_ASS_BOOTS_SET_06_1        38589
+#define II_ARM_M_MAG_BOOTS_SET_07_1        38590
+#define II_ARM_F_MAG_BOOTS_SET_07_1        38591
+#define II_ARM_M_KIN_BOOTS_SET_08_1        38592
+#define II_ARM_F_KIN_BOOTS_SET_08_1        38593
+#define II_ARM_M_KIN_BOOTS_SET_09_1        38594
+#define II_ARM_F_KIN_BOOTS_SET_09_1        38595
+#define II_ARM_M_KIN_BOOTS_SET_10_1        38596
+#define II_ARM_F_KIN_BOOTS_SET_10_1        38597
+#define II_ARM_M_BLA_BOOTS_SET_11_1        38598
+#define II_ARM_F_BLA_BOOTS_SET_11_1        38599
+#define II_ARM_M_BLA_BOOTS_SET_12_1        38600
+#define II_ARM_F_BLA_BOOTS_SET_12_1        38601
+#define II_ARM_M_BLA_BOOTS_SET_13_1        38602
+#define II_ARM_F_BLA_BOOTS_SET_13_1        38603
+#define II_ARM_M_JST_BOOTS_SET_14_1        38604
+#define II_ARM_F_JST_BOOTS_SET_14_1        38605
+#define II_ARM_M_JST_BOOTS_SET_15_1        38606
+#define II_ARM_F_JST_BOOTS_SET_15_1        38607
+#define II_ARM_M_JST_BOOTS_SET_16_1        38608
+#define II_ARM_F_JST_BOOTS_SET_16_1        38609
+#define II_ARM_M_RAG_BOOTS_SET_17_1        38610
+#define II_ARM_F_RAG_BOOTS_SET_17_1        38611
+#define II_ARM_M_RAG_BOOTS_SET_18_1        38612
+#define II_ARM_F_RAG_BOOTS_SET_18_1        38613
+#define II_ARM_M_RAG_BOOTS_SET_19_1        38614
+#define II_ARM_F_RAG_BOOTS_SET_19_1        38615
+#define II_ARM_M_RIN_BOOTS_SET_20_1        38616
+#define II_ARM_F_RIN_BOOTS_SET_20_1        38617
+#define II_ARM_M_RIN_BOOTS_SET_21_1        38618
+#define II_ARM_F_RIN_BOOTS_SET_21_1        38619
+#define II_ARM_M_RIN_BOOTS_SET_22_1        38620
+#define II_ARM_F_RIN_BOOTS_SET_22_1        38621
+#define II_ARM_M_BIL_BOOTS_SET_23_1        38622
+#define II_ARM_F_BIL_BOOTS_SET_23_1        38623
+#define II_ARM_M_BIL_BOOTS_SET_24_1        38624
+#define II_ARM_F_BIL_BOOTS_SET_24_1        38625
+#define II_ARM_M_BIL_BOOTS_SET_25_1        38626
+#define II_ARM_F_BIL_BOOTS_SET_25_1        38627
+#define II_ARM_M_PSY_BOOTS_SET_26_1        38628
+#define II_ARM_F_PSY_BOOTS_SET_26_1        38629
+#define II_ARM_M_PSY_BOOTS_SET_27_1        38630
+#define II_ARM_F_PSY_BOOTS_SET_27_1        38631
+#define II_ARM_M_PSY_BOOTS_SET_28_1        38632
+#define II_ARM_F_PSY_BOOTS_SET_28_1        38633
+#define II_ARM_M_ELE_BOOTS_SET_29_1        38634
+#define II_ARM_F_ELE_BOOTS_SET_29_1        38635
+#define II_ARM_M_ELE_BOOTS_SET_30_1        38636
+#define II_ARM_F_ELE_BOOTS_SET_30_1        38637
+#define II_ARM_M_ELE_BOOTS_SET_31_1        38638
+#define II_ARM_F_ELE_BOOTS_SET_31_1        38639
+#define II_ARM_M_KIN_BOOTS_SET_32_1        38640
+#define II_ARM_F_KIN_BOOTS_SET_32_1        38641
+#define II_ARM_M_BLA_BOOTS_SET_32_1        38642
+#define II_ARM_F_BLA_BOOTS_SET_32_1        38643
+#define II_ARM_M_JST_BOOTS_SET_32_1        38644
+#define II_ARM_F_JST_BOOTS_SET_32_1        38645
+#define II_ARM_M_RAG_BOOTS_SET_32_1        38646
+#define II_ARM_F_RAG_BOOTS_SET_32_1        38647
+#define II_ARM_M_RIN_BOOTS_SET_32_1        38648
+#define II_ARM_F_RIN_BOOTS_SET_32_1        38649
+#define II_ARM_M_BIL_BOOTS_SET_32_1        38650
+#define II_ARM_F_BIL_BOOTS_SET_32_1        38651
+#define II_ARM_M_PSY_BOOTS_SET_32_1        38652
+#define II_ARM_F_PSY_BOOTS_SET_32_1        38653
+#define II_ARM_M_ELE_BOOTS_SET_32_1        38654
+#define II_ARM_F_ELE_BOOTS_SET_32_1        38655
+#define II_ARM_M_RIN_HELMET_SET_22_2       38656
+#define II_ARM_M_RIN_SUIT_SET_22_2	       38657
+#define II_ARM_M_RIN_GAUNTLET_SET_22_2     38658
+#define II_ARM_M_RIN_BOOTS_SET_22_2	       38659
+#define II_ARM_F_RIN_HELMET_SET_22_2       38660
+#define II_ARM_F_RIN_SUIT_SET_22_2	       38661
+#define II_ARM_F_RIN_GAUNTLET_SET_22_2     38662
+#define II_ARM_F_RIN_BOOTS_SET_22_2	       38663
+
+//Craft Sets 60 - 105 + shields v2
+#define II_ARM_M_MER_HELMET_SET_04_2       38672
+#define II_ARM_F_MER_HELMET_SET_04_2       38673
+#define II_ARM_M_ACR_HELMET_SET_05_2       38674
+#define II_ARM_F_ACR_HELMET_SET_05_2       38675
+#define II_ARM_M_ASS_HELMET_SET_06_2       38676
+#define II_ARM_F_ASS_HELMET_SET_06_2       38677
+#define II_ARM_M_MAG_HELMET_SET_07_2       38678
+#define II_ARM_F_MAG_HELMET_SET_07_2       38679
+#define II_ARM_M_KIN_HELMET_SET_08_2       38680
+#define II_ARM_F_KIN_HELMET_SET_08_2       38681
+#define II_ARM_M_KIN_HELMET_SET_09_2       38682
+#define II_ARM_F_KIN_HELMET_SET_09_2       38683
+#define II_ARM_M_KIN_HELMET_SET_10_2       38684
+#define II_ARM_F_KIN_HELMET_SET_10_2       38685
+#define II_ARM_M_BLA_HELMET_SET_11_2       38686
+#define II_ARM_F_BLA_HELMET_SET_11_2       38687
+#define II_ARM_M_BLA_HELMET_SET_12_2       38688
+#define II_ARM_F_BLA_HELMET_SET_12_2       38689
+#define II_ARM_M_BLA_HELMET_SET_13_2       38690
+#define II_ARM_F_BLA_HELMET_SET_13_2       38691
+#define II_ARM_M_JST_HELMET_SET_14_2       38692
+#define II_ARM_F_JST_HELMET_SET_14_2       38693
+#define II_ARM_M_JST_HELMET_SET_15_2       38694
+#define II_ARM_F_JST_HELMET_SET_15_2       38695
+#define II_ARM_M_JST_HELMET_SET_16_2       38696
+#define II_ARM_F_JST_HELMET_SET_16_2       38697
+#define II_ARM_M_RAG_HELMET_SET_17_2       38698
+#define II_ARM_F_RAG_HELMET_SET_17_2       38699
+#define II_ARM_M_RAG_HELMET_SET_18_2       38700
+#define II_ARM_F_RAG_HELMET_SET_18_2       38701
+#define II_ARM_M_RAG_HELMET_SET_19_2       38702
+#define II_ARM_F_RAG_HELMET_SET_19_2       38703
+#define II_ARM_M_RIN_HELMET_SET_20_2       38704
+#define II_ARM_F_RIN_HELMET_SET_20_2       38705
+#define II_ARM_M_RIN_HELMET_SET_21_2       38706
+#define II_ARM_F_RIN_HELMET_SET_21_2       38707
+#define II_ARM_M_RIN_HELMET_SET_22_3       38708
+#define II_ARM_F_RIN_HELMET_SET_22_3       38709
+#define II_ARM_M_BIL_HELMET_SET_23_2       38710
+#define II_ARM_F_BIL_HELMET_SET_23_2       38711
+#define II_ARM_M_BIL_HELMET_SET_24_2       38712
+#define II_ARM_F_BIL_HELMET_SET_24_2       38713
+#define II_ARM_M_BIL_HELMET_SET_25_2       38714
+#define II_ARM_F_BIL_HELMET_SET_25_2       38715
+#define II_ARM_M_PSY_HELMET_SET_26_2       38716
+#define II_ARM_F_PSY_HELMET_SET_26_2       38717
+#define II_ARM_M_PSY_HELMET_SET_27_2       38718
+#define II_ARM_F_PSY_HELMET_SET_27_2       38719
+#define II_ARM_M_PSY_HELMET_SET_28_2       38720
+#define II_ARM_F_PSY_HELMET_SET_28_2       38721
+#define II_ARM_M_ELE_HELMET_SET_29_2       38722
+#define II_ARM_F_ELE_HELMET_SET_29_2       38723
+#define II_ARM_M_ELE_HELMET_SET_30_2       38724
+#define II_ARM_F_ELE_HELMET_SET_30_2       38725
+#define II_ARM_M_ELE_HELMET_SET_31_2       38726
+#define II_ARM_F_ELE_HELMET_SET_31_2       38727
+#define II_ARM_M_KIN_HELMET_SET_32_2       38728
+#define II_ARM_F_KIN_HELMET_SET_32_2       38729
+#define II_ARM_M_BLA_HELMET_SET_32_2       38730
+#define II_ARM_F_BLA_HELMET_SET_32_2       38731
+#define II_ARM_M_JST_HELMET_SET_32_2       38732
+#define II_ARM_F_JST_HELMET_SET_32_2       38733
+#define II_ARM_M_RAG_HELMET_SET_32_2       38734
+#define II_ARM_F_RAG_HELMET_SET_32_2       38735
+#define II_ARM_M_RIN_HELMET_SET_32_2       38736
+#define II_ARM_F_RIN_HELMET_SET_32_2       38737
+#define II_ARM_M_BIL_HELMET_SET_32_2       38738
+#define II_ARM_F_BIL_HELMET_SET_32_2       38739
+#define II_ARM_M_PSY_HELMET_SET_32_2       38740
+#define II_ARM_F_PSY_HELMET_SET_32_2       38741
+#define II_ARM_M_ELE_HELMET_SET_32_2       38742
+#define II_ARM_F_ELE_HELMET_SET_32_2       38743
+#define II_ARM_M_MER_SUIT_SET_04_2         38744
+#define II_ARM_F_MER_SUIT_SET_04_2         38745
+#define II_ARM_M_ACR_SUIT_SET_05_2         38746
+#define II_ARM_F_ACR_SUIT_SET_05_2         38747
+#define II_ARM_M_ASS_SUIT_SET_06_2         38748
+#define II_ARM_F_ASS_SUIT_SET_06_2         38749
+#define II_ARM_M_MAG_SUIT_SET_07_2         38750
+#define II_ARM_F_MAG_SUIT_SET_07_2         38751
+#define II_ARM_M_KIN_SUIT_SET_08_2         38752
+#define II_ARM_F_KIN_SUIT_SET_08_2         38753
+#define II_ARM_M_KIN_SUIT_SET_09_2         38754
+#define II_ARM_F_KIN_SUIT_SET_09_2         38755
+#define II_ARM_M_KIN_SUIT_SET_10_2         38756
+#define II_ARM_F_KIN_SUIT_SET_10_2         38757
+#define II_ARM_M_BLA_SUIT_SET_11_2         38758
+#define II_ARM_F_BLA_SUIT_SET_11_2         38759
+#define II_ARM_M_BLA_SUIT_SET_12_2         38760
+#define II_ARM_F_BLA_SUIT_SET_12_2         38761
+#define II_ARM_M_BLA_SUIT_SET_13_2         38762
+#define II_ARM_F_BLA_SUIT_SET_13_2         38763
+#define II_ARM_M_JST_SUIT_SET_14_2         38764
+#define II_ARM_F_JST_SUIT_SET_14_2         38765
+#define II_ARM_M_JST_SUIT_SET_15_2         38766
+#define II_ARM_F_JST_SUIT_SET_15_2         38767
+#define II_ARM_M_JST_SUIT_SET_16_2         38768
+#define II_ARM_F_JST_SUIT_SET_16_2         38769
+#define II_ARM_M_RAG_SUIT_SET_17_2         38770
+#define II_ARM_F_RAG_SUIT_SET_17_2         38771
+#define II_ARM_M_RAG_SUIT_SET_18_2         38772
+#define II_ARM_F_RAG_SUIT_SET_18_2         38773
+#define II_ARM_M_RAG_SUIT_SET_19_2         38774
+#define II_ARM_F_RAG_SUIT_SET_19_2         38775
+#define II_ARM_M_RIN_SUIT_SET_20_2         38776
+#define II_ARM_F_RIN_SUIT_SET_20_2         38777
+#define II_ARM_M_RIN_SUIT_SET_21_2         38778
+#define II_ARM_F_RIN_SUIT_SET_21_2         38779
+#define II_ARM_M_RIN_SUIT_SET_22_3         38780
+#define II_ARM_F_RIN_SUIT_SET_22_3         38781
+#define II_ARM_M_BIL_SUIT_SET_23_2         38782
+#define II_ARM_F_BIL_SUIT_SET_23_2         38783
+#define II_ARM_M_BIL_SUIT_SET_24_2         38784
+#define II_ARM_F_BIL_SUIT_SET_24_2         38785
+#define II_ARM_M_BIL_SUIT_SET_25_2         38786
+#define II_ARM_F_BIL_SUIT_SET_25_2         38787
+#define II_ARM_M_PSY_SUIT_SET_26_2         38788
+#define II_ARM_F_PSY_SUIT_SET_26_2         38789
+#define II_ARM_M_PSY_SUIT_SET_27_2         38790
+#define II_ARM_F_PSY_SUIT_SET_27_2         38791
+#define II_ARM_M_PSY_SUIT_SET_28_2         38792
+#define II_ARM_F_PSY_SUIT_SET_28_2         38793
+#define II_ARM_M_ELE_SUIT_SET_29_2         38794
+#define II_ARM_F_ELE_SUIT_SET_29_2         38795
+#define II_ARM_M_ELE_SUIT_SET_30_2         38796
+#define II_ARM_F_ELE_SUIT_SET_30_2         38797
+#define II_ARM_M_ELE_SUIT_SET_31_2         38798
+#define II_ARM_F_ELE_SUIT_SET_31_2         38799
+#define II_ARM_M_KIN_SUIT_SET_32_2         38800
+#define II_ARM_F_KIN_SUIT_SET_32_2         38801
+#define II_ARM_M_BLA_SUIT_SET_32_2         38802
+#define II_ARM_F_BLA_SUIT_SET_32_2         38803
+#define II_ARM_M_JST_SUIT_SET_32_2         38804
+#define II_ARM_F_JST_SUIT_SET_32_2         38805
+#define II_ARM_M_RAG_SUIT_SET_32_2         38806
+#define II_ARM_F_RAG_SUIT_SET_32_2         38807
+#define II_ARM_M_RIN_SUIT_SET_32_2         38808
+#define II_ARM_F_RIN_SUIT_SET_32_2         38809
+#define II_ARM_M_BIL_SUIT_SET_32_2         38810
+#define II_ARM_F_BIL_SUIT_SET_32_2         38811
+#define II_ARM_M_PSY_SUIT_SET_32_2         38812
+#define II_ARM_F_PSY_SUIT_SET_32_2         38813
+#define II_ARM_M_ELE_SUIT_SET_32_2         38814
+#define II_ARM_F_ELE_SUIT_SET_32_2         38815
+#define II_ARM_M_MER_GAUNTLET_SET_04_2     38816
+#define II_ARM_F_MER_GAUNTLET_SET_04_2     38817
+#define II_ARM_M_ACR_GAUNTLET_SET_05_2     38818
+#define II_ARM_F_ACR_GAUNTLET_SET_05_2     38819
+#define II_ARM_M_ASS_GAUNTLET_SET_06_2     38820
+#define II_ARM_F_ASS_GAUNTLET_SET_06_2     38821
+#define II_ARM_M_MAG_GAUNTLET_SET_07_2     38822
+#define II_ARM_F_MAG_GAUNTLET_SET_07_2     38823
+#define II_ARM_M_KIN_GAUNTLET_SET_08_2     38824
+#define II_ARM_F_KIN_GAUNTLET_SET_08_2     38825
+#define II_ARM_M_KIN_GAUNTLET_SET_09_2     38826
+#define II_ARM_F_KIN_GAUNTLET_SET_09_2     38827
+#define II_ARM_M_KIN_GAUNTLET_SET_10_2     38828
+#define II_ARM_F_KIN_GAUNTLET_SET_10_2     38829
+#define II_ARM_M_BLA_GAUNTLET_SET_11_2     38830
+#define II_ARM_F_BLA_GAUNTLET_SET_11_2     38831
+#define II_ARM_M_BLA_GAUNTLET_SET_12_2     38832
+#define II_ARM_F_BLA_GAUNTLET_SET_12_2     38833
+#define II_ARM_M_BLA_GAUNTLET_SET_13_2     38834
+#define II_ARM_F_BLA_GAUNTLET_SET_13_2     38835
+#define II_ARM_M_JST_GAUNTLET_SET_14_2     38836
+#define II_ARM_F_JST_GAUNTLET_SET_14_2     38837
+#define II_ARM_M_JST_GAUNTLET_SET_15_2     38838
+#define II_ARM_F_JST_GAUNTLET_SET_15_2     38839
+#define II_ARM_M_JST_GAUNTLET_SET_16_2     38840
+#define II_ARM_F_JST_GAUNTLET_SET_16_2     38841
+#define II_ARM_M_RAG_GAUNTLET_SET_17_2     38842
+#define II_ARM_F_RAG_GAUNTLET_SET_17_2     38843
+#define II_ARM_M_RAG_GAUNTLET_SET_18_2     38844
+#define II_ARM_F_RAG_GAUNTLET_SET_18_2     38845
+#define II_ARM_M_RAG_GAUNTLET_SET_19_2     38846
+#define II_ARM_F_RAG_GAUNTLET_SET_19_2     38847
+#define II_ARM_M_RIN_GAUNTLET_SET_20_2     38848
+#define II_ARM_F_RIN_GAUNTLET_SET_20_2     38849
+#define II_ARM_M_RIN_GAUNTLET_SET_21_2     38850
+#define II_ARM_F_RIN_GAUNTLET_SET_21_2     38851
+#define II_ARM_M_RIN_GAUNTLET_SET_22_3     38852
+#define II_ARM_F_RIN_GAUNTLET_SET_22_3     38853
+#define II_ARM_M_BIL_GAUNTLET_SET_23_2     38854
+#define II_ARM_F_BIL_GAUNTLET_SET_23_2     38855
+#define II_ARM_M_BIL_GAUNTLET_SET_24_2     38856
+#define II_ARM_F_BIL_GAUNTLET_SET_24_2     38857
+#define II_ARM_M_BIL_GAUNTLET_SET_25_2     38858
+#define II_ARM_F_BIL_GAUNTLET_SET_25_2     38859
+#define II_ARM_M_PSY_GAUNTLET_SET_26_2     38860
+#define II_ARM_F_PSY_GAUNTLET_SET_26_2     38861
+#define II_ARM_M_PSY_GAUNTLET_SET_27_2     38862
+#define II_ARM_F_PSY_GAUNTLET_SET_27_2     38863
+#define II_ARM_M_PSY_GAUNTLET_SET_28_2     38864
+#define II_ARM_F_PSY_GAUNTLET_SET_28_2     38865
+#define II_ARM_M_ELE_GAUNTLET_SET_29_2     38866
+#define II_ARM_F_ELE_GAUNTLET_SET_29_2     38867
+#define II_ARM_M_ELE_GAUNTLET_SET_30_2     38868
+#define II_ARM_F_ELE_GAUNTLET_SET_30_2     38869
+#define II_ARM_M_ELE_GAUNTLET_SET_31_2     38870
+#define II_ARM_F_ELE_GAUNTLET_SET_31_2     38871
+#define II_ARM_M_KIN_GAUNTLET_SET_32_2     38872
+#define II_ARM_F_KIN_GAUNTLET_SET_32_2     38873
+#define II_ARM_M_BLA_GAUNTLET_SET_32_2     38874
+#define II_ARM_F_BLA_GAUNTLET_SET_32_2     38875
+#define II_ARM_M_JST_GAUNTLET_SET_32_2     38876
+#define II_ARM_F_JST_GAUNTLET_SET_32_2     38877
+#define II_ARM_M_RAG_GAUNTLET_SET_32_2     38878
+#define II_ARM_F_RAG_GAUNTLET_SET_32_2     38879
+#define II_ARM_M_RIN_GAUNTLET_SET_32_2     38880
+#define II_ARM_F_RIN_GAUNTLET_SET_32_2     38881
+#define II_ARM_M_BIL_GAUNTLET_SET_32_2     38882
+#define II_ARM_F_BIL_GAUNTLET_SET_32_2     38883
+#define II_ARM_M_PSY_GAUNTLET_SET_32_2     38884
+#define II_ARM_F_PSY_GAUNTLET_SET_32_2     38885
+#define II_ARM_M_ELE_GAUNTLET_SET_32_2     38886
+#define II_ARM_F_ELE_GAUNTLET_SET_32_2     38887
+#define II_ARM_M_MER_BOOTS_SET_04_2        38888
+#define II_ARM_F_MER_BOOTS_SET_04_2        38889
+#define II_ARM_M_ACR_BOOTS_SET_05_2        38890
+#define II_ARM_F_ACR_BOOTS_SET_05_2        38891
+#define II_ARM_M_ASS_BOOTS_SET_06_2        38892
+#define II_ARM_F_ASS_BOOTS_SET_06_2        38893
+#define II_ARM_M_MAG_BOOTS_SET_07_2        38894
+#define II_ARM_F_MAG_BOOTS_SET_07_2        38895
+#define II_ARM_M_KIN_BOOTS_SET_08_2        38896
+#define II_ARM_F_KIN_BOOTS_SET_08_2        38897
+#define II_ARM_M_KIN_BOOTS_SET_09_2        38898
+#define II_ARM_F_KIN_BOOTS_SET_09_2        38899
+#define II_ARM_M_KIN_BOOTS_SET_10_2        38900
+#define II_ARM_F_KIN_BOOTS_SET_10_2        38901
+#define II_ARM_M_BLA_BOOTS_SET_11_2        38902
+#define II_ARM_F_BLA_BOOTS_SET_11_2        38903
+#define II_ARM_M_BLA_BOOTS_SET_12_2        38904
+#define II_ARM_F_BLA_BOOTS_SET_12_2        38905
+#define II_ARM_M_BLA_BOOTS_SET_13_2        38906
+#define II_ARM_F_BLA_BOOTS_SET_13_2        38907
+#define II_ARM_M_JST_BOOTS_SET_14_2        38908
+#define II_ARM_F_JST_BOOTS_SET_14_2        38909
+#define II_ARM_M_JST_BOOTS_SET_15_2        38910
+#define II_ARM_F_JST_BOOTS_SET_15_2        38911
+#define II_ARM_M_JST_BOOTS_SET_16_2        38912
+#define II_ARM_F_JST_BOOTS_SET_16_2        38913
+#define II_ARM_M_RAG_BOOTS_SET_17_2        38914
+#define II_ARM_F_RAG_BOOTS_SET_17_2        38915
+#define II_ARM_M_RAG_BOOTS_SET_18_2        38916
+#define II_ARM_F_RAG_BOOTS_SET_18_2        38917
+#define II_ARM_M_RAG_BOOTS_SET_19_2        38918
+#define II_ARM_F_RAG_BOOTS_SET_19_2        38919
+#define II_ARM_M_RIN_BOOTS_SET_20_2        38920
+#define II_ARM_F_RIN_BOOTS_SET_20_2        38921
+#define II_ARM_M_RIN_BOOTS_SET_21_2        38922
+#define II_ARM_F_RIN_BOOTS_SET_21_2        38923
+#define II_ARM_M_RIN_BOOTS_SET_22_3        38924
+#define II_ARM_F_RIN_BOOTS_SET_22_3        38925
+#define II_ARM_M_BIL_BOOTS_SET_23_2        38926
+#define II_ARM_F_BIL_BOOTS_SET_23_2        38927
+#define II_ARM_M_BIL_BOOTS_SET_24_2        38928
+#define II_ARM_F_BIL_BOOTS_SET_24_2        38929
+#define II_ARM_M_BIL_BOOTS_SET_25_2        38930
+#define II_ARM_F_BIL_BOOTS_SET_25_2        38931
+#define II_ARM_M_PSY_BOOTS_SET_26_2        38932
+#define II_ARM_F_PSY_BOOTS_SET_26_2        38933
+#define II_ARM_M_PSY_BOOTS_SET_27_2        38934
+#define II_ARM_F_PSY_BOOTS_SET_27_2        38935
+#define II_ARM_M_PSY_BOOTS_SET_28_2        38936
+#define II_ARM_F_PSY_BOOTS_SET_28_2        38937
+#define II_ARM_M_ELE_BOOTS_SET_29_2        38938
+#define II_ARM_F_ELE_BOOTS_SET_29_2        38939
+#define II_ARM_M_ELE_BOOTS_SET_30_2        38940
+#define II_ARM_F_ELE_BOOTS_SET_30_2        38941
+#define II_ARM_M_ELE_BOOTS_SET_31_2        38942
+#define II_ARM_F_ELE_BOOTS_SET_31_2        38943
+#define II_ARM_M_KIN_BOOTS_SET_32_2        38944
+#define II_ARM_F_KIN_BOOTS_SET_32_2        38945
+#define II_ARM_M_BLA_BOOTS_SET_32_2        38946
+#define II_ARM_F_BLA_BOOTS_SET_32_2        38947
+#define II_ARM_M_JST_BOOTS_SET_32_2        38948
+#define II_ARM_F_JST_BOOTS_SET_32_2        38949
+#define II_ARM_M_RAG_BOOTS_SET_32_2        38950
+#define II_ARM_F_RAG_BOOTS_SET_32_2        38951
+#define II_ARM_M_RIN_BOOTS_SET_32_2        38952
+#define II_ARM_F_RIN_BOOTS_SET_32_2        38953
+#define II_ARM_M_BIL_BOOTS_SET_32_2        38954
+#define II_ARM_F_BIL_BOOTS_SET_32_2        38955
+#define II_ARM_M_PSY_BOOTS_SET_32_2        38956
+#define II_ARM_F_PSY_BOOTS_SET_32_2        38957
+#define II_ARM_M_ELE_BOOTS_SET_32_2        38958
+#define II_ARM_F_ELE_BOOTS_SET_32_2        38959
+#define II_GEN_JEW_RIN_METEOFY_1 	       38976
+#define II_ARM_ARM_SHI_ANCIENT_1	       38977 // Mercenary Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_2	       38978 // Mercenary Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_3	       38979 // Mercenary Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_4	       38980 // Magican Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_5	       38981 // Magican Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_6	       38982 // Magican Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_7	       38983 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_8	       38984 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_9	       38985 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_10	       38986 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_11	       38987 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_12	       38988 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_13	       38989 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_14	       38990 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_15	       38991 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_16	       38992 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_17	       38993 // Assist Ancient Shield
+#define II_ARM_ARM_SHI_ANCIENT_18	       38994 // Assist Ancient Shield
+//Craft CW ringe
+#define II_GEN_JEW_RIN_U_RING10             38995
+#define II_GEN_JEW_RIN_U_RING11             38996
+#define II_GEN_JEW_RIN_U_RING12             38997
+
+// Israfel Set (M) - Kiyo
+#define II_ARM_M_CHR_ISRTAFELHAT            38998   // Israfel Hat (M)       
+#define II_ARM_M_CHR_ISRTAFELSUIT           38999   // Israfel Suit (M)      
+#define II_ARM_M_CHR_ISRTAFELSHOES          39000   // Israfel Shoes (M)     
+#define II_SYS_SYS_SCR_BXMISRAFEL           39001   // Israfel Cs Set Box (M) 
+
+//Craft Weapons 60-105
+#define II_WEA_SWO_SUHO_1        39002    
+#define II_WEA_SWT_SUHO_1        39003    
+#define II_WEA_AXE_SUHO_1        39004    
+#define II_WEA_AXT_SUHO_1        39005    
+#define II_WEA_KNU_SUHO_1        39006    
+#define II_WEA_CHE_SUHO_1        39007    
+#define II_WEA_WAN_SUHO_1        39008    
+#define II_WEA_STA_SUHO_1        39009    
+#define II_WEA_YOY_SUHO_1        39010    
+#define II_WEA_BOW_SUHO_1        39011    
+#define II_WEA_SWO_USU_1         39012    
+#define II_WEA_SWT_USU_1         39013    
+#define II_WEA_AXE_USU_1         39014      
+#define II_WEA_AXT_USU_1         39015      
+#define II_WEA_KNU_USU_1         39016    
+#define II_WEA_CHE_USU_1         39017    
+#define II_WEA_WAN_USU_1         39018    
+#define II_WEA_STA_USU_1         39019    
+#define II_WEA_YOY_USU_1         39020    
+#define II_WEA_BOW_USU_1         39021    
+#define II_WEA_SWO_ANGEL_1       39022    
+#define II_WEA_SWT_ANGEL_1       39023    
+#define II_WEA_AXE_ANGEL_1       39024	     
+#define II_WEA_AXT_ANGEL_1       39025	     
+#define II_WEA_KNU_ANGEL_1       39026    
+#define II_WEA_CHE_ANGEL_1       39027    
+#define II_WEA_WAN_ANGEL_1       39028    
+#define II_WEA_STA_ANGEL_1       39029    
+#define II_WEA_YOY_ANGEL_1       39030     
+#define II_WEA_BOW_ANGEL_1       39031     
+#define II_WEA_SWO_LEAGENDG_1    39032   
+#define II_WEA_SWT_LEAGENDG_1    39033   
+#define II_WEA_AXE_LEAGENDG_1    39034   
+#define II_WEA_AXT_LEAGENDG_1    39035   
+#define II_WEA_KNU_LEAGENDG_1    39036   
+#define II_WEA_CHE_LEAGENDG_1    39037   
+#define II_WEA_WAN_LEAGENDG_1    39038   
+#define II_WEA_STA_LEAGENDG_1    39039   
+#define II_WEA_YOY_LEAGENDG_1    39040   
+#define II_WEA_BOW_LEAGENDG_1    39041   
+#define II_WEA_SWO_SUHOUM_1      39042   
+#define II_WEA_SWT_SUHOUM_1      39043   
+#define II_WEA_AXE_SUHOUM_1	     39044   
+#define II_WEA_AXT_SUHOUM_1	     39045   
+#define II_WEA_KNU_SUHOUM_1      39046   
+#define II_WEA_CHE_SUHOUM_1      39047   
+#define II_WEA_WAN_SUHOUM_1      39048   
+#define II_WEA_STA_SUHOUM_1      39049   
+#define II_WEA_YOY_SUHOUM_1      39050   
+#define II_WEA_BOW_SUHOUM_1      39051   
+#define II_WEA_SWO_USUUM_1       39052   
+#define II_WEA_SWT_USUUM_1       39053   
+#define II_WEA_AXE_USUUM_1	     39054   
+#define II_WEA_AXT_USUUM_1	     39055   
+#define II_WEA_KNU_USUUM_1       39056   
+#define II_WEA_CHE_USUUM_1       39057   
+#define II_WEA_WAN_USUUM_1       39058   
+#define II_WEA_STA_USUUM_1       39059   
+#define II_WEA_YOY_USUUM_1       39060   
+#define II_WEA_BOW_USUUM_1       39061   
+#define II_WEA_SWO_ANGELUM_1     39062   
+#define II_WEA_SWT_ANGELUM_1     39063   
+#define II_WEA_AXE_ANGELUM_1	 39064   
+#define II_WEA_AXT_ANGELUM_1	 39065   
+#define II_WEA_KNU_ANGELUM_1     39066   
+#define II_WEA_CHE_ANGELUM_1     39067   
+#define II_WEA_WAN_ANGELUM_1     39068   
+#define II_WEA_STA_ANGELUM_1     39069   
+#define II_WEA_YOY_ANGELUM_1     39070   
+#define II_WEA_BOW_ANGELUM_1     39071   
+#define II_WEA_SWO_LEAGENDGUM_1  39072   
+#define II_WEA_SWT_LEAGENDGUM_1  39073   
+#define II_WEA_AXE_LEAGENDGUM_1  39074   
+#define II_WEA_AXT_LEAGENDGUM_1  39075   
+#define II_WEA_KNU_LEAGENDGUM_1  39076   
+#define II_WEA_CHE_LEAGENDGUM_1  39077   
+#define II_WEA_WAN_LEAGENDGUM_1  39078   
+#define II_WEA_STA_LEAGENDGUM_1  39079   
+#define II_WEA_YOY_LEAGENDGUM_1  39080   
+#define II_WEA_BOW_LEAGENDGUM_1  39081 
+#define II_WEA_SWO_SUHO_2        39082    
+#define II_WEA_SWT_SUHO_2        39083    
+#define II_WEA_AXE_SUHO_2        39084    
+#define II_WEA_AXT_SUHO_2        39085    
+#define II_WEA_KNU_SUHO_2        39086    
+#define II_WEA_CHE_SUHO_2        39087    
+#define II_WEA_WAN_SUHO_2        39088    
+#define II_WEA_STA_SUHO_2        39089    
+#define II_WEA_YOY_SUHO_2        39090    
+#define II_WEA_BOW_SUHO_2        39091    
+#define II_WEA_SWO_USU_2         39092    
+#define II_WEA_SWT_USU_2         39093    
+#define II_WEA_AXE_USU_2         39094      
+#define II_WEA_AXT_USU_2         39095      
+#define II_WEA_KNU_USU_2         39096    
+#define II_WEA_CHE_USU_2         39097    
+#define II_WEA_WAN_USU_2         39098    
+#define II_WEA_STA_USU_2         39099    
+#define II_WEA_YOY_USU_2         39100    
+#define II_WEA_BOW_USU_2         39101    
+#define II_WEA_SWO_ANGEL_2       39102    
+#define II_WEA_SWT_ANGEL_2       39103    
+#define II_WEA_AXE_ANGEL_2       39104	     
+#define II_WEA_AXT_ANGEL_2       39105	     
+#define II_WEA_KNU_ANGEL_2       39106    
+#define II_WEA_CHE_ANGEL_2       39107    
+#define II_WEA_WAN_ANGEL_2       39108    
+#define II_WEA_STA_ANGEL_2       39109    
+#define II_WEA_YOY_ANGEL_2       39110     
+#define II_WEA_BOW_ANGEL_2       39111     
+#define II_WEA_SWO_LEAGENDG_2    39112   
+#define II_WEA_SWT_LEAGENDG_2    39113   
+#define II_WEA_AXE_LEAGENDG_2    39114   
+#define II_WEA_AXT_LEAGENDG_2    39115   
+#define II_WEA_KNU_LEAGENDG_2    39116   
+#define II_WEA_CHE_LEAGENDG_2    39117   
+#define II_WEA_WAN_LEAGENDG_2    39118   
+#define II_WEA_STA_LEAGENDG_2    39119   
+#define II_WEA_YOY_LEAGENDG_2    39120   
+#define II_WEA_BOW_LEAGENDG_2    39121   
+#define II_WEA_SWO_SUHOUM_2      39122   
+#define II_WEA_SWT_SUHOUM_2      39123   
+#define II_WEA_AXE_SUHOUM_2	     39124   
+#define II_WEA_AXT_SUHOUM_2	     39125   
+#define II_WEA_KNU_SUHOUM_2      39126   
+#define II_WEA_CHE_SUHOUM_2      39127   
+#define II_WEA_WAN_SUHOUM_2      39128   
+#define II_WEA_STA_SUHOUM_2      39129   
+#define II_WEA_YOY_SUHOUM_2      39130   
+#define II_WEA_BOW_SUHOUM_2      39131   
+#define II_WEA_SWO_USUUM_2       39132   
+#define II_WEA_SWT_USUUM_2       39133   
+#define II_WEA_AXE_USUUM_2	     39134   
+#define II_WEA_AXT_USUUM_2	     39135   
+#define II_WEA_KNU_USUUM_2       39136   
+#define II_WEA_CHE_USUUM_2       39137   
+#define II_WEA_WAN_USUUM_2       39138   
+#define II_WEA_STA_USUUM_2       39139   
+#define II_WEA_YOY_USUUM_2       39140   
+#define II_WEA_BOW_USUUM_2       39141   
+#define II_WEA_SWO_ANGELUM_2     39142   
+#define II_WEA_SWT_ANGELUM_2     39143   
+#define II_WEA_AXE_ANGELUM_2	 39144   
+#define II_WEA_AXT_ANGELUM_2	 39145   
+#define II_WEA_KNU_ANGELUM_2     39146   
+#define II_WEA_CHE_ANGELUM_2     39147   
+#define II_WEA_WAN_ANGELUM_2     39148   
+#define II_WEA_STA_ANGELUM_2     39149   
+#define II_WEA_YOY_ANGELUM_2     39150   
+#define II_WEA_BOW_ANGELUM_2     39151   
+#define II_WEA_SWO_FORTRESSCHAMP  39152   
+#define II_WEA_SWT_FORTRESSCHAMP  39153   
+#define II_WEA_SWO_FORTRESSSCHAMP 39853   
+#define II_WEA_SWO_FORTRESSSCHAMP_1 39855   
+#define II_WEA_AXE_FORTRESSCHAMP  39154   
+#define II_WEA_AXT_FORTRESSCHAMP  39155   
+#define II_WEA_KNU_FORTRESSCHAMP  39156   
+#define II_WEA_CHE_FORTRESSCHAMP  39157   
+#define II_WEA_CHE_FORTRESSCHAMP_1  39856   
+#define II_WEA_WAN_FORTRESSCHAMP  39158   
+#define II_WEA_STA_FORTRESSCHAMP  39159   
+#define II_WEA_YOY_FORTRESSCHAMP  39160   
+#define II_WEA_BOW_FORTRESSCHAMP  39161
+#define II_WEA_SHI_FORTRESSCHAMPSHIELD  39826
+#define II_WEA_SHI_FORTRESSCHAMPSHIELD_1  39854
+#define II_WEA_BOOK_FORTRESSCHAMPBOOK  39827
+#define II_WEA_ZEM_FORTRESSCHAMPGEM  39828
+//Craft Armor + Jewelry   
+#define II_ARM_M_ASS_HELMET_SET_06_3        39162   
+#define II_ARM_M_ASS_SUIT_SET_06_3          39163   
+#define II_ARM_M_ASS_GAUNTLET_SET_06_3      39164   
+#define II_ARM_M_ASS_BOOTS_SET_06_3         39165   
+#define II_ARM_F_ASS_HELMET_SET_06_3        39166   
+#define II_ARM_F_ASS_SUIT_SET_06_3          39167   
+#define II_ARM_F_ASS_GAUNTLET_SET_06_3      39168   
+#define II_ARM_F_ASS_BOOTS_SET_06_3         39169
+#define II_GEN_JEW_EAR_U_EARRING01_1        39170
+#define II_GEN_JEW_EAR_U_EARRING02_1        39171
+#define II_GEN_JEW_EAR_U_EARRING03_1        39172
+#define II_GEN_JEW_EAR_U_EARRING04_1        39173
+#define II_GEN_JEW_EAR_U_EARRING05_1        39174
+#define II_GEN_JEW_EAR_U_EARRING06_1        39175
+#define II_GEN_JEW_EAR_U_EARRING04_2        39176
+#define II_GEN_JEW_EAR_U_EARRING05_2        39177
+#define II_GEN_JEW_EAR_U_EARRING06_2        39178
+#define II_GEN_JEW_EAR_U_EARRING07_1        39179
+#define II_GEN_JEW_EAR_U_EARRING08_1        39180
+#define II_GEN_JEW_EAR_U_EARRING09_1        39181
+#define II_GEN_JEW_NEC_U_NECKLACE01_1       39182
+#define II_GEN_JEW_NEC_U_NECKLACE02_1       39183
+#define II_GEN_JEW_NEC_U_NECKLACE03_1       39184
+#define II_GEN_JEW_NEC_U_NECKLACE04_1       39185
+#define II_GEN_JEW_NEC_U_NECKLACE05_1       39186
+#define II_GEN_JEW_NEC_U_NECKLACE06_1       39187
+#define II_GEN_JEW_NEC_U_NECKLACE07_1       39188
+#define II_GEN_JEW_NEC_U_NECKLACE08_1       39189
+#define II_GEN_JEW_NEC_U_NECKLACE09_1       39190
+#define II_GEN_JEW_RIN_U_RING01_1   	    39191 
+#define II_GEN_JEW_RIN_U_RING02_1   	    39192 
+#define II_GEN_JEW_RIN_U_RING03_1   	    39193 
+#define II_GEN_JEW_RIN_U_RING04_1   	    39194 
+#define II_GEN_JEW_RIN_U_RING05_1   	    39195 
+#define II_GEN_JEW_RIN_U_RING06_1   	    39196 
+#define II_GEN_JEW_RIN_U_RING07_1   	    39197 
+#define II_GEN_JEW_RIN_U_RING08_1   	    39198 
+#define II_GEN_JEW_RIN_U_RING09_1   	    39199      
+#define II_GEN_JEW_RIN_METEOR_1	            39200 
+#define II_GEN_JEW_RIN_METEOFY_1    	    39201 
+#define II_GEN_JEW_RIN_METEOFY_2    	    39202 
+#define II_ARM_M_RIN_HELMET_SET_20_3	    39203
+#define II_ARM_M_RIN_SUIT_SET_20_3	        39204
+#define II_ARM_M_RIN_GAUNTLET_SET_20_3	    39205
+#define II_ARM_M_RIN_BOOTS_SET_20_3	        39206
+#define II_ARM_F_RIN_HELMET_SET_20_3	    39207
+#define II_ARM_F_RIN_SUIT_SET_20_3	        39208
+#define II_ARM_F_RIN_GAUNTLET_SET_20_3	    39209
+#define II_ARM_F_RIN_BOOTS_SET_20_3	        39210
+#define II_ARM_M_RIN_HELMET_SET_21_3	    39211
+#define II_ARM_M_RIN_SUIT_SET_21_3	        39212
+#define II_ARM_M_RIN_GAUNTLET_SET_21_3	    39213
+#define II_ARM_M_RIN_BOOTS_SET_21_3	        39214
+#define II_ARM_F_RIN_HELMET_SET_21_3	    39215
+#define II_ARM_F_RIN_SUIT_SET_21_3	        39216
+#define II_ARM_F_RIN_GAUNTLET_SET_21_3	    39217
+#define II_ARM_F_RIN_BOOTS_SET_21_3	        39218
+#define II_ARM_ARM_SHI_ANCIENT_19	        39219
+#define II_ARM_ARM_SHI_ANCIENT_20	        39220
+#define II_GEN_JEW_EAR_U_EARRING10_1	    39221
+#define II_GEN_JEW_EAR_U_EARRING11_1	    39222
+#define II_GEN_JEW_NEC_U_NECKLACE11_1	    39223
+#define II_GEN_JEW_NEC_U_NECKLACE10_1	    39224
+#define II_GEN_JEW_RIN_METEOR_2	            39225
+#define II_GEN_JEW_RIN_METEOFY_3	        39226
+#define II_GEN_JEW_RIN_METEOFY_4	        39227
+#define II_ARM_ARM_SHI_ANCIENT_21	        39228
+#define II_GEN_JEW_RIN_U_RING13	            39229
+#define II_GEN_JEW_NEC_U_NECKLACE12_1	    39230
+#define II_GEN_JEW_EAR_U_EARRING12_1	    39231
+
+
+//Bloody Dragon Craft Weapons + Armor
+//Weapons
+#define II_WEA_SWO_BLOODY_1	        39232
+#define II_WEA_SWT_BLOODY_1	        39233
+#define II_WEA_AXE_BLOODY_1	        39234
+#define II_WEA_AXT_BLOODY_1	        39235
+#define II_WEA_KNU_BLOODY_1	        39236
+#define II_WEA_CHE_BLOODY_1	        39237
+#define II_WEA_WAN_BLOODY2_1        39238
+#define II_WEA_STA_BLOODY_1	        39239
+#define II_WEA_BOW_BLOODY_1	        39240
+#define II_WEA_YOY_BLOODY_1	        39241
+#define II_WEA_SWO_BLOODYUM_1       39242
+#define II_WEA_SWT_BLOODYUM_1       39243
+#define II_WEA_AXE_BLOODYUM_1       39244
+#define II_WEA_AXT_BLOODYUM_1       39245
+#define II_WEA_KNU_BLOODYUM_1       39246
+#define II_WEA_CHE_BLOODYUM_1       39247
+#define II_WEA_WAN_BLOODY2UM_1      39248
+#define II_WEA_STA_BLOODYUM_1       39249
+#define II_WEA_BOW_BLOODYUM_1       39250
+#define II_WEA_YOY_BLOODYUM_1       39251
+//Armor
+#define II_ARM_M_KIN_HELMET_SET_33_1    39252    
+#define II_ARM_F_KIN_HELMET_SET_33_1    39253    
+#define II_ARM_M_BLA_HELMET_SET_33_1    39254    
+#define II_ARM_F_BLA_HELMET_SET_33_1    39255    
+#define II_ARM_M_JST_HELMET_SET_33_1    39256    
+#define II_ARM_F_JST_HELMET_SET_33_1    39257    
+#define II_ARM_M_RAG_HELMET_SET_33_1    39258    
+#define II_ARM_F_RAG_HELMET_SET_33_1    39259    
+#define II_ARM_M_RIN_HELMET_SET_33_1    39260    
+#define II_ARM_F_RIN_HELMET_SET_33_1    39261    
+#define II_ARM_M_BIL_HELMET_SET_33_1    39262    
+#define II_ARM_F_BIL_HELMET_SET_33_1    39263    
+#define II_ARM_M_PSY_HELMET_SET_33_1    39264    
+#define II_ARM_F_PSY_HELMET_SET_33_1    39265    
+#define II_ARM_M_ELE_HELMET_SET_33_1    39266    
+#define II_ARM_F_ELE_HELMET_SET_33_1    39267    
+#define II_ARM_M_KIN_SUIT_SET_33_1      39268
+#define II_ARM_F_KIN_SUIT_SET_33_1      39269
+#define II_ARM_M_BLA_SUIT_SET_33_1      39270
+#define II_ARM_F_BLA_SUIT_SET_33_1      39271
+#define II_ARM_M_JST_SUIT_SET_33_1      39272
+#define II_ARM_F_JST_SUIT_SET_33_1      39273
+#define II_ARM_M_RAG_SUIT_SET_33_1      39274
+#define II_ARM_F_RAG_SUIT_SET_33_1      39275
+#define II_ARM_M_RIN_SUIT_SET_33_1      39276
+#define II_ARM_F_RIN_SUIT_SET_33_1      39277
+#define II_ARM_M_BIL_SUIT_SET_33_1      39278
+#define II_ARM_F_BIL_SUIT_SET_33_1      39279
+#define II_ARM_M_PSY_SUIT_SET_33_1      39280
+#define II_ARM_F_PSY_SUIT_SET_33_1      39281
+#define II_ARM_M_ELE_SUIT_SET_33_1      39282
+#define II_ARM_F_ELE_SUIT_SET_33_1      39283
+#define II_ARM_M_KIN_GAUNTLET_SET_33_1  39284
+#define II_ARM_F_KIN_GAUNTLET_SET_33_1  39285
+#define II_ARM_M_BLA_GAUNTLET_SET_33_1  39286
+#define II_ARM_F_BLA_GAUNTLET_SET_33_1  39287
+#define II_ARM_M_JST_GAUNTLET_SET_33_1  39288
+#define II_ARM_F_JST_GAUNTLET_SET_33_1  39289
+#define II_ARM_M_RAG_GAUNTLET_SET_33_1  39290
+#define II_ARM_F_RAG_GAUNTLET_SET_33_1  39291
+#define II_ARM_M_RIN_GAUNTLET_SET_33_1  39292
+#define II_ARM_F_RIN_GAUNTLET_SET_33_1  39293
+#define II_ARM_M_BIL_GAUNTLET_SET_33_1  39294
+#define II_ARM_F_BIL_GAUNTLET_SET_33_1  39295
+#define II_ARM_M_PSY_GAUNTLET_SET_33_1  39296
+#define II_ARM_F_PSY_GAUNTLET_SET_33_1  39297
+#define II_ARM_M_ELE_GAUNTLET_SET_33_1  39298
+#define II_ARM_F_ELE_GAUNTLET_SET_33_1  39299
+#define II_ARM_M_KIN_BOOTS_SET_33_1     39300
+#define II_ARM_F_KIN_BOOTS_SET_33_1     39301
+#define II_ARM_M_BLA_BOOTS_SET_33_1     39302
+#define II_ARM_F_BLA_BOOTS_SET_33_1     39303
+#define II_ARM_M_JST_BOOTS_SET_33_1     39304
+#define II_ARM_F_JST_BOOTS_SET_33_1     39305
+#define II_ARM_M_RAG_BOOTS_SET_33_1     39306
+#define II_ARM_F_RAG_BOOTS_SET_33_1     39307
+#define II_ARM_M_RIN_BOOTS_SET_33_1     39308
+#define II_ARM_F_RIN_BOOTS_SET_33_1     39309
+#define II_ARM_M_BIL_BOOTS_SET_33_1     39310
+#define II_ARM_F_BIL_BOOTS_SET_33_1     39311
+#define II_ARM_M_PSY_BOOTS_SET_33_1     39312
+#define II_ARM_F_PSY_BOOTS_SET_33_1     39313
+#define II_ARM_M_ELE_BOOTS_SET_33_1     39314
+#define II_ARM_F_ELE_BOOTS_SET_33_1     39315
+#define II_GEN_JEW_EAR_U_EARRING13_1	39316
+#define II_ARM_ARM_SHI_ANCIENT_22	    39317
+#define II_ARM_ARM_SHI_ANCIENT_23	    39318
+
+//CS donate sets more Possibilitys
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_3	    39319
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_4	    39320
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_5	    39321
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_6	    39322
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_7	    39323
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_8	    39324
+#define II_ARM_S_CLO_CLO_SEAKING01_1        39325	
+#define II_ARM_S_CLO_CLO_SEAKING02_1        39326	
+#define II_ARM_S_CLO_CLO_SEAKING03_1        39327	
+#define II_ARM_S_CLO_CLO_SEAKING01_2        39328	
+#define II_ARM_S_CLO_CLO_SEAKING02_2        39329	
+#define II_ARM_S_CLO_CLO_SEAKING03_2        39330
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_9	    39331
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_10	39332
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_11    39333
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_12	39334
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_13	39335
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_14    39336
+#define II_ARM_S_CLO_CLO_SEAKING01_3        39337	
+#define II_ARM_S_CLO_CLO_SEAKING02_3        39338	
+#define II_ARM_S_CLO_CLO_SEAKING03_3        39339	
+#define II_ARM_S_CLO_CLO_SEAKING01_4        39340	
+#define II_ARM_S_CLO_CLO_SEAKING02_4        39341	
+#define II_ARM_S_CLO_CLO_SEAKING03_4        39342
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_15	39343
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_16	39344
+#define II_ARM_S_CLO_MAS_SEAKINGCROWN_17    39345
+#define II_ARM_S_CLO_CLO_SEAKING01_5        39346	
+#define II_ARM_S_CLO_CLO_SEAKING02_5        39347	
+#define II_ARM_S_CLO_CLO_SEAKING03_5        39348	
+#define	II_GEN_GEM_CRAFTMATERIAL110	39349
+#define	II_GEN_GEM_CRAFTMATERIAL111	39350
+#define	II_GEN_GEM_CRAFTMATERIAL112	39351
+#define	II_GEN_GEM_CRAFTMATERIAL113	39352
+#define	II_GEN_GEM_CRAFTMATERIAL114	39353
+#define	II_GEN_GEM_CRAFTMATERIAL115	39354
+#define	II_GEN_GEM_CRAFTMATERIAL116	39355
+#define	II_GEN_GEM_CRAFTMATERIAL117	39356
+#define	II_GEN_GEM_CRAFTMATERIAL118	39357
+#define	II_GEN_GEM_CRAFTMATERIAL119	39358
+#define	II_GEN_GEM_CRAFTMATERIAL120	39359
+#define	II_GEN_GEM_CRAFTMATERIAL121	39360
+#define	II_GEN_GEM_CRAFTMATERIAL122	39361
+#define	II_GEN_GEM_CRAFTMATERIAL123	39362
+#define	II_GEN_GEM_CRAFTMATERIAL124	39363
+#define	II_GEN_GEM_CRAFTMATERIAL125	39364
+#define	II_GEN_GEM_CRAFTMATERIAL126	39365
+#define	II_GEN_GEM_CRAFTMATERIAL127	39366
+#define	II_GEN_GEM_CRAFTMATERIAL128	39367
+#define	II_GEN_GEM_CRAFTMATERIAL129	39368
+#define	II_GEN_GEM_CRAFTMATERIAL130	39369
+#define	II_GEN_GEM_CRAFTMATERIAL131	39370
+#define	II_GEN_GEM_CRAFTMATERIAL132	39371
+#define	II_GEN_GEM_CRAFTMATERIAL133	39372
+#define	II_GEN_GEM_CRAFTMATERIAL134	39373
+#define	II_GEN_GEM_CRAFTMATERIAL135	39374
+#define	II_GEN_GEM_CRAFTMATERIAL136	39375
+#define	II_GEN_GEM_CRAFTMATERIAL137	39376
+#define	II_GEN_GEM_CRAFTMATERIAL138	39377
+#define	II_GEN_GEM_CRAFTMATERIAL139	39378
+#define	II_GEN_GEM_CRAFTMATERIAL140	39379
+#define	II_GEN_GEM_CRAFTMATERIAL141	39380
+#define	II_GEN_GEM_CRAFTMATERIAL142	39381
+#define	II_GEN_GEM_CRAFTMATERIAL143	39382
+#define	II_GEN_GEM_CRAFTMATERIAL144	39383
+#define	II_GEN_GEM_CRAFTMATERIAL145	39384
+#define	II_GEN_GEM_CRAFTMATERIAL146	39385
+#define	II_GEN_GEM_CRAFTMATERIAL147	39386
+#define	II_GEN_GEM_CRAFTMATERIAL148	39387
+#define	II_GEN_GEM_CRAFTMATERIAL149	39388
+#define	II_GEN_GEM_CRAFTMATERIAL150	39389
+#define	II_GEN_GEM_CRAFTMATERIAL151	39390
+#define	II_GEN_GEM_CRAFTMATERIAL152	39391
+#define	II_GEN_GEM_CRAFTMATERIAL153	39392
+#define	II_GEN_GEM_CRAFTMATERIAL154	39393
+#define	II_GEN_GEM_CRAFTMATERIAL155	39394
+#define	II_GEN_GEM_CRAFTMATERIAL156	39395
+#define	II_GEN_GEM_CRAFTMATERIAL157	39396
+#define	II_GEN_GEM_CRAFTMATERIAL158	39397
+#define	II_GEN_GEM_CRAFTMATERIAL159	39398
+#define	II_GEN_GEM_CRAFTMATERIAL160	39399
+#define	II_GEN_GEM_CRAFTMATERIAL161	39400
+#define	II_GEN_GEM_CRAFTMATERIAL162	39401
+#define	II_GEN_GEM_CRAFTMATERIAL163	39402
+#define	II_GEN_GEM_CRAFTMATERIAL164	39403
+#define	II_GEN_GEM_CRAFTMATERIAL165	39404
+#define	II_GEN_GEM_CRAFTMATERIAL166	39405
+#define	II_GEN_GEM_CRAFTMATERIAL167	39406
+#define	II_GEN_GEM_CRAFTMATERIAL168	39407
+#define	II_GEN_GEM_CRAFTMATERIAL169	39408
+#define	II_GEN_GEM_CRAFTMATERIAL170	39409
+#define	II_GEN_GEM_CRAFTMATERIAL171	39410
+#define	II_GEN_GEM_CRAFTMATERIAL172	39411
+#define	II_GEN_GEM_CRAFTMATERIAL173	39412
+#define	II_GEN_GEM_CRAFTMATERIAL174	39413
+#define	II_GEN_GEM_CRAFTMATERIAL175	39414
+#define	II_GEN_GEM_CRAFTMATERIAL176	39415
+#define	II_GEN_GEM_CRAFTMATERIAL177	39416
+#define	II_GEN_GEM_CRAFTMATERIAL178	39417
+#define	II_GEN_GEM_CRAFTMATERIAL179	39418
+#define	II_GEN_GEM_CRAFTMATERIAL180	39419
+#define	II_GEN_GEM_CRAFTMATERIAL181	39420
+#define	II_GEN_GEM_CRAFTMATERIAL182	39421
+#define	II_GEN_GEM_CRAFTMATERIAL183	39422
+#define	II_GEN_GEM_CRAFTMATERIAL184	39423
+#define	II_GEN_GEM_CRAFTMATERIAL185	39424
+#define	II_GEN_GEM_CRAFTMATERIAL186	39425
+#define	II_GEN_GEM_CRAFTMATERIAL187	39426
+#define	II_GEN_GEM_CRAFTMATERIAL188	39427
+#define	II_GEN_GEM_CRAFTMATERIAL189	39428
+#define	II_GEN_GEM_CRAFTMATERIAL190	39429
+#define	II_GEN_GEM_CRAFTMATERIAL191	39430
+#define	II_GEN_GEM_CRAFTMATERIAL192	39431
+#define	II_GEN_GEM_CRAFTMATERIAL193	39432
+#define	II_GEN_GEM_CRAFTMATERIAL194	39433
+#define	II_GEN_GEM_CRAFTMATERIAL195	39434
+#define	II_GEN_GEM_CRAFTMATERIAL196	39435
+#define	II_GEN_GEM_CRAFTMATERIAL197	39436
+#define	II_GEN_GEM_CRAFTMATERIAL198	39437
+#define	II_GEN_GEM_CRAFTMATERIAL199	39438
+#define	II_GEN_GEM_CRAFTMATERIAL200	39439
+#define	II_GEN_GEM_CRAFTMATERIAL201	39440
+#define	II_GEN_GEM_CRAFTMATERIAL202	39441
+#define	II_GEN_GEM_CRAFTMATERIAL203	39442
+#define	II_GEN_GEM_CRAFTMATERIAL204	39443
+#define	II_GEN_GEM_CRAFTMATERIAL205	39444
+#define	II_GEN_GEM_CRAFTMATERIAL206	39445
+#define	II_GEN_GEM_CRAFTMATERIAL207	39446
+#define	II_GEN_GEM_CRAFTMATERIAL208	39447
+#define	II_GEN_GEM_CRAFTMATERIAL209	39448
+#define	II_GEN_GEM_CRAFTMATERIAL210	39449
+#define	II_GEN_GEM_CRAFTMATERIAL211	39450
+#define	II_GEN_GEM_CRAFTMATERIAL212	39451
+#define	II_GEN_GEM_CRAFTMATERIAL213	39452
+#define	II_GEN_GEM_CRAFTMATERIAL214	39453
+#define	II_GEN_GEM_CRAFTMATERIAL215	39454
+#define	II_GEN_GEM_CRAFTMATERIAL216	39455
+#define	II_GEN_GEM_CRAFTMATERIAL217	39456
+#define	II_GEN_GEM_CRAFTMATERIAL218	39457
+#define	II_GEN_GEM_CRAFTMATERIAL219	39458
+#define	II_GEN_GEM_CRAFTMATERIAL220	39459
+#define	II_GEN_GEM_CRAFTMATERIAL221	39460
+#define	II_GEN_GEM_CRAFTMATERIAL222	39461
+#define	II_GEN_GEM_CRAFTMATERIAL223	39462
+#define	II_GEN_GEM_CRAFTMATERIAL224	39463
+#define	II_GEN_GEM_CRAFTMATERIAL225	39464
+#define	II_GEN_GEM_CRAFTMATERIAL226	39465
+#define	II_GEN_GEM_CRAFTMATERIAL227	39466
+#define	II_GEN_GEM_CRAFTMATERIAL228	39467
+#define	II_GEN_GEM_CRAFTMATERIAL229	39468
+#define	II_GEN_GEM_CRAFTMATERIAL230	39469
+#define	II_GEN_GEM_CRAFTMATERIAL231	39470
+#define	II_GEN_GEM_CRAFTMATERIAL232	39471
+#define	II_GEN_GEM_CRAFTMATERIAL233	39472
+#define	II_GEN_GEM_CRAFTMATERIAL234	39473
+#define	II_GEN_GEM_CRAFTMATERIAL235	39474
+#define	II_GEN_GEM_CRAFTMATERIAL236	39475
+#define	II_GEN_GEM_CRAFTMATERIAL237	39476
+#define	II_GEN_GEM_CRAFTMATERIAL238	39477
+#define	II_GEN_GEM_CRAFTMATERIAL239	39478
+#define	II_GEN_GEM_CRAFTMATERIAL240	39479
+#define	II_GEN_GEM_CRAFTMATERIAL241	39480
+#define	II_GEN_GEM_CRAFTMATERIAL242	39481
+#define	II_GEN_GEM_CRAFTMATERIAL243	39482
+#define	II_GEN_GEM_CRAFTMATERIAL244	39483
+#define	II_GEN_GEM_CRAFTMATERIAL245	39484
+#define	II_GEN_GEM_CRAFTMATERIAL246	39485
+#define	II_GEN_GEM_CRAFTMATERIAL247	39486
+#define	II_GEN_GEM_CRAFTMATERIAL248	39487
+#define	II_GEN_GEM_CRAFTMATERIAL249	39488
+#define	II_GEN_GEM_CRAFTMATERIAL250	39489
+#define	II_GEN_GEM_CRAFTMATERIAL251	39490
+#define	II_GEN_GEM_CRAFTMATERIAL252	39491
+#define	II_GEN_GEM_CRAFTMATERIAL253	39492
+#define	II_GEN_GEM_CRAFTMATERIAL254	39493
+#define	II_GEN_GEM_CRAFTMATERIAL255	39494
+#define	II_GEN_GEM_CRAFTMATERIAL256	39495
+#define	II_GEN_GEM_CRAFTMATERIAL257	39496
+#define	II_GEN_GEM_CRAFTMATERIAL258	39497
+#define	II_GEN_GEM_CRAFTMATERIAL259	39498
+#define	II_GEN_GEM_CRAFTMATERIAL260	39499
+#define	II_GEN_GEM_CRAFTMATERIAL261	39500
+#define	II_GEN_GEM_CRAFTMATERIAL262	39501
+#define	II_GEN_GEM_CRAFTMATERIAL263	39502
+#define	II_GEN_GEM_CRAFTMATERIAL264	39503
+#define	II_GEN_GEM_CRAFTMATERIAL265	39504
+#define	II_GEN_GEM_CRAFTMATERIAL266	39505
+#define	II_GEN_GEM_CRAFTMATERIAL267	39506
+#define	II_GEN_GEM_CRAFTMATERIAL268	39507
+#define	II_GEN_GEM_CRAFTMATERIAL269	39508
+#define	II_GEN_GEM_CRAFTMATERIAL270	39509
+#define	II_GEN_GEM_CRAFTMATERIAL271	39510
+#define	II_GEN_GEM_CRAFTMATERIAL272	39511
+#define	II_GEN_GEM_CRAFTMATERIAL273	39512
+#define	II_GEN_GEM_CRAFTMATERIAL274	39513
+#define	II_GEN_GEM_CRAFTMATERIAL275	39514
+#define	II_GEN_GEM_CRAFTMATERIAL276	39515
+#define	II_GEN_GEM_CRAFTMATERIAL277	39516
+#define	II_GEN_GEM_CRAFTMATERIAL278	39517
+#define	II_GEN_GEM_CRAFTMATERIAL279	39518
+#define	II_GEN_GEM_CRAFTMATERIAL280	39519
+#define	II_GEN_GEM_CRAFTMATERIAL281	39520
+#define	II_GEN_GEM_CRAFTMATERIAL282	39521
+#define	II_GEN_GEM_CRAFTMATERIAL283	39522
+#define	II_GEN_GEM_CRAFTMATERIAL284	39523
+#define	II_GEN_GEM_CRAFTMATERIAL285	39524
+#define	II_GEN_GEM_CRAFTMATERIAL286	39525
+#define	II_GEN_GEM_CRAFTMATERIAL287	39526
+#define	II_GEN_GEM_CRAFTMATERIAL288	39527
+#define	II_GEN_GEM_CRAFTMATERIAL289	39528
+#define	II_GEN_GEM_CRAFTMATERIAL290	39529
+#define	II_GEN_GEM_CRAFTMATERIAL291	39530
+#define	II_GEN_GEM_CRAFTMATERIAL292	39531
+#define	II_GEN_GEM_CRAFTMATERIAL293	39532
+#define	II_GEN_GEM_CRAFTMATERIAL294	39533
+#define	II_GEN_GEM_CRAFTMATERIAL295	39534
+#define	II_GEN_GEM_CRAFTMATERIAL296	39535
+#define	II_GEN_GEM_CRAFTMATERIAL297	39536
+#define	II_GEN_GEM_CRAFTMATERIAL298	39537
+#define	II_GEN_GEM_CRAFTMATERIAL299	39538
+#define	II_GEN_GEM_CRAFTMATERIAL300	39539
+#define	II_GEN_GEM_CRAFTMATERIAL301	39540
+#define	II_GEN_GEM_CRAFTMATERIAL302	39541
+#define	II_GEN_GEM_CRAFTMATERIAL303	39542
+#define	II_GEN_GEM_CRAFTMATERIAL304	39543
+#define	II_GEN_GEM_CRAFTMATERIAL305	39544
+#define	II_GEN_GEM_CRAFTMATERIAL306	39545
+#define	II_GEN_GEM_CRAFTMATERIAL307	39546
+
+//Crafting Powerups
+#define II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL_10	   39547 
+#define II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL_10	   39548 
+#define II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL_10	   39549 
+#define II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL_10  39550 
+#define II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL_10	   39551
+#define II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL_20	   39552 
+#define II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL_20	   39553 
+#define II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL_20	   39554 
+#define II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL_20  39555 
+#define II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL_20	   39556 
+#define II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL_30	   39557 
+#define II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL_30	   39558 
+#define II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL_30	   39559 
+#define II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL_30  39560 
+#define II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL_30	   39561 
+#define II_SYS_SYS_SCR_RAGEOFWINDELEMENTAL_50	   39562 
+#define II_SYS_SYS_SCR_RAGEOFFIREELEMENTAL_50	   39563 
+#define II_SYS_SYS_SCR_RAGEOFWATERELEMENTAL_50	   39564 
+#define II_SYS_SYS_SCR_RAGEOFELECTRICELEMENTAL_50  39565 
+#define II_SYS_SYS_SCR_RAGEOFEARTHELEMENTAL_50	   39566 
+#define II_GEN_POT_FLASK_OF_SKILL_1                39567   //Flask of Skill    1hour
+#define II_GEN_POT_FLASK_OF_POWER_1                39568   //Flask of Power    1hour
+#define II_GEN_POT_FLASK_OF_CHANCE_1               39569   //Flask of Chance   1hour
+#define II_GEN_POT_FLASK_OF_ABILITY_1              39570   //Flask of Ability  1hour
+#define II_GEN_POT_FLASK_OF_UNKNOWN_1              39571   //Flask of Unknown  1hour
+#define II_GEN_POT_FLASK_OF_STATS_1                39572   //Flask of Stats    1hour
+#define II_GEN_GEM_CRAFTMATERIAL308                39573  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL309                39574  //Blue Prints for Engineer
+#define II_GEN_GEM_CRAFTMATERIAL310                39575  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL311                39576  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL312                39577  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL313                39578  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL314                39579  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL315                39580  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL316                39581  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL317                39582  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL318                39583  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL319                39584  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL320                39585  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL321                39586  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL322                39587  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL323                39588  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL324                39589  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL325                39590  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL326                39591  //Blue Prints for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL327                39592  //Paper scroll for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL328                39593  //Ink Pen for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL329                39594  //Blue-print Shield for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL330                39595  //Blue Print Weapon Green for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL331                39596  //Blue Print Weapon Uniqe for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL332                39597  //Blue Print Armor Green for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL333                39598  //Blue Print Armor Unique for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL334                39599  //Blue Print Accessory for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL335                39600  //Blue Print Gem for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL336                39601  //Blue Print Unique Accessory for Engineer 
+#define II_GEN_GEM_CRAFTMATERIAL337                39602  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL338                39603  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL339                39604  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL340                39605  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL341                39606  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL342                39607  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL343                39608  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL344                39609  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL345                39610  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL346                39611  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL347                39612  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL348                39613  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL349                39614  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL350                39615  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL351                39616  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL352                39617  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL353                39618  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL354                39619  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL355                39620  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL356                39621  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL357                39622  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL358                39623  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL359                39624  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL360                39625  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL361                39626  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL362                39627  //Inspiration for Engineer Blue-prints
+#define II_GEN_GEM_CRAFTMATERIAL363                39737  //Blue-print Engineer Furniture
+#define II_GEN_GEM_CRAFTMATERIAL364                39738  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL365                39740  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL366                39741  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL367                40615  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL368                39641  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL369                39642  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL370                39643  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL371                39644  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL372                39645  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL373                39646  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL374                39647  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL375                39648  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL376                39649  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL377                39650  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL378                39651  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL379                39652  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL380                39653  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL381                39654  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL382                39656  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL383                39657  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL384                39658  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL385                39659  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL386                39660  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL387                39661  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL388                39662  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL389                39663  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL390                39664  //Engineer Loot Craftmaterial
+#define II_GEN_GEM_CRAFTMATERIAL391                39929  //Demon's Meal
+
+
+//New Collectorfield Items/Scrolls
+#define II_GEN_TOO_COL_SUCKFAST3          39628
+#define II_GEN_TOO_COL_SUCKFAST7          39629
+#define II_GEN_TOO_COL_SUCKFAST15         39630
+#define II_SYS_SYS_SCR_BXCOLL             39631
+#define II_SYS_SYS_SCR_BXCOLLPREM         39632
+#define II_GEN_TOO_COL_NORMALBATTERYCRAFT 39633
+
+//NEW ACHIEVEMENT PETS
+#define II_PET_000 39635
+#define II_PET_001 39636
+#define II_PET_002 39637
+#define II_PET_003 39638
+#define II_PET_004 39639
+#define II_PET_005 39640
+#define II_PET_006 39641
+#define II_PET_007 39642
+#define II_PET_008 39643
+#define II_PET_009 39644
+#define II_PET_010 39645
+#define II_PET_011 39646
+#define II_PET_012 39647
+#define II_PET_013 39648
+#define II_PET_014 39649
+#define II_PET_015 39650
+#define II_PET_016 39651
+#define II_PET_017 39652
+#define II_PET_018 39653
+#define II_PET_019 39654
+#define II_PET_020 39655
+#define II_PET_021 39656
+#define II_PET_022 39657
+#define II_PET_023 39658
+#define II_PET_024 39659
+#define II_PET_025 39660
+#define II_PET_026 39661
+#define II_PET_027 39662
+#define II_PET_028 39663
+#define II_PET_029 39664
+#define II_PET_030 39665
+#define II_PET_031 39666
+#define II_PET_032 39667
+#define II_PET_033 39668
+#define II_PET_034 39669
+#define II_PET_035 39670
+#define II_PET_036 39671
+#define II_PET_037 39672
+#define II_PET_038 39673
+#define II_PET_039 39674
+#define II_PET_040 39675
+#define II_PET_041 39676
+#define II_PET_042 39677
+#define II_PET_043 39678
+#define II_PET_044 39679
+#define II_PET_045 39680
+#define II_PET_046 39681
+#define II_PET_047 39682
+#define II_PET_048 39683
+#define II_PET_049 39684
+#define II_PET_050 39685
+#define II_PET_051 39686
+#define II_PET_052 39687
+#define II_PET_053 39688
+#define II_PET_054 39689
+#define II_PET_055 39690
+#define II_PET_056 39691
+#define II_PET_057 39692
+#define II_PET_058 39693
+#define II_PET_059 39694
+#define II_PET_060 39695
+#define II_PET_061 39696
+#define II_PET_062 39697
+#define II_PET_063 39698
+#define II_PET_064 39699
+#define II_PET_065 39700
+#define II_PET_066 39701
+#define II_PET_067 39702
+#define II_PET_068 39703
+#define II_PET_069 39704
+#define II_PET_070 39705
+#define II_PET_071 39706
+#define II_PET_072 39707
+#define II_PET_073 39708
+#define II_PET_074 39709
+#define II_PET_075 39710
+#define II_PET_076 39711
+#define II_PET_077 39712
+#define II_PET_078 39713
+#define II_PET_079 39714
+#define II_PET_080 39715
+#define II_PET_081 39716
+#define II_PET_082 39717
+#define II_PET_083 39718
+#define II_PET_084 39719
+#define II_PET_085 39720
+#define II_PET_086 39721
+#define II_PET_087 39722
+#define II_PET_088 39723
+#define II_PET_089 39724
+#define II_PET_090 39725
+#define II_PET_091 39726
+#define II_PET_092 39727
+#define II_PET_093 39728
+#define II_PET_094 39729
+#define II_PET_095 39730
+#define II_PET_096 39731
+#define II_PET_097 39732
+#define II_PET_098 39733
+#define II_PET_099 39734
+#define II_PET_100 39735
+#define II_PET_101 39736
+#define II_PET_102 39823
+#define II_PET_103 39824
+
+// Flux Weapon Set - Kiyo 12.09.22
+#define II_WEA_SWO_FLUX 39742   //  Flux Sword
+#define II_WEA_SWT_FLUX 39743   //  Flux Big Sword
+#define II_WEA_AXE_FLUX 39744   //  Flux Axe
+#define II_WEA_AXT_FLUX 39745   //  Flux Big Axe
+#define II_WEA_KNU_FLUX 39746   //  Flux Knuckle
+#define II_WEA_CHE_FLUX 39747   //  Flux Stick
+#define II_WEA_WAN_FLUX 39748   //  Flux Wand
+#define II_WEA_STA_FLUX 39749   //  Flux Staff
+#define II_WEA_BOW_FLUX 39750   //  Flux Bow
+#define II_WEA_YOY_FLUX 39751   //  Flux Yoyo
+#define II_ARM_SHI_FLUX 39752   //  Flux Shield
+#define II_ARM_ZEM_FLUX 39753   //  Flux FM Shield
+#define II_ARM_BOK_FLUX 39754   //  Flux Book  
+
+// Ataraxia Weapon Set - Kiyo 12.09.22
+#define II_WEA_SWO_ATARAXIA 39755   //  Ataraxia Sword
+#define II_WEA_SWT_ATARAXIA 39756   //  Ataraxia Big Sword
+#define II_WEA_AXE_ATARAXIA 39757   //  Ataraxia Axe
+#define II_WEA_AXT_ATARAXIA 39758   //  Ataraxia Big Axe
+#define II_WEA_KNU_ATARAXIA 39759   //  Ataraxia Knuckle
+#define II_WEA_CHE_ATARAXIA 39760   //  Ataraxia Stick
+#define II_WEA_WAN_ATARAXIA 39761   //  Ataraxia Wand
+#define II_WEA_STA_ATARAXIA 39762   //  Ataraxia Staff
+#define II_WEA_BOW_ATARAXIA 39763   //  Ataraxia Bow
+#define II_WEA_YOY_ATARAXIA 39764   //  Ataraxia Yoyo
+#define II_ARM_SHI_ATARAXIA 39765   //  Ataraxia Shield
+#define II_ARM_ZEM_ATARAXIA 39766   //  Ataraxia FM Shield
+#define II_ARM_BOK_ATARAXIA 39767   //  Ataraxia Book  
+
+// Majikku Cs Set (M) - Kiyo 
+#define II_ARM_M_CHR_MAJIKKUHAT	    39768  // Majikku Hat (M)       
+#define II_ARM_M_CHR_MAJIKKUSUIT    39769  // Majikku Suit (M)      
+#define II_ARM_M_CHR_MAJIKKUSHOES   39770  // Majikku Shoes (M)     
+#define II_SYS_SYS_SCR_BXMMAJIKKU   39771  // Majikku Cs Set Box (M)
+
+// Yasuda Cs Set (M) - Kiyo 
+#define II_ARM_F_CHR_YASUDAHAT   39772    // Yasuda Hat (F)       
+#define II_ARM_F_CHR_YASUDASUIT  39773    // Yasuda Suit (F)      
+#define II_ARM_F_CHR_YASUDASHOES 39774    // Yasuda Shoes (F)     
+#define II_SYS_SYS_SCR_BXFYASUDA 39775    // Yasuda Cs Set Box (F)
+
+// Wakuni Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_WAKUNIHAT   39776   // Wakuni Hat (M)       
+#define II_ARM_M_CHR_WAKUNISUIT  39777  // Wakuni Suit (M)      
+#define II_ARM_M_CHR_WAKUNISHOES 39778   // Wakuni Shoes (M)     
+#define II_SYS_SYS_SCR_BXMWAKUNI 39779  // Wakuni Cs Set Box (M)
+
+// Ueto Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_UETOHAT    39780     // Ueto Hat (F)       
+#define II_ARM_F_CHR_UETOSUIT   39781     // Ueto Suit (F)      
+#define II_ARM_F_CHR_UETOSHOES  39782     // Ueto Shoes (F)     
+#define II_SYS_SYS_SCR_BXFUETO  39783     // Ueto Cs Set Box (F)
+
+// Xumos Cs Set (M) - Kiyo
+#define II_ARM_M_CHR_XUMOSHAT   39784    // Xumos Hat (M)       
+#define II_ARM_M_CHR_XUMOSSUIT  39785    // Xumos Suit (M)      
+#define II_ARM_M_CHR_XUMOSSHOES 39786    // Xumos Shoes (M)     
+#define II_SYS_SYS_SCR_BXMXUMOS 39787    // Xumos Cs Set Box (M)
+
+// Atia Cs Set (F) - Kiyo
+#define II_ARM_F_CHR_ATIAHAT    39788    // Atia Hat (F)       
+#define II_ARM_F_CHR_ATIASUIT   39789    // Atia Suit (F)      
+#define II_ARM_F_CHR_ATIASHOES  39790    // Atia Shoes (F)     
+#define II_SYS_SYS_SCR_BXFATIA  39791    // Atia Cs Set Box (F)
+
+//Crafting Food
+#define II_GEN_FOO_INS_CAKE       39792
+#define II_GEN_FOO_INS_CUPCAKE    39793
+#define II_GEN_FOO_INS_FRUITCAKE  39794
+#define II_GEN_FOO_INS_FRUITCAKE_1  39930 // GMFRUITCAKE
+
+
+//Crafting Pets
+#define II_PET_DRAGON_1	    39801
+#define II_PET_DRAGON1_1    39802
+#define II_PET_REDDRAGON_1  39803
+
+
+// Dragon Gold worth 4 m.
+#define II_SYS_SYS_QUE_DRAGONGOLD  39825
+
+//YGDRASIL + FORTRESS JEWELERY
+#define II_GEN_JEW_RIN_U_YGGRING_STR	        39829
+#define II_GEN_JEW_NEC_U_YGGNECKLACE_STR	    39830
+#define II_GEN_JEW_EAR_U_YGGEARRING_STR	        39831
+#define II_GEN_JEW_RIN_U_FORTRING_STR           39832
+#define II_GEN_JEW_NEC_U_FORTNECKLACE_STR	    39833
+#define II_GEN_JEW_EAR_U_FORTEARRING_STR	    39834
+#define II_GEN_JEW_RIN_U_YGGRING_DEX	        39835
+#define II_GEN_JEW_NEC_U_YGGNECKLACE_DEX	    39836
+#define II_GEN_JEW_EAR_U_YGGEARRING_DEX         39837
+#define II_GEN_JEW_RIN_U_FORTRING_DEX           39838
+#define II_GEN_JEW_NEC_U_FORTNECKLACE_DEX	    39839
+#define II_GEN_JEW_EAR_U_FORTEARRING_DEX	    39840
+#define II_GEN_JEW_RIN_U_YGGRING_INT	        39841
+#define II_GEN_JEW_NEC_U_YGGNECKLACE_INT	    39842
+#define II_GEN_JEW_EAR_U_YGGEARRING_INT	        39843
+#define II_GEN_JEW_RIN_U_FORTRING_INT           39844
+#define II_GEN_JEW_NEC_U_FORTNECKLACE_INT	    39845
+#define II_GEN_JEW_EAR_U_FORTEARRING_INT	    39846
+#define II_GEN_JEW_RIN_U_YGGRING_STA	        39847
+#define II_GEN_JEW_NEC_U_YGGNECKLACE_STA	    39848
+#define II_GEN_JEW_EAR_U_YGGEARRING_STA	        39849
+#define II_GEN_JEW_RIN_U_FORTRING_STA           39850
+#define II_GEN_JEW_NEC_U_FORTNECKLACE_STA	    39851
+#define II_GEN_JEW_EAR_U_FORTEARRING_STA	    39852
+#define II_ARM_ARM_ZEM_YGGDRASIL_RM	            39857
+#define II_WEA_KNU_YGGDRASILL_RM	            39858
+//Bloody dragon Knuckle RM
+#define II_WEA_KNU_BLOODY_1_RM                  39859
+#define II_WEA_KNU_BLOODYUM_1_RM                39860
+//Behe/Ygdrasil 1on1 templar shield
+#define II_ARM_ARM_SHI_BEHESHILD_1              39861
+#define II_ARM_ARM_SHI_YGGDRASILL_1             39862
+
+//Easter Models 2023
+#define II_ARM_S_CLO_CLO_ESTR2301	39863
+#define II_ARM_S_CLO_CLO_ESTR2303	39864
+
+#define II_WEA_AXE_ESTR2301	        39865
+#define II_WEA_AXT_ESTR2301	        39866
+#define II_ARM_ARM_BOK_ESTR2301	    39867
+#define II_WEA_BOW_ESTR2301	        39868
+#define II_WEA_CHE_ESTR2301	        39869
+#define II_WEA_KNU_ESTR2301	        39870
+#define II_ARM_ARM_SHI_ESTR2301	    39871
+#define II_WEA_STA_ESTR2301	        39872
+#define II_WEA_SWO_ESTR2301	        39873
+#define II_WEA_SWT_ESTR2301	        39874
+#define II_WEA_WAN_ESTR2301	        39875
+#define II_WEA_YOY_ESTR2301	        39876
+#define II_ARM_ARM_ZEM_ESTR2301	    39877
+
+#define II_PET_PETESTR2301	39878
+
+#define II_ARM_F_CHR_CLOESTR230101_SHOES	39880
+#define II_ARM_F_CHR_CLOESTR230101_HAT	    39881
+#define II_ARM_F_CHR_CLOESTR230101_SUIT	    39882
+#define II_ARM_F_CHR_CLOESTR230102_SHOES	39883
+#define II_ARM_F_CHR_CLOESTR230102_HAT	    39884
+#define II_ARM_F_CHR_CLOESTR230102_SUIT	    39885
+#define II_ARM_F_CHR_CLOESTR230103_SHOES	39886
+#define II_ARM_F_CHR_CLOESTR230103_HAT	    39887
+#define II_ARM_F_CHR_CLOESTR230103_SUIT	    39888
+#define II_ARM_F_CHR_CLOESTR230104_SHOES	39889
+#define II_ARM_F_CHR_CLOESTR230104_HAT	    39890
+#define II_ARM_F_CHR_CLOESTR230104_SUIT	    39891
+#define II_ARM_F_CHR_CLOESTR2301_SHOES	    39892
+#define II_ARM_F_CHR_CLOESTR2301_HAT	    39893
+#define II_ARM_F_CHR_CLOESTR2301_SUIT	    39894
+#define II_ARM_F_CHR_CLOESTR2302_SHOES	    39895
+#define II_ARM_F_CHR_CLOESTR2302_HAT	    39896
+#define II_ARM_F_CHR_CLOESTR2302_SUIT	    39897
+#define II_ARM_F_CHR_CLOESTR2303_SHOES	    39898
+#define II_ARM_F_CHR_CLOESTR2303_HAT	    39899
+#define II_ARM_F_CHR_CLOESTR2303_SUIT	    39900
+#define II_ARM_F_CHR_CLOESTR2304_SHOES	    39901
+#define II_ARM_F_CHR_CLOESTR2304_HAT	    39902
+#define II_ARM_F_CHR_CLOESTR2304_SUIT	    39903
+
+
+#define II_ARM_M_CHR_CLOESTR230101_SHOES	39905
+#define II_ARM_M_CHR_CLOESTR230101_HAT	    39906
+#define II_ARM_M_CHR_CLOESTR230101_SUIT	    39907
+#define II_ARM_M_CHR_CLOESTR230102_SHOES	39908
+#define II_ARM_M_CHR_CLOESTR230102_HAT	    39909
+#define II_ARM_M_CHR_CLOESTR230102_SUIT	    39910
+#define II_ARM_M_CHR_CLOESTR230103_SHOES	39911
+#define II_ARM_M_CHR_CLOESTR230103_HAT	    39912
+#define II_ARM_M_CHR_CLOESTR230103_SUIT	    39913
+#define II_ARM_M_CHR_CLOESTR230104_SHOES	39914
+#define II_ARM_M_CHR_CLOESTR230104_HAT	    39915
+#define II_ARM_M_CHR_CLOESTR230104_SUIT	    39916
+#define II_ARM_M_CHR_CLOESTR2301_SHOES	    39917
+#define II_ARM_M_CHR_CLOESTR2301_HAT	    39918
+#define II_ARM_M_CHR_CLOESTR2301_SUIT	    39919
+#define II_ARM_M_CHR_CLOESTR2302_SHOES	    39920
+#define II_ARM_M_CHR_CLOESTR2302_HAT	    39921
+#define II_ARM_M_CHR_CLOESTR2302_SUIT	    39922
+#define II_ARM_M_CHR_CLOESTR2303_SHOES	    39923
+#define II_ARM_M_CHR_CLOESTR2303_HAT	    39924
+#define II_ARM_M_CHR_CLOESTR2303_SUIT	    39925
+#define II_ARM_M_CHR_CLOESTR2304_SHOES	    39926
+#define II_ARM_M_CHR_CLOESTR2304_HAT	    39927
+#define II_ARM_M_CHR_CLOESTR2304_SUIT	    39928
+
+#define II_WEA_AXT_PICKAXE                  40020
+
+#define II_UNLOCK_EMOTE_203                     40021
+#define II_UNLOCK_EMOTE_204                     40022
+#define II_UNLOCK_EMOTE_205                     40023
+#define II_UNLOCK_EMOTE_206                     40024
+#define II_UNLOCK_EMOTE_207                     40025
+#define II_UNLOCK_EMOTE_208                     40026
+#define II_UNLOCK_EMOTE_209                     40027
+#define II_UNLOCK_EMOTE_210                     40028
+#define II_UNLOCK_EMOTE_211                     40029
+#define II_UNLOCK_EMOTE_212                     40030
+#define II_UNLOCK_EMOTE_213                     40031
+#define II_UNLOCK_EMOTE_214                     40032
+#define II_UNLOCK_EMOTE_215                     40033
+#define II_UNLOCK_EMOTE_216                     40034
+#define II_UNLOCK_EMOTE_217                     40035
+#define II_UNLOCK_EMOTE_218                     40036
+#define II_UNLOCK_EMOTE_219                     40037
+#define II_UNLOCK_EMOTE_220                     40038
+#define II_UNLOCK_EMOTE_221                     40039
+#define II_UNLOCK_EMOTE_222                     40040
+#define II_UNLOCK_EMOTE_223                     40041
+#define II_UNLOCK_EMOTE_224                     40042
+#define II_UNLOCK_EMOTE_225                     40043
+#define II_UNLOCK_EMOTE_226                     40044
+#define II_UNLOCK_EMOTE_227                     40045
+#define II_UNLOCK_EMOTE_228                     40046
+#define II_UNLOCK_EMOTE_229                     40047
+#define II_UNLOCK_EMOTE_230                     40048
+#define II_UNLOCK_EMOTE_231                     40049
+#define II_UNLOCK_EMOTE_232                     40050
+#define II_UNLOCK_EMOTE_233                     40051
+#define II_UNLOCK_EMOTE_234                     40052
+#define II_UNLOCK_EMOTE_235                     40053
+#define II_UNLOCK_EMOTE_236                     40054
+#define II_UNLOCK_EMOTE_237                     40055
+#define II_UNLOCK_EMOTE_238                     40056
+#define II_UNLOCK_EMOTE_239                     40057
+#define II_UNLOCK_EMOTE_240                     40058
+#define II_UNLOCK_EMOTE_241                     40059
+#define II_UNLOCK_EMOTE_242                     40060
+#define II_UNLOCK_EMOTE_243                     40061
+#define II_UNLOCK_EMOTE_244                     40062
+#define II_UNLOCK_EMOTE_245                     40063
+#define II_UNLOCK_EMOTE_246                     40064
+#define II_UNLOCK_EMOTE_247                     40065
+#define II_UNLOCK_EMOTE_248                     40066
+#define II_UNLOCK_EMOTE_249                     40067
+#define II_UNLOCK_EMOTE_250                     40068
+#define II_UNLOCK_EMOTE_251                     40069
+#define II_UNLOCK_EMOTE_252                     40070
+#define II_UNLOCK_EMOTE_253                     40071
+#define II_UNLOCK_EMOTE_254                     40072
+#define II_UNLOCK_EMOTE_255                     40073
+#define II_UNLOCK_EMOTE_256                     40074
+#define II_UNLOCK_EMOTE_257                     40075
+#define II_UNLOCK_EMOTE_258                     40076
+#define II_UNLOCK_EMOTE_259                     40077
+#define II_UNLOCK_EMOTE_260                     40078
+#define II_UNLOCK_EMOTE_261                     40079
+#define II_UNLOCK_EMOTE_262                     40080
+#define II_UNLOCK_EMOTE_263                     40081
+#define II_UNLOCK_EMOTE_264                     40082
+#define II_UNLOCK_EMOTE_265                     40083
+#define II_UNLOCK_EMOTE_266                     40084
+#define II_UNLOCK_EMOTE_267                     40085
+#define II_UNLOCK_EMOTE_268                     40086
+#define II_UNLOCK_EMOTE_269                     40087
+#define II_UNLOCK_EMOTE_270                     40088
+#define II_UNLOCK_EMOTE_271                     40089
+#define II_UNLOCK_EMOTE_272                     40090
+#define II_UNLOCK_EMOTE_273                     40091
+#define II_UNLOCK_EMOTE_274                     40092
+#define II_UNLOCK_EMOTE_275                     40093
+#define II_UNLOCK_EMOTE_276                     40094
+#define II_UNLOCK_EMOTE_277                     40095
+#define II_UNLOCK_EMOTE_278                     40096
+#define II_UNLOCK_EMOTE_279                     40097
+#define II_UNLOCK_EMOTE_280                     40098
+#define II_UNLOCK_EMOTE_281                     40099
+#define II_UNLOCK_EMOTE_282                     40100
+#define II_UNLOCK_EMOTE_283                     40101
+#define II_UNLOCK_EMOTE_284                     40102
+#define II_UNLOCK_EMOTE_285                     40103
+#define II_UNLOCK_EMOTE_286                     40104
+#define II_UNLOCK_EMOTE_287                     40105
+#define II_UNLOCK_EMOTE_288                     40106
+#define II_UNLOCK_EMOTE_289                     40107
+#define II_UNLOCK_EMOTE_290                     40108
+#define II_UNLOCK_EMOTE_291                     40109
+#define II_UNLOCK_EMOTE_292                     40110
+#define II_UNLOCK_EMOTE_293                     40111
+
+#define II_GEN_MAT_DIAMOND11                    40112   //Diamond DST 11
+#define II_GEN_MAT_TOPAZ11                      40113   //Topaz DST 11
+#define II_GEN_MAT_RUBY11                       40114   //Ruby DST 11
+#define II_GEN_MAT_SAPPHIRE11                   40115   //Saphire DST 11
+#define II_GEN_MAT_EMERALD11                    40116   //Emerald DST 11
+#define II_GEN_MAT_BLACK_DIAMOND11              40117   //Black Diamond DST 11
+#define II_GEN_GEM_CRAFTMATERIAL392             40118   //Blueprint unique Armor 60
+#define II_GEN_GEM_CRAFTMATERIAL393             40119   //Blueprint unique Armor 75 
+#define II_GEN_GEM_CRAFTMATERIAL394             40120   //Blueprint unique Armor 90
+#define II_GEN_GEM_CRAFTMATERIAL395             40121   //Inspiration unique Armor 60
+#define II_GEN_GEM_CRAFTMATERIAL396             40122   //Inspiration unique Armor 75
+#define II_GEN_GEM_CRAFTMATERIAL397             40123   //Inspiration unique Armor 90
+#define II_GEN_GEM_CRAFTMATERIAL398				40124	//Blueprint unique Weapons 60
+#define II_GEN_GEM_CRAFTMATERIAL399				40125	//Blueprint unique Weapons 75
+#define II_GEN_GEM_CRAFTMATERIAL400				40126	//Blueprint unique Weapons 90
+#define II_GEN_GEM_CRAFTMATERIAL401				40127	//Inspiration unique Weapons 60
+#define II_GEN_GEM_CRAFTMATERIAL402				40128	//Inspiration unique Weapons 75
+#define II_GEN_GEM_CRAFTMATERIAL403				40129	//Inspiration unique Weapons 90
+#define II_GEN_GEM_CRAFTMATERIAL404             40130   //Blueprint Lusaka Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL405             40131   //Blueprint Lusaka Crystal Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL406             40132   //Blueprint Bloody Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL407             40133   //Inspiration Lusaka Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL408             40134   //Inspiration Lusaka Crystal 
+#define II_GEN_GEM_CRAFTMATERIAL409             40135   //Inspiration Bloody Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL410             40136   //Blue-print [Unique] Shields level 75 
+#define II_GEN_GEM_CRAFTMATERIAL411             40137   //Blue-print [Unique] Shields level 90 
+#define II_GEN_GEM_CRAFTMATERIAL412             40138   //Blue-print [Unique] Shields level 105 
+#define II_GEN_GEM_CRAFTMATERIAL413             40139   //Blue-print [Bloody Dragon] Shields 
+#define II_GEN_GEM_CRAFTMATERIAL414             40140   //Inspiration for [Unique] Shields Shield level 75
+#define II_GEN_GEM_CRAFTMATERIAL415             40141   //Inspiration for [Unique Crystal] Shields level 90
+#define II_GEN_GEM_CRAFTMATERIAL416             40142   //Inspiration for [Unique] Shields level 105
+#define II_GEN_GEM_CRAFTMATERIAL417             40143   //Inspiration for [Bloody Dragon] Shields
+#define II_GEN_GEM_CRAFTMATERIAL418             40144   //Blue-print [Shining] Weapons 
+#define II_GEN_GEM_CRAFTMATERIAL419             40145   //Inspiration for [Shining] Weapons
+#define II_GEN_GEM_CRAFTMATERIAL420             40146   //Blue-print Accessory II
+#define II_GEN_GEM_CRAFTMATERIAL421             40147   //inspiration Accessory II
+#define II_GEN_GEM_CRAFTMATERIAL422             40148   //Blue-print Accessory III
+#define II_GEN_GEM_CRAFTMATERIAL423             40149   //inspiration Accessory III
+#define II_GEN_GEM_CRAFTMATERIAL424             40150   //Blue-print unique Accessory II
+#define II_GEN_GEM_CRAFTMATERIAL425             40151   //inspiration unique Accessory II
+#define II_GEN_GEM_CRAFTMATERIAL426             40152   //Blue-print unique Accessory III
+#define II_GEN_GEM_CRAFTMATERIAL427             40153   //inspiration unique Accessory III
+
+//Bloodlust PvP Sets + Boxes
+#define II_ARM_M_STORMB_HELMET_SET_35_PVP  		40154
+#define II_ARM_M_STORMB_SUIT_SET_35_PVP    		40155
+#define II_ARM_M_STORMB_GAUNTLET_SET_35_PVP		40156
+#define II_ARM_M_STORMB_BOOTS_SET_35_PVP   		40157
+#define II_SYS_SYS_SCR_BXMWARRAD01_PVP          40158
+#define II_ARM_F_STORMB_HELMET_SET_35_PVP  		40159
+#define II_ARM_F_STORMB_SUIT_SET_35_PVP    		40160
+#define II_ARM_F_STORMB_GAUNTLET_SET_35_PVP		40161
+#define II_ARM_F_STORMB_BOOTS_SET_35_PVP   		40162
+#define II_SYS_SYS_SCR_BXFWARRAD01_PVP          40163
+#define II_ARM_M_FORCEM_HELMET_SET_35_PVP  		40164
+#define II_ARM_M_FORCEM_SUIT_SET_35_PVP    		40165
+#define II_ARM_M_FORCEM_GAUNTLET_SET_35_PVP		40166
+#define II_ARM_M_FORCEM_BOOTS_SET_35_PVP   		40167
+#define II_SYS_SYS_SCR_BXMILZOGAS01_PVP         40168
+#define II_ARM_F_FORCEM_HELMET_SET_35_PVP  		40169
+#define II_ARM_F_FORCEM_SUIT_SET_35_PVP    		40170
+#define II_ARM_F_FORCEM_GAUNTLET_SET_35_PVP		40171
+#define II_ARM_F_FORCEM_BOOTS_SET_35_PVP   		40172
+#define II_SYS_SYS_SCR_BXFILZOGAS01_PVP         40173
+#define II_ARM_M_LORDK_HELMET_SET_35_PVP  		40174
+#define II_ARM_M_LORDK_SUIT_SET_35_PVP    		40175
+#define II_ARM_M_LORDK_GAUNTLET_SET_35_PVP		40176
+#define II_ARM_M_LORDK_BOOTS_SET_35_PVP   		40177
+#define II_SYS_SYS_SCR_BXMSIWEARD01_PVP         40178
+#define II_ARM_F_LORDK_HELMET_SET_35_PVP  		40179
+#define II_ARM_F_LORDK_SUIT_SET_35_PVP    		40180
+#define II_ARM_F_LORDK_GAUNTLET_SET_35_PVP		40181
+#define II_ARM_F_LORDK_BOOTS_SET_35_PVP   		40182
+#define II_SYS_SYS_SCR_BXFSIWEARD01_PVP         40183
+#define II_ARM_M_WINDL_HELMET_SET_35_PVP  		40184
+#define II_ARM_M_WINDL_SUIT_SET_35_PVP    		40185
+#define II_ARM_M_WINDL_GAUNTLET_SET_35_PVP		40186
+#define II_ARM_M_WINDL_BOOTS_SET_35_PVP   		40187
+#define II_SYS_SYS_SCR_BXMHOLYLESS01_PVP        40188
+#define II_ARM_F_WINDL_HELMET_SET_35_PVP  		40189
+#define II_ARM_F_WINDL_SUIT_SET_35_PVP    		40190
+#define II_ARM_F_WINDL_GAUNTLET_SET_35_PVP		40191
+#define II_ARM_F_WINDL_BOOTS_SET_35_PVP   		40192
+#define II_SYS_SYS_SCR_BXFHOLYLESS01_PVP        40193
+#define II_ARM_M_MENT_HELMET_SET_35_PVP  		40194
+#define II_ARM_M_MENT_SUIT_SET_35_PVP    		40195
+#define II_ARM_M_MENT_GAUNTLET_SET_35_PVP		40196
+#define II_ARM_M_MENT_BOOTS_SET_35_PVP   		40197
+#define II_SYS_SYS_SCR_BXMVERNISSAC01_PVP       40198
+#define II_ARM_F_MENT_HELMET_SET_35_PVP  		40199
+#define II_ARM_F_MENT_SUIT_SET_35_PVP    		40200
+#define II_ARM_F_MENT_GAUNTLET_SET_35_PVP		40201
+#define II_ARM_F_MENT_BOOTS_SET_35_PVP   		40202
+#define II_SYS_SYS_SCR_BXFVERNISSAC01_PVP       40203
+#define II_ARM_M_ELEL_HELMET_SET_35_PVP  		40204
+#define II_ARM_M_ELEL_SUIT_SET_35_PVP    		40205
+#define II_ARM_M_ELEL_GAUNTLET_SET_35_PVP		40206
+#define II_ARM_M_ELEL_BOOTS_SET_35_PVP   		40207
+#define II_SYS_SYS_SCR_BXMNERECHADE01_PVP       40208
+#define II_ARM_F_ELEL_HELMET_SET_35_PVP  		40209
+#define II_ARM_F_ELEL_SUIT_SET_35_PVP    		40210
+#define II_ARM_F_ELEL_GAUNTLET_SET_35_PVP		40211
+#define II_ARM_F_ELEL_BOOTS_SET_35_PVP   		40212
+#define II_SYS_SYS_SCR_BXFNERECHADE01_PVP       40213
+#define II_ARM_M_CRACKS_HELMET_SET_35_PVP  		40214
+#define II_ARM_M_CRACKS_SUIT_SET_35_PVP    		40215
+#define II_ARM_M_CRACKS_GAUNTLET_SET_35_PVP		40216
+#define II_ARM_M_CRACKS_BOOTS_SET_35_PVP   		40217
+#define II_SYS_SYS_SCR_BXMAGUEZIN01_PVP         40218
+#define II_ARM_F_CRACKS_HELMET_SET_35_PVP  		40219
+#define II_ARM_F_CRACKS_SUIT_SET_35_PVP    		40220
+#define II_ARM_F_CRACKS_GAUNTLET_SET_35_PVP		40221
+#define II_ARM_F_CRACKS_BOOTS_SET_35_PVP   		40222
+#define II_SYS_SYS_SCR_BXFAGUEZIN01_PVP         40223
+#define II_ARM_M_FLOR_HELMET_SET_35_PVP  		40224
+#define II_ARM_M_FLOR_SUIT_SET_35_PVP    		40225
+#define II_ARM_M_FLOR_GAUNTLET_SET_35_PVP		40226
+#define II_ARM_M_FLOR_BOOTS_SET_35_PVP   		40227
+#define II_SYS_SYS_SCR_BXMILTHURYN01_PVP        40228
+#define II_ARM_F_FLOR_HELMET_SET_35_PVP  		40229
+#define II_ARM_F_FLOR_SUIT_SET_35_PVP    		40230
+#define II_ARM_F_FLOR_GAUNTLET_SET_35_PVP		40231
+#define II_ARM_F_FLOR_BOOTS_SET_35_PVP   		40232
+//PVP HP
+#define II_ARM_M_STORMB_HELMET_SET_35_PVP_HP 	40233	
+#define II_ARM_M_STORMB_SUIT_SET_35_PVP_HP   	40234	
+#define II_ARM_M_STORMB_GAUNTLET_SET_35_PVP_HP  40235   
+#define II_ARM_M_STORMB_BOOTS_SET_35_PVP_HP  	40236	
+#define II_SYS_SYS_SCR_BXMWARRAD01_PVP_HP       40237   
+#define II_ARM_F_STORMB_HELMET_SET_35_PVP_HP 	40238	
+#define II_ARM_F_STORMB_SUIT_SET_35_PVP_HP   	40239	
+#define II_ARM_F_STORMB_GAUNTLET_SET_35_PVP_HP		40240   
+#define II_ARM_F_STORMB_BOOTS_SET_35_PVP_HP  	40241	
+#define II_SYS_SYS_SCR_BXFWARRAD01_PVP_HP       40242   
+#define II_ARM_M_FORCEM_HELMET_SET_35_PVP_HP 	40243	
+#define II_ARM_M_FORCEM_SUIT_SET_35_PVP_HP   	40244	
+#define II_ARM_M_FORCEM_GAUNTLET_SET_35_PVP_HP		40245   
+#define II_ARM_M_FORCEM_BOOTS_SET_35_PVP_HP  	40246	
+#define II_SYS_SYS_SCR_BXMILZOGAS01_PVP_HP      40247   
+#define II_ARM_F_FORCEM_HELMET_SET_35_PVP_HP 	40248	
+#define II_ARM_F_FORCEM_SUIT_SET_35_PVP_HP   	40249	
+#define II_ARM_F_FORCEM_GAUNTLET_SET_35_PVP_HP		40250   
+#define II_ARM_F_FORCEM_BOOTS_SET_35_PVP_HP  	40251	
+#define II_SYS_SYS_SCR_BXFILZOGAS01_PVP_HP      40252   
+#define II_ARM_M_LORDK_HELMET_SET_35_PVP_HP 	40253	
+#define II_ARM_M_LORDK_SUIT_SET_35_PVP_HP   	40254	
+#define II_ARM_M_LORDK_GAUNTLET_SET_35_PVP_HP		40255   
+#define II_ARM_M_LORDK_BOOTS_SET_35_PVP_HP  	40256	
+#define II_SYS_SYS_SCR_BXMSIWEARD01_PVP_HP      40257   
+#define II_ARM_F_LORDK_HELMET_SET_35_PVP_HP 	40258	
+#define II_ARM_F_LORDK_SUIT_SET_35_PVP_HP   	40259	
+#define II_ARM_F_LORDK_GAUNTLET_SET_35_PVP_HP		40260   
+#define II_ARM_F_LORDK_BOOTS_SET_35_PVP_HP  	40261	
+#define II_SYS_SYS_SCR_BXFSIWEARD01_PVP_HP      40262   
+#define II_ARM_M_WINDL_HELMET_SET_35_PVP_HP 	40263	
+#define II_ARM_M_WINDL_SUIT_SET_35_PVP_HP   	40264	
+#define II_ARM_M_WINDL_GAUNTLET_SET_35_PVP_HP		40265   
+#define II_ARM_M_WINDL_BOOTS_SET_35_PVP_HP  	40266	
+#define II_SYS_SYS_SCR_BXMHOLYLESS01_PVP_HP     40267   
+#define II_ARM_F_WINDL_HELMET_SET_35_PVP_HP 	40268	
+#define II_ARM_F_WINDL_SUIT_SET_35_PVP_HP   	40269	
+#define II_ARM_F_WINDL_GAUNTLET_SET_35_PVP_HP		40270   
+#define II_ARM_F_WINDL_BOOTS_SET_35_PVP_HP  	40271	
+#define II_SYS_SYS_SCR_BXFHOLYLESS01_PVP_HP     40272   
+#define II_ARM_M_MENT_HELMET_SET_35_PVP_HP 		40273   
+#define II_ARM_M_MENT_SUIT_SET_35_PVP_HP   		40274   
+#define II_ARM_M_MENT_GAUNTLET_SET_35_PVP_HP		40275   
+#define II_ARM_M_MENT_BOOTS_SET_35_PVP_HP  		40276   
+#define II_SYS_SYS_SCR_BXMVERNISSAC01_PVP_HP    40277   
+#define II_ARM_F_MENT_HELMET_SET_35_PVP_HP 		40278   
+#define II_ARM_F_MENT_SUIT_SET_35_PVP_HP   		40279   
+#define II_ARM_F_MENT_GAUNTLET_SET_35_PVP_HP		40280   
+#define II_ARM_F_MENT_BOOTS_SET_35_PVP_HP  		40281   
+#define II_SYS_SYS_SCR_BXFVERNISSAC01_PVP_HP    40282   
+#define II_ARM_M_ELEL_HELMET_SET_35_PVP_HP 		40283   
+#define II_ARM_M_ELEL_SUIT_SET_35_PVP_HP   		40284   
+#define II_ARM_M_ELEL_GAUNTLET_SET_35_PVP_HP		40285   
+#define II_ARM_M_ELEL_BOOTS_SET_35_PVP_HP  		40286   
+#define II_SYS_SYS_SCR_BXMNERECHADE01_PVP_HP    40287   
+#define II_ARM_F_ELEL_HELMET_SET_35_PVP_HP 		40288   
+#define II_ARM_F_ELEL_SUIT_SET_35_PVP_HP   		40289   
+#define II_ARM_F_ELEL_GAUNTLET_SET_35_PVP_HP		40290   
+#define II_ARM_F_ELEL_BOOTS_SET_35_PVP_HP  		40291   
+#define II_SYS_SYS_SCR_BXFNERECHADE01_PVP_HP    40292   
+#define II_ARM_M_CRACKS_HELMET_SET_35_PVP_HP 	40293	
+#define II_ARM_M_CRACKS_SUIT_SET_35_PVP_HP   	40294	
+#define II_ARM_M_CRACKS_GAUNTLET_SET_35_PVP_HP		40295   
+#define II_ARM_M_CRACKS_BOOTS_SET_35_PVP_HP  	40296	
+#define II_SYS_SYS_SCR_BXMAGUEZIN01_PVP_HP      40297   
+#define II_ARM_F_CRACKS_HELMET_SET_35_PVP_HP 	40298	
+#define II_ARM_F_CRACKS_SUIT_SET_35_PVP_HP   	40299	
+#define II_ARM_F_CRACKS_GAUNTLET_SET_35_PVP_HP		40300   
+#define II_ARM_F_CRACKS_BOOTS_SET_35_PVP_HP  	40301	
+#define II_SYS_SYS_SCR_BXFAGUEZIN01_PVP_HP      40302   
+#define II_ARM_M_FLOR_HELMET_SET_35_PVP_HP 		40303   
+#define II_ARM_M_FLOR_SUIT_SET_35_PVP_HP   		40304   
+#define II_ARM_M_FLOR_GAUNTLET_SET_35_PVP_HP	40305   
+#define II_ARM_M_FLOR_BOOTS_SET_35_PVP_HP  		40306   
+#define II_SYS_SYS_SCR_BXMILTHURYN01_PVP_HP     40307   
+#define II_ARM_F_FLOR_HELMET_SET_35_PVP_HP 		40308   
+#define II_ARM_F_FLOR_SUIT_SET_35_PVP_HP   		40309   
+#define II_ARM_F_FLOR_GAUNTLET_SET_35_PVP_HP	40310   
+#define II_ARM_F_FLOR_BOOTS_SET_35_PVP_HP  		40311     
+#define II_GEN_JEW_RIN_U_FORTRING_STR_PVP	    40312
+#define II_GEN_JEW_EAR_U_FORTEARRING_STR_PVP    40313
+#define II_GEN_JEW_NEC_U_FORTNECKLACE_STR_PVP   40314
+#define II_ARM_M_CHR_COLOSSEUMSUIT_PVP	        40315
+#define II_ARM_M_CHR_COLOSSEUMHAT_PVP	        40316
+#define II_ARM_M_CHR_COLOSSEUMGLOVES_PVP        40317
+#define II_ARM_M_CHR_COLOSSEUMSHOES_PVP	        40318
+#define II_ARM_F_CHR_COLOSSEUMSUIT_PVP	        40319
+#define II_ARM_F_CHR_COLOSSEUMHAT_PVP	        40320
+#define II_ARM_F_CHR_COLOSSEUMGLOVES_PVP        40321
+#define II_ARM_F_CHR_COLOSSEUMSHOES_PVP	        40322
+#define II_SYS_SYS_SCR_BXMCOLOSSEUM_PVP	        40323
+#define II_SYS_SYS_SCR_BXFCOLOSSEUM_PVP	        40324
+#define II_ARM_S_CLO_CLO_COLOSSEUM_PVP	        40325
+#define II_ARM_S_CLO_MAS_MASWFOX_PVP	        40326
+#define II_ARM_S_COLO_ACCESSORY_BOX	            40327
+#define II_SYS_SYS_SCR_BXFILTHURYN01_PVP_HP  	40328
+#define II_SYS_SYS_SCR_BXFILTHURYN01_PVP  	    40329
+
+//Crafting Material scroll + inspirations
+#define II_GEN_GEM_CRAFTMATERIAL428  	    40330
+#define II_GEN_GEM_CRAFTMATERIAL429  	    40331
+#define II_GEN_GEM_CRAFTMATERIAL430  	    40332
+#define II_GEN_GEM_CRAFTMATERIAL431  	    40333
+
+//PvP Weapons
+#define II_WEA_SWO_FORTRESSCHAMP_PVP	        40334
+#define II_WEA_AXE_FORTRESSCHAMP_PVP	        40335
+#define II_WEA_SWT_FORTRESSCHAMP_PVP	        40336
+#define II_WEA_AXT_FORTRESSCHAMP_PVP	        40337
+#define II_WEA_KNU_FORTRESSCHAMP_PVP	        40338
+#define II_WEA_KNU_FORTRESSCHAMP_PVP_1	        40339
+#define II_WEA_KNU_FORTRESSCHAMP_PVP_2	        40340
+#define II_WEA_CHE_FORTRESSCHAMP_PVP	        40341
+#define II_WEA_WAN_FORTRESSCHAMP_PVP	        40342
+#define II_WEA_WAN_FORTRESSCHAMP_PVP_1	        40343
+#define II_WEA_STA_FORTRESSCHAMP_PVP	        40344
+#define II_WEA_STA_FORTRESSCHAMP_PVP_1	        40345
+#define II_WEA_BOW_FORTRESSCHAMP_PVP	        40346
+#define II_WEA_BOW_FORTRESSCHAMP_PVP_1	        40347
+#define II_WEA_YOY_FORTRESSCHAMP_PVP	        40348
+#define II_WEA_YOY_FORTRESSCHAMP_PVP_1	        40349
+#define II_WEA_BOOK_FORTRESSCHAMPBOOK_PVP	    40350
+#define II_WEA_BOOK_FORTRESSCHAMPBOOK_PVP_1	    40351
+#define II_WEA_ZEM_FORTRESSCHAMPGEM_PVP	        40352
+#define II_WEA_ZEM_FORTRESSCHAMPGEM_PVP_1	    40353
+#define II_WEA_ZEM_FORTRESSCHAMPGEM_PVP_2	    40354
+
+//cs Frog setbox
+#define II_ARM_F_CLOFROK01BOX_TH_20	    40355
+#define II_ARM_M_CLOFROK01BOX_TH_20	    40356
+
+#define	II_SYS_SYS_SCR_NOR_ULTITRANS01_1	40357	//ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ 100% ï¿½ï¿½ï¿½ï¿½
+
+//Beta SFX WIngs - Kiyo
+#define II_SYS_SYS_SFX_WING27 40358
+
+// Trail: MvP - Achievement Reward - Kiyo
+#define II_SYS_SYS_SCR_TRAIL_51 40359
+
+// Soccer Ball Box - Kiyo
+#define II_SYS_SYS_SCR_BXSOCCERBALL 40360
+
+// Random Shop Design Box - Kiyo
+#define II_SYS_SYS_SCR_SHOPDESIGNRANDOM 40361
+
+//Badges - Kiyo		
+#define II_BADGE203	40362 	// Veteran
+
+// Custom Title: Beta-Tester (Reward) - Kiyo
+#define II_SYS_TITLE_23	40363 	// Title: Beta-Tester
+
+// Trail: Beta Reward - Kiyo
+#define II_SYS_SYS_SCR_TRAIL_52 40364
+
+//NEW GLYPHS
+#define II_ARM_S_GLYPH_HEAL_1	      40365
+#define II_ARM_S_GLYPH_HEAL_2	      40366
+#define II_ARM_S_GLYPH_HEAL_3	      40367
+#define II_ARM_S_GLYPH_HEAL_4	      40368
+#define II_ARM_S_GLYPH_HEAL_5	      40369
+#define II_ARM_S_GLYPH_RUN_1	      40370
+#define II_ARM_S_GLYPH_RUN_2	      40371
+#define II_ARM_S_GLYPH_RUN_3	      40372
+#define II_ARM_S_GLYPH_RUN_4	      40373
+#define II_ARM_S_GLYPH_RUN_5	      40374
+#define II_ARM_S_GLYPH_SKILL_1	      40375
+#define II_ARM_S_GLYPH_SKILL_2	      40376
+#define II_ARM_S_GLYPH_SKILL_3	      40377
+#define II_ARM_S_GLYPH_SKILL_4	      40378
+#define II_ARM_S_GLYPH_SKILL_5	      40379
+#define II_ARM_S_GLYPH_DEFENCE_1	  40380
+#define II_ARM_S_GLYPH_DEFENCE_2	  40381
+#define II_ARM_S_GLYPH_DEFENCE_3	  40382
+#define II_ARM_S_GLYPH_DEFENCE_4	  40383
+#define II_ARM_S_GLYPH_DEFENCE_5	  40384
+#define II_ARM_S_GLYPH_MEFENCE_1	  40385
+#define II_ARM_S_GLYPH_MEFENCE_2	  40386
+#define II_ARM_S_GLYPH_MEFENCE_3	  40387
+#define II_ARM_S_GLYPH_MEFENCE_4	  40388
+#define II_ARM_S_GLYPH_MEFENCE_5	  40389
+#define II_ARM_S_GLYPH_MONSTER_1	  40390
+#define II_ARM_S_GLYPH_MONSTER_2	  40391
+#define II_ARM_S_GLYPH_MONSTER_3	  40392
+#define II_ARM_S_GLYPH_MONSTER_4	  40393
+#define II_ARM_S_GLYPH_MONSTER_5	  40394
+#define II_ARM_S_GLYPH_LUCK_1	      40395
+#define II_ARM_S_GLYPH_LUCK_2	      40396
+#define II_ARM_S_GLYPH_LUCK_3	      40397
+#define II_ARM_S_GLYPH_LUCK_4	      40398
+#define II_ARM_S_GLYPH_LUCK_5	      40399
+#define II_ARM_S_GLYPH_PENYA_1	      40400
+#define II_ARM_S_GLYPH_PENYA_2	      40401
+#define II_ARM_S_GLYPH_PENYA_3	      40402
+#define II_ARM_S_GLYPH_PENYA_4	      40403
+#define II_ARM_S_GLYPH_PENYA_5	      40404
+#define II_ARM_S_GLYPH_EXP_1	      40405
+#define II_ARM_S_GLYPH_EXP_2	      40406
+#define II_ARM_S_GLYPH_EXP_3	      40407
+#define II_ARM_S_GLYPH_EXP_4	      40408
+#define II_ARM_S_GLYPH_EXP_5	      40409
+#define II_ARM_S_GLYPH_PETEXP_1	      40410
+#define II_ARM_S_GLYPH_PETEXP_2	      40411
+#define II_ARM_S_GLYPH_PETEXP_3	      40412
+#define II_ARM_S_GLYPH_PETEXP_4	      40413
+#define II_ARM_S_GLYPH_PETEXP_5	      40414
+#define II_ARM_S_GLYPH_RECOVERY_1	  40415
+#define II_ARM_S_GLYPH_RECOVERY_2	  40416
+#define II_ARM_S_GLYPH_RECOVERY_3	  40417
+#define II_ARM_S_GLYPH_RECOVERY_4	  40418
+#define II_ARM_S_GLYPH_RECOVERY_5	  40419
+#define II_ARM_S_GLYPH_HPKILL_1	      40420
+#define II_ARM_S_GLYPH_HPKILL_2	      40421
+#define II_ARM_S_GLYPH_HPKILL_3	      40422
+#define II_ARM_S_GLYPH_HPKILL_4	      40423
+#define II_ARM_S_GLYPH_HPKILL_5	      40424
+#define II_ARM_S_GLYPH_FPKILL_1	      40425
+#define II_ARM_S_GLYPH_FPKILL_2	      40426
+#define II_ARM_S_GLYPH_FPKILL_3	      40427
+#define II_ARM_S_GLYPH_FPKILL_4	      40428
+#define II_ARM_S_GLYPH_FPKILL_5	      40429
+#define II_ARM_S_GLYPH_MPKILL_1	      40430
+#define II_ARM_S_GLYPH_MPKILL_2	      40431
+#define II_ARM_S_GLYPH_MPKILL_3	      40432
+#define II_ARM_S_GLYPH_MPKILL_4	      40433
+#define II_ARM_S_GLYPH_MPKILL_5	      40434
+#define II_ARM_S_GLYPH_SOUL_1	      40435
+#define II_ARM_S_GLYPH_SOUL_2	      40436
+#define II_ARM_S_GLYPH_SOUL_3	      40437
+#define II_ARM_S_GLYPH_SOUL_4	      40438
+#define II_ARM_S_GLYPH_SOUL_5	      40439
+
+#define II_PET_SS_UPGRADE_1	40440
+#define II_PET_SS_UPGRADE_2	40441
+#define II_PET_SS_UPGRADE_3	40442
+#define II_PET_SS_UPGRADE_4	40443
+#define II_PET_SS_UPGRADE_5	40444
+#define II_PET_SS_UPGRADE_6	40445
+#define II_PET_SS_UPGRADE_7	40446
+
+//Casino Box
+#define II_SYS_SYS_SCR_BXMACARON 40447
+#define II_SYS_SYS_SCR_BAR 40448
+#define II_SYS_SYS_SCR_BXCASINO 40449
+#define II_SYS_SYS_SCR_BXBIKE 40450
+#define II_SYS_SYS_SCR_BXCANDY 40451
+#define II_SYS_SYS_SCR_BXSTONES 40452
+#define II_SYS_SYS_SCR_BXFLASKSKILL 40453
+#define II_SYS_SYS_SCR_BXFLASK 40454
+#define II_SYS_SYS_SCR_BAR_1 40455
+#define II_SYS_SYS_SCR_BAR_2 40456
+#define II_SYS_SYS_SCR_BXSTONES_1 40457
+#define II_SYS_SYS_SCR_BXSTONES_2 40458
+#define II_SYS_SYS_SCR_FLASKXL 40459
+#define II_ARM_M_CHR_CASINOROYAL01GLOVES 40460
+#define II_ARM_F_CHR_CASINOROYAL01GLOVES 40461
+#define II_GEN_GEM_CRAFTMATERIAL432 40462
+
+//Beta Rewards BOX F/M
+#define II_SYS_SYS_SCR_BETABOXM     40463
+#define II_SYS_SYS_SCR_BETABOXF     40464
+
+//Crafting Glyphs
+#define II_ARM_S_GLYPH_HEAL_1_1	    40465
+#define II_ARM_S_GLYPH_HEAL_2_2	    40466
+#define II_ARM_S_GLYPH_HEAL_3_3	    40467
+#define II_ARM_S_GLYPH_HEAL_4_4	    40468
+#define II_ARM_S_GLYPH_HEAL_5_5	    40469
+#define II_ARM_S_GLYPH_RUN_1_1  	 40470
+#define II_ARM_S_GLYPH_RUN_2_2  	 40471
+#define II_ARM_S_GLYPH_RUN_3_3  	 40472
+#define II_ARM_S_GLYPH_RUN_4_4  	 40473
+#define II_ARM_S_GLYPH_RUN_5_5  	 40474
+#define II_ARM_S_GLYPH_SKILL_1_1    40475
+#define II_ARM_S_GLYPH_SKILL_2_2    40476
+#define II_ARM_S_GLYPH_SKILL_3_3    40477
+#define II_ARM_S_GLYPH_SKILL_4_4    40478
+#define II_ARM_S_GLYPH_SKILL_5_5    40479
+#define II_ARM_S_GLYPH_DEFENCE_1_1  40480
+#define II_ARM_S_GLYPH_DEFENCE_2_2  40481
+#define II_ARM_S_GLYPH_DEFENCE_3_3  40482
+#define II_ARM_S_GLYPH_DEFENCE_4_4  40483
+#define II_ARM_S_GLYPH_DEFENCE_5_5  40484
+#define II_ARM_S_GLYPH_MEFENCE_1_1  40485
+#define II_ARM_S_GLYPH_MEFENCE_2_2  40486
+#define II_ARM_S_GLYPH_MEFENCE_3_3  40487
+#define II_ARM_S_GLYPH_MEFENCE_4_4  40488
+#define II_ARM_S_GLYPH_MEFENCE_5_5  40489
+#define II_ARM_S_GLYPH_MONSTER_1_1  40490
+#define II_ARM_S_GLYPH_MONSTER_2_2  40491
+#define II_ARM_S_GLYPH_MONSTER_3_3  40492
+#define II_ARM_S_GLYPH_MONSTER_4_4  40493
+#define II_ARM_S_GLYPH_MONSTER_5_5  40494
+#define II_ARM_S_GLYPH_LUCK_1_1     40495   
+#define II_ARM_S_GLYPH_LUCK_2_2     40496   
+#define II_ARM_S_GLYPH_LUCK_3_3     40497   
+#define II_ARM_S_GLYPH_LUCK_4_4     40498   
+#define II_ARM_S_GLYPH_LUCK_5_5     40499   
+#define II_ARM_S_GLYPH_PENYA_1_1    40500	
+#define II_ARM_S_GLYPH_PENYA_2_2    40501	
+#define II_ARM_S_GLYPH_PENYA_3_3    40502	
+#define II_ARM_S_GLYPH_PENYA_4_4    40503	
+#define II_ARM_S_GLYPH_PENYA_5_5    40504	
+#define II_ARM_S_GLYPH_EXP_1_1      40505   
+#define II_ARM_S_GLYPH_EXP_2_2      40506   
+#define II_ARM_S_GLYPH_EXP_3_3      40507   
+#define II_ARM_S_GLYPH_EXP_4_4      40508   
+#define II_ARM_S_GLYPH_EXP_5_5      40509   
+#define II_ARM_S_GLYPH_PETEXP_1_1   40510	
+#define II_ARM_S_GLYPH_PETEXP_2_2   40511	
+#define II_ARM_S_GLYPH_PETEXP_3_3   40512	
+#define II_ARM_S_GLYPH_PETEXP_4_4   40513	
+#define II_ARM_S_GLYPH_PETEXP_5_5   40514	
+#define II_ARM_S_GLYPH_RECOVERY_1_1 40515
+#define II_ARM_S_GLYPH_RECOVERY_2_2 40516
+#define II_ARM_S_GLYPH_RECOVERY_3_3 40517
+#define II_ARM_S_GLYPH_RECOVERY_4_4 40518
+#define II_ARM_S_GLYPH_RECOVERY_5_5 40519
+#define II_ARM_S_GLYPH_HPKILL_1_1   40520	
+#define II_ARM_S_GLYPH_HPKILL_2_2   40521	
+#define II_ARM_S_GLYPH_HPKILL_3_3   40522	
+#define II_ARM_S_GLYPH_HPKILL_4_4   40523	
+#define II_ARM_S_GLYPH_HPKILL_5_5   40524	
+#define II_ARM_S_GLYPH_FPKILL_1_1   40525	
+#define II_ARM_S_GLYPH_FPKILL_2_2   40526	
+#define II_ARM_S_GLYPH_FPKILL_3_3   40527	
+#define II_ARM_S_GLYPH_FPKILL_4_4   40528	
+#define II_ARM_S_GLYPH_FPKILL_5_5   40529	
+#define II_ARM_S_GLYPH_MPKILL_1_1   40530	
+#define II_ARM_S_GLYPH_MPKILL_2_2   40531	
+#define II_ARM_S_GLYPH_MPKILL_3_3   40532	
+#define II_ARM_S_GLYPH_MPKILL_4_4   40533	
+#define II_ARM_S_GLYPH_MPKILL_5_5   40534  
+#define II_ARM_S_GLYPH_SOUL_1_1     40535   
+#define II_ARM_S_GLYPH_SOUL_2_2     40536   
+#define II_ARM_S_GLYPH_SOUL_3_3     40537   
+#define II_ARM_S_GLYPH_SOUL_4_4     40538   
+#define II_ARM_S_GLYPH_SOUL_5_5     40539   
+
+
+// Trickster's - Models 2023 - Kiyo
+#define II_ARM_S_CLO_CLO_VL22	40540       //Zuamus Cloak
+#define II_ARM_S_CLO_CLO_WINGVL22	40541       //Gishilam Wings
+#define II_WEA_AXE_VL22	        40542       //Trickster's Axe
+#define II_WEA_AXT_VL22	        40543       //Trickster's Big Axe
+#define II_ARM_ARM_BOK_VL22	    40544       //Trickster's Book
+#define II_WEA_BOW_VL22	        40545       //Trickster's Bow
+#define II_WEA_CHE_VL22	        40546       //Trickster's Stick
+#define II_WEA_KNU_VL22	        40547       //Trickster's Knuckle
+#define II_ARM_ARM_SHI_VL22	    40548       //Trickster's Shield
+#define II_WEA_STA_VL22	        40549       //Trickster's Staff
+#define II_WEA_SWO_VL22	        40550       //Trickster's Sword
+#define II_WEA_SWT_VL22	        40551       //Trickster's Big Sword
+#define II_WEA_WAN_VL22	        40552       //Trickster's Wand
+#define II_WEA_YOY_VL22	        40553       //Trickster's Yo-Yo
+#define II_ARM_ARM_ZEM_VL22	    40554       //Trickster's Zem
+
+#define	II_ANI_F_SUCCVALPINKHAT 	40556
+#define	II_ARM_F_SUCCVALPINKGLOVES	40557
+#define	II_ARM_F_SUCCVALPINKSUIT	40558
+#define	II_ARM_F_SUCCVALPINKSHOES	40559
+#define	II_SYS_SCR_BXFSUCCVALPINK	40560
+#define	II_ANI_M_SUCCVALPINKHAT 	40561
+#define	II_ARM_M_SUCCVALPINKGLOVE	40562
+#define	II_ARM_M_SUCCVALPINKSUIT	40563
+#define	II_ARM_M_SUCCVALPINKSHOES	40564
+#define	II_SYS_SCR_BXMSUCCVALPINK	40565
+#define	II_ANI_F_SUCCVALGREEHAT 	40566
+#define	II_ARM_F_SUCCVALGREEGLOVES	40567
+#define	II_ARM_F_SUCCVALGREESUIT	40568
+#define	II_ARM_F_SUCCVALGREESHOES	40569
+#define	II_SYS_SCR_BXFSUCCVALGREE	40570
+#define	II_ANI_M_SUCCVALGREEHAT 	40571
+#define	II_ARM_M_SUCCVALGREEGLOVE	40572
+#define	II_ARM_M_SUCCVALGREESUIT	40573
+#define	II_ARM_M_SUCCVALGREESHOES	40574
+#define	II_SYS_SCR_BXMSUCCVALGREE	40575
+#define	II_ANI_F_SUCCVALREDHAT  	40576
+#define	II_ARM_F_SUCCVALREDGLOVES	40577
+#define	II_ARM_F_SUCCVALREDSUIT 	40578
+#define	II_ARM_F_SUCCVALREDSHOES	40579
+#define	II_SYS_SCR_BXFSUCCVALRED	40580
+#define	II_ANI_M_SUCCVALREDHAT	    40581
+#define	II_ARM_M_SUCCVALREDGLOVE	40582
+#define	II_ARM_M_SUCCVALREDSUIT 	40583
+#define	II_ARM_M_SUCCVALREDSHOES	40584
+#define	II_SYS_SCR_BXMSUCCVALRED	40585
+#define	II_ANI_F_SUCCVALPURPHAT  	40586
+#define	II_ARM_F_SUCCVALPURPGLOVES	40587
+#define	II_ARM_F_SUCCVALPURPSUIT	40589
+#define	II_ARM_F_SUCCVALPURPSHOES	40590
+#define	II_SYS_SCR_BXFSUCCVALPURP	40591
+#define	II_ANI_M_SUCCVALPURPHAT 	40592
+#define	II_ARM_M_SUCCVALPURPGLOVE	40593
+#define	II_ARM_M_SUCCVALPURPSUIT	40594
+#define	II_ARM_M_SUCCVALPURPSHOES	40595
+#define	II_SYS_SCR_BXMSUCCVALPURP	40596
+
+#define II_SYS_SYS_SCR_DEKANE 		40597 //Dekane AMP
+
+#define II_VOTE_BUFF_01				40598
+#define II_VOTE_BUFF_02				40599
+#define II_VOTE_BUFF_03				40600
+#define II_VOTE_BUFF_04				40601
+#define II_VOTE_BUFF_05				40602
+#define II_VOTE_BUFF_06				40603
+#define II_VOTE_BUFF_07				40604
+#define II_VOTE_BUFF_NONE			40605
+
+#define II_VOTE_BUFF_08             40606
+#define II_VOTE_BUFF_09             40607
+#define II_VOTE_BUFF_10             40608
+#define II_VOTE_BUFF_11             40609
+#define II_VOTE_BUFF_12             40610
+#define II_VOTE_BUFF_13             40611
+#define II_VOTE_BUFF_14             40612
+#define II_VOTE_BUFF_15             40613
+
+#define II_PET_098_1                40614
+// Last ID: 40615 19.08.23 (Breeze)
 
 
 
-
-
-
-// ##32767ÀÌ»ó ¾²Áö ¸¶½Ã¿À
-//120 ¼¼Æ® ¹æ¾î±¸ »óÀÚ (½Ç¼ö·Î µé¾î°£ »óÀÚ. »èÁ¦ÇÏÁö ¸¶¼¼¿ä!)
-#define	II_SYS_SYS_SCR_BXMKNT120SET	224882
-#define	II_SYS_SYS_SCR_BXMBLA120SET	224883
-#define	II_SYS_SYS_SCR_BXFKNT120SET	224884
-#define	II_SYS_SYS_SCR_BXFBLA120SET	224885
-#define	II_SYS_SYS_SCR_BXMJST120SET	224886
-#define	II_SYS_SYS_SCR_BXMRAG120SET	224887
-#define	II_SYS_SYS_SCR_BXFJST120SET	224888
-#define	II_SYS_SYS_SCR_BXFRAG120SET	224889
-#define	II_SYS_SYS_SCR_BXMRIN120SET	224890
-#define	II_SYS_SYS_SCR_BXMBIL120SET	224891
-#define	II_SYS_SYS_SCR_BXFRIN120SET	224892
-#define	II_SYS_SYS_SCR_BXFBIL120SET	224893
-#define	II_SYS_SYS_SCR_BXMPSY120SET	224894
-#define	II_SYS_SYS_SCR_BXMELE120SET	224895
-#define	II_SYS_SYS_SCR_BXFPSY120SET	224896
-#define	II_SYS_SYS_SCR_BXFELE120SET	224897
 #endif

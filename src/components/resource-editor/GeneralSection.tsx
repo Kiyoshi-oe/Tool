@@ -5,12 +5,13 @@ import { Input } from "../ui/input";
 import { itemKind1Options, itemKind2Options, itemKind3Options, jobOptions } from "../../utils/resourceEditorUtils";
 import { FormField } from "../ui/form-field";
 import { Textarea } from "../ui/textarea";
+import { Label } from "../ui/label";
 import { getItemIdFromDefine } from "../../utils/file/defineItemParser";
 import { getModelFileNameFromDefine } from "../../utils/file/mdlDynaParser";
 import { getFileExtension, isSupportedImageFormat, getIconPath, loadImage } from "../../utils/imageLoaders";
 import { useEffect, useState } from "react";
 import { Texture } from "three";
-import { AlertTriangle, ImageIcon } from "lucide-react";
+import { AlertTriangle, ImageIcon, Info } from "lucide-react";
 import ModernToggle from "../ModernToggle";
 
 interface GeneralSectionProps {
@@ -96,41 +97,32 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
     <div className="mb-6">
       <h2 className="text-cyrus-blue text-lg font-semibold mb-2">General</h2>
       <div className="grid grid-cols-2 gap-4">
-        <div className="form-field">
-          <label className="form-label">Item ID</label>
-          <Input
-            type="text"
-            className="form-input text-[#707070]"
-            value={itemId}
-            disabled={true}
-            readOnly
-          />
-          <p className="text-xs text-gray-500 mt-1">
-            {itemId ? `ID from defineItem.h` : 'No ID found in defineItem.h'}
-          </p>
-        </div>
+        <FormField
+          id="item-id"
+          label="Item ID"
+          value={itemId}
+          onChange={() => {}} // No onChange needed for read-only fields
+          disabled={true}
+          helperText={itemId ? `ID from defineItem.h` : 'No ID found in defineItem.h'}
+        />
         
-        <div className="form-field">
-          <label className="form-label">Define</label>
-          <Input
-            type="text"
-            className="form-input text-[#707070]"
-            value={itemDefine}
-            onChange={(e) => handleDataChange('dwID', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="define"
+          label="Define"
+          value={itemDefine}
+          onChange={(value) => handleDataChange('dwID', value)}
+          disabled={!editMode}
+          helperText="Item definition identifier (e.g. II_WEA_AXE_RODNEY)"
+        />
         
-        <div className="form-field">
-          <label className="form-label">InGame Name</label>
-          <Input
-            type="text"
-            className="form-input text-[#707070]"
-            value={displayName}
-            onChange={(e) => handleDataChange('displayName', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
+        <FormField
+          id="ingame-name"
+          label="InGame Name"
+          value={displayName}
+          onChange={(value) => handleDataChange('displayName', value)}
+          disabled={!editMode}
+          helperText="Name displayed in game"
+        />
         
         <div className="form-field col-span-2">
           <label className="form-label">Description</label>
@@ -141,6 +133,10 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
             disabled={!editMode}
             placeholder="Item description"
           />
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Detailed description of the item</span>
+          </p>
         </div>
         
         <div className="form-field col-span-2">
@@ -193,41 +189,36 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
               Unsupported file format. Supported formats: PNG, JPG, JPEG, GIF, BMP, WEBP, DDS
             </p>
           )}
-        </div>
-        
-        <div className="form-field">
-          <label className="form-label">File Name</label>
-          <Input
-            type="text"
-            className="form-input text-[#707070]"
-            value={modelFileName}
-            disabled={true}
-            readOnly
-          />
-          <p className="text-xs text-gray-500 mt-1">
-            {modelFileName ? `Filename from mdlDyna.inc` : 'No filename found in mdlDyna.inc'}
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Icon image displayed in game inventory</span>
           </p>
         </div>
         
-        <div className="form-field">
-          <label className="form-label">Stack Size</label>
-          <Input
-            type="number"
-            className="form-input text-[#707070]"
-            value={localItem.data.dwPackMax as string || '1'}
-            onChange={(e) => {
-              const value = parseInt(e.target.value);
-              if (value <= 9999) {
-                handleDataChange('dwPackMax', e.target.value);
-              }
-            }}
-            disabled={!editMode}
-            max={9999}
-          />
-          <p className="text-xs text-gray-500 mt-1">
-            Maximum stack size: 9999
-          </p>
-        </div>
+        <FormField
+          id="file-name"
+          label="File Name"
+          value={modelFileName}
+          onChange={() => {}} // No onChange needed for read-only fields
+          disabled={true}
+          helperText={modelFileName ? `Filename from mdlDyna.inc` : 'No filename found in mdlDyna.inc'}
+        />
+        
+        <FormField
+          id="stack-size"
+          label="Stack Size"
+          type="number"
+          value={localItem.data.dwPackMax as string || '1'}
+          onChange={(value) => {
+            const numValue = parseInt(value);
+            if (numValue <= 9999) {
+              handleDataChange('dwPackMax', value);
+            }
+          }}
+          disabled={!editMode}
+          max={9999}
+          helperText="Maximum stack size: 9999"
+        />
         
         <div className="form-field">
           <label className="form-label">Item Kind 1</label>
@@ -244,6 +235,10 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
             </select>
             <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
           </div>
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Primary item category (e.g. Weapon, Armor)</span>
+          </p>
         </div>
         
         <div className="form-field">
@@ -261,6 +256,10 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
             </select>
             <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
           </div>
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Secondary item category</span>
+          </p>
         </div>
         
         <div className="form-field">
@@ -294,12 +293,35 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
               ))}
             </select>
             <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
+            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Item Job Class</span>
+          </p>
           </div>
         </div>
+
+        <FormField
+          id="gold-value"
+          label="Gold Value"
+          type="number"
+          value={localItem.data.dwCost as string || '0'}
+          onChange={(value) => handleDataChange('dwCost', value)}
+          disabled={!editMode}
+          helperText="In-game Shop Price"
+        />
         
+        <FormField
+          id="required-level"
+          label="Required Level"
+          type="number"
+          value={localItem.data.dwLimitLevel1 as string || '0'}
+          onChange={(value) => handleDataChange('dwLimitLevel1', value)}
+          disabled={!editMode}
+          helperText="Minimum character level required to use this item"
+        />
         <div className="form-field">
-          <label className="form-label">Tradable</label>
-          <div className="mt-2">
+        <label className="form-label">Tradable</label>
+        <div className="mt-2">
             <ModernToggle
               value={localItem.data.bPermanence === "1"}
               onChange={(value) => handleDataChange('bPermanence', value ? "1" : "0")}
@@ -309,30 +331,9 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
             />
           </div>
         </div>
-        
-        <div className="form-field">
-          <label className="form-label">Gold Value</label>
-          <Input
-            type="number"
-            className="form-input text-[#707070]"
-            value={localItem.data.dwCost as string || '0'}
-            onChange={(e) => handleDataChange('dwCost', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
-        
-        <div className="form-field">
-          <label className="form-label">Required Level</label>
-          <Input
-            type="number"
-            className="form-input text-[#707070]"
-            value={localItem.data.dwLimitLevel1 as string || '0'}
-            onChange={(e) => handleDataChange('dwLimitLevel1', e.target.value)}
-            disabled={!editMode}
-          />
-        </div>
       </div>
     </div>
+
   );
 };
 

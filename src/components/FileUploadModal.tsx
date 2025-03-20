@@ -26,6 +26,7 @@ const FileUploadModal = ({ onFileLoaded, onCancel, isVisible, source = 'header' 
     setIsLoading(true);
     setLoadingMessage("Loading resource files...");
     
+    console.log("Loading predefined resource files...");
     loadPredefinedFiles()
       .then(({ specItem, propItem }) => {
         if (!specItem) {
@@ -34,11 +35,16 @@ const FileUploadModal = ({ onFileLoaded, onCancel, isVisible, source = 'header' 
         }
         
         console.log("Spec_item.txt loaded successfully, content length:", specItem.length);
+        console.log("Spec_item.txt first 100 chars:", specItem.substring(0, 100));
+        
         if (propItem) {
           console.log("propItem.txt.txt loaded successfully, content length:", propItem.length);
+          console.log("propItem.txt.txt first 100 chars:", propItem?.substring(0, 100));
         } else {
           console.warn("propItem.txt.txt could not be loaded or is empty");
         }
+        
+        console.log("Calling onFileLoaded with specItem and propItem");
         
         toast.success("Loaded resource files successfully");
         onFileLoaded(specItem, propItem || "");

@@ -7,15 +7,8 @@
  * 3. Add protection against malicious content
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import iconv from 'iconv-lite';
-
-// Get the directory name for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 // Function to check if a string is valid JSON
 function isValidJSON(str) {
@@ -66,6 +59,9 @@ function saveToResourceFolder(filePath, data) {
   console.log(`- Prop item file: ${isPropItemFile}`);
   
   try {
+    // Convert UTF-8 to ANSI (Windows-1252) if needed
+    const iconv = require('iconv-lite');
+    
     if (isJsonFile && isValidJSON(data)) {
       // Only parse and format if it's explicitly a JSON file and contains valid JSON
       console.log(`Saving as formatted JSON: ${filePath}`);
@@ -127,7 +123,7 @@ function saveToResourceFolder(filePath, data) {
 }
 
 // Handle the POST request
-export async function handler(req, res) {
+exports.handler = async (req, res) => {
   // Only accept POST requests
   if (req.method !== 'POST') {
     return res.status(405).json({ success: false, error: 'Method not allowed' });
@@ -311,4 +307,4 @@ export async function handler(req, res) {
       details: error.message
     });
   }
-}
+};

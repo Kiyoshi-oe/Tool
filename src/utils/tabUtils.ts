@@ -34,7 +34,11 @@ export const getFilteredItems = (fileData: any, currentTab: string): ResourceIte
     return filtered;
   }
   
-  const filtered = fileData.items.filter((item: ResourceItem) => getItemTab(item) === currentTab);
+  const filtered = fileData.items.filter((item: ResourceItem) => {
+    const itemTab = getItemTab(item);
+    console.log(`Item ${item.id} has dwItemKind1: ${item.data.dwItemKind1}, mapped to tab: ${itemTab}`);
+    return itemTab === currentTab;
+  });
   console.log(`Filtered ${currentTab} items: ${filtered.length}`);
   if (filtered.length > 0) {
     console.log("First filtered item:", filtered[0]);
