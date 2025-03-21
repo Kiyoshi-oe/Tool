@@ -250,14 +250,14 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
         <div className="form-field col-span-2">
           <label className="form-label">Item Icon</label>
           <div className="flex items-center space-x-4">
-            <Input
-              type="text"
-              className="form-input flex-grow text-[#707070]"
-              value={iconName}
-              onChange={(e) => handleDataChange('szIcon', e.target.value)}
-              disabled={!editMode}
-              placeholder="e.g. itm_WeaAxeCurin.png"
-            />
+          <Input
+            type="text"
+            className="form-input flex-grow text-[#707070]"
+            value={cleanedIconName}
+            onChange={(e) => handleDataChange('szIcon', e.target.value)}
+            disabled={!editMode}
+            placeholder="e.g. itm_WeaAxeCurin.png"
+          />
             <div className="border border-gray-600 bg-gray-800 w-12 h-12 flex items-center justify-center rounded overflow-hidden relative">
               {loadingImage && (
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-70 z-10">
