@@ -9007,7 +9007,7 @@
 #define	II_SYS_SYS_SCR_PKPENALTYSCROLL_1_3	24175	//������ �η縶��(20)
 
 #define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_1	24176	//������ �η縶��(1)
-#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_2	24177	//������ �η縶��(3)
+#define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_2	24177	//������� �η縶��(3)
 #define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_3	24178	//������ �η縶��(5)
 #define	II_SYS_SYS_SCR_PKPENALTYSCROLL_2_4	24179	//������ �η縶��(20)
 

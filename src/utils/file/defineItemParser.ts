@@ -1,5 +1,6 @@
 
 import { toast } from "sonner";
+import { trackModifiedFile } from "./fileOperations";
 
 // Interface for storing item define mappings
 interface ItemDefineMapping {
@@ -8,9 +9,13 @@ interface ItemDefineMapping {
 
 // Global cache for item define mappings
 let itemDefineMappings: ItemDefineMapping = {};
+// Store the original file content so we can modify it correctly
+let originalDefineItemContent = "";
 
 // Parse defineItem.h file content
 export const parseDefineItemFile = (content: string): void => {
+  // Store the original content
+  originalDefineItemContent = content;
   try {
     console.log("Parsing defineItem.h file...");
     
@@ -66,6 +71,53 @@ export const getItemIdFromDefine = (defineName: string): string => {
 // Get all available item define mappings
 export const getItemDefineMappings = (): ItemDefineMapping => {
   return itemDefineMappings;
+};
+
+// Update an item ID in the defineItem.h file
+export const updateItemIdInDefine = (defineName: string, newId: string): boolean => {
+  if (!defineName || !newId || !originalDefineItemContent) {
+    console.error("Missing data for updating defineItem.h");
+    return false;
+  }
+
+  try {
+    // Clean the input from any quotes
+    const cleanDefineName = defineName.replace(/^"+|"+$/g, '');
+    
+    // Check if this define exists in our mappings
+    if (!(cleanDefineName in itemDefineMappings)) {
+      console.error(`Define name ${cleanDefineName} not found in defineItem.h`);
+      return false;
+    }
+
+    // Update the mapping in memory
+    const oldId = itemDefineMappings[cleanDefineName];
+    itemDefineMappings[cleanDefineName] = newId;
+    
+    console.log(`Updating item ID for ${cleanDefineName}: ${oldId} → ${newId}`);
+    
+    // Update the file content - we need to replace the exact define line
+    const defineRegex = new RegExp(`(#define\\s+${cleanDefineName}\\s+)\\d+`, 'g');
+    const updatedContent = originalDefineItemContent.replace(defineRegex, `$1${newId}`);
+    
+    // Check if the content was actually changed
+    if (updatedContent === originalDefineItemContent) {
+      console.warn(`No changes were made to defineItem.h for ${cleanDefineName}`);
+      return false;
+    }
+    
+    // Track the modified file to be saved
+    trackModifiedFile("defineItem.h", updatedContent);
+    console.log(`defineItem.h modified: ${cleanDefineName} ID updated to ${newId}`);
+    
+    // Update our original content to reflect the changes
+    originalDefineItemContent = updatedContent;
+    
+    return true;
+  } catch (error) {
+    console.error("Error updating defineItem.h:", error);
+    return false;
+  }
 };
 
 // Function to load defineItem.h from public folder

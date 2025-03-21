@@ -1,18 +1,26 @@
-
 import { ResourceItem } from "../../types/fileTypes";
 import { ChevronDown } from "lucide-react";
 import { Input } from "../ui/input";
-import { itemKind1Options, itemKind2Options, itemKind3Options, jobOptions } from "../../utils/resourceEditorUtils";
+import { itemKind1Options, itemKind2Options, itemKind3Options, jobOptions, itemGradeOptions } from "../../utils/resourceEditorUtils";
 import { FormField } from "../ui/form-field";
 import { Textarea } from "../ui/textarea";
 import { Label } from "../ui/label";
 import { getItemIdFromDefine } from "../../utils/file/defineItemParser";
 import { getModelFileNameFromDefine } from "../../utils/file/mdlDynaParser";
 import { getFileExtension, isSupportedImageFormat, getIconPath, loadImage } from "../../utils/imageLoaders";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Texture } from "three";
 import { AlertTriangle, ImageIcon, Info } from "lucide-react";
 import ModernToggle from "../ModernToggle";
+import { 
+  Dialog, 
+  DialogContent, 
+  DialogDescription, 
+  DialogFooter, 
+  DialogHeader, 
+  DialogTitle 
+} from "../ui/dialog";
+import { Button } from "../ui/button";
 
 interface GeneralSectionProps {
   localItem: ResourceItem;
@@ -20,12 +28,102 @@ interface GeneralSectionProps {
   handleDataChange: (field: string, value: string | number | boolean) => void;
 }
 
+type EditableField = 'itemId' | 'modelFileName';
+
 const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectionProps) => {
+  // Dialog state
+  const [showConfirmDialog, setShowConfirmDialog] = useState(false);
+  const [fieldBeingEdited, setFieldBeingEdited] = useState<EditableField | null>(null);
+  const [tempValue, setTempValue] = useState('');
+  const itemIdRef = useRef<HTMLInputElement>(null);
+  const fileNameRef = useRef<HTMLInputElement>(null);
+  
+  // Track which fields have been approved for editing
+  const [approvedFields, setApprovedFields] = useState<Set<EditableField>>(new Set());
+  
+  // Reset approved fields when edit mode changes
+  useEffect(() => {
+    setApprovedFields(new Set());
+  }, [editMode]);
+
   const [imageError, setImageError] = useState(false);
   const [loadingImage, setLoadingImage] = useState(false);
   const [imageType, setImageType] = useState<"generic" | "dds" | "none">("none");
   const [imageElement, setImageElement] = useState<HTMLImageElement | null>(null);
   const [ddsTexture, setDdsTexture] = useState<Texture | null>(null);
+  
+  // Handle when a sensitive field is focused
+  const handleSensitiveFieldFocus = (field: EditableField, currentValue: string) => {
+    if (editMode) {
+      // Only show the dialog if the field hasn't been approved yet
+      if (!approvedFields.has(field)) {
+        setFieldBeingEdited(field);
+        setTempValue(currentValue);
+        setShowConfirmDialog(true);
+      }
+    }
+  };
+  
+  // Handle when user confirms the edit
+  const handleConfirmEdit = () => {
+    setShowConfirmDialog(false);
+    
+    // Add the field to approved fields to prevent the dialog from appearing again
+    if (fieldBeingEdited) {
+      setApprovedFields(prev => {
+        const newSet = new Set(prev);
+        newSet.add(fieldBeingEdited);
+        return newSet;
+      });
+    }
+    
+    // Keep focus on the field for editing
+    setTimeout(() => {
+      if (fieldBeingEdited === 'itemId' && itemIdRef.current) {
+        itemIdRef.current.focus();
+      } else if (fieldBeingEdited === 'modelFileName' && fileNameRef.current) {
+        fileNameRef.current.focus();
+      }
+    }, 100);
+  };
+  
+  // Handle when user cancels the edit
+  const handleCancelEdit = () => {
+    setShowConfirmDialog(false);
+    
+    // Blur the current field to prevent editing
+    if (fieldBeingEdited === 'itemId' && itemIdRef.current) {
+      itemIdRef.current.blur();
+    } else if (fieldBeingEdited === 'modelFileName' && fileNameRef.current) {
+      fileNameRef.current.blur();
+    }
+    
+    setFieldBeingEdited(null);
+  };
+  
+  // Get dialog title and description based on field being edited
+  const getDialogContent = () => {
+    switch(fieldBeingEdited) {
+      case 'itemId':
+        return {
+          title: 'Warning: Editing Item ID',
+          description: 'Changing the item ID may lead to compatibility issues. Do you really want to modify this field?'
+        };
+      case 'modelFileName':
+        return {
+          title: 'Warning: Editing File Name',
+          description: 'Changing the file name may lead to rendering issues. Do you really want to modify this field?'
+        };
+      default:
+        return {
+          title: 'Warning',
+          description: 'This field contains important system data. Do you really want to modify it?'
+        };
+    }
+  };
+  
+  // Dialog content based on current field
+  const dialogContent = getDialogContent();
   
   // The ID from propItem.txt.txt (e.g. IDS_PROPITEM_TXT_000124)
   const propItemId = localItem.data.szName as string || '';
@@ -97,14 +195,24 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
     <div className="mb-6">
       <h2 className="text-cyrus-blue text-lg font-semibold mb-2">General</h2>
       <div className="grid grid-cols-2 gap-4">
-        <FormField
-          id="item-id"
-          label="Item ID"
-          value={itemId}
-          onChange={() => {}} // No onChange needed for read-only fields
-          disabled={true}
-          helperText={itemId ? `ID from defineItem.h` : 'No ID found in defineItem.h'}
-        />
+        {/* Item ID field with onFocus handler */}
+        <div className="form-field">
+          <label htmlFor="item-id" className="form-label">Item ID</label>
+          <Input
+            ref={itemIdRef}
+            id="item-id"
+            type="text"
+            value={itemId}
+            onChange={(e) => handleDataChange('itemId', e.target.value)}
+            disabled={!editMode}
+            className="form-input text-[#707070]"
+            onFocus={() => handleSensitiveFieldFocus('itemId', itemId)}
+          />
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <AlertTriangle size={14} className="text-yellow-500" />
+            <span>{itemId ? `ID from defineItem.h - Edit with caution` : 'No ID found in defineItem.h'}</span>
+          </p>
+        </div>
         
         <FormField
           id="define"
@@ -195,14 +303,24 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           </p>
         </div>
         
-        <FormField
-          id="file-name"
-          label="File Name"
-          value={modelFileName}
-          onChange={() => {}} // No onChange needed for read-only fields
-          disabled={true}
-          helperText={modelFileName ? `Filename from mdlDyna.inc` : 'No filename found in mdlDyna.inc'}
-        />
+        {/* File Name field with onFocus handler */}
+        <div className="form-field">
+          <label htmlFor="file-name" className="form-label">File Name</label>
+          <Input
+            ref={fileNameRef}
+            id="file-name"
+            type="text"
+            value={modelFileName}
+            onChange={(e) => handleDataChange('modelFileName', e.target.value)}
+            disabled={!editMode}
+            className="form-input text-[#707070]"
+            onFocus={() => handleSensitiveFieldFocus('modelFileName', modelFileName)}
+          />
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <AlertTriangle size={14} className="text-yellow-500" />
+            <span>{modelFileName ? `Filename from mdlDyna.inc - Edit with caution` : 'No filename found in mdlDyna.inc'}</span>
+          </p>
+        </div>
         
         <FormField
           id="stack-size"
@@ -301,6 +419,37 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
         </div>
 
         <FormField
+          id="required-level"
+          label="Required Level"
+          type="number"
+          value={localItem.data.dwLimitLevel1 as string || '0'}
+          onChange={(value) => handleDataChange('dwLimitLevel1', value)}
+          disabled={!editMode}
+          helperText="Minimum character level required to use this item"
+        />
+        
+        <div className="form-field">
+          <label className="form-label">Item Rarity</label>
+          <div className="relative">
+            <select
+              className="form-input appearance-none pr-10 text-[#707070]"
+              value={localItem.data.dwItemGrade as string || 'ITEM_GRADE_NORMAL'}
+              onChange={(e) => handleDataChange('dwItemGrade', e.target.value)}
+              disabled={!editMode}
+            >
+              {itemGradeOptions.map(option => (
+                <option key={option} value={option}>{option}</option>
+              ))}
+            </select>
+            <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
+          </div>
+          <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
+            <Info size={14} />
+            <span>Rarity level of the item</span>
+          </p>
+        </div>
+        
+        <FormField
           id="gold-value"
           label="Gold Value"
           type="number"
@@ -310,18 +459,9 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           helperText="In-game Shop Price"
         />
         
-        <FormField
-          id="required-level"
-          label="Required Level"
-          type="number"
-          value={localItem.data.dwLimitLevel1 as string || '0'}
-          onChange={(value) => handleDataChange('dwLimitLevel1', value)}
-          disabled={!editMode}
-          helperText="Minimum character level required to use this item"
-        />
         <div className="form-field">
-        <label className="form-label">Tradable</label>
-        <div className="mt-2">
+          <label className="form-label">Tradable</label>
+          <div className="mt-2">
             <ModernToggle
               value={localItem.data.bPermanence === "1"}
               onChange={(value) => handleDataChange('bPermanence', value ? "1" : "0")}
@@ -332,8 +472,42 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           </div>
         </div>
       </div>
+      
+      {/* Confirmation Dialog */}
+      <Dialog open={showConfirmDialog} onOpenChange={setShowConfirmDialog}>
+        <DialogContent className="sm:max-w-md border border-gray-600 bg-gray-900 shadow-lg">
+          <DialogHeader className="flex flex-row items-center gap-3 pb-2">
+            <div className="rounded-full bg-yellow-500 bg-opacity-20 p-2">
+              <AlertTriangle className="h-6 w-6 text-yellow-500" />
+            </div>
+            <div>
+              <DialogTitle className="text-cyrus-blue text-lg font-semibold">{dialogContent.title}</DialogTitle>
+              <DialogDescription className="text-gray-300 mt-1">
+                {dialogContent.description}
+              </DialogDescription>
+            </div>
+          </DialogHeader>
+          <div className="my-2 border-t border-gray-700"></div>
+          <div className="flex justify-center">
+            <DialogFooter className="flex justify-center gap-4 mt-4 space-x-4">
+              <Button 
+                variant="outline" 
+                onClick={handleCancelEdit}
+                className="border-red-800 bg-red-900 text-white hover:bg-red-800 hover:border-red-700"
+              >
+                Cancel
+              </Button>
+              <Button 
+                onClick={handleConfirmEdit} 
+                className="bg-cyrus-blue hover:bg-blue-700 text-white"
+              >
+                I understand, edit
+              </Button>
+            </DialogFooter>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
-
   );
 };
 

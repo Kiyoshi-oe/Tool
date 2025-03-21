@@ -10,6 +10,9 @@ import ResistancesSection from "./resource-editor/ResistancesSection";
 import VisualPropertiesSection from "./resource-editor/VisualPropertiesSection";
 import SoundEffectsSection from "./resource-editor/SoundEffectsSection";
 import { trackModifiedFile, trackPropItemChanges } from "../utils/file/fileOperations";
+import { updateItemIdInDefine } from "../utils/file/defineItemParser";
+import { updateModelFileNameInMdlDyna } from "../utils/file/mdlDynaParser";
+import { toast } from "sonner";
 
 interface ResourceEditorProps {
   item: ResourceItem;
@@ -63,6 +66,34 @@ const ResourceEditor = ({ item, onUpdateItem, editMode = false }: ResourceEditor
         localItem.displayName || '', 
         value as string
       );
+    } else if (field === 'itemId') {
+      // Special handling for item ID changes (defineItem.h updates)
+      const defineName = localItem.data.dwID as string;
+      const success = updateItemIdInDefine(defineName, value as string);
+      
+      if (success) {
+        toast.success(`Updated item ID in defineItem.h`);
+      } else {
+        toast.error(`Failed to update item ID in defineItem.h`);
+      }
+      
+      // This doesn't directly modify the ResourceItem data, as itemId is not stored in it
+      // It's retrieved from defineItem.h when needed
+      updatedItem = { ...localItem };
+    } else if (field === 'modelFileName') {
+      // Special handling for model filename changes (mdlDyna.inc updates)
+      const defineName = localItem.data.dwID as string;
+      const success = updateModelFileNameInMdlDyna(defineName, value as string);
+      
+      if (success) {
+        toast.success(`Updated model filename in mdlDyna.inc`);
+      } else {
+        toast.error(`Failed to update model filename in mdlDyna.inc`);
+      }
+      
+      // This doesn't directly modify the ResourceItem data, as modelFileName is not stored in it
+      // It's retrieved from mdlDyna.inc when needed
+      updatedItem = { ...localItem };
     } else {
       updatedItem = {
         ...localItem,
