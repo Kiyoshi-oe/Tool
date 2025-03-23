@@ -6,8 +6,8 @@ import { FormField } from "../ui/form-field";
 import { Textarea } from "../ui/textarea";
 import { Label } from "../ui/label";
 import { getItemIdFromDefine } from "../../utils/file/defineItemParser";
-import { getModelFileNameFromDefine } from "../../utils/file/mdlDynaParser";
-import { getFileExtension, isSupportedImageFormat, getIconPath, loadImage, ddsTextureToCanvas } from "../../utils/imageLoaders";
+import { getModelFileNameFromDefine, getModelNameFromDefine } from "../../utils/file/mdlDynaParser";
+import { getFileExtension, isSupportedImageFormat, getIconPath, loadImage } from "../../utils/imageLoaders";
 import { useEffect, useState, useRef } from "react";
 import { Texture } from "three";
 import { AlertTriangle, ImageIcon, Info } from "lucide-react";
@@ -51,7 +51,6 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
   const [imageType, setImageType] = useState<"generic" | "dds" | "none">("none");
   const [imageElement, setImageElement] = useState<HTMLImageElement | null>(null);
   const [ddsTexture, setDdsTexture] = useState<Texture | null>(null);
-  const [ddsCanvas, setDdsCanvas] = useState<HTMLCanvasElement | null>(null);
   
   // Handle when a sensitive field is focused
   const handleSensitiveFieldFocus = (field: EditableField, currentValue: string) => {
@@ -144,6 +143,9 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
   // Get the model filename from mdlDyna.inc
   const modelFileName = getModelFileNameFromDefine(itemDefine);
   
+  // Get the model name from mdlDyna.inc
+  const modelName = getModelNameFromDefine(itemDefine);
+  
   // Get icon name from item data and clean it
   const iconName = localItem.data.szIcon as string || '';
   const cleanedIconName = iconName.replace(/^"+|"+$/g, '');
@@ -156,7 +158,6 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
     setImageError(false);
     setImageElement(null);
     setDdsTexture(null);
-    setDdsCanvas(null);
     setImageType("none");
     
     if (!hasIcon || !iconPath) return;
@@ -175,24 +176,10 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           setImageElement(result);
           setImageType("generic");
           console.log("Loaded generic image successfully:", iconPath);
-        } else if (result instanceof Texture) { // Texture from DDS
+        } else { // Texture from DDS
           setDdsTexture(result);
           setImageType("dds");
           console.log("Loaded DDS texture successfully:", iconPath);
-          
-          // Convert DDS texture to canvas for display
-          try {
-            console.log("Converting DDS texture to canvas...");
-            const canvas = ddsTextureToCanvas(result);
-            setDdsCanvas(canvas);
-            console.log("Converted DDS texture to canvas:", canvas.width, "x", canvas.height);
-          } catch (error) {
-            console.error("Failed to convert DDS texture to canvas:", error);
-          }
-        } else if (result instanceof HTMLCanvasElement) { // Already converted canvas from B5G5R5A1_UNORM format
-          console.log("Received pre-converted canvas:", result.width, "x", result.height);
-          setDdsCanvas(result);
-          setImageType("dds");
         }
         setImageError(false);
       } catch (error) {
@@ -289,28 +276,11 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
                 />
               )}
               
-              {!loadingImage && imageType === "dds" && (
-                ddsCanvas ? (
-                  <img 
-                    src={ddsCanvas.toDataURL()}
-                    alt={cleanedIconName}
-                    className="max-w-full max-h-full object-contain"
-                    onError={(e) => {
-                      console.error("Error displaying canvas image:", e);
-                      setImageError(true);
-                    }}
-                  />
-                ) : ddsTexture ? (
-                  <div className="flex flex-col items-center justify-center text-xs text-green-400">
-                    <ImageIcon size={16} />
-                    <span>DDS</span>
-                  </div>
-                ) : (
-                  <div className="flex flex-col items-center justify-center text-xs text-amber-400">
-                    <AlertTriangle size={16} />
-                    <span>No Data</span>
-                  </div>
-                )
+              {!loadingImage && imageType === "dds" && ddsTexture && (
+                <div className="flex flex-col items-center justify-center text-xs text-green-400">
+                  <ImageIcon size={16} />
+                  <span>DDS</span>
+                </div>
               )}
               
               {!loadingImage && imageError && (
@@ -351,7 +321,11 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           />
           <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
             <AlertTriangle size={14} className="text-yellow-500" />
-            <span>{modelFileName ? `Filename from mdlDyna.inc - Edit with caution` : 'No filename found in mdlDyna.inc'}</span>
+            <span>
+              {localItem.data.dwItemKind1 === "IK1_ARMOR" 
+                ? `Model name from mdlDyna.inc (e.g. mVag01Foot)` 
+                : `Filename from mdlDyna.inc - Edit with caution`}
+            </span>
           </p>
         </div>
         

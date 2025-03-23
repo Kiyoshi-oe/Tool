@@ -1,4 +1,3 @@
-
 import { ResourceItem, FileData } from "../../types/fileTypes";
 import ResourceEditor from "../ResourceEditor";
 import SettingsPanel from "../SettingsPanel";
@@ -136,7 +135,7 @@ const MainContent = ({
   if (selectedItem) {
     return (
       <div className="flex-1 flex flex-col overflow-hidden">
-        <div className="flex items-center justify-between px-4 py-2 bg-cyrus-dark-lighter border-b border-cyrus-dark-lightest">
+        <div className="flex items-center justify-between px-4 py-0 bg-cyrus-dark-lighter border-b border-cyrus-dark-lightest">
           <div className="flex items-center">
             <Button
               variant="ghost"
@@ -162,7 +161,7 @@ const MainContent = ({
           
           <div className="flex items-center space-x-2">
             <span className="text-xs text-gray-400">
-              {editMode ? "Editing:" : "Viewing:"} {selectedItem.displayName || selectedItem.name}
+              
             </span>
           </div>
         </div>
