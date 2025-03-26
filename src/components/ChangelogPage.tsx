@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { ChevronLeft } from "lucide-react";
 
@@ -9,6 +8,23 @@ interface ChangelogEntry {
 }
 
 const changelogData: ChangelogEntry[] = [
+  {
+    version: "1.2.1",
+    date: "2024-05-29",
+    changes: [
+      "Performance-Optimierung für große Dateien (spec_item.txt)",
+      "Verbesserte Chunk-Verarbeitung für 20MB+ Dateien",
+      "Reduzierter Speicherverbrauch bei der Dateianalyse",
+      "Optimierte Ladezeiten durch effizientere Datenverarbeitung",
+      "Verbesserte Fehlerbehandlung bei Out-of-Memory-Situationen",
+      "Verbesserte Parser-Logik für mdlDyna.inc-Datei",
+      "Korrekte Anzeige von Dateinamen für alle Waffen-Items",
+      "Implementierung von Modellnamen-Anzeige für Armor-Items",
+      "Optimierte Verarbeitung der Dateistruktur mit robusterer Fehlerbehandlung",
+      "Entfernung des 'Viewing:'-Texts aus der Titelleiste",
+      "Dynamische Erkennung von Item-Eigenschaften ohne fest kodierte Listen"
+    ]
+  },
   {
     version: "1.2.0",
     date: "2023-11-15",

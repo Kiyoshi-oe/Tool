@@ -1,5 +1,12 @@
-
 import React from 'react';
+import { ResourceItem } from '../types/fileTypes';
+
+// Definiere die TabItem-Schnittstelle hier, da sie nicht exportiert wird
+interface TabItem {
+  id: string;
+  item: ResourceItem;
+  isTemporary: boolean;
+}
 
 // Define the Props interface for our Header component
 interface HeaderProps {
@@ -18,6 +25,7 @@ interface HeaderProps {
   onShowHome: () => void;
   onToggleEditMode: () => void;
   editMode: boolean;
+  openTabs?: Array<TabItem>;
 }
 
 // Export the Header component directly
@@ -37,7 +45,8 @@ const Header: React.FC<HeaderProps> = (props) => {
     onShowToDo,
     onShowHome,
     onToggleEditMode,
-    editMode
+    editMode,
+    openTabs
   } = props;
   
   // Common styles
@@ -46,6 +55,14 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="bg-cyrus-dark-light border-b border-gray-700 text-white p-2 flex justify-between items-center h-14">
       <div className="flex items-center">
+        <div className="flex items-center mr-2">
+          <img 
+            src="/lovable-uploads/icon_small.png" 
+            alt="Cyrus Tool Icon" 
+            className="h-8 w-8" 
+          />
+        </div>
+        
         <button 
           className={buttonClass}
           onClick={onFileMenuToggle}
@@ -66,22 +83,6 @@ const Header: React.FC<HeaderProps> = (props) => {
         </button>
         
         <div className="mx-2 text-gray-400">|</div>
-        
-        <div className="flex items-center">
-          <h1 className="text-lg font-medium text-cyrus-blue">{title}</h1>
-          {currentTab && (
-            <div className="flex items-center ml-2">
-              <span className="text-gray-400">»</span>
-              <span className="ml-2 text-cyrus-gold">{currentTab}</span>
-              {currentItem && (
-                <>
-                  <span className="mx-1 text-gray-400">»</span>
-                  <span className="text-green-400">{currentItem}</span>
-                </>
-              )}
-            </div>
-          )}
-        </div>
       </div>
       
       <div className="flex items-center space-x-2">
@@ -94,19 +95,22 @@ const Header: React.FC<HeaderProps> = (props) => {
         </button>
         
         <button 
-          className={buttonClass}
+          className={`${buttonClass} ${!currentItem ? 'opacity-50 cursor-not-allowed' : ''}`}
           onClick={onSave}
           aria-label="Save"
+          disabled={!currentItem}
+          title={currentItem ? "Save Current Tab" : "No tab selected to save"}
         >
-          Save
+          Save Current Tab
         </button>
         
         <button 
-          className={buttonClass}
+          className={`${buttonClass} ${!openTabs || openTabs.length === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
           onClick={onSaveAllFiles}
           aria-label="Save All"
+          title="Save All Open Tabs"
         >
-          Save All
+          Save All Tabs
         </button>
         
         <button 

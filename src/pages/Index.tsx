@@ -107,73 +107,94 @@ const Index = () => {
   }, [settings.autoSaveInterval, fileData, settings.enableLogging]);
   
   const handleSaveFile = async () => {
-    if (!fileData) return;
+    if (!fileData || !selectedItem) {
+      toast.warning("Keine Datei oder kein Element zum Speichern ausgewählt");
+      return;
+    }
     
     try {
+      // Wir speichern nur die Daten des aktuell ausgewählten Items
+      const itemToSave = fileData.items.find(item => item.id === selectedItem.id);
+      
+      if (!itemToSave) {
+        toast.error("Ausgewähltes Element konnte nicht gefunden werden");
+        return;
+      }
+      
+      // Speichere nur das ausgewählte propItem
+      await savePropItemChanges([itemToSave]);
+      
+      // Speichere die Haupt-Datei
       const content = serializeToText(fileData);
-      
-      await savePropItemChanges(fileData.items);
-      
       const savedToResource = await saveTextFile(content, "Spec_Item.txt");
       
+      // Speichere alle modifizierten Dateien
       const allSaved = await saveAllModifiedFiles();
       
+      // Log-Eintrag erstellen
       if (settings.enableLogging) {
         const newLogEntry: LogEntry = {
           timestamp: Date.now(),
-          itemId: "file-save",
-          itemName: "File Save",
-          field: "file",
+          itemId: selectedItem.id,
+          itemName: selectedItem.name,
+          field: "file-save",
           oldValue: "",
-          newValue: `Saved at ${new Date().toLocaleTimeString()} ${savedToResource ? 'to resource folder' : 'as download'}`
+          newValue: `Item gespeichert um ${new Date().toLocaleTimeString()}`
         };
         setLogEntries(prev => [newLogEntry, ...prev]);
       }
       
       if (savedToResource && allSaved) {
-        toast.success("All files saved successfully to resource folder");
-      } else if (savedToResource) {
-        toast.warning("Main file saved, but some additional files may not have saved correctly");
+        toast.success(`Element "${selectedItem.name}" erfolgreich gespeichert`);
       } else {
-        toast.warning("Could not save to resource folder, files were downloaded instead");
+        toast.warning(`Element "${selectedItem.name}" gespeichert, aber es gab Probleme beim Speichern einiger Dateien`);
       }
     } catch (error) {
-      toast.error("Error saving file");
+      toast.error("Fehler beim Speichern des Elements");
       console.error(error);
     }
   };
   
   const handleSaveAllFiles = async () => {
-    if (!fileData) return;
+    if (!fileData || openTabs.length === 0) {
+      toast.warning("Keine Tabs offen zum Speichern");
+      return;
+    }
     
     try {
+      // Sammle alle Items aus den offenen Tabs
+      const tabItems = openTabs.map(tab => tab.item);
+      
+      // Speichere die propItems aus allen Tabs
+      await savePropItemChanges(tabItems);
+      
+      // Speichere die Haupt-Datei
       const content = serializeToText(fileData);
+      const savedToResource = await saveTextFile(content, "Spec_Item.txt");
       
-      await savePropItemChanges(fileData.items);
-      
-      const modifiedFiles = getModifiedFiles();
-      
+      // Speichere alle modifizierten Dateien
       const allSaved = await saveAllModifiedFiles();
       
+      // Log-Eintrag erstellen
       if (settings.enableLogging) {
         const newLogEntry: LogEntry = {
           timestamp: Date.now(),
-          itemId: "file-save-all",
-          itemName: "Save All Files",
-          field: "file",
+          itemId: "tabs-save-all",
+          itemName: "Alle Tabs",
+          field: "file-save-all",
           oldValue: "",
-          newValue: `Saved ${modifiedFiles.length} files at ${new Date().toLocaleTimeString()} ${allSaved ? 'to resource folder' : 'with some errors'}`
+          newValue: `${tabItems.length} Tabs gespeichert um ${new Date().toLocaleTimeString()}`
         };
         setLogEntries(prev => [newLogEntry, ...prev]);
       }
       
-      if (allSaved) {
-        toast.success(`All ${modifiedFiles.length} modified files saved successfully to resource folder`);
+      if (savedToResource && allSaved) {
+        toast.success(`Alle ${tabItems.length} Tabs erfolgreich gespeichert`);
       } else {
-        toast.warning("Some files could not be saved to the resource folder");
+        toast.warning(`Tabs gespeichert, aber es gab Probleme beim Speichern einiger Dateien`);
       }
     } catch (error) {
-      toast.error("Error saving files");
+      toast.error("Fehler beim Speichern der Tabs");
       console.error(error);
     }
   };
@@ -237,6 +258,12 @@ const Index = () => {
   };
   
   const handleRestoreVersion = (itemId: string, timestamp: number) => {
+    if (itemId === 'CLEAR_ALL_LOGS') {
+      setLogEntries([]);
+      toast.success('Alle Logs wurden gelöscht');
+      return;
+    }
+    
     const itemEntries = logEntries
       .filter(entry => entry.itemId === itemId && entry.timestamp <= timestamp)
       .sort((a, b) => a.timestamp - b.timestamp);
@@ -312,6 +339,7 @@ const Index = () => {
           onShowHome={handleShowHome}
           onToggleEditMode={handleToggleEditMode}
           editMode={editMode}
+          openTabs={openTabs}
         />
         
         <div className="flex flex-1 overflow-hidden">

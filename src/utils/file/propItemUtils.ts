@@ -1,4 +1,3 @@
-
 import { setPropItemMappings } from './parseUtils';
 
 // Interface for propItem data mapping
@@ -9,165 +8,185 @@ interface PropItemMapping {
 export const parsePropItemFile = (content: string): PropItemMapping => {
   console.log("parsePropItemFile called with content length:", content.length);
   
-  // Check for non-standard encodings
+  // Überprüfe auf nicht-standardmäßige Codierungen nur bei den ersten 1000 Zeichen
   const hasNonASCII = /[^\x00-\x7F]/.test(content.substring(0, 1000));
   if (hasNonASCII) {
     console.warn("Non-ASCII characters detected in propItem.txt.txt file. This may indicate an encoding issue.");
-    
-    // Try to log the first few bytes to diagnose encoding issues
-    const bytes = [];
-    for (let i = 0; i < Math.min(50, content.length); i++) {
-      bytes.push(content.charCodeAt(i).toString(16).padStart(2, '0'));
-    }
-    console.log("First bytes (hex):", bytes.join(' '));
   }
   
-  // Try different line endings
-  let lines = content.split("\n");
-  if (lines.length <= 1) {
-    console.log("Trying alternative line endings...");
-    lines = content.split("\r\n");
-    if (lines.length <= 1) {
-      lines = content.split("\r");
-    }
+  // Versuche verschiedene Zeilenenden und wähle das effektivste
+  let lines;
+  if (content.indexOf('\r\n') !== -1) {
+    lines = content.split('\r\n');
+    console.log("Using CRLF line endings, found", lines.length, "lines");
+  } else if (content.indexOf('\n') !== -1) {
+    lines = content.split('\n');
+    console.log("Using LF line endings, found", lines.length, "lines");
+  } else if (content.indexOf('\r') !== -1) {
+    lines = content.split('\r');
+    console.log("Using CR line endings, found", lines.length, "lines");
+  } else {
+    // Fallback für den unwahrscheinlichen Fall, dass keine Zeilenumbrüche gefunden werden
+    lines = [content];
+    console.warn("No line breaks found, treating entire content as single line");
   }
   
-  console.log("PropItem lines count after splitting:", lines.length);
-  
-  // Print a sample of lines to diagnose problems
-  console.log("Sample of first 5 lines:");
-  for (let i = 0; i < Math.min(5, lines.length); i++) {
-    const line = lines[i];
-    const charCodes = Array.from(line).map(c => c.charCodeAt(0).toString(16).padStart(2, '0')).join(' ');
-    console.log(`Line ${i+1} (${line.length} chars): "${line.substring(0, 100)}"${line.length > 100 ? '...' : ''}`);
-    console.log(`  Char codes: ${charCodes.substring(0, 100)}${charCodes.length > 100 ? '...' : ''}`);
+  // Begrenzte Beispielausgabe nur für Diagnose
+  if (lines.length > 0) {
+    console.log("First line sample:", lines[0].substring(0, 100) + (lines[0].length > 100 ? '...' : ''));
   }
   
   const mappings: PropItemMapping = {};
   
-  // Check for and remove BOM (Byte Order Mark) if present
-  // Note: When using TextDecoder with the correct encoding, the BOM should already be handled,
-  // but we'll keep this as a fallback
+  // BOM entfernen, wenn vorhanden
   let startIndex = 0;
-  if (lines.length > 0) {
-    if (lines[0].charCodeAt(0) === 0xFEFF) {
-      console.log("UTF-8 BOM detected, removing...");
-      lines[0] = lines[0].substring(1);
-    } else if (lines[0].startsWith("\uFEFF")) {
-      console.log("BOM detected at start of file, removing...");
-      lines[0] = lines[0].substring(1);
-    }
+  if (lines.length > 0 && (lines[0].charCodeAt(0) === 0xFEFF || lines[0].startsWith("\uFEFF"))) {
+    console.log("BOM detected, removing...");
+    lines[0] = lines[0].substring(1);
   }
   
-  // Clean the lines to handle potential encoding issues
-  const cleanedLines = lines.map(line => {
-    // Replace common problematic characters
-    return line.replace(/[\uFEFF\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "");
-  });
+  // Verarbeitung in Chunks
+  const chunkSize = 5000;
+  const totalChunks = Math.ceil(lines.length / chunkSize);
   
-  // Process the propItem.txt.txt file
-  // Format: IDS_PROPITEM_TXT_000124\tRodney Axe
-  //         IDS_PROPITEM_TXT_000125\tA heavy cutting weapon with a sharp end. This axe is used for close combat
-  
-  for (let i = 0; i < cleanedLines.length; i++) {
-    const line = cleanedLines[i].trim();
-    if (!line) continue;
+  for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
+    const startLine = chunkIndex * chunkSize;
+    const endLine = Math.min(startLine + chunkSize, lines.length);
     
-    // Split the line by tab character
-    const parts = line.split("\t");
-    if (parts.length < 2) {
-      // Try alternative separators if tab doesn't work
-      if (line.includes("  ")) {
-        // Try multiple spaces as separator
-        console.log(`Line ${i+1} might use spaces instead of tabs: "${line.substring(0, 50)}..."`);
-        const spaceMatch = line.match(/^(\S+)\s{2,}(.+)$/);
-        if (spaceMatch) {
-          parts[0] = spaceMatch[1];
-          parts[1] = spaceMatch[2];
-          console.log(`  Parsed as: "${parts[0]}" and "${parts[1]}"`);
-        } else {
-          console.warn(`Line ${i+1} does not contain a tab character and couldn't parse spaces: "${line}"`);
+    if (chunkIndex === 0 || chunkIndex === totalChunks - 1 || chunkIndex % 5 === 0) {
+      console.log(`Processing chunk ${chunkIndex + 1}/${totalChunks} (lines ${startLine}-${endLine})`);
+    }
+    
+    for (let i = startLine; i < endLine; i++) {
+      const line = lines[i].trim();
+      if (!line) continue;
+      
+      // Problematische Zeichen entfernen
+      const cleanedLine = line.replace(/[\uFEFF\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "");
+      
+      // Teile die Zeile nach Tab-Zeichen oder Leerzeichen
+      let parts: string[] = [];
+      
+      // Entferne zusätzliche Leerzeichen am Anfang und Ende
+      const trimmedLine = cleanedLine.trim();
+      
+      // Versuche verschiedene Parsing-Methoden
+      if (trimmedLine.includes('\t')) {
+        // Tab-getrennte Werte
+        parts = trimmedLine.split('\t');
+      } else {
+        // Suche nach der ID und dem Rest mit regulärem Ausdruck
+        // Berücksichtige verschiedene Textformate (mit und ohne Klammern)
+        const match = trimmedLine.match(/^(IDS_PROPITEM_TXT_\d+)\s+(.+)$/);
+        if (match) {
+          const [, id, rest] = match;
+          parts = [id.trim(), rest.trim()];
+          
+          // Debug-Ausgabe für problematische IDs
+          if (id.includes("007342")) {
+            console.log("Found problematic ID:", {
+              originalLine: trimmedLine,
+              parsedId: id,
+              parsedValue: rest,
+              parts
+            });
+          }
+        }
+      }
+      
+      if (parts.length < 2) continue;
+      
+      const id = parts[0].trim();
+      const value = parts[1].trim();
+      
+      if (!value) continue;
+      
+      // Extrahiere den numerischen Teil der ID
+      if (id.includes("IDS_PROPITEM_TXT_")) {
+        const numericPart = id.replace(/.*IDS_PROPITEM_TXT_/, "");
+        const idNumber = parseInt(numericPart, 10);
+        
+        if (isNaN(idNumber)) {
+          console.warn(`Invalid numeric part in ID: ${id}`);
           continue;
         }
-      } else {
-        console.warn(`Line ${i+1} does not contain a tab character: "${line}"`);
-        continue;
-      }
-    }
-    
-    const id = parts[0].trim();
-    const value = parts[1].trim();
-    
-    if (!value) {
-      console.warn(`Line ${i+1} has empty value after separator: "${line}"`);
-      continue;
-    }
-    
-    // Extract the numeric part of the ID
-    if (id.includes("IDS_PROPITEM_TXT_")) {
-      const numericPart = id.replace(/.*IDS_PROPITEM_TXT_/, "");
-      const idNumber = parseInt(numericPart, 10);
-      
-      if (isNaN(idNumber)) {
-        console.warn(`Line ${i+1} has invalid ID format: "${id}"`);
-        continue;
-      }
-      
-      // Check if this is a name (even) or description (odd)
-      // e.g., 000124 is name, 000125 is description for the same item
-      const itemBaseId = Math.floor(idNumber / 2) * 2;
-      const itemBaseIdString = `IDS_PROPITEM_TXT_${itemBaseId.toString().padStart(6, '0')}`;
-      
-      if (idNumber % 2 === 0) { // Even number - name
-        mappings[id] = {
-          name: id,
-          displayName: value,
-          description: ""
-        };
-        console.log(`Added name mapping: ${id} -> "${value}"`);
-      } else { // Odd number - description
-        // Find the related ID (previous even number)
-        const nameId = `IDS_PROPITEM_TXT_${(idNumber - 1).toString().padStart(6, '0')}`;
         
-        if (mappings[nameId]) {
-          mappings[nameId].description = value;
-          console.log(`Added description to ${nameId}: "${value.substring(0, 30)}..."`);
-        } else {
-          // Create a placeholder entry for the description
-          mappings[id] = {
-            name: id,
-            displayName: id, // Use ID as fallback
-            description: value
+        // Prüfe, ob dies ein Name (gerade) oder eine Beschreibung (ungerade) ist
+        if (idNumber % 2 === 0) { // Gerade Zahl - Name
+          // Stelle sicher, dass die ID im korrekten Format ist
+          const formattedId = `IDS_PROPITEM_TXT_${idNumber.toString().padStart(6, '0')}`;
+          
+          // Debug-Ausgabe für wichtige Bereiche
+          if (idNumber >= 7342 && idNumber <= 11634) {
+            console.log(`Found mapping in critical range: ${formattedId} -> "${value}" (original line: "${trimmedLine}")`);
+          }
+          
+          // Speichere das Mapping
+          mappings[formattedId] = {
+            name: formattedId,
+            displayName: value,
+            description: ""
           };
-          console.log(`Created placeholder for ${id} with description: "${value.substring(0, 30)}..."`);
+          
+          // Speichere auch die ursprüngliche ID als Mapping
+          if (id !== formattedId) {
+            mappings[id] = {
+              name: id,
+              displayName: value,
+              description: ""
+            };
+          }
+        } else { // Ungerade Zahl - Beschreibung
+          // Finde die zugehörige ID (vorherige gerade Zahl)
+          const nameId = `IDS_PROPITEM_TXT_${(idNumber - 1).toString().padStart(6, '0')}`;
+          
+          if (mappings[nameId]) {
+            mappings[nameId].description = value;
+          } else {
+            // Erstelle einen Platzhalter-Eintrag für die Beschreibung
+            mappings[id] = {
+              name: id,
+              displayName: id, // Verwende ID als Fallback
+              description: value
+            };
+          }
         }
       }
     }
+    
+    // Gib dem Browser Zeit zum Atmen nach jedem Chunk
+    if (chunkIndex % 3 === 2 && chunkIndex < totalChunks - 1) {
+      console.log(`Processed ${Object.keys(mappings).length} mappings so far...`);
+    }
   }
   
-  // Debug some sample mappings
   const mappingCount = Object.keys(mappings).length;
   console.log(`✅ PropItem Mappings loaded: ${mappingCount}`);
   
-  if (mappingCount > 0) {
-    const sampleKeys = Object.keys(mappings).slice(0, 3);
-    for (const key of sampleKeys) {
-      console.log(`Sample mapping for ${key}:`, {
-        displayName: mappings[key].displayName,
-        description: mappings[key].description.substring(0, 30) + (mappings[key].description.length > 30 ? '...' : '')
-      });
-    }
-  }
+  // Stichprobenartige Überprüfung wichtiger Mappings
+  const criticalItems = [
+    "IDS_PROPITEM_TXT_000124",
+    "IDS_PROPITEM_TXT_007342",
+    "IDS_PROPITEM_TXT_011634"
+  ];
   
-  if (mappings["IDS_PROPITEM_TXT_000124"]) {
-    console.log("Rodney Axe mapping:", 
-      mappings["IDS_PROPITEM_TXT_000124"].name,
-      "displayName:", mappings["IDS_PROPITEM_TXT_000124"].displayName,
-      "description:", mappings["IDS_PROPITEM_TXT_000124"].description.substring(0, 30)
-    );
-  } else {
-    console.log("❌ Rodney Axe mapping not found!");
-  }
+  console.log("Checking critical items in mappings:");
+  criticalItems.forEach(id => {
+    if (mappings[id]) {
+      console.log(`Found critical item ${id}: ${mappings[id].displayName}`);
+    } else {
+      console.warn(`❌ Critical item not found: ${id}`);
+      // Versuche alternative Formatierung
+      const altId = id.replace(/IDS_PROPITEM_TXT_(\d+)/, (_, num) => 
+        `IDS_PROPITEM_TXT_${parseInt(num).toString().padStart(6, '0')}`
+      );
+      if (mappings[altId]) {
+        console.log(`Found critical item with alternative format ${altId}: ${mappings[altId].displayName}`);
+      } else {
+        console.warn(`❌ Critical item not found with alternative format: ${altId}`);
+      }
+    }
+  });
   
   // Cache the mappings for future use
   setPropItemMappings(mappings);

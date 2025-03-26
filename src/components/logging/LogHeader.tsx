@@ -1,5 +1,4 @@
-
-import { X, Download, ArrowUpDown, Filter } from "lucide-react";
+import { X, Download, ArrowUpDown, Filter, Trash2 } from "lucide-react";
 
 interface LogHeaderProps {
   onClose: () => void;
@@ -7,6 +6,7 @@ interface LogHeaderProps {
   onToggleSortOrder: () => void;
   onToggleAdvancedFilters: () => void;
   onDownloadLogs: () => void;
+  onClearLogs: () => void;
 }
 
 const LogHeader = ({ 
@@ -14,7 +14,8 @@ const LogHeader = ({
   sortOrder, 
   onToggleSortOrder, 
   onToggleAdvancedFilters,
-  onDownloadLogs 
+  onDownloadLogs,
+  onClearLogs
 }: LogHeaderProps) => {
   return (
     <div className="bg-gradient-to-r from-[#1E1E24] to-[#2D2D36] p-4 rounded-t-lg border-b border-[#3A3A3D] shadow-md">
@@ -46,6 +47,13 @@ const LogHeader = ({
             title="Download Logs"
           >
             <Download size={18} className="text-cyrus-blue" />
+          </button>
+          <button 
+            className="p-2 rounded-md bg-[#2A2A32] text-gray-300 hover:bg-[#3A3A42] hover:text-white transition-all duration-200 hover:shadow-lg hover:bg-red-900/50"
+            onClick={onClearLogs}
+            title="Clear Logs"
+          >
+            <Trash2 size={18} className="text-red-500" />
           </button>
           <button 
             className="p-2 rounded-md bg-[#2A2A32] text-gray-400 hover:bg-[#3A3A42] hover:text-white transition-all duration-200 hover:shadow-lg hover:bg-red-900/50"

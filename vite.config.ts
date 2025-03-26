@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => ({
     // Add middleware to handle API requests
     {
       name: 'configure-server',
-      configureServer(server) {
+      configureServer(server: any) {
         server.middlewares.use(apiMiddleware);
       }
     }

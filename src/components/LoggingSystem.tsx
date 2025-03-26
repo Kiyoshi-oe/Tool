@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { LogEntry } from "../types/fileTypes";
 import LogHeader from "./logging/LogHeader";
@@ -135,6 +134,19 @@ const LoggingSystem = ({ isVisible, onClose, logEntries, onRestoreVersion }: Log
     a.click();
     URL.revokeObjectURL(url);
   };
+  
+  const handleClearLogs = () => {
+    if (window.confirm('Möchten Sie wirklich alle Logs löschen? Diese Aktion kann nicht rückgängig gemacht werden.')) {
+      // Falls onRestoreVersion vorhanden ist, haben wir Zugriff auf den übergeordneten State
+      if (onRestoreVersion) {
+        // Leeres Array an den übergeordneten State übergeben
+        // Wir nehmen an, dass setLogEntries verfügbar ist
+        onRestoreVersion('CLEAR_ALL_LOGS', Date.now());
+      }
+      // Lokale gefilterte Einträge leeren
+      setFilteredEntries([]);
+    }
+  };
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm z-50 animate-fade-in">
@@ -145,6 +157,7 @@ const LoggingSystem = ({ isVisible, onClose, logEntries, onRestoreVersion }: Log
           onToggleSortOrder={toggleSortOrder}
           onToggleAdvancedFilters={() => setShowAdvancedFilters(!showAdvancedFilters)}
           onDownloadLogs={handleDownloadLogs}
+          onClearLogs={handleClearLogs}
         />
         
         <div className="px-4 py-3 border-b border-[#3A3A3D] bg-[#252528]">

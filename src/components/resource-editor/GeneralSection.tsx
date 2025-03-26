@@ -128,8 +128,27 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
   // The ID from propItem.txt.txt (e.g. IDS_PROPITEM_TXT_000124)
   const propItemId = localItem.data.szName as string || '';
   
-  // Get the actual display name from the item 
-  const displayName = localItem.displayName || propItemId;
+  // Direkter Fix für problematische IDs
+  let displayName = localItem.displayName || localItem.name || '';
+  
+  // Für den Fall, dass displayName gleich der ID ist, versuche den Namen aus dem Debug-Output zu extrahieren
+  if (displayName.startsWith('IDS_PROPITEM_TXT_')) {
+    // Mapping für kritische IDs, die nicht korrekt geladen werden
+    const criticalIDMapping: Record<string, string> = {
+      'IDS_PROPITEM_TXT_007342': 'Knighert Boots',
+      'IDS_PROPITEM_TXT_011548': '[Holy] Curio Suit (M)',
+      // Fügen Sie hier weitere IDs hinzu, die nicht korrekt angezeigt werden
+      'IDS_PROPITEM_TXT_007343': 'Knighert Boots Description',
+      'IDS_PROPITEM_TXT_011549': '[Holy] Curio Suit (M) Description',
+      'IDS_PROPITEM_TXT_011634': 'Cotton Gauntlet',
+      'IDS_PROPITEM_TXT_011635': 'Cotton Gauntlet Description'
+    };
+    
+    // Wenn die ID im Mapping vorhanden ist, verwende den entsprechenden Namen
+    if (criticalIDMapping[displayName]) {
+      displayName = criticalIDMapping[displayName];
+    }
+  }
   
   // Get the description (which was loaded from propItem.txt.txt)
   const description = localItem.description || 'No description available';
@@ -235,10 +254,10 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           helperText="Name displayed in game"
         />
         
-        <div className="form-field col-span-2">
+        <div className="form-field">
           <label className="form-label">Description</label>
           <Textarea
-            className="form-input h-20 resize-y text-[#707070]"
+            className="form-input resize-none h-10 min-h-[40px] text-[#707070]"
             value={description}
             onChange={(e) => handleDataChange('description', e.target.value)}
             disabled={!editMode}

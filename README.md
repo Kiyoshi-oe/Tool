@@ -1,69 +1,87 @@
-# Welcome to your Lovable project
+# Cyrus Resource Tool
 
-## Project info
+Ein moderner Editor für die Verwaltung von Spiel-Ressourcen und Item-Datendateien.
 
-**URL**: https://lovable.dev/projects/5239745d-f56b-4d72-91a0-cede57d2dc78
+![Cyrus Resource Tool](/lovable-uploads/Icon_big.png)
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- 🚀 Performance-optimierte Verarbeitung großer Dateien
+- 📦 Unterstützung für spec_item.txt und modDyna.inc Dateien
+- 🖼️ DDS-Bildformat Unterstützung
+- 🌙 Dark Mode UI
+- 🔄 Undo/Redo Funktionalität
+- 📊 Effiziente Chunk-Verarbeitung für große Dateien (20MB+)
+- 🛡️ Robuste Fehlerbehandlung
+- 🎮 Spezielle Unterstützung für Waffen- und Rüstungs-Items
 
-**Use Lovable**
+## Aktuelle Version
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5239745d-f56b-4d72-91a0-cede57d2dc78) and start prompting.
+**Version 1.2.2** (29. Mai 2024)
 
-Changes made via Lovable will be committed automatically to this repo.
+Siehe [Changelog](CHANGELOG.md) für detaillierte Informationen zu allen Versionen.
 
-**Use your preferred IDE**
+## Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Laden Sie die neueste Version von der [Releases](https://github.com/yourusername/cyrus-resource-tool/releases) Seite herunter
+2. Entpacken Sie die Dateien in ein Verzeichnis Ihrer Wahl
+3. Starten Sie die Anwendung durch Doppelklick auf die ausführbare Datei
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Systemanforderungen
 
-Follow these steps:
+- Windows 10 oder höher
+- Mindestens 4GB RAM (8GB empfohlen für große Dateien)
+- 500MB freier Festplattenspeicher
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Hauptfunktionen
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Datei-Management
+- Laden und Speichern von spec_item.txt Dateien
+- Automatische Erkennung von Item-Eigenschaften
+- Effiziente Verarbeitung großer Datensätze
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Editor-Funktionen
+- Moderne Benutzeroberfläche mit Dark Mode
+- Intuitive Bearbeitung von Item-Eigenschaften
+- Undo/Redo für alle Änderungen
+- Echtzeit-Vorschau von Änderungen
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Ressourcen-Verwaltung
+- Unterstützung für DDS-Bildformate
+- Modellnamen-Anzeige für Rüstungs-Items
+- Korrekte Darstellung von Waffen-Item-Dateinamen
+
+## Entwicklung
+
+### Voraussetzungen
+- Node.js (Version 16 oder höher)
+- npm oder yarn
+
+### Setup
+```bash
+# Repository klonen
+git clone https://github.com/yourusername/cyrus-resource-tool.git
+
+# In das Projektverzeichnis wechseln
+cd cyrus-resource-tool
+
+# Abhängigkeiten installieren
+npm install
+
+# Entwicklungsserver starten
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build
+```bash
+# Produktions-Build erstellen
+npm run build
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Lizenz
 
-**Use GitHub Codespaces**
+© 2023-2024 Cyrus Development Team. Alle Rechte vorbehalten.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Support
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5239745d-f56b-4d72-91a0-cede57d2dc78) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Bei Fragen oder Problemen erstellen Sie bitte ein [Issue](https://github.com/yourusername/cyrus-resource-tool/issues) auf GitHub.

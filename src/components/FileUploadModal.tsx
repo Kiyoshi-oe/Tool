@@ -1,4 +1,3 @@
-
 import { useRef, useState, useEffect } from "react";
 import { toast } from "sonner";
 import { Progress } from "@/components/ui/progress";
@@ -13,7 +12,7 @@ interface FileUploadModalProps {
   source?: 'header' | 'fileMenu'; // Track upload source to prevent duplicates
 }
 
-const CHUNK_SIZE = 20 * 1024 * 1024; // 20MB chunks
+const CHUNK_SIZE = 50 * 1024 * 1024; // 50MB chunks für bessere Performance bei großen Dateien
 
 const FileUploadModal = ({ onFileLoaded, onCancel, isVisible, source = 'header' }: FileUploadModalProps) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -99,32 +98,58 @@ const FileUploadModal = ({ onFileLoaded, onCancel, isVisible, source = 'header' 
     setLoadingMessage(`Loading ${file.name}...`);
     toast.info(`Loading file ${file.name}...`);
     
+    console.log(`Starting to load ${file.name} (${file.size} bytes / ${(file.size / (1024 * 1024)).toFixed(2)} MB)`);
+    
     try {
+      // Bei sehr großen Dateien (>100MB) Warnung ausgeben
+      if (file.size > 100 * 1024 * 1024) {
+        console.warn(`File ${file.name} is very large (${(file.size / (1024 * 1024)).toFixed(2)} MB). Processing may take some time.`);
+        toast.warning(`The file ${file.name} is very large. This may take some time to process.`);
+      }
+      
       let content = "";
       const fileSize = file.size;
       let offset = 0;
+      
+      // Zeige detailliertere Fortschrittsinformationen
+      const updateInterval = Math.max(1, Math.floor(fileSize / (CHUNK_SIZE * 10))); // Update bei ~10% Intervallen
+      let chunkCount = 0;
       
       while (offset < fileSize) {
         const chunk = file.slice(offset, offset + CHUNK_SIZE);
         const chunkText = await readChunk(chunk);
         content += chunkText;
         offset += CHUNK_SIZE;
+        chunkCount++;
         
         const currentProgress = Math.min(100, Math.round((offset / fileSize) * 100));
         setProgress(currentProgress);
         
-        if (fileSize > CHUNK_SIZE * 2) {
-          setLoadingMessage(`Loading ${file.name}: ${currentProgress}% complete`);
+        // Log nur bei größeren Fortschritten für bessere Performance
+        if (chunkCount % updateInterval === 0 || offset >= fileSize) {
+          console.log(`Processed ${offset} of ${fileSize} bytes (${currentProgress}%)`);
+          setLoadingMessage(`Loading ${file.name}: ${currentProgress}% complete (${(offset / (1024 * 1024)).toFixed(1)} / ${(fileSize / (1024 * 1024)).toFixed(1)} MB)`);
+        }
+        
+        // Gib dem Browser Zeit zum Rendering und verhindere UI-Blockierung
+        if (chunkCount % 2 === 0) {
+          await new Promise(resolve => setTimeout(resolve, 10));
         }
       }
       
+      console.log(`Finished loading ${file.name}: ${content.length} characters loaded`);
       toast.success(`File ${file.name} loaded successfully`);
-      console.log(`${fileType} file loaded (${content.length} bytes)`);
       
       return content;
     } catch (error) {
       console.error(`Error reading ${fileType} file:`, error);
-      toast.error(`Error reading ${fileType} file`);
+      toast.error(`Error reading ${file.name}: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      
+      // Bei Out-of-Memory Fehlern spezifischere Hilfe anbieten
+      if (error instanceof Error && error.message.includes('memory')) {
+        toast.error(`The file ${file.name} is too large to process in browser memory. Try splitting the file or using a smaller file.`);
+      }
+      
       return "";
     } finally {
       setIsLoading(false);
