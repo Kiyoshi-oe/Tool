@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Search } from "lucide-react";
 import { ResourceItem } from "../types/fileTypes";
 import * as ScrollAreaPrimitive from "@radix-ui/react-scroll-area";
@@ -12,6 +12,10 @@ interface SidebarProps {
   darkMode?: boolean;
 }
 
+// Konfiguration für Virtualisierung
+const ITEM_HEIGHT = 28; // Höhe eines Items in px
+const BUFFER_ITEMS = 10; // Pufferelemente über/unter dem sichtbaren Bereich
+
 // Globale Variable zum Speichern der Scrollposition außerhalb des React-Lifecycles
 let globalScrollPosition = 0;
 // Globaler Flag zum Verhindern des ersten Scrolls
@@ -19,29 +23,59 @@ let isInitialRender = true;
 
 const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: SidebarProps) => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [visibleItemCount, setVisibleItemCount] = useState(100);
-  const [hasMore, setHasMore] = useState(true);
   const viewportRef = useRef<HTMLDivElement>(null);
   const rootRef = useRef<HTMLDivElement>(null);
   const isUserScrolling = useRef(false);
+  const [scrollTop, setScrollTop] = useState(0);
+  const [clientHeight, setClientHeight] = useState(0);
   
   // Stelle sicher, dass items immer ein Array ist
-  const safeItems = Array.isArray(items) ? items : [];
+  const safeItems = useMemo(() => Array.isArray(items) ? items : [], [items]);
   
-  // Filtern der Items basierend auf der Suchanfrage
-  const filteredItems = safeItems.filter(item => 
-    (item.displayName && item.displayName.toLowerCase().includes(searchQuery.toLowerCase())) ||
-    (item.data?.szName && (item.data.szName as string)?.toLowerCase().includes(searchQuery.toLowerCase())) ||
-    (item.name && item.name.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
+  // Filtern der Items basierend auf der Suchanfrage - mit useMemo gecacht
+  const filteredItems = useMemo(() => {
+    // Performance-Optimierung: Wenn keine Suche, gib direkt safeItems zurück
+    if (!searchQuery) return safeItems;
+    
+    const lowerQuery = searchQuery.toLowerCase();
+    return safeItems.filter(item => 
+      (item.displayName && item.displayName.toLowerCase().includes(lowerQuery)) ||
+      (item.data?.szName && (item.data.szName as string)?.toLowerCase().includes(lowerQuery)) ||
+      (item.name && item.name.toLowerCase().includes(lowerQuery))
+    );
+  }, [safeItems, searchQuery]);
   
-  // Begrenzen der angezeigten Items auf immer 100
-  const displayedItems = filteredItems.slice(0, visibleItemCount);
-  
-  // Überwachen, ob es mehr Items zum Laden gibt
-  useEffect(() => {
-    setHasMore(filteredItems.length > visibleItemCount);
-  }, [filteredItems.length, visibleItemCount]);
+  // Berechnung der virtuellen Liste
+  const {
+    virtualItems,
+    totalHeight,
+    startIndex,
+    endIndex
+  } = useMemo(() => {
+    if (!viewportRef.current || clientHeight === 0) {
+      return { virtualItems: [], totalHeight: 0, startIndex: 0, endIndex: 0 };
+    }
+    
+    const totalHeight = filteredItems.length * ITEM_HEIGHT;
+    
+    // Berechne sichtbare Items basierend auf Viewport
+    const startIndex = Math.max(0, Math.floor(scrollTop / ITEM_HEIGHT) - BUFFER_ITEMS);
+    const endIndex = Math.min(
+      filteredItems.length - 1,
+      Math.ceil((scrollTop + clientHeight) / ITEM_HEIGHT) + BUFFER_ITEMS
+    );
+    
+    // Erstelle virtuelle Items mit Position
+    const virtualItems = filteredItems
+      .slice(startIndex, endIndex + 1)
+      .map((item, idx) => ({
+        item,
+        index: startIndex + idx,
+        offsetTop: (startIndex + idx) * ITEM_HEIGHT
+      }));
+    
+    return { virtualItems, totalHeight, startIndex, endIndex };
+  }, [filteredItems, scrollTop, clientHeight]);
   
   // Beim ersten Laden den isInitialRender-Flag setzen
   useEffect(() => {
@@ -53,13 +87,39 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
     };
   }, []);
   
+  // Initialisiere die Viewport-Dimensionen
+  useEffect(() => {
+    if (!viewportRef.current) return;
+    
+    const updateSize = () => {
+      if (viewportRef.current) {
+        setClientHeight(viewportRef.current.clientHeight);
+      }
+    };
+    
+    updateSize();
+    
+    // ResizeObserver für dynamische Anpassung
+    const resizeObserver = new ResizeObserver(updateSize);
+    resizeObserver.observe(viewportRef.current);
+    
+    return () => {
+      if (viewportRef.current) {
+        resizeObserver.unobserve(viewportRef.current);
+      }
+      resizeObserver.disconnect();
+    };
+  }, []);
+  
   // Speichere Scrollposition, wenn der Benutzer scrollt
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
-    if (!isUserScrolling.current) return;
-    
     const element = event.currentTarget;
     if (element) {
-      globalScrollPosition = element.scrollTop;
+      setScrollTop(element.scrollTop);
+      
+      if (isUserScrolling.current) {
+        globalScrollPosition = element.scrollTop;
+      }
     }
   };
   
@@ -73,30 +133,13 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
     
     const applyScroll = () => {
       if (viewportRef.current) {
-        // Verwende eine Verzögerung, um Timing-Probleme zu vermeiden
         viewportRef.current.scrollTop = globalScrollPosition;
       }
     };
     
     // Warte auf das nächste Mikro-Task, dann scrolle
-    Promise.resolve().then(() => {
-      applyScroll();
-      // Zusätzliche Verzögerungen für problematische Browser
-      setTimeout(applyScroll, 0);
-      setTimeout(applyScroll, 50);
-      setTimeout(applyScroll, 100);
-    });
-  }, [searchQuery, visibleItemCount, displayedItems, selectedItem]);
-  
-  // Mehr Items laden ohne Scrollposition zu verlieren
-  const loadMoreItems = () => {
-    if (viewportRef.current) {
-      globalScrollPosition = viewportRef.current.scrollTop;
-    }
-    
-    const newCount = Math.min(visibleItemCount + 100, filteredItems.length);
-    setVisibleItemCount(newCount);
-  };
+    Promise.resolve().then(applyScroll);
+  }, [searchQuery, filteredItems]);
   
   // Behandle das Eintritt und Verlassen des Scrollbereichs
   const handleMouseEnter = () => {
@@ -131,6 +174,32 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
     // Rufe die Callback-Funktion für die Item-Auswahl auf
     onSelectItem(item);
   };
+  
+  // Funktion zum Scrollen zum ausgewählten Item
+  const scrollToSelectedItem = () => {
+    if (!selectedItem || !viewportRef.current) return;
+    
+    const index = filteredItems.findIndex(item => item.id === selectedItem.id);
+    if (index === -1) return;
+    
+    const newScrollTop = index * ITEM_HEIGHT;
+    
+    // Nur scrollen, wenn das Element nicht im sichtbaren Bereich ist
+    if (
+      newScrollTop < scrollTop || 
+      newScrollTop > scrollTop + clientHeight - ITEM_HEIGHT
+    ) {
+      viewportRef.current.scrollTop = newScrollTop - clientHeight / 2 + ITEM_HEIGHT / 2;
+      setScrollTop(viewportRef.current.scrollTop);
+    }
+  };
+  
+  // Scrolle zum ausgewählten Item, wenn es sich ändert
+  useEffect(() => {
+    if (!isInitialRender) {
+      scrollToSelectedItem();
+    }
+  }, [selectedItem?.id]);
   
   return (
     <div 
@@ -179,10 +248,17 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
               Keine Einträge zur Suchanfrage gefunden
             </div>
           ) : (
-            <div className="p-1">
-              {displayedItems.map((item) => (
+            <div style={{ height: totalHeight, position: 'relative' }} className="p-1">
+              {virtualItems.map(({ item, offsetTop }) => (
                 <div 
                   key={item.id}
+                  style={{ 
+                    position: 'absolute',
+                    top: 0,
+                    transform: `translateY(${offsetTop}px)`,
+                    width: 'calc(100% - 8px)',
+                    height: `${ITEM_HEIGHT}px`
+                  }}
                   className={`px-2 py-1 hover:${darkMode ? 'bg-cyrus-dark-lighter' : 'bg-gray-300'} cursor-[url(/lovable-uploads/Cursor.png),pointer] rounded text-sm ${
                     selectedItem?.id === item.id 
                       ? darkMode 
@@ -191,30 +267,17 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
                       : darkMode
                         ? 'text-gray-300'
                         : 'text-gray-700'
-                  }`}
+                  } flex items-center`}
                   onClick={() => handleItemSelect(item)}
                 >
                   {/* Show only the item name part instead of ID+name */}
-                  {item.displayName 
-                    ? extractItemName(item.displayName) 
-                    : (item.data?.szName as string) || item.name || item.id}
+                  <span className="truncate">
+                    {item.displayName 
+                      ? extractItemName(item.displayName) 
+                      : (item.data?.szName as string) || item.name || item.id}
+                  </span>
                 </div>
               ))}
-              
-              {/* Zeige "Load More" Button nur wenn weitere Items verfügbar sind */}
-              {hasMore && (
-                <div className="flex justify-center py-2">
-                  <Button 
-                    variant="outline" 
-                    size="sm"
-                    className={`text-xs ${darkMode ? 'bg-cyrus-dark-lighter text-gray-300 hover:bg-cyrus-dark hover:text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-                    onClick={loadMoreItems}
-                  >
-                    <ChevronDown className="mr-1 h-3 w-3" />
-                    Weitere Items laden
-                  </Button>
-                </div>
-              )}
             </div>
           )}
         </ScrollAreaPrimitive.Viewport>

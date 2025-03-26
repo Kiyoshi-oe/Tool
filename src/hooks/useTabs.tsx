@@ -1,5 +1,4 @@
-
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useMemo } from "react";
 import { ResourceItem } from "../types/fileTypes";
 
 interface TabItem {
@@ -7,6 +6,9 @@ interface TabItem {
   item: ResourceItem;
   isTemporary: boolean;
 }
+
+// Map für schnellen ID-basierten Zugriff auf Tabs
+const tabCache = new Map<string, TabItem>();
 
 export const useTabs = (
   selectedItem: ResourceItem | null,
@@ -16,7 +18,20 @@ export const useTabs = (
   const lastClickTime = useRef<{ [key: string]: number }>({});
   const doubleClickThreshold = 300; // ms
   
+  // Cache für schnellen Zugriff aktualisieren
+  useMemo(() => {
+    // Cache zurücksetzen wenn sich openTabs ändert
+    tabCache.clear();
+    openTabs.forEach(tab => {
+      tabCache.set(tab.id, tab);
+    });
+  }, [openTabs]);
+  
+  // Performance-Optimierung: addTab mit useCallback memoisieren
   const addTab = useCallback((item: ResourceItem) => {
+    // Überspringe null oder undefined items
+    if (!item || !item.id) return;
+    
     const now = Date.now();
     const lastClick = lastClickTime.current[item.id] || 0;
     const isDoubleClick = now - lastClick < doubleClickThreshold;
@@ -25,55 +40,96 @@ export const useTabs = (
     lastClickTime.current[item.id] = now;
     
     setOpenTabs(prevTabs => {
-      // Check if the tab already exists
-      const tabIndex = prevTabs.findIndex(tab => tab.id === item.id);
+      // Performance-Optimierung: Schneller Tab-Lookup mittels tabCache
+      const existingTab = tabCache.get(item.id);
+      const tabIndex = existingTab ? prevTabs.findIndex(tab => tab.id === item.id) : -1;
       
       if (tabIndex >= 0) {
-        // If the tab exists and we have a double click, mark it as permanent
-        if (isDoubleClick) {
+        // Wenn Tab existiert und Doppelklick erfolgt: Fix machen
+        if (isDoubleClick && prevTabs[tabIndex].isTemporary) {
           const updatedTabs = [...prevTabs];
           updatedTabs[tabIndex] = {
             ...updatedTabs[tabIndex],
             isTemporary: false
           };
+          
+          // Cache aktualisieren
+          tabCache.set(item.id, updatedTabs[tabIndex]);
+          
           return updatedTabs;
         }
         return prevTabs;
       }
       
-      // Close any temporary tab before adding a new one
+      // Temporäre Tabs schließen bevor neuer Tab geöffnet wird
       const filteredTabs = prevTabs.filter(tab => !tab.isTemporary);
       
-      // Add the new tab, temporary by default unless it's a double click
-      return [...filteredTabs, { 
+      // Neuen Tab hinzufügen, standardmäßig temporär außer bei Doppelklick
+      const newTab = { 
         id: item.id, 
         item,
         isTemporary: !isDoubleClick
-      }];
+      };
+      
+      // Cache aktualisieren
+      tabCache.set(item.id, newTab);
+      
+      return [...filteredTabs, newTab];
     });
   }, []);
   
+  // Performance-Optimierung: updateTabItem mit useCallback memoisieren
   const updateTabItem = useCallback((updatedItem: ResourceItem) => {
-    setOpenTabs(prevTabs => 
-      prevTabs.map(tab => 
-        tab.id === updatedItem.id 
-          ? { ...tab, item: updatedItem } 
-          : tab
-      )
-    );
+    if (!updatedItem || !updatedItem.id) return;
+    
+    // Performance-Optimierung: Prüfen ob der Tab existiert
+    const existingTab = tabCache.get(updatedItem.id);
+    if (!existingTab) return;
+    
+    setOpenTabs(prevTabs => {
+      // Performance-Optimierung: Direkte Array-Manipulation
+      const updatedTabs = [...prevTabs];
+      const tabIndex = updatedTabs.findIndex(tab => tab.id === updatedItem.id);
+      
+      if (tabIndex >= 0) {
+        const updatedTab = {
+          ...updatedTabs[tabIndex],
+          item: updatedItem
+        };
+        updatedTabs[tabIndex] = updatedTab;
+        
+        // Cache aktualisieren
+        tabCache.set(updatedItem.id, updatedTab);
+        
+        return updatedTabs;
+      }
+      
+      return prevTabs;
+    });
   }, []);
   
+  // Performance-Optimierung: handleCloseTab mit useCallback memoisieren
   const handleCloseTab = useCallback((id: string) => {
+    if (!id) return;
+    
     setOpenTabs(prevTabs => {
+      // Performance-Optimierung: Cache bereinigen
+      tabCache.delete(id);
+      
       const newTabs = prevTabs.filter(tab => tab.id !== id);
       
-      // If we're closing the selected tab, select another one
+      // Wenn aktiver Tab geschlossen wird, anderen selektieren
       if (selectedItem && selectedItem.id === id) {
         const lastTab = newTabs[newTabs.length - 1];
         if (lastTab) {
-          setSelectedItem(lastTab.item);
+          // Asynchrone State-Aktualisierung für bessere Reaktionsfähigkeit
+          queueMicrotask(() => {
+            setSelectedItem(lastTab.item);
+          });
         } else {
-          setSelectedItem(null);
+          queueMicrotask(() => {
+            setSelectedItem(null);
+          });
         }
       }
       
@@ -81,22 +137,31 @@ export const useTabs = (
     });
   }, [selectedItem, setSelectedItem]);
   
+  // Performance-Optimierung: handleSelectTab mit useCallback memoisieren
   const handleSelectTab = useCallback((id: string) => {
-    setOpenTabs(prevTabs => {
-      const selectedTab = prevTabs.find(tab => tab.id === id);
+    if (!id) return;
+    
+    // Performance-Optimierung: Direkt aus Cache lesen
+    const selectedTab = tabCache.get(id);
+    
+    if (selectedTab) {
+      // Vermeiden unnötiger Re-Selektierungen
+      if (selectedItem && selectedItem.id === id) return;
       
-      if (selectedTab) {
+      // Asynchrone State-Aktualisierung für bessere Reaktionsfähigkeit
+      queueMicrotask(() => {
         setSelectedItem(selectedTab.item);
-        
-        // If we select a tab that isn't the temporary one, close any temporary tabs
-        if (!selectedTab.isTemporary) {
-          return prevTabs.filter(tab => !tab.isTemporary || tab.id === id);
-        }
-      }
+      });
       
-      return prevTabs;
-    });
-  }, [setSelectedItem]);
+      // Wenn der ausgewählte Tab nicht temporär ist, temporäre Tabs schließen
+      if (!selectedTab.isTemporary) {
+        setOpenTabs(prevTabs => {
+          // Alle temporären Tabs außer den aktiven filtern
+          return prevTabs.filter(tab => !tab.isTemporary || tab.id === id);
+        });
+      }
+    }
+  }, [selectedItem, setSelectedItem]);
   
   return {
     openTabs,

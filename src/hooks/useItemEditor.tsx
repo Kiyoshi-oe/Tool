@@ -1,5 +1,4 @@
-
-import { useState } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
 import { FileData, LogEntry, ResourceItem } from "../types/fileTypes";
 import { toast } from "sonner";
 import { trackModifiedFile, trackPropItemChanges } from "../utils/file/fileOperations";
@@ -15,6 +14,11 @@ interface ItemEditorProps {
   saveUndoState: () => void;
 }
 
+// Lookup-Cache: Map-Objekt für schnellen Zugriff auf Items nach ID
+const itemCache = new Map<string, ResourceItem>();
+// Flag, ob ein Cache-Update notwendig ist
+let cacheNeedsUpdate = true;
+
 export const useItemEditor = ({
   fileData,
   setFileData,
@@ -27,17 +31,56 @@ export const useItemEditor = ({
 }: ItemEditorProps) => {
   const [editMode, setEditMode] = useState(false);
   
-  const handleUpdateItem = (updatedItem: ResourceItem, field?: string, oldValue?: any) => {
+  // Cache für schnellen Zugriff auf Items nach ID aktualisieren
+  useMemo(() => {
+    if (fileData && cacheNeedsUpdate) {
+      itemCache.clear();
+      fileData.items.forEach(item => {
+        itemCache.set(item.id, item);
+      });
+      cacheNeedsUpdate = false;
+    }
+  }, [fileData]);
+  
+  // Performance-Optimierung: handleUpdateItem memoisieren
+  const handleUpdateItem = useCallback((updatedItem: ResourceItem, field?: string, oldValue?: any) => {
     if (!fileData || !editMode) return;
     
-    const updatedItems = fileData.items.map(item => 
-      item.id === updatedItem.id ? updatedItem : item
-    );
+    // Performance-Optimierung: Keine vollständige Array-Iteration für Updating
+    const updatedItems = [...fileData.items];
+    const itemIndex = updatedItem.id ? 
+      updatedItems.findIndex(item => item.id === updatedItem.id) : -1;
     
-    setFileData({
-      ...fileData,
-      items: updatedItems
-    });
+    if (itemIndex >= 0) {
+      updatedItems[itemIndex] = updatedItem;
+      
+      // Cache aktualisieren
+      itemCache.set(updatedItem.id, updatedItem);
+    } else {
+      // Fallback: Map über das gesamte Array
+      const newItems = fileData.items.map(item => 
+        item.id === updatedItem.id ? updatedItem : item
+      );
+      
+      // Nur aktualisieren, wenn sich tatsächlich etwas geändert hat
+      if (JSON.stringify(newItems) !== JSON.stringify(fileData.items)) {
+        updatedItems.splice(0, updatedItems.length, ...newItems);
+        
+        // Cache aktualisieren
+        itemCache.set(updatedItem.id, updatedItem);
+      }
+    }
+    
+    // Performance-Optimierung: Nur aktualisieren, wenn sich etwas geändert hat
+    if (itemIndex >= 0 || JSON.stringify(updatedItems) !== JSON.stringify(fileData.items)) {
+      // Deferred state update für bessere UI-Reaktionsfähigkeit
+      setTimeout(() => {
+        setFileData({
+          ...fileData,
+          items: updatedItems
+        });
+      }, 0);
+    }
     
     updateTabItem(updatedItem);
     
@@ -88,19 +131,37 @@ export const useItemEditor = ({
         updatedItem.description || ''
       );
     }
-  };
+  }, [fileData, editMode, settings, setFileData, setLogEntries, setSelectedItem, updateTabItem]);
   
-  const handleSelectItem = (item: ResourceItem, showSettings: boolean, showToDoPanel: boolean) => {
+  // Performance-Optimierung: handleSelectItem memoisieren
+  const handleSelectItem = useCallback((item: ResourceItem, showSettings: boolean, showToDoPanel: boolean) => {
     if (showSettings || showToDoPanel) return;
     
+    // Vor der Auswahl den UndoState speichern
     saveUndoState();
-    setSelectedItem(item);
-  };
+    
+    // Performance-Optimierung: Wenn das Item bereits ausgewählt ist, nichts tun
+    if (selectedItem && selectedItem.id === item.id) return;
+    
+    // Priorität mit queueMicrotask erhöhen
+    queueMicrotask(() => {
+      setSelectedItem(item);
+    });
+  }, [selectedItem, setSelectedItem, saveUndoState]);
   
-  const handleToggleEditMode = () => {
-    setEditMode(!editMode);
-    toast.info(editMode ? "Switched to View mode" : "Switched to Edit mode");
-  };
+  // Performance-Optimierung: handleToggleEditMode memoisieren
+  const handleToggleEditMode = useCallback(() => {
+    setEditMode(prevMode => {
+      const newMode = !prevMode;
+      toast.info(newMode ? "Switched to Edit mode" : "Switched to View mode");
+      return newMode;
+    });
+  }, []);
+
+  // Cache invalidieren wenn sich fileData ändert
+  useEffect(() => {
+    cacheNeedsUpdate = true;
+  }, [fileData]);
 
   return {
     editMode,
