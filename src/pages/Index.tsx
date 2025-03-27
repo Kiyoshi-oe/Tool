@@ -9,7 +9,7 @@ import AboutModal from "../components/AboutModal";
 import SplashScreen from "../components/SplashScreen";
 import MainContent, { WelcomeScreen } from "../components/main/MainContent";
 import OpenTabs from "../components/main/OpenTabs";
-import ChangelogPage from "../components/ChangelogPage";
+import ChangelogDialog from "../components/ChangelogDialog";
 import { ResourceItem, FileUploadConfig, LogEntry } from "../types/fileTypes";
 import { serializeToText, saveTextFile, saveAllModifiedFiles, getModifiedFiles, savePropItemChanges } from "../utils/file/fileOperations";
 import { toast } from "sonner";
@@ -343,70 +343,64 @@ const Index = () => {
         />
         
         <div className="flex flex-1 overflow-hidden">
-          {showChangelog ? (
-            <ChangelogPage onClose={() => setShowChangelog(false)} />
-          ) : (
-            <>
-              <Sidebar 
-                items={getFilteredItems(fileData, currentTab)} 
-                onSelectItem={(item) => handleSelectItem(item, showSettings, showToDoPanel)}
-                selectedItem={selectedItem || undefined}
-                darkMode={settings.darkMode}
-              />
+          <Sidebar 
+            items={getFilteredItems(fileData, currentTab)} 
+            onSelectItem={(item) => handleSelectItem(item, showSettings, showToDoPanel)}
+            selectedItem={selectedItem || undefined}
+            darkMode={settings.darkMode}
+          />
               
-              <div className="flex-1 flex flex-col overflow-hidden">
-                <TabNav 
-                  tabs={tabs} 
-                  activeTab={currentTab}
-                  onChangeTab={(tab) => {
-                    setCurrentTab(tab);
-                    setSelectedItem(null);
-                  }}
-                />
+          <div className="flex-1 flex flex-col overflow-hidden">
+            <TabNav 
+              tabs={tabs} 
+              activeTab={currentTab}
+              onChangeTab={(tab) => {
+                setCurrentTab(tab);
+                setSelectedItem(null);
+              }}
+            />
                 
-                <OpenTabs 
-                  openTabs={openTabs}
-                  selectedItem={selectedItem}
-                  handleSelectTab={handleSelectTab}
-                  handleCloseTab={handleCloseTab}
-                  currentTheme={currentTheme}
-                  settings={settings}
-                />
+            <OpenTabs 
+              openTabs={openTabs}
+              selectedItem={selectedItem}
+              handleSelectTab={handleSelectTab}
+              handleCloseTab={handleCloseTab}
+              currentTheme={currentTheme}
+              settings={settings}
+            />
                 
-                <MainContent 
-                  showSettings={showSettings}
-                  showToDoPanel={showToDoPanel}
-                  selectedItem={selectedItem}
-                  handleUpdateItem={handleUpdateItem}
-                  editMode={editMode}
-                  undoStack={undoStack}
-                  redoStack={redoStack}
-                  handleUndo={handleUndo}
-                  handleRedo={handleRedo}
-                  settings={settings}
-                  setSettings={setSettings}
-                  fileData={fileData}
-                  currentTab={currentTab}
-                  themes={themes}
-                  fontOptions={fontOptions}
-                  currentTheme={currentTheme}
-                  onShowFileUpload={() => handleShowFileUpload('header')}
-                  onShowSettings={() => {
-                    setShowSettings(true);
-                    setSelectedItem(null);
-                    setShowToDoPanel(false);
-                  }}
-                  onShowChangelog={() => {
-                    setShowChangelog(true);
-                    setShowSettings(false);
-                    setSelectedItem(null);
-                    setShowToDoPanel(false);
-                    setShowLoggingSystem(false);
-                  }}
-                />
-              </div>
-            </>
-          )}
+            <MainContent 
+              showSettings={showSettings}
+              showToDoPanel={showToDoPanel}
+              selectedItem={selectedItem}
+              handleUpdateItem={handleUpdateItem}
+              editMode={editMode}
+              undoStack={undoStack}
+              redoStack={redoStack}
+              handleUndo={handleUndo}
+              handleRedo={handleRedo}
+              settings={settings}
+              setSettings={setSettings}
+              fileData={fileData}
+              currentTab={currentTab}
+              themes={themes}
+              fontOptions={fontOptions}
+              currentTheme={currentTheme}
+              onShowFileUpload={() => handleShowFileUpload('header')}
+              onShowSettings={() => {
+                setShowSettings(true);
+                setSelectedItem(null);
+                setShowToDoPanel(false);
+              }}
+              onShowChangelog={() => {
+                setShowChangelog(true);
+                setShowSettings(false);
+                setSelectedItem(null);
+                setShowToDoPanel(false);
+                setShowLoggingSystem(false);
+              }}
+            />
+          </div>
         </div>
         
         <StatusBar 
@@ -434,6 +428,8 @@ const Index = () => {
           isVisible={showAboutModal}
           onClose={() => setShowAboutModal(false)}
         />
+        
+        <ChangelogDialog open={showChangelog} onOpenChange={setShowChangelog} />
       </div>
     </>
   );

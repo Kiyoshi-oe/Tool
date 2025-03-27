@@ -6,7 +6,6 @@ import { Database, Upload, ChevronLeft, ChevronRight, Clock } from "lucide-react
 import { Button } from "../ui/button";
 import { toast } from "sonner";
 import { RefreshCcw, Undo2, Redo2 } from "lucide-react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useState } from "react";
 
 interface MainContentProps {
@@ -31,69 +30,6 @@ interface MainContentProps {
   onShowChangelog?: () => void;
 }
 
-const ChangelogModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
-  const changelogText = `# Changelog
-
-## [1.2.2] - 2024-05-29
-- Performance-Optimierung für große Dateien (spec_item.txt)
-- Verbesserte Chunk-Verarbeitung für 20MB+ Dateien
-- Reduzierter Speicherverbrauch bei der Datenanalyse
-- Optimierte Ladezeiten durch effizientere Datenverarbeitung
-- Verbesserte Fehlerbehandlung bei Out-of-Memory-Situationen
-- Verbesserte Parser-Logik für modDyna.inc-Datei
-- Korrekte Anzeige von Dateinamen für alle Waffen-Items
-- Implementierung von Modellnamen-Anzeige für Armor-Items
-- Optimierte Verarbeitung der Datenstruktur mit robusterer Fehlerbehandlung
-- Entfernung des "Viewing"-Texts aus der Titelleiste
-- Dynamische Erkennung von Item-Eigenschaften ohne fest kodierte Listen
-
-## [1.2.1] - 2024-05-29
-### Geändert
-- Verbesserte Benutzeroberfläche und Navigation
-- Optimierte Datenverarbeitung
-- Erweiterte Fehlerbehandlung
-
-### Behoben
-- Verschiedene Bugfixes und Stabilitätsverbesserungen
-
-## [1.2.0] - 2023-11-15
-- Added support for parsing defineItem.h to extract item IDs
-- Added support for parsing modDyna.inc to get model filenames
-- Reorganized the General section with a new field order
-- Moved icon display from Visual Properties to General section
-- Improved image loading with support for DDS files
-- Changed the Tradable control to a modern toggle button
-- Updated the Change Log with a grouped accordion view
-- Added a dedicated Changelog page
-- Updated color scheme to use #707070 for text inputs and #007BFF for highlights
-- Added maximum stack size limit (9999) with a helper text
-
-## [1.1.0] - 2023-10-01
-- Added support for DDS image format
-- Fixed triple quotes in file paths
-- Improved error handling for image loading
-- Added detailed logging for better debugging
-
-## [1.0.0] - 2023-09-15
-- Initial release of Cyrus Resource Tool
-- Basic item editing functionality
-- Support for loading and saving Spec_Item.txt files
-- Implemented dark mode UI`;
-
-  return (
-    <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle>Änderungsprotokoll</DialogTitle>
-        </DialogHeader>
-        <div className="mt-4 text-white whitespace-pre-wrap">
-          {changelogText}
-        </div>
-      </DialogContent>
-    </Dialog>
-  );
-};
-
 export const WelcomeScreen = ({ 
   onShowFileUpload, 
   onShowSettings,
@@ -103,8 +39,6 @@ export const WelcomeScreen = ({
   onShowSettings: () => void;
   onShowChangelog?: () => void;
 }) => {
-  const [showChangelog, setShowChangelog] = useState(false);
-
   return (
     <div className="flex flex-col items-center justify-center h-full text-center p-6">
       <img
@@ -136,8 +70,8 @@ export const WelcomeScreen = ({
         </Button>
         
         <Button
-          onClick={() => setShowChangelog(true)}
-          className="bg-gray-700 hover:bg-gray-600 text-white flex items-center justify-center py-6 col-span-2"
+          onClick={onShowChangelog}
+          className="bg-cyrus-dark-light hover:bg-cyrus-dark-lighter text-white flex items-center justify-center py-6 col-span-2 border border-gray-700"
           variant="outline"
         >
           <Clock className="mr-2 h-5 w-5" />
@@ -148,8 +82,6 @@ export const WelcomeScreen = ({
       <div className="mt-8 text-sm text-gray-500">
         <p>Version 1.2.2 - © 2023-2024 Cyrus Development Team</p>
       </div>
-
-      <ChangelogModal isOpen={showChangelog} onClose={() => setShowChangelog(false)} />
     </div>
   );
 };

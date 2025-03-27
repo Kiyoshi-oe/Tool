@@ -1,19 +1,83 @@
-import { useState, useEffect, memo, useMemo, lazy, Suspense } from "react";
+import { useState, useEffect, memo, useMemo, lazy, Suspense, Component, ErrorInfo } from "react";
 import { ResourceItem, EffectData } from "../types/fileTypes";
 import { trackModifiedFile, trackPropItemChanges } from "../utils/file/fileOperations";
 import { updateItemIdInDefine } from "../utils/file/defineItemParser";
 import { updateModelFileNameInMdlDyna } from "../utils/file/mdlDynaParser";
 import { toast } from "sonner";
 
-// Performance-Optimierung: Lazy loading von Komponenten
-const GeneralSection = lazy(() => import("./resource-editor/GeneralSection"));
-const StatsSection = lazy(() => import("./resource-editor/StatsSection"));
-const SetEffectsSection = lazy(() => import("./resource-editor/SetEffectsSection"));
-const PropertiesSection = lazy(() => import("./resource-editor/PropertiesSection"));
-const WeaponPropertiesSection = lazy(() => import("./resource-editor/WeaponPropertiesSection"));
-const ResistancesSection = lazy(() => import("./resource-editor/ResistancesSection"));
-const VisualPropertiesSection = lazy(() => import("./resource-editor/VisualPropertiesSection"));
-const SoundEffectsSection = lazy(() => import("./resource-editor/SoundEffectsSection"));
+// Error Boundary Komponente für Fehlerbehandlung bei dynamischen Imports
+class ErrorBoundary extends Component<
+  { fallback: React.ReactNode; children: React.ReactNode },
+  { hasError: boolean; error: Error | null }
+> {
+  constructor(props: { fallback: React.ReactNode; children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error: Error) {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    console.error("Component error caught:", error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return this.props.fallback;
+    }
+    return this.props.children;
+  }
+}
+
+// Robustere Import-Funktion mit mehreren Fallbacks und feingranularer Fehlerbehandlung
+const robustImport = async (path: string, componentName: string) => {
+  try {
+    console.log(`Attempting to load ${componentName} from ${path}`);
+    // Erster Versuch mit .tsx
+    return await import(/* @vite-ignore */ `${path}.tsx`);
+  } catch (error) {
+    console.error(`Error loading ${componentName} with .tsx extension:`, error);
+    try {
+      // Zweiter Versuch ohne Erweiterung
+      console.log(`Retry loading ${componentName} without extension`);
+      return await import(/* @vite-ignore */ path);
+    } catch (retryError) {
+      console.error(`Failed on second attempt for ${componentName}:`, retryError);
+      
+      // Letzte Rettung: Wir liefern ein Fallback-Objekt mit einer leeren Komponente zurück,
+      // um die Anwendung am Laufen zu halten
+      console.warn(`Using fallback for ${componentName}`);
+      return {
+        default: (props: any) => (
+          <FallbackSection 
+            title={componentName} 
+            error={retryError instanceof Error ? retryError : new Error(`Failed to load ${componentName}`)} 
+          />
+        )
+      };
+    }
+  }
+};
+
+// Definiere die Komponenten mit der robusteren Import-Methode
+const GeneralSection = lazy(() => robustImport("./resource-editor/GeneralSection", "General"));
+const StatsSection = lazy(() => robustImport("./resource-editor/StatsSection", "Stats"));
+const SetEffectsSection = lazy(() => robustImport("./resource-editor/SetEffectsSection", "Set Effects"));
+const PropertiesSection = lazy(() => robustImport("./resource-editor/PropertiesSection", "Properties"));
+const WeaponPropertiesSection = lazy(() => robustImport("./resource-editor/WeaponPropertiesSection", "Weapon Properties"));
+const ResistancesSection = lazy(() => robustImport("./resource-editor/ResistancesSection", "Resistances"));
+const VisualPropertiesSection = lazy(() => robustImport("./resource-editor/VisualPropertiesSection", "Visual Properties"));
+const SoundEffectsSection = lazy(() => robustImport("./resource-editor/SoundEffectsSection", "Sound Effects"));
+
+// Fallback für Fehler in Sektionen
+const FallbackSection = ({ title, error }: { title: string, error: Error }) => (
+  <div className="mb-6 p-4 border border-red-500 rounded-md bg-red-100 dark:bg-red-900/20">
+    <h2 className="text-red-600 dark:text-red-400 text-lg font-semibold mb-2">{title} (Fehler beim Laden)</h2>
+    <p className="text-sm text-red-500">Die Komponente konnte nicht geladen werden. Fehlermeldung: {error.message}</p>
+  </div>
+);
 
 // Loading-Fallback für Suspense
 const SectionLoader = () => (
@@ -196,63 +260,89 @@ const ResourceEditor = memo(({ item, onUpdateItem, editMode = false }: ResourceE
   
   return (
     <div className="flex-1 overflow-y-auto p-4">
-      <Suspense fallback={<SectionLoader />}>
-        <GeneralSection 
-          localItem={localItem}
-          editMode={editMode}
-          handleDataChange={handleDataChange}
-        />
-      </Suspense>
-      
-      <Suspense fallback={<SectionLoader />}>
-        <StatsSection 
-          localItem={localItem}
-          editMode={editMode}
-          handleEffectChange={handleEffectChange}
-        />
-      </Suspense>
-      
-      <Suspense fallback={<SectionLoader />}>
-        <PropertiesSection 
-          localItem={localItem}
-          editMode={editMode}
-          handleDataChange={handleDataChange}
-        />
-      </Suspense>
-      
-      {showWeaponProps && (
+      <ErrorBoundary fallback={<FallbackSection title="General" error={new Error("Komponente konnte nicht gerendert werden")} />}>
         <Suspense fallback={<SectionLoader />}>
-          <WeaponPropertiesSection 
+          <GeneralSection 
             localItem={localItem}
             editMode={editMode}
             handleDataChange={handleDataChange}
           />
         </Suspense>
+      </ErrorBoundary>
+      
+      <ErrorBoundary fallback={<FallbackSection title="Stats" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+        <Suspense fallback={<SectionLoader />}>
+          <StatsSection 
+            localItem={localItem}
+            editMode={editMode}
+            handleEffectChange={handleEffectChange}
+          />
+        </Suspense>
+      </ErrorBoundary>
+      
+      <ErrorBoundary fallback={<FallbackSection title="Properties" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+        <Suspense fallback={<SectionLoader />}>
+          <PropertiesSection 
+            localItem={localItem}
+            editMode={editMode}
+            handleDataChange={handleDataChange}
+          />
+        </Suspense>
+      </ErrorBoundary>
+      
+      {showWeaponProps && (
+        <ErrorBoundary fallback={<FallbackSection title="Weapon Properties" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+          <Suspense fallback={<SectionLoader />}>
+            <WeaponPropertiesSection 
+              localItem={localItem}
+              editMode={editMode}
+              handleDataChange={handleDataChange}
+            />
+          </Suspense>
+        </ErrorBoundary>
       )}
       
       {showResistances && (
-        <Suspense fallback={<SectionLoader />}>
-          <ResistancesSection 
-            localItem={localItem}
-            editMode={editMode}
-            handleDataChange={handleDataChange}
-          />
-        </Suspense>
+        <ErrorBoundary fallback={<FallbackSection title="Resistances" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+          <Suspense fallback={<SectionLoader />}>
+            <ResistancesSection 
+              localItem={localItem}
+              editMode={editMode}
+              handleDataChange={handleDataChange}
+            />
+          </Suspense>
+        </ErrorBoundary>
       )}
       
       {showSoundEffects && (
-        <Suspense fallback={<SectionLoader />}>
-          <SoundEffectsSection 
-            localItem={localItem}
-            editMode={editMode}
-            handleDataChange={handleDataChange}
-          />
-        </Suspense>
+        <ErrorBoundary fallback={<FallbackSection title="Sound Effects" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+          <Suspense fallback={<SectionLoader />}>
+            <SoundEffectsSection 
+              localItem={localItem}
+              editMode={editMode}
+              handleDataChange={handleDataChange}
+            />
+          </Suspense>
+        </ErrorBoundary>
       )}
       
-      <Suspense fallback={<SectionLoader />}>
-        <SetEffectsSection item={localItem} />
-      </Suspense>
+      {showVisualProps && (
+        <ErrorBoundary fallback={<FallbackSection title="Visual Properties" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+          <Suspense fallback={<SectionLoader />}>
+            <VisualPropertiesSection 
+              localItem={localItem}
+              editMode={editMode}
+              handleDataChange={handleDataChange}
+            />
+          </Suspense>
+        </ErrorBoundary>
+      )}
+      
+      <ErrorBoundary fallback={<FallbackSection title="Set Effects" error={new Error("Komponente konnte nicht gerendert werden")} />}>
+        <Suspense fallback={<SectionLoader />}>
+          <SetEffectsSection item={localItem} />
+        </Suspense>
+      </ErrorBoundary>
     </div>
   );
 });

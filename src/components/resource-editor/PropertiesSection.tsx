@@ -92,31 +92,7 @@ const PropertiesSection = ({ localItem, editMode, handleDataChange }: Properties
           helperText="Level requirement to use this item"
         />
         
-        <div className="col-span-2 grid grid-cols-3 gap-4">
-          <div className="form-field">
-            <label className="form-label">Item Rarity</label>
-            <div className="relative">
-              <select
-                className="form-input appearance-none pr-10"
-                value={localItem.data.dwItemRare as string || '0'}
-                onChange={(e) => handleDataChange('dwItemRare', e.target.value)}
-                disabled={!editMode}
-              >
-                <option value="0">Common (0)</option>
-                <option value="1">Uncommon (1)</option>
-                <option value="2">Rare (2)</option>
-                <option value="3">Epic (3)</option>
-                <option value="4">Legendary (4)</option>
-                <option value="5">Mystical (5)</option>
-              </select>
-              <ChevronDown className="absolute right-3 top-2.5 w-4 h-4 text-gray-400 pointer-events-none" />
-            </div>
-            <p className="text-sm text-muted-foreground flex items-center gap-1 mt-1">
-              <Info size={14} />
-              <span>Rarity level of the item (0-5)</span>
-            </p>
-          </div>
-          
+        <div className="col-span-2 grid grid-cols-2 gap-4">
           <div className="form-field">
             <label className="form-label">Shop-able</label>
             <div className="mt-2">

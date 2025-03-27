@@ -51,7 +51,3 @@ export const weaponTypeOptions = [
   'WT_MELEE_SWD', 'WT_MELEE_AXE', 'WT_MELEE_STAFF', 'WT_RANGE_BOW', 
   'WT_MAGIC_WAND', 'WT_RANGE_GUN'
 ];
-
-export const itemGradeOptions = [
-  'ITEM_GRADE_NORMAL', 'ITEM_GRADE_RARE', 'ITEM_GRADE_UNIQUE', 'ITEM_GRADE_ULTIMATE'
-];

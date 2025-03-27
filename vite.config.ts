@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
+// @ts-ignore - Keine Typdefinition für api-middleware.js
 import apiMiddleware from "./api-middleware.js";
 
 // https://vitejs.dev/config/
@@ -12,6 +13,11 @@ export default defineConfig(({ mode }) => ({
     fs: {
       // Allow serving files from one level up to the project root
       allow: ['..']
+    },
+    // Verbesserte Fehlerbehandlung
+    hmr: {
+      // HMR aktiviert
+      overlay: true
     }
   },
   plugins: [
@@ -31,6 +37,8 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    // Verbesserte Auflösung für dynamische Imports
+    extensions: ['.tsx', '.ts', '.jsx', '.js', '.json']
   },
   build: {
     outDir: 'dist',
@@ -40,8 +48,17 @@ export default defineConfig(({ mode }) => ({
         manualChunks: {
           react: ['react', 'react-dom'],
           router: ['react-router-dom'],
+          // Verbesserte Teilung in Chunks für wichtige Komponenten
+          'editor-core': [
+            './src/components/ResourceEditor',
+            './src/components/resource-editor/GeneralSection'
+          ]
         }
       }
     }
+  },
+  // Verbesserte Optionen für Optimierungen
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom']
   }
 }));
