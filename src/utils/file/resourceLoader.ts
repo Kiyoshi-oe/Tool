@@ -1,6 +1,27 @@
 import { parsePropItemFile } from './propItemUtils';
 import { parseTextFile } from './parseUtils';
 
+// Erweitere den Window-Typ, um APP_CONFIG zu unterstützen
+declare global {
+  interface Window {
+    APP_CONFIG?: {
+      USING_LARGE_FILES?: boolean;
+      SPEC_ITEM_PATH?: string;
+      SPEC_ITEM_POSITION?: number;
+      SPEC_ITEM_ENCODING?: string;
+      SPEC_ITEM_TOTAL_SIZE?: number;
+      SPEC_ITEM_CHUNKS?: string[];
+      SPEC_ITEM_FULLY_LOADED?: boolean;
+      PROP_ITEM_PATH?: string;
+      PROP_ITEM_POSITION?: number;
+      PROP_ITEM_ENCODING?: string;
+      PROP_ITEM_TOTAL_SIZE?: number;
+      PROP_ITEM_CHUNKS?: string[];
+      PROP_ITEM_FULLY_LOADED?: boolean;
+    };
+  }
+}
+
 // Erkennen ob wir in Electron oder im Browser laufen
 const isElectron = () => {
   return window && window.process && window.process.versions && window.process.versions.electron;
@@ -10,6 +31,10 @@ export const loadPredefinedFiles = async (): Promise<{specItem: string | null, p
   try {
     console.log("Attempting to load files from resource directory");
     console.log("Is Electron environment:", isElectron());
+    
+    // Performance-Flag setzen für großes Datei-Handling
+    window.APP_CONFIG = window.APP_CONFIG || {};
+    window.APP_CONFIG.USING_LARGE_FILES = true;
     
     // Bei Electron direkt das Dateisystem verwenden
     if (isElectron()) {
@@ -45,86 +70,70 @@ async function loadFilesFromFileSystem(): Promise<{specItem: string | null, prop
     
     // Absolute Pfade zu den Dateien
     const specItemPath = path.join(basePath, 'Spec_Item.txt');
+    // Prüfe erst, ob die kleinere Testdatei existiert
+    const testSpecItemPath = path.join(basePath, 'Spec_item_Test.txt');
     const propItemPath = path.join(basePath, 'propItem.txt.txt');
-    
-    console.log(`Trying to load Spec_Item.txt from filesystem: ${specItemPath}`);
     
     let specItemText = null;
     let propItemText = null;
     
-    // Versuche die Spec_Item.txt Datei zu lesen
-    if (fs.existsSync(specItemPath)) {
-      // Performance-Optimierung: Prüfe zuerst Dateigröße
+    // OPTIMIERUNG: Prüfe zuerst, ob die kleinere Testdatei existiert
+    if (fs.existsSync(testSpecItemPath)) {
+      console.log(`Gefunden: kleinere Testdatei ${testSpecItemPath}`);
+      const buffer = fs.readFileSync(testSpecItemPath);
+      specItemText = buffer.toString('utf8');
+      console.log(`Geladen: Test-Spec-Datei, Länge: ${specItemText.length}`);
+    }
+    // Versuche die Spec_Item.txt Datei zu lesen, falls keine Testdatei existiert
+    else if (fs.existsSync(specItemPath)) {
+      // NEU: Chunked Reading für große Dateien mit Verzögerungspufferung
       const stats = fs.statSync(specItemPath);
       console.log(`Spec_Item.txt Größe: ${stats.size} Bytes`);
       
-      // Für große Dateien WASM-basierte Dekodierung verwenden, falls verfügbar
-      if (stats.size > 5 * 1024 * 1024) { // > 5MB
-        console.log("Große Datei erkannt, nutze optimierte Lademethode");
-        // Nur die ersten 4KB lesen, um den BOM zu erkennen
-        const headerBuffer = Buffer.alloc(4096);
-        const fd = fs.openSync(specItemPath, 'r');
-        fs.readSync(fd, headerBuffer, 0, 4096, 0);
-        
-        // BOM erkennen
-        let encoding: BufferEncoding = 'utf8';
-        let skipBytes = 0;
-        
-        if (headerBuffer[0] === 0xEF && headerBuffer[1] === 0xBB && headerBuffer[2] === 0xBF) {
-          console.log("UTF-8 BOM detected");
-          encoding = 'utf8';
-          skipBytes = 3;
-        } else if (headerBuffer[0] === 0xFF && headerBuffer[1] === 0xFE) {
-          console.log("UTF-16LE BOM detected");
-          encoding = 'utf16le';
-          skipBytes = 2;
-        }
-        
-        // Stream-basiertes Lesen für große Dateien
-        const chunks = [];
-        const chunkSize = 1024 * 1024; // 1MB Chunks
-        let position = skipBytes;
-        let bytesRead = 0;
-        
-        while (position < stats.size) {
-          const buffer = Buffer.alloc(chunkSize);
-          const bytesRead = fs.readSync(fd, buffer, 0, chunkSize, position);
-          if (bytesRead <= 0) break;
-          
-          chunks.push(buffer.slice(0, bytesRead).toString(encoding));
-          position += bytesRead;
-          
-          // Verarbeitung-Fortschritt anzeigen
-          if (chunks.length % 5 === 0) {
-            console.log(`Ladefortschritt: ${Math.round((position / stats.size) * 100)}%`);
-          }
-        }
-        
-        fs.closeSync(fd);
-        specItemText = chunks.join('');
-        console.log(`Loaded Spec_Item.txt with optimized method, content length: ${specItemText.length}`);
-      } else {
-        // Standard-Lademethode für kleinere Dateien
-        // Buffer als UTF-8 decodieren
-        const buffer = fs.readFileSync(specItemPath);
-        
-        // BOM erkennen und Codierung wählen
-        if (buffer.length >= 3 && buffer[0] === 0xEF && buffer[1] === 0xBB && buffer[2] === 0xBF) {
-          console.log("UTF-8 BOM detected in file");
-          specItemText = buffer.toString('utf8', 3); // Skip BOM
-        } else if (buffer.length >= 2 && buffer[0] === 0xFF && buffer[1] === 0xFE) {
-          console.log("UTF-16LE BOM detected in file");
-          specItemText = buffer.toString('utf16le', 2); // Skip BOM
-        } else {
-          // Defaultmäßig als UTF-8 lesen
-          specItemText = buffer.toString('utf8');
-        }
-        
-        console.log(`Loaded Spec_Item.txt from filesystem, content length: ${specItemText.length}`);
+      // OPTIMIERUNG: Beschränke den initialen Ladevorgang
+      // Wir laden nur einen HEAD-Chunk für sofortige Anzeige
+      // und laden den Rest im Hintergrund
+      const MAX_INITIAL_SIZE = 1 * 1024 * 1024; // 1MB für erstes Laden
+      
+      // Nur die ersten Bytes lesen, um den BOM zu erkennen
+      const headerBuffer = Buffer.alloc(4096);
+      const fd = fs.openSync(specItemPath, 'r');
+      fs.readSync(fd, headerBuffer, 0, 4096, 0);
+      
+      // BOM erkennen
+      let encoding: BufferEncoding = 'utf8';
+      let skipBytes = 0;
+      
+      if (headerBuffer[0] === 0xEF && headerBuffer[1] === 0xBB && headerBuffer[2] === 0xBF) {
+        console.log("UTF-8 BOM detected");
+        encoding = 'utf8';
+        skipBytes = 3;
+      } else if (headerBuffer[0] === 0xFF && headerBuffer[1] === 0xFE) {
+        console.log("UTF-16LE BOM detected");
+        encoding = 'utf16le';
+        skipBytes = 2;
       }
       
-      // Ersten Teil der Datei für Debug-Zwecke ausgeben
-      console.log("First 200 chars:", specItemText.substring(0, 200).replace(/\n/g, '\\n'));
+      // OPTIMIERUNG: Nur den Anfang der Datei laden für schnelle Anzeige
+      const initialBuffer = Buffer.alloc(MAX_INITIAL_SIZE);
+      fs.readSync(fd, initialBuffer, 0, MAX_INITIAL_SIZE, skipBytes);
+      fs.closeSync(fd);
+      
+      // Konvertiere den Buffer in Text
+      specItemText = initialBuffer.toString(encoding);
+      console.log(`Initialer Inhalt geladen: ${specItemText.length} Zeichen`);
+      
+      // OPTIMIERUNG: Speichern Sie den Dateipfad und die Position für späteres Nachladen
+      window.APP_CONFIG = window.APP_CONFIG || {};
+      window.APP_CONFIG.SPEC_ITEM_PATH = specItemPath;
+      window.APP_CONFIG.SPEC_ITEM_POSITION = skipBytes + MAX_INITIAL_SIZE;
+      window.APP_CONFIG.SPEC_ITEM_ENCODING = encoding;
+      window.APP_CONFIG.SPEC_ITEM_TOTAL_SIZE = stats.size;
+      
+      // Starte den Hintergrundprozess für das Nachladen
+      setTimeout(() => {
+        loadRemainingSpecItemContent(specItemPath, window.APP_CONFIG.SPEC_ITEM_POSITION, encoding, stats.size);
+      }, 1000); // 1 Sekunde warten, um die UI-Anzeige zu priorisieren
     } else {
       console.error(`File not found: ${specItemPath}`);
       // Alternatives Pfad versuchen (vom Benutzer angegeben)
@@ -132,50 +141,41 @@ async function loadFilesFromFileSystem(): Promise<{specItem: string | null, prop
       console.log(`Trying alternative path: ${userPath}`);
       
       if (fs.existsSync(userPath)) {
-        // Auch hier die optimierte Methode für große Dateien verwenden
+        // OPTIMIERUNG: Gleiche Logik wie oben für den alternativen Pfad
         const stats = fs.statSync(userPath);
+        const MAX_INITIAL_SIZE = 1 * 1024 * 1024; // 1MB für erstes Laden
         
-        if (stats.size > 5 * 1024 * 1024) {
-          // Ähnlicher Code wie oben für große Dateien
-          // ... (Verwende die gleiche optimierte Lademethode)
-          // ... existing code ...
-          const headerBuffer = Buffer.alloc(4096);
-          const fd = fs.openSync(userPath, 'r');
-          fs.readSync(fd, headerBuffer, 0, 4096, 0);
-          
-          let encoding: BufferEncoding = 'utf8';
-          let skipBytes = 0;
-          
-          if (headerBuffer[0] === 0xEF && headerBuffer[1] === 0xBB && headerBuffer[2] === 0xBF) {
-            encoding = 'utf8';
-            skipBytes = 3;
-          } else if (headerBuffer[0] === 0xFF && headerBuffer[1] === 0xFE) {
-            encoding = 'utf16le';
-            skipBytes = 2;
-          }
-          
-          const chunks = [];
-          const chunkSize = 1024 * 1024;
-          let position = skipBytes;
-          
-          while (position < stats.size) {
-            const buffer = Buffer.alloc(chunkSize);
-            const bytesRead = fs.readSync(fd, buffer, 0, chunkSize, position);
-            if (bytesRead <= 0) break;
-            
-            chunks.push(buffer.slice(0, bytesRead).toString(encoding));
-            position += bytesRead;
-          }
-          
-          fs.closeSync(fd);
-          specItemText = chunks.join('');
-        } else {
-          // Standardmethode für kleinere Dateien
-          const buffer = fs.readFileSync(userPath);
-          specItemText = buffer.toString('utf8');
+        const headerBuffer = Buffer.alloc(4096);
+        const fd = fs.openSync(userPath, 'r');
+        fs.readSync(fd, headerBuffer, 0, 4096, 0);
+        
+        let encoding: BufferEncoding = 'utf8';
+        let skipBytes = 0;
+        
+        if (headerBuffer[0] === 0xEF && headerBuffer[1] === 0xBB && headerBuffer[2] === 0xBF) {
+          encoding = 'utf8';
+          skipBytes = 3;
+        } else if (headerBuffer[0] === 0xFF && headerBuffer[1] === 0xFE) {
+          encoding = 'utf16le';
+          skipBytes = 2;
         }
         
-        console.log(`Loaded Spec_Item.txt from user path, content length: ${specItemText.length}`);
+        const initialBuffer = Buffer.alloc(MAX_INITIAL_SIZE);
+        fs.readSync(fd, initialBuffer, 0, MAX_INITIAL_SIZE, skipBytes);
+        fs.closeSync(fd);
+        
+        specItemText = initialBuffer.toString(encoding);
+        
+        // Speichern für Nachladen
+        window.APP_CONFIG = window.APP_CONFIG || {};
+        window.APP_CONFIG.SPEC_ITEM_PATH = userPath;
+        window.APP_CONFIG.SPEC_ITEM_POSITION = skipBytes + MAX_INITIAL_SIZE;
+        window.APP_CONFIG.SPEC_ITEM_ENCODING = encoding;
+        window.APP_CONFIG.SPEC_ITEM_TOTAL_SIZE = stats.size;
+        
+        setTimeout(() => {
+          loadRemainingSpecItemContent(userPath, window.APP_CONFIG.SPEC_ITEM_POSITION, encoding, stats.size);
+        }, 1000);
       } else {
         throw new Error("Could not find Spec_item.txt file in any location");
       }
@@ -183,23 +183,165 @@ async function loadFilesFromFileSystem(): Promise<{specItem: string | null, prop
     
     // Versuche die propItem.txt.txt Datei zu lesen
     if (fs.existsSync(propItemPath)) {
-      const buffer = fs.readFileSync(propItemPath);
+      const stats = fs.statSync(propItemPath);
+      console.log(`propItem.txt.txt Größe: ${stats.size} Bytes`);
       
-      // BOM erkennen und Codierung wählen
-      if (buffer.length >= 2 && buffer[0] === 0xFF && buffer[1] === 0xFE) {
+      // OPTIMIERUNG: Beschränktes Laden für propItem.txt.txt
+      const MAX_INITIAL_SIZE = 500 * 1024; // 500KB für initialen Ladevorgang
+      
+      // Erkennung der Kodierung
+      const headerBuffer = Buffer.alloc(4096);
+      const fd = fs.openSync(propItemPath, 'r');
+      fs.readSync(fd, headerBuffer, 0, 4096, 0);
+      
+      let encoding: BufferEncoding = 'utf8';
+      let skipBytes = 0;
+      
+      if (headerBuffer.length >= 2 && headerBuffer[0] === 0xFF && headerBuffer[1] === 0xFE) {
         console.log("UTF-16LE BOM detected in propItem file");
-        propItemText = buffer.toString('utf16le', 2); // Skip BOM
-      } else {
-        propItemText = buffer.toString('utf8');
+        encoding = 'utf16le';
+        skipBytes = 2;
       }
       
-      console.log(`Loaded propItem.txt.txt from filesystem, content length: ${propItemText.length}`);
-        }
-        
-        return { specItem: specItemText, propItem: propItemText };
+      // Lade nur den Anfang
+      const initialBuffer = Buffer.alloc(MAX_INITIAL_SIZE);
+      fs.readSync(fd, initialBuffer, 0, MAX_INITIAL_SIZE, skipBytes);
+      fs.closeSync(fd);
+      
+      propItemText = initialBuffer.toString(encoding);
+      console.log(`Initialer propItem Inhalt geladen: ${propItemText.length} Zeichen`);
+      
+      // Speichern für Nachladen
+      window.APP_CONFIG = window.APP_CONFIG || {};
+      window.APP_CONFIG.PROP_ITEM_PATH = propItemPath;
+      window.APP_CONFIG.PROP_ITEM_POSITION = skipBytes + MAX_INITIAL_SIZE;
+      window.APP_CONFIG.PROP_ITEM_ENCODING = encoding;
+      window.APP_CONFIG.PROP_ITEM_TOTAL_SIZE = stats.size;
+      
+      // Starte das Nachladen im Hintergrund
+      setTimeout(() => {
+        loadRemainingPropItemContent(propItemPath, window.APP_CONFIG.PROP_ITEM_POSITION, encoding, stats.size);
+      }, 1500); // 1,5 Sekunden warten, um UI nicht zu blockieren
+    }
+    
+    return { specItem: specItemText, propItem: propItemText };
   } catch (error) {
     console.error("Error loading files from filesystem:", error);
     throw error;
+  }
+}
+
+// Hintergrund-Ladevorgang für Spec_Item.txt
+function loadRemainingSpecItemContent(filePath: string, position: number, encoding: BufferEncoding, totalSize: number) {
+  try {
+    const fs = window.require('fs');
+    const CHUNK_SIZE = 2 * 1024 * 1024; // 2MB chunks
+    
+    // Funktion für das Laden eines Chunks
+    const loadNextChunk = () => {
+      if (position >= totalSize) {
+        console.log("Spec_Item.txt vollständig geladen");
+        // Setze den vollständigen Ladestatus
+        window.APP_CONFIG.SPEC_ITEM_FULLY_LOADED = true;
+        // Sende ein benutzerdefiniertes Event für die App
+        window.dispatchEvent(new CustomEvent('specItemFullyLoaded'));
+        return;
+      }
+      
+      const fd = fs.openSync(filePath, 'r');
+      const buffer = Buffer.alloc(CHUNK_SIZE);
+      const bytesRead = fs.readSync(fd, buffer, 0, CHUNK_SIZE, position);
+      fs.closeSync(fd);
+      
+      if (bytesRead <= 0) {
+        console.log("Spec_Item.txt vollständig geladen (EOF)");
+        window.APP_CONFIG.SPEC_ITEM_FULLY_LOADED = true;
+        window.dispatchEvent(new CustomEvent('specItemFullyLoaded'));
+        return;
+      }
+      
+      // Verarbeite den neu geladenen Chunk
+      const chunk = buffer.slice(0, bytesRead).toString(encoding);
+      
+      // Füge den Chunk zum Cache hinzu
+      window.APP_CONFIG.SPEC_ITEM_CHUNKS = window.APP_CONFIG.SPEC_ITEM_CHUNKS || [];
+      window.APP_CONFIG.SPEC_ITEM_CHUNKS.push(chunk);
+      
+      // Aktualisiere die Position
+      position += bytesRead;
+      window.APP_CONFIG.SPEC_ITEM_POSITION = position;
+      
+      // Gib Ladestatus aus
+      const percent = Math.round((position / totalSize) * 100);
+      console.log(`Spec_Item.txt Ladefortschritt: ${percent}%`);
+      
+      // Sende Event für den geladenen Chunk
+      window.dispatchEvent(new CustomEvent('specItemChunkLoaded'));
+      
+      // Lade den nächsten Chunk mit Verzögerung
+      setTimeout(loadNextChunk, 200); // 200ms Pause zwischen Chunks
+    };
+    
+    // Starte den Ladevorgang
+    loadNextChunk();
+  } catch (error) {
+    console.error("Error in background loading of Spec_Item.txt:", error);
+  }
+}
+
+// Hintergrund-Ladevorgang für propItem.txt.txt
+function loadRemainingPropItemContent(filePath: string, position: number, encoding: BufferEncoding, totalSize: number) {
+  try {
+    const fs = window.require('fs');
+    const CHUNK_SIZE = 1 * 1024 * 1024; // 1MB chunks
+    
+    // Funktion für das Laden eines Chunks
+    const loadNextChunk = () => {
+      if (position >= totalSize) {
+        console.log("propItem.txt.txt vollständig geladen");
+        window.APP_CONFIG.PROP_ITEM_FULLY_LOADED = true;
+        window.dispatchEvent(new CustomEvent('propItemFullyLoaded'));
+        return;
+      }
+      
+      const fd = fs.openSync(filePath, 'r');
+      const buffer = Buffer.alloc(CHUNK_SIZE);
+      const bytesRead = fs.readSync(fd, buffer, 0, CHUNK_SIZE, position);
+      fs.closeSync(fd);
+      
+      if (bytesRead <= 0) {
+        console.log("propItem.txt.txt vollständig geladen (EOF)");
+        window.APP_CONFIG.PROP_ITEM_FULLY_LOADED = true;
+        window.dispatchEvent(new CustomEvent('propItemFullyLoaded'));
+        return;
+      }
+      
+      // Verarbeite den neu geladenen Chunk
+      const chunk = buffer.slice(0, bytesRead).toString(encoding);
+      
+      // Füge den Chunk zum Cache hinzu
+      window.APP_CONFIG.PROP_ITEM_CHUNKS = window.APP_CONFIG.PROP_ITEM_CHUNKS || [];
+      window.APP_CONFIG.PROP_ITEM_CHUNKS.push(chunk);
+      
+      // Aktualisiere die Position
+      position += bytesRead;
+      window.APP_CONFIG.PROP_ITEM_POSITION = position;
+      
+      // Gib Ladestatus aus
+      const percent = Math.round((position / totalSize) * 100);
+      console.log(`propItem.txt.txt Ladefortschritt: ${percent}%`);
+      
+      // Sende Event für den geladenen Chunk
+      window.dispatchEvent(new CustomEvent('propItemChunkLoaded'));
+      
+      // Lade den nächsten Chunk mit Verzögerung
+      setTimeout(loadNextChunk, 300); // 300ms Pause zwischen Chunks
+    };
+    
+    // Starte den Ladevorgang
+    loadNextChunk();
+  } catch (error) {
+    console.error("Error in background loading of propItem.txt.txt:", error);
   }
 }
 

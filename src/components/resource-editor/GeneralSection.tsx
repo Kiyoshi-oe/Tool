@@ -202,33 +202,77 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
   // The ID from propItem.txt.txt (e.g. IDS_PROPITEM_TXT_000124)
   const propItemId = localItem.data.szName as string || '';
   
-  // Direkter Fix für problematische IDs
-  let displayName = localItem.displayName || localItem.name || '';
+  // Get the item define ID (e.g. II_WEA_AXE_RODNEY)
+  const itemDefine = localItem.data.dwID as string || '';
   
-  // Für den Fall, dass displayName gleich der ID ist, versuche den Namen aus dem Debug-Output zu extrahieren
-  if (displayName.startsWith('IDS_PROPITEM_TXT_')) {
-    // Mapping für kritische IDs, die nicht korrekt geladen werden
-    const criticalIDMapping: Record<string, string> = {
-      'IDS_PROPITEM_TXT_007342': 'Knighert Boots',
-      'IDS_PROPITEM_TXT_011548': '[Holy] Curio Suit (M)',
-      // Fügen Sie hier weitere IDs hinzu, die nicht korrekt angezeigt werden
-      'IDS_PROPITEM_TXT_007343': 'Knighert Boots Description',
-      'IDS_PROPITEM_TXT_011549': '[Holy] Curio Suit (M) Description',
-      'IDS_PROPITEM_TXT_011634': 'Cotton Gauntlet',
-      'IDS_PROPITEM_TXT_011635': 'Cotton Gauntlet Description'
-    };
+  // Lies den Namen basierend auf verfügbaren Daten aus
+  let displayName = '';
+  
+  // Für Debugging-Zwecke, nur im Debug-Modus
+  const debugEnabled = window.localStorage.getItem('cyrusSettings') ? 
+    JSON.parse(window.localStorage.getItem('cyrusSettings') || '{}').enableDebug : false;
     
-    // Wenn die ID im Mapping vorhanden ist, verwende den entsprechenden Namen
-    if (criticalIDMapping[displayName]) {
-      displayName = criticalIDMapping[displayName];
+  if (debugEnabled) {
+    console.log(`Item ${localItem.id} - DisplayName: "${displayName}", Original Name: "${localItem.name}"`);
+  }
+  
+  // Wenn eine propItemId vorhanden ist (z.B. IDS_PROPITEM_TXT_000124)
+  if (propItemId && propItemId.startsWith('IDS_PROPITEM_TXT_')) {
+    // Wenn der displayName in der ursprünglichen Datenstruktur vorhanden ist
+    if (localItem.displayName) {
+      displayName = localItem.displayName;
+    } 
+    // Wenn der displayName ein zusammengesetzter String ist (ID + Name), extrahiere den Namen
+    else if (localItem.name && localItem.name.includes(' ') && localItem.name.startsWith('IDS_PROPITEM_TXT_')) {
+      // Trenne die ID vom Namen
+      const parts = localItem.name.split(' ');
+      if (parts.length > 1) {
+        displayName = localItem.name.substring(parts[0].length).trim();
+      } else {
+        displayName = localItem.name;
+      }
+    } 
+    // Fallback auf den itemDefine
+    else if (itemDefine) {
+      // Namen aus dem Item-Define extrahieren (z.B. aus II_WEA_AXE_MORROW)
+      displayName = itemDefine
+        .replace(/^II_([A-Z]+)_([A-Z]+)_/, '') // Entferne II_WEA_AXE_
+        .split('_')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(' ');
+      
+      if (debugEnabled) {
+        console.log(`Generated readable name from define for ${itemDefine}: "${displayName}"`);
+      }
+    } 
+    // Letzter Fallback: Generiere einen generischen Namen aus der ID
+    else {
+      displayName = propItemId.replace('IDS_PROPITEM_TXT_', 'Item ');
+    }
+  } 
+  // Falls keine propItemId vorhanden ist, verwende den normalen displayName/name
+  else {
+    displayName = localItem.displayName || localItem.name || '';
+    
+    // Wenn der displayName nicht sinnvoll ist, versuche einen aus itemDefine zu generieren
+    if (displayName === itemDefine || !displayName) {
+      if (itemDefine) {
+        // Namen aus dem Item-Define extrahieren (z.B. aus II_WEA_AXE_MORROW)
+        displayName = itemDefine
+          .replace(/^II_([A-Z]+)_([A-Z]+)_/, '') // Entferne II_WEA_AXE_
+          .split('_')
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+          .join(' ');
+        
+        if (debugEnabled) {
+          console.log(`Generated readable name from define for ${itemDefine}: "${displayName}"`);
+        }
+      }
     }
   }
   
   // Get the description (which was loaded from propItem.txt.txt)
   const description = localItem.description || 'No description available';
-  
-  // Get the item define ID (e.g. II_WEA_AXE_RODNEY)
-  const itemDefine = localItem.data.dwID as string || '';
   
   // Get the numerical item ID from defineItem.h
   const itemId = getItemIdFromDefine(itemDefine);
@@ -742,7 +786,13 @@ const GeneralSection = ({ localItem, editMode, handleDataChange }: GeneralSectio
           className="border border-gray-600 bg-gray-900 p-4" 
           onInteractOutside={(e) => e.preventDefault()}
           previewScale={previewScale}
+          aria-describedby="dds-preview-description"
         >
+          <DialogTitle className="sr-only">DDS Texture Preview</DialogTitle>
+          <DialogDescription id="dds-preview-description" className="sr-only">
+            Preview of DDS texture file showing the icon at various zoom levels
+          </DialogDescription>
+          
           <div className="flex justify-between items-center mb-2">
             <div className="flex flex-col">
               <span className="text-cyrus-blue font-medium">{cleanedIconName || "Item Icon"}</span>

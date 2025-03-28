@@ -19,7 +19,7 @@ let modelNameMappings: ModelNameMapping = {};
 let originalMdlDynaContent = "";
 
 // Parse mdlDyna.inc file content
-export const parseMdlDynaFile = (content: string): void => {
+export const parseMdlDynaFile = (content: string, debugEnabled: boolean = false): void => {
   // Store the original content
   originalMdlDynaContent = content;
   try {
@@ -79,7 +79,8 @@ export const parseMdlDynaFile = (content: string): void => {
               const modelName = modelNameMatch[1].trim();
               modelNameMaps[itemDefine] = modelName;
               
-              if (count < 5) {
+              // Debug-Ausgaben nur anzeigen, wenn debugEnabled=true
+              if (debugEnabled && count < 5) {
                 console.log(`Found armor model name for ${itemDefine}: "${modelName}" (file: ${fileName})`);
               }
             }
@@ -87,8 +88,8 @@ export const parseMdlDynaFile = (content: string): void => {
           
           count++;
           
-          // Log first few items for debugging
-          if (count <= 5) {
+          // Debug-Ausgaben nur anzeigen, wenn debugEnabled=true
+          if (debugEnabled && count <= 5) {
             console.log(`Parsed item: ${itemDefine} = ${fileName}`);
           }
         }
@@ -99,7 +100,9 @@ export const parseMdlDynaFile = (content: string): void => {
     
     // Special handling for the II_ARM_M_VAG_BOOTS01 item if it wasn't found
     if (!modelNameMaps['II_ARM_M_VAG_BOOTS01'] && mappings['II_ARM_M_VAG_BOOTS01']) {
-      console.log("Looking for model name for II_ARM_M_VAG_BOOTS01...");
+      if (debugEnabled) {
+        console.log("Looking for model name for II_ARM_M_VAG_BOOTS01...");
+      }
       
       // Try to find the line again specifically
       const bootLine = contentLines.find(line => line.includes('II_ARM_M_VAG_BOOTS01'));
@@ -107,34 +110,45 @@ export const parseMdlDynaFile = (content: string): void => {
         const modelNameMatch = /MODELTYPE_MESH\s+"([^"]*)"/.exec(bootLine);
         if (modelNameMatch && modelNameMatch[1]) {
           modelNameMaps['II_ARM_M_VAG_BOOTS01'] = modelNameMatch[1].trim();
-          console.log(`Found model name for II_ARM_M_VAG_BOOTS01: "${modelNameMaps['II_ARM_M_VAG_BOOTS01']}"`);
+          if (debugEnabled) {
+            console.log(`Found model name for II_ARM_M_VAG_BOOTS01: "${modelNameMaps['II_ARM_M_VAG_BOOTS01']}"`);
+          }
         }
       }
     }
     
     // Fallbacks für wichtige Items falls sie nicht gefunden wurden
     if (!modelNameMaps['II_ARM_M_VAG_BOOTS01']) {
-      console.log("Using hardcoded model name for II_ARM_M_VAG_BOOTS01");
+      if (debugEnabled) {
+        console.log("Using hardcoded model name for II_ARM_M_VAG_BOOTS01");
+      }
       modelNameMaps['II_ARM_M_VAG_BOOTS01'] = 'mVag01Foot';
     }
     
     if (!mappings['II_ARM_M_VAG_BOOTS01']) {
-      console.log("Using hardcoded filename for II_ARM_M_VAG_BOOTS01");
+      if (debugEnabled) {
+        console.log("Using hardcoded filename for II_ARM_M_VAG_BOOTS01");
+      }
       mappings['II_ARM_M_VAG_BOOTS01'] = 'GenLootBagNew';
     }
     
     if (!mappings['II_WEA_AXE_RODNEY']) {
-      console.log("Using hardcoded filename for II_WEA_AXE_RODNEY");
+      if (debugEnabled) {
+        console.log("Using hardcoded filename for II_WEA_AXE_RODNEY");
+      }
       mappings['II_WEA_AXE_RODNEY'] = 'WeaAxeCurin';
+    }
+    
+    // Aktiviere Debug-Ausgaben für wichtige Items wenn debugEnabled=true
+    if (debugEnabled) {
+      // Debug-Ausgaben für wichtige Items
+      console.log('II_WEA_AXE_RODNEY filename:', mappings['II_WEA_AXE_RODNEY'] || 'NOT FOUND');
+      console.log('II_ARM_M_VAG_BOOTS01 filename:', mappings['II_ARM_M_VAG_BOOTS01'] || 'NOT FOUND');
+      console.log('II_ARM_M_VAG_BOOTS01 model name:', modelNameMaps['II_ARM_M_VAG_BOOTS01'] || 'NOT FOUND');
     }
     
     console.log(`Successfully parsed ${count} model mappings from mdlDyna.inc`);
     console.log(`Found ${Object.keys(modelNameMaps).length} model names`);
-    
-    // Debug output for key items
-    console.log('II_WEA_AXE_RODNEY filename:', mappings['II_WEA_AXE_RODNEY'] || 'NOT FOUND');
-    console.log('II_ARM_M_VAG_BOOTS01 filename:', mappings['II_ARM_M_VAG_BOOTS01'] || 'NOT FOUND');
-    console.log('II_ARM_M_VAG_BOOTS01 model name:', modelNameMaps['II_ARM_M_VAG_BOOTS01'] || 'NOT FOUND');
     
     // Store in global cache
     modelFileMappings = mappings;
@@ -159,13 +173,6 @@ export const getModelFileNameFromDefine = (defineName: string): string => {
   // Clean the input from any quotes
   const cleanDefineName = defineName.replace(/^"+|"+$/g, '');
   
-  // Debug: Log specific item for debugging
-  if (cleanDefineName === 'II_ARM_M_VAG_BOOTS01' || cleanDefineName === 'II_WEA_AXE_RODNEY') {
-    console.log(`DEBUG: Looking up ${cleanDefineName}`);
-    console.log(`- In modelFileMappings:`, modelFileMappings[cleanDefineName] || 'NOT FOUND');
-    console.log(`- In modelNameMappings:`, modelNameMappings[cleanDefineName] || 'NOT FOUND');
-  }
-  
   // Check if this is an armor item (II_ARM_)
   const isArmor = cleanDefineName.startsWith('II_ARM_');
   
@@ -174,10 +181,8 @@ export const getModelFileNameFromDefine = (defineName: string): string => {
     const modelName = modelNameMappings[cleanDefineName] || '';
     
     if (modelName) {
-      console.log(`Resolved model name for armor ${cleanDefineName}: ${modelName}`);
       return modelName;
     } else {
-      console.log(`No model name found for armor ${cleanDefineName}`);
       // Fallback to hardcoded value if needed
       if (cleanDefineName === 'II_ARM_M_VAG_BOOTS01') return 'mVag01Foot';
       return '';
@@ -187,11 +192,8 @@ export const getModelFileNameFromDefine = (defineName: string): string => {
     const fileName = modelFileMappings[cleanDefineName] || '';
     
     if (fileName) {
-      console.log(`Resolved model filename for ${cleanDefineName}: ${fileName}`);
       return fileName;
     } else {
-      console.log(`No model filename found for ${cleanDefineName}`);
-      
       // Fallback für einige wichtige Waffen
       if (cleanDefineName === 'II_WEA_AXE_RODNEY') return 'WeaAxeCurin';
       
@@ -209,12 +211,6 @@ export const getModelNameFromDefine = (defineName: string): string => {
   
   // Look up the model name in our mappings
   const modelName = modelNameMappings[cleanDefineName] || '';
-  
-  if (modelName) {
-    console.log(`Resolved model name for ${cleanDefineName}: ${modelName}`);
-  } else {
-    console.log(`No model name found for ${cleanDefineName}`);
-  }
   
   return modelName;
 };
@@ -333,7 +329,7 @@ export const updateModelFileNameInMdlDyna = (defineName: string, newFileName: st
 };
 
 // Function to load mdlDyna.inc from public folder
-export const loadMdlDynaFile = async (): Promise<void> => {
+export const loadMdlDynaFile = async (settings: any = { enableDebug: false }): Promise<void> => {
   try {
     console.log("Loading mdlDyna.inc file from public folder...");
     
@@ -346,40 +342,38 @@ export const loadMdlDynaFile = async (): Promise<void> => {
     const content = await response.text();
     console.log("mdlDyna.inc loaded successfully, content length:", content.length);
     
-    // Debug: Print a few sample lines from the mdlDyna.inc file that contain armor items
-    debugArmorEntries(content);
-    
-    parseMdlDynaFile(content);
+    // Verarbeite mit der Debug-Einstellung
+    parseMdlDynaFile(content, settings.enableDebug);
   } catch (error) {
     console.error("Error loading mdlDyna.inc file:", error);
     toast.error("Failed to load mdlDyna.inc file. This file might not exist in the public folder.");
   }
 };
 
-// Debug function to help identify armor entries in the mdlDyna.inc file
-function debugArmorEntries(content: string) {
-  try {
-    const lines = content.split('\n');
-    console.log("=== Debugging mdlDyna.inc Armor Entries ===");
-    
-    // Look for lines that contain II_ARM_ (armor items) and print them
-    const armorLines = lines.filter(line => line.includes('II_ARM_')).slice(0, 5);
-    
-    armorLines.forEach((line, index) => {
-      console.log(`Armor line ${index + 1}:`, line.trim());
-    });
-    
-    // Also check if the specific item we're looking for exists
-    const bootLine = lines.find(line => line.includes('II_ARM_M_VAG_BOOTS01'));
-    if (bootLine) {
-      console.log("Found II_ARM_M_VAG_BOOTS01 line:", bootLine.trim());
-    } else {
-      console.log("Could not find II_ARM_M_VAG_BOOTS01 in the file");
-    }
-    
-    console.log("=== End Debug ===");
-  } catch (error) {
-    console.error("Error in debug function:", error);
-  }
-}
+// Debug-Funktion entfernt
+// function debugArmorEntries(content: string) {
+//   try {
+//     const lines = content.split('\n');
+//     console.log("=== Debugging mdlDyna.inc Armor Entries ===");
+//     
+//     // Look for lines that contain II_ARM_ (armor items) and print them
+//     const armorLines = lines.filter(line => line.includes('II_ARM_')).slice(0, 5);
+//     
+//     armorLines.forEach((line, index) => {
+//       console.log(`Armor line ${index + 1}:`, line.trim());
+//     });
+//     
+//     // Also check if the specific item we're looking for exists
+//     const bootLine = lines.find(line => line.includes('II_ARM_M_VAG_BOOTS01'));
+//     if (bootLine) {
+//       console.log("Found II_ARM_M_VAG_BOOTS01 line:", bootLine.trim());
+//     } else {
+//       console.log("Could not find II_ARM_M_VAG_BOOTS01 in the file");
+//     }
+//     
+//     console.log("=== End Debug ===");
+//   } catch (error) {
+//     console.error("Error in debug function:", error);
+//   }
+// }
 

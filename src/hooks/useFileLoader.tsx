@@ -5,6 +5,7 @@ import { parsePropItemFile } from "../utils/file/propItemUtils";
 import { loadDefineItemFile } from "../utils/file/defineItemParser";
 import { loadMdlDynaFile } from "../utils/file/mdlDynaParser";
 import { toast } from "sonner";
+import { useChunkedData } from "./useChunkedData";
 
 // Leeres FileData Objekt für Initialisierung
 const emptyFileData: FileData = {
@@ -12,58 +13,175 @@ const emptyFileData: FileData = {
   items: []
 };
 
+// Loading Status
+export type LoadingStatus = 'idle' | 'loading' | 'partial' | 'complete' | 'error';
+
 export const useFileLoader = (
   settings: any, 
   setLogEntries: React.Dispatch<React.SetStateAction<LogEntry[]>>
 ) => {
   // Initialisiere mit leerem FileData Objekt anstatt null
   const [fileData, setFileData] = useState<FileData>(emptyFileData);
+  // Neuer Status für Ladestatus und Fortschritt
+  const [loadingStatus, setLoadingStatus] = useState<LoadingStatus>('idle');
+  const [loadProgress, setLoadProgress] = useState(0);
+  
+  // Initialer Inhalt (später mit useChunkedData ergänzt)
+  const [initialSpecItemContent, setInitialSpecItemContent] = useState<string | null>(null);
+  const [initialPropItemContent, setInitialPropItemContent] = useState<string | null>(null);
+  
+  // Verwende den neuen useChunkedData Hook
+  const { 
+    data: fullSpecItemContent, 
+    isFullyLoaded: specItemFullyLoaded,
+    loadProgress: specItemProgress 
+  } = useChunkedData(initialSpecItemContent, 'specItem');
+  
+  const { 
+    data: fullPropItemContent, 
+    isFullyLoaded: propItemFullyLoaded,
+    loadProgress: propItemProgress 
+  } = useChunkedData(initialPropItemContent, 'propItem');
   
   // Load additional files when the component mounts
   useEffect(() => {
     loadAdditionalFiles();
   }, []);
   
+  // Effekt zum Verarbeiten der Daten, wenn vollständig geladen
+  useEffect(() => {
+    // Nur verarbeiten, wenn wir im Lademodus sind und Daten vorliegen
+    if (loadingStatus === 'partial' && fullSpecItemContent) {
+      if (specItemFullyLoaded && propItemFullyLoaded) {
+        // Beide Dateien vollständig geladen
+        processLoadedContent(fullSpecItemContent, fullPropItemContent);
+        setLoadingStatus('complete');
+      } else if (specItemFullyLoaded && !initialPropItemContent) {
+        // Spec item vollständig, keine propItem-Datei gewünscht
+        processLoadedContent(fullSpecItemContent, null);
+        setLoadingStatus('complete');
+      }
+    }
+  }, [
+    fullSpecItemContent, 
+    fullPropItemContent, 
+    specItemFullyLoaded, 
+    propItemFullyLoaded, 
+    loadingStatus
+  ]);
+  
+  // Effekt für Ladefortschritt-Updates
+  useEffect(() => {
+    // Berechne gemeinsamen Fortschritt, gewichtet nach Dateigröße
+    let combinedProgress = 0;
+    
+    if (initialPropItemContent) {
+      // Wenn beide Dateien, gewichtet nach Größenverhältnis (70/30)
+      combinedProgress = (specItemProgress * 0.7) + (propItemProgress * 0.3);
+    } else {
+      // Wenn nur specItem, dann 100% Gewichtung
+      combinedProgress = specItemProgress;
+    }
+    
+    setLoadProgress(Math.round(combinedProgress));
+  }, [specItemProgress, propItemProgress, initialPropItemContent]);
+  
   const loadAdditionalFiles = async () => {
     try {
       // Load defineItem.h
-      await loadDefineItemFile();
+      await loadDefineItemFile(settings);
       
       // Load mdlDyna.inc
-      await loadMdlDynaFile();
+      await loadMdlDynaFile(settings);
     } catch (error) {
       console.error("Error loading additional files:", error);
     }
   };
   
+  // Aktualisierte Funktion zum Laden der Datei
   const handleLoadFile = (content: string, propItemContent?: string) => {
     try {
       console.log("handleLoadFile called with content length:", content.length);
       console.log("propItemContent provided:", !!propItemContent);
       
+      // Setze Ladestatus auf 'partial' (teilweise geladen)
+      setLoadingStatus('partial');
+      
+      // Speichere den initialen Inhalt für die Chunks-Verarbeitung
+      setInitialSpecItemContent(content);
       if (propItemContent) {
-        console.log("propItemContent provided, parsing...");
-        const mappings = parsePropItemFile(propItemContent);
-        console.log("PropItem mappings loaded:", {
-          totalMappings: Object.keys(mappings).length,
-          sampleMappings: Object.entries(mappings)
-            .filter(([key]) => {
-              const num = parseInt(key.replace(/.*IDS_PROPITEM_TXT_/, ""));
-              return !isNaN(num) && num >= 7342 && num <= 11634;
-            })
-            .slice(0, 5)
-            .map(([key, value]) => ({
-              key,
-              displayName: value.displayName,
-              description: value.description
-            }))
-        });
+        setInitialPropItemContent(propItemContent);
       }
       
       // Setze einen leeren Zwischenzustand, um die Anzeige zurückzusetzen
       setFileData(emptyFileData);
       
-      console.log("About to parse file content with length:", content.length);
+      // Prüfe, ob wir in einem "großen Datei"-Modus sind und erstelle einen Platzhalter
+      if (window.APP_CONFIG?.USING_LARGE_FILES) {
+        // Erster Block der Datei enthält Header und erste Zeilen
+        // Wir erstellen einen Platzhalter, bis alle Daten geladen sind
+        const lines = content.split('\n');
+        const headers = lines[0]?.split('\t') || ['ID', 'Name'];
+        
+        // Erstelle eine Platzhalter-FileData mit Ladeindikator
+        const placeholderData: FileData = {
+          header: headers,
+          items: [{
+            id: "loading_1",
+            name: "Daten werden geladen...",
+            displayName: `Daten werden geladen... (${loadProgress}%)`,
+            description: 'Bitte warten Sie, während die Datei im Hintergrund geladen wird.',
+            data: {},
+            effects: []
+          }],
+          isLoading: true,
+          loadingProgress: loadProgress
+        };
+        
+        // Setze die Platzhalter-Daten
+        setFileData(placeholderData);
+        
+        // Zeige Ladetoast
+        toast.info(`Datei wird geladen... (${loadProgress}%)`);
+        
+        return; // Früher zurückkehren, vollständige Verarbeitung erfolgt im useEffect
+      } else {
+        // Für kleine Dateien direkt verarbeiten
+        processLoadedContent(content, propItemContent);
+      }
+    } catch (error) {
+      console.error("Error parsing file:", error);
+      setLoadingStatus('error');
+      
+      // Im Fehlerfall setze ein FileData-Objekt mit einer Fehlermeldung
+      const errorData: FileData = {
+        header: ["Error"],
+        items: [{
+          id: "error_1",
+          name: "Error loading file",
+          displayName: "Error loading file",
+          description: `${error}`,
+          data: {},
+          effects: []
+        }]
+      };
+      
+      setFileData(errorData);
+      toast.error("Fehler beim Laden der Datei");
+    }
+  };
+  
+  // Neue Funktion für die eigentliche Verarbeitung der geladenen Inhalte
+  const processLoadedContent = (content: string, propItemContent: string | null) => {
+    try {
+      console.log("Processing loaded content with length:", content.length);
+      
+      if (propItemContent) {
+        console.log("propItemContent provided, parsing...");
+        const mappings = parsePropItemFile(propItemContent, settings);
+        console.log("PropItem mappings loaded:", Object.keys(mappings).length);
+      }
+      
       const parsedData = parseTextFile(content);
       
       // Überprüfe, ob das Ergebnis der Datei-Analyse ein FileData-Objekt oder 
@@ -146,26 +264,62 @@ export const useFileLoader = (
         if (mappingCount > 0) {
           // Apply the name and description mappings to all items
           data.items = data.items.map(item => {
+            // Verwende die szName-Property oder fallback auf IDS_PROPITEM-ID
             const idPropItem = item.data?.szName as string;
+            let matched = false;
+            
+            // Direktes Mapping über szName (üblicher Fall)
             if (idPropItem && propMappings[idPropItem]) {
-              console.log(`Applying mapping for item ${item.id}: ${idPropItem} -> "${propMappings[idPropItem].displayName}"`);
+              matched = true;
+              if (settings.enableDebug) {
+                console.log(`Applying mapping for item ${item.id}: ${idPropItem} -> "${propMappings[idPropItem].displayName}"`);
+              }
               return {
                 ...item,
                 displayName: propMappings[idPropItem].displayName || idPropItem,
                 description: propMappings[idPropItem].description || ""
               };
             }
+            
+            // Versuche alternative Formatierungen für den idPropItem
+            if (idPropItem && idPropItem.includes("IDS_PROPITEM_TXT_")) {
+              // Versuche mit führenden Nullen
+              const formattedId = idPropItem.replace(/IDS_PROPITEM_TXT_(\d+)/, (_, num) => 
+                `IDS_PROPITEM_TXT_${parseInt(num).toString().padStart(6, '0')}`
+              );
+              
+              if (propMappings[formattedId]) {
+                matched = true;
+                return {
+                  ...item,
+                  displayName: propMappings[formattedId].displayName || idPropItem,
+                  description: propMappings[formattedId].description || ""
+                };
+              }
+              
+              // Versuche ohne führende Nullen
+              const numericMatch = idPropItem.match(/IDS_PROPITEM_TXT_0*(\d+)/);
+              if (numericMatch) {
+                const alternateId = `IDS_PROPITEM_TXT_${numericMatch[1]}`;
+                if (propMappings[alternateId]) {
+                  matched = true;
+                  return {
+                    ...item,
+                    displayName: propMappings[alternateId].displayName || idPropItem,
+                    description: propMappings[alternateId].description || ""
+                  };
+                }
+              }
+            }
+            
+            // Wenn keine Zuordnung gefunden wurde, behalte die ursprünglichen Daten bei
+            if (!matched && settings.enableDebug) {
+              console.warn(`No mapping found for item ${item.id}: ${idPropItem}`);
+            }
             return item;
           });
         }
       }
-      
-      // Log Debugging Info
-      console.log("Final data to be set:", {
-        headerLength: data.header?.length || 0,
-        itemsLength: data.items?.length || 0,
-        hasItems: Boolean(data.items && data.items.length > 0)
-      });
       
       // Setze die Daten
       setFileData(data);
@@ -194,9 +348,10 @@ export const useFileLoader = (
       }
       
       const itemCount = data.items?.length || 0;
-      toast.success(`File loaded successfully with ${itemCount} items${propItemContent ? ' and item names from propItem.txt.txt' : ''}`);
+      toast.success(`Datei erfolgreich geladen mit ${itemCount} Einträgen${propItemContent ? ' und Itemnamen aus propItem.txt.txt' : ''}`);
     } catch (error) {
-      console.error("Error parsing file:", error);
+      console.error("Error processing data:", error);
+      setLoadingStatus('error');
       
       // Im Fehlerfall setze ein FileData-Objekt mit einer Fehlermeldung
       const errorData: FileData = {
@@ -205,20 +360,23 @@ export const useFileLoader = (
           id: "error_1",
           name: "Error loading file",
           displayName: "Error loading file",
-          description: String(error),
-          data: { Error: String(error) },
+          description: `${error}`,
+          data: {},
           effects: []
         }]
       };
       
       setFileData(errorData);
-      toast.error("Error parsing file: " + String(error));
+      toast.error("Fehler beim Verarbeiten der Datei");
     }
   };
-
+  
+  // Returniere das FileData-Objekt mit dem neuen Status und Fortschrittsinformationen
   return {
     fileData,
-    setFileData,
-    handleLoadFile
+    handleLoadFile,
+    loadingStatus,
+    loadProgress,
+    isLoading: loadingStatus === 'loading' || loadingStatus === 'partial'
   };
 };

@@ -1,4 +1,3 @@
-
 export interface ItemData {
   [key: string]: string | number | boolean;
 }
@@ -45,6 +44,8 @@ export interface FileData {
   items: ResourceItem[];
   originalContent?: string; // Store the original file content for exact preservation
   isSpecItemFile?: boolean; // Flag to indicate if this is a spec_item.txt file
+  isLoading?: boolean; // Flag to indicate if the file is still loading
+  loadingProgress?: number; // Progress percentage for loading (0-100)
 }
 
 // Add LogEntry interface to fix the import error in useResourceState.tsx

@@ -1,4 +1,3 @@
-
 import { toast } from "sonner";
 import { trackModifiedFile } from "./fileOperations";
 
@@ -13,7 +12,7 @@ let itemDefineMappings: ItemDefineMapping = {};
 let originalDefineItemContent = "";
 
 // Parse defineItem.h file content
-export const parseDefineItemFile = (content: string): void => {
+export const parseDefineItemFile = (content: string, debugEnabled: boolean = false): void => {
   // Store the original content
   originalDefineItemContent = content;
   try {
@@ -32,7 +31,8 @@ export const parseDefineItemFile = (content: string): void => {
       mappings[defineName] = defineValue;
       count++;
       
-      if (count <= 5) {
+      // Debug-Ausgaben nur anzeigen, wenn debugEnabled=true
+      if (debugEnabled && count <= 5) {
         console.log(`Parsed define: ${defineName} = ${defineValue}`);
       }
     }
@@ -50,7 +50,7 @@ export const parseDefineItemFile = (content: string): void => {
 };
 
 // Get item ID from define name
-export const getItemIdFromDefine = (defineName: string): string => {
+export const getItemIdFromDefine = (defineName: string, debugEnabled: boolean = false): string => {
   if (!defineName) return '';
   
   // Clean the input from any quotes
@@ -59,10 +59,13 @@ export const getItemIdFromDefine = (defineName: string): string => {
   // Look up the ID in our mappings
   const itemId = itemDefineMappings[cleanDefineName] || '';
   
-  if (itemId) {
-    console.log(`Resolved item ID for ${cleanDefineName}: ${itemId}`);
-  } else {
-    console.log(`No item ID found for ${cleanDefineName}`);
+  // Debug-Ausgaben nur anzeigen, wenn debugEnabled=true
+  if (debugEnabled) {
+    if (itemId) {
+      console.log(`Resolved item ID for ${cleanDefineName}: ${itemId}`);
+    } else {
+      console.log(`No item ID found for ${cleanDefineName}`);
+    }
   }
   
   return itemId;
@@ -121,7 +124,7 @@ export const updateItemIdInDefine = (defineName: string, newId: string): boolean
 };
 
 // Function to load defineItem.h from public folder
-export const loadDefineItemFile = async (): Promise<void> => {
+export const loadDefineItemFile = async (settings: any = { enableDebug: false }): Promise<void> => {
   try {
     console.log("Loading defineItem.h file from public folder...");
     
@@ -134,7 +137,8 @@ export const loadDefineItemFile = async (): Promise<void> => {
     const content = await response.text();
     console.log("defineItem.h loaded successfully, content length:", content.length);
     
-    parseDefineItemFile(content);
+    // Verarbeite mit der Debug-Einstellung
+    parseDefineItemFile(content, settings.enableDebug);
   } catch (error) {
     console.error("Error loading defineItem.h file:", error);
     toast.error("Failed to load defineItem.h file");

@@ -1,4 +1,3 @@
-
 import { ResourceItem } from "../types/fileTypes";
 
 export const itemTypeToTab: {[key: string]: string} = {
@@ -20,29 +19,37 @@ export const getItemTab = (item: ResourceItem): string => {
   return itemTypeToTab[itemKind1] || "Other Item";
 };
 
-export const getFilteredItems = (fileData: any, currentTab: string): ResourceItem[] => {
+export const getFilteredItems = (fileData: any, currentTab: string, settings: any = { enableDebug: false }): ResourceItem[] => {
   if (!fileData) {
-    console.log("No fileData available for filtering");
+    if (settings.enableDebug) {
+      console.log("No fileData available for filtering");
+    }
     return [];
   }
   
-  console.log(`Filtering tab: ${currentTab}, total items: ${fileData.items.length}`);
+  // Minimale Logging-Informationen
+  if (settings.enableDebug) {
+    console.log(`Filtering tab: ${currentTab}, total items: ${fileData.items.length}`);
+  }
   
   if (currentTab === "Set Effect") {
     const filtered = fileData.items.filter((item: ResourceItem) => item.setEffects && item.setEffects.length > 0);
-    console.log(`Filtered Set Effect items: ${filtered.length}`);
+    
+    if (settings.enableDebug) {
+      console.log(`Filtered Set Effect items: ${filtered.length}`);
+    }
     return filtered;
   }
   
   const filtered = fileData.items.filter((item: ResourceItem) => {
     const itemTab = getItemTab(item);
-    console.log(`Item ${item.id} has dwItemKind1: ${item.data.dwItemKind1}, mapped to tab: ${itemTab}`);
     return itemTab === currentTab;
   });
-  console.log(`Filtered ${currentTab} items: ${filtered.length}`);
-  if (filtered.length > 0) {
-    console.log("First filtered item:", filtered[0]);
+  
+  if (settings.enableDebug) {
+    console.log(`Filtered ${currentTab} items: ${filtered.length}`);
   }
+  
   return filtered;
 };
 

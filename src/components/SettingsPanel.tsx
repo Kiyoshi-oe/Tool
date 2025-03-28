@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "sonner";
@@ -29,6 +28,7 @@ interface SettingsPanelProps {
   settings: {
     autoSaveInterval: number;
     enableLogging: boolean;
+    enableDebug: boolean;
     darkMode: boolean;
     font?: string;
     fontSize?: number;
@@ -100,6 +100,22 @@ const SettingsPanel = ({ settings, onSaveSettings, fontOptions = [], themes = []
               </div>
               <p className="text-xs text-gray-400 mt-1">
                 Track all changes made to resources. This allows you to review and restore previous versions.
+              </p>
+            </div>
+            
+            <div>
+              <div className="flex items-center justify-between">
+                <label style={{ color: currentTheme?.foreground || '#FFFFFF' }}>Enable debug mode</label>
+                <Switch 
+                  checked={localSettings.enableDebug}
+                  onCheckedChange={(checked) => setLocalSettings({
+                    ...localSettings,
+                    enableDebug: checked
+                  })}
+                />
+              </div>
+              <p className="text-xs text-gray-400 mt-1">
+                Enables detailed debug output in the console. Helps with troubleshooting but may affect performance.
               </p>
             </div>
 
@@ -222,11 +238,12 @@ const SettingsPanel = ({ settings, onSaveSettings, fontOptions = [], themes = []
         
         <div className="flex justify-end">
           <button
-            className="py-2 px-6 rounded"
+            className="py-2 px-6 rounded hover:brightness-110 transition-all"
             style={{ 
               backgroundColor: currentTheme?.accent || '#0078D7',
-              color: currentTheme?.isDark ? '#FFFFFF' : '#FFFFFF',
-              borderColor: currentTheme?.isDark ? '#3E3E42' : '#D6D6D6'
+              color: '#FFFFFF',
+              border: currentTheme?.isDark ? '1px solid #555' : 'none',
+              boxShadow: currentTheme?.isDark ? '0 2px 4px rgba(0,0,0,0.3)' : '0 2px 4px rgba(0,0,0,0.1)'
             }}
             onClick={handleSave}
           >

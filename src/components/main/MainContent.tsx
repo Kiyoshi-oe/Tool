@@ -2,11 +2,12 @@ import { ResourceItem, FileData } from "../../types/fileTypes";
 import ResourceEditor from "../ResourceEditor";
 import SettingsPanel from "../SettingsPanel";
 import ToDoPanel from "../ToDoPanel";
-import { Database, Upload, ChevronLeft, ChevronRight, Clock } from "lucide-react";
+import { Database, Upload, ChevronLeft, ChevronRight, Clock, Loader2 } from "lucide-react";
 import { Button } from "../ui/button";
 import { toast } from "sonner";
 import { RefreshCcw, Undo2, Redo2 } from "lucide-react";
 import { useState } from "react";
+import { Progress } from "../ui/progress";
 
 interface MainContentProps {
   showSettings: boolean;
@@ -86,6 +87,35 @@ export const WelcomeScreen = ({
   );
 };
 
+const LoadingScreen = ({ progress = 0 }: { progress: number }) => {
+  return (
+    <div className="flex flex-col items-center justify-center h-full text-center p-6">
+      <img
+        src="/lovable-uploads/Icon_big.png"
+        alt="Cyrus Resource Tool"
+        className="w-32 h-32 mb-6 animate-pulse"
+      />
+      <h1 className="text-2xl font-bold mb-2 text-[#007BFF]">Datei wird geladen...</h1>
+      <p className="text-gray-400 max-w-md mb-8">
+        Bitte warten Sie, während die Datei geladen wird. Dies kann bei großen Dateien einige Zeit dauern.
+      </p>
+      
+      <div className="w-full max-w-md">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-sm text-gray-400">Fortschritt</span>
+          <span className="text-sm text-gray-400">{progress}%</span>
+        </div>
+        <Progress value={progress} className="h-2" />
+      </div>
+      
+      <div className="flex items-center mt-8 text-gray-400">
+        <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+        <span>Die Daten werden im Hintergrund geladen und verarbeitet...</span>
+      </div>
+    </div>
+  );
+};
+
 const MainContent = ({
   showSettings,
   showToDoPanel,
@@ -129,6 +159,10 @@ const MainContent = ({
       onShowSettings={onShowSettings} 
       onShowChangelog={onShowChangelog}
     />;
+  }
+  
+  if (fileData.isLoading) {
+    return <LoadingScreen progress={fileData.loadingProgress || 0} />;
   }
   
   if (selectedItem) {

@@ -35,6 +35,7 @@ const Index = () => {
   const [settings, setSettings] = useState({
     autoSaveInterval: 5,
     enableLogging: true,
+    enableDebug: false,
     darkMode: true,
     font: "inter",
     fontSize: 14,
@@ -344,7 +345,7 @@ const Index = () => {
         
         <div className="flex flex-1 overflow-hidden">
           <Sidebar 
-            items={getFilteredItems(fileData, currentTab)} 
+            items={getFilteredItems(fileData, currentTab, settings)}
             onSelectItem={(item) => handleSelectItem(item, showSettings, showToDoPanel)}
             selectedItem={selectedItem || undefined}
             darkMode={settings.darkMode}
@@ -405,7 +406,7 @@ const Index = () => {
         
         <StatusBar 
           mode={editMode ? "Edit" : "View"} 
-          itemCount={getFilteredItems(fileData, currentTab).length}
+          itemCount={getFilteredItems(fileData, currentTab, settings).length}
         />
         
         {fileUploadConfig.isVisible && (

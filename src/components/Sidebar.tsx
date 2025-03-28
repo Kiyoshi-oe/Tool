@@ -160,6 +160,33 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
       // Split by tab and return the second part (the name)
       return displayName.split('\t')[1];
     }
+    
+    // Wenn displayName mit 'IDS_PROPITEM_TXT_' beginnt
+    if (displayName && displayName.startsWith('IDS_PROPITEM_TXT_')) {
+      // Falls keine Zuordnung im Mapping gefunden wurde, 
+      // versuche nach einem Leerzeichen zu trennen (für Einträge wie "IDS_PROPITEM_TXT_000122 Curin Axe")
+      if (displayName.includes(' ')) {
+        const parts = displayName.split(' ');
+        if (parts.length > 1) {
+          // Überprüfe, ob der erste Teil die ID ist
+          if (parts[0].startsWith('IDS_PROPITEM_TXT_')) {
+            // Entferne den ID-Teil und gib den Rest zurück
+            return displayName.substring(parts[0].length).trim();
+          }
+        }
+      }
+    }
+    
+    // Wenn der displayName wie eine Item-ID aussieht (II_WEA_AXE_MORROW)
+    if (displayName && displayName.match(/^II_[A-Z]+_[A-Z]+_/)) {
+      // Extrahiere den finalen Teil nach dem letzten Unterstrich und formatiere ihn
+      const namePart = displayName.replace(/^II_([A-Z]+)_([A-Z]+)_/, '');
+      return namePart
+        .split('_')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(' ');
+    }
+    
     // If there's no tab, just return the original value
     return displayName;
   };
@@ -270,11 +297,17 @@ const Sidebar = ({ items, onSelectItem, selectedItem, darkMode = true }: Sidebar
                   } flex items-center`}
                   onClick={() => handleItemSelect(item)}
                 >
-                  {/* Show only the item name part instead of ID+name */}
                   <span className="truncate">
-                    {item.displayName 
-                      ? extractItemName(item.displayName) 
-                      : (item.data?.szName as string) || item.name || item.id}
+                    {item.data && item.data.szName && typeof item.data.szName === 'string' && item.data.szName.startsWith('IDS_PROPITEM_TXT_') 
+                      ? extractItemName(item.displayName || '')
+                      : item.displayName 
+                        ? extractItemName(item.displayName) 
+                        : item.data && item.data.dwID 
+                          ? String(item.data.dwID).replace(/^II_([A-Z]+)_([A-Z]+)_/, '')
+                              .split('_')
+                              .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                              .join(' ')
+                          : (item.data?.szName as string) || item.name || item.id}
                   </span>
                 </div>
               ))}

@@ -9,9 +9,12 @@ interface PropItemMapping {
 let propItemMappings: PropItemMapping = {};
 
 // Hilfsfunktion, um propItem Mappings zu erhalten
-export function getPropItemDisplayName(idOrName: string): string {
+export function getPropItemDisplayName(idOrName: string, settings: any = { enableDebug: false }): string {
   // Wenn das Mapping direkt existiert
   if (propItemMappings[idOrName]) {
+    if (settings.enableDebug) {
+      console.log(`Direct mapping found for ${idOrName}: ${propItemMappings[idOrName].displayName}`);
+    }
     return propItemMappings[idOrName].displayName;
   }
   
@@ -21,6 +24,9 @@ export function getPropItemDisplayName(idOrName: string): string {
   );
   
   if (propItemMappings[formattedId]) {
+    if (settings.enableDebug) {
+      console.log(`Formatted mapping found for ${idOrName} as ${formattedId}: ${propItemMappings[formattedId].displayName}`);
+    }
     return propItemMappings[formattedId].displayName;
   }
   
@@ -34,11 +40,25 @@ export function getPropItemDisplayName(idOrName: string): string {
   });
   
   if (similarKey) {
+    if (settings.enableDebug) {
+      console.log(`Similar mapping found for ${idOrName} using ${similarKey}: ${propItemMappings[similarKey].displayName}`);
+    }
     return propItemMappings[similarKey].displayName;
   }
   
-  // Wenn nichts gefunden wurde, gib die ursprüngliche ID zurück
-  console.warn(`No display name found for ${idOrName}`);
+  // Letzter Fallback: Wenn die ID ein Leerzeichen enthält, extrahiere manuell den Namen
+  if (idOrName.includes(' ')) {
+    const parts = idOrName.split(' ');
+    if (parts.length > 1 && parts[0].startsWith('IDS_PROPITEM_TXT_')) {
+      const extractedName = idOrName.substring(parts[0].length).trim();
+      if (settings.enableDebug) {
+        console.log(`Extracted name manually from ${idOrName}: "${extractedName}"`);
+      }
+      return extractedName;
+    }
+  }
+  
+  // Wenn kein Mapping gefunden wurde, gib die ursprüngliche ID zurück
   return idOrName;
 }
 
@@ -374,7 +394,7 @@ function parseSpecItemFormat(lines: string[]): FileData {
             } 
             // Nur komplexe Fallback-Logik verwenden, wenn nötig (IDS_PROPITEM)
             else if (name.includes("IDS_PROPITEM_TXT_")) {
-              const propItemName = getPropItemDisplayName(name);
+              const propItemName = getPropItemDisplayName(name, { enableDebug: false });
               if (propItemName !== name) {
                 displayName = propItemName;
               }
@@ -422,27 +442,29 @@ function parseSpecItemFormat(lines: string[]): FileData {
 }
 
 // Setter für propItem Mappings mit zusätzlicher Sicherung
-export function setPropItemMappings(mappings: PropItemMapping): void {
+export function setPropItemMappings(mappings: PropItemMapping, settings: any = { enableDebug: false }): void {
   console.log(`Setting propItemMappings with ${Object.keys(mappings).length} entries`);
   
   // Speichere das Mapping direkt
   propItemMappings = mappings;
   
-  // Zusätzlich: Wichtige IDs direkt überprüfen
-  const criticalIds = [
-    "IDS_PROPITEM_TXT_007342", 
-    "IDS_PROPITEM_TXT_007342", 
-    "IDS_PROPITEM_TXT_011634"
-  ];
-  
-  console.log("Checking if critical IDs are available in the mappings:");
-  criticalIds.forEach(id => {
-    if (propItemMappings[id]) {
-      console.log(`✅ ID ${id} is available with name: ${propItemMappings[id].displayName}`);
-    } else {
-      console.warn(`❌ ID ${id} is NOT available in mappings`);
-    }
-  });
+  // Zusätzlich: Wichtige IDs nur im Debug-Modus überprüfen
+  if (settings.enableDebug) {
+    const criticalIds = [
+      "IDS_PROPITEM_TXT_007342", 
+      "IDS_PROPITEM_TXT_007342", 
+      "IDS_PROPITEM_TXT_011634"
+    ];
+    
+    console.log("Checking if critical IDs are available in the mappings:");
+    criticalIds.forEach(id => {
+      if (propItemMappings[id]) {
+        console.log(`✅ ID ${id} is available with name: ${propItemMappings[id].displayName}`);
+      } else {
+        console.warn(`❌ ID ${id} is NOT available in mappings`);
+      }
+    });
+  }
 }
 
 // Getter für propItem Mappings
